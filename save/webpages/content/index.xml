@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage>
+  <section xml:lang="de" title="Willkommen bei RePPer!">
+    <div class="jumbotwo">
+      <div class="row">
+        <div class="col-xs-12" lang="de">
+          <h2>
+            RePPer das institutionelle Repositorium der Max Weber Stiftung
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4" lang="de">
+          <p>
+            In RePer ist das Green open Access Repository der MWS, es werden sowohl
+            Zweitveröffentlichungen von im Druck erschienenen Veröffentlichungen
+            eingestellt als auch Erstveröffentlichungen.
+          </p>
+        </div>
+        <div class="col-md-4" lang="de">
+          <p>
+            Die elektronische Publikationsplattform perspectivia.net ist das internationale,
+            epochenübergreifende und interdisziplinäre Portal der <a
+            href="http://www.maxweberstiftung.de/startseite.html">Max Weber Stiftung – Deutsche
+            Geisteswissenschaftliche Institute im Ausland</a>. Mit perspectivia.net unterstützt
+            die Max Weber Stiftung den unbeschränkten und kostenlosen Zugang zu wissenschaftlicher
+            Information im Internet und damit auch das elektronische Publizieren
+            im Open Access.
+          </p>
+          <p>
+            Der <a href="http://www.perspectivia.net"><strong>Dokumentenserver rePPer</strong></a>
+            ist ein Service von perspectivia.net und bietet den Instituten der Max Weber Stiftung
+            und ihren Partnern die Möglichkeit zum elektronischen Veröffentlichen von
+            <em><strong>wissenschaftlich relevanten Publikationen, u.a. Zweitveröffentlichung von
+            Aufsätzen </strong></em>.
+          </p>
+          <p>
+            Der <a href="http://www.perspectivia.net"><strong>Dokumentenserver rePPer</strong></a>
+            ist ein Service von perspectivia.net und bietet den Instituten der Max Weber Stiftung
+            und ihren Partnern die Möglichkeit zum elektronischen Veröffentlichen von
+            <em><strong>wissenschaftlich relevanten Publikationen, u.a. Zweitveröffentlichung von
+            Aufsätzen </strong></em>.
+          </p>
+          <p>
+            RePer ist das Green open Access Repository der MWS, es werden sowohl
+            Zweitveröffentlichungen von im Druck erschienenen Veröffentlichungen eingestellt als
+            auch Erstveröffentlichungen.
+          </p>
+        </div>
+        <div class="col-md-4" lang="de">
+          <p>
+            <img alt="repper" src="../images/logos/rep-per.jpg" style="width: 262px; height: 175px;" />
+          </p>
+        </div>
+      </div>
+    </div>
+    </section>
+    <meta>
+        <log lastEditor="administrator" date="2016-11-23" time="10:35"/>
+    </meta>
+</MyCoReWebPage>
