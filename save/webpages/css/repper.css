@@ -1,0 +1,19 @@
+.mir-main-nav nav .navbar-nav > li > a, .flatmir-footer a {
+    color: #777;
+}
+
+.flatmir-footer {
+    color: #95a5a6;
+    background-color: white;
+    border-top: 1px solid #eee;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: 50px;
+    padding: 0;
+}
+
+
+.flatmir-footer h4 {
+    color: #0a6e76;
+}
+
