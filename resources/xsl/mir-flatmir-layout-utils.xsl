@@ -18,7 +18,7 @@
       <div id="project_logo_box">
         <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
            class="">
-          <img src="{$WebApplicationBaseURL}images/perspectivia.png" title="" />
+          <img src="{$WebApplicationBaseURL}images/logos/perspectivia.png" title="" />
         </a>
       </div>
     </div>
