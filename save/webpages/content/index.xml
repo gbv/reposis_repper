@@ -37,7 +37,7 @@
           <div class="col-md-6">
             <p>
               <a href="browse/series_and_journals.xml">
-                <img src="../ub_header-literatuur-zoeken_1600x1067.jpg"
+                <img src="../images/ub_header-literatuur-zoeken_1600x1067.jpg"
                      style="height: 200px; width: 300px;" />
               </a>
             </p>
@@ -52,7 +52,7 @@
             <p>
               <a
                 href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%3Aseries%22+%2BobjectType%3Amods+%2Bcategory.top%3A%22state%3Apublished%22&amp;sort=mods.dateIssued+desc">
-                <img src="../ub_header-literatuur-zoeken_1600x1067.jpg"
+                <img src="../images/ub_header-literatuur-zoeken_1600x1067.jpg"
                   style="opacity: 0.9; height: 200px; width: 300px;" />
               </a>
             </p>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<xed:template xmlns:xed="http://www.mycore.de/xeditor" xmlns:mir="http://www.mycore.de/mir">
+
+  <xed:template id="ddc.repeat">
+    <xed:repeat xpath="mods:classification[@authority='ddc'][@displayLabel='ddc']" min="1" max="10" method="build">
+      <div class="form-group {$xed-validation-marker}">
+        <label class="col-md-3 control-label required">
+          <xed:output i18n="editor.search.repper.ddc" />
+          :
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select" />
+            </option>
+            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:DDC" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:repper.help.ddc}" pmud="true" />
+      </div>
+    </xed:repeat>
+    <xed:validate xpath="//mods:mods/mods:classification[@authority='ddc'][@displayLabel='ddc']" required="true" i18n="repper.validation.ddc"
+      display="global" />
+  </xed:template>
+
+
+  <!-- mods:subject xlink:type="simple">
+    <mods:temporal authorityURI="http://perspectivia.gbv.de/api/v1/classifications/DDC_T1" valueURI="http://perspectivia.gbv.de/api/v1/classifications/DDC_T1#T1-0902" authority="ddc">Mittelalter</mods:topic>
+  </mods:subject -->
+  <xed:template id="repper.ddc_time">
+    <xed:bind xpath="mods:subject[mods:temporal/@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T1']">
+      <div class="form-group {$xed-validation-marker}">
+        <label class="col-md-3 control-label">
+          <xed:output i18n="editor.search.repper.ddc.time" />
+          :
+        </label>
+        <div class="col-md-6">
+          <xed:bind xpath="mods:temporal/@valueURIxEditor">
+            <select class="form-control form-control-inline">
+              <option value="">
+                <xed:output i18n="mir.select" />
+              </option>
+              <xed:include uri="xslStyle:items2options:classification:editor:-1:children:DDC_T1" />
+            </select>
+          </xed:bind>
+        </div>
+        <mir:help-pmud help-text="{i18n:repper.help.ddc.time}" />
+      </div>
+    </xed:bind>
+  </xed:template>
+
+  <xed:template id="repper.ddc_geo">
+    <xed:bind xpath="mods:subject[mods:geographic/@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T2']">
+      <div class="form-group {$xed-validation-marker}">
+        <label class="col-md-3 control-label">
+          <xed:output i18n="editor.search.repper.ddc.geo" />
+          :
+        </label>
+        <div class="col-md-6">
+          <xed:bind xpath="mods:geographic/@valueURIxEditor">
+            <select class="form-control form-control-inline">
+              <option value="">
+                <xed:output i18n="mir.select" />
+              </option>
+              <xed:include uri="xslStyle:items2options:classification:editor:-1:children:DDC_T2" />
+            </select>
+          </xed:bind>
+        </div>
+        <mir:help-pmud help-text="{i18n:repper.help.ddc.geo}" />
+      </div>
+    </xed:bind>
+  </xed:template>
+
+
+</xed:template>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="DDC_T1">
-  <label xml:lang="en" text="Time" description="DDC Table 1" />
-  <label xml:lang="x-uri" text="http://www.mycore.org/classifications/mir_genres" />
-  <label xml:lang="de" text="Zeit" description="Hilfstabelle der DDC, Tabelle 1" />
+  <label xml:lang="en" text="Time" description="Historical periods from DDC Table 1 (--0901-0905)" />
+  <label xml:lang="x-uri" text="http://perspectivia.gbv.de/api/v1/classifications/DDC_T1" />
+  <label xml:lang="de" text="Zeit" description="Zeitabschnitte aus DDC Tabelle 1 (--0901-0905)" />
   <categories>
     <category ID="T1--090512">
       <label xml:lang="de" text="2010 - 2019" />

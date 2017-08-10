@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="DDC_T2">
-  <label xml:lang="en" text="Geographic Areas, Historical Periods, Biography" description="DDC Table 2" />
-  <label xml:lang="x-uri" text="http://www.mycore.org/classifications/mir_genres" />
-  <label xml:lang="de" text="Geographische Gebiete, Historische Perioden, Biographie" description="Hilfstabelle der DDC, Tabelle 2" />
+  <label xml:lang="en" text="Geographic Areas, Historical Periods, Biography" description="Places from DDC Table 2" />
+  <label xml:lang="x-uri" text="http://perspectivia.gbv.de/api/v1/classifications/DDC_T2" />
+  <label xml:lang="de" text="Geographische Gebiete, Historische Perioden, Biographie" description="Orte aus DDC Tabelle 2" />
   <categories>
     <category ID="T2--581">
       <label xml:lang="de" text="Afghanistan" />
