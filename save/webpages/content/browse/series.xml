@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage><section xml:lang="de" title="neuer Eintrag"><div>
+<div class="col-xs-12 col-sm-4 result_filter" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: right; width: 390px;">
+<div class="panel panel-default" style="box-sizing: border-box; margin: 0px 18px 20px 0px; border: 1px solid rgb(204, 204, 204); border-radius: 4px; box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px; color: rgb(102, 102, 102); float: right; width: 324px;">
+<div class="panel-heading" data-toggle="collapse-next" style="box-sizing: border-box; padding: 10px 15px; border-bottom: 1px solid rgb(236, 240, 241); border-top-right-radius: 3px; border-top-left-radius: 3px; color: rgb(44, 62, 80); background-color: rgb(236, 240, 241); border-top-color: rgb(236, 240, 241); border-right-color: rgb(236, 240, 241); border-left-color: rgb(236, 240, 241);">
+<h3 class="panel-title" style="box-sizing: border-box; font-family: Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; line-height: 1.1; color: rgb(153, 153, 153); margin-top: 0px; margin-bottom: 0px; font-size: 16px;">Typ</h3>
+</div>
+
+<div class="panel-body collapse in" style="box-sizing: border-box; padding: 15px;">
+<ul class="filter" style="box-sizing: border-box; margin: 0px; border-right: 0px solid rgb(204, 204, 204); list-style: none; padding-right: 0px; padding-left: 0px;">
+	<li style="box-sizing: border-box; margin: 0px; padding: 0px;">
+	<div class="checkbox" style="box-sizing: border-box; position: relative; margin-top: 0px; margin-bottom: 0px;"><label style="box-sizing: border-box; display: inline-block; max-width: 100%; margin-bottom: 0px; min-height: 20px; padding-left: 20px; cursor: pointer; vertical-align: middle;"><input style="font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; font-family: inherit; margin: 4px 0px 6px -20px; border-width: 2px; box-shadow: none; padding: 0px; position: relative;" type="checkbox" /></label><span class="title" style="box-sizing: border-box;">Serie</span><span class="hits" style="box-sizing: border-box; color: rgb(153, 153, 153);">8</span></div>
+	</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-8 result_list" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
+<div id="hit_list" style="box-sizing: border-box; color: rgb(44, 62, 80); font-family: Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;">
+<div class="hit_item            odd         " id="hit_1" style="box-sizing: border-box; margin-bottom: 30px; border-top: 1px solid rgb(180, 188, 194); border-radius: 10px;">
+<div class="row hit_item_head" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
+<div class="hit_counter" style="box-sizing: border-box; text-align: center; font-weight: bold; color: rgb(180, 188, 194); border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; border-width: 0px 0px 0px 1px; border-top-left-radius: 10px; padding: 1px 0px 0px; width: 73px; float: left;">1</div>
+
+<div class="hit_stars_5 hit_stars" style="box-sizing: border-box; margin: 0px 0px 5px 15px; overflow: hidden; width: 73px; float: left;" title="Relevanz des Treffers in Bezug auf alle Treffer dieser Suche: 100%">
+<div class="hit_star_1 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_2 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_3 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_4 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+</div>
+
+<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
+<div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
+</div>
+</div>
+</div>
+
+<div class="row hit_item_body" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
+<div class="hit_download_box" style="box-sizing: border-box; position: relative; float: left; width: 73px;"><img class="hit_icon" src="http://reposis-test.gbv.de/repper/images/icons/icon_common_disabled.png" style="box-sizing: border-box; border: 1px solid rgb(180, 188, 194); vertical-align: middle; height: 100px; background-color: rgb(237, 237, 237); background-position: center center; background-size: 100%; background-repeat: no-repeat; border-bottom-left-radius: 25px;" /></div>
+
+<div class="hit_tnd_container" style="box-sizing: border-box; padding-left: 88px;">
+<div class="hit_tnd_content" style="box-sizing: border-box; overflow: hidden;">
+<div class="hit_type" style="box-sizing: border-box; float: left; color: rgb(149, 165, 166);"><span class="label label-info" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(75, 143, 188);">Serie</span></div>
+
+<div class="hit_license" style="box-sizing: border-box; float: left; margin-left: 5px;"><span class="label label-primary" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(44, 62, 80);">Alle Rechte vorbehalten</span></div>
+
+<div class="hit_state" style="box-sizing: border-box; float: left; margin-left: 5px; color: rgb(149, 165, 166);"><span class="label mir-submitted" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(243, 156, 18);" title="Publikationsstatus">Eingereicht</span></div>
+</div>
+</div>
+
+<h3 class="hit_title" style="box-sizing: border-box; line-height: 1.1; color: inherit; margin: 15px 0px 5px; font-size: 20px; padding-left: 88px; border-left: 0px solid rgb(180, 188, 194);"><a href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=0&amp;fl=id&amp;rows=1&amp;origrows=20&amp;XSL.Style=browse" style="box-sizing: border-box; background-color: transparent; color: rgb(75, 143, 188); text-decoration-line: none;" title="Beihefte der Francia">Beihefte der Francia</a></h3>
+
+<div class="hit_author" style="box-sizing: border-box; padding-left: 88px; font-size: 16px; margin: 0px;"><a href="http://reposis-test.gbv.de/repper/servlets/solr/mods_nameIdentifier?q=mods.name:%22Deutsches%20Historisches%20Institut%20Paris%22&amp;owner=createdby:%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20*%0A" style="box-sizing: border-box; background-color: transparent; color: rgb(75, 143, 188); text-decoration-line: none;" title="Suche nach allen Publikationen">Deutsches Historisches Institut Paris</a> / <a href="http://reposis-test.gbv.de/repper/servlets/solr/mods_nameIdentifier?q=mods.nameIdentifier:gnd%5C:120612216&amp;owner=createdby:%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20*%0A" style="box-sizing: border-box; background-color: transparent; color: rgb(75, 143, 188); text-decoration-line: none;" title="Suche nach allen Publikationen">Maissen, Thomas</a> <a href="http://d-nb.info/gnd/120612216" style="box-sizing: border-box; background-color: transparent; color: rgb(75, 143, 188); text-decoration-line: none;" title="Link zu GND"><span style="box-sizing: border-box; font-size: 12px; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;">GND</span></a></div>
+
+<div class="hit_abstract" style="box-sizing: border-box; padding-left: 88px; margin: 10px 0px 5px;">Die Zeitschrift »Francia« wird von einer Buchreihe begleitet, den »Beiheften der Francia« (BdF), deren einzelne Bände in französischer, englischer oder deutscher Sprache erscheinen und die sich mit Themen der westeuropäischen und der französischen Geschichte sowie mit den deutsch-französischen Beziehungen...</div>
+
+<div class="hit_pub_name" style="box-sizing: border-box; padding-left: 88px;"><span class="label_publisher" style="box-sizing: border-box; color: rgb(149, 165, 166);">Erschienen: </span>Jan Thorbecke Verlag</div>
+</div>
+</div>
+</div>
+
+<div class="hit_item            even         " id="hit_2" style="box-sizing: border-box; margin-bottom: 30px; border-top: 1px solid rgb(180, 188, 194); border-radius: 10px;">
+<div class="row hit_item_head" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
+<div class="hit_counter" style="box-sizing: border-box; text-align: center; font-weight: bold; color: rgb(180, 188, 194); border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; border-width: 0px 0px 0px 1px; border-top-left-radius: 10px; padding: 1px 0px 0px; width: 73px; float: left;">2</div>
+
+<div class="hit_stars_5 hit_stars" style="box-sizing: border-box; margin: 0px 0px 5px 15px; overflow: hidden; width: 73px; float: left;" title="Relevanz des Treffers in Bezug auf alle Treffer dieser Suche: 100%">
+<div class="hit_star_1 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_2 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_3 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_4 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+</div>
+
+<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
+<div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
+</div>
+</div>
+</div>
+
+<div class="row hit_item_body" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
+<div class="hit_download_box" style="box-sizing: border-box; position: relative; float: left; width: 73px;"><img class="hit_icon" src="http://reposis-test.gbv.de/repper/images/icons/icon_common_disabled.png" style="box-sizing: border-box; border: 1px solid rgb(180, 188, 194); vertical-align: middle; height: 100px; background-color: rgb(237, 237, 237); background-position: center center; background-size: 100%; background-repeat: no-repeat; border-bottom-left-radius: 25px;" /></div>
+
+<div class="hit_tnd_container" style="box-sizing: border-box; padding-left: 88px;">
+<div class="hit_tnd_content" style="box-sizing: border-box; overflow: hidden;">
+<div class="hit_type" style="box-sizing: border-box; float: left; color: rgb(149, 165, 166);"><span class="label label-info" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(75, 143, 188);">Serie</span></div>
+
+<div class="hit_license" style="box-sizing: border-box; float: left; margin-left: 5px;"><span class="label label-primary" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(44, 62, 80);">CC BY-NC-ND 3.0</span></div>
+
+<div class="hit_state" style="box-sizing: border-box; float: left; margin-left: 5px; color: rgb(149, 165, 166);"><span class="label mir-review" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(44, 62, 80);" title="Publikationsstatus">Wird bearbeitet</span></div>
+</div>
+</div>
+
+<h3 class="hit_title" style="box-sizing: border-box; line-height: 1.1; color: inherit; margin: 15px 0px 5px; font-size: 20px; padding-left: 88px; border-left: 0px solid rgb(180, 188, 194);"><a href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=1&amp;fl=id&amp;rows=1&amp;origrows=20&amp;XSL.Style=browse" style="box-sizing: border-box; background-color: transparent; color: rgb(75, 143, 188); text-decoration-line: none;" title="Discussions : Colloquien und Tagungen des DHI Paris und seiner Partner">Discussions<span class="subtitle" style="box-sizing: border-box;"> : Colloquien und Tagungen des DHI Paris und seiner Partner</span></a></h3>
+
+<div class="hit_author" style="box-sizing: border-box; padding-left: 88px; font-size: 16px; margin: 0px;"><a href="http://reposis-test.gbv.de/repper/servlets/solr/mods_nameIdentifier?q=mods.nameIdentifier:gnd%5C:120612216&amp;owner=createdby:%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20*%0A" style="box-sizing: border-box; background-color: transparent; color: rgb(75, 143, 188); text-decoration-line: none;" title="Suche nach allen Publikationen">Maissen, Thomas</a> <a href="http://d-nb.info/gnd/120612216" style="box-sizing: border-box; background-color: transparent; color: rgb(75, 143, 188); text-decoration-line: none;" title="Link zu GND"><span style="box-sizing: border-box; font-size: 12px; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;">GND</span></a></div>
+
+<div class="hit_abstract" style="box-sizing: border-box; padding-left: 88px; margin: 10px 0px 5px;">In der Reihe »discussions« werden Kolloquien und Tagungen des Deutschen Historischen Instituts Paris und seiner Partner veröffentlicht.</div>
+
+<div class="hit_pub_name" style="box-sizing: border-box; padding-left: 88px;"><span class="label_publisher" style="box-sizing: border-box; color: rgb(149, 165, 166);">Paris: </span>Deutsches Historisches Institut Paris</div>
+</div>
+</div>
+</div>
+
+<div class="hit_item            odd         " id="hit_3" style="box-sizing: border-box; margin-bottom: 30px; border-top: 1px solid rgb(180, 188, 194); border-radius: 10px;">
+<div class="row hit_item_head" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
+<div class="hit_counter" style="box-sizing: border-box; text-align: center; font-weight: bold; color: rgb(180, 188, 194); border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; border-width: 0px 0px 0px 1px; border-top-left-radius: 10px; padding: 1px 0px 0px; width: 73px; float: left;">3</div>
+
+<div class="hit_stars_5 hit_stars" style="box-sizing: border-box; margin: 0px 0px 5px 15px; overflow: hidden; width: 73px; float: left;" title="Relevanz des Treffers in Bezug auf alle Treffer dieser Suche: 100%">
+<div class="hit_star_1 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_2 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_3 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_4 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+</div>
+
+<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
+<div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
+</div>
+</div>
+</div>
+
+<div class="row hit_item_body" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
+<div class="hit_download_box" style="box-sizing: border-box; position: relative; float: left; width: 73px;"><img class="hit_icon" src="http://reposis-test.gbv.de/repper/images/icons/icon_common_disabled.png" style="box-sizing: border-box; border: 1px solid rgb(180, 188, 194); vertical-align: middle; height: 100px; background-color: rgb(237, 237, 237); background-position: center center; background-size: 100%; background-repeat: no-repeat; border-bottom-left-radius: 25px;" /></div>
+
+<div class="hit_tnd_container" style="box-sizing: border-box; padding-left: 88px;">
+<div class="hit_tnd_content" style="box-sizing: border-box; overflow: hidden;">
+<div class="hit_type" style="box-sizing: border-box; float: left; color: rgb(149, 165, 166);"><span class="label label-info" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(75, 143, 188);">Serie</span></div>
+
+<div class="hit_license" style="box-sizing: border-box; float: left; margin-left: 5px;"><span class="label label-primary" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(44, 62, 80);">Alle Rechte vorbehalten</span></div>
+
+<div class="hit_state" style="box-sizing: border-box; float: left; margin-left: 5px; color: rgb(149, 165, 166);"><span class="label mir-review" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(44, 62, 80);" title="Publikationsstatus">Wird bearbeitet</span></div>
+</div>
+</div>
+
+<h3 class="hit_title" style="box-sizing: border-box; line-height: 1.1; color: inherit; margin: 15px 0px 5px; font-size: 20px; padding-left: 88px; border-left: 0px solid rgb(180, 188, 194);"><a href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=2&amp;fl=id&amp;rows=1&amp;origrows=20&amp;XSL.Style=browse" style="box-sizing: border-box; background-color: transparent; color: rgb(75, 143, 188); text-decoration-line: none;" title="Suchprozesse für innovative Fragestellungen in der Wissenschaft">Suchprozesse für innovative Fragestellungen in der Wissenschaft</a></h3>
+</div>
+</div>
+</div>
+
+<div class="hit_item            even         " id="hit_4" style="box-sizing: border-box; margin-bottom: 30px; border-top: 1px solid rgb(180, 188, 194); border-radius: 10px;">
+<div class="row hit_item_head" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
+<div class="hit_counter" style="box-sizing: border-box; text-align: center; font-weight: bold; color: rgb(180, 188, 194); border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; border-width: 0px 0px 0px 1px; border-top-left-radius: 10px; padding: 1px 0px 0px; width: 73px; float: left;">4</div>
+
+<div class="hit_stars_5 hit_stars" style="box-sizing: border-box; margin: 0px 0px 5px 15px; overflow: hidden; width: 73px; float: left;" title="Relevanz des Treffers in Bezug auf alle Treffer dieser Suche: 100%">
+<div class="hit_star_1 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_2 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_3 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_4 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+</div>
+
+<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
+<div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
+</div>
+</div>
+</div>
+
+<div class="row hit_item_body" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
+<div class="hit_download_box" style="box-sizing: border-box; position: relative; float: left; width: 73px;"><img class="hit_icon" src="http://reposis-test.gbv.de/repper/images/icons/icon_common_disabled.png" style="box-sizing: border-box; border: 1px solid rgb(180, 188, 194); vertical-align: middle; height: 100px; background-color: rgb(237, 237, 237); background-position: center center; background-size: 100%; background-repeat: no-repeat; border-bottom-left-radius: 25px;" /></div>
+
+<div class="hit_tnd_container" style="box-sizing: border-box; padding-left: 88px;">
+<div class="hit_tnd_content" style="box-sizing: border-box; overflow: hidden;">
+<div class="hit_type" style="box-sizing: border-box; float: left; color: rgb(149, 165, 166);"><span class="label label-info" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(75, 143, 188);">Serie</span></div>
+
+<div class="hit_license" style="box-sizing: border-box; float: left; margin-left: 5px;"><span class="label label-primary" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(44, 62, 80);">CC BY-SA 4.0</span></div>
+
+<div class="hit_state" style="box-sizing: border-box; float: left; margin-left: 5px; color: rgb(149, 165, 166);"><span class="label mir-submitted" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(243, 156, 18);" title="Publikationsstatus">Eingereicht</span></div>
+</div>
+</div>
+
+<h3 class="hit_title" style="box-sizing: border-box; line-height: 1.1; color: inherit; margin: 15px 0px 5px; font-size: 20px; padding-left: 88px; border-left: 0px solid rgb(180, 188, 194);"><a href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=3&amp;fl=id&amp;rows=1&amp;origrows=20&amp;XSL.Style=browse" style="box-sizing: border-box; background-color: transparent; color: rgb(75, 143, 188); text-decoration-line: none;" title="DIJ Forum : Seit März 1997 lädt das DIJ unter dem Titel DIJ Forum zu öffentlichen Vorträgen ein, bei denen international bekannte Wissenschaftler und Wissenschaftlerinnen zu Themen von allgemeinem Interesse referieren.">DIJ Forum<span class="subtitle" style="box-sizing: border-box;"> : Seit März 1997 lädt das DIJ unter dem Titel DIJ Forum zu öffentlic ...</span></a></h3>
+</div>
+</div>
+</div>
+
+<div class="hit_item            odd         " id="hit_5" style="box-sizing: border-box; margin-bottom: 30px; border-top: 1px solid rgb(180, 188, 194); border-radius: 10px;">
+<div class="row hit_item_head" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
+<div class="hit_counter" style="box-sizing: border-box; text-align: center; font-weight: bold; color: rgb(180, 188, 194); border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; border-width: 0px 0px 0px 1px; border-top-left-radius: 10px; padding: 1px 0px 0px; width: 73px; float: left;">5</div>
+
+<div class="hit_stars_5 hit_stars" style="box-sizing: border-box; margin: 0px 0px 5px 15px; overflow: hidden; width: 73px; float: left;" title="Relevanz des Treffers in Bezug auf alle Treffer dieser Suche: 100%">
+<div class="hit_star_1 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_2 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_3 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_4 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+</div>
+
+<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
+<div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
+</div>
+</div>
+</div>
+
+<div class="row hit_item_body" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
+<div class="hit_download_box" style="box-sizing: border-box; position: relative; float: left; width: 73px;"><img class="hit_icon" src="http://reposis-test.gbv.de/repper/images/icons/icon_common_disabled.png" style="box-sizing: border-box; border: 1px solid rgb(180, 188, 194); vertical-align: middle; height: 100px; background-color: rgb(237, 237, 237); background-position: center center; background-size: 100%; background-repeat: no-repeat; border-bottom-left-radius: 25px;" /></div>
+
+<div class="hit_tnd_container" style="box-sizing: border-box; padding-left: 88px;">
+<div class="hit_tnd_content" style="box-sizing: border-box; overflow: hidden;">
+<div class="hit_type" style="box-sizing: border-box; float: left; color: rgb(149, 165, 166);"><span class="label label-info" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(75, 143, 188);">Serie</span></div>
+
+<div class="hit_license" style="box-sizing: border-box; float: left; margin-left: 5px;"><span class="label label-primary" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(44, 62, 80);">CC BY-NC-ND 4.0</span></div>
+
+<div class="hit_state" style="box-sizing: border-box; float: left; margin-left: 5px; color: rgb(149, 165, 166);"><span class="label mir-review" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(44, 62, 80);" title="Publikationsstatus">Wird bearbeitet</span></div>
+</div>
+</div>
+
+<h3 class="hit_title" style="box-sizing: border-box; line-height: 1.1; color: inherit; margin: 15px 0px 5px; font-size: 20px; padding-left: 88px; border-left: 0px solid rgb(180, 188, 194);"><a href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=4&amp;fl=id&amp;rows=1&amp;origrows=20&amp;XSL.Style=browse" style="box-sizing: border-box; background-color: transparent; color: rgb(75, 143, 188); text-decoration-line: none;" title="Quellen und Forschungen aus italienischen Archiven und Bibliotheken">Quellen und Forschungen aus italienischen Archiven und Bibliotheken</a></h3>
+</div>
+</div>
+</div>
+
+<div class="hit_item            even         " id="hit_6" style="box-sizing: border-box; margin-bottom: 30px; border-top: 1px solid rgb(180, 188, 194); border-radius: 10px;">
+<div class="row hit_item_head" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
+<div class="hit_counter" style="box-sizing: border-box; text-align: center; font-weight: bold; color: rgb(180, 188, 194); border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; border-width: 0px 0px 0px 1px; border-top-left-radius: 10px; padding: 1px 0px 0px; width: 73px; float: left;">6</div>
+
+<div class="hit_stars_5 hit_stars" style="box-sizing: border-box; margin: 0px 0px 5px 15px; overflow: hidden; width: 73px; float: left;" title="Relevanz des Treffers in Bezug auf alle Treffer dieser Suche: 100%">
+<div class="hit_star_1 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_2 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_3 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_4 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+</div>
+
+<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
+<div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
+</div>
+</div>
+</div>
+
+<div class="row hit_item_body" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
+<div class="hit_download_box" style="box-sizing: border-box; position: relative; float: left; width: 73px;"><img class="hit_icon" src="http://reposis-test.gbv.de/repper/images/icons/icon_common_disabled.png" style="box-sizing: border-box; border: 1px solid rgb(180, 188, 194); vertical-align: middle; height: 100px; background-color: rgb(237, 237, 237); background-position: center center; background-size: 100%; background-repeat: no-repeat; border-bottom-left-radius: 25px;" /></div>
+
+<div class="hit_tnd_container" style="box-sizing: border-box; padding-left: 88px;">
+<div class="hit_tnd_content" style="box-sizing: border-box; overflow: hidden;">
+<div class="hit_type" style="box-sizing: border-box; float: left; color: rgb(149, 165, 166);"><span class="label label-info" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(75, 143, 188);">Serie</span></div>
+
+<div class="hit_license" style="box-sizing: border-box; float: left; margin-left: 5px;"><span class="label label-primary" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(44, 62, 80);">Alle Rechte vorbehalten</span></div>
+
+<div class="hit_state" style="box-sizing: border-box; float: left; margin-left: 5px; color: rgb(149, 165, 166);"><span class="label mir-submitted" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(243, 156, 18);" title="Publikationsstatus">Eingereicht</span></div>
+</div>
+</div>
+
+<h3 class="hit_title" style="box-sizing: border-box; line-height: 1.1; color: inherit; margin: 15px 0px 5px; font-size: 20px; padding-left: 88px; border-left: 0px solid rgb(180, 188, 194);"><a href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=5&amp;fl=id&amp;rows=1&amp;origrows=20&amp;XSL.Style=browse" style="box-sizing: border-box; background-color: transparent; color: rgb(75, 143, 188); text-decoration-line: none;" title="Vorträge des DHI London">Vorträge des DHI London</a></h3>
+</div>
+</div>
+</div>
+
+<div class="hit_item            odd         " id="hit_7" style="box-sizing: border-box; margin-bottom: 30px; border-top: 1px solid rgb(180, 188, 194); border-radius: 10px;">
+<div class="row hit_item_head" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
+<div class="hit_counter" style="box-sizing: border-box; text-align: center; font-weight: bold; color: rgb(180, 188, 194); border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; border-width: 0px 0px 0px 1px; border-top-left-radius: 10px; padding: 1px 0px 0px; width: 73px; float: left;">7</div>
+
+<div class="hit_stars_5 hit_stars" style="box-sizing: border-box; margin: 0px 0px 5px 15px; overflow: hidden; width: 73px; float: left;" title="Relevanz des Treffers in Bezug auf alle Treffer dieser Suche: 100%">
+<div class="hit_star_1 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_2 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_3 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_4 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+</div>
+
+<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
+<div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
+</div>
+</div>
+</div>
+
+<div class="row hit_item_body" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
+<div class="hit_download_box" style="box-sizing: border-box; position: relative; float: left; width: 73px;"><img class="hit_icon" src="http://reposis-test.gbv.de/repper/images/icons/icon_common_disabled.png" style="box-sizing: border-box; border: 1px solid rgb(180, 188, 194); vertical-align: middle; height: 100px; background-color: rgb(237, 237, 237); background-position: center center; background-size: 100%; background-repeat: no-repeat; border-bottom-left-radius: 25px;" /></div>
+
+<div class="hit_tnd_container" style="box-sizing: border-box; padding-left: 88px;">
+<div class="hit_tnd_content" style="box-sizing: border-box; overflow: hidden;">
+<div class="hit_type" style="box-sizing: border-box; float: left; color: rgb(149, 165, 166);"><span class="label label-info" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(75, 143, 188);">Serie</span></div>
+
+<div class="hit_license" style="box-sizing: border-box; float: left; margin-left: 5px;"><span class="label label-primary" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(44, 62, 80);">CC BY-NC-ND 3.0</span></div>
+
+<div class="hit_state" style="box-sizing: border-box; float: left; margin-left: 5px; color: rgb(149, 165, 166);"><span class="label mir-review" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(44, 62, 80);" title="Publikationsstatus">Wird bearbeitet</span></div>
+</div>
+</div>
+
+<h3 class="hit_title" style="box-sizing: border-box; line-height: 1.1; color: inherit; margin: 15px 0px 5px; font-size: 20px; padding-left: 88px; border-left: 0px solid rgb(180, 188, 194);"><a href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=6&amp;fl=id&amp;rows=1&amp;origrows=20&amp;XSL.Style=browse" style="box-sizing: border-box; background-color: transparent; color: rgb(75, 143, 188); text-decoration-line: none;" title="OwnReality : Veröffentlichungen des Forschungsprojektes „Jedem seine Wirklichkeit. Der Begriff der Wirklichkeit in der Bildenden Kunst in Frankreich, Polen, der BRD und DDR der 1960er bis Ende der 1980er Jahre“ (2010-2015)">OwnReality<span class="subtitle" style="box-sizing: border-box;"> : Veröffentlichungen des Forschungsprojektes „Jedem seine Wirklichk ...</span></a></h3>
+
+<div class="hit_author" style="box-sizing: border-box; padding-left: 88px; font-size: 16px; margin: 0px;"><a href="http://reposis-test.gbv.de/repper/servlets/solr/mods_nameIdentifier?q=mods.nameIdentifier:gnd%5C:10000955-4&amp;owner=createdby:%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20*%0A" style="box-sizing: border-box; background-color: transparent; color: rgb(75, 143, 188); text-decoration-line: none;" title="Suche nach allen Publikationen">Deutsches Forum für Kunstgeschichte</a> <a href="http://d-nb.info/gnd/10000955-4" style="box-sizing: border-box; background-color: transparent; color: rgb(75, 143, 188); text-decoration-line: none;" title="Link zu GND"><span style="box-sizing: border-box; font-size: 12px; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;">GND</span></a></div>
+
+<div class="hit_abstract" style="box-sizing: border-box; padding-left: 88px; margin: 10px 0px 5px;">Publications du projet de recherche « À chacun son réel. La notion de réel dans les arts plastiques en France, RFA, RDA, Pologne des années 1960 à la fin des années 1980 » (2010-2015) dirigé par Mathilde Arnoux au Centre allemand d’histoire de l’art à Paris, financé par le Conseil européen de la...</div>
+</div>
+</div>
+</div>
+
+<div class="hit_item            even         " id="hit_8" style="box-sizing: border-box; margin-bottom: 30px; border-top: 1px solid rgb(180, 188, 194); border-radius: 10px;">
+<div class="row hit_item_head" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
+<div class="hit_counter" style="box-sizing: border-box; text-align: center; font-weight: bold; color: rgb(180, 188, 194); border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; border-width: 0px 0px 0px 1px; border-top-left-radius: 10px; padding: 1px 0px 0px; width: 73px; float: left;">8</div>
+
+<div class="hit_stars_5 hit_stars" style="box-sizing: border-box; margin: 0px 0px 5px 15px; overflow: hidden; width: 73px; float: left;" title="Relevanz des Treffers in Bezug auf alle Treffer dieser Suche: 100%">
+<div class="hit_star_1 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_2 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_3 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_4 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+
+<div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
+</div>
+
+<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
+<div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
+</div>
+</div>
+</div>
+
+<div class="row hit_item_body" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
+<div class="hit_download_box" style="box-sizing: border-box; position: relative; float: left; width: 73px;"><img class="hit_icon" src="http://reposis-test.gbv.de/repper/images/icons/icon_common_disabled.png" style="box-sizing: border-box; border: 1px solid rgb(180, 188, 194); vertical-align: middle; height: 100px; background-color: rgb(237, 237, 237); background-position: center center; background-size: 100%; background-repeat: no-repeat; border-bottom-left-radius: 25px;" /></div>
+
+<div class="hit_tnd_container" style="box-sizing: border-box; padding-left: 88px;">
+<div class="hit_tnd_content" style="box-sizing: border-box; overflow: hidden;">
+<div class="hit_type" style="box-sizing: border-box; float: left; color: rgb(149, 165, 166);"><span class="label label-info" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(75, 143, 188);">Serie</span></div>
+
+<div class="hit_license" style="box-sizing: border-box; float: left; margin-left: 5px;"><span class="label label-primary" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(44, 62, 80);">CC BY-SA 4.0</span></div>
+
+<div class="hit_state" style="box-sizing: border-box; float: left; margin-left: 5px; color: rgb(149, 165, 166);"><span class="label mir-review" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 10.5px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(44, 62, 80);" title="Publikationsstatus">Wird bearbeitet</span></div>
+</div>
+</div>
+
+<h3 class="hit_title" style="box-sizing: border-box; line-height: 1.1; color: inherit; margin: 15px 0px 5px; font-size: 20px; padding-left: 88px; border-left: 0px solid rgb(180, 188, 194);"><a href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=7&amp;fl=id&amp;rows=1&amp;origrows=20&amp;XSL.Style=browse" style="box-sizing: border-box; background-color: transparent; color: rgb(75, 143, 188); text-decoration-line: none;" title="Essays of the Forum Transregionale Studien">Essays of the Forum Transregionale Studien</a></h3>
+
+<div class="hit_author" style="box-sizing: border-box; padding-left: 88px; font-size: 16px; margin: 0px;"><a href="http://reposis-test.gbv.de/repper/servlets/solr/mods_nameIdentifier?q=mods.nameIdentifier:gnd%5C:1071334174&amp;owner=createdby:%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20*%0A" style="box-sizing: border-box; background-color: transparent; color: rgb(75, 143, 188); text-decoration-line: none;" title="Suche nach allen Publikationen">Forum Transregionale Studien</a> <a href="http://d-nb.info/gnd/1071334174" style="box-sizing: border-box; background-color: transparent; color: rgb(75, 143, 188); text-decoration-line: none;" title="Link zu GND"><span style="box-sizing: border-box; font-size: 12px; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;">GND</span></a></div>
+
+<div class="hit_abstract" style="box-sizing: border-box; padding-left: 88px; margin: 10px 0px 5px;">Die Essay-Reihe des Forum Transregionale Studien ermöglicht es Wissenschaftlern Ergebnisse ihrer aktuellen Forschungsarbeit Open Access zu veröffentlichen.</div>
+
+<div> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><meta><log lastEditor="kneumann" date="2017-07-13" time="15:29" /></meta></MyCoReWebPage>

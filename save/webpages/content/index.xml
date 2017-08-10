@@ -36,25 +36,22 @@
         <div class="row">
           <div class="col-md-6">
             <p>
-              <a
-                href="http://reposis-test.gbv.de/repper/content/folder/myfile.xml">
-                <img
-                  alt="https://www.uu.nl/sites/default/files/styles/image_385x257/public/header/ub_header-literatuur-zoeken_1600x1067.jpg?itok=vtX2krea"
-                  src="https://www.uu.nl/sites/default/files/styles/image_385x257/public/header/ub_header-literatuur-zoeken_1600x1067.jpg?itok=vtX2krea"
-                  style="height: 200px; width: 300px;" />
+              <a href="browse/series_and_journals.xml">
+                <img src="../ub_header-literatuur-zoeken_1600x1067.jpg"
+                     style="height: 200px; width: 300px;" />
               </a>
             </p>
             <p>perspectivia bietet gemeinsam mit der BSB eJournals der
               Institute mit OJS an</p>
             <p>
-              <a class="btn btn-default" href="http://mycore.de/features/index.html"
+              <a class="btn btn-default" href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%3Ajournals%22+%2BobjectType%3Amods+%2Bcategory.top%3A%22state%3Apublished%22&amp;sort=mods.dateIssued+desc"
                 role="button">zu den Zeitschriften »</a>
             </p>
           </div>
           <div class="col-md-6">
             <p>
               <a
-                href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%3Aseries%22+%2BobjectType%3Amods+%2Bcategory.top%3A%22state%3Apublished%22&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fbrowse%2Fgenres.xml%23open%5B%5D">
+                href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%3Aseries%22+%2BobjectType%3Amods+%2Bcategory.top%3A%22state%3Apublished%22&amp;sort=mods.dateIssued+desc">
                 <img
                   alt="https://www.uu.nl/sites/default/files/styles/image_385x257/public/header/ub_header-literatuur-zoeken_1600x1067.jpg?itok=vtX2krea"
                   src="https://www.uu.nl/sites/default/files/styles/image_385x257/public/header/ub_header-literatuur-zoeken_1600x1067.jpg?itok=vtX2krea"
@@ -64,7 +61,7 @@
             <p>perspectivia bietet gemeinsam mit der BSB eJournals der
               Institute mit OJS an</p>
             <p>
-              <a class="btn btn-default" href="http://mycore.de/features/index.html"
+              <a class="btn btn-default" href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_journals%3Aseries%22+%2BobjectType%3Amods+%2Bcategory.top%3A%22state%3Apublished%22&amp;sort=mods.dateIssued+desc"
                 role="button">zu den Zeitschriften »</a>
             </p>
           </div>
@@ -78,8 +75,8 @@
         </h3>
         <p>
           <a
-            href="http://reposis-test.gbv.de/repper/content/folder/myfile.xml">
-            <img src="Unbenannt.PNG"
+            href="browse/sources_and_editions.xml">
+            <img src="../images/sources_and_editions.png"
               style="opacity: 0.9; font-size: 13px; height: 219px; width: 300px;" />
           </a>
         </p>
