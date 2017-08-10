@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="DDC_T2">
+  <label xml:lang="en" text="Geographic Areas, Historical Periods, Biography" description="DDC Table 2" />
+  <label xml:lang="x-uri" text="http://www.mycore.org/classifications/mir_genres" />
+  <label xml:lang="de" text="Geographische Gebiete, Historische Perioden, Biographie" description="Hilfstabelle der DDC, Tabelle 2" />
+  <categories>
+    <category ID="T2--581">
+      <label xml:lang="de" text="Afghanistan" />
+    </category>
+    <category ID="T2--6">
+      <label xml:lang="de" text="Afrika" />
+      <label xml:lang="en" text="Africa" />
+      <label xml:lang="fr" text="Afrique" />
+    </category>
+    <category ID="T2--32">
+      <label xml:lang="de" text="Ägypten / AlteWelt" />
+      <label xml:lang="en" text="Egypt / Ancient World" />
+      <label xml:lang="fr" text="Égypte / Ancien Monde" />
+    </category>
+    <category ID="T2--62">
+      <label xml:lang="de" text="Ägypten und Sudan" />
+      <label xml:lang="en" text="Egypt and Sudan" />
+      <label xml:lang="fr" text="Égypte and Sudan" />
+    </category>
+    <category ID="T2--4965">
+      <label xml:lang="de" text="Albanien" />
+      <label xml:lang="en" text="Albania" />
+      <label xml:lang="fr" text="Albanie" />
+    </category>
+    <category ID="T2--65">
+      <label xml:lang="de" text="Algerien" />
+      <label xml:lang="en" text="Algeria" />
+      <label xml:lang="fr" text="Algérie" />
+    </category>
+    <category ID="T2--3">
+      <label xml:lang="de" text="Alte Welt" />
+      <label xml:lang="en" text="Ancient World" />
+      <label xml:lang="fr" text="Ancien Monde" />
+    </category>
+    <category ID="T2--39">
+      <label xml:lang="de" text="Andere Teile der alten Welt (Ägäische Inseln, Westliches Kleinasien, Östliches Kleinasien, Zypern, Schwarzmeergebiet, Kaukasusgebiet, Zentralasien, Nordafrika, Südöstliches Europa)" />
+      <label xml:lang="en" text="Ohter countries" />
+      <label xml:lang="fr" text="Autres pays" />
+    </category>
+    <category ID="T2--53">
+      <label xml:lang="de" text="Arabische Halbinsel und benachbarte Gebiete" />
+      <label xml:lang="en" text="Arabian Peninsula and neighbouring territories" />
+      <label xml:lang="fr" text="Arabie et territoires voisins" />
+    </category>
+    <category ID="T2--4756">
+      <label xml:lang="de" text="Armenien" />
+      <label xml:lang="en" text="Armenia" />
+      <label xml:lang="fr" text="Arménie" />
+    </category>
+    <category ID="T2--4754">
+      <label xml:lang="de" text="Aserbaidschan" />
+      <label xml:lang="en" text="Azerbaijan" />
+      <label xml:lang="fr" text="Azerbaïdjan" />
+    </category>
+    <category ID="T2--5">
+      <label xml:lang="de" text="Asien, Orient, Ferner Osten" />
+      <label xml:lang="en" text="Asia" />
+      <label xml:lang="fr" text="Asie" />
+    </category>
+    <category ID="T2--63">
+      <label xml:lang="de" text="Äthiopien, Eritrea, Horn von Afrika" />
+      <label xml:lang="en" text="Ethiopia, Eritrea" />
+      <label xml:lang="fr" text="Éthiopie, Érythrée" />
+    </category>
+    <category ID="T2--4346">
+      <label xml:lang="de" text="Baden-Württemberg" />
+      <label xml:lang="en" text="Baden-Württemberg" />
+      <label xml:lang="fr" text="Bade-Wurtemberg" />
+    </category>
+    <category ID="T2--479">
+      <label xml:lang="de" text="Baltikum" />
+      <label xml:lang="en" text="Baltic states" />
+      <label xml:lang="fr" text="Pays baltes" />
+    </category>
+    <category ID="T2--433">
+      <label xml:lang="de" text="Bayern" />
+      <label xml:lang="en" text="Bavaria" />
+      <label xml:lang="fr" text="Bavière" />
+    </category>
+    <category ID="T2--493">
+      <label xml:lang="de" text="Belgien, Luxemburg" />
+      <label xml:lang="en" text="Belgium, Luxembourg" />
+      <label xml:lang="fr" text="Belgique, Luxembourg" />
+    </category>
+    <category ID="T2--43155">
+      <label xml:lang="de" text="Berlin" />
+      <label xml:lang="en" text="Berlin" />
+      <label xml:lang="fr" text="Berlin" />
+    </category>
+    <category ID="T2--49742">
+      <label xml:lang="de" text="Bosnien-Herzegowina " />
+      <label xml:lang="en" text="Bosnia and Herzegovina" />
+      <label xml:lang="fr" text="Bosnie-Herzégovine" />
+    </category>
+    <category ID="T2--4315">
+      <label xml:lang="de" text="Brandenburg" />
+      <label xml:lang="en" text="Brandenburg" />
+      <label xml:lang="fr" text="Brandebourg" />
+    </category>
+    <category ID="T2--43087">
+      <label xml:lang="de" text="BRD (1945-1990), Westzonen" />
+    </category>
+    <category ID="T2--4352">
+      <label xml:lang="de" text="Bremen" />
+    </category>
+    <category ID="T2--499">
+      <label xml:lang="de" text="Bulgarien" />
+      <label xml:lang="en" text="Bulgaria" />
+      <label xml:lang="fr" text="Bulgarie" />
+    </category>
+    <category ID="T2--31">
+      <label xml:lang="de" text="China / Alte Welt" />
+      <label xml:lang="en" text="China / Ancient World" />
+      <label xml:lang="fr" text="Chine / Ancien Monde" />
+    </category>
+    <category ID="T2--51">
+      <label xml:lang="de" text="China und benachbarte Gebiete" />
+      <label xml:lang="en" text="China and neighbouring territories" />
+      <label xml:lang="fr" text="Chine et territoires voisins" />
+    </category>
+    <category ID="T2--431">
+      <label xml:lang="de" text="DDR (1945-1990), SBZ,  Nordostdeutschland" />
+    </category>
+    <category ID="T2--43">
+      <label xml:lang="de" text="Deutschland, Mitteleuropa allg." />
+      <label xml:lang="en" text="Germany" />
+      <label xml:lang="fr" text="Allemagne" />
+    </category>
+    <category ID="T2--4798">
+      <label xml:lang="de" text="Estland" />
+      <label xml:lang="en" text="Estonia" />
+      <label xml:lang="fr" text="Estonie" />
+    </category>
+    <category ID="T2--4">
+      <label xml:lang="de" text="Europa" />
+      <label xml:lang="en" text="Europe" />
+      <label xml:lang="fr" text="Europe" />
+    </category>
+    <category ID="T2--36">
+      <label xml:lang="de" text="Europa nördlich und westlich der Italienischen Halbinsel / Alte Welt" />
+      <label xml:lang="en" text="Ancient World" />
+      <label xml:lang="fr" text="Ancien Monde" />
+    </category>
+    <category ID="T2--4897">
+      <label xml:lang="de" text="Finnland" />
+      <label xml:lang="en" text="Finland" />
+      <label xml:lang="fr" text="Finlande" />
+    </category>
+    <category ID="T2--44">
+      <label xml:lang="de" text="Frankreich, Monaco" />
+      <label xml:lang="en" text="France" />
+      <label xml:lang="fr" text="France" />
+    </category>
+    <category ID="T2--4758">
+      <label xml:lang="de" text="Georgien" />
+      <label xml:lang="en" text="Georgia" />
+      <label xml:lang="fr" text="Géorgie" />
+    </category>
+    <category ID="T2--495">
+      <label xml:lang="de" text="Griechenland" />
+      <label xml:lang="en" text="Greece" />
+      <label xml:lang="fr" text="Grèce" />
+    </category>
+    <category ID="T2--38">
+      <label xml:lang="de" text="Griechenland / Alte Welt" />
+      <label xml:lang="en" text="Greece / Ancient World" />
+      <label xml:lang="fr" text="Grèce / Ancien Monde" />
+    </category>
+    <category ID="T2--41">
+      <label xml:lang="de" text="Großbritannien" />
+      <label xml:lang="en" text="Great Britain" />
+      <label xml:lang="fr" text="Grande-Bretagne" />
+    </category>
+    <category ID="T2--43515">
+      <label xml:lang="de" text="Hamburg" />
+    </category>
+    <category ID="T2--4341">
+      <label xml:lang="de" text="Hessen" />
+    </category>
+    <category ID="T2--34">
+      <label xml:lang="de" text="Indien / Alte Welt" />
+      <label xml:lang="en" text="India / Ancient World" />
+      <label xml:lang="fr" text="Inde / Ancien Monde" />
+    </category>
+    <category ID="T2--69">
+      <label xml:lang="de" text="Inseln im südlichen Indischen Ozean" />
+    </category>
+    <category ID="T2--567">
+      <label xml:lang="de" text="Irak" />
+    </category>
+    <category ID="T2--55">
+      <label xml:lang="de" text="Iran" />
+    </category>
+    <category ID="T2--415">
+      <label xml:lang="de" text="Irland" />
+      <label xml:lang="en" text="Ireland" />
+      <label xml:lang="fr" text="Irlande" />
+    </category>
+    <category ID="T2--4912">
+      <label xml:lang="de" text="Island" />
+      <label xml:lang="en" text="Iceland" />
+      <label xml:lang="fr" text="Islande" />
+    </category>
+    <category ID="T2--45">
+      <label xml:lang="de" text="Italien" />
+      <label xml:lang="en" text="Italy" />
+      <label xml:lang="fr" text="Italie" />
+    </category>
+    <category ID="T2--52">
+      <label xml:lang="de" text="Japan" />
+      <label xml:lang="en" text="Japan" />
+      <label xml:lang="fr" text="Japon" />
+    </category>
+    <category ID="T2--11">
+      <label xml:lang="de" text="Kalte Klimazonen, Polargebiete" />
+    </category>
+    <category ID="T2--71">
+      <label xml:lang="de" text="Kanada" />
+      <label xml:lang="en" text="Canada" />
+      <label xml:lang="fr" text="Canada" />
+    </category>
+    <category ID="T2--5845">
+      <label xml:lang="de" text="Kasachstan" />
+    </category>
+    <category ID="T2--475">
+      <label xml:lang="de" text="Kaukasus" />
+    </category>
+    <category ID="T2--5843">
+      <label xml:lang="de" text="Kirgisien" />
+    </category>
+    <category ID="T2--4975">
+      <label xml:lang="de" text="Kosovo" />
+      <label xml:lang="en" text="Kosovo" />
+      <label xml:lang="fr" text="Kosovo" />
+    </category>
+    <category ID="T2--4972">
+      <label xml:lang="de" text="Kroatien" />
+      <label xml:lang="en" text="Croatia" />
+      <label xml:lang="fr" text="Croatie" />
+    </category>
+    <category ID="T2--4796">
+      <label xml:lang="de" text="Lettland" />
+      <label xml:lang="en" text="Latvia" />
+      <label xml:lang="fr" text="Lettonie" />
+    </category>
+    <category ID="T2--4793">
+      <label xml:lang="de" text="Litauen" />
+      <label xml:lang="en" text="Lithuania " />
+      <label xml:lang="fr" text="Lituanie" />
+    </category>
+    <category ID="T2--4976">
+      <label xml:lang="de" text="Makedonien" />
+      <label xml:lang="en" text="Macedonia" />
+      <label xml:lang="fr" text="Macédoine" />
+    </category>
+    <category ID="T2--4317">
+      <label xml:lang="de" text="Mecklenburg-Vorpommern" />
+    </category>
+    <category ID="T2--35">
+      <label xml:lang="de" text="Mesopotamien, Persien / Alte Welt" />
+      <label xml:lang="en" text="Mesopotamie, Persia / Ancient World" />
+      <label xml:lang="fr" text="Mésopotamie, Perse / Ancien Monde" />
+    </category>
+    <category ID="T2--72">
+      <label xml:lang="de" text="Mittelamerika, Mexiko" />
+      <label xml:lang="en" text="Cental America" />
+      <label xml:lang="fr" text="Amérique centrale" />
+    </category>
+    <category ID="T2--1822">
+      <label xml:lang="de" text="Mittelmeerraum" />
+    </category>
+    <category ID="T2--476">
+      <label xml:lang="de" text="Moldawien" />
+      <label xml:lang="en" text="Moldavia" />
+      <label xml:lang="fr" text="Moldavie" />
+    </category>
+    <category ID="T2--49745">
+      <label xml:lang="de" text="Montenegro" />
+      <label xml:lang="en" text="Montenegro" />
+      <label xml:lang="fr" text="Monténégro" />
+    </category>
+    <category ID="T2--56">
+      <label xml:lang="de" text="Naher Osten" />
+      <label xml:lang="en" text="Near East" />
+      <label xml:lang="fr" text="Proche-Orient" />
+    </category>
+    <category ID="T2--394">
+      <label xml:lang="de" text="Naher Osten / Alte Welt" />
+      <label xml:lang="en" text="Near East / Ancient World" />
+      <label xml:lang="fr" text="Proche-Orient / Ancien Monde" />
+    </category>
+    <category ID="T2--492">
+      <label xml:lang="de" text="Niederlande" />
+      <label xml:lang="en" text="Netherlands" />
+      <label xml:lang="fr" text="Pays-Bas" />
+    </category>
+    <category ID="T2--4359">
+      <label xml:lang="de" text="Niedersachsen" />
+    </category>
+    <category ID="T2--7">
+      <label xml:lang="de" text="Nordamerika" />
+      <label xml:lang="en" text="North America" />
+      <label xml:lang="fr" text="Amérique du Nord" />
+    </category>
+    <category ID="T2--4355">
+      <label xml:lang="de" text="Nordrhein-Westfalen" />
+    </category>
+    <category ID="T2--64">
+      <label xml:lang="de" text="Nordwestafrikanische Küste und vorgelagerte Inseln, Marokko" />
+      <label xml:lang="en" text="Morocco" />
+      <label xml:lang="fr" text="Maroc" />
+    </category>
+    <category ID="T2--436">
+      <label xml:lang="de" text="Österreich, Liechtenstein" />
+      <label xml:lang="en" text="Austria" />
+      <label xml:lang="fr" text="Austriche" />
+    </category>
+    <category ID="T2--47">
+      <label xml:lang="de" text="Osteuropa" />
+      <label xml:lang="en" text="Eastern Europe" />
+      <label xml:lang="fr" text="Europe de l'Est" />
+    </category>
+    <category ID="T2--437">
+      <label xml:lang="de" text="Ostmitteleuropa" />
+    </category>
+    <category ID="T2--43832">
+      <label xml:lang="de" text="Ostpreußen bis 1947" />
+    </category>
+    <category ID="T2--5694">
+      <label xml:lang="de" text="Palästina, Israel" />
+      <label xml:lang="en" text="Palestine, Israel" />
+      <label xml:lang="fr" text="Palestine, Israël" />
+    </category>
+    <category ID="T2--33">
+      <label xml:lang="de" text="Palästina, Israel / Alte Welt " />
+      <label xml:lang="en" text="Palestine, Israel / Ancient World" />
+      <label xml:lang="fr" text="Palestine, Israël / Ancien Monde" />
+    </category>
+    <category ID="T2--9">
+      <label xml:lang="de" text="Pazifischer Raum (Australien, Neuseeland, Ozeanien)" />
+    </category>
+    <category ID="T2--438">
+      <label xml:lang="de" text="Polen" />
+      <label xml:lang="en" text="Poland" />
+      <label xml:lang="fr" text="Pologne" />
+    </category>
+    <category ID="T2--4316">
+      <label xml:lang="de" text="Pommern, Hinterpommern" />
+    </category>
+    <category ID="T2--469">
+      <label xml:lang="de" text="Portugal" />
+      <label xml:lang="en" text="Portugal" />
+      <label xml:lang="fr" text="Portugal" />
+    </category>
+    <category ID="T2--4313">
+      <label xml:lang="de" text="Posen bis 1920/1947" />
+    </category>
+    <category ID="T2--4310">
+      <label xml:lang="de" text="Preußen bis 1947" />
+    </category>
+    <category ID="T2--4343">
+      <label xml:lang="de" text="Rheinland-Pfalz" />
+    </category>
+    <category ID="T2--37">
+      <label xml:lang="de" text="Römisches Reich" />
+      <label xml:lang="en" text="Roman Empire" />
+      <label xml:lang="fr" text="Empire romain" />
+    </category>
+    <category ID="T2--498">
+      <label xml:lang="de" text="Rumänien" />
+      <label xml:lang="en" text="Romania" />
+      <label xml:lang="fr" text="Roumanie" />
+    </category>
+    <category ID="T2--471">
+      <label xml:lang="de" text="Russland" />
+      <label xml:lang="en" text="Russia" />
+      <label xml:lang="fr" text="Russie" />
+    </category>
+    <category ID="T2--4342">
+      <label xml:lang="de" text="Saarland" />
+    </category>
+    <category ID="T2--4321">
+      <label xml:lang="de" text="Sachsen" />
+    </category>
+    <category ID="T2--4318">
+      <label xml:lang="de" text="Sachsen-Anhalt" />
+    </category>
+    <category ID="T2--43858">
+      <label xml:lang="de" text="Schlesien bis 1947" />
+    </category>
+    <category ID="T2--43512">
+      <label xml:lang="de" text="Schleswig-Holstein" />
+    </category>
+    <category ID="T2--494">
+      <label xml:lang="de" text="Schweiz" />
+      <label xml:lang="en" text="Switzerland" />
+      <label xml:lang="fr" text="Suisse" />
+    </category>
+    <category ID="T2--4971">
+      <label xml:lang="de" text="Serbien (Serbien und Montenegro, Jugoslawien (1991-2003))" />
+      <label xml:lang="en" text="Serbia" />
+      <label xml:lang="fr" text="Serbie" />
+    </category>
+    <category ID="T2--57">
+      <label xml:lang="de" text="Sibirien" />
+      <label xml:lang="en" text="Sibiria " />
+      <label xml:lang="fr" text="Sibérie" />
+    </category>
+    <category ID="T2--48">
+      <label xml:lang="de" text="Skandinavien, Nordeuropa" />
+      <label xml:lang="en" text="Scandinavia, Northern Europe" />
+      <label xml:lang="fr" text="Pays scandinaves, Europe du Nord" />
+    </category>
+    <category ID="T2--4373">
+      <label xml:lang="de" text="Slowakei" />
+      <label xml:lang="en" text="Slovakia" />
+      <label xml:lang="fr" text="Slowaquie" />
+    </category>
+    <category ID="T2--4973">
+      <label xml:lang="de" text="Slowenien" />
+      <label xml:lang="en" text="Slovenia" />
+      <label xml:lang="fr" text="Slovénie" />
+    </category>
+    <category ID="T2--46">
+      <label xml:lang="de" text="Spanien" />
+      <label xml:lang="en" text="Spain" />
+      <label xml:lang="fr" text="Espagne" />
+    </category>
+    <category ID="T2--68">
+      <label xml:lang="de" text="Südafrika" />
+      <label xml:lang="en" text="Southern Africa" />
+      <label xml:lang="fr" text="Afrique australe" />
+    </category>
+    <category ID="T2--8">
+      <label xml:lang="de" text="Südamerika" />
+      <label xml:lang="en" text="South America" />
+      <label xml:lang="fr" text="Amérique du Sud" />
+    </category>
+    <category ID="T2--54">
+      <label xml:lang="de" text="Südasien, Indien" />
+      <label xml:lang="en" text="Southern Asia and India" />
+      <label xml:lang="fr" text="Asie du Sud et Inde" />
+    </category>
+    <category ID="T2--59">
+      <label xml:lang="de" text="Südostasien" />
+      <label xml:lang="en" text="South-Eastern Asia" />
+      <label xml:lang="fr" text="Asie du Sud-Est" />
+    </category>
+    <category ID="T2--398">
+      <label xml:lang="de" text="Südosteuropa / Alte Welt, Byzanz" />
+      <label xml:lang="en" text="South Eastern Europe / Ancien World" />
+      <label xml:lang="fr" text="Europe du Sud-Est / Ancien Monde" />
+    </category>
+    <category ID="T2--496">
+      <label xml:lang="de" text="Südosteuropa, Balkanhalbinsel, Jugoslawien (1918-1991)" />
+      <label xml:lang="en" text="South Eastern Europe" />
+      <label xml:lang="fr" text="Europe du Sud-Est" />
+    </category>
+    <category ID="T2--586">
+      <label xml:lang="de" text="Tadschikistan" />
+    </category>
+    <category ID="T2--4322">
+      <label xml:lang="de" text="Thüringen" />
+    </category>
+    <category ID="T2--4371">
+      <label xml:lang="de" text="Tschechische Republik" />
+      <label xml:lang="en" text="Czech Republic" />
+      <label xml:lang="fr" text="République Tchèque" />
+    </category>
+    <category ID="T2--61">
+      <label xml:lang="de" text="Tunesien, Libyen" />
+      <label xml:lang="en" text="Tunisia and Libya" />
+      <label xml:lang="fr" text="Tunisie et Libye" />
+    </category>
+    <category ID="T2--561">
+      <label xml:lang="de" text="Türkei, Osmanisches Reich" />
+      <label xml:lang="en" text="Turkey" />
+      <label xml:lang="fr" text="Turquie" />
+    </category>
+    <category ID="T2--585">
+      <label xml:lang="de" text="Turkmenistan" />
+    </category>
+    <category ID="947.08">
+      <label xml:lang="de" text="UdSSR und GUS" />
+    </category>
+    <category ID="T2--477">
+      <label xml:lang="de" text="Ukraine" />
+      <label xml:lang="en" text="Ukraine" />
+      <label xml:lang="fr" text="Ukraine" />
+    </category>
+    <category ID="T2--439">
+      <label xml:lang="de" text="Ungarn" />
+      <label xml:lang="en" text="Hungary" />
+      <label xml:lang="fr" text="Hongrie" />
+    </category>
+    <category ID="T2--73">
+      <label xml:lang="de" text="USA" />
+      <label xml:lang="en" text="USA" />
+      <label xml:lang="fr" text="États-Unis" />
+    </category>
+    <category ID="T2--587">
+      <label xml:lang="de" text="Usbekistan" />
+    </category>
+    <category ID="T2--478">
+      <label xml:lang="de" text="Weißrussland" />
+      <label xml:lang="en" text="Belarus" />
+      <label xml:lang="fr" text="Biélorussie" />
+    </category>
+    <category ID="T2--181">
+      <label xml:lang="de" text="Welt" />
+    </category>
+    <category ID="T2--66">
+      <label xml:lang="de" text="Westafrika, Wüste Sahara, Sahel " />
+      <label xml:lang="en" text="Western Africa" />
+      <label xml:lang="fr" text="Afrique de l'Ouest" />
+    </category>
+    <category ID="T2--4382">
+      <label xml:lang="de" text="Westpreußen bis 1947" />
+    </category>
+    <category ID="T2--67">
+      <label xml:lang="de" text="Zentralafrika, Schwarzafrika, Subsaharisches Afrika " />
+      <label xml:lang="en" text="Middle Africa" />
+      <label xml:lang="fr" text="Afrique de centrale" />
+    </category>
+    <category ID="T2--58">
+      <label xml:lang="de" text="Zentralasien" />
+      <label xml:lang="en" text="Central Asia" />
+      <label xml:lang="fr" text="Asie centrale" />
+    </category>
+    <category ID="T2--5693">
+      <label xml:lang="de" text="Zypern" />
+      <label xml:lang="en" text="Cyprus" />
+      <label xml:lang="fr" text="Chypre" />
+    </category>
+  </categories>
+</mycoreclass>

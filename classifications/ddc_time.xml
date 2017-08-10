@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="DDC_T1">
+  <label xml:lang="en" text="Time" description="DDC Table 1" />
+  <label xml:lang="x-uri" text="http://www.mycore.org/classifications/mir_genres" />
+  <label xml:lang="de" text="Zeit" description="Hilfstabelle der DDC, Tabelle 1" />
+  <categories>
+    <category ID="T1--090512">
+      <label xml:lang="de" text="2010 - 2019" />
+    </category>
+    <category ID="T1--09051">
+      <label xml:lang="de" text="2000 - 2019" />
+    </category>
+    <category ID="T1--0904">
+      <label xml:lang="de" text="20. Jh." />
+    </category>
+    <category ID="T1--0905">
+      <label xml:lang="de" text="21. Jh." />
+    </category>
+    <category ID="T1--0903">
+      <label xml:lang="de" text="Neuzeit bis 1900" />
+    </category>
+    <category ID="T1--0902">
+      <label xml:lang="de" text="Mittelalter" />
+    </category>
+    <category ID="T1--0901">
+      <label xml:lang="de" text="bis 499 n. Chr." />
+    </category>
+    <category ID="T1--09014">
+      <label xml:lang="de" text="999 - 1  v. Chr." />
+    </category>
+    <category ID="T1--09021">
+      <label xml:lang="de" text="6. - 12. Jh." />
+    </category>
+    <category ID="T1--09048">
+      <label xml:lang="de" text="1980 - 1989" />
+    </category>
+    <category ID="T1--09049">
+      <label xml:lang="de" text="1990 - 1999" />
+    </category>
+    <category ID="T1--09047">
+      <label xml:lang="de" text="1970 - 1979" />
+    </category>
+    <category ID="T1--09046">
+      <label xml:lang="de" text="1960 - 1969" />
+    </category>
+    <category ID="T1--09045">
+      <label xml:lang="de" text="1950 - 1959" />
+    </category>
+    <category ID="T1--09043">
+      <label xml:lang="de" text="1930 - 1939" />
+    </category>
+    <category ID="T1--09044">
+      <label xml:lang="de" text="1940 - 1949" />
+    </category>
+    <category ID="T1--09042">
+      <label xml:lang="de" text="1920 - 1929" />
+    </category>
+    <category ID="T1--09041">
+      <label xml:lang="de" text="1900 - 1919" />
+    </category>
+    <category ID="T1--09034">
+      <label xml:lang="de" text="19. Jh." />
+    </category>
+    <category ID="T1--09033">
+      <label xml:lang="de" text="18. Jh." />
+    </category>
+    <category ID="T1--09031">
+      <label xml:lang="de" text="16. Jh." />
+    </category>
+    <category ID="T1--09032">
+      <label xml:lang="de" text="17. Jh." />
+    </category>
+    <category ID="T1--09024">
+      <label xml:lang="de" text="15. Jh." />
+    </category>
+    <category ID="T1--09022">
+      <label xml:lang="de" text="13. Jh." />
+    </category>
+    <category ID="T1--09023">
+      <label xml:lang="de" text="14. Jh." />
+    </category>
+    <category ID="T1--09015">
+      <label xml:lang="de" text="1 - 5.  Jh. n. Chr." />
+    </category>
+    <category ID="T1--09012">
+      <label xml:lang="de" text="vor 4000 v. Chr." />
+    </category>
+    <category ID="T1--09095">
+      <label xml:lang="de" text="1950 - 1999" />
+    </category>
+    <category ID="T1--09091">
+      <label xml:lang="de" text="1900 - 1949" />
+    </category>
+    <category ID="T1--090511">
+      <label xml:lang="de" text="2000 - 2009" />
+    </category>
+    <category ID="T1--09013">
+      <label xml:lang="de" text="3999 - 1000 v. Chr." />
+    </category>
+  </categories>
+</mycoreclass>
