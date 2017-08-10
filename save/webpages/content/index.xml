@@ -1,54 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
-  <section xml:lang="de" title="Willkommen bei RePPer!">
-    <div class="jumbotwo">
-      <div class="row">
-        <div class="col-xs-12" lang="de">
-          <h2>
-            RePPer das institutionelle Repositorium der Max Weber Stiftung
-          </h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4" lang="de">
-          <p>
-            In RePer ist das Green open Access Repository der MWS, es werden sowohl
-            Zweitveröffentlichungen von im Druck erschienenen Veröffentlichungen
-            eingestellt als auch Erstveröffentlichungen.
-          </p>
-        </div>
-        <div class="col-md-4" lang="de">
-          <p>
-            Die elektronische Publikationsplattform perspectivia.net ist das internationale,
-            epochenübergreifende und interdisziplinäre Portal der <a
-            href="http://www.maxweberstiftung.de/startseite.html">Max Weber Stiftung – Deutsche
-            Geisteswissenschaftliche Institute im Ausland</a>. Mit perspectivia.net unterstützt
-            die Max Weber Stiftung den unbeschränkten und kostenlosen Zugang zu wissenschaftlicher
-            Information im Internet und damit auch das elektronische Publizieren
-            im Open Access.
-          </p>
-          <p>
-            Der <a href="http://www.perspectivia.net"><strong>Dokumentenserver rePPer</strong></a>
-            ist ein Service von perspectivia.net und bietet den Instituten der Max Weber Stiftung
-            und ihren Partnern die Möglichkeit zum elektronischen Veröffentlichen von
-            <em><strong>wissenschaftlich relevanten Publikationen, u.a. Zweitveröffentlichung von
-            Aufsätzen </strong></em>.
-          </p>
-          <p>
-            RePer ist das Green open Access Repository der MWS, es werden sowohl
-            Zweitveröffentlichungen von im Druck erschienenen Veröffentlichungen eingestellt als
-            auch Erstveröffentlichungen.
-          </p>
-        </div>
-        <div class="col-md-4" lang="de">
-          <p>
-            <img alt="repper" src="../images/logos/rep-per.jpg" style="width: 262px; height: 175px;" />
-          </p>
-        </div>
+  <section xml:lang="de" title="Willkommen">
+    <div class="row">
+      <div class="col-xs-12">
+        <h3>perspectivia.net ist das digitale Publikationsportal der Max
+          Weber Stiftung. Es bietet einen barrierefreien Zugang zu
+          Forschungsergebnissen aus den Instituten und Partnern der MWS
+          an. Zudem unterstützt es das Publizieren im Open Access.</h3>
+        <p>Erst- und Zweitveröffentlichungen...</p>
+        <p>Unterstütztung bei der Veröffentlichung von digitalen
+          Erstpublikationen im Sinne des open Access bei
+          Schriftenreihen, Zeitschriften und Quelleneditionen (siehe
+          Publikationsservices)</p>
+        <p>
+          Willkommen auf
+          <em>perspectivia.net</em>, der Online-Publikationsplattform der Max Weber Stiftung –
+          Deutsche Geisteswissenschaftliche Institute im Ausland.
+          <br />
+          <em>perspectivia.net</em>
+          macht ausgewählte wissenschaftliche Ergebnisse der
+          Auslandsinstitute und ihrer Kooperationspartner barrierefrei
+          zugänglich: Auf der Basis des Open-Access-Prinzips soll die
+          wissenschaftliche Kommunikation weiterentwickelt und
+          intensiviert werden.
+        </p>
       </div>
     </div>
-    </section>
-    <meta>
-        <log lastEditor="administrator" date="2016-11-23" time="10:35"/>
-    </meta>
+    <div class="row">
+      <div class="col-md-8">
+        <h3 class="text-center">
+          <i class="glyphicon glyphicon-book" />
+          <br />
+          Zeitschriften und Reihen
+        </h3>
+        <div class="row">
+          <div class="col-md-6">
+            <p>
+              <a
+                href="http://reposis-test.gbv.de/repper/content/folder/myfile.xml">
+                <img
+                  alt="https://www.uu.nl/sites/default/files/styles/image_385x257/public/header/ub_header-literatuur-zoeken_1600x1067.jpg?itok=vtX2krea"
+                  src="https://www.uu.nl/sites/default/files/styles/image_385x257/public/header/ub_header-literatuur-zoeken_1600x1067.jpg?itok=vtX2krea"
+                  style="height: 200px; width: 300px;" />
+              </a>
+            </p>
+            <p>perspectivia bietet gemeinsam mit der BSB eJournals der
+              Institute mit OJS an</p>
+            <p>
+              <a class="btn btn-default" href="http://mycore.de/features/index.html"
+                role="button">zu den Zeitschriften »</a>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p>
+              <a
+                href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%3Aseries%22+%2BobjectType%3Amods+%2Bcategory.top%3A%22state%3Apublished%22&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fbrowse%2Fgenres.xml%23open%5B%5D">
+                <img
+                  alt="https://www.uu.nl/sites/default/files/styles/image_385x257/public/header/ub_header-literatuur-zoeken_1600x1067.jpg?itok=vtX2krea"
+                  src="https://www.uu.nl/sites/default/files/styles/image_385x257/public/header/ub_header-literatuur-zoeken_1600x1067.jpg?itok=vtX2krea"
+                  style="opacity: 0.9; height: 200px; width: 300px;" />
+              </a>
+            </p>
+            <p>perspectivia bietet gemeinsam mit der BSB eJournals der
+              Institute mit OJS an</p>
+            <p>
+              <a class="btn btn-default" href="http://mycore.de/features/index.html"
+                role="button">zu den Zeitschriften »</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h3 class="text-center">
+          <i class="glyphicon glyphicon-film" />
+          <br />
+          Quellen und Datenbanken
+        </h3>
+        <p>
+          <a
+            href="http://reposis-test.gbv.de/repper/content/folder/myfile.xml">
+            <img src="Unbenannt.PNG"
+              style="opacity: 0.9; font-size: 13px; height: 219px; width: 300px;" />
+          </a>
+        </p>
+        <p>Quellen und Datanbank Editionen der Institute und
+          Projektpartner der Max Weber Stiftung. </p>
+        <p>
+          <a class="btn btn-default" href="http://quellen.perspectivia.net"
+            role="button">zum Quellenportal »</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <meta>
+    <log lastEditor="kneumann" date="2017-07-25" time="13:52" />
+  </meta>
 </MyCoReWebPage>
