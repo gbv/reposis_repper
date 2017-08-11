@@ -76,6 +76,18 @@
             <label xml:lang="de">DDC</label>
             <label xml:lang="en">DDC</label>
         </item>
+        <item href="/content/browse/ddc_place.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Ort</label>
+            <label xml:lang="en">Place</label>
+        </item>
+        <item href="/content/browse/ddc_time.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Zeit</label>
+            <label xml:lang="en">Time</label>
+        </item>
+        <item href="/content/browse/epoch.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Epoche</label>
+            <label xml:lang="en">Epoch</label>
+        </item>
         <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Personen</label>
             <label xml:lang="en">Persons</label>

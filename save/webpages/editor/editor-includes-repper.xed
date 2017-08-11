@@ -5,6 +5,26 @@
   <xed:template id="ddc.repeat">
     <xed:repeat xpath="mods:classification[@authority='ddc'][@displayLabel='ddc']" min="1" max="10" method="build">
       <div class="form-group {$xed-validation-marker}">
+        <label class="col-md-3 control-label">
+          <xed:output i18n="editor.search.repper.ddc" />
+          :
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select" />
+            </option>
+            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:DDC" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:repper.help.ddc}" pmud="true" />
+      </div>
+    </xed:repeat>
+  </xed:template>
+
+  <xed:template id="ddc.repeat.required">
+    <xed:repeat xpath="mods:classification[@authority='ddc'][@displayLabel='ddc']" min="1" max="10" method="build">
+      <div class="form-group {$xed-validation-marker}">
         <label class="col-md-3 control-label required">
           <xed:output i18n="editor.search.repper.ddc" />
           :
@@ -21,6 +41,28 @@
       </div>
     </xed:repeat>
     <xed:validate xpath="//mods:mods/mods:classification[@authority='ddc'][@displayLabel='ddc']" required="true" i18n="repper.validation.ddc"
+      display="global" />
+  </xed:template>
+
+  <xed:template id="repper.epoch">
+    <xed:bind xpath="mods:classification[@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/epoch'][@displayLabel='epoch']">
+      <div class="form-group {$xed-validation-marker}">
+        <label class="col-md-3 control-label required">
+          <xed:output i18n="editor.search.repper.epoch" />
+          :
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select" />
+            </option>
+            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:epoch" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:repper.help.epoch}" />
+      </div>
+    </xed:bind>
+    <xed:validate xpath="//mods:mods/mods:classification[@authority='http://perspectivia.gbv.de/api/v1/classifications/epoch'][@displayLabel='epoch']" required="true" i18n="repper.validation.epoch"
       display="global" />
   </xed:template>
 

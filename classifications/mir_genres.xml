@@ -57,6 +57,13 @@
         <label xml:lang="en" text="Report" />
         <label xml:lang="it" text="Rapporto" />
       </category>
+      <category ID="research_results">
+        <label xml:lang="x-hosts" text="standalone" />
+        <label xml:lang="x-mapping" text="marcgt:reporting diniPublType:report" />
+        <label xml:lang="en" text="Research Results" />
+        <label xml:lang="de" text="Forschungsergebnisse" />
+        <label xml:lang="it" text="Risultati della ricerca" />
+      </category>
       <category ID="abstract">
         <label xml:lang="en" text="Abstract" />
         <label xml:lang="de" text="Abstrakt" />
@@ -158,6 +165,13 @@
       <label xml:lang="x-mapping" text="marcgt:article diniPublType:workingPaper" />
       <label xml:lang="de" text="Working Paper" />
     </category>
+    <category ID="course_resources">
+        <label xml:lang="x-mapping" text="marcgt:instruction diniPublType:CourseMaterial" />
+        <label xml:lang="x-hosts" text="standalone lecture" />
+        <label xml:lang="de" text="Kurs- und Seminarmaterial" />
+        <label xml:lang="en" text="Course Resources" />
+        <label xml:lang="it" text="Risorse del corso" />
+      </category>
     <category ID="database">
       <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="x-mapping" text="marcgt:database diniPublType:other" />

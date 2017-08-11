@@ -33,7 +33,8 @@
         <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="language.repeated" />
         <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="geographic.complex" />
         <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="cartographics" />
-        <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="ddc.repeat" />
+        <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.epoch" />
+        <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="ddc.repeat.required" />
         <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="openAIRE" />
         <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="identifier.repeated" />
         <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="shelfmark" />

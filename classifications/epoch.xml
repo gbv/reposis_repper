@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="epoch">
+  <label xml:lang="de" text="Epoche" />
+  <label xml:lang="en" text="Epoch" />
+  <label xml:lang="x-uri" text="http://perspectivia.gbv.de/api/v1/classifications/epoch" />
+  <categories>
+    <category ID="ANTIK">
+      <label xml:lang="de" text="Antike (1200 v.Chr. - 600 n.Chr.)" />
+    </category>
+    <category ID="FMA">
+      <label xml:lang="de" text="Frühes Mittelalter (600 - 1050)" />
+    </category>
+    <category ID="HMA">
+      <label xml:lang="de" text="Hohes Mittelalter (1050 - 1350)" />
+    </category>
+    <category ID="FNZ">
+      <label xml:lang="de" text="Frühe Neuzeit (1500 - 1789)" />
+    </category>
+    <category ID="NZ-NG">
+      <label xml:lang="de" text="Neuzeit / Neuere Geschichte (1789 - 1918)" />
+    </category>
+    <category ID="ZG">
+      <label xml:lang="de" text="Zeitgeschichte (1918 - 1945)" />
+    </category>
+    <category ID="NZG">
+      <label xml:lang="de" text="Neuere Zeitgeschichte (1945 - heute)" />
+    </category>
+  </categories>
+</mycoreclass>
