@@ -24,9 +24,33 @@
 
 
 
+/* ----------------------------------------------------------------------------
+   Header
+---------------------------------------------------------------------------- */
+
+html body header #header_box {
+    margin: 0px auto 0px auto;
+}
+
+
+
+/* ----------------------------------------------------------------------------
+   Navigation
+---------------------------------------------------------------------------- */
+
+.mir-main-nav {
+    border-top: solid 3px #f08000;
+}
+
 .mir-main-nav nav .navbar-nav > li > a, .flatmir-footer a {
     color: #777;
 }
+
+
+
+/* ----------------------------------------------------------------------------
+   Footer
+---------------------------------------------------------------------------- */
 
 .flatmir-footer {
     color: #95a5a6;
@@ -38,18 +62,17 @@
     padding: 0;
 }
 
-
 .flatmir-footer h4 {
     color: #0a6e76;
 }
 
-
-html body header #header_box {
-    margin: 0px auto 0px auto;
+.internal_links {
+    width: 100%;
 }
 
-.mir-main-nav {
-    border-top: solid 3px #f08000;
+.internal_links li {
+    float: left;
+    margin-right: 50px;
 }
 
 html body #powered_by {
