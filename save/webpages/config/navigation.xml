@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <navigation hrefStartingPage="/content/index.xml" dir="/content" template="template_mir">
-    <menu id="series" dir="/content/series">
+    <menu id="series" dir="/content/main">
         <label xml:lang="de">Hauptmenü</label>
         <label xml:lang="en">Main menu</label>
     </menu>
@@ -13,27 +13,17 @@
             <label xml:lang="en">Start</label>
             <label xml:lang="fr">Depart</label>
         </item>
-        <item href="/content/brand/impressum.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+    </menu>
+    <menu id="below" dir="/content/below">
+        <item href="/content/below/impressum.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Impressum</label>
             <label xml:lang="en">Impressum</label>
             <label xml:lang="fr">Credits</label>
         </item>
-        <item href="/content/brand/contact.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+        <item href="/content/below/contact.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Kontakt</label>
             <label xml:lang="en">Contact</label>
             <label xml:lang="fr">Nous contacter</label>
-        </item>
-    </menu>
-    <menu id="below" dir="/content/below">
-        <label xml:lang="de">Footer-Menü</label>
-        <label xml:lang="en">Footer menu</label>
-    </menu>
-    <menu id="series" dir="/content/series">
-        <label xml:lang="de">Reihen</label>
-        <label xml:lang="en">Series</label>
-        <item href="/content/folder/myfile.xml" replaceMenu="false" constrainPopUp="false" i18nKey="Literatur">
-            <label xml:lang="de">literatur</label>
-            <label xml:lang="en">literature</label>
         </item>
     </menu>
     <menu id="search">
