@@ -27,8 +27,8 @@
         </item>
     </menu>
     <menu id="search">
-        <label xml:lang="de">Suche</label>
-        <label xml:lang="en">Search</label>
+        <label xml:lang="de">Recherche</label>
+        <label xml:lang="en">Exploration</label>
         <item href="/content/search/simple.xed" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">einfach</label>
             <label xml:lang="en">simple</label>
@@ -50,10 +50,6 @@
             <label xml:lang="de">expert</label>
             <label xml:lang="en">expert</label>
         </item>
-    </menu>
-    <menu id="browse">
-        <label xml:lang="de">Blättern</label>
-        <label xml:lang="en">Browse</label>
         <item href="/content/browse/institutes.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Einrichtungen</label>
             <label xml:lang="en">Institutions</label>
@@ -63,16 +59,16 @@
             <label xml:lang="en">Genres</label>
         </item>
         <item href="/content/browse/ddc.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">DDC</label>
-            <label xml:lang="en">DDC</label>
+            <label xml:lang="de">DDC-Sachgruppen</label>
+            <label xml:lang="en">DDC Subjects</label>
         </item>
         <item href="/content/browse/ddc_place.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Ort</label>
-            <label xml:lang="en">Place</label>
+            <label xml:lang="de">Ort (DDC)</label>
+            <label xml:lang="en">Place (DDC)</label>
         </item>
         <item href="/content/browse/ddc_time.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Zeit</label>
-            <label xml:lang="en">Time</label>
+            <label xml:lang="de">Zeit (DDC)</label>
+            <label xml:lang="en">Time (DDC)</label>
         </item>
         <item href="/content/browse/epoch.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Epoche</label>
@@ -82,21 +78,29 @@
             <label xml:lang="de">Personen</label>
             <label xml:lang="en">Persons</label>
         </item>
-        <item href="/content/browse/series.xml" replaceMenu="false" constrainPopUp="true">
-            <label xml:lang="de">Serien und Zeitschriften</label>
-            <label xml:lang="en">series</label>
+    </menu>
+    <menu id="series_journals" dir="/publikationen">
+        <label xml:lang="de">Serien &amp; Zeitschriften</label>
+        <label xml:lang="en">Series &amp; Journals</label>
+        <item href="/publikationen/series.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Serien</label>
+            <label xml:lang="en">Series</label>
         </item>
     </menu>
     <menu id="publish" dir="/content/publish">
-        <label xml:lang="de">Dokumente einreichen</label>
-        <label xml:lang="en">Submit Document</label>
-        <item href="/servlets/MCRActionMappingServlet/mods/create" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Publizieren</label>
-            <label xml:lang="en">Publish</label>
+        <label xml:lang="de">Publizieren</label>
+        <label xml:lang="en">Publish</label>
+        <item href="/content/publish/index.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Dokument einreichen</label>
+            <label xml:lang="en">Submit new document</label>
         </item>
-        <item href="/content/publish/importPPN.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Publizieren (PPN Import)</label>
-            <label xml:lang="en">Publish (PPN Import)</label>
+        <item href="/editor/editor-admins.xed" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Dokument einreichen (Admin)</label>
+            <label xml:lang="en">Submit new document (admin)</label>
+        </item>
+        <item href="/servlets/solr/select?q=createdby:USERNAME" type="intern">
+          <label xml:lang="de">Eigene Aufnahmen</label>
+          <label xml:lang="en">My documents</label>
         </item>
         <item href="/content/publish/guidelines.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Leitlinien</label>
