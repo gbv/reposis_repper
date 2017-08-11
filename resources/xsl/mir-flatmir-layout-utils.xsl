@@ -82,7 +82,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <ul class="internal_links nav navbar-nav">
+          <ul class="internal_links">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
           </ul>
         </div>
