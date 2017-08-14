@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <navigation hrefStartingPage="/content/index.xml" dir="/content" template="template_mir">
-    <menu id="series" dir="/content/main">
+    <menu id="brand" dir="/content/brand">
         <label xml:lang="de">Hauptmenü</label>
         <label xml:lang="en">Main menu</label>
-    </menu>
-    <menu id="brand" dir="/content/brand">
-        <label xml:lang="de">MIR-Menü</label>
-        <label xml:lang="en">MIR menu</label>
-        <label xml:lang="fr">MIR menu</label>
+        <label xml:lang="fr">Main menu</label>
         <item href="/content/index.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Start</label>
             <label xml:lang="en">Start</label>
@@ -15,6 +11,8 @@
         </item>
     </menu>
     <menu id="below" dir="/content/below">
+        <label xml:lang="de">Fußzeile</label>
+        <label xml:lang="en">Footer</label>
         <item href="/content/below/impressum.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Impressum</label>
             <label xml:lang="en">Impressum</label>
@@ -98,7 +96,7 @@
             <label xml:lang="de">Dokument einreichen (Admin)</label>
             <label xml:lang="en">Submit new document (admin)</label>
         </item>
-        <item href="/servlets/solr/select?q=createdby:USERNAME" type="intern">
+        <item href="/servlets/solr/select?q=createdby:USERNAME" type="intern" replaceMenu="false" constrainPopUp="false">
           <label xml:lang="de">Eigene Aufnahmen</label>
           <label xml:lang="en">My documents</label>
         </item>
@@ -157,11 +155,11 @@
                 <label xml:lang="de">WebCLI</label>
                 <label xml:lang="en">WebCLI</label>
             </item>
-            <item href="/modules/webtools/session/sessionListing.xml" type="intern">
+            <item href="/modules/webtools/session/sessionListing.xml" type="intern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Aktive Sitzungen</label>
                 <label xml:lang="en">Session Management</label>
             </item>
-            <item href="/modules/webtools/processing/processing.xml" type="intern">
+            <item href="/modules/webtools/processing/processing.xml" type="intern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Aktive Prozesse</label>
                 <label xml:lang="en">Processing</label>
             </item>
