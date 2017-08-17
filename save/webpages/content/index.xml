@@ -1,173 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Willkommen"><h2>Neueste Veröffentlichungen in der MIR</h2>
+<MyCoReWebPage>
 
-<p>kann man die letzten 4-6 Veröffentlichungen anzeigen?</p>
+  <section xml:lang="de" title="Willkommen">
 
-<div class="row result_searchline">
-<div class="col-xs-12 col-sm-8 text-center result_search">
-<div class="search_box">
-<form action="http://perspectivia.gbv.de/servlets/solr/select?sort=mods.dateIssued+desc&amp;fl=*%2Cscore&amp;q=%2BobjectType%3A%22mods%22+%2BderCount%3A%5B0+TO+*%5D&amp;mask=search%2Fsimple_intern.xed&amp;version=4.5" class="search_form" method="post">
-<div class="input-group input-group-sm">
-<div class="input-group-btn"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="search_type_button" type="button" value="all"><span id="search_type_label">Alles</span></button></div>
-<input class="form-control" name="condQuery" placeholder="Suche in den Publikationen" type="text" /><span class="input-group-btn"><button class="btn btn-primary" type="submit">Suchen</button></span></div>
-</form>
-</div>
-</div>
-</div>
 
-<div class="hit_item            odd         " id="hit_9" style="box-sizing: border-box; margin-bottom: 30px; border-top: 1px solid rgb(180, 188, 194); border-radius: 10px; color: rgb(34, 34, 34); font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 15px;">
-<div class="row hit_item_head" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
-<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
-<div class="hit_counter" style="box-sizing: border-box; text-align: center; font-weight: bold; color: rgb(180, 188, 194); border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; border-width: 0px 0px 0px 1px; border-top-left-radius: 10px; padding: 1px 0px 0px; width: 73px; float: left;">9</div>
+    <div class="col-md-12 ppnet_borderbox" lang="de">
+      <h2>Neueste Veröffentlichungen</h2>
+      <!-- see also: http://jquery-howto.blogspot.de/2013/09/jquery-cross-domain-ajax-request.html -->
+      <p>Im Dokumentenserver befinden sich derzeit <span id="doc_count">[Anz]</span> Datensätze.</p>
+      <div id="last4"></div>
+    </div>
 
-<div class="hit_stars_5 hit_stars" style="box-sizing: border-box; margin: 0px 0px 5px 15px; overflow: hidden; width: 73px; float: left;" title="Relevanz des Treffers in Bezug auf alle Treffer dieser Suche: 100%">
-<div class="hit_star_1 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
-
-<div class="hit_star_2 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
-
-<div class="hit_star_3 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
-
-<div class="hit_star_4 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
-
-<div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
-</div>
-
-<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
-<div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bmods.dateIssued%3A%5B*+TO+2017%5C-07%5C-01%7D+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=score+asc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
-</div>
-</div>
-</div>
-
-<div class="row hit_item_body" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
-<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
-<div class="hit_download_box" style="box-sizing: border-box; position: relative; float: left; width: 73px;"><img class="hit_icon" src="http://reposis-test.gbv.de/repper/images/icons/icon_common_disabled.png" style="box-sizing: border-box; border: 1px solid rgb(180, 188, 194); vertical-align: middle; height: 100px; background-color: rgb(237, 237, 237); background-position: center center; background-size: 100%; background-repeat: no-repeat; border-bottom-left-radius: 25px;" /></div>
-
-<div class="hit_tnd_container" style="box-sizing: border-box; padding-left: 88px;">
-<div class="hit_tnd_content" style="box-sizing: border-box; overflow: hidden;">
-<div class="hit_type" style="box-sizing: border-box; float: left; color: rgb(149, 165, 166);"><span class="label label-info" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 11.25px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(52, 152, 219);">Artikel / Aufsatz</span></div>
-
-<div class="hit_license" style="box-sizing: border-box; float: left; margin-left: 5px;"><span class="label label-primary" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 11.25px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(238, 127, 0);">CC BY-NC-ND 3.0</span></div>
-
-<div class="hit_date" style="box-sizing: border-box; color: rgb(149, 165, 166); float: left; margin-left: 5px;"><span class="label label-primary" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 11.25px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(238, 127, 0);">2010</span></div>
-
-<div class="hit_state" style="box-sizing: border-box; float: left; margin-left: 5px; color: rgb(149, 165, 166);"><span class="label mir-submitted" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 11.25px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(243, 156, 18);" title="Publikationsstatus">Eingereicht</span></div>
-</div>
-</div>
-
-<h3 class="hit_title" style="box-sizing: border-box; line-height: 1.1; color: rgb(10, 110, 118); margin: 15px 0px 5px; font-size: 20px; padding-left: 88px; border-left: 0px solid rgb(180, 188, 194);"><a href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bmods.dateIssued%3A%5B*+TO+2017%5C-07%5C-01%7D+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=score+asc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=8&amp;fl=id&amp;rows=1&amp;origrows=20&amp;XSL.Style=browse" style="box-sizing: border-box; background-color: transparent; color: rgb(103, 103, 103); text-decoration-line: none;" title="Beyond the Iron Curtain : Experts, Consumer Rights and the Challenge of the Political in Poland (1980-89)">Beyond the Iron Curtain<span class="subtitle" style="box-sizing: border-box;"> : Experts, Consumer Rights and the Challenge of the Po ...</span></a></h3>
-
-<div class="hit_author" style="box-sizing: border-box; padding-left: 88px; font-size: 16px; margin: 0px;"><a href="http://reposis-test.gbv.de/repper/servlets/solr/mods_nameIdentifier?q=mods.nameIdentifier:viaf%5C:34736073&amp;owner=createdby:%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20*%0A" style="box-sizing: border-box; background-color: transparent; color: rgb(103, 103, 103); text-decoration-line: none;" title="Suche nach allen Publikationen">Małgorzata Mazurek</a> <a href="http://www.viaf.org/34736073" style="box-sizing: border-box; background-color: transparent; color: rgb(103, 103, 103); text-decoration-line: none;" title="Link zu VIAF"><span style="box-sizing: border-box; font-size: 12px; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;">VIAF</span></a></div>
-
-<div class="hit_source" style="box-sizing: border-box; padding-left: 88px; margin-top: 10px;"><span class="label_parent" style="box-sizing: border-box; color: rgb(149, 165, 166);">aus: </span><a href="http://reposis-test.gbv.de/repper/receive/repper_mods_00000758" style="box-sizing: border-box; background-color: transparent; color: rgb(103, 103, 103); text-decoration-line: none;">Expert Cultures in Central Eastern Europe</a></div>
-
-<div class="hit_pub_name" style="box-sizing: border-box; padding-left: 88px;"><span class="label_publisher" style="box-sizing: border-box; color: rgb(149, 165, 166);">Osnabrück: </span>fibre Verlag, 2010</div>
-</div>
-</div>
-</div>
-
-<div class="hit_item            even         " id="hit_10" style="box-sizing: border-box; margin-bottom: 30px; border-top: 1px solid rgb(180, 188, 194); border-radius: 10px; color: rgb(34, 34, 34); font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 15px;">
-<div class="row hit_item_head" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
-<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
-<div class="hit_counter" style="box-sizing: border-box; text-align: center; font-weight: bold; color: rgb(180, 188, 194); border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; border-width: 0px 0px 0px 1px; border-top-left-radius: 10px; padding: 1px 0px 0px; width: 73px; float: left;">10</div>
-
-<div class="hit_stars_5 hit_stars" style="box-sizing: border-box; margin: 0px 0px 5px 15px; overflow: hidden; width: 73px; float: left;" title="Relevanz des Treffers in Bezug auf alle Treffer dieser Suche: 100%">
-<div class="hit_star_1 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
-
-<div class="hit_star_2 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
-
-<div class="hit_star_3 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
-
-<div class="hit_star_4 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
-
-<div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
-</div>
-
-<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
-<div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bmods.dateIssued%3A%5B*+TO+2017%5C-07%5C-01%7D+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=score+asc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
-</div>
-</div>
-</div>
-
-<div class="row hit_item_body" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
-<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
-<div class="hit_download_box" style="box-sizing: border-box; position: relative; float: left; width: 73px;"><img class="hit_icon" src="http://reposis-test.gbv.de/repper/images/icons/icon_common_disabled.png" style="box-sizing: border-box; border: 1px solid rgb(180, 188, 194); vertical-align: middle; height: 100px; background-color: rgb(237, 237, 237); background-position: center center; background-size: 100%; background-repeat: no-repeat; border-bottom-left-radius: 25px;" /></div>
-
-<div class="hit_tnd_container" style="box-sizing: border-box; padding-left: 88px;">
-<div class="hit_tnd_content" style="box-sizing: border-box; overflow: hidden;">
-<div class="hit_type" style="box-sizing: border-box; float: left; color: rgb(149, 165, 166);"><span class="label label-info" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 11.25px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(52, 152, 219);">Artikel / Aufsatz</span></div>
-
-<div class="hit_license" style="box-sizing: border-box; float: left; margin-left: 5px;"><span class="label label-primary" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 11.25px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(238, 127, 0);">Alle Rechte vorbehalten</span></div>
-
-<div class="hit_date" style="box-sizing: border-box; color: rgb(149, 165, 166); float: left; margin-left: 5px;"><span class="label label-primary" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 11.25px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(238, 127, 0);">2009</span></div>
-
-<div class="hit_state" style="box-sizing: border-box; float: left; margin-left: 5px; color: rgb(149, 165, 166);"><span class="label mir-submitted" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 11.25px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(243, 156, 18);" title="Publikationsstatus">Eingereicht</span></div>
-</div>
-</div>
-
-<h3 class="hit_title" style="box-sizing: border-box; line-height: 1.1; color: rgb(10, 110, 118); margin: 15px 0px 5px; font-size: 20px; padding-left: 88px; border-left: 0px solid rgb(180, 188, 194);"><a href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bmods.dateIssued%3A%5B*+TO+2017%5C-07%5C-01%7D+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=score+asc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=9&amp;fl=id&amp;rows=1&amp;origrows=20&amp;XSL.Style=browse" style="box-sizing: border-box; background-color: transparent; color: rgb(103, 103, 103); text-decoration-line: none;" title="Советские дети и школьная nол итика на ционал-социалистов на оккупированной территории СССР (1941- 1944)">Советские дети и школьная nол итика на ционал-социалистов на оккупированной...</a></h3>
-
-<div class="hit_author" style="box-sizing: border-box; padding-left: 88px; font-size: 16px; margin: 0px;"><a href="http://reposis-test.gbv.de/repper/servlets/solr/mods_nameIdentifier?q=mods.nameIdentifier:gnd%5C:132641739&amp;owner=createdby:%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20*%0A" style="box-sizing: border-box; background-color: transparent; color: rgb(103, 103, 103); text-decoration-line: none;" title="Suche nach allen Publikationen">Ковалев, Борис Н.</a> <a href="http://d-nb.info/gnd/132641739" style="box-sizing: border-box; background-color: transparent; color: rgb(103, 103, 103); text-decoration-line: none;" title="Link zu GND"><span style="box-sizing: border-box; font-size: 12px; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;">GND</span></a></div>
-
-<div class="hit_source" style="box-sizing: border-box; padding-left: 88px; margin-top: 10px;"><span class="label_parent" style="box-sizing: border-box; color: rgb(149, 165, 166);">aus: </span><a href="http://reposis-test.gbv.de/repper/receive/repper_mods_00000574" style="box-sizing: border-box; background-color: transparent; color: rgb(103, 103, 103); text-decoration-line: none;">Kinder des Krieges</a></div>
-</div>
-</div>
-</div>
-
-<div class="hit_item            odd         " id="hit_11" style="box-sizing: border-box; margin-bottom: 30px; border-top: 1px solid rgb(180, 188, 194); border-radius: 10px; color: rgb(34, 34, 34); font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 15px;">
-<div class="row hit_item_head" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
-<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
-<div class="hit_counter" style="box-sizing: border-box; text-align: center; font-weight: bold; color: rgb(180, 188, 194); border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; border-width: 0px 0px 0px 1px; border-top-left-radius: 10px; padding: 1px 0px 0px; width: 73px; float: left;">11</div>
-
-<div class="hit_stars_5 hit_stars" style="box-sizing: border-box; margin: 0px 0px 5px 15px; overflow: hidden; width: 73px; float: left;" title="Relevanz des Treffers in Bezug auf alle Treffer dieser Suche: 100%">
-<div class="hit_star_1 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
-
-<div class="hit_star_2 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
-
-<div class="hit_star_3 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
-
-<div class="hit_star_4 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
-
-<div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
-</div>
-
-<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
-<div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bmods.dateIssued%3A%5B*+TO+2017%5C-07%5C-01%7D+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=score+asc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
-</div>
-</div>
-</div>
-
-<div class="row hit_item_body" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
-<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;">
-<div class="hit_download_box" style="box-sizing: border-box; position: relative; float: left; width: 73px;"><img class="hit_icon" src="http://reposis-test.gbv.de/repper/images/icons/icon_common_disabled.png" style="box-sizing: border-box; border: 1px solid rgb(180, 188, 194); vertical-align: middle; height: 100px; background-color: rgb(237, 237, 237); background-position: center center; background-size: 100%; background-repeat: no-repeat; border-bottom-left-radius: 25px;" /></div>
-
-<div class="hit_tnd_container" style="box-sizing: border-box; padding-left: 88px;">
-<div class="hit_tnd_content" style="box-sizing: border-box; overflow: hidden;">
-<div class="hit_type" style="box-sizing: border-box; float: left; color: rgb(149, 165, 166);"><span class="label label-info" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 11.25px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(52, 152, 219);">Artikel / Aufsatz</span></div>
-
-<div class="hit_license" style="box-sizing: border-box; float: left; margin-left: 5px;"><span class="label label-primary" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 11.25px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(238, 127, 0);">Alle Rechte vorbehalten</span></div>
-
-<div class="hit_date" style="box-sizing: border-box; color: rgb(149, 165, 166); float: left; margin-left: 5px;"><span class="label label-primary" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 11.25px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(238, 127, 0);">2000</span></div>
-
-<div class="hit_state" style="box-sizing: border-box; float: left; margin-left: 5px; color: rgb(149, 165, 166);"><span class="label mir-submitted" style="box-sizing: border-box; display: inline; padding: 0.2em 0.6em 0.3em; font-size: 11.25px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25em; background-color: rgb(243, 156, 18);" title="Publikationsstatus">Eingereicht</span></div>
-</div>
-</div>
-
-<h3 class="hit_title" style="box-sizing: border-box; line-height: 1.1; color: rgb(10, 110, 118); margin: 15px 0px 5px; font-size: 20px; padding-left: 88px; border-left: 0px solid rgb(180, 188, 194);"><a href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bmods.dateIssued%3A%5B*+TO+2017%5C-07%5C-01%7D+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=score+asc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=10&amp;fl=id&amp;rows=1&amp;origrows=20&amp;XSL.Style=browse" style="box-sizing: border-box; background-color: transparent; color: rgb(103, 103, 103); text-decoration-line: none;" title="Die litauische Presse und die Kulturvereine in Kleinlitauen 1871–1935">Die litauische Presse und die Kulturvereine in Kleinlitauen 1871–1935</a></h3>
-
-<div class="hit_author" style="box-sizing: border-box; padding-left: 88px; font-size: 16px; margin: 0px;"><a href="http://reposis-test.gbv.de/repper/servlets/solr/mods_nameIdentifier?q=mods.nameIdentifier:viaf%5C:62434549&amp;owner=createdby:%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20*%0A" style="box-sizing: border-box; background-color: transparent; color: rgb(103, 103, 103); text-decoration-line: none;" title="Suche nach allen Publikationen">Pocytė, Silva</a> <a href="http://www.viaf.org/62434549" style="box-sizing: border-box; background-color: transparent; color: rgb(103, 103, 103); text-decoration-line: none;" title="Link zu VIAF"><span style="box-sizing: border-box; font-size: 12px; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;">VIAF</span></a></div>
-
-<div class="hit_source" style="box-sizing: border-box; padding-left: 88px; margin-top: 10px;"><span class="label_parent" style="box-sizing: border-box; color: rgb(149, 165, 166);">aus: </span><a href="http://reposis-test.gbv.de/repper/receive/repper_mods_00000779" style="box-sizing: border-box; background-color: transparent; color: rgb(103, 103, 103); text-decoration-line: none;">Selbstbewusstsein und Modernisierung</a></div>
-
-<div class="hit_pub_name" style="box-sizing: border-box; padding-left: 88px;"><span class="label_publisher" style="box-sizing: border-box; color: rgb(149, 165, 166);">Osnabrück: </span>fibre Verlag, 2000</div>
-</div>
-</div>
-</div>
-
-<div class="hit_item            even         " id="hit_12" style="box-sizing: border-box; margin-bottom: 30px; border-top: 1px solid rgb(180, 188, 194); border-radius: 10px; color: rgb(34, 34, 34); font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 15px;">
-<div class="row hit_item_head" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
-<div class="col-xs-12" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: left; width: 780px;"> </div>
-</div>
-</div>
 
 <div>
 <section style="clear: right;">
@@ -222,4 +65,28 @@
 </section>
 </div>
 </div>
-</section><meta><log lastEditor="kneumann" date="2017-08-14" time="17:41" /></meta></MyCoReWebPage>
+</section>
+
+    <section xml:lang="all">
+      <script>
+         //funktioniert wegen Cross-Origin-Requests nur auf dem eigenen Server
+        $.getJSON('../api/v1/search?q=objectType:mods&amp;rows=4&amp;sort=modified desc&amp;wt=json',
+            function (data) {
+              $('#doc_count').text(data.response.numFound);
+
+              $(data.response.docs).each(function(i, doc){
+                let author = doc['mods.nameByRole.personal.aut'] ? doc['mods.nameByRole.personal.aut'] : '&#160;';
+                $('#last4').append($('<div class="lastmod"></div>')
+                    .append($('<table class="table"></table>').append($('<tr></tr>')
+                      .append($('<td></td>')
+                        .append('<p class="ppnet_date">'+doc['mods.dateIssued']+'</p>',
+                          '<a class="ppnet_title" href="../receive/'+doc['returnId']+'">'+doc['search_result_link_text']+'</a>',
+                          '<p class="ppnet_author">'+author[0].split(":")[0]+'</p>',
+                          '<p class="ppnet_modified">'+doc['modifiedby']+', am ' +new Date(doc['modified']).toLocaleString()+'</p>'
+                      )))));
+            });
+        });
+      </script>
+    </section>
+
+<meta><log lastEditor="kneumann" date="2017-08-14" time="17:41" /></meta></MyCoReWebPage>
