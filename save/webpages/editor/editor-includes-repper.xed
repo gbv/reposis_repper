@@ -45,19 +45,21 @@
   </xed:template>
 
   <xed:template id="repper.epoch">
-    <xed:repeat xpath="mods:classification[@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/epoch'][@displayLabel='epoch']/@valueURIxEditor" min="1" max="10" method="build">
+    <xed:repeat xpath="mods:classification[@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/epoch'][@displayLabel='epoch']" min="1" max="10" method="build">
       <div class="form-group {$xed-validation-marker}">
         <label class="col-md-3 control-label">
           <xed:output i18n="editor.search.repper.epoch" />
           :
         </label>
         <div class="col-md-6">
-          <select class="form-control form-control-inline">
-            <option value="">
-              <xed:output i18n="mir.select" />
-            </option>
-            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:epoch" />
-          </select>
+          <xed:bind xpath="@valueURIxEditor">
+            <select class="form-control form-control-inline">
+              <option value="">
+                <xed:output i18n="mir.select" />
+              </option>
+              <xed:include uri="xslStyle:items2options:classification:editor:-1:children:epoch" />
+            </select>
+          </xed:bind>
         </div>
         <mir:help-pmud help-text="{i18n:repper.help.epoch}" pmud="true" />
       </div>
@@ -131,11 +133,11 @@
   </xed:template>
 
   <xed:template id="geographic">
-    <mir:geographic.repeated path="mods:subject/mods:geographic[not(@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T2')]" min="1" max="10" label="mir.geographic" help-text="{i18n:mir.help.cartographics.place}" />
+    <mir:geographic.repeated path="mods:subject[not(mods:geographic/@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T2')]/mods:geographic" min="1" max="10" label="mir.geographic" help-text="{i18n:mir.help.cartographics.place}" />
   </xed:template>
 
   <xed:template id="geographic.complex">
-    <mir:geographic.repeated path="mods:subject/mods:geographic[not(@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T2')]" min="1" max="10" label="mir.geographic" help-text="{i18n:mir.help.cartographics.place}" extended="true" />
+    <mir:geographic.repeated path="mods:subject[not(mods:geographic/@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T2')]/mods:geographic" min="1" max="10" label="mir.geographic" help-text="{i18n:mir.help.cartographics.place}" extended="true" />
   </xed:template>
 
 </xed:template>
