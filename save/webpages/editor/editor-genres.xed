@@ -38,7 +38,7 @@
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="ddc.repeat" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="identifier.isbn" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="doi.handle.urn.repeated" />
-    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.subject.simple" />
+    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="subject.simple" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_time" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_geo" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="shelfmark" />
@@ -70,7 +70,7 @@
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="ddc.repeat" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="identifier.issn" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="identifier.zdbid" />
-    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.subject.simple" />
+    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="subject.simple" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_time" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_geo" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="shelfmark" />
@@ -95,7 +95,7 @@
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="language.simple" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.epoch" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="ddc.repeat" />
-    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.subject.simple" />
+    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="subject.simple" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_time" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_geo" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="abstract.simple" />
@@ -136,7 +136,7 @@
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="language.repeated" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.epoch" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="ddc.repeat" />
-    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.subject.simple" />
+    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="subject.simple" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_time" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_geo" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="abstract.repeated" />
@@ -167,7 +167,7 @@
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="doi.handle.urn.repeated" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.epoch" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="ddc.repeat" />
-    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.subject.simple" />
+    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="subject.simple" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_time" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_geo" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="abstract.simple" />
@@ -214,7 +214,7 @@
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="doi.handle.urn.repeated" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.epoch" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="ddc.repeat" />
-    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.subject.simple" />
+    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="subject.simple" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_time" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_geo" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="abstract.simple" />
@@ -233,7 +233,7 @@
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="doi.handle.urn.repeated" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.epoch" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="ddc.repeat" />
-    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.subject.simple" />
+    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="subject.simple" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_time" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_geo" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="abstract.repeated" />
@@ -253,7 +253,7 @@
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="doi.handle.urn.repeated" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.epoch" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="ddc.repeat" />
-    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.subject.simple" />
+    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="subject.simple" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_time" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_geo" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="abstract.simple" />
@@ -273,7 +273,7 @@
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="doi.handle.urn.repeated" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.epoch" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="ddc.repeat" />
-    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.subject.simple" />
+    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="subject.simple" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_time" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_geo" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="abstract.simple" />
@@ -296,7 +296,7 @@
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="doi.handle.urn.repeated" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.epoch" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="ddc.repeat" />
-    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.subject.simple" />
+    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="subject.simple" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_time" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_geo" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="abstract.simple" />
@@ -316,7 +316,7 @@
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="date.issued.datetimepicker" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.epoch" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="ddc.repeat" />
-    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.subject.simple" />
+    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="subject.simple" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_time" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_geo" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="abstract.simple" />
@@ -338,7 +338,7 @@
     </xed:if>
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.epoch" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="ddc.repeat" />
-    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.subject.simple" />
+    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="subject.simple" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_time" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_geo" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="abstract.simple" />
@@ -365,12 +365,12 @@
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="subtitle" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="name.repeated" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="date.recorded.datetimepicker" />
-    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="geographic" />
+    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="geographic" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="cartographics" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="language.simple.noText" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.epoch" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="ddc.repeat" />
-    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.subject.simple" />
+    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="subject.simple" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_time" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_geo" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="abstract.simple" />
@@ -389,7 +389,7 @@
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="doi.handle.urn.repeated" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.epoch" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="ddc.repeat" />
-    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.subject.simple" />
+    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="subject.simple" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_time" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_geo" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="abstract.simple" />
@@ -409,8 +409,8 @@
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="language.simple.noText" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.epoch" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="ddc.repeat" />
-    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="geographic" />
-    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.subject.simple" />
+    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="geographic" />
+    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="subject.simple" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_time" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_geo" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="abstract.simple" />
@@ -430,7 +430,7 @@
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="doi.handle.urn.repeated" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.epoch" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="ddc.repeat" />
-    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.subject.simple" />
+    <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="subject.simple" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_time" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_geo" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="abstract.repeated" />

@@ -45,9 +45,9 @@
   </xed:template>
 
   <xed:template id="repper.epoch">
-    <xed:bind xpath="mods:classification[@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/epoch'][@displayLabel='epoch']/@valueURIxEditor">
+    <xed:repeat xpath="mods:classification[@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/epoch'][@displayLabel='epoch']/@valueURIxEditor" min="1" max="10" method="build">
       <div class="form-group {$xed-validation-marker}">
-        <label class="col-md-3 control-label required">
+        <label class="col-md-3 control-label">
           <xed:output i18n="editor.search.repper.epoch" />
           :
         </label>
@@ -59,17 +59,11 @@
             <xed:include uri="xslStyle:items2options:classification:editor:-1:children:epoch" />
           </select>
         </div>
-        <mir:help-pmud help-text="{i18n:repper.help.epoch}" />
+        <mir:help-pmud help-text="{i18n:repper.help.epoch}" pmud="true" />
       </div>
-    </xed:bind>
-    <xed:validate xpath="//mods:mods/mods:classification[@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/epoch'][@displayLabel='epoch']/@valueURIxEditor" required="true" i18n="repper.validation.epoch"
-      display="global" />
+    </xed:repeat>
   </xed:template>
 
-
-  <!-- mods:subject xlink:type="simple">
-    <mods:temporal authorityURI="http://perspectivia.gbv.de/api/v1/classifications/DDC_T1" valueURI="http://perspectivia.gbv.de/api/v1/classifications/DDC_T1#T1-0902" authority="ddc">Mittelalter</mods:topic>
-  </mods:subject -->
   <xed:template id="repper.ddc_time">
     <xed:bind xpath="mods:subject[mods:temporal/@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T1']">
       <div class="form-group {$xed-validation-marker}">
@@ -114,7 +108,7 @@
     </xed:bind>
   </xed:template>
 
-  <xed:template id="repper.subject.complex">
+  <xed:template id="subject.complex">
     <xed:repeat xpath="mods:subject[not(mods:geographic or mods:temporal)]" min="1" max="10">
       <fieldset>
         <div class="row mir-fieldset-legend">
@@ -130,10 +124,18 @@
     </xed:repeat>
   </xed:template>
 
-  <xed:template id="repper.subject.simple">
+  <xed:template id="subject.simple">
     <xed:bind xpath="mods:subject[not(mods:geographic/@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T2')][not(mods:temporal/@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T1')]">
       <mir:topic.repeated min="1" max="10" label="mir.subject.topic" help-text="{i18n:mir.help.subject.topic.gnd}" />
     </xed:bind>
+  </xed:template>
+
+  <xed:template id="geographic">
+    <mir:geographic.repeated path="mods:subject/mods:geographic[not(@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T2')]" min="1" max="10" label="mir.geographic" help-text="{i18n:mir.help.cartographics.place}" />
+  </xed:template>
+
+  <xed:template id="geographic.complex">
+    <mir:geographic.repeated path="mods:subject/mods:geographic[not(@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T2')]" min="1" max="10" label="mir.geographic" help-text="{i18n:mir.help.cartographics.place}" extended="true" />
   </xed:template>
 
 </xed:template>
