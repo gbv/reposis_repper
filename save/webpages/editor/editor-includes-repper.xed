@@ -67,7 +67,7 @@
   </xed:template>
 
   <xed:template id="repper.ddc_time">
-    <xed:bind xpath="mods:subject[mods:temporal/@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T1']">
+    <xed:repeat xpath="mods:subject[mods:temporal/@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T1']" min="1" max="10" method="build">
       <div class="form-group {$xed-validation-marker}">
         <label class="col-md-3 control-label">
           <xed:output i18n="editor.search.repper.ddc.time" />
@@ -83,13 +83,13 @@
             </select>
           </xed:bind>
         </div>
-        <mir:help-pmud help-text="{i18n:repper.help.ddc.time}" />
+        <mir:help-pmud help-text="{i18n:repper.help.ddc.time}" pmud="true" />
       </div>
-    </xed:bind>
+    </xed:repeat>
   </xed:template>
 
   <xed:template id="repper.ddc_geo">
-    <xed:bind xpath="mods:subject[mods:geographic/@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T2']">
+    <xed:repeat xpath="mods:subject[mods:geographic/@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T2']" min="1" max="10" method="build">
       <div class="form-group {$xed-validation-marker}">
         <label class="col-md-3 control-label">
           <xed:output i18n="editor.search.repper.ddc.geo" />
@@ -105,9 +105,9 @@
             </select>
           </xed:bind>
         </div>
-        <mir:help-pmud help-text="{i18n:repper.help.ddc.geo}" />
+        <mir:help-pmud help-text="{i18n:repper.help.ddc.geo}" pmud="true" />
       </div>
-    </xed:bind>
+    </xed:repeat>
   </xed:template>
 
   <xed:template id="subject.complex">
