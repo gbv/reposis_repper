@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
     xmlns:mcrver="xalan://org.mycore.common.MCRCoreVersion"
     xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions"
-    exclude-result-prefixes="mcrver mcrxsl">
+    exclude-result-prefixes="i18n mcrver mcrxsl">
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
   <xsl:template name="mir.navigation">
@@ -45,10 +46,15 @@
           <form action="{$WebApplicationBaseURL}servlets/solr/find" class="navbar-form navbar-left pull-right" role="search">
             <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
             <div class="form-group">
-              <input name="condQuery" placeholder="Suche" class="form-control search-query" id="searchInput" type="text" />
-              <xsl:if test="not(mcrxsl:isCurrentUserGuestUser())">
+              <input name="condQuery" placeholder="{i18n:translate('mir.navsearch.placeholder')}" class="form-control search-query" id="searchInput" type="text" />
+              <xsl:choose>
+                <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
+                  <input name="owner" type="hidden" value="createdby:*" />
+                </xsl:when>
+                <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
                 <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
-              </xsl:if>
+                </xsl:when>
+              </xsl:choose>
             </div>
           </form>
         </div>
