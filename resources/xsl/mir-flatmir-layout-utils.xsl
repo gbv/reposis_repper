@@ -7,22 +7,44 @@
     exclude-result-prefixes="i18n mcrver mcrxsl">
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
+  <xsl:param name="piwikID" select="'0'" />
+
   <xsl:template name="mir.navigation">
 
     <div id="header_box" class="clearfix container">
+      <div id="project_logo_box">
+        <a title="zur Homepage der Günter Grass Stiftung Bremen - Medienarchiv" href="http://www.grass-medienarchiv.de">
+          <img alt="Logo der Günter Grass Stiftung Bremen" src="{$WebApplicationBaseURL}images/logos/ggrass_logo.png" />
+        </a>
+      </div>
       <div id="options_nav_box" class="mir-prop-nav">
+
+        <div class="searchfield_box">
+          <form action="{$WebApplicationBaseURL}servlets/solr/find" class="navbar-form navbar-left pull-right" role="search">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+            <div class="form-group">
+              <input name="condQuery" placeholder="{i18n:translate('mir.navsearch.placeholder')}" class="form-control search-query" id="searchInput" type="text" />
+              <xsl:choose>
+                <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
+                  <input name="owner" type="hidden" value="createdby:*" />
+                </xsl:when>
+                <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
+                  <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
+                </xsl:when>
+              </xsl:choose>
+            </div>
+          </form>
+        </div>
+
         <nav>
           <ul class="nav navbar-nav pull-right">
             <xsl:call-template name="mir.loginMenu" />
-            <xsl:call-template name="mir.languageMenu" />
           </ul>
         </nav>
       </div>
-      <div id="project_logo_box">
-        <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
-           class="">
-          <img src="{$WebApplicationBaseURL}images/logos/perspectivia.png" title="" />
-        </a>
+      <div id="project_name_box">
+        <h1><a href="{$WebApplicationBaseURL}">Webdatenbank</a></h1>
+        <h2>Medienarchiv</h2>
       </div>
     </div>
 
@@ -42,28 +64,12 @@
           </button>
         </div>
 
-        <div class="searchfield_box">
-          <form action="{$WebApplicationBaseURL}servlets/solr/find" class="navbar-form navbar-left pull-right" role="search">
-            <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
-            <div class="form-group">
-              <input name="condQuery" placeholder="{i18n:translate('mir.navsearch.placeholder')}" class="form-control search-query" id="searchInput" type="text" />
-              <xsl:choose>
-                <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
-                  <input name="owner" type="hidden" value="createdby:*" />
-                </xsl:when>
-                <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
-                <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
-                </xsl:when>
-              </xsl:choose>
-            </div>
-          </form>
-        </div>
-
         <nav class="collapse navbar-collapse mir-main-nav-entries">
           <ul class="nav navbar-nav pull-left">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='series_journals']" />
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" />
+            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='browse']" />
+            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='register']/*" />
+            <!--  xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" / -->
             <xsl:call-template name="mir.basketMenu" />
           </ul>
         </nav>
@@ -73,22 +79,17 @@
   </xsl:template>
 
   <xsl:template name="mir.jumbotwo">
-    <!-- show only on startpage -->
-    <xsl:if test="//div/@class='jumbotwo'">
-      <!-- div class="jumbotron">
-        <div class="container">
-          <h1>Mit MIR wird alles gut!</h1>
-          <h2>your repository - just out of the box</h2>
-        </div>
-      </div -->
-    </xsl:if>
+    <!-- do nothing special -->
   </xsl:template>
 
   <xsl:template name="mir.footer">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12">
-          <ul class="internal_links">
+        <div class="col-md-4">
+          <p>© 2018 Günter Grass Stiftung Bremen - Medienarchiv</p>
+        </div>
+        <div class="col-md-8">
+          <ul class="internal_links nav navbar-nav">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
           </ul>
         </div>
@@ -98,11 +99,48 @@
 
   <xsl:template name="mir.powered_by">
     <xsl:variable name="mcr_version" select="concat('MyCoRe ',mcrver:getCompleteVersion())" />
-    <div id="powered_by">
-      <a href="http://www.mycore.de">
-        <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
-      </a>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="powered_by">
+            <a href="http://www.mycore.de">
+              <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="sponsored_by">
+            <a href="http://www.dfg.de">
+              <img src="{$WebApplicationBaseURL}images/logos/dfg_logo_gbv.svg" title="Die Entwicklung der Datenbank ist ein Kooperationsprojekt mit der VZG und wurde von der DFG gefördert. " alt="sponsored by DFG, hostet by VZG" />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+    <script type="text/javascript" src="{$WebApplicationBaseURL}js/jquery.cookiebar.js"></script>
+    <!-- Piwik -->
+    <xsl:if test="$piwikID &gt; 0">
+      <script type="text/javascript">
+            var _paq = _paq || [];
+            _paq.push(['setDoNotTrack', true]);
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+              var u="https://piwik.gbv.de/";
+              var objectID = '<xsl:value-of select="//site/@ID" />';
+              if(objectID != "") {
+                _paq.push(["setCustomVariable",1, "object", objectID, "page"]);
+              }
+              _paq.push(['setTrackerUrl', u+'piwik.php']);
+              _paq.push(['setSiteId', '<xsl:value-of select="$piwikID" />']);
+              _paq.push(['setDownloadExtensions', '7z|aac|arc|arj|asf|asx|avi|bin|bz|bz2|csv|deb|dmg|doc|exe|flv|gif|gz|gzip|hqx|jar|jpg|jpeg|js|mp2|mp3|mp4|mpg|mpeg|mov|movie|msi|msp|odb|odf|odg|odp|ods|odt|ogg|ogv|pdf|phps|png|ppt|qt|qtm|ra|ram|rar|rpm|sea|sit|tar|tbz|tbz2|tgz|torrent|txt|wav|wma|wmv|wpd|z|zip']);
+              var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+              g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            })();
+      </script>
+      <noscript><p><img src="https://piwik.gbv.de/piwik.php?idsite={$piwikID}" style="border:0;" alt="" /></p></noscript>
+    </xsl:if>
+    <!-- End Piwik Code -->
   </xsl:template>
 
 </xsl:stylesheet>
