@@ -24,9 +24,87 @@
             <label xml:lang="fr">Nous contacter</label>
         </item>
     </menu>
+    <menu id="about" dir="/content/about">
+        <label xml:lang="de">Über uns</label>
+        <label xml:lang="en">About us</label>
+        <item href="/content/about/index.xml" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Über perspectivia</label>
+            <label xml:lang="en">About perspectivia</label>
+        </item>
+        <item href="/content/about/institutes" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Herausgebende Institutionen</label>
+            <label xml:lang="en">Herausgebende Institutionen</label>
+            <item href="/content/about/institutes/mws.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Max Weber Stiftung – DGIA</label>
+                <label xml:lang="en">Max Weber Stiftung – DGIA</label>
+            </item>
+            <item href="/content/about/institutes/dfk.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Deutsches Forum für Kunstgeschichte Paris (DFK)</label>
+            </item>
+            <item href="/content/about/institutes/xxx.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Deutsches Historisches Institut London (GHI)</label>
+            </item>
+            <item href="/content/about/institutes/xxx.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Deutsches Historisches Institut Moskau (DHI)</label>
+            </item>
+            <item href="/content/about/institutes/xxx.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Deutsches Historisches Institut Paris (DHI)</label>
+            </item>
+            <item href="/content/about/institutes/xxx.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Deutsches Historisches Institut Rom (DHI)</label>
+            </item>
+            <item href="/content/about/institutes/xxx.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Deutsches Historisches Institut Warschau (DHI)</label>
+                <label xml:lang="en"></label>
+            </item>
+            <item href="/content/about/institutes/xxx.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Deutsches Historisches Institut Washington (GHI)</label>
+            </item>
+            <item href="/content/about/institutes/xxx.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Deutsches Institut für Japanstudien Tokio (DIJ)</label>
+            </item>
+            <item href="/content/about/institutes/xxx.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Orient-Institut Beirut (OIB)</label>
+            </item>
+            <item href="/content/about/institutes/xxx.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Orient-Institut Istanbul (OII)</label>
+            </item>
+            <item href="/content/about/institutes/xxx.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Arbeitskreis Deutsche England-Forschung (ADEF)</label>
+            </item>
+            <item href="/content/about/institutes/xxx.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Forum Transregionale Studien (TRAFO)</label>
+            </item>
+            <item href="/content/about/institutes/xxx.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Geisteswissenschaft im Dialog (GID)</label>
+            </item>
+            <item href="/content/about/institutes/xxx.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg (SPSG)</label>
+            </item>
+            <item href="/content/about/institutes/xxx.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Centre d’études franco-russe de Moscou</label>
+            </item>
+        </item>
+        <item href="/content/about/services.xml" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Services</label>
+            <label xml:lang="en">Services</label>
+        </item>
+        <item href="/content/about/redaktion.xml" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Digitale Redaktion</label>
+            <label xml:lang="en">Digitale Redaktion</label>
+        </item>
+        <item href="/content/about/partner.xml" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Partner</label>
+            <label xml:lang="en">Partner</label>
+        </item>
+        <item href="/content/about/beirat.xml" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Wissenschaftlicher Beirat</label>
+            <label xml:lang="en">Wissenschaftlicher Beirat</label>
+        </item>
+    </menu>
     <menu id="search">
-        <label xml:lang="de">Recherche</label>
-        <label xml:lang="en">Exploration</label>
+        <label xml:lang="de">Suche &amp; Blättern</label>
+        <label xml:lang="en">Search &amp; Browse</label>
         <item href="/content/search/simple.xed" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">einfach</label>
             <label xml:lang="en">simple</label>
@@ -77,12 +155,24 @@
             <label xml:lang="en">Persons</label>
         </item>
     </menu>
-    <menu id="series_journals" dir="/publikationen">
-        <label xml:lang="de">Serien &amp; Zeitschriften</label>
-        <label xml:lang="en">Series &amp; Journals</label>
-        <item href="/publikationen/series.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Serien</label>
-            <label xml:lang="en">Series</label>
+    <menu id="quicklinks" dir="/content/publications">
+        <label xml:lang="de">Quicklinks</label>
+        <label xml:lang="en">Quicklinks</label>
+        <item href="/content/publications/series.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Blogportal Weber 2.0</label>
+            <label xml:lang="en">Blogportal Weber 2.0</label>
+        </item>
+        <item href="/content/publications/series.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">OPERAS</label>
+            <label xml:lang="en">OPERAS</label>
+        </item>
+        <item href="https://quellen.perspectivia.net/" type="extern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Quellen</label>
+            <label xml:lang="en">Quellen</label>
+        </item>
+        <item href="/content/publications/series.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">ejournals</label>
+            <label xml:lang="en">ejournals</label>
         </item>
     </menu>
     <menu id="publish" dir="/content/publish">
@@ -97,8 +187,8 @@
             <label xml:lang="en">Submit new document (admin)</label>
         </item>
         <item href="/servlets/solr/select?q=createdby:USERNAME" type="intern" replaceMenu="false" constrainPopUp="false">
-          <label xml:lang="de">Eigene Aufnahmen</label>
-          <label xml:lang="en">My documents</label>
+            <label xml:lang="de">Eigene Aufnahmen</label>
+            <label xml:lang="en">My documents</label>
         </item>
         <item href="/content/publish/guidelines.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Leitlinien</label>

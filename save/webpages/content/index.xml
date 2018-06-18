@@ -1,92 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Willkommen"><div class="row">
+<div class="col-xs-12">
+<h3> </h3>
 
-  <section xml:lang="de" title="Willkommen">
+<h1><span style="color:#FF0000;">DAS IST DIE TESTINSTANZ</span></h1>
 
+<p> </p>
 
-    <div class="col-md-12 ppnet_borderbox" lang="de">
-      <h2>Neueste Veröffentlichungen</h2>
-      <!-- see also: http://jquery-howto.blogspot.de/2013/09/jquery-cross-domain-ajax-request.html -->
-      <p>Im Dokumentenserver befinden sich derzeit <span id="doc_count">[Anz]</span> Datensätze.</p>
-      <div id="last4"></div>
-    </div>
+<p><span style="color:#FF0000;">HIER KANN MAN ÜBEN - Daten werden nicht übernommen!</span></p>
 
+<h3> </h3>
 
-<div>
-<section style="clear: right;">
-<div style="float: right; width: 49%">
-<h2> perspectivia.net Publikationsserver</h2>
+<h3> </h3>
 
-<p><span style="color: rgb(34, 34, 34); font-family: &quot;Open Sans&quot;, Helvetica, Arial, sans-serif; font-size: 14px;">Der Publikationsserver von perspectivia.net veröffentlicht digitale Erstveröffentlichungen </span><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 14px;">("Open Acces Gold") und Zweitveröffentlichung ("Open Access Green") </span><span style="color: rgb(34, 34, 34); font-family: &quot;Open Sans&quot;, Helvetica, Arial, sans-serif; font-size: 14px;">der </span><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 14px;">Instituten </span><span style="color: rgb(34, 34, 34); font-family: &quot;Open Sans&quot;, Helvetica, Arial, sans-serif; font-size: 14px;">der </span><a class="external-link" href="http://www.maxweberstiftung.de/startseite.html" style="color: rgb(103, 103, 103); box-sizing: border-box; text-decoration-line: none; font-family: &quot;Open Sans&quot;, Helvetica, Arial, sans-serif; font-size: 14px;" target="_blank" title="">Max Weber Stiftung</a><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 14px;"> und ihrer Kooperationspartner. (Institutionelles Repository der Max Weber Stiftung).</span></p>
+<h3>perspectivia.net ist das digitale Publikationsportal der Max Weber Stiftung. Es bietet einen barrierefreien Zugang zu Forschungsergebnissen aus den Instituten und Partnern der MWS an. Zudem unterstützt es das Publizieren im Open Access.</h3>
 
-<p><span style="color: rgb(34, 34, 34); font-family: &quot;Open Sans&quot;, Helvetica, Arial, sans-serif; font-size: 14px;">Zu den Publikationen zählen sowohl bereits im Druck erschienene Texte (Retrodigitalisate) als auch genuine Online-Publikationen. Neben Zeitschriften, Schriftenreihen und Einzelveröffentlichungen werden auch Vorträge in Form von Audio- oder Videofiles veröffentlicht.</span></p>
-</div>
+<p>Erst- und Zweitveröffentlichungen...</p>
 
-<div style="float: right; width: 49%"><img alt="" src="blog.jpg" style="width: 100%;" /></div>
-</section>
-</div>
+<p>Unterstütztung bei der Veröffentlichung von digitalen Erstpublikationen im Sinne des open Access bei Schriftenreihen, Zeitschriften und Quelleneditionen (siehe Publikationsservices)</p>
 
-<div>
-<section style="clear: left;">
-<div style="float: left; width: 49%">
-<h2>Quellen und Datenbanken</h2>
-
-<p>Externer Link zum Quellenportal</p>
-
-<p>Quellen- und Datenbankeditionen von Instituten der Max Weber Stiftung und ihren Partnern</p>
-</div>
-
-<div style="float: right; width: 49%"><img alt="" src="blog.jpg" style="width: 100%;" /></div>
-</section>
-</div>
-
-<div>
-<div>
-<section style="clear: right;">
-<div style="float: right; width: 49%">
-<h2> Publikationsservices von perspectivia</h2>
-
-<p> Die Redaktion von perspectivia unterstützt das digitale Publizeren.....</p>
-</div>
-
-<div style="float: right; width: 49%"><img alt="" src="blog.jpg" style="width: 100%;" /></div>
-</section>
-</div>
-
-<div>
-<section style="clear: left;">
-<div style="float: left; width: 49%">
-<h2>Weber 2.0 | Wissenschaftliche Blogs der Max Weber Stiftung - externer Link</h2>
-
-<p>Weber 2.0 ist das Portal für wissenschaftliche Blogs der Max Weber Stiftung, ihrer Institute und Partner. Wir vernetzen Wissenschaftlerinnen und Wissenschaftler an den Auslandsinstituten und in den Gastländern - sowohl untereinander als auch mit den Scientific Communities in Deutschland. Weber 2.0 ist ein Stück digitale Zukunft für die Geisteswissenschaften und bietet neue, zeitgemäße Foren zur Kommunikation, Kollaboration und Präsentation von Forschung.</p>
-</div>
-
-<div style="float: right; width: 49%"><img alt="" src="blog.jpg" style="width: 100%;" /></div>
-</section>
+<p>Willkommen auf <em>perspectivia.net</em>, der Online-Publikationsplattform der Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland.<br />
+<em>perspectivia.net</em> macht ausgewählte wissenschaftliche Ergebnisse der Auslandsinstitute und ihrer Kooperationspartner barrierefrei zugänglich: Auf der Basis des Open-Access-Prinzips soll die wissenschaftliche Kommunikation weiterentwickelt und intensiviert werden.</p>
 </div>
 </div>
-</section>
 
-    <section xml:lang="all">
-      <script>
-         //funktioniert wegen Cross-Origin-Requests nur auf dem eigenen Server
-        $.getJSON('../api/v1/search?q=objectType:mods&amp;rows=4&amp;sort=modified desc&amp;wt=json',
-            function (data) {
-              $('#doc_count').text(data.response.numFound);
-
-              $(data.response.docs).each(function(i, doc){
-                let author = doc['mods.nameByRole.personal.aut'] ? doc['mods.nameByRole.personal.aut'] : '&#160;';
-                $('#last4').append($('<div class="lastmod"></div>')
-                    .append($('<table class="table"></table>').append($('<tr></tr>')
-                      .append($('<td></td>')
-                        .append('<p class="ppnet_date">'+doc['mods.dateIssued']+'</p>',
-                          '<a class="ppnet_title" href="../receive/'+doc['returnId']+'">'+doc['search_result_link_text']+'</a>',
-                          '<p class="ppnet_author">'+author[0].split(":")[0]+'</p>',
-                          '<p class="ppnet_modified">'+doc['modifiedby']+', am ' +new Date(doc['modified']).toLocaleString()+'</p>'
-                      )))));
-            });
-        });
-      </script>
-    </section>
-
-<meta><log lastEditor="kneumann" date="2017-08-14" time="17:41" /></meta></MyCoReWebPage>
+<div class="row">
+<div class="col-md-8">
+<h3 class="text-center"><br />
+ </h3>
+</div>
+</div>
+</section><meta><log lastEditor="kneumann" date="2017-08-22" time="18:23" /></meta></MyCoReWebPage>

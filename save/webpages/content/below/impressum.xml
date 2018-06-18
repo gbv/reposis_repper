@@ -1,158 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
-<MyCoReWebPage>
-  <section xml:lang="de" title="Impressum">
-    <div class="row">
-      <div class="col-md-10" lang="de">
-      <h1>Impressum</h1>
-      <p>
-        <i>perspectivia.net</i>, Publikationsplattform für die Geisteswissenschaften, ist ein
-        nicht-kommerzieller Dienst der Max Weber Stiftung – Deutsche
-        Geisteswissenschaftliche Institute im Ausland.
-        <br />
-        <br />
-        <b>Leitung</b>
-        <br />
-        Dr. Michael Kaiser
-        <br />
-        Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute
-        im Ausland
-      </p>
-      <p>
-        <a class="external-link" href="http://www.maxweberstiftung.de">
-          <img class="image-inline" alt="Logo_Max-Weber-Stiftung"
-            src="imagestor/image-19/@@images/image.jpeg" />
-        </a>
-        <br />
-        Rheinallee 6
-        <br />
-        D-53173 Bonn
-        <br />
-        Telefon +49 (0)228 37786-24
-        <br />
-        E-Mail kaiser(at)maxweberstiftung.de
-        <br />
-        <br />
-        Die Max Weber Stiftung wird gefördert durch das
-        Bundesministerium für Bildung und Forschung (BMBF)
-      </p>
-      <p>
-        <a class="external-link" href="http://www.bmbf.de/">
-          <img class="image-inline" alt="Logo_BMBF"
-            src="imagestor/image-20/@@images/image.png" />>
-        </a>
-        <br />
-        <br />
-        <b>Konzeptionierung, Programmierung und Webdesign</b>
-        <br />
-        Dr. Ruth von dem Bussche
-        <br />
-        Talstraße 116
-        <br />
-        40217 Düsseldorf
-        <br />
-        <br />
-        <b>Haftung</b>
-        <br />
-        <i>perspectivia.net</i>
-        publiziert Forschungsergebnisse und Informationen auf dieser
-        Website nach bestem Wissen und sorgfältiger Kontrolle der
-        Inhalte. Eine Gewähr für Aktualität, Richtigkeit und
-        Vollständigkeit der auf der Website veröffentlichten
-        Informationen und Verweise kann aufgrund ständiger
-        Aktualisierungen der Website nicht übernommen werden. Eine
-        Haftung für Vermögensschäden oder Vermögensfolgeschäden, die
-        durch Nutzung von Angeboten auf der Website entstehen, ist
-        ausgeschlossen, sofern
-        <i>perspectivia.net</i>
-        den Eintritt solcher Schäden nicht grob fahrlässig oder
-        vorsätzlich verursacht hat.
-        <br />
-        Externe Links, auf die
-        <i>perspectivia.net</i>
-        keinen Einfluss hat, haben informativen Charakter und geben den
-        Inhalt und die Meinung der jeweiligen Anbieter dieser Seiten
-        wieder.
-        <i>perspectivia.net</i>
-        verweist auf solche Seiten nur, ohne sich den Inhalt oder die
-        Aussagen dieser Seiten zueigen zu machen. Für eventuelle
-        Rechtsverletzungen auf diesen Seiten übernehmen wir daher keine
-        Haftung. Für den Inhalt dieser verlinkten Seiten sind
-        ausschließlich deren Betreiber verantwortlich.
-        <br />
-        Soweit inhaltliche oder sachliche Fehler auf dieser Website
-        bemerkt werden, bitten wir um eine E-Mail, um eine
-        Richtigstellung vornehmen zu können. Bei inhaltlichen oder
-        technischen Fehlern in genuin elektronisch oder
-        retrodigitalisiert zur Verfügung gestellten Publikationen wenden
-        Sie sich bitte zusätzlich direkt an die jeweilige Lokalredaktion
-        oder an die Zentralredaktion in Bonn.
-        <br />
-        <br />
-        <b>Copyright</b>
-        <br />
-        Sämtliche Inhalte dieser Website sind urheberrechtlich
-        geschützt. Unerlaubte Verwendung, Reproduktion oder Weitergabe
-        einzelner Inhalte oder Bilder können sowohl zivil- als auch
-        strafrechtlich verfolgt werden.
-        <br />
-        Die Befugnis zur Nutzung aller auf
-        <i>perspectivia.net</i>
-        bereitgestellten Inhalte (Ausnahme: retrodigitalisierte Inhalte,
-        d.h. bereits gedruckt publizierte und hier durch Scan
-        bereitgestellte Inhalte) regelt die CC-Lizenz, soweit nicht ein
-        ausdrücklicher entgegenstehender Rechtevorbehalt beim jeweiligen
-        Inhalt erfolgte. Der Lizenztext ist
-        <a class="external-link" href="http://de.wikipedia.org/wiki/Creative_Commons">hier</a>
-        im Internet abrufbar. Achtung! Für einzelne Inhalte können – je
-        nach Zeitpunkt der Veröffentlichung – unterschiedliche
-        CC-Lizenzbedingungen gelten. Die jeweils gültige CC-Lizenz wird
-        im Zusammenhang mit dem jeweiligen Inhalt gesondert verlinkt.
-        Die auf
-        <i>perspectivia.net</i>
-        retrodigitalisiert bereitgestellten Inhalte unterliegen dem
-        Urheberrechtsmodell (siehe den
-        <a
-          href="http://www.perspectivia.net/footerde/impressum/rechtshinweise-1"
-          class="external-link">Hinweis</a>
-        im Seitentemplate der Digitalisate).
-        <br />
-        <br />
-        Eine Verlinkung der Homepage von
-        <i>perspectivia.net</i>
-        darf vorgenommen werden und ist sogar ausdrücklich erwünscht.
-        Bitte verwenden Sie hierfür das hier bereitgestellte Logo.
-      </p>
-      <p>
-        <img class="image-inline" alt="Logo_perspectivia.net"
-          src="++theme++perspectivia.theme/img/perspektivia-cap.png" />
-      </p>
-      <p>
-        <b>Statistische Auswertungen mit PIWIK</b>
-        <br />
-        Diese Website benutzt Piwik, eine Open-Source-Software zur
-        statistischen Auswertung der Besucherzugriffe. Piwik verwendet
-        sog. “Cookies”, Textdateien, die auf Ihrem Computer gespeichert
-        werden und die eine Analyse der Benutzung der Website durch Sie
-        ermöglichen. Die durch den Cookie erzeugten Informationen über
-        Ihre Benutzung dieses Internetangebotes werden auf dem Server
-        des Anbieters in Deutschland gespeichert. Die IP-Adresse wird
-        sofort nach der Verarbeitung und vor deren Speicherung
-        anonymisiert. Sie können die Installation der Cookies durch eine
-        entsprechende Einstellung Ihrer Browser Software verhindern; wir
-        weisen Sie jedoch darauf hin, dass Sie in diesem Fall
-        gegebenenfalls nicht sämtliche Funktionen dieser Website
-        vollumfänglich nutzen können.
-      </p>
-      <p>
-        <b>Markeneintrag</b>
-      </p>
-      <p>perspectivia.net ist eine beim HABM / OHIM eingetragene
-        Gemeinschaftsmarke Nr. 010 827 384.</p>
-    </div></div>
-  </section>
-  <meta>
-    <log date="2017-08-11" time="11:59" labelPath=" » Impressum"
-      lastEditor="Kathleen Neumann" />
-  </meta>
-</MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Impressum"><div class="row">
+<div class="col-md-10" lang="de">
+<h1>Impressum</h1>
+
+<p><i>perspectivia.net</i>, Publikationsplattform für die Geisteswissenschaften, ist ein nicht-kommerzieller Dienst der Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland.<br />
+<br />
+<b>Leitung</b><br />
+Dr. Michael Kaiser<br />
+Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland</p>
+
+<p><a class="external-link" href="http://www.maxweberstiftung.de"><img alt="Logo_Max-Weber-Stiftung" class="image-inline" src="imagestor/image-19/@@images/image.jpeg" /> </a><br />
+Rheinallee 6<br />
+D-53173 Bonn<br />
+Telefon +49 (0)228 37786-24<br />
+E-Mail kaiser(at)maxweberstiftung.de<br />
+<br />
+Die Max Weber Stiftung wird gefördert durch das Bundesministerium für Bildung und Forschung (BMBF)</p>
+
+<p><a class="external-link" href="http://www.bmbf.de/"><img alt="Logo_BMBF" class="image-inline" src="imagestor/image-20/@@images/image.png" />&gt; </a><br />
+<br />
+<b>Konzeptionierung, Programmierung und Webdesign</b><br />
+Dr. Ruth von dem Bussche<br />
+Talstraße 116<br />
+40217 Düsseldorf<br />
+<br />
+<b>Haftung</b><br />
+<i>perspectivia.net</i> publiziert Forschungsergebnisse und Informationen auf dieser Website nach bestem Wissen und sorgfältiger Kontrolle der Inhalte. Eine Gewähr für Aktualität, Richtigkeit und Vollständigkeit der auf der Website veröffentlichten Informationen und Verweise kann aufgrund ständiger Aktualisierungen der Website nicht übernommen werden. Eine Haftung für Vermögensschäden oder Vermögensfolgeschäden, die durch Nutzung von Angeboten auf der Website entstehen, ist ausgeschlossen, sofern <i>perspectivia.net</i> den Eintritt solcher Schäden nicht grob fahrlässig oder vorsätzlich verursacht hat.<br />
+Externe Links, auf die <i>perspectivia.net</i> keinen Einfluss hat, haben informativen Charakter und geben den Inhalt und die Meinung der jeweiligen Anbieter dieser Seiten wieder. <i>perspectivia.net</i> verweist auf solche Seiten nur, ohne sich den Inhalt oder die Aussagen dieser Seiten zueigen zu machen. Für eventuelle Rechtsverletzungen auf diesen Seiten übernehmen wir daher keine Haftung. Für den Inhalt dieser verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.<br />
+Soweit inhaltliche oder sachliche Fehler auf dieser Website bemerkt werden, bitten wir um eine E-Mail, um eine Richtigstellung vornehmen zu können. Bei inhaltlichen oder technischen Fehlern in genuin elektronisch oder retrodigitalisiert zur Verfügung gestellten Publikationen wenden Sie sich bitte zusätzlich direkt an die jeweilige Lokalredaktion oder an die Zentralredaktion in Bonn.<br />
+<br />
+<b>Copyright</b><br />
+Sämtliche Inhalte dieser Website sind urheberrechtlich geschützt. Unerlaubte Verwendung, Reproduktion oder Weitergabe einzelner Inhalte oder Bilder können sowohl zivil- als auch strafrechtlich verfolgt werden.<br />
+Die Befugnis zur Nutzung aller auf <i>perspectivia.net</i> bereitgestellten Inhalte (Ausnahme: retrodigitalisierte Inhalte, d.h. bereits gedruckt publizierte und hier durch Scan bereitgestellte Inhalte) regelt die CC-Lizenz, soweit nicht ein ausdrücklicher entgegenstehender Rechtevorbehalt beim jeweiligen Inhalt erfolgte. Der Lizenztext ist <a class="external-link" href="http://de.wikipedia.org/wiki/Creative_Commons">hier</a> im Internet abrufbar. Achtung! Für einzelne Inhalte können – je nach Zeitpunkt der Veröffentlichung – unterschiedliche CC-Lizenzbedingungen gelten. Die jeweils gültige CC-Lizenz wird im Zusammenhang mit dem jeweiligen Inhalt gesondert verlinkt. Die auf <i>perspectivia.net</i> retrodigitalisiert bereitgestellten Inhalte unterliegen dem Urheberrechtsmodell (siehe den <a class="external-link" href="http://www.perspectivia.net/footerde/impressum/rechtshinweise-1">Hinweis</a> im Seitentemplate der Digitalisate).<br />
+<br />
+Eine Verlinkung der Homepage von <i>perspectivia.net</i> darf vorgenommen werden und ist sogar ausdrücklich erwünscht. Bitte verwenden Sie hierfür das hier bereitgestellte Logo.</p>
+
+<p><img alt="Logo_perspectivia.net" class="image-inline" src="++theme++perspectivia.theme/img/perspektivia-cap.png" /></p>
+
+<p><b>Statistische Auswertungen mit PIWIK</b><br />
+Diese Website benutzt Piwik, eine Open-Source-Software zur statistischen Auswertung der Besucherzugriffe. Piwik verwendet sog. “Cookies”, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieses Internetangebotes werden auf dem Server des Anbieters in Deutschland gespeichert. Die IP-Adresse wird sofort nach der Verarbeitung und vor deren Speicherung anonymisiert. Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich nutzen können.</p>
+
+<p><b>Markeneintrag</b></p>
+
+<p>perspectivia.net ist eine beim HABM / OHIM eingetragene Gemeinschaftsmarke Nr. 010 827 384.</p>
+
+<p> </p>
+
+<div class="col-xs-12 col-md-offset-1 col-sm-4 col-md-4 footer-info">
+<div class="row">
+<div class="media">
+<div class="col-xs-10 col-md-9 media-body">
+<h4 class="media-heading">Max Weber Stiftung</h4>
+<a alt="Max Weber Stiftung" href="http://www.maxweberstiftung.de/" target="_blank" title="Max Weber Stiftung">Kontakt</a></div>
+
+<div class="col-xs-2 col-md-3 media-right"><a href="http://www.maxweberstiftung.de/" target="_blank"><img alt="Max-Weber-Stiftung-Logo" class="media-object img-responsive" src="http://www.perspectivia.net/++theme++perspectivia.theme/img/Max-Weber-Stiftung-Logo.png" title="Max-Weber-Stiftung-Logo" /> </a></div>
+</div>
+
+<div class="divider"> </div>
+
+<div class="media">
+<div class="col-xs-10 col-md-9 media-body">
+<h4 class="media-heading">Die Max Weber Stiftung wird gefördert durch das</h4>
+<a alt="Bundesministerium für Bildung und Forschung (BMBF)" href="http://www.bmbf.de/" target="_blank" title="Bundesministerium für Bildung und Forschung (BMBF)">Bundesministerium für Bildung und Forschung (BMBF)</a></div>
+
+<div class="col-xs-2 col-md-3 media-right"><a href="http://www.bmbf.de/" target="_blank"><img alt="BMBF-Logo" class="media-object img-responsive" src="http://www.perspectivia.net/++theme++perspectivia.theme/img/BMBF-Logo.png" style="height: 103px; width: 200px; border-width: 10px; border-style: solid; float: left;" title="Bundesministerium für Bildung und Forschung (BMBF)" /> </a></div>
+</div>
+
+<div class="divider"> </div>
+
+<div class="media">
+<div class="col-xs-10 col-md-9 media-body">
+<h4 class="media-heading"> </h4>
+
+<h4 class="media-heading"> </h4>
+
+<h4 class="media-heading"> </h4>
+
+<h4 class="media-heading">perspectivia.net kooperiert mit der</h4>
+<a alt="Bayerischen Staatsbibliothek in München" href="http://www.bsb-muenchen.de/" target="_blank" title="Bayerischen Staatsbibliothek in München">Bayerischen Staatsbibliothek in München</a></div>
+
+<div class="col-xs-2 col-md-3 media-right"><a href="http://www.bsb-muenchen.de/" target="_blank"><img alt="Bayerischen Staatsbibliothek in München" class="media-object img-responsive" src="http://www.perspectivia.net/++theme++perspectivia.theme/img/bsb.png" style="height: 34px; width: 200px; border-width: 10px; border-style: solid; float: left;" title="Bayerischen Staatsbibliothek in München" /> </a></div>
+</div>
+
+<div class="divider"> </div>
+</div>
+</div>
+</div>
+</div>
+</section><meta><log lastEditor="kneumann" date="2018-03-20" time="10:34" /></meta></MyCoReWebPage>

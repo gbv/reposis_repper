@@ -13,8 +13,8 @@
 
     <div id="header_box" class="clearfix container">
       <div id="project_logo_box">
-        <a title="zur Homepage der Günter Grass Stiftung Bremen - Medienarchiv" href="http://www.grass-medienarchiv.de">
-          <img alt="Logo der Günter Grass Stiftung Bremen" src="{$WebApplicationBaseURL}images/logos/ggrass_logo.png" />
+        <a title="zur Homepage" href="http://www.perspectivia.net">
+          <img alt="Logo perspectivia.net" src="{$WebApplicationBaseURL}images/logos/ggrass_logo.png" />
         </a>
       </div>
       <div id="options_nav_box" class="mir-prop-nav">
@@ -43,8 +43,8 @@
         </nav>
       </div>
       <div id="project_name_box">
-        <h1><a href="{$WebApplicationBaseURL}">Webdatenbank</a></h1>
-        <h2>Medienarchiv</h2>
+        <h1><a href="{$WebApplicationBaseURL}">Publikationsplattform der Max-Weber-Stiftung</a></h1>
+        <h2>perspectivia.net</h2>
       </div>
     </div>
 
@@ -66,10 +66,10 @@
 
         <nav class="collapse navbar-collapse mir-main-nav-entries">
           <ul class="nav navbar-nav pull-left">
+            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']" />
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='browse']" />
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='register']/*" />
-            <!--  xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" / -->
+            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='quicklinks']" />
+            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" />
             <xsl:call-template name="mir.basketMenu" />
           </ul>
         </nav>
@@ -86,7 +86,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <p>© 2018 Günter Grass Stiftung Bremen - Medienarchiv</p>
+          <p>© 2018 perspectivia.net</p>
         </div>
         <div class="col-md-8">
           <ul class="internal_links nav navbar-nav">
