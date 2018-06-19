@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<navigation hrefStartingPage="/content/index.xml" dir="/content" template="template_mir">
+<navigation hrefStartingPage="/content/editors.xml" dir="/content" template="template_mir">
     <menu id="brand" dir="/content/brand">
         <label xml:lang="de">Hauptmenü</label>
         <label xml:lang="en">Main menu</label>
@@ -31,7 +31,7 @@
             <label xml:lang="de">Über perspectivia</label>
             <label xml:lang="en">About perspectivia</label>
         </item>
-        <item href="/content/about/institutes" replaceMenu="false" constrainPopUp="false">
+        <item href="/content/about/institutes.xml" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Herausgebende Institutionen</label>
             <label xml:lang="en">Herausgebende Institutionen</label>
             <item href="/content/about/institutes/mws.xml" replaceMenu="false" constrainPopUp="false">
@@ -158,7 +158,7 @@
     <menu id="quicklinks" dir="/content/publications">
         <label xml:lang="de">Quicklinks</label>
         <label xml:lang="en">Quicklinks</label>
-        <item href="/content/publications/blogportal.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+        <item href="https://mws.hypotheses.org/" type="extern" target="_blank" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Blogportal Weber 2.0</label>
             <label xml:lang="en">Blogportal Weber 2.0</label>
         </item>
