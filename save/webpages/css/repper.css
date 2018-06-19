@@ -1,45 +1,21 @@
-/* latin */
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
-  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://webfonts.gbv.de/web/fonts/a4cba43af88684a87a503d4185926dfd.woff) format('woff');
 }
-/* latin */
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://webfonts.gbv.de/web/fonts/7324c51b10346549f17e156c32c90a28.woff) format('woff');
 }
-/* latin */
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://webfonts.gbv.de/web/fonts/f04d839bca9e0761a9d4ba23810b2313.woff) format('woff');
 }
-
-/* latin */
-@font-face {
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(https://fonts.gstatic.com/s/robotoslab/v6/y7lebkjgREBJK96VQi37Zo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-/* latin */
-@font-face {
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url(https://fonts.gstatic.com/s/robotoslab/v6/dazS1PrQQuCxC3iOAJFEJUo2lTMeWA_kmIyWrkNCwPc.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
 
 /* ****************** searchfield_box ******************* */
 .searchfield_box {
@@ -71,11 +47,6 @@ html {
 body {
   margin-bottom: 160px; /* Margin bottom by footer height */
   font-weight: 300;
-}
-
-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 label {
@@ -124,6 +95,11 @@ label {
 .mir-main-nav nav .navbar-nav .dropdown-menu > .active > a:focus {
     color: #62a0a8;
 }
+.mir-main-nav nav .navbar-nav > li > a:hover,
+.mir-main-nav nav .navbar-nav .dropdown-menu > li > a:hover,
+.mir-main-nav nav .navbar-nav .dropdown-menu > li > a:focus {
+  background-color: #89c0c0;
+}
 .mir-main-nav {
     box-shadow: unset;
 }
@@ -159,21 +135,6 @@ label {
   border-top: 1px solid #99d3d9;
   padding-top: 9px;
   padding-bottom: 9px;
-}
-
-.mir-main-nav nav .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus,
-.mir-main-nav nav .navbar-nav .dropdown-menu > li > a:hover,
-.mir-main-nav nav .navbar-nav .dropdown-menu > li > a:focus {
-    background-color: #b1dbd6;
-}
-
-
-/* ********************* index page ********************* */
-#ggrass_index h1 {
-  margin: 28px 0 79px 0;
 }
 
 
