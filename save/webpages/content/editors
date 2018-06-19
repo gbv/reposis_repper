@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage>
+  <section xml:lang="de" title="Willkommen">
+    <div class="row">
+      <div class="col-xs-12">
+        <h3> </h3>
+        <h1>
+          <span style="color:#FF0000;">DAS IST DIE TESTINSTANZ</span>
+        </h1>
+        <p> </p>
+        <p>
+          <span style="color:#FF0000;">HIER KANN MAN ÜBEN - Daten werden nicht übernommen!</span>
+        </p>
+        <h3> </h3>
+        <h3> </h3>
+        <h3>perspectivia.net ist das digitale Publikationsportal der Max Weber Stiftung. Es bietet einen barrierefreien Zugang zu Forschungsergebnissen aus den Instituten und Partnern der MWS an. Zudem unterstützt es das Publizieren im Open Access.</h3>
+        <p>Erst- und Zweitveröffentlichungen...</p>
+        <p>Unterstütztung bei der Veröffentlichung von digitalen Erstpublikationen im Sinne des open Access bei Schriftenreihen, Zeitschriften und Quelleneditionen (siehe Publikationsservices)</p>
+        <p>
+          Willkommen auf
+          <em>perspectivia.net</em>
+          , der Online-Publikationsplattform der Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland.
+          <br />
+          <em>perspectivia.net</em>
+          macht ausgewählte wissenschaftliche Ergebnisse der Auslandsinstitute und ihrer Kooperationspartner barrierefrei zugänglich: Auf der Basis des Open-Access-Prinzips soll die wissenschaftliche Kommunikation weiterentwickelt und intensiviert werden.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <h3 class="text-center">
+          <br />
+           
+        </h3>
+      </div>
+    </div>
+  </section>
+  <meta>
+    <log lastEditor="kneumann" date="2017-08-22" time="18:23" />
+  </meta>
+</MyCoReWebPage>
