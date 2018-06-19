@@ -83,10 +83,10 @@ label {
   position: inherit;
   min-height: 30px;
   background-color: white;
-  border-top: 6px solid #83B4BA;
+  border-top: 6px solid #aad2d2;
 }
 .navbar-default .navbar-nav > li {
-  background-color: #83B4BA;
+  background-color: #aad2d2;
 }
 .mir-main-nav nav .navbar-nav .dropdown-menu > .active > a {
   background-color: #62a0a8;
@@ -117,13 +117,13 @@ label {
   border-left: 1px solid #fff;
 }
 .mir-main-nav nav .navbar-nav > li > a:hover .caret {
-    border-top-color: #83B4BA !important;
+    border-top-color: #aad2d2 !important;
 }
 .mir-main-nav nav .navbar-nav .dropdown-menu::before {
-    border-color: transparent transparent #83B4BA transparent;
+    border-color: transparent transparent #aad2d2 transparent;
 }
 .mir-main-nav nav .navbar-nav .dropdown-menu {
-  background-color: #83B4BA;
+  background-color: #aad2d2;
   border: 0px !important;
   border-radius: 0 !important;
   box-shadow: 0 0 0 !important;
@@ -153,7 +153,7 @@ html body header #header_box {
 }
 
 #project_name_box h1 > a {
-  color: #83b4ba;
+  color: #aad2d2;
   font-size: 34px;
   font-weight: 300;
 }
@@ -214,7 +214,7 @@ html body footer .internal_links {
   width: 100%;
   height: 130px; /* Set the fixed height of the footer here */
   background-color: #F8F8F8;
-  border-top: 3px solid #83B4BA;
+  border-top: 3px solid #aad2d2;
   color: #676767;
   font-size: 14px;
 }
@@ -223,7 +223,7 @@ html body footer .internal_links {
 .flatmir-footer .nav > li > a:hover,
 .flatmir-footer .nav > li > a:focus {
   background-color: #F8F8F8;
-  color: #83B4BA;
+  color: #aad2d2;
   padding: 0px 4px;
   border-right: 1px solid #666666;
   line-height: 14px;
@@ -298,43 +298,10 @@ html body footer .internal_links {
 
 
 /* ********************** metadata ********************** */
-#headline {
-  margin-bottom: 62px;
-}
 #headline h1 {
   font-size: 30px;
   line-height: 36px;
 }
-#ggrass_databaseID {
-  margin-top: 26px;
-}
-#ggrass_databaseID img {
-  display: block;
-  margin: 18px 0;
-}
-.ggrass_content_block {
-  margin-bottom: 40px;
-}
-.ggrass_content_block > div:nth-child(1) {
-  color: #83b5af;
-  font-weight: 400;
-}
-.ggrass_bborder {
-  border-bottom: 1px solid #83b5af;
-}
-.ggrass_hr {
-  margin-top: 13px;
-  border-color: #83b5af;
-}
 .mir-player {
   margin-top: 46px;
-}
-#ggrass-title-metadata {
-  margin-top: 50px;
-}
-#ggrass_subject {
-  margin-top: 40px;
-}
-#ggrass-title-metadata .row {
-  margin-bottom: 16px;
 }
