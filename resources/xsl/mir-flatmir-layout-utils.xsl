@@ -13,7 +13,7 @@
 
     <div id="header_box" class="clearfix container">
       <div id="project_logo_box">
-        <a title="zur Homepage" href="http://www.perspectivia.net">
+        <a title="zur Homepage" href="{$WebApplicationBaseURL}">
           <img alt="Logo perspectivia.net" src="{$WebApplicationBaseURL}images/logos/perspectivia_logo_p.png" />
           <span id="pp_logo_title">erspectivia</span><span id="pp_suffix">.net</span><br />
           <span id="pp_logo_subtitle">Die Publikationsplattform der Max-Weber-Stiftung</span>

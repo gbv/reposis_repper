@@ -185,10 +185,6 @@ html body header #header_box #project_logo_box {
   line-height: 0.8;
 }
 
-#project_logo_box #pp_suffix {
-  color: #ef7f00;
-}
-
 #project_logo_box #pp_logo_title, #project_logo_box #pp_suffix {
   color: #495353;
   font-size: 56px;
@@ -200,6 +196,10 @@ html body header #header_box #project_logo_box {
   font-size: 17px;
   font-weight: 400;
   letter-spacing: 0.19px;
+  line-height: 2.1;
+}
+#project_logo_box #pp_suffix {
+  color: #ef7f00;
 }
 
 #project_logo_box img {
@@ -211,7 +211,11 @@ html body header #header_box #project_logo_box {
 }
 
 .searchfield_box .form-group {
-    border-bottom: 1px solid #aeb6c0;
+    border-bottom: 0px solid #aeb6c0;
+}
+
+.searchfield_box .form-control::-moz-placeholder {
+  font-weight: 700;
 }
 
 /* *********************** footer *********************** */
