@@ -14,7 +14,9 @@
     <div id="header_box" class="clearfix container">
       <div id="project_logo_box">
         <a title="zur Homepage" href="http://www.perspectivia.net">
-          <img alt="Logo perspectivia.net" src="{$WebApplicationBaseURL}images/logos/perspectivia_logo_complete.png" />
+          <img alt="Logo perspectivia.net" src="{$WebApplicationBaseURL}images/logos/perspectivia_logo_p.png" />
+          <span id="pp_logo_title">erspectivia</span><span id="pp_suffix">.net</span><br />
+          <span id="pp_logo_subtitle">Die Publikationsplattform der Max-Weber-Stiftung</span>
         </a>
       </div>
       <div id="options_nav_box" class="mir-prop-nav">
@@ -42,10 +44,6 @@
             <xsl:call-template name="mir.languageMenu" />
           </ul>
         </nav>
-      </div>
-      <div id="project_name_box">
-        <h1><a href="{$WebApplicationBaseURL}">Publikationsplattform der Max-Weber-Stiftung</a></h1>
-        <h2>perspectivia.net</h2>
       </div>
     </div>
 

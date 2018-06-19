@@ -20,11 +20,12 @@
 /* ****************** searchfield_box ******************* */
 .searchfield_box {
   position: absolute;
-  left: 0;
+  right: 0;
+  top: 57px;
 }
 
 .searchfield_box .btn-primary {
-  color: #c3324d;
+  color: #0a6e78;
   background-color: white;
   border-width: 0px;
   margin: 0 0 0 15px;
@@ -150,7 +151,7 @@ html body header #header_box {
   position: relative;
   /* background: #ffffff url('../images/guenter_grass.png') no-repeat 83% top; */
   background-size: contain;
-  height: 210px;
+  height: 122px;
 }
 
 #project_name_box {
@@ -176,10 +177,33 @@ html body header #header_box {
 }
 
 html body header #header_box #project_logo_box {
+  width: 500px;
   position: absolute;
-  right: 15px;
-  top: 85px;
+  left: 15px;
+  top: 27px;
   float: none;
+  line-height: 0.8;
+}
+
+#project_logo_box #pp_suffix {
+  color: #ef7f00;
+}
+
+#project_logo_box #pp_logo_title, #project_logo_box #pp_suffix {
+  color: #495353;
+  font-size: 56px;
+  font-weight: 400;
+  letter-spacing: 0.62px;
+}
+#project_logo_box #pp_logo_subtitle {
+  color: #707070;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.19px;
+}
+
+#project_logo_box img {
+    float: left;
 }
 
 .mir-prop-nav {
