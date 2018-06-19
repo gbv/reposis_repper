@@ -73,7 +73,7 @@ label {
     position: relative;
 }
 .mir-main-nav nav .navbar-nav {
-  margin: 0px 0px 0px 200px;
+  margin: 0px 0px 0px 0px;
 }
 .mir-main-nav .navbar-header {
   float: right;
@@ -81,9 +81,10 @@ label {
 }
 .navbar {
   position: inherit;
-  min-height: 30px;
+  min-height: 47px;
   background-color: white;
-  border-top: 6px solid #aad2d2;
+  border-top: 11px solid #aad2d2;
+  border-bottom: 1px solid #aad2d2;
 }
 .navbar-default .navbar-nav > li {
   background-color: #aad2d2;
@@ -103,12 +104,16 @@ label {
 .mir-main-nav {
     box-shadow: unset;
 }
+.mir-main-nav nav .navbar-nav > li > a {
+    font-weight: bold;
+    font-size: 20px;
+}
 .mir-main-nav nav .navbar-nav .dropdown-menu > li > a:hover,
 .mir-main-nav nav .navbar-nav .dropdown-menu > li > a,
 .mir-main-nav .navbar-nav > li > a {
   font-size: 14px;
   font-weight: 400;
-  line-height: 17px;
+  line-height: inherit;
 }
 .mir-main-nav .nav > li > a {
   padding: 9px 21px;
@@ -304,4 +309,16 @@ html body footer .internal_links {
 }
 .mir-player {
   margin-top: 46px;
+}
+
+
+
+
+.hit_oa > span.label-success {
+  background-color: #24780a;
+}
+.text-success, .result_body .result_filter .panel.oa li[data-fq="worldReadableComplete:true"] .title,
+.text-success:hover,
+.result_body .result_filter .panel.oa li[data-fq="worldReadableComplete:true"] .title:hover {
+  color: #24780a;
 }

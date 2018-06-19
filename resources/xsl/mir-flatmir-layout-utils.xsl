@@ -14,7 +14,7 @@
     <div id="header_box" class="clearfix container">
       <div id="project_logo_box">
         <a title="zur Homepage" href="http://www.perspectivia.net">
-          <img alt="Logo perspectivia.net" src="{$WebApplicationBaseURL}images/logos/ggrass_logo.png" />
+          <img alt="Logo perspectivia.net" src="{$WebApplicationBaseURL}images/logos/perspectivia_logo_complete.png" />
         </a>
       </div>
       <div id="options_nav_box" class="mir-prop-nav">
