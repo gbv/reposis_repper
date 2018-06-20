@@ -109,14 +109,13 @@
         </div>
         <div class="col-md-6">
           <div id="sponsored_by">
-            <a href="http://www.dfg.de">
+            <!-- a href="http://www.dfg.de">
               <img src="{$WebApplicationBaseURL}images/logos/dfg_logo_gbv.svg" title="Die Entwicklung der Datenbank ist ein Kooperationsprojekt mit der VZG und wurde von der DFG gefördert. " alt="sponsored by DFG, hostet by VZG" />
-            </a>
+            </a -->
           </div>
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="{$WebApplicationBaseURL}js/jquery.cookiebar.js"></script>
     <!-- Piwik -->
     <xsl:if test="$piwikID &gt; 0">
       <script type="text/javascript">
