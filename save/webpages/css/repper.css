@@ -52,7 +52,7 @@ html {
 }
 
 body {
-  margin-bottom: 160px; /* Margin bottom by footer height */
+  margin-bottom: 500px; /* Margin bottom by footer height */
   font-weight: 300;
 }
 
@@ -241,16 +241,17 @@ html body header #header_box #project_logo_box {
 
 /* *********************** footer *********************** */
 html body #powered_by {
-  background-color: #F8F8F8;
+  background-color: transparent;
   border: none;
-  text-align: left;
+  text-align: center;
   padding: 0;
   margin-top: 10px;
 }
 
-html body #sponsored_by {
-  margin-top: 10px;
-  text-align: right;
+html body #copyright_by {
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 13px;
 }
 
 html body footer .internal_links {
@@ -266,8 +267,8 @@ html body footer .internal_links {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 130px; /* Set the fixed height of the footer here */
-  background-color: #F8F8F8;
+  height: 500px; /* Set the fixed height of the footer here */
+  background: linear-gradient(180deg, white 85%, #38322d 15%);
   border-top: 3px solid #aad2d2;
   color: #676767;
   font-size: 14px;
@@ -290,6 +291,11 @@ html body footer .internal_links {
 .flatmir-footer .nav > li > a:hover,
 .flatmir-footer .nav > li > a:focus {
   text-decoration: underline;
+}
+
+.flatmir-footer .footer-wrapper {
+  margin-bottom: 60px;
+  margin-top: 50px;
 }
 
 
