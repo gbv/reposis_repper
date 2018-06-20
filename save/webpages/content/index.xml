@@ -1,52 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
     <section xml:lang="de" title="Willkommen">
+
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-12" lang="de">
+                <h1>Die Publikationsplattform perspectivia.net</h1>
+                <p>
+                    In den Publikationsreihen auf perspectivia.net finden sich sowohl bereits im Druck erschienene
+                    Texte (Retrodigitalisate) als auch genuine Online-Publikationen.
+                </p>
+            </div>
+        </div>
+
+        <div class="row" id="pp_index_boxes">
+            <div class="col-md-4" lang="de">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title" style="width:100%">
+                            Publikationsplattform
+                        </h2>
+                    </div>
+                    <div class="panel-body">
+                        Digitale erst- und Zweitveröffentlichungen der Institute der Max Weber Stiftung und ihren
+                        Partnern. Neben Zeitschriften, Schriftenreihen und Einzelveröffentlichungen werden auch
+                        Vorträge in Form von Audio- oder Videofiles veröffentlicht.
+                        <br /><br />
+                    </div>
+                    <div class="panel-footer pp_more">
+                        <a href="search/simple.xed"><strong>... zur Suche</strong></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">
+                            Quellen und Datenbanken
+                        </h2>
+                    </div>
+                    <div class="panel-body">
+                        Digitalisierte Quellensammlungen, historische Datenbestände und kritische Editionen aus der
+                        Forschungsarbeit der Institute und ihrer Partner.
+                        <br /><br /><br /><br />
+                    </div>
+                    <div class="panel-footer pp_more">
+                        <a href="publications/sources.xml"><strong>... zur Übersicht</strong></a>
+                        <img src="../images/external_link.png" style="padding-left:4px;vertical-align: top;" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">
+                            Digitale Zeitschriften
+                        </h2>
+                    </div>
+                    <div class="panel-body">
+                        Die Plattform perspectivia.net bietet einen Publikationsservice für frei zugängliche Online-Zeitschriften an.
+                        Auf Basis der Open Source-Software Open Journal Systems (OJS) haben die Institute der Max Weberstiftung die
+                        Möglichkeit E-Journals herauszugeben.
+                    </div>
+                    <div class="panel-footer pp_more">
+                        <a href="publications/journals.xml"><strong>... zur Übersicht</strong></a>
+                        <img src="../images/external_link.png" style="padding-left:4px;vertical-align: top;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-xs-12" lang="de">
+                
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
                     </ol>
                     
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="../images/logos/perspectivia_logo_complete.png" alt="Logo perspectivia.net" />
+                            <img src="../images/logos/francia-recensio.png" alt="Cover Rezensionsjournal Francia-Recensio" style="width:170px;padding-bottom: 90px;" />
                             <div class="carousel-caption">
-                                <h1>Die Publikationsplattform perspectivia.net</h1>
+                                <h1>Francia-Recensio</h1>
                                 <p>
-                                    Die elektronische Publikationsplattform perspectivia.net ist das internationale, epochenübergreifende und interdisziplinäre Portal
-                                    der Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland. Die Open-Access-Veröffentlichungen auf perspectivia.net
-                                    werden von den Instituten der Max Weber Stiftung und ihren Kooperationspartnern herausgegeben. Hinzu kommen institutsübergreifende
-                                    Publikationen. Hier finden Sie weitere Informationen zu den Herausgebern.
+                                    Das digitale Rezensionsjournal »Francia-Recensio«, herausgegeben vom Deutschen Historischen Institut Paris, erscheint
+                                    pro Jahr in vier Aus&#173;gaben. Besprochen werden – in deutscher, französischer und englischer Sprache – Werke zur
+                                    westeuropäischen Geschichte. Seit Ausgabe 3/2017 erscheint Francia-Recensio im neuen Gewand.
                                 </p>
-                                <p class="pull-right">
-                                    <a href="#">Mehr ...</a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="../images/logos/perspectivia_logo_complete.png" alt="Logo perspectivia.net" />
-                            <div class="carousel-caption">
-                                <h1>Zu den Inhalten</h1>
                                 <p>
-                                    In den Publikationsreihen auf perspectivia.net finden sich sowohl bereits im Druck erschienene Texte (Retrodigitalisate) als auch genuine
-                                    Online-Publikationen. Es sind alle wissenschaftlichen Textsorten vertreten, von Zeitschriften, Monographien und Sammelbänden über Werkstatt-
-                                    und Tagungsberichte bis hin zu Einzelvorträgen und Rezensionen. Darüber hinaus präsentiert die Plattform umfängliches Bildmaterial, aber
-                                    auch Audio- und Videofiles. Da die Grundlagenforschung ein besonderes Förderanliegen der Max Weber Stiftung darstellt, stellt perspectivia.net
-                                    vermehrt Datenbanklösungen für die Präsentation von Quelleneditionen bereit.
+                                    Erstmalig sind alle Rezensionen mit einer DOI versehen, die für jeden einzelnen Text als verbindlicher und permanenter
+                                    Zitationsnachweis gilt. Für die Umsetzung mit der Software Open Journal Systems kooperiert perspectivia.net mit der
+                                    Universitätsbibliothek Heidelberg.
+                                </p>
+                                <p>
+                                    Ältere Ausgaben von »Francia-Recensio« sind auf der Publikationsplattform perspectivia.net zugänglich.<br />
+                                    Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/frrec/"
+                                        >http://journals.ub.uni-heidelberg.de/index.php/frrec/</a>
                                 </p>
                             </div>
                         </div>
                         <div class="item">
-                            <img src="../images/logos/perspectivia_logo_complete.png" alt="Logo perspectivia.net" />
+                            <img src="../images/logos/francia.jpg" alt="Cover der Zeitschrift Francia" style="width:170px;padding-bottom: 90px;" />
                             <div class="carousel-caption">
-                                <h1>Headline</h1>
+                                <h1>Francia</h1>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                                    Die Zeitschrift »Francia. Forschungen zur westeuropäischen Geschichte« erscheint einmal jährlich in einem Band von ca.
+                                    500 Seiten in gedruckter Form und seit Band 39 (2012) auch als E-Book. Sie enthält Beiträge in deutscher, französischer
+                                    oder englischer Sprache. Für den Aufsatzteil gibt es zudem dreisprachige Resümees. Über die Annahme der Beiträge
+                                    entscheidet ein internationales Gutachtergremium im Peer-Review-Verfahren. Die Rezensionen werden seit Band 35 (2008) in
+                                    vier Ausgaben pro Jahr online als Francia-Recensio veröffentlicht.
+                                </p>
+                                <p>
+                                    Die seit 1973 erschienenen Bände der »Francia« sind mit einer Moving Wall von einem Jahr retrodigitalisiert
+                                    <a href="http://journals.ub.uni-heidelberg.de/index.php/fr/">hier</a> und über perspectivia.net kostenfrei zugänglich.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../images/logos/fantin-latour_scholder.png" alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" style="padding-bottom: 200px;" />
+                            <div class="carousel-caption">
+                                <h1 style="margin-bottom: 10px;">Briefwechsel Fantin-Latour &amp; Scholderer</h1>
+                                <h2 style="margin-top: 0px;margin-bottom: 30px;">DFK Paris</h2>
+                                <p>
+                                    Henri Fantin-Latour und Otto Scholderer verband seit ihrer Begegnung 1848 in Paris bis ins Jahr 1900 hinein eine intensive
+                                    Brieffreundschaft. Die beiden Künstler haben sich dabei über ihre Sicht auf die Politik ihrer Zeit, die Ausübung ihrer Kunst
+                                    sowie ältere und zeitgenössische Künstler ausgetauscht.  Die 306 auf Französisch verfassten Briefe, die die Korrespondenz
+                                    zwischen Henri Fantin-Latour und Otto Scholderer umfasst, werden von der Stiftung Custodia und der Universitätsbibliothek
+                                    Frankfurt aufbewahrt. Die handschriftlichen Originaldokumente wurden ab 2004 im Rahmen eines von Thomas W. Gaehtgens
+                                    geleiteten und vom Deutschen Forum für Kunstgeschichte in Paris finanzierten Forschungsprojekts von Mathilde Arnoux und Anne
+                                    Tempelaere-Panzani vollständig transkribiert und mit kritischen Anmerkungen versehen.
+                                </p>
+                                <p>
+                                    Briefedition digital: <a href="https://www.perspectivia.net/quellen/fantin-scholderer">Correspondance Fantin-Latour &amp; Scholderer</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../images/logos/pacelli.jpg" alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" style="padding-bottom: 200px;" />
+                            <div class="carousel-caption">
+                                <h1 style="margin-bottom: 10px;">Pacelli – Nuntiaturberichte 1917-29</h1>
+                                <h2 style="margin-top: 0px;margin-bottom: 30px;">Deutsches Historisches Institut Rom</h2>
+                                <p>
+                                    Eugenio Pacelli, der spätere Papst Pius XII. (1939-1958), ist eine der bekanntesten und umstrittensten Persönlichkeiten des
+                                    20. Jahrhunderts. Die Berichte Pacellis (etwa 5.500) und die Weisungen aus Rom an den Nuntius in Deutschland (etwa 4.100)
+                                    werden in Zusammenarbeit mit dem Vatikanischen Geheimarchiv und dem Deutschen Historischen Institut in Rom komplett mit
+                                    Anlagen (etwa 4.500) erfasst, kritisch ediert, kommentiert, ausgewertet und Wissenschaftlern ebenso wie einer breiten
+                                    internationalen Öffentlichkeit zugänglich gemacht.  
+                                </p>
+                                <p>
+                                    Zur Datenbank: <a href="http://www.pacelli-edition.de/index_pacelli.html">http://www.pacelli-edition.de/index_pacelli.html</a>
                                 </p>
                             </div>
                         </div>

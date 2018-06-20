@@ -16,7 +16,7 @@
         <a title="zur Homepage" href="{$WebApplicationBaseURL}">
           <img alt="Logo perspectivia.net" src="{$WebApplicationBaseURL}images/logos/perspectivia_logo_p.png" />
           <span id="pp_logo_title">erspectivia</span><span id="pp_suffix">.net</span><br />
-          <span id="pp_logo_subtitle">Die Publikationsplattform der Max-Weber-Stiftung</span>
+          <span id="pp_logo_subtitle"><xsl:value-of select="i18n:translate('pp.subtitle')"/></span>
         </a>
       </div>
       <div id="options_nav_box" class="mir-prop-nav">
@@ -82,33 +82,132 @@
   </xsl:template>
 
   <xsl:template name="mir.footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <p>© 2018 perspectivia.net</p>
-        </div>
-        <div class="col-md-8">
-          <ul class="internal_links nav navbar-nav">
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
-          </ul>
+    
+    <div class="container footer-wrapper">  
+      <footer id="footer">
+        <div id="portal-siteactions">
+        <!-- footer-siteactions -->
+        <div class="row">
+          <div class="col-lg-12 footer-sitemap">
+            <div class="col-xs-12 col-sm-4 col-md-3">
+              <div class="media">
+                <div class="col-xs-2 col-md-3 media-right">
+                  <a title="zur Homepage" href="{$WebApplicationBaseURL}">
+                    <img alt="Logo perspectivia.net" src="{$WebApplicationBaseURL}images/logos/perspectivia_logo_complete.png" />
+                  </a>
+                </div>
+              </div> 
+              <div class="footer-list col-md-12">
+                <ul id="" class="nav nav-pills nav-stacked">
+                  <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
+                </ul>
+              </div><!-- footer-list--> 
+            </div><!-- col-lg-3 -->
+            <div class="col-xs-12 col-md-offset-1 col-sm-4 col-md-4 footer-info">
+              <div class="row">
+                <div class="media">
+                  <div class="col-xs-10 col-md-9 media-body">
+                    <h4 class="media-heading">Max Weber Stiftung</h4>
+                    <a href="http://www.maxweberstiftung.de/" title="Max Weber Stiftung" alt="Max Weber Stiftung">Kontakt</a>
+                  </div>
+                  <div class="col-xs-2 col-md-3 media-right">
+                    <a href="http://www.maxweberstiftung.de/">
+                      <img class="media-object img-responsive" src="{$WebApplicationBaseURL}images/logos/Max-Weber-Stiftung-Logo.png" alt="Max-Weber-Stiftung-Logo" title="Max-Weber-Stiftung-Logo">
+                    </a>
+                  </div>
+                </div> 
+                <div class="divider"></div>
+                <div class="media">
+                  <div class="col-xs-10 col-md-9 media-body">
+                    <h4 class="media-heading">Die Max Weber Stiftung wird gefördert durch das </h4>
+                    <a href="http://www.bmbf.de/" title="Bundesministerium für Bildung und Forschung (BMBF)" alt="Bundesministerium für Bildung und Forschung (BMBF)">Bundesministerium für Bildung und Forschung (BMBF)</a>
+                  </div>
+                  <div class="col-xs-2 col-md-3 media-right">
+                    <a href="http://www.bmbf.de/">
+                      <img class="media-object img-responsive" src="{$WebApplicationBaseURL}images/logos/BMBF-Logo.png" alt="BMBF-Logo" title="Bundesministerium für Bildung und Forschung (BMBF)">
+                    </a>
+                  </div>
+                </div> 
+                <div class="divider"></div>
+                <div class="media">
+                  <div class="col-xs-10 col-md-9 media-body">
+                    <h4 class="media-heading">perspectivia.net kooperiert mit der  </h4>
+                    <a href="http://www.bsb-muenchen.de/" title="Bayerischen Staatsbibliothek in München" alt="Bayerischen Staatsbibliothek in München">Bayerischen Staatsbibliothek in München</a><br>
+                  </div>
+                  <div class="col-xs-2 col-md-3 media-right">
+                    <a href="http://www.bsb-muenchen.de/">
+                      <img class="media-object img-responsive" src="{$WebApplicationBaseURL}images/logos/bsb.png" alt="Bayerischen Staatsbibliothek in München" title="Bayerischen Staatsbibliothek in München">
+                    </a>
+                  </div>
+                </div> 
+                <div class="divider"></div>
+              </div>
+            </div><!-- col-lg-6 -->
+            <!-- footer-social -->
+            <div class="col-xs-12 col-md-offset-1 col-sm-4 col-md-3">
+              <div id="footer-social" class="">
+                <div class="media">
+                  <div class="col-xs-12 col-md-12 media-body">
+                    <h4 class="media-heading">Social Media@Max Weber Stiftung</h4>
+                  </div>
+                </div>
+                <ul class="nav nav-pills nav-stacked">
+                  <li><a href="https://twitter.com/perspectivia" class="twitter">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+                    @perspectiva folgen</a></li>
+                  <li><a href="https://www.facebook.com/maxweberstiftung" class="facebook">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                    </span>
+                    Like Max Weber Stiftung</a></li>
+                  <li><a href="http://vimeo.com/maxweberstiftung" class="vimeo-mws">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-vimeo-square fa-stack-1x fa-inverse"></i>
+                    </span>
+                    Max Weber Stiftung Videos folgen</a></li>
+                  <li><a href="http://mws.hypotheses.org/" class="blog-mws">
+                    <span class="icon-w_grau" style="font-size:32px; margin-left:0.05em;margin-right:-0.2em;vertical-align:middle;">
+                    </span>
+                    Blog folgen</a></li>
+                  <li><a href="http://www.maxweberstiftung.de/" class="main-mws">
+                    <span class="icon-mws_grau" style="font-size:32px; margin-left:0.05em;margin-right:-0.2em;vertical-align:middle;">
+                    </span>
+                    Max Weber Stiftung folgen</a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
+      </footer>
+      
     </div>
+
   </xsl:template>
 
   <xsl:template name="mir.powered_by">
     <xsl:variable name="mcr_version" select="concat('MyCoRe ',mcrver:getCompleteVersion())" />
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-4">
+          <p>© perspectivia.net 2018</p>
+        </div>
+        <div class="col-md-4">
           <div id="powered_by">
             <a href="http://www.mycore.de">
               <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
             </a>
           </div>
         </div>
-        <div class="col-md-6">
-          <div id="sponsored_by">
+        <div class="col-md-4">
+          <div id="pp_goTop">
             <!-- a href="http://www.dfg.de">
               <img src="{$WebApplicationBaseURL}images/logos/dfg_logo_gbv.svg" title="Die Entwicklung der Datenbank ist ein Kooperationsprojekt mit der VZG und wurde von der DFG gefördert. " alt="sponsored by DFG, hostet by VZG" />
             </a -->
@@ -116,7 +215,8 @@
         </div>
       </div>
     </div>
-    <!-- Piwik -->
+    
+    <!-- Matomo -->
     <xsl:if test="$piwikID &gt; 0">
       <script type="text/javascript">
             var _paq = _paq || [];

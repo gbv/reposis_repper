@@ -362,6 +362,11 @@ html body footer .internal_links {
 
 
 /* ********************** carousel ********************** */
+.carousel {
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+
 .carousel-indicators li {
   border: 1px solid #0a6e78;
 }
@@ -389,8 +394,41 @@ html body footer .internal_links {
 }
 
 
-/* ********************** other ********************** */
+/* ********************** index page ********************** */
 
+#pp_index_boxes {
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+
+#pp_index_boxes .panel {
+  border: 1px solid #c5c5c5;
+}
+
+#pp_index_boxes .panel-body {
+  background-color: #e9eeef;
+}
+
+#pp_index_boxes .panel-default > .panel-heading,
+#pp_index_boxes .panel-footer{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#pp_index_boxes .panel-heading h2 {
+  color: #0c636d;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.pp_more {
+  text-align: right;
+  padding: 20px; 
+}
+
+/* ********************** other ********************** */
 .hit_oa > span.label-success {
   background-color: #24780a;
 }
