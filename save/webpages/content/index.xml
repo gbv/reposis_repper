@@ -4,7 +4,7 @@
 
         <div class="row">
             <div class="col-xs-12" lang="de">
-                <h1>Die Publikationsplattform perspectivia.net</h1>
+                <h1>Willkommen auf perspectivia.net</h1>
                 <p>
                     In den Publikationsreihen auf perspectivia.net finden sich sowohl bereits im Druck erschienene
                     Texte (Retrodigitalisate) als auch genuine Online-Publikationen.
@@ -44,8 +44,10 @@
                         <br /><br /><br /><br />
                     </div>
                     <div class="panel-footer pp_more">
-                        <a href="publications/sources.xml"><strong>... zur Übersicht</strong></a>
-                        <img src="../images/external_link.png" style="padding-left:4px;vertical-align: top;" />
+                        <a href="publications/sources.xml">
+                            <strong>... zur Übersicht</strong>
+                            <img src="../images/external_link.svg" />
+                        </a>
                     </div>
                 </div>
             </div>
@@ -62,8 +64,10 @@
                         Möglichkeit E-Journals herauszugeben.
                     </div>
                     <div class="panel-footer pp_more">
-                        <a href="publications/journals.xml"><strong>... zur Übersicht</strong></a>
-                        <img src="../images/external_link.png" style="padding-left:4px;vertical-align: top;" />
+                        <a href="publications/journals.xml">
+                            <strong>... zur Übersicht</strong>
+                            <img src="../images/external_link.svg" />
+                        </a>
                     </div>
                 </div>
             </div>
@@ -74,7 +78,7 @@
         <div class="row">
             <div class="col-xs-12" lang="de">
                 
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="10000">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
