@@ -52,7 +52,7 @@ html {
 }
 
 body {
-  margin-bottom: 500px; /* Margin bottom by footer height */
+  margin-bottom: 530px; /* Margin bottom by footer height */
   font-weight: 300;
 }
 
@@ -197,7 +197,7 @@ html body header #header_box {
 }
 
 html body header #header_box #project_logo_box {
-  width: 500px;
+  width: 550px;
   position: absolute;
   left: 16px;
   top: 27px;
@@ -267,7 +267,7 @@ html body footer .internal_links {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 500px; /* Set the fixed height of the footer here */
+  height: 530px; /* Set the fixed height of the footer here */
   background: linear-gradient(180deg, white 85%, #38322d 15%);
   border-top: 3px solid #aad2d2;
   color: #676767;
@@ -277,11 +277,13 @@ html body footer .internal_links {
 .flatmir-footer .nav > li > a,
 .flatmir-footer .nav > li > a:hover,
 .flatmir-footer .nav > li > a:focus {
-  background-color: #F8F8F8;
-  color: #aad2d2;
-  padding: 0px 4px;
-  border-right: 1px solid #666666;
-  line-height: 14px;
+  color: #656565;
+  padding: 0px;
+}
+.flatmir-footer .nav > li > a > span,
+.flatmir-footer .nav > li > a:hover > span,
+.flatmir-footer .nav > li > a:focus  > span{
+  color: #ef7f01;
 }
 .internal_links > li:last-of-type > a,
 .flatmir-footer .nav > li:last-of-type > a:hover,
@@ -294,10 +296,14 @@ html body footer .internal_links {
 }
 
 .flatmir-footer .footer-wrapper {
-  margin-bottom: 60px;
   margin-top: 50px;
+  margin-bottom: 30px;
 }
 
+#pp_footer-nav {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 
 /* *********************** audio ************************ */
 #player_audio {

@@ -90,69 +90,68 @@
               <a title="zur Homepage" href="{$WebApplicationBaseURL}">
                 <img alt="Logo perspectivia.net" src="{$WebApplicationBaseURL}images/logos/perspectivia_logo_complete.png" />
               </a>
-              <div class="footer-list col-md-12">
-                <ul id="" class="nav nav-pills nav-stacked">
-                  <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
-                </ul>
-              </div><!-- footer-list--> 
+              <ul id="pp_footer-nav" class="nav">
+                <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
+              </ul>
+              <!-- footer-list--> 
             </div><!-- col-lg-3 -->
-            <div class="col-xs-12 col-md-offset-1 col-sm-4 col-md-4 footer-info">
+            <div class="col-xs-12 col-md-offset-1 col-sm-4 col-md-2 footer-info">
               <div class="row">
-                  <div class="col-xs-2 col-md-3">
+                  <div class="col-xs-2 col-md-12">
                     <a href="http://www.maxweberstiftung.de/">
-                      <img class="media-object img-responsive" src="{$WebApplicationBaseURL}images/logos/Max-Weber-Stiftung-Logo.png" alt="Max-Weber-Stiftung-Logo" title="Max-Weber-Stiftung-Logo" />
+                      <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/Max-Weber-Stiftung-Logo.png" alt="Max-Weber-Stiftung-Logo" title="Max-Weber-Stiftung-Logo" />
                     </a>
                   </div>
                  
                 <div class="divider"></div>
-                  <div class="col-xs-2 col-md-3">
+                  <div class="col-xs-2 col-md-12">
                     <a href="http://www.bmbf.de/">
-                      <img class="media-object img-responsive" src="{$WebApplicationBaseURL}images/logos/BMBF-Logo.png" alt="BMBF-Logo" title="Bundesministerium für Bildung und Forschung (BMBF)" />
+                      <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/BMBF-Logo.png" alt="BMBF-Logo" title="Bundesministerium für Bildung und Forschung (BMBF)" />
                     </a>
                   </div>
                  
                 <div class="divider"></div>
-                  <div class="col-xs-2 col-md-3">
+                  <div class="col-xs-2 col-md-12">
                     <a href="http://www.bsb-muenchen.de/">
-                      <img class="media-object img-responsive" src="{$WebApplicationBaseURL}images/logos/bsb.png" alt="Bayerischen Staatsbibliothek in München" title="Bayerischen Staatsbibliothek in München" />
+                      <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/bsb.png" alt="Bayerischen Staatsbibliothek in München" title="Bayerischen Staatsbibliothek in München" />
                     </a>
                   </div>
                  
+                <div class="divider"></div>
+                  <div class="col-xs-2 col-md-12">
+                    <a href="http://www.bsb-muenchen.de/">
+                      <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/vzg.png" alt="Verbundzentrale des GBV (VZG)" title="Verbundzentrale des GBV (VZG)" />
+                    </a>
+                  </div>
                 <div class="divider"></div>
               </div>
             </div><!-- col-lg-6 -->
             <!-- footer-social -->
-            <div class="col-xs-12 col-md-offset-1 col-sm-4 col-md-3">
+            <div class="col-xs-12 col-md-offset-2 col-sm-4 col-md-4">
               <div id="footer-social" class="">
-                  <div class="col-xs-12 col-md-12 media-body">
-                    <h4 class="media-heading">Social Media@Max Weber Stiftung</h4>
-                  </div>
-                
-                <ul class="nav nav-pills nav-stacked">
+
+                <ul class="nav">
                   <li><a href="https://twitter.com/perspectivia" class="twitter">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                    <span class="fa-stack">
+                      <i class="fa fa-twitter fa-stack-2x"></i>
                     </span>
                     @perspectiva folgen</a></li>
                   <li><a href="https://www.facebook.com/maxweberstiftung" class="facebook">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                    <span class="fa-stack">
+                      <i class="fa fa-facebook fa-stack-2x"></i>
                     </span>
                     Like Max Weber Stiftung</a></li>
                   <li><a href="http://vimeo.com/maxweberstiftung" class="vimeo-mws">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-vimeo-square fa-stack-1x fa-inverse"></i>
+                    <span class="fa-stack">
+                      <i class="fa fa-vimeo-square fa-stack-2x"></i>
                     </span>
                     Max Weber Stiftung Videos folgen</a></li>
                   <li><a href="http://mws.hypotheses.org/" class="blog-mws">
-                    <span class="icon-w_grau" style="font-size:32px; margin-left:0.05em;margin-right:-0.2em;vertical-align:middle;">
+                    <span class="icon-w_grau">
                     </span>
                     Blog folgen</a></li>
                   <li><a href="http://www.maxweberstiftung.de/" class="main-mws">
-                    <span class="icon-mws_grau" style="font-size:32px; margin-left:0.05em;margin-right:-0.2em;vertical-align:middle;">
+                    <span class="icon-mws_grau">
                     </span>
                     Max Weber Stiftung folgen</a></li>
                   
