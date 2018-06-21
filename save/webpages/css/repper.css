@@ -71,17 +71,17 @@ a {
 #main_content h1 {
   margin-bottom: 50px;
 }
-
 #main_content h2 {
   margin-bottom: 20px;
 }
 
+#main_content h2.panel-title,
+#main_col h1 {
+  font-weight: 400;
+  margin-bottom: 0px;
+}
 .panel-default > .panel-heading {
   border-color: #e9eeef;
-}
-
-.panel-title {
-  font-weight: 400;
 }
 
 
