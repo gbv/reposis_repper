@@ -60,20 +60,29 @@ label {
   font-weight: 400;
 }
 
+html body #page {
+  padding-bottom: 50px;
+}
 
-/* ********************* cookie-bar ********************* */
+a {
+  font-weight: 400;
+}
 
-#cookie-bar {background:#111111; height:auto; line-height:24px; color:#eeeeee; text-align:center; padding:3px 0;}
-#cookie-bar.fixed {position:fixed; top:0; left:0; width:100%;}
-#cookie-bar.fixed.bottom {bottom:0; top:auto;}
-#cookie-bar p {margin:0px 0px; padding:0;}
-#cookie-bar a {color:#ffffff; display:inline-block; border-radius:3px; text-decoration:none; padding:0 6px; margin-left:8px;}
-#cookie-bar .cb-enable {background:#007700;}
-#cookie-bar .cb-enable:hover {background:#009900;}
-#cookie-bar .cb-disable {background:#990000;}
-#cookie-bar .cb-disable:hover {background:#bb0000;}
-#cookie-bar .cb-policy {background:#0033bb;}
-#cookie-bar .cb-policy:hover {background:#0055dd;}
+#main_content h1 {
+  margin-bottom: 50px;
+}
+
+#main_content h2 {
+  margin-bottom: 20px;
+}
+
+.panel-default > .panel-heading {
+  border-color: #e9eeef;
+}
+
+.panel-title {
+  font-weight: 400;
+}
 
 
 /* ********************* navigation ********************* */
@@ -486,4 +495,13 @@ html body footer .internal_links {
 .text-success:hover,
 .result_body .result_filter .panel.oa li[data-fq="worldReadableComplete:true"] .title:hover {
   color: #24780a;
+}
+
+#badges a.access_condition,
+#badges .doc_state .mir-published {
+  background-color: #ef7f01;
+}
+
+.viewer .navbar.navbar-default {
+  border-color: #e9eeef;
 }

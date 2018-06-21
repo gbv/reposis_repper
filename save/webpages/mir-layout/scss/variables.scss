@@ -10,8 +10,12 @@
 // -------------------------
 $brand-primary:      #ef7f01;  //logo
 $brand-success:      #0a6e78;  //mws-petrol
-$brand-info:         #5397d5;
-$brand-warning:      #ef7f01;  //logo
+$brand-info:         #ef7f01;   // #5397d5;
+$brand-warning:      #961432;  //mws-red
+
+$gray-light:         #c5c5c5;
+$gray-lighter:       #e9eeef;
+
 
 // Links
 // -------------------------
@@ -24,6 +28,6 @@ $font-size-base:     15px;
 $line-height-base:   1.428571429;
 $headings-font-weight: 600;
 
-// Navbar
+// Panel
 // -------------------------
-
+$panel-default-border: $gray-light;

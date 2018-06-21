@@ -158,25 +158,21 @@
     <menu id="quicklinks" dir="/content/publications">
         <label xml:lang="de">Quicklinks</label>
         <label xml:lang="en">Quicklinks</label>
-        <item href="https://mws.hypotheses.org/" type="extern" target="_blank" replaceMenu="false" constrainPopUp="false">
+        <item href="/content/publications/sources.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Quellen und Datenbanken</label>
+            <label xml:lang="en">Sources and Databases</label>
+        </item>
+        <item href="/content/publications/journals.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Digitale Zeitschriften</label>
+            <label xml:lang="en">ejournals</label>
+        </item>
+        <item href="https://mws.hypotheses.org/" type="extern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Blogportal Weber 2.0</label>
             <label xml:lang="en">Blogportal Weber 2.0</label>
         </item>
-        <item href="/content/publications/operas.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+        <item href="https://operas.hypotheses.org/" type="extern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">OPERAS</label>
             <label xml:lang="en">OPERAS</label>
-        </item>
-        <item href="https://quellen.perspectivia.net/" type="extern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Quellen (Link)</label>
-            <label xml:lang="en">Quellen (Link)</label>
-        </item>
-        <item href="/content/publications/sources.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Quellen</label>
-            <label xml:lang="en">Quellen</label>
-        </item>
-        <item href="/content/publications/journals.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">ejournals</label>
-            <label xml:lang="en">ejournals</label>
         </item>
     </menu>
     <menu id="publish" dir="/content/publish">
