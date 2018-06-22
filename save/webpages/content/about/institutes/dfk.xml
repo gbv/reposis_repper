@@ -18,8 +18,8 @@
                         </div>
                         <div class="panel-body">
                             <ul>
-                                <li><a href="https://reposis-test.gbv.de/repper/receive/repper_mods_00000801">Conférences</a></li>
-                                <li><a href="http://perspectivia.gbv.de/receive/pnet_mods_00000021">Own Realtity</a></li>
+                                <li><a href="/receive/repper_mods_00000801">Conférences</a></li>
+                                <li><a href="/receive/pnet_mods_00000021">Own Realtity</a></li>
                             </ul>
                         </div>
                     </div>
