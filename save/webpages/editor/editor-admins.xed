@@ -49,10 +49,12 @@
         <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_geo" />
         <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="abstract.repeated" />
         <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="comment.complex" />
+        <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/alias-includes.xed" ref="alias" />
         <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="related.item.search.of.all.items" />
 
         <xed:include uri="webapp:editor/editor-includes.xed" ref="cancel.submit" />
         <xed:include uri="webapp:editor/editor-includes.xed" ref="cleanup-rules" />
+        <xed:include uri="webapp:editor/alias-includes.xed" ref="cleanup-rules-alias" />
         <xed:include uri="webapp:editor/editor-includes.xed" ref="validation-rules" />
 
         <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="javascript" />
