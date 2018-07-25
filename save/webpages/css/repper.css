@@ -303,19 +303,21 @@ html body footer .internal_links {
 
 .flatmir-footer .footer-wrapper {
   margin-top: 50px;
-  margin-bottom: 30px;
 }
 
 #pp_footer-nav {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-left: 40px;
+}
+
+#pp_footer-nav > li {
+  padding-bottom: 15px;
 }
 
 .footer-info img {
   margin-bottom: 25px
 }
 #footer-social ul > li{
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 #footer-social ul > li > a > span {
   margin-right: 30px;

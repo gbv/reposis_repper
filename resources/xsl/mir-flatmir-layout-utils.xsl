@@ -87,11 +87,11 @@
         <div class="row">
           <div class="col-md-1">
             <a title="zur Homepage" href="{$WebApplicationBaseURL}">
-              <img alt="Logo perspectivia.net" src="{$WebApplicationBaseURL}images/logos/perspectivia_logo_complete.png" />
+              <img alt="Logo perspectivia.net" src="{$WebApplicationBaseURL}images/logos/perspectivia_logo_complete.png" style="height:134px;" />
             </a>
           </div>
           <div class="col-md-1">
-            <ul id="pp_footer-nav" class="nav">
+            <ul id="pp_footer-nav" class="nav center-block">
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
             </ul>
           </div>
@@ -102,7 +102,7 @@
           </div>
           <div class="col-md-2">
             <a href="http://www.bmbf.de/">
-              <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/BMBF-Logo.png" alt="BMBF-Logo" title="Bundesministerium für Bildung und Forschung (BMBF)" />
+              <img class="media-object img-responsive pp_footer-img center-block" src="{$WebApplicationBaseURL}images/logos/BMBF-Logo.png" alt="BMBF-Logo" title="Bundesministerium für Bildung und Forschung (BMBF)" />
             </a>
           </div>
           <!-- footer-social -->
@@ -129,19 +129,19 @@
           </div>
         </div>
         <div class="row"><!-- cooperation partners -->
-          <div class="col-md-3 col-md-offset-2">
-            <a href="http://www.ub.uni-heidelberg.de/">
+          <div class="col-md-4">
+            <a href="http://www.ub.uni-heidelberg.de/" class="pull-right">
               <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/ubh.png" alt="Universitätsbibliothek Heidelberg" title="Universitätsbibliothek Heidelberg" />
             </a>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-4">
             <a href="http://www.bsb-muenchen.de/">
-              <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/bsb.png" alt="Bayerischen Staatsbibliothek in München" title="Bayerischen Staatsbibliothek in München" />
+              <img class="media-object img-responsive pp_footer-img center-block" src="{$WebApplicationBaseURL}images/logos/bsb.png" alt="Bayerischen Staatsbibliothek in München" title="Bayerischen Staatsbibliothek in München" style="margin-top: 32px;" />
             </a>
           </div>
-          <div class="col-md-3 col-md-offset-2">
+          <div class="col-md-4">
             <a href="http://www.gbv.de/">
-              <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/vzg.png" alt="Verbundzentrale des GBV (VZG)" title="Verbundzentrale des GBV (VZG)" />
+              <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/vzg.png" alt="Verbundzentrale des GBV (VZG)" title="Verbundzentrale des GBV (VZG)" style="margin-top: 25px;" />
             </a>
           </div> 
         </div>
@@ -155,7 +155,7 @@
         <div class="row">
           <div class="col-md-4">
             <div id="copyright_by">
-              <p>© perspectivia.net 2018</p>
+              <p>© Max Weber Stiftung 2018</p>
             </div>
           </div>
           <div class="col-md-4">
