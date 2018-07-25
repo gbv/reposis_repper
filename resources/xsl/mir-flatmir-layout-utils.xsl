@@ -90,7 +90,7 @@
               <img alt="Logo perspectivia.net" src="{$WebApplicationBaseURL}images/logos/perspectivia_logo_complete.png" style="height:134px;" />
             </a>
           </div>
-          <div class="col-md-1">
+          <div class="col-md-2">
             <ul id="pp_footer-nav" class="nav center-block">
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
             </ul>
@@ -100,13 +100,13 @@
               <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/Max-Weber-Stiftung-Logo.png" alt="Max-Weber-Stiftung-Logo" title="Max-Weber-Stiftung-Logo" />
             </a>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
             <a href="http://www.bmbf.de/">
               <img class="media-object img-responsive pp_footer-img center-block" src="{$WebApplicationBaseURL}images/logos/BMBF-Logo.png" alt="BMBF-Logo" title="Bundesministerium für Bildung und Forschung (BMBF)" />
             </a>
           </div>
           <!-- footer-social -->
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div id="footer-social" class="">
               <ul class="nav">
                 <li><a href="https://twitter.com/perspectivia" class="twitter">
