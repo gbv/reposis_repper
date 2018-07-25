@@ -52,7 +52,7 @@ html {
 }
 
 body {
-  margin-bottom: 530px; /* Margin bottom by footer height */
+  margin-bottom: 407px; /* Margin bottom by footer height */
   font-weight: 300;
 }
 
@@ -73,6 +73,12 @@ a {
 }
 #main_content h2 {
   margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 400;
+}
+#main_content h3 {
+  font-size: 18px;
+font-weight: 700;
 }
 
 #main_content h2.panel-title,
@@ -119,11 +125,11 @@ a {
   background-color: #89c0c0;
 }
 .mir-main-nav {
-    box-shadow: unset;
+  box-shadow: unset;
 }
 .mir-main-nav nav .navbar-nav > li > a {
-    font-weight: 700;
-    font-size: 16px;
+  font-weight: 700;
+  font-size: 16px;
 }
 .mir-main-nav nav .navbar-nav .dropdown-menu > li > a:hover,
 .mir-main-nav nav .navbar-nav .dropdown-menu > li > a,
@@ -205,7 +211,7 @@ html body header #header_box {
 }
 
 html body header #header_box #project_logo_box {
-  width: 407px;
+  width: 550px;
   position: absolute;
   left: 16px;
   top: 27px;
@@ -253,13 +259,13 @@ html body #powered_by {
   border: none;
   text-align: center;
   padding: 0;
-  margin-top: 17px;
+  margin-top: 10px;
 }
 
 html body #copyright_by {
   font-weight: 400;
   color: #ffffff;
-  margin-top: 24px;
+  margin-top: 14px;
   padding: 0;
 }
 
@@ -488,6 +494,39 @@ html body footer .internal_links {
   float: left;
   margin: 0;
 }
+
+
+/* ********************** institutes ********************** */
+.pp_atab {
+  white-space: pre;
+}
+.pp_institute-graphic {
+  position: relative;
+  height: 650px; 
+}
+.pp_inst-publications {
+  border-right: 1px solid #c5c5c5;
+}
+.pp_inst-contact {
+  border-bottom: 1px solid #c5c5c5;
+  margin-bottom: 40px;
+  padding-bottom: 40px
+}
+#pp_dfk-logo {
+  width: 200px;
+  background-color: white;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  z-index: 20;
+}
+#pp_dfk-photo {
+  position: absolute;
+  z-index: 10;
+  top: 70px;
+  left: 0px;
+}
+
 
 /* ********************** other ********************** */
 .hit_oa > span.label-success {

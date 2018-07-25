@@ -131,17 +131,17 @@
         <div class="row"><!-- cooperation partners -->
           <div class="col-md-4">
             <a href="http://www.ub.uni-heidelberg.de/" class="pull-right">
-              <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/ubh.png" alt="Universitätsbibliothek Heidelberg" title="Universitätsbibliothek Heidelberg" />
+              <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/ubh.png" alt="Universitätsbibliothek Heidelberg" title="Universitätsbibliothek Heidelberg" style="margin-top: 10px;" />
             </a>
           </div>
           <div class="col-md-4">
             <a href="http://www.bsb-muenchen.de/">
-              <img class="media-object img-responsive pp_footer-img center-block" src="{$WebApplicationBaseURL}images/logos/bsb.png" alt="Bayerischen Staatsbibliothek in München" title="Bayerischen Staatsbibliothek in München" style="margin-top: 32px;" />
+              <img class="media-object img-responsive pp_footer-img center-block" src="{$WebApplicationBaseURL}images/logos/bsb.png" alt="Bayerischen Staatsbibliothek in München" title="Bayerischen Staatsbibliothek in München" style="margin-top: 45px;" />
             </a>
           </div>
           <div class="col-md-4">
             <a href="http://www.gbv.de/">
-              <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/vzg.png" alt="Verbundzentrale des GBV (VZG)" title="Verbundzentrale des GBV (VZG)" style="margin-top: 25px;" />
+              <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/vzg.png" alt="Verbundzentrale des GBV (VZG)" title="Verbundzentrale des GBV (VZG)" style="margin-top: 39px;" />
             </a>
           </div> 
         </div>

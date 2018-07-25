@@ -3,55 +3,56 @@
     <section xml:lang="de" title="DFK">
         
         <div class="row">
-            <div class="col-xs-12" lang="de">
+            <div class="col-xs-12 pp_inst-contact" lang="de">
                 <h1>Deutsches Forum für Kunstgeschichte</h1>
-
-                <div class="col-md-4">
-                    <img alt="DFK-Logo" src="../../../images/logos/dfk-logo-rgb.svg" style="width: 200px;" />
+                
+                <div class="pp_institute-graphic">
+                    <img alt="DFK-Logo" src="../../../images/logos/dfk-logo-rgb.svg" id="pp_dfk-logo" />
+                    <img alt="DFK-Foto" src="../../../images/dfk-photo.png"  id="pp_dfk-photo" />
                 </div>
-                <div class="col-md-6">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h2 class="panel-title">
-                                Publikationen in perspectivia.net
-                            </h2>
-                        </div>
-                        <div class="panel-body">
-                            <ul>
-                                <li><a href="/receive/repper_mods_00000801">Conférences</a></li>
-                                <li><a href="/receive/pnet_mods_00000021">Own Realtity</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h2 class="panel-title">
-                                Quelleneditionen
-                            </h2>
-                        </div>
-                        <div class="panel-body">
-                            <ul>
-                                <li><a class="external-link" href="http://quellen-perspectivia.net/de/fantin-scholderer/start">Correspondance entre Fantin-Latour et Scholderer</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-12">
-                    <h2>Kontakt</h2>
-                    
+                
+                <h2>Kontakt</h2>
+                <h3>Deutsches Forum für Kunstgeschichte</h3>
+                <div class="col-md-3">
                     <p>
-                        Deutsches Forum für Kunstgeschichte<br />
                         Hôtel Lully<br />
-                        45, rue des Petits Champs · F-75001 Paris<br />
-                        Telefon +33 1 42 60 67 82<br />
-                        Fax +33 1 42 60 67 83<br />
-                        E-Mail contact(at)dt-forum.org
+                        45, rue des Petits Champs<br />
+                        F-75001 Paris
                     </p>
-                    
-                    <p><a class="external-link" href="http://www.dt-forum.org">www.dt-forum.org</a></p>
                 </div>
+                <div class="col-md-3">
+                    <p class="pp_atab"><!-- show content with withespaces as using pre -->
+Telefon: +33 1 42 60 67 82
+Fax:       +33 1 42 60 67 83
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p class="pp_atab"><!-- show content with withespaces as using pre -->
+E-Mail:   contact(at)dt-forum.org
+Internet: <a class="external-link" href="http://www.dt-forum.org">www.dt-forum.org</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 pp_inst-publications">
+                <h3>
+                    Publikationen in perspectivia.net
+                </h3>
+                <ul>
+                    <li><a href="/receive/repper_mods_00000801">Conférences</a></li>
+                    <li><a href="/receive/pnet_mods_00000021">Own Realtity</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-md-5 col-md-offset-1">
+                <h3>
+                    Quelleneditionen
+                </h3>
+                <ul>
+                    <li><a class="external-link" href="http://quellen-perspectivia.net/de/fantin-scholderer/start">Correspondance entre Fantin-Latour et Scholderer</a></li>
+                </ul>
             </div>
         </div>
     </section>
