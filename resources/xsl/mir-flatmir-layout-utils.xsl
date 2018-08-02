@@ -113,7 +113,7 @@
                   <span class="fa-stack">
                     <i class="fa fa-twitter fa-stack-2x"></i>
                   </span>
-                  @perspectiva folgen</a></li>
+                  @perspectivia folgen</a></li>
                 <li><a href="https://www.facebook.com/maxweberstiftung" class="facebook">
                   <span class="fa-stack">
                     <i class="fa fa-facebook fa-stack-2x"></i>
@@ -123,7 +123,7 @@
                   <span class="fa-stack">
                     <i class="fa fa-vimeo-square fa-stack-2x"></i>
                   </span>
-                  Max Weber Stiftung Videos folgen</a></li>     
+                  Max Weber Stiftung Videos folgen</a></li>
               </ul>
             </div>
           </div>
