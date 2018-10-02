@@ -398,6 +398,11 @@ html body footer .internal_links {
   margin-top: 46px;
 }
 
+/* fix fa problems with shariff included fontawesome  */
+.fa, .far, .fas {
+  font-family: FontAwesome;
+}
+
 
 /* ********************** carousel ********************** */
 .carousel {
