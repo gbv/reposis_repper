@@ -106,11 +106,11 @@ font-weight: 700;
   position: inherit;
   min-height: 27px;
   background-color: white;
-  border-top: 6px solid #aad2d2;
-  border-bottom: 0px solid #aad2d2;
+  border-top: 6px solid #75adad;
+  border-bottom: 0px solid #75adad;
 }
 .navbar-default .navbar-nav > li {
-  background-color: #aad2d2;
+  background-color: #75adad;
 }
 .mir-main-nav nav .navbar-nav .dropdown-menu > .active > a {
   background-color: #62a0a8;
@@ -151,7 +151,7 @@ font-weight: 700;
     border-color: transparent transparent #aad2d2 transparent;
 }
 .mir-main-nav nav .navbar-nav .dropdown-menu {
-  background-color: #aad2d2;
+  background-color: #75adad;
   border: 0px !important;
   border-radius: 0 !important;
   box-shadow: 0 0 0 !important;
@@ -193,7 +193,7 @@ html body header #header_box {
 }
 
 #project_name_box h1 > a {
-  color: #aad2d2;
+  color: #75adad;
   font-size: 34px;
   font-weight: 300;
 }
@@ -553,6 +553,6 @@ html body footer .internal_links {
 }
 
 .mycoreViewer .navbar {
-  border-top: 0px solid #aad2d2;
-  border-bottom: 0px solid #aad2d2;
+  border-top: 0px solid #75adad;
+  border-bottom: 0px solid #75adad;
 }
