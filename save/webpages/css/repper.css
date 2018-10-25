@@ -532,6 +532,23 @@ html body footer .internal_links {
   left: 0px;
 }
 
+#pp_spsg-logo {
+  width: 200px;
+  background-color: white;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  z-index: 20;
+}
+
+#pp_spsg-photo {
+    height: 560px;
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    left: 0px;
+}
+
 
 /* ********************** other ********************** */
 .hit_oa > span.label-success {
