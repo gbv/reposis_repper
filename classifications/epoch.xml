@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="epoch">
   <label xml:lang="de" text="Epoche" />
-  <label xml:lang="en" text="Epoch" />
   <label xml:lang="x-uri" text="http://perspectivia.gbv.de/api/v1/classifications/epoch" />
+  <label xml:lang="en" text="Epoch" />
   <categories>
     <category ID="ANTIK">
       <label xml:lang="de" text="Antike (1200 v.Chr. - 600 n.Chr.)" />
@@ -12,6 +12,9 @@
     </category>
     <category ID="HMA">
       <label xml:lang="de" text="Hohes Mittelalter (1050 - 1350)" />
+    </category>
+    <category ID="SMA">
+      <label xml:lang="de" text="Spätes Mittelalter (1350-1500)" />
     </category>
     <category ID="FNZ">
       <label xml:lang="de" text="Frühe Neuzeit (1500 - 1789)" />
