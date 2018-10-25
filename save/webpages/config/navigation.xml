@@ -15,7 +15,12 @@
         <label xml:lang="en">Footer</label>
         <item href="/content/below/impressum.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Impressum</label>
-            <label xml:lang="en">Impressum</label>
+            <label xml:lang="en">Imprint</label>
+            <label xml:lang="fr">Credits</label>
+        </item>
+        <item href="/content/below/privacy_notice.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Datenschutz</label>
+            <label xml:lang="en">Privacy Notice</label>
             <label xml:lang="fr">Credits</label>
         </item>
         <item href="/content/below/contact.xml" type="intern" replaceMenu="false" constrainPopUp="false">
