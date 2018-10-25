@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage>
+    <section xml:lang="de" title="SPSG">
+        <div class="row">
+            <div class="col-xs-12 pp_inst-contact" lang="de">
+                <h1>Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</h1>
+                
+                <div class="pp_institute-graphic">
+                    <img alt="SPSG-Logo" src="../../../images/logos/spsg-logo.png" id="pp_spsg-logo" />
+                    <img alt="SPSG-Foto" src="../../../images/spsg-photo.jpg"  id="pp_spsg-photo" />
+                </div>
+                
+                <h2>Kontakt</h2>
+                <h3>Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</h3>
+                <div class="col-md-3">
+                    <p>
+                        Stiftung Preußische Schlösser und Gärten Berlin Brandenburg
+                        Generaldirektion, Wissenschaft und Forschung<br />
+                        Dr. Jürgen Luh<br />
+                        Allee nach Sanssouci 5<br />
+                        14471 Potsdam
+                    </p>
+                </div>
+                <!-- div class="col-md-3">
+                    <p class="pp_atab">
+Telefon: +33 1 42 60 67 82
+Fax:     +33 1 42 60 67 83
+                    </p>
+                </div -->
+                <div class="col-md-3">
+                    <p class="pp_atab"><!-- show content with withespaces as using pre -->
+<!-- E-Mail:   contact(at)dt-forum.org -->
+Internet: <a class="external-link" href="http://www.spsg.de/">www.spsg.de</a>
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 pp_inst-publications">
+                <h3>
+                    Publikationen in perspectivia.net
+                </h3>
+                <ul>
+                    <li><a href="/receive/repper_mods_00000803">Friedrich300 - Colloquien</a></li>
+                    <li><a href="/receive/repper_mods_00000838">Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg. Jahrbuch</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-md-5 col-md-offset-1">
+                <h3>
+                    Quelleneditionen
+                </h3>
+                <ul>
+                    <li><a class="external-link" href="http://quellen-perspectivia.net/de/borchward/start">Borchward in Potsdam 1749 Borchward in Potsdam 1749 </a></li>
+                    <li><a class="external-link" href="http://quellen-perspectivia.net/de/judenporzellan/start">Das “Judenporzellan”</a></li>
+                    <li><a class="external-link" href="http://quellen-perspectivia.net/de/schatullrechnungen/start">Schatullrechnungen Friedrichs des Großen Schatullrechnungen Friedrichs des Großen </a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section xml:lang="en" title="SPSG">
+        <div class="row">
+            <div class="col-xs-12 pp_inst-contact" lang="de">
+                <h1>Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</h1>
+                
+                <div class="pp_institute-graphic">
+                    <img alt="SPSG-Logo" src="../../../images/logos/spsg-logo.png" id="pp_spsg-logo" />
+                    <img alt="SPSG-Foto" src="../../../images/spsg-photo.jpg"  id="pp_spsg-photo" />
+                </div>
+                
+                <h2>Kontakt</h2>
+                <h3>Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</h3>
+                <div class="col-md-3">
+                    <p>
+                        Stiftung Preußische Schlösser und Gärten Berlin Brandenburg
+                        Generaldirektion, Wissenschaft und Forschung<br />
+                        Dr. Jürgen Luh<br />
+                        Allee nach Sanssouci 5<br />
+                        14471 Potsdam
+                    </p>
+                </div>
+                <!-- div class="col-md-3">
+                    <p class="pp_atab">
+Telefon: +33 1 42 60 67 82
+Fax:     +33 1 42 60 67 83
+                    </p>
+                </div -->
+                <div class="col-md-3">
+                    <p class="pp_atab"><!-- show content with withespaces as using pre -->
+                        <!-- E-Mail:   contact(at)dt-forum.org -->
+                        Internet: <a class="external-link" href="http://www.spsg.de/">www.spsg.de</a>
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 pp_inst-publications">
+                <h3>
+                    Publications on perspectivia.net
+                </h3>
+                <ul>
+                    <li><a href="/receive/repper_mods_00000803">Friedrich300 - Colloquien</a></li>
+                    <li><a href="/receive/repper_mods_00000838">Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg. Jahrbuch</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-md-5 col-md-offset-1">
+                <h3>
+                    Source Editions
+                </h3>
+                <ul>
+                    <li><a class="external-link" href="http://quellen-perspectivia.net/de/borchward/start">Borchward in Potsdam 1749 Borchward in Potsdam 1749 </a></li>
+                    <li><a class="external-link" href="http://quellen-perspectivia.net/de/judenporzellan/start">Das “Judenporzellan”</a></li>
+                    <li><a class="external-link" href="http://quellen-perspectivia.net/de/schatullrechnungen/start">Schatullrechnungen Friedrichs des Großen Schatullrechnungen Friedrichs des Großen </a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <meta><log lastEditor="administrator" date="2018-06-11" time="13:45" /></meta>
+</MyCoReWebPage>
