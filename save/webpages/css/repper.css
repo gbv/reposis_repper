@@ -520,8 +520,8 @@ html body footer .internal_links {
 #pp_dfk-logo {
   width: 200px;
   background-color: white;
-  padding-right: 10px;
-  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-bottom: 30px;
   position: absolute;
   z-index: 20;
 }
@@ -534,9 +534,6 @@ html body footer .internal_links {
 
 #pp_spsg-logo {
   width: 200px;
-  background-color: white;
-  padding-right: 10px;
-  padding-bottom: 10px;
   position: absolute;
   z-index: 20;
 }

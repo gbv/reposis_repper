@@ -14,7 +14,8 @@
                 <h3>Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</h3>
                 <div class="col-md-3">
                     <p>
-                        Generaldirektion, Wissenschaft und Forschung<br />
+                        Generaldirektion,<br />
+                        Wissenschaft und Forschung<br />
                         Dr. Jürgen Luh<br />
                         Allee nach Sanssouci 5, 14471 Potsdam
                     </p>
@@ -22,7 +23,7 @@
                 <div class="col-md-3">
                     <p class="pp_atab"><!-- show content with withespaces as using pre -->
 Telefon: +49 331 96 94 0
-Fax:     +49 331 96 94 107
+Fax:       +49 331 96 94 107
                     </p>
                 </div>
                 <div class="col-md-3">
@@ -70,7 +71,8 @@ Internet: <a class="external-link" href="http://www.spsg.de/">www.spsg.de</a>
                 <h3>Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</h3>
                 <div class="col-md-3">
                     <p>
-                        Generaldirektion, Wissenschaft und Forschung<br />
+                        Generaldirektion,<br />
+                        Wissenschaft und Forschung<br />
                         Dr. Jürgen Luh<br />
                         Allee nach Sanssouci 5, 14471 Potsdam
                     </p>
@@ -78,7 +80,7 @@ Internet: <a class="external-link" href="http://www.spsg.de/">www.spsg.de</a>
                 <div class="col-md-3">
                     <p class="pp_atab"><!-- show content with withespaces as using pre -->
 Telefon: +49 331 96 94 0
-Fax:     +49 331 96 94 107
+Fax:       +49 331 96 94 107
                     </p>
                 </div>
                 <div class="col-md-3">
@@ -112,5 +114,5 @@ Internet: <a class="external-link" href="http://www.spsg.de/">www.spsg.de</a>
             </div>
         </div>
     </section>
-    <meta><log lastEditor="administrator" date="2018-06-11" time="13:45" /></meta>
+    <meta><log lastEditor="administrator" date="2018-10-25" time="13:45" /></meta>
 </MyCoReWebPage>
