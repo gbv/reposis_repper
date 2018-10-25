@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_institutes">
   <label xml:lang="de" text="Einrichtungen der Max Weber Stiftung" description="Liste der Einrichtungen" />
-  <label xml:lang="x-uri" text="http://www.mycore.org/classifications/mir_institutes" />
   <label xml:lang="en" text="Institutions of Max Weber Stiftung" description="A list of institutions" />
+  <label xml:lang="x-uri" text="http://www.mycore.org/classifications/mir_institutes" />
   <categories>
-    <category ID="spsg">
-      <label xml:lang="de" text="Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg" />
-      <label xml:lang="en" text="Prussian Palaces and Gardens Foundation Berlin-Brandenburg" />
+    <category ID="trafo">
+      <label xml:lang="de" text="Forum Transregionale Studien" />
     </category>
-    <category ID="oi.istanbul">
-      <label xml:lang="de" text="Orient-Institut Istanbul" />
-      <label xml:lang="en" text="Orient-Institut Istanbul" />
-    </category>
-    <category ID="oi.beirut">
-      <label xml:lang="en" text="Orient-Institut Beirut" />
-      <label xml:lang="de" text="Orient-Institut Beirut" />
-    </category>
-    <category ID="di.japan.tokyo">
-      <label xml:lang="en" text="Deutsches Institut für Japanstudien Tokyo" />
-      <label xml:lang="de" text="Deutsches Institut für Japanstudien Tokyo" />
+    <category ID="dfk.paris">
+      <label xml:lang="de" text="Deutsches Forum für Kunstgeschichte Paris" />
+      <label xml:lang="en" text="Deutsches Forum für Kunstgeschichte Paris" />
+      <url xlink:href="www.dfk-paris.org" xlink:type="locator" />
     </category>
     <category ID="dhi.washington">
       <label xml:lang="de" text="Deutsches Historisches Institut Washington" />
@@ -41,6 +33,10 @@
       <label xml:lang="de" text="Deutsches Historisches Institut Moskau" />
       <label xml:lang="en" text="Deutsches Historisches Institut Moskau" />
     </category>
+    <category ID="oi.beirut">
+      <label xml:lang="en" text="Orient-Institut Beirut" />
+      <label xml:lang="de" text="Orient-Institut Beirut" />
+    </category>
     <category ID="dhi.london">
       <label xml:lang="de" text="Deutsches Historisches Institut London" />
       <label xml:lang="en" text="German Historical Institute London" />
@@ -50,15 +46,26 @@
         <label xml:lang="en" text="TRG Poverty Education" />
       </category>
     </category>
-    <category ID="dfk.paris">
-      <label xml:lang="de" text="Deutsches Forum für Kunstgeschichte Paris" />
-      <label xml:lang="en" text="Deutsches Forum für Kunstgeschichte Paris" />
-      <url xlink:href="www.dfk-paris.org" xlink:type="locator" />
+    <category ID="di.japan.tokyo">
+      <label xml:lang="en" text="Deutsches Institut für Japanstudien Tokyo" />
+      <label xml:lang="de" text="Deutsches Institut für Japanstudien Tokyo" />
+    </category>
+    <category ID="oi.istanbul">
+      <label xml:lang="de" text="Orient-Institut Istanbul" />
+      <label xml:lang="en" text="Orient-Institut Istanbul" />
     </category>
     <category ID="mws">
       <label xml:lang="de" text="Max Weber Stiftung" />
       <label xml:lang="en" text="Max Weber Stiftung" />
       <url xlink:href="www.maxweberstiftung.de" xlink:type="locator" />
+    </category>
+    <category ID="spsg">
+      <label xml:lang="de" text="Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg" />
+      <label xml:lang="en" text="Prussian Palaces and Gardens Foundation Berlin-Brandenburg" />
+    </category>
+    <category ID="adef">
+      <label xml:lang="en" text="German Association for British Studies" />
+      <label xml:lang="de" text="Arbeitskreis Deutsche England-Forschung" />
     </category>
   </categories>
 </mycoreclass>
