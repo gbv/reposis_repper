@@ -4,26 +4,25 @@
 
       <div id="pp_boxContainer">
           
-        <div id="pp_arrowToMIR"></div>
-        <div id="pp_arrowToSources"></div>
-        <div id="pp_arrowToJournals"></div>
+        <div id="pp_arrowToMIR">&#160;</div>
+        <div id="pp_arrowToSources">&#160;</div>
+        <div id="pp_arrowToJournals">&#160;</div>
           
         <div class="row" id="pp_index_boxes">
             <div class="col-md-offset-2 col-md-8" lang="de">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h2 class="panel-title" style="width:100%">
-                            perspectivia.net - Die elektronische Publikationsplattform der MWS
+                            Freier Zugang zu Wissen
                         </h2>
                     </div>
                     <div class="panel-body">
                         <p>
-                            Die elektronische Publikationsplattform perspectivia.net ist das internationale, epochenübergreifende
-                            und interdisziplinäre Portal der <a class="external-link" href="http://www.maxweberstiftung.de/startseite.html"
-                            >Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland</a>. Die Open-Access-Veröffentlichungen
-                            auf perspectivia.net werden von den Instituten der Max Weber Stiftung und ihren Kooperationspartnern herausgegeben.
-                            Hinzu kommen institutsübergreifende Publikationen. Einzelne eJournals, Quelleneditionen und Datenbanken werden
-                            getrennt von den Inhalten der Publikationsplattform auf eigenen Webseiten veröffentlicht.
+                            Die elektronische Publikationsplattform perspectivia.net versteht sich als ein internationales, epochenübergreifendes und
+                            interdisziplinäres Portal für geisteswissenschaftliche Publikationen. Als Infrastruktur der Max Weber Stiftung – Deutsche
+                            Geisteswissenschaftliche Institute im Ausland werden hier die von den Instituten und ihren Kooperationspartnern herausgegebenen
+                            Publikationen frei zugänglich gemacht. Die Max Weber Stiftung ist den Prinzipien des Open Access verpflichtet und perspectivia.net
+                            fördert den freien Zugang zu Wissen und begleitet die Transformation der Geisteswissenschaften in Richtung einer offenen Wissenschaft.
                             <br /><br />
                         </p>
                     </div>
