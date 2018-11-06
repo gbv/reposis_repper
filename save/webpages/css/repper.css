@@ -336,7 +336,7 @@ html body footer .internal_links {
 #pp_feedback {
   cursor: pointer;
   position: fixed;
-  bottom: 20%;
+  bottom: 40%;
   right: -24px;
   transform: rotate(-90deg);
   display: block;
@@ -364,7 +364,7 @@ html body footer .internal_links {
 /*  for beta testing only */
 #main_content .alert-danger a {
   color: white;
-  text-decoration: underline;
+  font-weight: 600;
 }
 
 
@@ -483,7 +483,6 @@ html body footer .internal_links {
 
 #pp_index_boxes .panel {
   border: 1px solid #c5c5c5;
-  text-align: center;
 }
 
 #pp_index_boxes .panel-body {
@@ -605,4 +604,42 @@ html body footer .internal_links {
 .mycoreViewer .navbar {
   border-top: 0px solid #75adad;
   border-bottom: 0px solid #75adad;
+}
+
+
+/* ********************** Linien auf Startseite ********************** */
+
+#pp_boxContainer {
+  position: relative;
+}
+
+#pp_arrowToJournals { 
+  position:absolute;
+  top: 250px;
+  right: 10%;
+  width: 150px;
+  height: 250px;
+  border-top: solid #0c636d 1px;
+  border-right: solid #0c636d 1px;
+  border-radius: 4px;
+}
+
+#pp_arrowToMIR { 
+  position:absolute;
+  top: 250px;
+  left: 10%;
+  width: 150px;
+  height: 250px;
+  border-top: solid #0c636d 1px;
+  border-left: solid #0c636d 1px;
+  border-radius: 4px;
+}
+
+#pp_arrowToSources { 
+  position:absolute;
+  top: 351px;
+  left: 50%;
+  width: 1px;
+  height: 150px;
+  border-left: solid #0c636d 1px;
 }

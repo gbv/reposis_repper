@@ -2,17 +2,35 @@
 <MyCoReWebPage>
     <section xml:lang="de" title="Willkommen">
 
-        <div class="row">
-            <div class="col-xs-12" lang="de">
-                <h1>Willkommen auf perspectivia.net</h1>
-                <p>
-                    Die elektronische Publikationsplattform perspectivia.net ist das internationale, epochenübergreifende
-                    und interdisziplinäre Portal der <a class="external-link" href="http://www.maxweberstiftung.de/startseite.html"
-                    >Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland</a>. Die Open-Access-Veröffentlichungen
-                    auf perspectivia.net werden von den Instituten der Max Weber Stiftung und ihren Kooperationspartnern herausgegeben.
-                    Hinzu kommen institutsübergreifende Publikationen. Einzelne eJournals, Quelleneditionen und Datenbanken werden
-                    getrennt von den Inhalten der Publikationsplattform auf eigenen Webseiten veröffentlicht.
-                </p>
+      <div id="pp_boxContainer">
+          
+        <div id="pp_arrowToMIR"></div>
+        <div id="pp_arrowToSources"></div>
+        <div id="pp_arrowToJournals"></div>
+          
+        <div class="row" id="pp_index_boxes">
+            <div class="col-md-offset-2 col-md-8" lang="de">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title" style="width:100%">
+                            perspectivia.net - Die elektronische Publikationsplattform der MWS
+                        </h2>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            Die elektronische Publikationsplattform perspectivia.net ist das internationale, epochenübergreifende
+                            und interdisziplinäre Portal der <a class="external-link" href="http://www.maxweberstiftung.de/startseite.html"
+                            >Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland</a>. Die Open-Access-Veröffentlichungen
+                            auf perspectivia.net werden von den Instituten der Max Weber Stiftung und ihren Kooperationspartnern herausgegeben.
+                            Hinzu kommen institutsübergreifende Publikationen. Einzelne eJournals, Quelleneditionen und Datenbanken werden
+                            getrennt von den Inhalten der Publikationsplattform auf eigenen Webseiten veröffentlicht.
+                            <br /><br />
+                        </p>
+                    </div>
+                    <div class="panel-footer pp_more">
+                        <a href="about/index.xml"><strong>... mehr erfahren</strong></a>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -21,7 +39,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h2 class="panel-title" style="width:100%">
-                            Publikationsplattform
+                            Publikationsserver
                         </h2>
                     </div>
                     <div class="panel-body">
@@ -83,7 +101,7 @@
             </div>
         </div>
 
-
+      </div>
 
         <div class="row">
             <div class="col-xs-12" lang="de">
