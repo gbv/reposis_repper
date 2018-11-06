@@ -72,7 +72,10 @@
             <xsl:call-template name="mir.basketMenu" />
           </ul>
         </nav>
-
+        
+        <div id="pp_feedback">
+          <a href="mailto:perspectivia@MaxWeberStiftung.de">Feedback</a>
+        </div>
       </div><!-- /container -->
     </div>
   </xsl:template>
