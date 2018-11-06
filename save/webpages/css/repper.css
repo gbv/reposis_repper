@@ -342,9 +342,6 @@ html body footer .internal_links {
   display: block;
   background: #75adad;
   padding: 8px 0px;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  font-weight: bold;
   text-decoration: none;
   border-bottom: solid 1px #75adad;
   border-left: solid 0px #75adad;
@@ -361,6 +358,13 @@ html body footer .internal_links {
 }
 #pp_feedback a {
   color: #fff;
+  font-weight: 600;
+}
+
+/*  for beta testing only */
+#main_content .alert-danger a {
+  color: white;
+  text-decoration: underline;
 }
 
 
