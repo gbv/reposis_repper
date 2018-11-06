@@ -205,7 +205,8 @@
   </xsl:template>
 
   <xsl:template name="print.beta">
-    <div class="alert alert-danger" style="padding:3px;">
+    <div class="alert alert-danger alert-dismissible" style="padding:3px;">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&#215;</a>
       <xsl:value-of select="i18n:translate('pp.printBeta.title')"/>
       <xsl:text> </xsl:text>
       <xsl:value-of select="i18n:translate('pp.printBeta.text')" disable-output-escaping="yes" />
