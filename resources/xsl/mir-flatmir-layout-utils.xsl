@@ -201,4 +201,14 @@
     
   </xsl:template>
 
+  <xsl:template name="print.beta">
+    <div class="alert alert-danger" style="padding:3px;">
+      <h4 style="margin-top:0; float:left; margin-right:10px;">
+        <xsl:value-of select="i18n:translate('pp.printBeta.title')"/>
+        <i class="fa fa-exclamation"></i>
+      </h4>
+      <xsl:value-of select="i18n:translate('pp.printBeta.text')" disable-output-escaping="yes" />
+    </div>
+  </xsl:template>
+
 </xsl:stylesheet>
