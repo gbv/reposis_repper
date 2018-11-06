@@ -380,7 +380,7 @@
               <ul>
                 <xsl:for-each select="result/doc">
                   <li>
-				   <xsl:variable name="$contributors">
+				   <xsl:variable name="contributors">
                      <xsl:choose>
                        <xsl:when test="arr[@name='mods.nameByRole.personal.aut']">
                          <xsl:copy-of select="arr[@name='mods.nameByRole.personal.aut']/." />
@@ -413,7 +413,7 @@
         <ul>
           <xsl:for-each select="$hits/arr[@name='groups']/lst/result/doc">
             <li>
-			  <xsl:variable name="$contributors">
+			  <xsl:variable name="contributors">
                 <xsl:choose>
                   <xsl:when test="arr[@name='mods.nameByRole.personal.aut']">
                     <xsl:copy-of select="arr[@name='mods.nameByRole.personal.aut']/." />
@@ -461,7 +461,21 @@
     </a>
 	<xsl:if test="string-length($contributors) &gt; 0">
 	  <br />
-	  <xsl:value-of select="$contributors" />
-	</if>
+	  <span style="padding-left: 20px;">
+	  <xsl:for-each select="exslt:node-set($contributors)/arr/str[position() &lt;= 3]">
+                <xsl:if test="position()!=1">
+                  <xsl:value-of select="' / '" />
+                </xsl:if>
+                  <xsl:choose>
+                    <xsl:when test="contains(., ':')">
+                      <xsl:value-of select="substring-before(., ':')" />
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <xsl:value-of select="." />
+                    </xsl:otherwise>
+                  </xsl:choose>
+      </xsl:for-each>
+	  </span>
+	</xsl:if>
   </xsl:template>
 </xsl:stylesheet>
