@@ -549,9 +549,10 @@ html body footer .internal_links {
   border-right: 1px solid #c5c5c5;
 }
 .pp_inst-contact {
-  border-bottom: 1px solid #c5c5c5;
+  border-top: 1px solid #c5c5c5;
+  padding-top: 40px;
+  margin-top: 40px;
   margin-bottom: 40px;
-  padding-bottom: 40px
 }
 #pp_dfk-logo {
   width: 200px;
