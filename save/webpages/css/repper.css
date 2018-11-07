@@ -581,6 +581,13 @@ html body footer .internal_links {
     left: 0px;
 }
 
+.pp_sourcesBox {
+  margin: 30px;
+}
+.pp_sourcesBox a {
+  display: block;
+  margin-bottom: 10px;
+}
 
 /* ********************** other ********************** */
 .hit_oa > span.label-success {
