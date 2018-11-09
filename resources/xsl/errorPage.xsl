@@ -5,11 +5,12 @@
   <xsl:variable name="PageTitle" select="i18n:translate('titles.pageTitle.error',concat(' ',/mcr_error/@HttpError))" />
 
   <xsl:template match="/mcr_error">
-    <h1>
-      Es ist ein Fehler aufgetreten
-    </h1>
     <div class="row">
       <div class="col-md-8" lang="de">
+        <h1>
+          Es ist ein Fehler aufgetreten
+        </h1>
+
         <xsl:choose>
           <xsl:when test="/mcr_error/@HttpError = '500'">
               <h2>Interner Serverfehler</h2>
@@ -24,7 +25,7 @@
               schreiben Sie eine Mail an <span class="madress">perspectivia [at] maxweberstiftung.de</span> und
               schildern kurz wie es zu diesem Fehler kam.</p>
             <p>Vorrübergehend ist die alte perspectivia.net Webseite auch noch zu erreichen unter:
-              <a href="prae.perspectivia.net">prae.perspectivia.net</a>
+              <a href="https://prae.perspectivia.net">prae.perspectivia.net</a>
               <br/><br/>
               Vielen Dank!</p>
           </xsl:when>
@@ -36,7 +37,7 @@
               schreiben Sie eine Mail an <span class="madress">perspectivia [at] maxweberstiftung.de</span> und
                 schildern kurz wie es zu diesem Fehler kam.</p>
             <p>Vorrübergehend ist die alte perspectivia.net Webseite auch noch zu erreichen unter:
-              <a href="prae.perspectivia.net">prae.perspectivia.net</a>
+              <a href="https://prae.perspectivia.net">prae.perspectivia.net</a>
               <br/><br/>
               Vielen Dank!</p>
           </xsl:when>
@@ -47,7 +48,7 @@
               Sie sich ggf. an Ihren Administrator oder
               schreiben Sie eine Mail an <span class="madress">perspectivia [at] maxweberstiftung.de</span>.</p>
               <p>Vorrübergehend ist die alte perspectivia.net Webseite auch noch zu erreichen unter:
-              <a href="prae.perspectivia.net">prae.perspectivia.net</a>
+                <a href="https://prae.perspectivia.net">prae.perspectivia.net</a>
               <br/><br/>
               Vielen Dank!</p>
           </xsl:when>
