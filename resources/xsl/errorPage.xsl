@@ -8,38 +8,18 @@
     <div class="row">
       <div class="col-md-8" lang="de">
         <h1>
-          Es ist ein Fehler aufgetreten
+          <xsl:value-of select="i18n:translate('pp.pageError.title')" />
         </h1>
 
         <xsl:choose>
           <xsl:when test="/mcr_error/@HttpError = '500'">
-              <h2>Interner Serverfehler</h2>
-              <!-- p>Es ist leider ein Serverfehler aufgetreten. Wir arbeiten an dessen Beseitigung!
-              Gern können Sie uns eine Mail an <span class="madress">dms-list [at] lists.gbv.de</span>
-              schicken und kurz schildern wie es zu diesem Fehler kam.
-              <br/><br/>
-              Vielen Dank!</p -->
-            <p>Die von Ihnen angefordete Seite konnte leider nicht gefunden werden. Eventuell
-              haben Sie ein altes Lesezeichen oder einen veralteten Link benutzt. Bitte versuchen
-              Sie mithilfe der <a href="/index.html">Suche</a> die gewünschte Seite zu finden oder
-              schreiben Sie eine Mail an <span class="madress">perspectivia [at] maxweberstiftung.de</span> und
-              schildern kurz wie es zu diesem Fehler kam.</p>
-            <p>Vorrübergehend ist die alte perspectivia.net Webseite auch noch zu erreichen unter:
-              <a href="https://prae.perspectivia.net">prae.perspectivia.net</a>
-              <br/><br/>
-              Vielen Dank!</p>
+            <h2><xsl:value-of select="i18n:translate('pp.pageError.title.500')" /></h2>
+            <!-- <xsl:value-of select="i18n:translate('pp.pageError.text.500')" disable-output-escaping="yes" /> -->
+            <xsl:value-of select="i18n:translate('pp.pageError.text.404')" disable-output-escaping="yes" />
           </xsl:when>
           <xsl:when test="/mcr_error/@HttpError = '404'">
               <h2><xsl:value-of select="." /></h2>
-              <p>Die von Ihnen angefordete Seite konnte leider nicht gefunden werden. Eventuell
-              haben Sie ein altes Lesezeichen oder einen veralteten Link benutzt. Bitte versuchen
-              Sie mithilfe der <a href="/index.html">Suche</a> die gewünschte Seite zu finden oder
-              schreiben Sie eine Mail an <span class="madress">perspectivia [at] maxweberstiftung.de</span> und
-                schildern kurz wie es zu diesem Fehler kam.</p>
-            <p>Vorrübergehend ist die alte perspectivia.net Webseite auch noch zu erreichen unter:
-              <a href="https://prae.perspectivia.net">prae.perspectivia.net</a>
-              <br/><br/>
-              Vielen Dank!</p>
+              <xsl:value-of select="i18n:translate('pp.pageError.text.404')" disable-output-escaping="yes" />
           </xsl:when>
           <xsl:when test="/mcr_error/@HttpError = '403'">
               <h2>Zugriff verweigert</h2>
