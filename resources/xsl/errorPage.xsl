@@ -22,7 +22,9 @@
               haben Sie ein altes Lesezeichen oder einen veralteten Link benutzt. Bitte versuchen
               Sie mithilfe der <a href="/index.html">Suche</a> die gewünschte Seite zu finden oder
               schreiben Sie eine Mail an <span class="madress">perspectivia [at] maxweberstiftung.de</span> und
-              schildern kurz wie es zu diesem Fehler kam.
+              schildern kurz wie es zu diesem Fehler kam.</p>
+            <p>Vorrübergehend ist die alte perspectivia.net Webseite auch noch zu erreichen unter:
+              <a href="prae.perspectivia.net">prae.perspectivia.net</a>
               <br/><br/>
               Vielen Dank!</p>
           </xsl:when>
@@ -32,7 +34,9 @@
               haben Sie ein altes Lesezeichen oder einen veralteten Link benutzt. Bitte versuchen
               Sie mithilfe der <a href="/index.html">Suche</a> die gewünschte Seite zu finden oder
               schreiben Sie eine Mail an <span class="madress">perspectivia [at] maxweberstiftung.de</span> und
-              schildern kurz wie es zu diesem Fehler kam.
+                schildern kurz wie es zu diesem Fehler kam.</p>
+            <p>Vorrübergehend ist die alte perspectivia.net Webseite auch noch zu erreichen unter:
+              <a href="prae.perspectivia.net">prae.perspectivia.net</a>
               <br/><br/>
               Vielen Dank!</p>
           </xsl:when>
