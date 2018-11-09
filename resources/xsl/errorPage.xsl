@@ -34,7 +34,9 @@
               <p>Sie haben keine Berechtigung diese Seite zu sehen. Melden Sie sich bitte am System an.
               Sollten Sie trotz Anmeldung nicht die nötigen Rechte haben um diese Seite zu sehen, wenden
               Sie sich ggf. an Ihren Administrator oder
-              schreiben Sie eine Mail an <span class="madress">perspectivia [at] maxweberstiftung.de</span>.
+              schreiben Sie eine Mail an <span class="madress">perspectivia [at] maxweberstiftung.de</span>.</p>
+              <p>Vorrübergehend ist die alte perspectivia.net Webseite auch noch zu erreichen unter:
+              <a href="prae.perspectivia.net">prae.perspectivia.net</a>
               <br/><br/>
               Vielen Dank!</p>
           </xsl:when>
