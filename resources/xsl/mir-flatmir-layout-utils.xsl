@@ -100,7 +100,7 @@
           </div>
           <div class="col-md-2">
             <a href="http://www.maxweberstiftung.de/">
-              <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/Max-Weber-Stiftung-Logo.png" alt="Max-Weber-Stiftung-Logo" title="Max-Weber-Stiftung-Logo" />
+              <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/Max-Weber-Stiftung-Logo.png" alt="Logo der Max Weber Stiftung" title="Logo der Max Weber Stiftung" />
             </a>
           </div>
           <div class="col-md-3">
