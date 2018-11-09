@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="neuer Eintrag"><p>TODO</p>
-
-<p align="center"> </p>
-
-<div>
+<MyCoReWebPage><section xml:lang="de" title="neuer Eintrag"><div>
 <h1>Service</h1>
-</div>
 
 <h4>Leistungsportfolio von perspectivia.net</h4>
 
@@ -90,4 +85,5 @@
 </ol>
 
 <p>Digitale Forschungsinfrastrukturen zählen zu den Grundvoraussetzungen in einem erfolgreichen Wissenschaftsbetrieb. Digitale Forschungsprozesse und computergestützte Methoden benötigen infrastrukturelle Unterstützung, darunter Server- und Rechenkapazitäten, spezialisierte Softwarewerkzeuge, digitalisierte Ressourcen und maschinenlesbare Daten, standardisierte Zugangsdienste und vor allem verlässliche Infrastrukturen für die Speicherung, Bereitstellung und das Management der dabei erzeugten Forschungsdaten. Über die Redaktion perspectivia.net betreuen und organisieren wir Kooperationen mit Rechenzentren, Bibliotheken und Infrastrukturprojekten, über die wir die Forschungsprojekte der MWS mit den benötigten Infrastrukturen ausstatten können.</p>
-</section><meta><log lastEditor="kneumann" date="2018-06-18" time="16:34" /></meta></MyCoReWebPage>
+</div>
+</section><meta><log lastEditor="kneumann" date="2018-11-06" time="16:00" /></meta></MyCoReWebPage>

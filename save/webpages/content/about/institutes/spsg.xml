@@ -1,134 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-    <section xml:lang="de" title="SPSG">
-        <div class="row">
-            <div class="col-xs-12" lang="de">
-                <h1>Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</h1>
-                
-                <div class="pp_institute-graphic">
-                    <img alt="SPSG-Logo" src="../../../images/logos/spsg-logo.png" id="pp_spsg-logo" />
-                    <img alt="SPSG-Foto" title="Johann David Schleuen d. Ä.: »Prospect der fordern Seite des Königl. Lust=Schlosses Sans Soucy bei Potsdam«, um 1773, Radierung, SPSG, PK 4251/2. © SPSG, DIZ / Fotothek (Daniel Lindner)" src="../../../images/spsg-photo.jpg"  id="pp_spsg-photo" />
-                </div>
+<MyCoReWebPage><section xml:lang="de" title="SPSG"><div class="row">
+<div class="col-xs-12" lang="de">
+<h1>Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</h1>
 
-            </div>
-            <div class="col-xs-12">
-            <div class="row">
-                <div class="col-md-6 pp_inst-publications">
-                    <h3>
-                        Auswahl Publikationsreihen
-                    </h3>
-                    <div class="row pp_sourcesBox">
-                        <div class="col-xs-4">
-                            <img class="img-responsive" alt="Platzhalter" src="../../../images/spsg-schatullenrechnungen.jpg" />
-                        </div>
-                        <div class="col-xs-8">
-                            <a href="../../../publikationen/friedrich300-colloquien">Friedrich300 - Colloquien</a>
-                            <p>
-                                Lorem Ipsum ...
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row pp_sourcesBox">
-                        <div class="col-xs-4">
-                            <img class="img-responsive" alt="Platzhalter" src="../../../images/spsg-schatullenrechnungen.jpg" />
-                        </div>
-                        <div class="col-xs-8">
-                            <a href="../../../publikationen/spsg-jb">Jahrbuch</a>
-                            <p>
-                                Lorem Ipsum ...
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6">
-                    <h3>
-                        Digitale Quelleneditionen
-                    </h3>
-                    <div class="row pp_sourcesBox">
-                        <div class="col-xs-4">
-                            <img class="img-responsive" alt="Platzhalter" src="../../../images/spsg-schatullenrechnungen.jpg" />
-                        </div>
-                        <div class="col-xs-8">
-                            <a class="external-link" href="http://quellen-perspectivia.net/de/borchward/start">Borchward in Potsdam 1749 Borchward in Potsdam 1749 </a>
-                            <p>
-                                Lorem Ipsum ...
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row pp_sourcesBox">
-                        <div class="col-xs-4">
-                            <img class="img-responsive" alt="Platzhalter" src="../../../images/spsg-schatullenrechnungen.jpg" />
-                        </div>
-                        <div class="col-xs-8">
-                            <a class="external-link" href="http://quellen-perspectivia.net/de/judenporzellan/start">Das “Judenporzellan”</a>
-                            <p>
-                                Lorem Ipsum ...
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row pp_sourcesBox">
-                        <div class="col-xs-4">
-                            <img class="img-responsive" alt="Schatullenrechnungen" src="../../../images/spsg-schatullenrechnungen.jpg" />
-                        </div>
-                        <div class="col-xs-8">
-                            <a class="external-link" href="http://quellen-perspectivia.net/de/schatullrechnungen/start">Schatullrechnungen Friedrichs des Großen</a>
-                            <p>
-                                Kommentierte Edition der Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg und des Geheimen Staatsarchivs Preußischer Kulturbesitz
-                                in Zusammenarbeit mit dem Research Center Sanssouci (RECS) und perspectivia.net.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-            <div class="col-xs-12 pp_inst-contact" lang="de">
-                <h2>Kontakt</h2>
-                <h3>Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</h3>
-                <div style="display:flex; align-items: flex-end; flex-wrap: wrap;">
-                    
-                    <div style="margin-right: 10%;">
-                        Generaldirektion,<br />
-                        Wissenschaft und Forschung<br />
-                        Dr. Jürgen Luh<br />
-                        Allee nach Sanssouci 5, 14471 Potsdam
-                    </div>
-                    
-                    <table style="margin-right: 10%;">
-                        <tr>
-                            <td style="padding-right: 20px;">Telefon:</td>
-                            <td>+49 331 96 94 0</td>
-                        </tr>
-                        <tr>
-                            <td style="padding-right: 20px;">Fax:</td>
-                            <td>+49 331 96 94 107</td>
-                        </tr>
-                    </table>
-                    
-                    <table>
-                        <tr style="padding-right: 20px;">
-                            <td>E-Mail:</td>
-                            <td>info (at) spsg.de</td>
-                        </tr>
-                        <tr>
-                            <td style="padding-right: 20px;">Internet:</td>
-                            <td><a class="external-link" href="http://www.spsg.de/">www.spsg.de</a></td>
-                        </tr>
-                    </table>
-                    
-                </div>
-            </div>
-        </div>
+<div class="pp_institute-graphic"><img alt="SPSG-Logo" id="pp_spsg-logo" src="../../../images/logos/spsg-logo.png" /> <img alt="SPSG-Foto" id="pp_spsg-photo" src="../../../images/spsg-photo.jpg" title="Johann David Schleuen d. Ä.: »Prospect der fordern Seite des Königl. Lust=Schlosses Sans Soucy bei Potsdam«, um 1773, Radierung, SPSG, PK 4251/2. © SPSG, DIZ / Fotothek (Daniel Lindner)" /></div>
+</div>
 
-    </section>
-    <section xml:lang="en" title="SPSG">
-        <div class="row">
+<div class="col-xs-12">
+<div class="row">
+<div class="col-md-6 pp_inst-publications">
+<div class="solrsearch" data-classes="pp_sourcesBox" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:spsg%22"> </div>
+</div>
+
+<div class="col-md-6">
+<h3>Digitale Quelleneditionen</h3>
+
+<div class="row pp_sourcesBox">
+<div class="col-xs-4"><img alt="Platzhalter" class="img-responsive" src="../../../images/spsg-schatullenrechnungen.jpg" /></div>
+
+<div class="col-xs-8"><a class="external-link" href="http://quellen-perspectivia.net/de/borchward/start">Borchward in Potsdam 1749 Borchward in Potsdam 1749 </a>
+
+<p>Lorem Ipsum ...</p>
+</div>
+</div>
+
+<div class="row pp_sourcesBox">
+<div class="col-xs-4"><img alt="Platzhalter" class="img-responsive" src="../../../images/spsg-schatullenrechnungen.jpg" /></div>
+
+<div class="col-xs-8"><a class="external-link" href="http://quellen-perspectivia.net/de/judenporzellan/start">Das “Judenporzellan”</a>
+
+<p>Lorem Ipsum ...</p>
+</div>
+</div>
+
+<div class="row pp_sourcesBox">
+<div class="col-xs-4"><img alt="Schatullenrechnungen" class="img-responsive" src="../../../images/spsg-schatullenrechnungen.jpg" /></div>
+
+<div class="col-xs-8"><a class="external-link" href="http://quellen-perspectivia.net/de/schatullrechnungen/start">Schatullrechnungen Friedrichs des Großen</a>
+
+<p>Kommentierte Edition der Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg und des Geheimen Staatsarchivs Preußischer Kulturbesitz in Zusammenarbeit mit dem Research Center Sanssouci (RECS) und perspectivia.net.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-xs-12 pp_inst-contact" lang="de">
+<h2>Kontakt</h2>
+
+<h3>Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</h3>
+
+<div style="display:flex; align-items: flex-end; flex-wrap: wrap;">
+<div style="margin-right: 10%;">Generaldirektion,<br />
+Wissenschaft und Forschung<br />
+Dr. Jürgen Luh<br />
+Allee nach Sanssouci 5, 14471 Potsdam</div>
+
+<table style="margin-right: 10%;">
+	<tbody>
+		<tr>
+			<td style="padding-right: 20px;">Telefon:</td>
+			<td>+49 331 96 94 0</td>
+		</tr>
+		<tr>
+			<td style="padding-right: 20px;">Fax:</td>
+			<td>+49 331 96 94 107</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<tbody>
+		<tr style="padding-right: 20px;">
+			<td>E-Mail:</td>
+			<td>info (at) spsg.de</td>
+		</tr>
+		<tr>
+			<td style="padding-right: 20px;">Internet:</td>
+			<td><a class="external-link" href="http://www.spsg.de/">www.spsg.de</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+</section><section xml:lang="en" title="SPSG"><div><div class="row">
             <div class="col-xs-12 pp_inst-contact" lang="de">
                 <h1>Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</h1>
                 
                 <div class="pp_institute-graphic">
                     <img alt="SPSG-Logo" src="../../../images/logos/spsg-logo.png" id="pp_spsg-logo" />
-                    <img alt="SPSG-Foto" src="../../../images/spsg-photo.jpg"  id="pp_spsg-photo" />
+                    <img alt="SPSG-Foto" src="../../../images/spsg-photo.jpg" id="pp_spsg-photo" />
                 </div>
                 
                 <h2>Kontakt</h2>
@@ -156,8 +118,7 @@ Internet: <a class="external-link" href="http://www.spsg.de/">www.spsg.de</a>
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="row">
+        </div><div class="row">
             <div class="col-md-5 pp_inst-publications">
                 <h3>
                     Publications on perspectivia.net
@@ -178,7 +139,4 @@ Internet: <a class="external-link" href="http://www.spsg.de/">www.spsg.de</a>
                     <li><a class="external-link" href="http://quellen-perspectivia.net/de/schatullrechnungen/start">Schatullrechnungen Friedrichs des Großen Schatullrechnungen Friedrichs des Großen </a></li>
                 </ul>
             </div>
-        </div>
-    </section>
-    <meta><log lastEditor="administrator" date="2018-10-25" time="13:45" /></meta>
-</MyCoReWebPage>
+        </div></div></section><meta><log lastEditor="administrator" date="2018-11-08" time="17:30" /></meta></MyCoReWebPage>

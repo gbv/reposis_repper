@@ -179,6 +179,14 @@
             <label xml:lang="de">OPERAS</label>
             <label xml:lang="en">OPERAS</label>
         </item>
+        <item href="http://menadoc.bibliothek.uni-halle.de/" type="extern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">MENAdoc (FID Vorderer Orient)</label>
+            <label xml:lang="en">MENAdoc (FID Vorderer Orient)</label>
+        </item>
+        <item href="https://www.arthistoricum.net/partner/dkfparis/" type="extern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">arthistoricum.net (FID Kunstgeschichte)</label>
+            <label xml:lang="en">arthistoricum.net (FID Kunstgeschichte)</label>
+        </item>
     </menu>
     <menu id="publish" dir="/content/publish">
         <label xml:lang="de">Publizieren</label>

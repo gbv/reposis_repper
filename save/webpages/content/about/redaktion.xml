@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="neuer Eintrag"><p>TODO</p>
-
-<p> </p>
-
+<MyCoReWebPage><section xml:lang="de" title="neuer Eintrag"><div> 
 <h1>Unser Konzept</h1>
 
 <p>Die digitale Transformation verändert auch die Publikationspraxis in paradigmatischer Weise. Neue Technologien und Methoden definieren auch das klassische Arbeitsfeld der Redaktion völlig neu. Die Redaktion perspectivia.net versteht sich daher als unterstützende Instanz für den immer komplexer werdenden wissenschaftlichen Publikationsprozess im digitalen Zeitalter – als Digitale Redaktion.</p>
@@ -14,12 +11,6 @@
 <p>Vernetzung, Layout und Lektorat, Verteilung und Kommunikation, Schulung und Betreuung.</p>
 
 <h1>Unser Team</h1>
-
-<p><em>[mit Kurzbiografien?]</em></p>
-
-<p><em>So wie hier </em><a href="http://www.digitale-akademie.de/profil/"><em>http://www.digitale-akademie.de/profil/</em></a></p>
-
-<p> </p>
 
 <p>Leitung</p>
 
@@ -48,20 +39,13 @@
 <p>Fabian Schmitt</p>
 
 <p>Tobias Tenhaef</p>
-
-<p> </p>
-
-<p>[TEAMFOTO]</p>
-
-<p> </p>
-
-<p>[Ehemalige?]</p>
+ 
 
 <h1>Unser Blog</h1>
 
 <p>Wir berichten und diskutieren regelmäßig in unserem Blog über die Veränderungsprozesse und die neuen Arbeitsroutinen, sowie die Herausforderungen und Entwicklungen im Bereich des digitalen Publizierens.</p>
 
-<p>[LINK]</p>
+<p><a href="https://editorial.hypotheses.org/">DIGITALE REDAKTION. Editorial zum digitalen Publizieren</a></p>
 
 <p> </p>
 
@@ -75,7 +59,11 @@
 
 <p>Artikel &amp; Blogs</p>
 
-<p> </p>
+<pre style="box-sizing: inherit; font-size: 16px; font-family: Inconsolata, monospace; border: 1px solid rgb(209, 209, 209); line-height: 1.3125; margin: 0px 0px 1.75em; max-width: 100%; overflow: auto; padding: 1.75em; white-space: pre-wrap; overflow-wrap: break-word; color: rgb(26, 26, 26); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
+Katrin Neumann und Fabian Cremer: Zurück in die Zukunft II – keine erweiterten Publikationen in den Geisteswissenschaften?, in: Digitale Redaktion, 18.07.2018, <a href="https://editorial.hypotheses.org/231" style="box-sizing: inherit; background-color: transparent; color: rgb(10, 110, 120); text-decoration: none; box-shadow: currentcolor 0px 1px 0px 0px;">https://editorial.hypotheses.org/231</a></pre>
+
+<pre style="box-sizing: inherit; font-size: 16px; font-family: Inconsolata, monospace; border: 1px solid rgb(209, 209, 209); line-height: 1.3125; margin: 0px 0px 1.75em; max-width: 100%; overflow: auto; padding: 1.75em; white-space: pre-wrap; overflow-wrap: break-word; color: rgb(26, 26, 26); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
+Katrin Neumann und Fabian Cremer: Stolz und Vorurteil. Geisteswissenschaften und Open Access in einer Dekade perspectivia.net, in: Digitale Redaktion, 03.05.2018, <a href="https://editorial.hypotheses.org/147" style="box-sizing: inherit; background-color: transparent; color: rgb(10, 110, 120); text-decoration: none; box-shadow: currentcolor 0px 1px 0px 0px;">https://editorial.hypotheses.org/147</a></pre>
 
 <p>Vorträge und Veranstaltungen</p>
 
@@ -85,5 +73,6 @@
 
 <p>Weitere Aktivitäten</p>
 
-<p>AGs, Gremien etc.</p>
-</section><meta><log lastEditor="kneumann" date="2018-06-18" time="16:30" /></meta></MyCoReWebPage>
+<p> </p>
+</div>
+</section><meta><log lastEditor="kneumann" date="2018-11-06" time="15:47" /></meta></MyCoReWebPage>
