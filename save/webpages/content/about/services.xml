@@ -1,89 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="neuer Eintrag"><div>
-<h1>Service</h1>
+<MyCoReWebPage>
+    <section xml:lang="de" title="Service">
+        <div class="row">
+            <div class="col-xs-12" lang="de">
+                <h1>Service</h1>
+                
+                <h2>Leistungsportfolio von perspectivia.net</h2>
 
-<h4>Leistungsportfolio von perspectivia.net</h4>
+                <h3>Publikationsformate</h3>
+                
+                <ol>
+                    <li>Zeitschriften<br />
+                        Mit unseren Kooperationspartnern UB Heidelberg und BSB München betreuen wir für Online-Zeitschriften eigene Webauftritte mit der Software OJS (Open Journal Systems).</li>
+                    <li>Monografien<br />
+                        Für digitale Monografien gibt es mehrere Umsetzungsmöglichkeiten, die von den individuellen Anforderungen und Möglichkeiten abhängen. Wir unterstützen sowohl Hybrid-Publikationen als auch genuine Onlineformate, ob als klassisches PDF oder als XML in HTML-Repräsentation. Neben der Veröffentlichung auf perspectivia.net ist suchen wir auch die Zusammenarbeit mit Verlagen und Bibliotheken.</li>
+                    <li>Serien<br />
+                        Auf perspectivia.net veröffentlichen wir als genuine Onlinepublikationen wissenschaftliche Artikel in Reihen und Serien, z.B. Bulletins, Discussion Paper, Working Paper, Vorträge, Interviews und andere Periodika im HTML und/oder PDF-Format.</li>
+                    <li>Einzelveröffentlichungen/Zweitpublikationen<br />
+                        Die Publikationsplattform bietet die Möglichkeit auch einzelne Schriften als Erstveröffentlichung oder als Zweitpublikation im Sinne des grünen Open Access zu publizieren.</li>
+                    <li>Blogs<br />
+                        In Zusammenarbeit mit Open Edition in Frankreich betreut perspectivia.net das deutschsprachige Blogportal von hypotheses (de.hypotheses.org) und unterstützt die Blog-Community. Die Einrichtung eines Blogs steht jedem wissenschaftlichen Vorhaben offen.</li>
+                    <li>Multimedia<br />
+                        Grundsätzlich kann die Publikationsplattform mit zahlreichen Medien- und Dateiformaten umgehen. So sind beispielsweise Tagungsdokumentationen, Vorträge oder Präsentationen als Audio- und Videomitschnitte möglich.</li>
+                    <li>Retrodigitalisierung<br />
+                        Der überwiegende Teil der Veröffentlichungen der Institute ist bereits digitalisiert und über perspectivia.net verfügbar. Die Erfahrungen und Kompetenz in diesem Bereich stehen weiterhin, auch für einzelne Digitalsierungsvorhaben, zur Verfügung.</li>
+                    <li>Innovative Formate<br />
+                        perspectivia.net versteht sich auch als Vorreiter und Gestalter des digitalen Publizierens. Wir untersuchen stetig neue Konzepten und experimentieren mit innovativen Technologien, auch im Rahmen von Forschungsprojekten. Perspectvia.net unterstützt daher gerne alle Vorhaben, die sich für die neuen Möglichkeiten des digitalen Publizierens interessieren.</li>
+                </ol>
+                
+                <h3>Publikationsprozesse</h3>
+                
+                <ol>
+                    <li>Transformation<br />
+                        Das klassische Desktoppublishing hat sich verändert. Moderne HTML-Präsentationen und langzeitverfügbare XML-Formate gehören zum Standard des Digitalen Publizierens. Diese erfordern jedoch eine Umwandlung der klassischen Formate aus der Textproduktion. Wir führen die Transformationen durch und unterstützen Autorenschaft und Herausgebende bei der Finalisierung der Publikation.</li>
+                    <li>Katalogisierung<br />
+                        Dauerhafte und eindeutige Links, eine bibliografische Beschreibung und die Auffindbarkeit in wissenschaftlichen Recherchesystemen sind wichtige Kriterien für die Verbreitung einer Publikation. Wir kümmern uns um Metadatenvergabe, Katalogisierung, Registrierung und Referenzierung der Veröffentlichungen, die auf perspectivia.net erscheinen.</li>
+                    <li>Lizenzen und Rechte<br />
+                        Bei einer Onlineveröffentlichung sind in der Regel sowohl Rechte an Inhalten von dritter Seite wie auch die Wahrung der eigenen Rechte durch eine Lizensierung der Arbeit grundlegende Fragen, die rechtliche Kompetenzen erfordern. Wir beraten zu offenen Lizenzen, Urheberrecht, Bildrecht, Zweitveröffentlichungsrecht.</li>
+                    <li>Verlagsverträge<br />
+                        Bei der Zusammenarbeit mit einem Verlag entscheidet die Vertragsgestaltung maßgeblich über die Verbreitungsmöglichkeiten und Zukunftssicherheit der Publikation. Wir begleiten die Verhandlungen und achten auf die Wahrung der Autorenrechte.</li>
+                    <li>Open Peer Review<br />
+                        Transparente Begutachtungsverfahren gehören zu den wichtigsten Aspekten einer offenen Wissenschaft. Wir haben bereits viele Erfahrungen mit Organisation, Prozessen und Software für Open Peer Review gesammelt und unterstützen Publikationsprojekte, die offene Verfahren einsetzen möchten.</li>
+                    <li>Print-on-Demand<br />
+                        Trotz der digitalen Verfügbarkeit hat das gedruckte Exemplar für die Rezeption nicht an Bedeutung verloren. Wir achten daher bei unseren Veröffentlichungen auf eine Druckausgabe oder entsprechende Kompatibilität und vermitteln Angebote für Print-on-Demand oder andere hybride Formate.</li>
+                </ol>
+                
+                <h3>Forschungsdaten</h3>
+                
+                <ol>
+                    <li>Beratung<br />
+                        Die Konzepte geisteswissenschaftlicher Forschungsdaten sind ein sich schnell entwickelndes Feld. Wir beraten daher umfassend zu allen Fragen zu Forschungsdaten und Möglichkeiten der Publikation.</li>
+                    <li>Forschungsdatenmanagement<br />
+                        Die Ansprüche an den korrekten Umgang mit Forschungsdaten erfordern auch informationswissenschaftliche und technische Expertise. Wir begleiten und beraten Forschende über den gesamten Lebenszyklus von Forschungsdaten hinweg, darunter Planung, Erhebung und Erzeugung, verlässliche Standards, sichere Speicherung, Nachnutzung, Publikation, dauerhafte Archivierung.</li>
+                    <li>Anreicherung<br />
+                        Qualitätsvolle Forschungsdaten bedürfen häufig einer Überarbeitung, Auszeichnung und Anreicherung, dazu zählen: Dokumentation, Formatkonvertierung oder Normdatenreferenzen. Wir unterstützen bei den Überarbeitungsprozessen.</li>
+                    <li>FAIR-Prinzipien<br />
+                        Die FAIR-Prinzipien (Findable, Accessable, Interoperable, Reusable) setzen den Standard für qualitätsvolle und nachnutznachbare Forschungsdaten. Wir wählen kompatible Infrastrukturen aus und informieren über Aufgaben der Autorinnen und Autoren.</li>
+                </ol>
 
-<p> </p>
-
-<h1>Publikationsformate</h1>
-
-<ol>
-	<li>Zeitschriften<br />
-	Mit unseren Kooperationspartnern UB Heidelberg und BSB München betreuen wir für Online-Zeitschriften eigene Webauftritte mit der Software OJS (Open Journal Systems).</li>
-	<li>Monografien<br />
-	Für digitale Monografien gibt es mehrere Umsetzungsmöglichkeiten, die von den individuellen Anforderungen und Möglichkeiten abhängen. Wir unterstützen sowohl Hybrid-Publikationen als auch genuine Onlineformate, ob als klassisches PDF oder als XML in HTML-Repräsentation. Neben der Veröffentlichung auf perspectivia.net ist suchen wir auch die Zusammenarbeit mit Verlagen und Bibliotheken.</li>
-	<li>Serien<br />
-	Auf perspectivia.net veröffentlichen wir als genuine Onlinepublikationen wissenschaftliche Artikel in Reihen und Serien, z.B. Bulletins, Discussion Paper, Working Paper, Vorträge, Interviews und andere Periodika im HTML und/oder PDF-Format.</li>
-	<li>Einzelveröffentlichungen/Zweitpublikationen<br />
-	Die Publikationsplattform bietet die Möglichkeit auch einzelne Schriften als Erstveröffentlichung oder als Zweitpublikation im Sinne des grünen Open Access zu publizieren.</li>
-	<li>Blogs<br />
-	In Zusammenarbeit mit Open Edition in Frankreich betreut perspectivia.net das deutschsprachige Blogportal von hypotheses (de.hypotheses.org) und unterstützt die Blog-Community. Die Einrichtung eines Blogs steht jedem wissenschaftlichen Vorhaben offen.</li>
-	<li>Multimedia<br />
-	Grundsätzlich kann die Publikationsplattform mit zahlreichen Medien- und Dateiformaten umgehen. So sind beispielsweise Tagungsdokumentationen, Vorträge oder Präsentationen als Audio- und Videomitschnitte möglich.</li>
-	<li>Retrodigitalisierung<br />
-	Der überwiegende Teil der Veröffentlichungen der Institute ist bereits digitalisiert und über perspectivia.net verfügbar. Die Erfahrungen und Kompetenz in diesem Bereich stehen weiterhin, auch für einzelne Digitalsierungsvorhaben, zur Verfügung.</li>
-	<li>Innovative Formate<br />
-	perspectivia.net versteht sich auch als Vorreiter und Gestalter des digitalen Publizierens. Wir untersuchen stetig neue Konzepten und experimentieren mit innovativen Technologien, auch im Rahmen von Forschungsprojekten. Perspectvia.net unterstützt daher gerne alle Vorhaben, die sich für die neuen Möglichkeiten des digitalen Publizierens interessieren.</li>
-</ol>
-
-<h1>Publikationsprozesse</h1>
-
-<ol>
-	<li>Transformation<br />
-	Das klassische Desktoppublishing hat sich verändert. Moderne HTML-Präsentationen und langzeitverfügbare XML-Formate gehören zum Standard des Digitalen Publizierens. Diese erfordern jedoch eine Umwandlung der klassischen Formate aus der Textproduktion. Wir führen die Transformationen durch und unterstützen Autorenschaft und Herausgebende bei der Finalisierung der Publikation.</li>
-	<li>Katalogisierung<br />
-	Dauerhafte und eindeutige Links, eine bibliografische Beschreibung und die Auffindbarkeit in wissenschaftlichen Recherchesystemen sind wichtige Kriterien für die Verbreitung einer Publikation. Wir kümmern uns um Metadatenvergabe, Katalogisierung, Registrierung und Referenzierung der Veröffentlichungen, die auf perspectivia.net erscheinen.</li>
-	<li>Lizenzen und Rechte<br />
-	Bei einer Onlineveröffentlichung sind in der Regel sowohl Rechte an Inhalten von dritter Seite wie auch die Wahrung der eigenen Rechte durch eine Lizensierung der Arbeit grundlegende Fragen, die rechtliche Kompetenzen erfordern. Wir beraten zu offenen Lizenzen, Urheberrecht, Bildrecht, Zweitveröffentlichungsrecht.</li>
-	<li>Verlagsverträge<br />
-	Bei der Zusammenarbeit mit einem Verlag entscheidet die Vertragsgestaltung maßgeblich über die Verbreitungsmöglichkeiten und Zukunftssicherheit der Publikation. Wir begleiten die Verhandlungen und achten auf die Wahrung der Autorenrechte.</li>
-	<li>Open Peer Review<br />
-	Transparente Begutachtungsverfahren gehören zu den wichtigsten Aspekten einer offenen Wissenschaft. Wir haben bereits viele Erfahrungen mit Organisation, Prozessen und Software für Open Peer Review gesammelt und unterstützen Publikationsprojekte, die offene Verfahren einsetzen möchten.</li>
-	<li>Print-on-Demand<br />
-	Trotz der digitalen Verfügbarkeit hat das gedruckte Exemplar für die Rezeption nicht an Bedeutung verloren. Wir achten daher bei unseren Veröffentlichungen auf eine Druckausgabe oder entsprechende Kompatibilität und vermitteln Angebote für Print-on-Demand oder andere hybride Formate.</li>
-</ol>
-
-<h1>Forschungsdaten</h1>
-
-<ol>
-	<li>Beratung<br />
-	Die Konzepte geisteswissenschaftlicher Forschungsdaten sind ein sich schnell entwickelndes Feld. Wir beraten daher umfassend zu allen Fragen zu Forschungsdaten und Möglichkeiten der Publikation.</li>
-	<li>Forschungsdatenmanagement<br />
-	Die Ansprüche an den korrekten Umgang mit Forschungsdaten erfordern auch informationswissenschaftliche und technische Expertise. Wir begleiten und beraten Forschende über den gesamten Lebenszyklus von Forschungsdaten hinweg, darunter Planung, Erhebung und Erzeugung, verlässliche Standards, sichere Speicherung, Nachnutzung, Publikation, dauerhafte Archivierung.</li>
-	<li>Anreicherung<br />
-	Qualitätsvolle Forschungsdaten bedürfen häufig einer Überarbeitung, Auszeichnung und Anreicherung, dazu zählen: Dokumentation, Formatkonvertierung oder Normdatenreferenzen. Wir unterstützen bei den Überarbeitungsprozessen.</li>
-	<li>FAIR-Prinzipien<br />
-	Die FAIR-Prinzipien (Findable, Accessable, Interoperable, Reusable) setzen den Standard für qualitätsvolle und nachnutznachbare Forschungsdaten. Wir wählen kompatible Infrastrukturen aus und informieren über Aufgaben der Autorinnen und Autoren.</li>
-</ol>
-
-<p> </p>
-
-<h1>Quelleneditionen und Datenbanken</h1>
-
-<ol>
-	<li>Präsentationsumgebung</li>
-</ol>
-
-<p style="margin-left:36.0pt;">Die Webpräsentation für digitale Quelleneditionen und Datenbanken ist mit großen Aufwänden verbunden. Perspectivia.net betreibt eine Webanwendung, in der durch standardisierte Prozesse und generische Funktionalitäten wissenschaftliche Editionen oder auch Formate wie Register, Verzeichnisse  und andere Datensammlungen ressourcenschonend realisiert werden können. Die Applikation skaliert sowohl für kleine Materialsammlungen wie auch für große Datenmengen. Wir betreuen die technische Realisierung und das Datenmanagement für die Projekte.</p>
-
-<ol>
-	<li value="2">Workflows<br />
-	Die Erschließung und Aufarbeitung historischer Quellen Editionsvorhaben erfordert viele Arbeitsschritte für die jedoch bereits etablierte Verfahren und Standards entwickelt wurden. Wir beraten zu Digitalisierung, Erfassung, Transkription und Auszeichnung, zu geeigneter Software sowie den notwendigen Ressourcen und Kompetenzen.</li>
-	<li value="3">Qualitätssicherung<br />
-	Die Richtlinien und Empfehlungen für wissenschaftliche Editionen unterschieden in den geisteswissenschaftlichen Disziplinen. Wir unterstützen bei der Auswahl der richtigen Metadatenschemata und Auszeichnungsstandards. Mit unseren Projekterfahrungen und  einem breiten Kompetenznetzwerk können wir Best Practices und Kontakte vermitteln.</li>
-</ol>
-
-<p> </p>
-
-<h1>Digital Humanities</h1>
-
-<ol>
-	<li>Beratung<br />
-	Die Digital Humanities berühren alle Bereiche der wissenschaftlichen Aktivitäten der Max Weber Stiftung  und verändern Konzeption, Organisation und Präsentation von Forschung. Der Schlüssel zu erfolgreichen digitalen Projekten liegt auch darin, bereits der Planungsphase Expert*innen miteinzubinden sowie interessierte Wissenschaftler*innen über die Potentiale digitaler Technologien zu informieren. Als Teil ihrer zentralen Koordinationsaufgaben im Bereich DH verstehen sich daher die Redaktion perspectivia.net und der Arbeitskreis Digital Humanities der MWS als Ansprechpartner in sämtlichen Forschungs- und Arbeitsphasen. Dazu zählen auch Antragsberatung, Softwareevaluation, Projektbegleitung und Kooperationsvermittlung.</li>
-	<li>Forschungsinfrastruktur</li>
-</ol>
-
-<p>Digitale Forschungsinfrastrukturen zählen zu den Grundvoraussetzungen in einem erfolgreichen Wissenschaftsbetrieb. Digitale Forschungsprozesse und computergestützte Methoden benötigen infrastrukturelle Unterstützung, darunter Server- und Rechenkapazitäten, spezialisierte Softwarewerkzeuge, digitalisierte Ressourcen und maschinenlesbare Daten, standardisierte Zugangsdienste und vor allem verlässliche Infrastrukturen für die Speicherung, Bereitstellung und das Management der dabei erzeugten Forschungsdaten. Über die Redaktion perspectivia.net betreuen und organisieren wir Kooperationen mit Rechenzentren, Bibliotheken und Infrastrukturprojekten, über die wir die Forschungsprojekte der MWS mit den benötigten Infrastrukturen ausstatten können.</p>
-</div>
-</section><meta><log lastEditor="kneumann" date="2018-11-06" time="16:00" /></meta></MyCoReWebPage>
+                <h3>Quelleneditionen und Datenbanken</h3>
+                
+                <ol>
+                    <li>Präsentationsumgebung</li>
+                </ol>
+                
+                <p>Die Webpräsentation für digitale Quelleneditionen und Datenbanken ist mit großen Aufwänden verbunden. Perspectivia.net betreibt eine Webanwendung, in der durch standardisierte Prozesse und generische Funktionalitäten wissenschaftliche Editionen oder auch Formate wie Register, Verzeichnisse  und andere Datensammlungen ressourcenschonend realisiert werden können. Die Applikation skaliert sowohl für kleine Materialsammlungen wie auch für große Datenmengen. Wir betreuen die technische Realisierung und das Datenmanagement für die Projekte.</p>
+                
+                <ol>
+                    <li value="2">Workflows<br />
+                        Die Erschließung und Aufarbeitung historischer Quellen Editionsvorhaben erfordert viele Arbeitsschritte für die jedoch bereits etablierte Verfahren und Standards entwickelt wurden. Wir beraten zu Digitalisierung, Erfassung, Transkription und Auszeichnung, zu geeigneter Software sowie den notwendigen Ressourcen und Kompetenzen.</li>
+                    <li value="3">Qualitätssicherung<br />
+                        Die Richtlinien und Empfehlungen für wissenschaftliche Editionen unterschieden in den geisteswissenschaftlichen Disziplinen. Wir unterstützen bei der Auswahl der richtigen Metadatenschemata und Auszeichnungsstandards. Mit unseren Projekterfahrungen und  einem breiten Kompetenznetzwerk können wir Best Practices und Kontakte vermitteln.</li>
+                </ol>
+                
+                
+                <h3>Digital Humanities</h3>
+                
+                <ol>
+                    <li>Beratung<br />
+                        Die Digital Humanities berühren alle Bereiche der wissenschaftlichen Aktivitäten der Max Weber Stiftung  und verändern Konzeption, Organisation und Präsentation von Forschung. Der Schlüssel zu erfolgreichen digitalen Projekten liegt auch darin, bereits der Planungsphase Expert*innen miteinzubinden sowie interessierte Wissenschaftler*innen über die Potentiale digitaler Technologien zu informieren. Als Teil ihrer zentralen Koordinationsaufgaben im Bereich DH verstehen sich daher die Redaktion perspectivia.net und der Arbeitskreis Digital Humanities der MWS als Ansprechpartner in sämtlichen Forschungs- und Arbeitsphasen. Dazu zählen auch Antragsberatung, Softwareevaluation, Projektbegleitung und Kooperationsvermittlung.</li>
+                    <li>Forschungsinfrastruktur</li>
+                </ol>
+                
+                <p>Digitale Forschungsinfrastrukturen zählen zu den Grundvoraussetzungen in einem erfolgreichen Wissenschaftsbetrieb. Digitale Forschungsprozesse und computergestützte Methoden benötigen infrastrukturelle Unterstützung, darunter Server- und Rechenkapazitäten, spezialisierte Softwarewerkzeuge, digitalisierte Ressourcen und maschinenlesbare Daten, standardisierte Zugangsdienste und vor allem verlässliche Infrastrukturen für die Speicherung, Bereitstellung und das Management der dabei erzeugten Forschungsdaten. Über die Redaktion perspectivia.net betreuen und organisieren wir Kooperationen mit Rechenzentren, Bibliotheken und Infrastrukturprojekten, über die wir die Forschungsprojekte der MWS mit den benötigten Infrastrukturen ausstatten können.</p>
+            </div>
+        </div>
+    </section>
+    <meta><log lastEditor="kneumann" date="2018-11-08" time="12:43" /></meta>
+</MyCoReWebPage>

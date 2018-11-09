@@ -1,19 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="neuer Eintrag"><div>
-<p>Die elektronische Publikationsplattform perspectivia.net versteht sich als ein internationales, epochenübergreifendes und interdisziplinäres Portal für geisteswissenschaftliche Publikationen. Als Infrastruktur der Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland werden hier die von den Instituten und ihren Kooperationspartnern herausgegebenen Publikationen frei zugänglich gemacht. Die Max Weber Stiftung ist den Prinzipien des Open Access verpflichtet und perspectivia.net fördert den freien Zugang zu Wissen und begleitet die Transformation der Geisteswissenschaften in Richtung einer offenen Wissenschaft.</p>
-
-<p> </p>
-
-<p>Im digitalen Zeitalter verändert sich auch die Publikationspraxis in paradigmatischer Weise. Neue Technologien und Methoden stehen in steter Wechselwirkung mit dem wissenschaftlichen Arbeitsprozess. Die Redaktion perspectivia.net versteht sich in dieser Konstellation als unterstützende und serviceorientierte Instanz – als <em>Digitale Redaktion</em>. Das Aufgabenfeld überspannt sich von Beratung und Vermittlung, Projektmanagement und Konzeptionierung, Auszeichnung und Anreicherung, Standardisierung und Normierung, Datenmanagement und Lizensierung, Transformation und Archivierung, Katalogisierung und Vernetzung, Layout und Lektorat, Verteilung und Kommunikation, Schulung und Betreuung.</p>
-
-<p> </p>
-
-<p>perspectivia.net übernimmt in der Max Weber Stiftung drei zentrale Handlungsfelder:</p>
-
-<ol>
-	<li>Die Publikationsplattform perspectivia.net dient als zentrales institutionelles Repositorium für die wissenschaftlichen Publikationen.</li>
-	<li>Die Instanz perspectivia.net bietet verlagsähnliche Leistungen und Angebote zur Erstveröffentlichung wissenschaftlicher Ergebnisse.</li>
-	<li>Die Redaktion perspectivia.net fungiert als zentrales Kompetenzzentrum der Stiftung für digitales Publizieren und Forschungsdatenmanagement.</li>
-</ol>
-</div>
-</section><meta><log lastEditor="kneumann" date="2018-11-06" time="16:08" /></meta></MyCoReWebPage>
+<MyCoReWebPage>
+    <section xml:lang="de" title="Über uns">
+        <div class="row">
+            <div class="col-xs-12" lang="de">
+                <h1>Über perspectivia.net</h1>
+                <h2>Die Publikationsplattform der Max Weber Stiftung</h2>
+                <p>
+                    Die Max Weber Stiftung (MWS) ist eine bundesunmittelbare Stiftung des öffentlichen Rechts. Sie unterhält derzeit zehn Forschungsinstitute
+                    sowie mehrere Außenstellen bzw. temporäre Forschungsgruppen in insgesamt 13 Ländern und eine gemeinsame Geschäftsstelle in Bonn. Die MWS
+                    engagiert sich intensiv im Bereich des digitalen Publizierens und Open Access. Zur Präsentation der wissenschaftlichen Ergebnisse ihrer
+                    Institute unterhält sie seit 2008 die Publikationsplattform perspectivia.net, deren Auftrag es ist, Forschungsergebnisse und Forschungsdaten
+                    frei verfügbar zu machen.
+                </p>
+                
+                <h2>Freier Zugang zu Wissen</h2>
+                <p>
+                    Die elektronische Publikationsplattform perspectivia.net versteht sich als ein internationales, epochenübergreifendes und interdisziplinäres
+                    Portal für geisteswissenschaftliche Publikationen. Als Infrastruktur der Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im
+                    Ausland werden hier die von den Instituten und ihren Kooperationspartnern herausgegebenen Publikationen frei zugänglich gemacht. Die Max Weber
+                    Stiftung ist den Prinzipien des Open Access verpflichtet und perspectivia.net fördert den freien Zugang zu Wissen und begleitet die
+                    Transformation der Geisteswissenschaften in Richtung einer offenen Wissenschaft.
+                </p>
+                
+                <h2>Unsere Inhalte</h2>
+                <p>
+                    In den Publikationsreihen auf perspectivia.net finden sich sowohl bereits im Druck erschienene Texte (Retrodigitalisate) als auch genuine
+                    Online-Publikationen. Es sind alle wissenschaftlichen Textsorten vertreten, von Zeitschriften, Monographien und Sammelbänden über Werkstatt-
+                    und Tagungsberichte bis hin zu Einzelvorträgen und Rezensionen. Darüber hinaus präsentiert die Plattform umfängliches Bildmaterial, aber
+                    auch Audio- und Videofiles. Da die Grundlagenforschung ein besonderes Förderanliegen der Max Weber Stiftung darstellt, stellt perspectivia.net
+                    vermehrt Datenbanklösungen für die Präsentation von Quelleneditionen bereit.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section xml:lang="en" title="About">
+        <div class="row">
+            <div class="col-xs-12" lang="de">
+                <h1>About perspectivia.net</h1>
+                <h2>The publication platform of the Max Weber Foundation</h2>
+                <p>
+                    The Max Weber Foundation (MWS) is a federal foundation. It currently maintains ten research institutes as well as several branch offices
+                    or temporary research groups in a total of 13 countries and a joint office in Bonn. MWS is intensively involved in the field of digital
+                    publishing and Open Access. Since 2008, it provides the publication platform perspectivia.net for the publication and dissemination of the
+                    scientific results of its institutes. Providing free access to research results is perspectivia.net's core mission.
+                </p>
+    
+                <h2>Free access to knowledge</h2>
+                <p>
+                    The electronic publication platform perspectivia.net sees itself as an international, epoch-spanning and interdisciplinary portal for
+                    publications in the humanities. As an infrastructure of the Max Weber Foundation - German Humanities Institutes Abroad, the publications
+                    published by the institutes and their cooperation partners are made freely accessible here. The Max Weber Foundation is committed to the
+                    principles of Open Access and perspectivia.net promotes free access to knowledge and accompanies the transformation of the humanities
+                    towards an open science.
+                </p>
+    
+                <h2>Our Content</h2>
+                <p>
+                    In the publication series on perspectivia.net you will find both texts already published in print (retrodigital copies) and genuine online
+                    publications. All types of scholarly texts are represented, from journals, monographs and anthologies to workshop and conference reports,
+                    individual lectures and reviews. In addition, the platform presents extensive image material as well as audio and video files. Since basic
+                    research is one of the Max Weber Foundation's special concerns, perspectivia.net increasingly provides database solutions for the
+                    presentation of source editions.
+                </p>
+            </div>
+        </div>
+    </section>
+	<meta><log lastEditor="fcremer" date="2018-11-08" time="14:48" /></meta>
+</MyCoReWebPage>

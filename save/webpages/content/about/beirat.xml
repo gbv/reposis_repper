@@ -1,27 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="neuer Eintrag"><h1 class="documentFirstHeading">Beirat</h1>
-
-<div id="viewlet-below-content-title"> </div>
-
-<div id="viewlet-above-content-body"> </div>
-
-<div id="content-core">
-<div id="parent-fieldname-text">
-<h2><strong>Wissenschaftlicher Beirat von perspectivia.net</strong></h2>
-
-<p>Prof. Dr. Martin Baumeister, Deutsches Historisches Institut, Rom</p>
-
-<p>Dr. Thomas Stäcker, Universitäts- und Landesbibliothek Darmstadt</p>
-
-<p>Gregor Horstkemper, Referatsleiter "Zentrum für Elektronisches Publizieren (ZEP); Open Access; Fachinformation Geschichte", Bayerische Staatsbibliothek München</p>
-
-<p>Prof. Dr. Ralf Martin Jäger, Universität Münster</p>
-
-<p>Prof. Dr. Thomas Kirchner, Deutsches Forum Kunstgeschichte, Paris</p>
-
-<p>Prof. Dr. Thomas Maissen, Deutsches Historisches Institut, Paris</p>
-
-<p><span id="parent-fieldname-title">Prof. Dr. Anna Schreurs-Morét, Universität Freiburg i. Br.</span></p>
-</div>
-</div>
-</section><meta><log lastEditor="kneumann" date="2018-06-19" time="10:03" /></meta></MyCoReWebPage>
+<MyCoReWebPage>
+    <section xml:lang="de" title="Beirat">
+        <div class="row">
+            <div class="col-xs-12" lang="de">
+                <h1>Wissenschaftlicher Beirat</h1>
+                <ul>
+                    <li>Prof. Dr. Martin Baumeister, Deutsches Historisches Institut, Rom</li>
+                    <li>Gregor Horstkemper, Bayerische Staatsbibliothek München</li>
+                    <li>Prof. Dr. Ralf Martin Jäger, Universität Münster</li>
+                    <li>Prof. Dr. Thomas Kirchner, Deutsches Forum Kunstgeschichte, Paris (Vorsitzender)</li>
+                    <li>Prof. Dr. Thomas Maissen, Deutsches Historisches Institut, Paris</li>
+                    <li>Prof. Dr. Anna Schreurs-Morét, Universität Freiburg i. Br. (Stellvertretende Vorsitzende)</li>
+                    <li>Dr. Thomas Stäcker, Universitäts- und Landesbibliothek Darmstadt</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section xml:lang="en" title="Board">
+        <div class="row">
+            <div class="col-xs-12" lang="de">
+                <h1>Advisory Board</h1>
+                <ul>
+                    <li>Prof. Dr. Martin Baumeister, Deutsches Historisches Institut, Rom</li>
+                    <li>Gregor Horstkemper, Bayerische Staatsbibliothek München</li>
+                    <li>Prof. Dr. Ralf Martin Jäger, Universität Münster</li>
+                    <li>Prof. Dr. Thomas Kirchner, Deutsches Forum Kunstgeschichte, Paris (Vorsitzender)</li>
+                    <li>Prof. Dr. Thomas Maissen, Deutsches Historisches Institut, Paris</li>
+                    <li>Prof. Dr. Anna Schreurs-Morét, Universität Freiburg i. Br. (Stellvertretende Vorsitzende)</li>
+                    <li>Dr. Thomas Stäcker, Universitäts- und Landesbibliothek Darmstadt</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <meta><log lastEditor="fcremer" date="2018-11-08" time="14:26" /></meta>
+</MyCoReWebPage>
