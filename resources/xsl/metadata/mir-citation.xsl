@@ -137,6 +137,9 @@
               <xsl:value-of select="concat('https://www.perspectivia.net/publikationen/', //servflag[@type='alias']/text())" />
             </a>
             <br />
+            <a id="copy_cite_link" class="label label-info" href="#">
+              <xsl:value-of select="i18n:translate('mir.citationLink')" />
+            </a>
           </xsl:when>
           <xsl:otherwise>
             <a id="copy_cite_link" href="#" class="label label-info">
