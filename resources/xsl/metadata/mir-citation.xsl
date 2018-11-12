@@ -132,15 +132,6 @@
               <xsl:value-of select="i18n:translate('mir.citationLink')" />
             </a>
           </xsl:when>
-          <xsl:when test="//servflag/@type='alias'">
-            <a id="url_site_link" href="https://www.perspectivia.net/publikationen/{//servflag[@type='alias']/text()}">
-              <xsl:value-of select="concat('https://www.perspectivia.net/publikationen/', //servflag[@type='alias']/text())" />
-            </a>
-            <br />
-            <a id="copy_cite_link" class="label label-info" href="#">
-              <xsl:value-of select="i18n:translate('mir.citationLink')" />
-            </a>
-          </xsl:when>
           <xsl:otherwise>
             <a id="copy_cite_link" href="#" class="label label-info">
               <xsl:value-of select="i18n:translate('mir.citationLink')" />
@@ -253,12 +244,20 @@
           </div>
           <div id="modalFrame-body" class="modal-body" style="max-height: 560px; overflow: auto">
             <xsl:apply-templates select="mods:identifier[@type='urn' or @type='doi']" mode="identifierList" />
-            <xsl:if test="not(mods:identifier[@type='urn' or @type='doi'])">
-              <xsl:call-template name="identifierEntry">
-                <xsl:with-param name="title" select="'Document-Link'" />
-                <xsl:with-param name="id" select="concat($WebApplicationBaseURL, 'receive/', //mycoreobject/@ID)" />
-              </xsl:call-template>
-            </xsl:if>
+            <xsl:choose>
+              <xsl:when test="not(mods:identifier[@type='urn' or @type='doi']) and //servflag/@type='alias'">
+                <xsl:call-template name="identifierEntry">
+                  <xsl:with-param name="title" select="'Document-Link'" />
+                  <xsl:with-param name="id" select="concat('https://www.perspectivia.net/publikationen/', //servflag[@type='alias']/text())" />
+                </xsl:call-template>
+              </xsl:when>
+              <xsl:when test="not(mods:identifier[@type='urn' or @type='doi'])">
+                <xsl:call-template name="identifierEntry">
+                  <xsl:with-param name="title" select="'Document-Link'" />
+                  <xsl:with-param name="id" select="concat($WebApplicationBaseURL, 'receive/', //mycoreobject/@ID)" />
+                </xsl:call-template>
+              </xsl:when>
+            </xsl:choose>
           </div>
         </div>
       </div>
