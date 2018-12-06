@@ -33,15 +33,15 @@
         <label xml:lang="de">Über uns</label>
         <label xml:lang="en">About us</label>
         <item href="/content/about/index.xml" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Über perspectivia</label>
-            <label xml:lang="en">About perspectivia</label>
+            <label xml:lang="de">Über perspectivia.net</label>
+            <label xml:lang="en">About perspectivia.net</label>
         </item>
         <item href="/content/about/institutes.xml" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Herausgebende Institutionen</label>
-            <label xml:lang="en">Herausgebende Institutionen</label>
+            <label xml:lang="en">Publishing Institutions</label>
             <item href="/content/about/institutes/mws.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Max Weber Stiftung – DGIA</label>
-                <label xml:lang="en">Max Weber Stiftung – DGIA</label>
+                <label xml:lang="en">Max Weber Foundation</label>
             </item>
             <item href="/content/about/institutes/dfk.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Deutsches Forum für Kunstgeschichte Paris (DFK)</label>
@@ -90,13 +90,9 @@
                 <label xml:lang="de">Centre d’études franco-russe de Moscou</label>
             </item>
         </item>
-        <item href="/content/about/services.xml" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Services</label>
-            <label xml:lang="en">Services</label>
-        </item>
         <item href="/content/about/redaktion.xml" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Digitale Redaktion</label>
-            <label xml:lang="en">Digitale Redaktion</label>
+            <label xml:lang="en">Digital Editorial Team</label>
         </item>
         <item href="/content/about/partner.xml" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Partner</label>
@@ -104,7 +100,7 @@
         </item>
         <item href="/content/about/beirat.xml" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Wissenschaftlicher Beirat</label>
-            <label xml:lang="en">Wissenschaftlicher Beirat</label>
+            <label xml:lang="en">Advisory Board</label>
         </item>
     </menu>
     <menu id="search">
@@ -174,10 +170,6 @@
         <item href="https://mws.hypotheses.org/" type="extern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Blogportal Weber 2.0</label>
             <label xml:lang="en">Blogportal Weber 2.0</label>
-        </item>
-        <item href="https://operas.hypotheses.org/" type="extern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">OPERAS</label>
-            <label xml:lang="en">OPERAS</label>
         </item>
         <item href="http://menadoc.bibliothek.uni-halle.de/" type="extern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">MENAdoc (FID Vorderer Orient)</label>

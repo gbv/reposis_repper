@@ -1,75 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Digitale Zeitschriften">
-        
-        <div class="row">
-            <div class="col-xs-12" lang="de">
-                <h1>Digitale Zeitschriften</h1>
-                <p>
-                    Die Plattform perspectivia.net bietet einen Publikationsservice für frei zugängliche Online-Zeitschriften an.
-                    Auf Basis der Open Source-Software Open Journal Systems (OJS) haben die Institute der Max Weberstiftung die
-                    Möglichkeit E-Journals herauszugeben.Hierfür kooperiert perspectivia.net mit der UB Heidelberg und der BSB München.
-                </p>
-                
-                <h2>Francia</h2>
-                <p class="pull-left">
-                    <a href="https://journals.ub.uni-heidelberg.de/index.php/fr/issue/view/3746/showToc">
-                        <img alt="" src="https://journals.ub.uni-heidelberg.de/public/journals/185/cover_issue_3746_de_DE.jpg" style="width:200px;margin:0px 40px 20px 0px;"/>
-                    </a>
-                </p>
-                <p>
-                    Die Zeitschrift »<a href="https://www.dhi-paris.fr/publikationen/francia.html" >Francia. Forschungen zur westeuropäischen Geschichte</a>«
-                    erscheint einmal jährlich in einem Band von ca. 500 Seiten in gedruckter Form und seit Band 39 (2012) auch als E-Book. Sie enthält Beiträge
-                    in deutscher, französischer oder englischer Sprache. Für den Aufsatzteil gibt es zudem dreisprachige Resümees. Über die Annahme der Beiträge
-                    entscheidet ein&#160;<a href="https://journals.ub.uni-heidelberg.de/index.php/fr/about/editorialPolicies#custom-0">internationales
-                    Gutachtergremium</a>&#160;im Peer-Review-Verfahren. Die Rezensionen werden seit Band 35 (2008) in vier Ausgaben pro Jahr online als&#160;<a
-                    href="https://journals.ub.uni-heidelberg.de/index.php/frrec/">Francia-Recensio</a>veröffentlicht.
-                </p>
-                <p>
-                    Die seit 1973 erschienenen Bände der »Francia« sind mit einer Moving Wall von einem Jahr retrodigitalisiert hier und über&#160;<a
-                    href="http://www.perspectivia.net/publikationen/francia/francia-retro">perspectivia.net</a>&#160;kostenfrei zugänglich.&#160;Weitere
-                    Informationen zur Geschichte der Zeitschrift finden Sie [<a href="http://www.perspectivia.net/publikationen/discussions/3-2010/grosse_francia">hier</a>].
-                </p>
-                <p>
-                    <strong>
-                        Zur neuesten online verfügbaren Volltextausgabe:&#160;<a
-                        href="https://journals.ub.uni-heidelberg.de/index.php/fr/issue/view/3746/showToc">Francia 43 (2016)</a>
-                    </strong>
-                </p>
-                <p>
-                    <strong>
-                        Das Inhaltsverzeichnis und die Volltexte finden Sie
-                        [<a href="https://journals.ub.uni-heidelberg.de/index.php/fr/issue/view/3746/showToc">hier</a>].
-                    </strong>
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12" lang="de">
-                <h2>Francia-Recensio</h2>
-                <h3>DHI Paris</h3>
-                <p class="pull-left">
-                    <a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/3791/showToc">
-                        <img alt="zum Inhaltsverzeichnis" src="https://journals.ub.uni-heidelberg.de/public/site/images/fschmitt/Cover_Francia_2018_1_klein1.png" style="width:200px;margin:0px 40px 20px 0px;"/>
-                    </a>
-                </p>
-                <p>
-                    Die Rezensionen der Zeitschrift&#160;»<a href="http://www.dhi-paris.fr/de/home/print-publikationen/francia.html">Francia. Forschungen zur
-                    westeuropäischen Geschichte</a>«&#160;werden seit Band 35 (2008) in vier Ausgaben pro Jahr online als Francia-Recensio veröffentlicht.
-                    Sie sind außerdem auf der Rezensionsplattform&#160;<a
-                        href="http://www.recensio.net/rezensionen/zeitschriften/francia-recensio/index_html">recensio.net</a>&#160;zugänglich.
-                </p>
-                <p>
-                    Die <a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/3659/showToc">Ausgabe 2017/4</a>  von »Francia-Recensio« im
-                    neuen OJS-System enthält 92 Rezensionen zu den Epochen Mittelalter, Frühe Neuzeit, Neuzeit und Neuste Geschichte. Erstmalig sind alle Rezensionen mit einer DOI versehen, die für jeden einzelnen Text als verbindlicher und permanenter Zitationsnachweis gilt.
-                </p>
-                <p>
-                    Herausgeber und Redaktion übernehmen keine Verantwortung für den Inhalt der Rezensionen.<br /><br />
-                    Francia-Recensio<br />
-                    ISSN: 2425-3510
-                </p>
-            </div>
-        </div>
-    </section>
-    <meta><log lastEditor="administrator" date="2018-06-11" time="13:45" /></meta>
-</MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Digitale Zeitschriften"><div>
+<div class="row">
+<div class="col-xs-12" lang="de">
+<h1>Digitale Zeitschriften</h1>
+
+<p>Die Plattform perspectivia.net bietet einen Publikationsservice für frei zugängliche Online-Zeitschriften an. Auf Basis der Open Source-Software Open Journal Systems (OJS) haben die Institute der Max Weberstiftung die Möglichkeit E-Journals herauszugeben.Hierfür kooperiert perspectivia.net mit der UB Heidelberg und der BSB München.</p>
+
+<h2>Francia</h2>
+
+<p class="pull-left"><a href="https://journals.ub.uni-heidelberg.de/index.php/fr/issue/view/3746/showToc"><img alt="" src="https://journals.ub.uni-heidelberg.de/public/journals/185/cover_issue_3746_de_DE.jpg" style="width:200px;margin:0px 40px 20px 0px;" /> </a></p>
+
+<p>Die Zeitschrift »<a href="https://www.dhi-paris.fr/publikationen/francia.html">Francia. Forschungen zur westeuropäischen Geschichte</a>« erscheint einmal jährlich in einem Band von ca. 500 Seiten in gedruckter Form und seit Band 39 (2012) auch als E-Book. Sie enthält Beiträge in deutscher, französischer oder englischer Sprache. Für den Aufsatzteil gibt es zudem dreisprachige Resümees. Über die Annahme der Beiträge entscheidet ein <a href="https://journals.ub.uni-heidelberg.de/index.php/fr/about/editorialPolicies#custom-0">internationales Gutachtergremium</a> im Peer-Review-Verfahren. Die Rezensionen werden seit Band 35 (2008) in vier Ausgaben pro Jahr online als <a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/">Francia-Recensio</a>veröffentlicht.</p>
+
+<p>Die seit 1973 erschienenen Bände der »Francia« sind mit einer Moving Wall von einem Jahr retrodigitalisiert hier und über <a href="http://www.perspectivia.net/publikationen/francia/francia-retro">perspectivia.net</a> kostenfrei zugänglich. Weitere Informationen zur Geschichte der Zeitschrift finden Sie [<a href="http://www.perspectivia.net/publikationen/discussions/3-2010/grosse_francia">hier</a>].</p>
+
+<p><strong>Zur neuesten online verfügbaren Volltextausgabe: <a href="https://journals.ub.uni-heidelberg.de/index.php/fr/issue/view/3746/showToc">Francia 43 (2016)</a> </strong></p>
+
+<p><strong>Das Inhaltsverzeichnis und die Volltexte finden Sie [<a href="https://journals.ub.uni-heidelberg.de/index.php/fr/issue/view/3746/showToc">hier</a>]. </strong></p>
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-12" lang="de">
+<h2>Francia-Recensio</h2>
+
+<h3>DHI Paris</h3>
+
+<p class="pull-left"><a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/3791/showToc"><img alt="zum Inhaltsverzeichnis" src="https://journals.ub.uni-heidelberg.de/public/site/images/fschmitt/Cover_Francia_2018_1_klein1.png" style="width:200px;margin:0px 40px 20px 0px;" /> </a></p>
+
+<p>Die Rezensionen der Zeitschrift »<a href="http://www.dhi-paris.fr/de/home/print-publikationen/francia.html">Francia. Forschungen zur westeuropäischen Geschichte</a>« werden seit Band 35 (2008) in vier Ausgaben pro Jahr online als Francia-Recensio veröffentlicht. Sie sind außerdem auf der Rezensionsplattform <a href="http://www.recensio.net/rezensionen/zeitschriften/francia-recensio/index_html">recensio.net</a> zugänglich.</p>
+
+<p>Die <a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/3659/showToc">Ausgabe 2017/4</a> von »Francia-Recensio« im neuen OJS-System enthält 92 Rezensionen zu den Epochen Mittelalter, Frühe Neuzeit, Neuzeit und Neuste Geschichte. Erstmalig sind alle Rezensionen mit einer DOI versehen, die für jeden einzelnen Text als verbindlicher und permanenter Zitationsnachweis gilt.</p>
+
+<p>Herausgeber und Redaktion übernehmen keine Verantwortung für den Inhalt der Rezensionen.</p>
+
+<p> </p>
+
+<p><a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/">https://journals.ub.uni-heidelberg.de/index.php/frrec/ </a><br />
+<br />
+Francia-Recensio<br />
+ISSN: 2425-3510</p>
+</div>
+</div>
+</div>
+</section><meta><log lastEditor="kneumann" date="2018-11-10" time="10:36" /></meta></MyCoReWebPage>
