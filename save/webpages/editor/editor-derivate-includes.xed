@@ -27,7 +27,10 @@
             Bevorzugt in Webansicht
           </option>
           <option value="additional_av">
-            zusätzliches Video- / Audio-Material
+            Zusätzliches Video- / Audio-Material
+          </option>
+          <option value="navigation">
+            Reihennavigation
           </option>
         </select>
       </div>
