@@ -44,7 +44,7 @@
         <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="access" />
         <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="rights" />
         <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="copyrightMD" />
-        <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="institutes.repeated" />
+        <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="institutes.repeat" />
         <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="subject.complex" />
         <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_time" />
         <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes-repper.xed" ref="repper.ddc_geo" />
