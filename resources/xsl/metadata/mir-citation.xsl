@@ -74,7 +74,7 @@
         </div>
       </xsl:if>
 
-      <div id="citation-style">
+      <!-- div id="citation-style">
         <span>
           <strong>
             <xsl:value-of select="i18n:translate('mir.citationStyle')" />
@@ -83,7 +83,7 @@
         </span>
         <xsl:if test="//mods:mods/mods:identifier[@type='doi'] and string-length($MIR.citationStyles) &gt; 0">
           <xsl:variable name="cite-styles">
-            <xsl:call-template name="Tokenizer"><!-- use split function from mycore-base/coreFunctions.xsl -->
+            <xsl:call-template name="Tokenizer"><!- use split function from mycore-base/coreFunctions.xsl ->
               <xsl:with-param name="string" select="$MIR.citationStyles" />
               <xsl:with-param name="delimiter" select="','" />
             </xsl:call-template>
@@ -106,11 +106,38 @@
         <p id="crossref-citation-text" class="hidden">
         </p>
         <p id="crossref-citation-alert" class="alert alert-danger hidden"><xsl:value-of select="i18n:translate('mir.citationAlert')" /></p>
-      </div>
+      </div -->
+
+      <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(mycoreobject/@ID)" />
+      
+      <p id="repper_cite_link">
+        <xsl:choose>
+          <xsl:when test="$piServiceInformation[@type='doi'][@inscribed='true']">
+            <xsl:variable name="doi" select="//mods:mods/mods:identifier[@type='doi']" />
+            <a href="{$MCR.DOI.Resolver.MasterURL}{$doi}">
+              <xsl:value-of select="$doi" />
+            </a>
+          </xsl:when>
+          <xsl:when test="$piServiceInformation[@type='dnbUrn'][@inscribed='true']">
+            <xsl:variable name="urn" select="//mods:mods/mods:identifier[@type='urn']" />
+            <a href="{$MCR.URN.Resolver.MasterURL}{$urn}">
+              <xsl:value-of select="$urn" />
+            </a>
+          </xsl:when>
+          <xsl:when test="//servflag/@type='alias'">
+            <a href="https://www.perspectivia.net/publikationen/{//servflag[@type='alias']/text()}">
+              <xsl:value-of select="concat('https://www.perspectivia.net/publikationen/', //servflag[@type='alias']/text())" />
+            </a>
+          </xsl:when>
+          <xsl:otherwise>
+            <a href="{$WebApplicationBaseURL}receive/{//mycoreobject/@ID}">
+              <xsl:value-of select="concat($WebApplicationBaseURL, 'receive/', //mycoreobject/@ID)" />
+            </a>
+          </xsl:otherwise>
+        </xsl:choose>
+      </p>
 
       <p id="cite_link_box">
-        <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(mycoreobject/@ID)" />
-
         <xsl:choose>
           <xsl:when test="$piServiceInformation[@type='doi'][@inscribed='true']">
             <xsl:variable name="doi" select="//mods:mods/mods:identifier[@type='doi']" />

@@ -440,6 +440,9 @@ html body footer .internal_links {
   font-family: FontAwesome;
 }
 
+#repper_cite_link a {
+  font-size: 75%;
+}
 
 /* ********************** carousel ********************** */
 .carousel {

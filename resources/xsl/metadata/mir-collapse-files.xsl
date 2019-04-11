@@ -15,6 +15,9 @@
     <xsl:choose>
       <xsl:when test="key('rights', mycoreobject/@ID)/@read or key('rights', mycoreobject/structure/derobjects/derobject/@xlink:href)/@accKeyEnabled">
 
+        <!-- START - perspectivia: show only logged in users -->
+        <xsl:if test="not(mcr:isCurrentUserGuestUser())">
+
         <xsl:variable name="objID" select="mycoreobject/@ID" />
 
         <div id="mir-collapse-files">
@@ -41,11 +44,11 @@
                             </xsl:otherwise>
                           </xsl:choose>
                         </span>
-                        <xsl:if test="position() > 1">
+                        <!-- xsl:if test="position() > 1">
                           <span class="set_number">
                             <xsl:value-of select="position()" />
                           </span>
-                        </xsl:if>
+                        </xsl:if -->
                         <span class="caret"></span>
                       </a>
 
@@ -126,6 +129,21 @@
             </div>
           </xsl:if>
         </div>
+          
+        </xsl:if>
+
+        <!-- START: Add download button for perspectivia -->
+          <div id="repper-download-box">
+            <xsl:for-each select="mycoreobject/structure/derobjects/derobject[key('rights', @xlink:href)/@read]">
+              <xsl:variable name="derId" select="@xlink:href" />
+              <xsl:variable name="derivateXML" select="document(concat('mcrobject:',$derId))" />
+              <xsl:variable name="maindoc" select="$derivateXML/mycorederivate/derivate/internals/internal/@maindoc" />
+              <a href="{$WebApplicationBaseURL}servlets/MCRFileNodeServlet/{$derId}/{$maindoc}" class="btn btn-default" style="background-color: #75adad;border-color: #75adad;margin-bottom: 10px;width: 100%;">
+                <i style="margin-right: 5px;" class="fa fa-download"></i>Download</a>
+            </xsl:for-each>
+          </div>
+        <!-- END -->
+
       </xsl:when>
       <xsl:otherwise>
         <xsl:comment>
