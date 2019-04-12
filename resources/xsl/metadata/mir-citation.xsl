@@ -108,36 +108,8 @@
         <p id="crossref-citation-alert" class="alert alert-danger hidden"><xsl:value-of select="i18n:translate('mir.citationAlert')" /></p>
       </div -->
 
-      <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(mycoreobject/@ID)" />
-      
-      <p id="repper_cite_link">
-        <xsl:choose>
-          <xsl:when test="$piServiceInformation[@type='doi'][@inscribed='true']">
-            <xsl:variable name="doi" select="//mods:mods/mods:identifier[@type='doi']" />
-            <a href="{$MCR.DOI.Resolver.MasterURL}{$doi}">
-              <xsl:value-of select="$doi" />
-            </a>
-          </xsl:when>
-          <xsl:when test="$piServiceInformation[@type='dnbUrn'][@inscribed='true']">
-            <xsl:variable name="urn" select="//mods:mods/mods:identifier[@type='urn']" />
-            <a href="{$MCR.URN.Resolver.MasterURL}{$urn}">
-              <xsl:value-of select="$urn" />
-            </a>
-          </xsl:when>
-          <xsl:when test="//servflag/@type='alias'">
-            <a href="https://www.perspectivia.net/publikationen/{//servflag[@type='alias']/text()}">
-              <xsl:value-of select="concat('https://www.perspectivia.net/publikationen/', //servflag[@type='alias']/text())" />
-            </a>
-          </xsl:when>
-          <xsl:otherwise>
-            <a href="{$WebApplicationBaseURL}receive/{//mycoreobject/@ID}">
-              <xsl:value-of select="concat($WebApplicationBaseURL, 'receive/', //mycoreobject/@ID)" />
-            </a>
-          </xsl:otherwise>
-        </xsl:choose>
-      </p>
-
       <p id="cite_link_box">
+        <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(mycoreobject/@ID)" />
         <xsl:choose>
           <xsl:when test="$piServiceInformation[@type='doi'][@inscribed='true']">
             <xsl:variable name="doi" select="//mods:mods/mods:identifier[@type='doi']" />
@@ -145,7 +117,7 @@
               <xsl:value-of select="$doi" />
             </a>
             <br />
-            <a id="copy_cite_link" class="label label-info" href="#">
+            <a id="copy_cite_link" class="label label-info" href="#" title="{i18n:translate('mir.citationLink.title')}">
               <xsl:value-of select="i18n:translate('mir.citationLink')" />
             </a>
           </xsl:when>
@@ -155,12 +127,25 @@
               <xsl:value-of select="$urn" />
             </a>
             <br />
-            <a id="copy_cite_link" class="label label-info" href="#">
+            <a id="copy_cite_link" class="label label-info" href="#" title="{i18n:translate('mir.citationLink.title')}">
               <xsl:value-of select="i18n:translate('mir.citationLink')" />
             </a>
           </xsl:when>
           <xsl:otherwise>
-            <a id="copy_cite_link" href="#" class="label label-info">
+            <xsl:choose>
+              <xsl:when test="//servflag/@type='alias'">
+                <a  id="url_site_link" href="https://www.perspectivia.net/publikationen/{//servflag[@type='alias']/text()}">
+                  <xsl:value-of select="concat('https://www.perspectivia.net/publikationen/', //servflag[@type='alias']/text())" />
+                </a>
+              </xsl:when>
+              <xsl:otherwise>
+                <a  id="url_site_link" href="{$WebApplicationBaseURL}receive/{//mycoreobject/@ID}">
+                  <xsl:value-of select="concat($WebApplicationBaseURL, 'receive/', //mycoreobject/@ID)" />
+                </a>
+              </xsl:otherwise>
+            </xsl:choose>
+            <br />
+            <a id="copy_cite_link" href="#" class="label label-info" title="{i18n:translate('mir.citationLink.title')}">
               <xsl:value-of select="i18n:translate('mir.citationLink')" />
             </a>
           </xsl:otherwise>
