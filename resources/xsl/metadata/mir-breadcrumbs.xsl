@@ -34,6 +34,22 @@
         </xsl:call-template>
       </xsl:if>
     </xsl:variable>
+    <xsl:variable name="relatedItemPathGrany">
+      <xsl:if test="$mods/mods:relatedItem/mods:relatedItem/@xlink:href">
+        <xsl:call-template name="repperPrintRelPath">
+          <xsl:with-param name="id" select="$mods/mods:relatedItem/mods:relatedItem/@xlink:href" />
+          <xsl:with-param name="title" select="$mods/mods:relatedItem/mods:relatedItem/mods:titleInfo[not(@type)]" />
+        </xsl:call-template>
+      </xsl:if>
+    </xsl:variable>
+    <xsl:variable name="relatedItemPathGreatGrany">
+      <xsl:if test="$mods/mods:relatedItem/mods:relatedItem/mods:relatedItem/@xlink:href">
+        <xsl:call-template name="repperPrintRelPath">
+          <xsl:with-param name="id" select="$mods/mods:relatedItem/mods:relatedItem/mods:relatedItem/@xlink:href" />
+          <xsl:with-param name="title" select="$mods/mods:relatedItem/mods:relatedItem/mods:relatedItem/mods:titleInfo[not(@type)]" />
+        </xsl:call-template>
+      </xsl:if>
+    </xsl:variable>
     <xsl:variable name="owner">
       <xsl:choose>
         <xsl:when test="mcrxml:isCurrentUserInRole('admin') or mcrxml:isCurrentUserInRole('editor')">
@@ -46,6 +62,11 @@
     </xsl:variable>
     <div id="mir-breadcrumb">
       <ul class="breadcrumb" itemprop="breadcrumb">
+        <xsl:if test="string-length($relatedItemPathGreatGrany) &gt; 0">
+          <li>
+            <xsl:copy-of select="$relatedItemPathGreatGrany"/>
+          </li>
+        </xsl:if>
         <xsl:if test="string-length($relatedItemPathGrany) &gt; 0">
           <li>
             <xsl:copy-of select="$relatedItemPathGrany"/>
