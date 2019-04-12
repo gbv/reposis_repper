@@ -133,15 +133,22 @@
         </xsl:if>
 
         <!-- START: Add download button for perspectivia -->
-          <div id="repper-download-box">
-            <xsl:for-each select="mycoreobject/structure/derobjects/derobject[key('rights', @xlink:href)/@read]">
-              <xsl:variable name="derId" select="@xlink:href" />
-              <xsl:variable name="derivateXML" select="document(concat('mcrobject:',$derId))" />
+        
+        <xsl:for-each select="mycoreobject/structure/derobjects/derobject[key('rights', @xlink:href)/@read]">
+          <xsl:variable name="derId" select="@xlink:href" />
+          <xsl:variable name="derivateXML" select="document(concat('mcrobject:',$derId))" />
+          <xsl:if test="not(contains($derivateXML/mycorederivate/@label,'thumbnail')) and
+                        not(contains($derivateXML/mycorederivate/@label,'toc')) and
+                        not(contains($derivateXML/mycorederivate/@label,'presentation')) and
+                        not(contains($derivateXML/mycorederivate/@label,'additional_av')) and
+                        not(contains($derivateXML/mycorederivate/@label,'navigation'))">
+            <div id="repper-download-box">
               <xsl:variable name="maindoc" select="$derivateXML/mycorederivate/derivate/internals/internal/@maindoc" />
               <a href="{$WebApplicationBaseURL}servlets/MCRFileNodeServlet/{$derId}/{$maindoc}" class="btn btn-default" style="background-color: #75adad;border-color: #75adad;margin-bottom: 10px;width: 100%;">
                 <i style="margin-right: 5px;" class="fa fa-download"></i>Download</a>
-            </xsl:for-each>
-          </div>
+            </div>
+          </xsl:if>
+        </xsl:for-each>
         <!-- END -->
 
       </xsl:when>
