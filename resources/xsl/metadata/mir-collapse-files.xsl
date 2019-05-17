@@ -152,15 +152,26 @@
         <!-- END -->
         
         <!-- START: Add cover box for perspectivia -->
-        <xsl:if test="contains(mycoreobject/structure/derobjects/derobject/@xlink:title,'thumbnail')">
+        <xsl:if test="mycoreobject/structure/derobjects/derobject[@xlink:title='thumbnail'] and
+                      mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']">
           <xsl:variable name="derId" select="mycoreobject/structure/derobjects/derobject[@xlink:title='thumbnail']/@xlink:href" />
           <xsl:variable name="derivateXML" select="document(concat('mcrobject:',$derId))" />
           <div id="repper-cover-box">
-            <xsl:variable name="maindoc" select="$derivateXML/mycorederivate/derivate/internals/internal/@maindoc" />
-            <img src="{$WebApplicationBaseURL}servlets/MCRTileCombineServlet/THUMBNAIL/{$derId}/{$maindoc}" />
-            <a href="#">
-              Druckausgabe bestellen
-            </a>
+            <div class="panel panel-default" id="repper_cover_panel">
+              <div class="panel-heading">
+                <h3 class="panel-title"><xsl:value-of select="i18n:translate('pp.coverPanel.title')" /></h3>
+              </div>
+              <div class="panel-body">
+                <p>
+                  <xsl:variable name="maindoc" select="$derivateXML/mycorederivate/derivate/internals/internal/@maindoc" />
+                  <a href="{mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']}">
+                    <img src="{$WebApplicationBaseURL}servlets/MCRTileCombineServlet/THUMBNAIL/{$derId}/{$maindoc}" />
+                    <br />
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i> <xsl:value-of select="i18n:translate('pp.coverPanel.text')" />
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
         </xsl:if>
         <!-- END -->

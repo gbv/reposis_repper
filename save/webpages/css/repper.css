@@ -614,6 +614,10 @@ html body footer .internal_links {
   border-bottom: 0px solid #75adad;
 }
 
+#repper_cover_panel .panel-body {
+  text-align: center;
+}
+
 
 /* ********************** Linien auf Startseite ********************** */
 

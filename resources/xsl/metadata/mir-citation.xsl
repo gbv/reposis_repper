@@ -116,7 +116,7 @@
         </span>
         <xsl:if test="//mods:mods/mods:identifier[@type='doi'] and string-length($MIR.citationStyles) &gt; 0">
           <xsl:variable name="cite-styles">
-            <xsl:call-template name="Tokenizer"><!-- use split function from mycore-base/coreFunctions.xsl -->
+            <xsl:call-template name="Tokenizer">
               <xsl:with-param name="string" select="$MIR.citationStyles" />
               <xsl:with-param name="delimiter" select="','" />
             </xsl:call-template>
