@@ -121,8 +121,9 @@
 <!-- cites -->
           <xsl:if test="div[@id='mir-citation']">
             
-            <!-- START: Add download button for perspectivia -->
+            <!-- START: Add download button and cover box for perspectivia -->
             <xsl:apply-templates select="div[@id='repper-download-box']" mode="copyContent" />
+            <xsl:apply-templates select="div[@id='repper-cover-box']"    mode="copyContent" />
             <!-- END -->
             
             <div class="panel panel-default">

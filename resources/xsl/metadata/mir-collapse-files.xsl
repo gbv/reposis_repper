@@ -150,6 +150,20 @@
           </xsl:if>
         </xsl:for-each>
         <!-- END -->
+        
+        <!-- START: Add cover box for perspectivia -->
+        <xsl:if test="contains(mycoreobject/structure/derobjects/derobject/@xlink:title,'thumbnail')">
+          <xsl:variable name="derId" select="mycoreobject/structure/derobjects/derobject[@xlink:title='thumbnail']/@xlink:href" />
+          <xsl:variable name="derivateXML" select="document(concat('mcrobject:',$derId))" />
+          <div id="repper-cover-box">
+            <xsl:variable name="maindoc" select="$derivateXML/mycorederivate/derivate/internals/internal/@maindoc" />
+            <img src="{$WebApplicationBaseURL}servlets/MCRTileCombineServlet/THUMBNAIL/{$derId}/{$maindoc}" />
+            <a href="#">
+              Druckausgabe bestellen
+            </a>
+          </div>
+        </xsl:if>
+        <!-- END -->
 
       </xsl:when>
       <xsl:otherwise>
