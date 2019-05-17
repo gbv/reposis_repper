@@ -167,7 +167,9 @@
                   <a href="{mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']}">
                     <img src="{$WebApplicationBaseURL}servlets/MCRTileCombineServlet/THUMBNAIL/{$derId}/{$maindoc}" />
                     <br />
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i> <xsl:value-of select="i18n:translate('pp.coverPanel.text')" />
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="i18n:translate('pp.coverPanel.text')" />
                   </a>
                 </p>
               </div>
