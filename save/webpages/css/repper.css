@@ -90,6 +90,10 @@ font-weight: 700;
   border-color: #e9eeef;
 }
 
+#main_content h3.panel-title {
+  font-weight: 400;
+}
+
 
 /* ********************* navigation ********************* */
 .mir-main-nav .container {
