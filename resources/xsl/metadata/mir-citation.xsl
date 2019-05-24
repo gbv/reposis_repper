@@ -24,6 +24,9 @@
   <xsl:param name="MIR.shariff.theme" select="'white'" />
   <xsl:param name="MIR.shariff.buttonstyle" select="'icon'" />
   <xsl:param name="MIR.shariff.services" select="''" /> <!-- default: ['mail', 'twitter', 'facebook', 'whatsapp', 'linkedin', 'xing', 'pinterest', 'info'] -->
+
+  <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(/mycoreobject/@ID)" />
+
   <xsl:template match="/">
 
     <!-- ==================== Highwire Press Tags and Dublin Core as Meta Tags ==================== -->
@@ -32,7 +35,6 @@
       <xsl:apply-templates select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" mode="highwire" />
     </citation_meta>
 
-    <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(mycoreobject/@ID)" />
     <xsl:variable name="mods" select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" />
 
     <div id="mir-citation">
@@ -166,8 +168,17 @@
           <xsl:otherwise>
             <xsl:choose>
               <xsl:when test="//servflag/@type='alias'">
-                <a  id="url_site_link" href="https://www.perspectivia.net/publikationen/{//servflag[@type='alias']/text()}">
-                  <xsl:value-of select="concat('https://www.perspectivia.net/publikationen/', //servflag[@type='alias']/text())" />
+                <xsl:variable name="parentAlias">
+                  <xsl:for-each select="//mods:relatedItem[contains('host series', @type)]">
+                    <xsl:sort select="position()" data-type="number" order="descending" />
+                    <xsl:call-template name="getAlias">
+                      <xsl:with-param name="objectID" select="@xlink:href" />
+                    </xsl:call-template>
+                    <xsl:text>/</xsl:text>
+                  </xsl:for-each>
+                </xsl:variable>
+                <a  id="url_site_link" href="{$WebApplicationBaseURL}publikationen/{$parentAlias}{//servflag[@type='alias']/text()}">
+                  <xsl:value-of select="concat($WebApplicationBaseURL, 'publikationen/', $parentAlias, //servflag[@type='alias']/text())" />
                 </a>
               </xsl:when>
               <xsl:otherwise>
@@ -287,12 +298,23 @@
             </h4>
           </div>
           <div id="modalFrame-body" class="modal-body" style="max-height: 560px; overflow: auto">
-            <xsl:apply-templates select="mods:identifier[@type='urn' or @type='doi']" mode="identifierList" />
+            <xsl:if test="$piServiceInformation[@type='doi' or  @type='doi'][@inscribed='true']">
+              <xsl:apply-templates select="mods:identifier[@type='urn' or @type='doi']" mode="identifierList" />
+            </xsl:if>
             <xsl:choose>
               <xsl:when test="not(mods:identifier[@type='urn' or @type='doi']) and //servflag/@type='alias'">
+                <xsl:variable name="parentAlias">
+                  <xsl:for-each select="//mods:relatedItem[contains('host series', @type)]">
+                    <xsl:sort select="position()" data-type="number" order="descending" />
+                    <xsl:call-template name="getAlias">
+                      <xsl:with-param name="objectID" select="@xlink:href" />
+                    </xsl:call-template>
+                    <xsl:text>/</xsl:text>
+                  </xsl:for-each>
+                </xsl:variable>
                 <xsl:call-template name="identifierEntry">
                   <xsl:with-param name="title" select="'Document-Link'" />
-                  <xsl:with-param name="id" select="concat('https://www.perspectivia.net/publikationen/', //servflag[@type='alias']/text())" />
+                  <xsl:with-param name="id" select="concat($WebApplicationBaseURL, 'publikationen/', $parentAlias, //servflag[@type='alias']/text())" />
                 </xsl:call-template>
               </xsl:when>
               <xsl:when test="not(mods:identifier[@type='urn' or @type='doi'])">
@@ -421,4 +443,8 @@
     </xsl:if>
   </xsl:template>
 
+  <xsl:template name="getAlias">
+    <xsl:param name="objectID" />
+    <xsl:value-of select="document(concat('solr:q=id:', $objectID, '&amp;fl=alias'))/response//str[@name='alias']" />
+  </xsl:template>
 </xsl:stylesheet>
