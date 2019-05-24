@@ -298,11 +298,11 @@
             </h4>
           </div>
           <div id="modalFrame-body" class="modal-body" style="max-height: 560px; overflow: auto">
-            <xsl:if test="$piServiceInformation[@type='doi' or  @type='doi'][@inscribed='true']">
+            <xsl:if test="$piServiceInformation[@type='doi' or @type='doi'][@inscribed='true']">
               <xsl:apply-templates select="mods:identifier[@type='urn' or @type='doi']" mode="identifierList" />
             </xsl:if>
             <xsl:choose>
-              <xsl:when test="not(mods:identifier[@type='urn' or @type='doi']) and //servflag/@type='alias'">
+              <xsl:when test="not($piServiceInformation[@type='doi' or @type='doi'][@inscribed='true']) and //servflag/@type='alias'">
                 <xsl:variable name="parentAlias">
                   <xsl:for-each select="//mods:relatedItem[contains('host series', @type)]">
                     <xsl:sort select="position()" data-type="number" order="descending" />
@@ -317,7 +317,7 @@
                   <xsl:with-param name="id" select="concat($WebApplicationBaseURL, 'publikationen/', $parentAlias, //servflag[@type='alias']/text())" />
                 </xsl:call-template>
               </xsl:when>
-              <xsl:when test="not(mods:identifier[@type='urn' or @type='doi'])">
+              <xsl:when test="not($piServiceInformation[@type='doi' or @type='doi'][@inscribed='true'])">
                 <xsl:call-template name="identifierEntry">
                   <xsl:with-param name="title" select="'Document-Link'" />
                   <xsl:with-param name="id" select="concat($WebApplicationBaseURL, 'receive/', //mycoreobject/@ID)" />
