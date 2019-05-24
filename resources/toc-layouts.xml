@@ -33,12 +33,10 @@
   <toc-layout id="series">
     <label>Serie (Band), Artikel mit Autor:Titel, Seitenzahl</label>
     <level field="series.volume" order="desc" expanded="first">
-      <level field="host.issue" order="desc" expanded="false">
-        <publications>
-          <sortBy field="host.page.int" order="asc" />
-          <sortBy field="host.page.str" order="asc" />
-        </publications>
-      </level>
+      <publications>
+        <sortBy field="host.page.int" order="asc" />
+        <sortBy field="host.page.str" order="asc" />
+      </publications>
     </level>
   </toc-layout>
 
