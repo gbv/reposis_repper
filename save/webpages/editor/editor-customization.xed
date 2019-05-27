@@ -18,6 +18,266 @@
     <xed:include ref="repper.ddc_geo"         before="abstract.repeated" />
   </xed:modify>
 
+  <!-- ========== extend editor-genres.xed ========== -->
+
+  <xed:modify ref="genres.book.common">
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:remove  ref="language" />
+    <xed:include ref="repper.ddc.repeat" after="extent" />
+    <xed:include ref="repper.epoch"      after="extent" />
+    <xed:include ref="language.simple"   after="extent" />
+    <xed:remove  ref="subject.simple" />
+    <xed:include ref="repper.subject.simple"   after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc_time"         after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc_geo"          after="doi.handle.urn.repeated" />
+    <xed:remove  ref="institutes" />
+    <xed:include ref="institutes.repeat" after="rights" />
+  </xed:modify>
+
+  <xed:modify ref="genres.journal.common">
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:remove  ref="language" />
+    <xed:include ref="repper.ddc.repeat" after="date.onlyrange.issued.datetimepicker" />
+    <xed:include ref="repper.epoch"      after="date.onlyrange.issued.datetimepicker" />
+    <xed:include ref="language.simple"   after="date.onlyrange.issued.datetimepicker" />
+    <xed:remove  ref="subject.simple" />
+    <xed:include ref="repper.subject.simple"   after="identifier.zdbid" />
+    <xed:include ref="repper.ddc_time"         after="identifier.zdbid" />
+    <xed:include ref="repper.ddc_geo"          after="identifier.zdbid" />
+  </xed:modify>
+  
+  <xed:modify ref="genres.teaching_material">
+    <xed:remove  ref="institutes" />
+    <xed:remove  ref="language" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:remove  ref="subject.simple" />
+    <xed:include ref="institutes.repeat"       after="type.of.resource.repeated" />
+    <xed:include ref="language.simple"         after="type.of.resource.repeated" />
+    <xed:include ref="repper.epoch"            after="type.of.resource.repeated" />
+    <xed:include ref="repper.ddc.repeat"       after="type.of.resource.repeated" />
+    <xed:include ref="repper.subject.simple"   after="type.of.resource.repeated" />
+    <xed:include ref="repper.ddc_time"         after="type.of.resource.repeated" />
+    <xed:include ref="repper.ddc_geo"          after="type.of.resource.repeated" />
+  </xed:modify>
+
+  <xed:modify ref="genres.publication.common">
+    <xed:remove  ref="institutes" />
+    <xed:remove  ref="language" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:remove  ref="subject.simple" />
+    <xed:include ref="language.simple"         before="identifier.managed" />
+    <xed:include ref="repper.epoch"            after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc.repeat"       after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.subject.simple"   after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc_time"         after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc_geo"          after="doi.handle.urn.repeated" />
+    <xed:include ref="institutes.repeat"       after="rights" />
+  </xed:modify>
+
+  <xed:modify ref="genres.report.common">
+    <xed:remove  ref="institutes" />
+    <xed:remove  ref="language" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:remove  ref="subject.simple" />
+    <xed:include ref="language.simple"         before="identifier.managed" />
+    <xed:include ref="repper.epoch"            after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc.repeat"       after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.subject.simple"   after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc_time"         after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc_geo"          after="doi.handle.urn.repeated" />
+    <xed:include ref="institutes.repeat"       after="rights" />
+  </xed:modify>
+
+  <xed:modify ref="genres.entry">
+    <xed:remove  ref="institutes" />
+    <xed:remove  ref="language" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:remove  ref="subject.simple" />
+    <xed:include ref="language.simple"         before="identifier.managed" />
+    <xed:include ref="repper.epoch"            after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc.repeat"       after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.subject.simple"   after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc_time"         after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc_geo"          after="doi.handle.urn.repeated" />
+    <xed:include ref="institutes.repeat"       after="rights" />
+  </xed:modify>
+
+  <xed:modify ref="genres.preface">
+    <xed:remove  ref="institutes" />
+    <xed:remove  ref="language" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:remove  ref="subject.simple" />
+    <xed:include ref="language.simple"         before="identifier.managed" />
+    <xed:include ref="repper.epoch"            after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc.repeat"       after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.subject.simple"   after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc_time"         after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc_geo"          after="doi.handle.urn.repeated" />
+    <xed:include ref="institutes.repeat"       after="rights" />
+  </xed:modify>
+
+  <xed:modify ref="genres.interview">
+    <xed:remove  ref="institutes" />
+    <xed:remove  ref="language" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:remove  ref="subject.simple" />
+    <xed:include ref="language.simple"         before="identifier.managed" />
+    <xed:include ref="repper.epoch"            after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc.repeat"       after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.subject.simple"   after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc_time"         after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc_geo"          after="doi.handle.urn.repeated" />
+    <xed:include ref="institutes.repeat"       after="rights" />
+  </xed:modify>
+  
+    <xed:modify ref="genres.speech">
+    <xed:remove  ref="institutes" />
+    <xed:remove  ref="language" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:remove  ref="subject.simple" />
+    <xed:include ref="language.simple"         before="identifier.managed" />
+    <xed:include ref="repper.epoch"            after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc.repeat"       after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.subject.simple"   after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc_time"         after="doi.handle.urn.repeated" />
+    <xed:include ref="repper.ddc_geo"          after="doi.handle.urn.repeated" />
+    <xed:include ref="institutes.repeat"       after="rights" />
+  </xed:modify>
+  
+  <xed:modify ref="genres.patent">
+    <xed:remove  ref="institutes" />
+    <xed:remove  ref="language" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:remove  ref="subject.simple" />
+    <xed:include ref="language.simple"         before="date.submitted.datetimepicker" />
+    <xed:include ref="repper.epoch"            after="date.issued.datetimepicker" />
+    <xed:include ref="repper.ddc.repeat"       after="date.issued.datetimepicker" />
+    <xed:include ref="repper.subject.simple"   after="date.issued.datetimepicker" />
+    <xed:include ref="repper.ddc_time"         after="date.issued.datetimepicker" />
+    <xed:include ref="repper.ddc_geo"          after="date.issued.datetimepicker" />
+    <xed:include ref="institutes.repeat"       after="rights" />
+  </xed:modify>
+
+  <xed:modify ref="genres.poster">
+    <xed:remove  ref="institutes" />
+    <xed:remove  ref="language" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:remove  ref="subject.simple" />
+    <xed:include ref="language.simple"         before="abstract.simple" />
+    <xed:include ref="repper.epoch"            before="abstract.simple" />
+    <xed:include ref="repper.ddc.repeat"       before="abstract.simple" />
+    <xed:include ref="repper.subject.simple"   before="abstract.simple" />
+    <xed:include ref="repper.ddc_time"         before="abstract.simple" />
+    <xed:include ref="repper.ddc_geo"          before="abstract.simple" />
+    <xed:include ref="institutes.repeat"       after="rights" />
+  </xed:modify>
+
+  <xed:modify ref="genres.av.common">
+    <xed:remove  ref="institutes" />
+    <xed:remove  ref="language" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:remove  ref="subject.simple" />
+    <xed:include ref="language.simple"         before="abstract.simple" />
+    <xed:include ref="repper.epoch"            before="abstract.simple" />
+    <xed:include ref="repper.ddc.repeat"       before="abstract.simple" />
+    <xed:include ref="repper.subject.simple"   before="abstract.simple" />
+    <xed:include ref="repper.ddc_time"         before="abstract.simple" />
+    <xed:include ref="repper.ddc_geo"          before="abstract.simple" />
+    <xed:include ref="institutes.repeat"       after="rights" />
+  </xed:modify>
+
+  <xed:modify ref="genres.research_data">
+    <xed:remove  ref="institutes" />
+    <xed:remove  ref="language" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:remove  ref="subject.simple" />
+    <xed:include ref="language.simple"         before="identifier.managed" />
+    <xed:include ref="repper.epoch"            before="abstract.simple" />
+    <xed:include ref="repper.ddc.repeat"       before="abstract.simple" />
+    <xed:include ref="repper.subject.simple"   before="abstract.simple" />
+    <xed:include ref="repper.ddc_time"         before="abstract.simple" />
+    <xed:include ref="repper.ddc_geo"          before="abstract.simple" />
+    <xed:include ref="institutes.repeat"       after="related.item.link" />
+  </xed:modify>
+
+  <xed:modify ref="genres.lecture">
+    <xed:remove  ref="institutes" />
+    <xed:remove  ref="language" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:remove  ref="subject.simple" />
+    <xed:include ref="language.simple"         before="geographic" />
+    <xed:include ref="repper.epoch"            before="geographic" />
+    <xed:include ref="repper.ddc.repeat"       before="geographic" />
+    <xed:include ref="repper.subject.simple"   before="abstract.simple" />
+    <xed:include ref="repper.ddc_time"         before="abstract.simple" />
+    <xed:include ref="repper.ddc_geo"          before="abstract.simple" />
+    <xed:include ref="institutes.repeat"       after="abstract.simple" />
+  </xed:modify>
+
+  <xed:modify ref="genres.picture">
+    <xed:remove  ref="institutes" />
+    <xed:remove  ref="language" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:remove  ref="subject.simple" />
+    <xed:include ref="language.simple"         before="identifier.managed" />
+    <xed:include ref="repper.epoch"            before="abstract.repeated" />
+    <xed:include ref="repper.ddc.repeat"       before="abstract.repeated" />
+    <xed:include ref="repper.subject.simple"   before="abstract.repeated" />
+    <xed:include ref="repper.ddc_time"         before="abstract.repeated" />
+    <xed:include ref="repper.ddc_geo"          before="abstract.repeated" />
+    <xed:include ref="institutes.repeat"       after="rights" />
+  </xed:modify>
+
+
+  <!-- ========== new genre specification ========== -->
+  <xed:template id="genres.issue">
+    <xed:include ref="title.optional" />
+    <xed:include ref="author.repeated" />
+    <xed:include ref="editor.repeated" />
+    <xed:include ref="publisher.organization.repeat" />
+    <xed:include ref="place" />
+    <xed:include ref="publisher" />
+    <xed:include ref="year.issued" />
+    <xed:bind xpath="mods:relatedItem[@type='host']">
+      <xed:include ref="host.volume" />
+      <xed:include ref="host.issue" />
+    </xed:bind>
+    <xed:include ref="extent" />
+    <xed:include ref="identifier.issn" />
+    <xed:include ref="language.simple" />
+    <xed:include ref="repper.epoch" />
+    <xed:include ref="repper.ddc.repeat" />
+    <xed:include ref="repper.subject.simple" />
+    <xed:include ref="repper.ddc_time" />
+    <xed:include ref="repper.ddc_geo" />
+    <xed:include ref="abstract.simple" />
+    <xed:include ref="rights" />
+    <xed:include ref="comment" />
+  </xed:template>
+
+  <xed:template id="genres.special_issue">
+    <xed:include ref="genres.issue" />
+  </xed:template>
+
+  <xed:template id="genres.introduction">
+    <xed:include ref="genres.publication.common" />
+  </xed:template>
+
+  <xed:template id="genres.table_of_contents">
+    <xed:include ref="genres.publication.common" />
+  </xed:template>
+
+  <xed:template id="genres.abstract">
+    <xed:include ref="genres.publication.common" />
+  </xed:template>
+
+  <xed:template id="working_paper">
+    <xed:include ref="genres.report.common" />
+  </xed:template>
+
+  <xed:template id="database">
+    <xed:include ref="genres.report.common" />
+  </xed:template>
 
   <!-- ========== repper specific templates ========== -->
   <xed:template id="repper.ddc.repeat">
