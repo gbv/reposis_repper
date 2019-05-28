@@ -54,7 +54,7 @@
     <label>Standard (gruppiert nach Erscheinungsjahr)</label>
     <level field="mods.yearIssued" order="desc" expanded="first">
       <publications>
-        <sortBy field="host.order" order="asc" />
+        <sortBy field="host.order" order="desc" />
         <sortBy field="series.order" order="asc" />
         <sortBy field="host.page.int" order="asc" />
         <sortBy field="host.page.str" order="asc" />
