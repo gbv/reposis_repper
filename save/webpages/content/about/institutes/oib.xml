@@ -1,5 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="neuer Eintrag"><h1 class="documentFirstHeading"><img alt="Beiruter Texte und Studien" class="tileImage" height="31" src="https://www.perspectivia.net/publikationen/bts/@@images/3f83a9ff-ad86-4eaa-95bc-341f4330b1ae.jpeg" title="Beiruter Texte und Studien" width="128" />   Orient Institut Beirut</h1>
+<MyCoReWebPage>
+
+    <section xml:lang="de" title="Orient Institut Beirut">
+        <div class="row">
+
+            <div class="col-xs-12" lang="de">
+                <h1>Orient Institut Beirut</h1>
+                <div class="pp-institute-graphic">
+                    <img src="../../../images/logos/io-beirut-logo.jpg"
+                         class="pp-institute-graphic__logo"
+                         alt="xxx-Logo" />
+                    <img src="../../../images/institute-figures/xxx-figure.jpg"
+                         class="pp-institute-graphic__figure"
+                         alt="xxx-Foto"
+                         title="xxx" />
+                </div>
+            </div>
+
+            <div class="col-xs-12">
+                <div class="row">
+
+                    <div class="col-md-6 pp-publications">
+                        <div class="solrsearch" data-classes="pp-sourcesBox"
+                            data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.beirut%22"
+                            data-defaultThumbnail="../../../images/placeholder/io-beirut-placeholder.jpg"> </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h3>Digitale Quelleneditionen</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-contact" lang="de">
+                <h2>Kontakt</h2>
+                <h3>Orient Institut Beirut</h3>
+                <div class="pp-contact__list">
+
+                    <div class="pp-contact__item">
+                        Rue Hussein Beyhum,<br />
+                        Zokak el-Blat,<br />
+                        P.O.B. 11-2988,<br />
+                        Beirut,<br />
+                        Libanon
+                    </div>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">Telefon:</td>
+                            <td>+961 1 359 424 </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Fax:</td>
+                            <td>+961 1 359 176</td>
+                        </tr>
+                    </table>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">E-Mail:</td>
+                            <td>
+                                <span class="madress">sekretariat [at] oidmg.org</span>;
+                                <span class="madress">dir [at] oidmg.org</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Internet:</td>
+                            <td><a class="external-link" href="http://www.orient-institut.org/">http://www.orient-institut.org/</a></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<section xml:lang="en" title="neuer Eintrag"><h1 class="documentFirstHeading"><img alt="Beiruter Texte und Studien" class="tileImage" height="31" src="https://www.perspectivia.net/publikationen/bts/@@images/3f83a9ff-ad86-4eaa-95bc-341f4330b1ae.jpeg" title="Beiruter Texte und Studien" width="128" />   Orient Institut Beirut</h1>
 
 <h2>Publikationen in perspectivia.net</h2>
 

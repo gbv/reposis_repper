@@ -542,54 +542,58 @@ html body footer .internal_links {
 
 
 /* ********************** institutes ********************** */
-.pp_atab {
+.pp-atab {
   white-space: pre;
 }
-.pp_institute-graphic {
+
+.pp-institute-graphic {
   position: relative;
-  height: 650px; 
+  margin-bottom: 60px;
 }
-.pp_inst-publications {
+
+.pp-publications {
   border-right: 1px solid #c5c5c5;
 }
-.pp_inst-contact {
+
+.pp-contact {
   border-top: 1px solid #c5c5c5;
   padding-top: 40px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
-#pp_dfk-logo {
+
+.pp-contact__list {
+  display: flex; 
+  align-items: flex-end; 
+  flex-wrap: wrap;
+}
+
+.pp-contact__item {
+  margin-right: 10%;
+}
+
+.pp-contact__subitem {
+  padding-right: 20px;
+}
+
+.pp-institute-graphic__logo {
   width: 200px;
   background-color: white;
-  padding-right: 30px;
-  padding-bottom: 30px;
+  padding: 30px;
   position: absolute;
-  z-index: 20;
-}
-#pp_dfk-photo {
-  position: absolute;
-  z-index: 10;
-  top: 70px;
-  left: 0px;
+  top: 0;
+  left: 0;
 }
 
-#pp_spsg-logo {
-  position: absolute;
-  z-index: 20;
+.pp-institute-graphic__figure {
+  max-width: 100%;
+  max-height: 560px;
 }
 
-#pp_spsg-photo {
-    height: 560px;
-    position: absolute;
-    z-index: 10;
-    top: 30px;
-    left: 0px;
-}
-
-.pp_sourcesBox {
+.pp-sourcesBox {
   margin: 30px;
 }
-.pp_sourcesBox a {
+.pp-sourcesBox a {
   display: block;
   margin-bottom: 10px;
 }

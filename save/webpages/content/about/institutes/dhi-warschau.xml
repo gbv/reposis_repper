@@ -1,5 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="neuer Eintrag"><h1 class="documentFirstHeading"><img alt="Einzelveröffentlichungen des DHI Warschau" class="tileImage" height="52" src="https://www.perspectivia.net/publikationen/ev-warschau/@@images/a8c0e71b-5649-4d2f-910c-59ee412e24f6.jpeg" title="Einzelveröffentlichungen des DHI Warschau" width="128" />   Deutsches Historisches Institut Warschau</h1>
+<MyCoReWebPage>
+
+    <section xml:lang="de" title="Deutsches Historisches Institut Warschau">
+        <div class="row">
+
+            <div class="col-xs-12" lang="de">
+                <h1>Deutsches Historisches Institut Warschau</h1>
+                <div class="pp-institute-graphic">
+                    <img src="../../../images/logos/dhi-warschau-logo.jpg"
+                         class="pp-institute-graphic__logo"
+                         alt="xxx-Logo" />
+                    <img src="../../../images/institute-figures/xxx-figure.jpg"
+                         class="pp-institute-graphic__figure"
+                         alt="xxx-Foto"
+                         title="xxx" />
+                </div>
+            </div>
+
+            <div class="col-xs-12">
+                <div class="row">
+
+                    <div class="col-md-6 pp-publications">
+                        <div class="solrsearch" data-classes="pp-sourcesBox"
+                            data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.warschau%22"
+                            data-defaultThumbnail="../../../images/placeholder/dhi-warschau-placeholder.jpg"> </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h3>Digitale Quelleneditionen</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-contact" lang="de">
+                <h2>Kontakt</h2>
+                <h3>Deutsches Historisches Institut Warschau</h3>
+                <div class="pp-contact__list">
+
+                    <div class="pp-contact__item">
+                        Pałac Karnickich, Aleje Ujazdowskie 39<br />
+                        Pl 00-540 Warszawa
+                    </div>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">Telefon:</td>
+                            <td>+48 22 525 83 00, -02</td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Fax:</td>
+                            <td>+48 22 525 83 37</td>
+                        </tr>
+                    </table>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">E-Mail:</td>
+                            <td>
+                                <span class="madress">dhi [at] dhi.waw.pl</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Internet:</td>
+                            <td><a class="external-link" href="https://www.dhi.waw.pl">https://www.dhi.waw.pl</a></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<section xml:lang="en" title="neuer Eintrag"><h1 class="documentFirstHeading"><img alt="Einzelveröffentlichungen des DHI Warschau" class="tileImage" height="52" src="https://www.perspectivia.net/publikationen/ev-warschau/@@images/a8c0e71b-5649-4d2f-910c-59ee412e24f6.jpeg" title="Einzelveröffentlichungen des DHI Warschau" width="128" />   Deutsches Historisches Institut Warschau</h1>
 
 <h2>Publikationen in perspectivia.net</h2>
 

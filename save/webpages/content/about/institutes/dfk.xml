@@ -1,113 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
-    <section xml:lang="de" title="DFK">
-        
+
+    <section xml:lang="de" title="Deutsches Forum für Kunstgeschichte Paris">
         <div class="row">
-            <div class="col-xs-12 pp_inst-contact" lang="de">
+
+            <div class="col-xs-12" lang="de">
                 <h1>Deutsches Forum für Kunstgeschichte Paris</h1>
-                
-                <div class="pp_institute-graphic">
-                    <img alt="DFK-Logo" src="../../../images/logos/dfk-logo-rgb.svg" id="pp_dfk-logo" />
-                    <img alt="DFK-Foto" src="../../../images/dfk-photo.png"  id="pp_dfk-photo" />
+                <div class="pp-institute-graphic">
+                    <img src="../../../images/logos/dfk-paris-logo.jpg"
+                         class="pp-institute-graphic__logo"
+                         alt="DFK-Logo" />
+                    <img src="../../../images/institute-figures/dfk-figure.png"
+                         class="pp-institute-graphic__figure"
+                         alt="DFK-Foto" />
                 </div>
-                
+            </div>
+
+            <div class="col-xs-12">
+                <div class="row">
+
+                    <div class="col-md-6 pp-publications">
+                        <div class="solrsearch" data-classes="pp-sourcesBox"
+                            data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dfk.paris%22"
+                            data-defaultThumbnail="../../../images/placeholder/dfk-paris-placeholder.jpg"> </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h3>Digitale Quelleneditionen</h3>
+
+                        <div class="row pp-sourcesBox">
+                            <div class="col-xs-4">
+                                <img class="img-responsive" alt="Correspondance entre Fantin-Latour et Scholderer" title="Correspondance entre Fantin-Latour et Scholderer" src="../../../images/thumbnails_source_editions/dfk_fantin_latour.png" />
+                            </div>
+                            <div class="col-xs-8">
+                                <a class="external-link" href="http://quellen-perspectivia.net/de/fantin-scholderer/start">Correspondance entre Fantin-Latour et Scholderer</a>
+                                <p>
+                                    Briefwechsel zwischen Henri Fantin-Latour und Otto Scholderer (1858-1902)
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-contact" lang="de">
                 <h2>Kontakt</h2>
                 <h3>Deutsches Forum für Kunstgeschichte Paris</h3>
-                <div class="col-md-3">
-                    <p>
+                <div class="pp-contact__list">
+
+                    <div class="pp-contact__item">
                         Hôtel Lully<br />
                         45, rue des Petits Champs<br />
                         F-75001 Paris
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <p class="pp_atab"><!-- show content with withespaces as using pre -->
-Telefon: +33 1 42 60 67 82
-Fax:       +33 1 42 60 67 83
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <p class="pp_atab"><!-- show content with withespaces as using pre -->
-E-Mail:   sekretariat (at) dfk-paris.org
-Internet: <a class="external-link" href="http://www.dfk-paris.org">www.dfk-paris.org</a>
-                    </p>
+                    </div>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">Telefon:</td>
+                            <td>+33 1 42 60 67 82</td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Fax:</td>
+                            <td>+33 1 42 60 67 83</td>
+                        </tr>
+                    </table>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">E-Mail:</td>
+                            <td>
+                                <span class="madress">sekretariat [at] dfk-paris.org</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Internet:</td>
+                            <td><a class="external-link" href="http://www.dfk-paris.org">www.dfk-paris.org</a></td>
+                        </tr>
+                    </table>
+
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-5 pp_inst-publications">
-                <h3>
-                    Publikationen in perspectivia.net
-                </h3>
-                <ul>
-                    <li><a href="/receive/repper_mods_00000801">Conférences</a></li>
-                    <li><a href="/receive/pnet_mods_00000021">Own Realtity</a></li>
-                </ul>
-            </div>
-            
-            <div class="col-md-5 col-md-offset-1">
-                <h3>
-                    Quelleneditionen
-                </h3>
-                <ul>
-                    <li><a class="external-link" href="http://quellen-perspectivia.net/de/fantin-scholderer/start">Correspondance entre Fantin-Latour et Scholderer</a></li>
-                </ul>
-            </div>
+
         </div>
     </section>
-    <section xml:lang="en" title="DFK">
+
+    <section xml:lang="en" title="German Center for Art History">
         <div class="row">
-            <div class="col-xs-12" lang="en">
-                <h1>Deutsches Forum für Kunstgeschichte Paris</h1>
-                
-                <div class="col-md-4">
-                    <img alt="DFK-Logo" src="../../../images/logos/dfk-logo-rgb.svg" style="width: 200px;" />
+
+            <div class="col-xs-12" lang="de">
+                <h1>German Center for Art History</h1>
+                <div class="pp-institute-graphic">
+                    <img src="../../../images/logos/dfk-logo-rgb.svg"
+                         class="pp-institute-graphic__logo"
+                         alt="DFK-logo" />
+                    <img src="../../../images/institute-figures/dfk-figure.png"
+                         class="pp-institute-graphic__figure"
+                         alt="DFK-photo" />
                 </div>
-                <div class="col-md-6">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h2 class="panel-title">
-                                Publications on perspectivia.net
-                            </h2>
-                        </div>
-                        <div class="panel-body">
-                            <ul>
-                                <li><a href="https://reposis-test.gbv.de/repper/receive/repper_mods_00000801">Conférences</a></li>
-                                <li><a href="http://perspectivia.gbv.de/receive/pnet_mods_00000021">Own Realtity</a></li>
-                            </ul>
-                        </div>
+            </div>
+
+            <div class="col-xs-12">
+                <div class="row">
+
+                    <div class="col-md-6 pp-publications">
+                        <div class="solrsearch" data-classes="pp-sourcesBox"
+                            data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dfk.paris%22"
+                            data-defaultThumbnail="../../../images/logos/dfk-logo-rgb.svg"> </div>
                     </div>
-                    
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h2 class="panel-title">
-                                Source Editions
-                            </h2>
+
+                    <div class="col-md-6">
+                        <h3>Source Editions</h3>
+
+                        <div class="row pp-sourcesBox">
+                            <div class="col-xs-4">
+                                <img class="img-responsive" alt="Correspondance entre Fantin-Latour et Scholderer" title="Correspondance entre Fantin-Latour et Scholderer" src="../../../images/thumbnails_source_editions/dfk_fantin_latour.png" />
+                            </div>
+                            <div class="col-xs-8">
+                                <a class="external-link" href="http://quellen-perspectivia.net/de/fantin-scholderer/start">Correspondance entre Fantin-Latour et Scholderer</a>
+                                <p>
+                                    Correspondence between Henri Fantin-Latour and Otto Scholderer (1858-1902)
+                                </p>
+                            </div>
                         </div>
-                        <div class="panel-body">
-                            <ul>
-                                <li><a class="external-link" href="http://quellen-perspectivia.net/de/fantin-scholderer/start">Correspondance entre Fantin-Latour et Scholderer</a></li>
-                            </ul>
-                        </div>
+
                     </div>
                 </div>
-                
-                <div class="col-md-12">
-                    <h2>Contact</h2>
-                    
-                    <p>
-                        Deutsches Forum für Kunstgeschichte<br />
+            </div>
+
+            <div class="col-xs-12 pp-contact" lang="de">
+                <h2>Contact</h2>
+                <h3>German Center for Art History</h3>
+                <div class="pp-contact__list">
+
+                    <div class="pp-contact__item">
                         Hôtel Lully<br />
-                        45, rue des Petits Champs · F-75001 Paris<br />
-                        Telefon +33 1 42 60 67 82<br />
-                        Fax +33 1 42 60 67 83<br />
-                        E-Mail contact(at)dt-forum.org
-                    </p>
-                    
-                    <p><a class="external-link" href="http://www.dt-forum.org">www.dt-forum.org</a></p>
+                        45, rue des Petits Champs<br />
+                        F-75001 Paris
+                    </div>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">Phone:</td>
+                            <td>+49 +33 1 42 60 67 82</td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Fax:</td>
+                            <td>+49 +33 1 42 60 67 83</td>
+                        </tr>
+                    </table>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">Email:</td>
+                            <td>
+                                <span class="madress">sekretariat [at] dfk-paris.org</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Internet:</td>
+                            <td><a class="external-link" href="http://www.dfk-paris.org">www.dfk-paris.org</a></td>
+                        </tr>
+                    </table>
+
                 </div>
             </div>
+
         </div>
     </section>
-    <meta><log lastEditor="administrator" date="2018-06-11" time="13:45" /></meta>
+
+    <meta><log lastEditor="administrator" date="2018-20-06" time="14:00" /></meta>
 </MyCoReWebPage>

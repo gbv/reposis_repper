@@ -1,5 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="neuer Eintrag"><h1 class="documentFirstHeading"><a href="https://www.perspectivia.net/publikationen/bulletin-of-the-ghi-washington-supplements"><span class="col-md-4"><img alt="Bulletin of the GHI Washington - Supplements" class="tileImage" height="58" src="https://www.perspectivia.net/publikationen/bulletin-of-the-ghi-washington-supplements/@@images/2530628d-53e0-4dd5-9d36-0c7dd3f3488b.jpeg" title="Bulletin of the GHI Washington - Supplements" width="128" /></span></a>   Deutsches Forum für Kunstgeschichte</h1>
+<MyCoReWebPage>
+
+    <section xml:lang="de" title="Deutsches Historisches Institut Washington">
+        <div class="row">
+
+            <div class="col-xs-12" lang="de">
+                <h1>Deutsches Historisches Institut Washington</h1>
+                <div class="pp-institute-graphic">
+                    <img src="../../../images/logos/dhi-washingtondc-logo.jpg"
+                         class="pp-institute-graphic__logo"
+                         alt="xxx-Logo" />
+                    <img src="../../../images/institute-figures/xxx-figure.jpg"
+                         class="pp-institute-graphic__figure"
+                         alt="xxx-Foto"
+                         title="xxx" />
+                </div>
+            </div>
+
+            <div class="col-xs-12">
+                <div class="row">
+
+                    <div class="col-md-6 pp-publications">
+                        <div class="solrsearch" data-classes="pp-sourcesBox"
+                            data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22"
+                            data-defaultThumbnail="../../../images/placeholder/dhi-washingtondc-placeholder.jpg"> </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h3>Digitale Quelleneditionen</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-contact" lang="de">
+                <h2>Kontakt</h2>
+                <h3>Deutsches Historisches Institut Washington</h3>
+                <div class="pp-contact__list">
+
+                    <div class="pp-contact__item">
+                        1607 New Hampshire Ave NW · Washington,<br />
+                        DC 20009-2562
+                    </div>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">Telefon:</td>
+                            <td>+1 202 387-33 55</td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Fax:</td>
+                            <td>+1 202 483-34 30</td>
+                        </tr>
+                    </table>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">E-Mail:</td>
+                            <td>
+                                <span class="madress">info [at] ghi-dc.org</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Internet:</td>
+                            <td><a class="external-link" href="https://www.ghi-dc.org">https://www.ghi-dc.org</a></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<section xml:lang="en" title="neuer Eintrag"><h1 class="documentFirstHeading"><a href="https://www.perspectivia.net/publikationen/bulletin-of-the-ghi-washington-supplements"><span class="col-md-4"><img alt="Bulletin of the GHI Washington - Supplements" class="tileImage" height="58" src="https://www.perspectivia.net/publikationen/bulletin-of-the-ghi-washington-supplements/@@images/2530628d-53e0-4dd5-9d36-0c7dd3f3488b.jpeg" title="Bulletin of the GHI Washington - Supplements" width="128" /></span></a>   Deutsches Forum für Kunstgeschichte</h1>
 
 <h2>Publikationen in perspectivia.net</h2>
 
