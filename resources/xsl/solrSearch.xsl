@@ -40,6 +40,11 @@
               <xsl:value-of select="concat(' : ', ./str[@name='mods.title.subtitle'])" />
             </xsl:if>
           </a>
+          <xsl:if test="./str[@name='mods.abstract.result']">
+            <p>
+              <xsl:value-of select="./str[@name='mods.abstract.result']" />
+            </p>
+          </xsl:if>
         </div>
       </div>
     </xsl:for-each>
