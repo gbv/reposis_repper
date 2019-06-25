@@ -23,7 +23,7 @@
                     <div class="col-md-6 pp-publications">
                         <div class="solrsearch" data-classes="pp-sourcesBox"
                             data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:spsg%22"
-                            data-defaultThumbnail="../../../images/placeholder_institutes/spsg-placeholder.jpg"> </div>
+                            data-defaultThumbnail="../../../images/placeholder/spsg-placeholder.jpg"> </div>
                     </div>
 
                     <div class="col-md-6">
@@ -31,7 +31,7 @@
 
                         <div class="row pp-sourcesBox">
                             <div class="col-xs-4">
-                                <img class="img-responsive" alt="Borchwards Reise" title="Borchwards Reise" src="../../../images/thumbnails_source_editions/spsg-borchward.png" />
+                                <img class="img-responsive" alt="Borchwards Reise" title="Borchwards Reise" src="../../../images/thumbnails/spsg-borchward.png" />
                             </div>
                             <div class="col-xs-8">
                                 <a class="external-link" href="http://quellen-perspectivia.net/de/borchward/start">Borchwards Reise </a>
@@ -46,7 +46,7 @@
 
                         <div class="row pp-sourcesBox">
                             <div class="col-xs-4">
-                                <img class="img-responsive" alt="Das Judenporzellan (2. Auflage 2014)" title="Das Judenporzellan (2. Auflage 2014)" src="../../../images/thumbnails_source_editions/spsg-judenporzellan.png" />
+                                <img class="img-responsive" alt="Das Judenporzellan (2. Auflage 2014)" title="Das Judenporzellan (2. Auflage 2014)" src="../../../images/thumbnails/spsg-judenporzellan.png" />
                             </div>
                             <div class="col-xs-8">
                                 <a class="external-link" href="http://quellen-perspectivia.net/de/judenporzellan/start">Das "Judenporzellan" (2. Auflage 2014)</a>
@@ -60,7 +60,7 @@
 
                         <div class="row pp-sourcesBox">
                             <div class="col-xs-4">
-                                <img class="img-responsive" alt="Die Schatullrechnungen Friedrichs des Großen" title="Die Schatullrechnungen Friedrichs des Großen" src="../../../images/thumbnails_source_editions/spsg-schatullenrechnungen.png" />
+                                <img class="img-responsive" alt="Die Schatullrechnungen Friedrichs des Großen" title="Die Schatullrechnungen Friedrichs des Großen" src="../../../images/thumbnails/spsg-schatullenrechnungen.png" />
                             </div>
                             <div class="col-xs-8">
                                 <a class="external-link" href="http://quellen-perspectivia.net/de/schatullrechnungen/start">Die Schatullrechnungen Friedrichs des Großen</a>
@@ -141,7 +141,7 @@
                     <div class="col-md-6 pp-publications">
                         <div class="solrsearch" data-classes="pp-sourcesBox"
                             data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:spsg%22"
-                            data-defaultThumbnail="../../../images/placeholder_institutes/spsg-placeholder.jpg"> </div>
+                            data-defaultThumbnail="../../../images/placeholder/spsg-placeholder.jpg"> </div>
                     </div>
 
                     <div class="col-md-6">
@@ -149,7 +149,7 @@
 
                         <div class="row pp-sourcesBox">
                             <div class="col-xs-4">
-                                <img class="img-responsive" alt="Borchwards Reise" title="Borchwards Reise" src="../../../images/thumbnails_source_editions/spsg-borchward.png" />
+                                <img class="img-responsive" alt="Borchwards Reise" title="Borchwards Reise" src="../../../images/thumbnails/spsg-borchward.png" />
                             </div>
                             <div class="col-xs-8">
                                 <a class="external-link" href="http://quellen-perspectivia.net/de/borchward/start">Borchwards Reise </a>
@@ -164,7 +164,7 @@
 
                         <div class="row pp-sourcesBox">
                             <div class="col-xs-4">
-                                <img class="img-responsive" alt="Das Judenporzellan (2. Auflage 2014)" title="Das Judenporzellan (2. Auflage 2014)" src="../../../images/thumbnails_source_editions/spsg-judenporzellan.png" />
+                                <img class="img-responsive" alt="Das Judenporzellan (2. Auflage 2014)" title="Das Judenporzellan (2. Auflage 2014)" src="../../../images/thumbnails/spsg-judenporzellan.png" />
                             </div>
                             <div class="col-xs-8">
                                 <a class="external-link" href="http://quellen-perspectivia.net/de/judenporzellan/start">Das "Judenporzellan" (2. Auflage 2014)</a>
@@ -178,7 +178,7 @@
 
                         <div class="row pp-sourcesBox">
                             <div class="col-xs-4">
-                                <img class="img-responsive" alt="Die Schatullrechnungen Friedrichs des Großen" title="Die Schatullrechnungen Friedrichs des Großen" src="../../../images/thumbnails_source_editions/spsg-schatullenrechnungen.png" />
+                                <img class="img-responsive" alt="Die Schatullrechnungen Friedrichs des Großen" title="Die Schatullrechnungen Friedrichs des Großen" src="../../../images/thumbnails/spsg-schatullenrechnungen.png" />
                             </div>
                             <div class="col-xs-8">
                                 <a class="external-link" href="http://quellen-perspectivia.net/de/schatullrechnungen/start">Die Schatullrechnungen Friedrichs des Großen</a>
