@@ -20,20 +20,18 @@
     <h3>
       <xsl:value-of select="i18n:translate('mir.publication_selection')" /> <!-- Auswahl Publikationsreihen -->
     </h3>
+    <div class="row {$classes}">    
     <xsl:for-each select="$searchResult//doc">
       <xsl:variable name="id" select="str[@name='id']/text()" />
       <xsl:variable name="mcrobject" select="document(concat('mcrobject:', $id))" />
-
-
-      <div class="row {$classes}">
-        <div class="col-xs-4">
+        <div class="col-xs-4 col-md-2">
           <xsl:call-template name="displayPreviewIMG">
             <xsl:with-param name="derivateID"
                             select="$mcrobject/mycoreobject/structure/derobjects/derobject[1]/@xlink:href" />
             <xsl:with-param name="defaultThumbnail" select="$thumbnail" />
           </xsl:call-template>
         </div>
-        <div class="col-xs-8">
+        <div class="col-xs-8 col-md-4">
           <a class="external-link" href="{$WebApplicationBaseURL}receive/{$id}">
             <xsl:value-of select="./str[@name='mods.title.main']" />
             <xsl:if test="./str[@name='mods.title.subtitle']">
@@ -46,9 +44,9 @@
             </p>
           </xsl:if>
         </div>
-      </div>
     </xsl:for-each>
-  </xsl:template>
+    </div>  
+</xsl:template>
 
   <xsl:template name="displayPreviewIMG">
     <xsl:param name="derivateID" />
