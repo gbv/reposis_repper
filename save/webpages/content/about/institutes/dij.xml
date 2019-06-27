@@ -4,45 +4,17 @@
     <section xml:lang="de" title="Deutsches Institut für Japanstudien Tokio">
         <div class="row">
 
-            <div class="col-xs-12" lang="de">
-                <h1>Deutsches Institut für Japanstudien Tokio</h1>
-                <div class="pp-institute-graphic">
-                    <img src="../../../images/logos/dij-tokio-logo.jpg"
-                         class="pp-institute-graphic__logo"
-                         alt="xxx-Logo" />
-                    <img src="../../../images/institute-figures/dij-figure.jpg"
-                         class="pp-institute-graphic__figure"
-                         alt="Foto Tokyo"
-                         title="Deutsches Institut für Japanstudien Tokio" />
-                </div>
-            </div>
-
-            <div class="col-xs-12">
-                <div class="row">
-
-                    <div class="col-md-6 pp-publications">
-                        <div class="solrsearch" data-classes="pp-sourcesBox"
-                            data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:di.japan.tokyo%22"
-                            data-defaultThumbnail="../../../images/placeholder/dij-tokio-placeholder.jpg"> </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <h3>Digitale Quelleneditionen</h3>
-
-                        <div class="row pp-sourcesBox">
-                            <div class="col-xs-4">
-                                <img class="img-responsive" alt="xxx" title="xxx" src="../../../images/thumbnails/dij-bando-sammlung.jpg" />
-                            </div>
-                            <div class="col-xs-8">
-                                <a class="external-link" href="https://prae.perspectivia.net/quellen/bando">Bando-Sammlung des DIJ</a>
-                                <p>
-                                    Deutsches Institut für Japanstudien Tokyo
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+            <div class="col-xs-12 pp-institute-graphic" lang="de">
+                <img src="../../../images/logos/dij-logo-460.png"
+                        class="pp-institute-graphic__logo"
+                        alt="DIJT-Logo" />
+                <h1 class="pp-institute-graphic__headline">
+                    Deutsches Institut für Japanstudien Tokio
+                </h1>
+                <img src="../../../images/institute-figures/dij-figure.jpg"
+                        class="pp-institute-graphic__figure"
+                        alt="Foto Tokyo"
+                        title="Deutsches Institut für Japanstudien Tokio" />
             </div>
 
             <div class="col-xs-12 pp-contact" lang="de">
@@ -81,51 +53,32 @@
                 </div>
             </div>
 
+            <div class="col-xs-12 pp-publications">
+                <div class="solrsearch" data-classes="pp-sourcesBox"
+                    data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:di.japan.tokyo%22"
+                    data-defaultThumbnail="../../../images/placeholder/dij-placeholder-460.png">
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-sources">
+                <h3>Digitale Quelleneditionen</h3>
+                <div class="row pp-sourcesBox">
+                    <div class="col-xs-4 col-md-2">
+                        <img class="img-responsive" alt="xxx" title="xxx" src="../../../images/thumbnails/dij-bando-sammlung.jpg" />
+                    </div>
+                    <div class="col-xs-8 col-md-4">
+                        <a class="external-link" href="https://prae.perspectivia.net/quellen/bando">Bando-Sammlung des DIJ</a>
+                        <p>
+                            Deutsches Institut für Japanstudien Tokyo
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
-<section xml:lang="en" title="neuer Eintrag"><h1 class="documentFirstHeading"><img alt="DIJ Forum" class="tileImage" height="51" src="https://www.perspectivia.net/publikationen/dij-forum/@@images/184fb7d2-12e6-41f7-b55d-adc38341d41b.jpeg" title="DIJ Forum" width="128" />   Deutsches Institut für Japanstudien Tokio</h1>
-
-<h2>Publikationen in perspectivia.net</h2>
-
-<p itemprop="name"> </p>
-
-<div class="tileImage"> </div>
-
-<h2 class="tileHeadline"><a class="summary url" href="https://www.perspectivia.net/publikationen/dij-forum">DIJ Forum</a></h2>
-
-<p class="tileBody"><span class="description">Seit März 1997 lädt das DIJ unter dem Titel DIJ Forum zu öffentlichen Vorträgen ein, bei denen international bekannte Wissenschaftler und Wissenschaftlerinnen zu Themen von allgemeinem Interesse referieren.</span></p>
-
-<p class="tileFooter"><a href="https://www.perspectivia.net/publikationen/dij-forum">Mehr…</a></p>
-
-<div class="clearfix"> </div>
-
-<p itemprop="name"> </p>
-
-<h2>Quelleneditionen</h2>
-
-<p itemprop="name"> </p>
-
-<div class="tileImage"><a href="https://www.perspectivia.net/quellen/bando"><span class="col-md-4"><img alt="Bando-Sammlung des DIJ" class="tileImage" height="68" src="https://www.perspectivia.net/quellen/bando/@@images/eb7a71f7-7d9c-4fae-855e-927e14fe4ba1.jpeg" title="Bando-Sammlung des DIJ" width="128" /></span> </a></div>
-
-<h2 class="tileHeadline"><a class="summary url" href="https://www.perspectivia.net/quellen/bando">Bando-Sammlung des DIJ</a></h2>
-
-<p class="tileBody"><span class="description">Deutsches Institut für Japanstudien Tokyo</span></p>
-
-<p class="tileFooter"><a href="https://www.perspectivia.net/quellen/bando">Mehr…</a></p>
-
-<div class="clearfix"> </div>
-
-<p itemprop="name"> </p>
-
-<h2 itemprop="name">Kontakt</h2>
-
-<p>Deutsches Forum für Kunstgeschichte<br />
-Hôtel Lully<br />
-45, rue des Petits Champs · F-75001 Paris<br />
-Telefon +33 1 42 60 67 82<br />
-Fax +33 1 42 60 67 83<br />
-E-Mail contact(at)dt-forum.org </p>
-
-<p><a class="external-link" href="http://www.dt-forum.org" target="_blank">www.dt-forum.org</a></p>
-</section><meta><log lastEditor="kneumann" date="2018-06-19" time="11:16" /></meta></MyCoReWebPage>
+    <meta>
+        <log lastEditor="administrator" date="2018-20-06" time="14:00" />
+    </meta>
+</MyCoReWebPage>

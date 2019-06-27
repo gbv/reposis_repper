@@ -4,32 +4,17 @@
     <section xml:lang="de" title="Deutsches Historisches Institut Warschau">
         <div class="row">
 
-            <div class="col-xs-12" lang="de">
-                <h1>Deutsches Historisches Institut Warschau</h1>
-                <div class="pp-institute-graphic">
-                    <img src="../../../images/logos/dhi-warschau-logo.jpg"
-                         class="pp-institute-graphic__logo"
-                         alt="xxx-Logo" />
-                    <img src="../../../images/institute-figures/dhi-warschau-figure.jpg"
-                         class="pp-institute-graphic__figure"
-                         alt="Foto Warschau"
-                         title="Deutsches Historisches Institut Warschau" />
-                </div>
-            </div>
-
-            <div class="col-xs-12">
-                <div class="row">
-
-                    <div class="col-md-6 pp-publications">
-                        <div class="solrsearch" data-classes="pp-sourcesBox"
-                            data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.warschau%22"
-                            data-defaultThumbnail="../../../images/placeholder/dhi-warschau-placeholder.jpg"> </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <h3>Digitale Quelleneditionen</h3>
-                    </div>
-                </div>
+            <div class="col-xs-12 pp-institute-graphic" lang="de">
+                <img src="../../../images/logos/dhi-warschau-logo-460.jpg"
+                        class="pp-institute-graphic__logo"
+                        alt="DHIW-Logo" />
+                <h1 class="pp-institute-graphic__headline">
+                    Deutsches Historisches Institut Warschau
+                </h1>
+                <img src="../../../images/institute-figures/dhi-warschau-figure.jpg"
+                        class="pp-institute-graphic__figure"
+                        alt="Foto Warschau"
+                        title="Deutsches Historisches Institut Warschau" />
             </div>
 
             <div class="col-xs-12 pp-contact" lang="de">
@@ -69,98 +54,17 @@
                 </div>
             </div>
 
+            <div class="col-xs-12 pp-publications">
+                <div class="solrsearch" data-classes="pp-sourcesBox"
+                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.warschau%22"
+                     data-defaultThumbnail="../../../images/placeholder/dhi-warschau-placeholder-460.jpg">
+                </div>
+            </div>
+
         </div>
     </section>
 
-<section xml:lang="en" title="neuer Eintrag"><h1 class="documentFirstHeading"><img alt="Einzelveröffentlichungen des DHI Warschau" class="tileImage" height="52" src="https://www.perspectivia.net/publikationen/ev-warschau/@@images/a8c0e71b-5649-4d2f-910c-59ee412e24f6.jpeg" title="Einzelveröffentlichungen des DHI Warschau" width="128" />   Deutsches Historisches Institut Warschau</h1>
-
-<h2>Publikationen in perspectivia.net</h2>
-
-<p itemprop="name"> </p>
-
-<div class="tileItem col-md-12">
-<div class="tileImage"> </div>
-
-<h2 class="tileHeadline"><a class="summary url" href="https://www.perspectivia.net/publikationen/ev-warschau">Einzelveröffentlichungen des DHI Warschau</a></h2>
-
-<p class="tileBody"><span class="description">Monographien und Sammelbände des Deutschen Historischen Instituts Warschau</span></p>
-
-<p class="tileFooter"><a href="https://www.perspectivia.net/publikationen/ev-warschau">Mehr…</a></p>
-
-<div class="clearfix"> </div>
-
-<hr /></div>
-
-<div class="tileItem col-md-12">
-<div class="tileImage"> </div>
-
-<h2 class="tileHeadline"><a class="summary url" href="https://www.perspectivia.net/publikationen/lelewel-gespraeche">Joachim-Lelewel-Gespräche des DHI Warschau</a></h2>
-
-<p class="tileBody"><span class="description">Diskussionsbeiträge der gleichnamigen Vortragsreihe am Deutschen Historischen Institut Warschau</span></p>
-
-<p class="tileFooter"><a href="https://www.perspectivia.net/publikationen/lelewel-gespraeche">Mehr…</a></p>
-
-<div class="clearfix">
-<h2 class="tileHeadline"><a class="summary url" href="https://www.perspectivia.net/publikationen/qus-warschau">Quellen und Studien (DHI Warschau)</a></h2>
-
-<p class="tileBody"><span class="description">Quellen und Studien</span></p>
-
-<p class="tileFooter"><a href="https://www.perspectivia.net/publikationen/qus-warschau">Mehr…</a></p>
-</div>
-</div>
-
-<p itemprop="name"> </p>
-
-<h2>Quelleneditionen</h2>
-
-<p itemprop="name"> </p>
-
-<div class="col-xs-12 col-sm-12">
-<div class="row">
-<div class="col-xs-12 col-sm-12">
-<div id="content">
-<div id="content-core">
-<div class="tileItem col-md-12">
-<div class="tileImage"> </div>
-
-<h2 class="tileHeadline"> </h2>
-
-<hr /></div>
-</div>
-
-<div id="viewlet-below-content-body">
-<div class="clearfix"> </div>
-</div>
-</div>
-</div>
-</div>
-
-<div class="row">
-<div class="col-xs-12 col-sm-12">
-<div id="viewlet-below-content"> </div>
-</div>
-</div>
-</div>
-
-<div id="column2-container"> </div>
-
-<p itemprop="name"> </p>
-
-<h2 itemprop="name">Kontakt</h2>
-
-<div class="plain" id="parent-fieldname-text">
-<p>Deutsches Historisches Institut Warschau</p>
-
-<p>Pałac Karnickich, Aleje Ujazdowskie 39</p>
-
-<p>Pl 00-540 Warszawa</p>
-
-<p>Telefon +48 22 525 83 00, -02 · Fax +48 22 525 83 37</p>
-
-<p>E-Mail dhi(at)dhi.waw.pl</p>
-
-<p><a class="external-link" href="http://www.dhi.waw.pl/" target="_blank">www.dhi.waw.pl</a></p>
-</div>
-
-<p> </p>
-</section><meta><log lastEditor="kneumann" date="2018-06-19" time="11:12" /></meta></MyCoReWebPage>
+    <meta>
+        <log lastEditor="administrator" date="2018-20-06" time="14:00" />
+    </meta>
+</MyCoReWebPage>

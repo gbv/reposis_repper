@@ -4,33 +4,17 @@
     <section xml:lang="de" title="Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland">
         <div class="row">
 
-            <div class="col-xs-12" lang="de">
-                <h1>Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland</h1>
-
-                <div class="pp-institute-graphic">
-                    <img src="../../../images/logos/mws-logo.jpg"
-                         class="pp-institute-graphic__logo"
-                         alt="MWS-Logo" />
-                    <img src="../../../images/institute-figures/mws-figure.png"
-                         class="pp-institute-graphic__figure"
-                         alt="Grafik für Max-Weber-Stiftung"
-                         title="Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland" />
-                </div>
-            </div>
-
-            <div class="col-xs-12">
-                <div class="row">
-
-                    <div class="col-md-6 pp-publications">
-                        <div class="solrsearch" data-classes="pp-sourcesBox"
-                            data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:mws%22"
-                            data-defaultThumbnail="../../../images/placeholder/mws-placeholder.jpg"> </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <h3>Digitale Quelleneditionen</h3>
-                    </div>
-                </div>
+            <div class="col-xs-12 pp-institute-graphic" lang="de">
+                <img src="../../../images/logos/mws-logo-460.png"
+                     class="pp-institute-graphic__logo"
+                     alt="MWS-Logo" />
+                <h1 class="pp-institute-graphic__headline">
+                    Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland
+                </h1>
+                <img src="../../../images/institute-figures/mws-figure.png"
+                     class="pp-institute-graphic__figure"
+                     alt="Grafik für Max-Weber-Stiftung"
+                     title="Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland" />
             </div>
 
             <div class="col-xs-12 pp-contact" lang="de">
@@ -71,8 +55,17 @@
                 </div>
             </div>
 
+            <div class="col-xs-12 pp-publications">
+                <div class="solrsearch" data-classes="pp-sourcesBox"
+                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:mws%22"
+                     data-defaultThumbnail="../../../images/placeholder/mws-placeholder-460.png">
+                </div>
+            </div>
+
         </div>
     </section>
 
-    <meta><log lastEditor="administrator" date="2018-11-07" time="17:02" /></meta>
+    <meta>
+        <log lastEditor="administrator" date="2018-20-06" time="14:00" />
+    </meta>
 </MyCoReWebPage>

@@ -547,24 +547,41 @@ html body footer .internal_links {
 }
 
 .pp-institute-graphic {
-  position: relative;
-  margin-bottom: 60px;
+  margin-top: 30px;
 }
 
 .pp-publications {
-  border-right: 1px solid #c5c5c5;
+}
+
+.pp-sources {
+  padding-top: 20px;
+  border-top: 1px solid #c5c5c5;
 }
 
 .pp-contact {
-  border-top: 1px solid #c5c5c5;
-  padding-top: 40px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  border-bottom: 1px solid #c5c5c5;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+#main_content .pp-contact h2 {
+  font-size: 25px;
+  color: #0c636d;
+  font-weight: 400;
+  margin: 30px 0;
+}
+
+#main_content .pp-contact h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #1a1612;
+  margin: 30px 0;
 }
 
 .pp-contact__list {
+  margin-top: 30px;
   display: flex; 
-  align-items: flex-end; 
+  align-items: flex-start; 
   flex-wrap: wrap;
 }
 
@@ -578,24 +595,55 @@ html body footer .internal_links {
 
 .pp-institute-graphic__logo {
   width: 200px;
-  background-color: white;
-  padding: 30px;
-  position: absolute;
-  top: 0;
-  left: 0;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+#main_content .pp-institute-graphic__headline {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 35px;
+  color: #0c636d;
 }
 
 .pp-institute-graphic__figure {
-  max-width: 100%;
-  max-height: 560px;
+  width: 100%;
+  display: block;
 }
 
 .pp-sourcesBox {
-  margin: 30px;
+  margin: 40px 0;
 }
 .pp-sourcesBox a {
   display: block;
   margin-bottom: 10px;
+}
+.pp-sourcesBox .col-xs-4 {
+  padding-left: 0;
+}
+.pp-sourcesBox .col-xs-8 {
+  padding-right: 30px;
+}
+
+.pp-sourcesBox img,
+.pp-publications img {
+  width: 100%;
+  border: 1px solid #dddddd;
+}
+
+#main_content .pp-sources h3,
+#main_content .pp-publications h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #1a1612;
+  margin: 40px 0;
+}
+
+.pp-sourcesBox .external-link,
+.pp-publications .external-link {
+  text-decoration: underline;
 }
 
 /* ********************** other ********************** */
@@ -662,4 +710,21 @@ html body footer .internal_links {
   width: 1px;
   height: 150px;
   border-left: solid #0c636d 1px;
+}
+
+/* enables wrapping columns */
+.pp-sourcesBox > .col-xs-4,
+.pp-sourcesBox > .col-xs-8 {
+  margin-bottom: 30px;
+}
+.pp-sourcesBox > .col-md-2:nth-child(2n+1) {
+  clear: both;
+}
+@media (min-width: 992px) {
+.pp-sourcesBox > .col-md-2:nth-child(2n+1) {
+  clear: none;
+}	
+  .pp-sourcesBox > .col-md-2:nth-child(4n+1) { 
+    clear: both;
+  }
 }

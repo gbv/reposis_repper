@@ -4,32 +4,17 @@
     <section xml:lang="de" title="Deutsches Historisches Institut in Rom">
         <div class="row">
 
-            <div class="col-xs-12" lang="de">
-                <h1>Deutsches Historisches Institut in Rom</h1>
-                <div class="pp-institute-graphic">
-                    <img src="../../../images/logos/dhi-rom-logo.jpg"
-                         class="pp-institute-graphic__logo"
-                         alt="DHI-Rom-Logo" />
-                    <img src="../../../images/institute-figures/dhi-rom-figure.jpg"
-                         class="pp-institute-graphic__figure"
-                         alt="Foto Rom"
-                         title="Deutsches Historisches Institut in Rom" />
-                </div>
-            </div>
-
-            <div class="col-xs-12">
-                <div class="row">
-
-                    <div class="col-md-6 pp-publications">
-                        <div class="solrsearch" data-classes="pp-sourcesBox"
-                            data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.rom%22"
-                            data-defaultThumbnail="../../../images/placeholder/dhi-rom-placeholder.jpg"> </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <h3>Digitale Quelleneditionen</h3>
-                    </div>
-                </div>
+            <div class="col-xs-12 pp-institute-graphic" lang="de">
+                <img src="../../../images/logos/dhi-rom-logo-425.jpg"
+                        class="pp-institute-graphic__logo"
+                        alt="DHI-Rom-Logo" />
+                <h1 class="pp-institute-graphic__headline">
+                    Deutsches Historisches Institut in Rom
+                </h1>
+                <img src="../../../images/institute-figures/dhi-rom-figure.jpg"
+                        class="pp-institute-graphic__figure"
+                        alt="Foto Rom"
+                        title="Deutsches Historisches Institut in Rom" />
             </div>
 
             <div class="col-xs-12 pp-contact" lang="de">
@@ -70,91 +55,17 @@
                 </div>
             </div>
 
+            <div class="col-xs-12 pp-publications">
+                <div class="solrsearch" data-classes="pp-sourcesBox"
+                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.rom%22"
+                     data-defaultThumbnail="../../../images/placeholder/dhi-rom-placeholder-460.jpg">
+                </div>
+            </div>
+
         </div>
     </section>
 
-<section xml:lang="en" title="neuer Eintrag"><h1 class="documentFirstHeading"><img alt="Online-Publikationen des Deutschen Historischen Instituts in Rom" class="tileImage" height="104" src="https://www.perspectivia.net/publikationen/online-publikationen-dhi-rom/@@images/05ce1f4b-1a49-486c-9155-c1cb546836bb.jpeg" title="Online-Publikationen des Deutschen Historischen Instituts in Rom" width="128" />   Deutsches Historisches Institut in Rom</h1>
-
-<h2>Publikationen in perspectivia.net</h2>
-
-<p itemprop="name"> </p>
-
-<div class="col-xs-12 col-sm-12">
-<div class="row">
-<div class="col-xs-12 col-sm-12">
-<div id="content">
-<div id="content-core">
-<div class="tileItem col-md-12">
-<h2 class="tileHeadline"><a class="summary url" href="https://www.perspectivia.net/publikationen/online-publikationen-dhi-rom">Online-Publikationen des Deutschen Historischen Instituts in Rom</a></h2>
-
-<p class="tileBody"><span class="description">Online-Publikationen des Deutschen Historischen Instituts Rom</span></p>
-
-<p class="tileFooter"><a href="https://www.perspectivia.net/publikationen/online-publikationen-dhi-rom">Mehr…</a></p>
-
-<div class="clearfix">
-<h1 class="csc-firstHeader"><img alt="" class="flexible" src="http://dhi-roma.it/uploads/pics/Online_NR2_DiPaolo_Cover-Rahmen.jpg" /> Online-Schriften des DHI Rom. Neue Reihe | Pubblicazioni online del DHI Roma. Nuova serie</h1>
-</div>
-
-<hr /></div>
-</div>
-
-<div id="viewlet-below-content-body">
-<div class="clearfix"> </div>
-</div>
-</div>
-</div>
-</div>
-
-<div class="row">
-<div class="col-xs-12 col-sm-12">
-<div id="viewlet-below-content"> </div>
-</div>
-</div>
-</div>
-
-<div id="column2-container"> </div>
-
-<p itemprop="name"> </p>
-
-<h2>Quelleneditionen</h2>
-
-<p itemprop="name"> </p>
-
-<h1 class="csc-firstHeader">Datenbanken</h1>
-
-<p><b><a class="internal-link" href="http://dhi-roma.it/orsenigo.html" target="_self" title="Öffnet internen Link im aktuellen Fenster">Berichte des Apostolischen Nuntius Cesare Orsenigo aus Deutschland 1930 bis 1939</a></b></p>
-
-<p><b><a class="internal-link" href="http://dhi-roma.it/1860.html" target="_self" title="Öffnet internen Link im aktuellen Fenster">Bibliographische Informationen zur neuesten Geschichte Italiens</a></b></p>
-
-<p><a class="external-link-new-window" external="1" href="http://www.romana-repertoria.net/988.html" target="_blank"><b>Inschriftenkorpus von Santa Maria dell'Anima</b></a></p>
-
-<p><a class="external-link-new-window" external="1" href="http://www.dhi-roma.it/rompilger" target="_blank"><b>Deutschsprachige Rompilger in der Goethezeit - Rekonstruktion und digitale Edition einer verschollenen Quelle</b></a></p>
-
-<p><a class="external-link-new-window" external="1" href="http://www.pacelli-edition.de/" target="_blank"><b>Eugenio Pacelli. Kritische Online-Edition der Nuntiaturberichte von 1917-1929</b></a></p>
-
-<p><b><a class="internal-link" href="http://dhi-roma.it/ortdb.html" target="_self" title="Öffnet internen Link im aktuellen Fenster">Die Präsenz deutscher militärischer Verbände in Italien 1943-1945. Im Auftrag des Deutschen Historischen Instituts in Rom bearbeitet von Carlo Gentile</a></b></p>
-
-<div class="csc-frame-rulerAfter">
-<p><b><a class="external-link-new-window" external="1" href="http://www.romana-repertoria.net/993.html" target="_blank">RG-Online (Repertorium Germanicum und Repertorium Poenitentiariae Germanicum)</a></b></p>
-</div>
-
-<p itemprop="name"> </p>
-
-<h2 itemprop="name">Kontakt</h2>
-
-<p>Deutsches Historisches Institut in Rom</p>
-
-<p>Istituto Storico Germanico di Roma</p>
-
-<p>Via Aurelia Antica, 391</p>
-
-<p>I - 00165 Roma</p>
-
-<p>Telefon +39 06 660492-1 · Fax +39 06 6623838</p>
-
-<p>E-Mail post(at)dhi-roma.it</p>
-
-<p><a class="external-link" href="http://www.dhi-roma.it/" target="_blank">www.dhi-roma.it</a></p>
-
-<p> </p>
-</section><meta><log lastEditor="kneumann" date="2018-06-19" time="11:03" /></meta></MyCoReWebPage>
+    <meta>
+        <log lastEditor="administrator" date="2018-20-06" time="14:00" />
+    </meta>
+</MyCoReWebPage>

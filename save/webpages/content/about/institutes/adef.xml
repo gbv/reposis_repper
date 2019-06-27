@@ -4,29 +4,17 @@
     <section xml:lang="de" title="Arbeitskreis Deutsche England-Forschung">
         <div class="row">
 
-            <div class="col-xs-12" lang="de">
-                <h1>Arbeitskreis Deutsche England-Forschung</h1>
-                <div class="pp-institute-graphic">
-                    <img src="../../../images/logos/adef-logo.jpg"
-                         class="pp-institute-graphic__logo"
-                         alt="ADEF-Logo" />
-                    <img src="../../../images/institute-figures/adef-figure.jpg"
-                         class="pp-institute-graphic__figure"
-                         alt="Foto London"
-                         title="Arbeitskreis Deutsche England-Forschung" />
-                </div>
-            </div>
-
-            <div class="col-xs-12">
-                <div class="row">
-
-                    <div class="col-md-6 pp-publications">
-                        <div class="solrsearch" data-classes="pp-sourcesBox"
-                            data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22adef%22"
-                            data-defaultThumbnail="../../../images/placeholder/adef-placeholder.jpg"> </div>
-                    </div>
-
-                </div>
+            <div class="col-xs-12 pp-institute-graphic" lang="de">
+                <img src="../../../images/logos/adef-logo.jpg"
+                        class="pp-institute-graphic__logo"
+                        alt="ADEF-Logo" />
+                <h1 class="pp-institute-graphic__headline">
+                    Arbeitskreis Deutsche England-Forschung
+                </h1>
+                <img src="../../../images/institute-figures/adef-figure.jpg"
+                        class="pp-institute-graphic__figure"
+                        alt="Foto London"
+                        title="Arbeitskreis Deutsche England-Forschung" />
             </div>
 
             <div class="col-xs-12 pp-contact" lang="de">
@@ -70,10 +58,17 @@
                 </div>
             </div>
 
+            <div class="col-xs-12 pp-publications">
+                <div class="solrsearch" data-classes="pp-sourcesBox"
+                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22adef%22"
+                     data-defaultThumbnail="../../../images/placeholder/adef-placeholder.jpg">        
+                </div>
+            </div>
+
         </div>
     </section>
 
-
-
-    <meta><log lastEditor="administrator" date="2018-20-06" time="14:00" /></meta>
+    <meta>
+        <log lastEditor="administrator" date="2018-20-06" time="14:00" />
+    </meta>
 </MyCoReWebPage>
