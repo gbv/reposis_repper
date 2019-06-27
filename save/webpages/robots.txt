@@ -1,4 +1,4 @@
-Sitemap: http://reposis-test.gbv.de/repper/sitemap_google.xml
+Sitemap: https://www.perspectivia.net/sitemap_google.xml
 User-agent: *
 Allow: /servlets/MCRFileNodeServlet/
 Disallow: /*?
