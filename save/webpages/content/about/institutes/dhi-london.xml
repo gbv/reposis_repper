@@ -56,7 +56,7 @@
 
             <div class="col-xs-12 pp-publications">
                 <div class="solrsearch" data-classes="pp-sourcesBox"
-                    data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:spsg%22"
+                    data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.london%22"
                     data-defaultThumbnail="../../../images/placeholder/dhi-london-placeholder-224.png"> 
                 </div>
             </div>
