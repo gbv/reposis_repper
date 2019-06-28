@@ -15,7 +15,16 @@
     <xsl:variable name="classes" select="@data-classes" />
     <xsl:variable name="thumbnail" select="@data-defaultThumbnail" />
 
-    <xsl:variable name="searchResult" select="document(concat('solr:', $parameters))" />
+    <xsl:variable name="searchResult">
+      <xsl:choose>
+        <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
+          <xsL:value-of select="document(concat('solr:', $parameters, '&amp;sort=id asc'))"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsL:value-of select="document(concat('solr:', $parameters, '&amp;sort=id asc&amp;owner=createdby:guest'))"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
 
     <h3>
       <xsl:value-of select="i18n:translate('mir.publication_selection')" /> <!-- Auswahl Publikationsreihen -->
@@ -78,11 +87,9 @@
             </a>
           </xsl:when>
           <xsl:when
-            test="string-length($fileEnding)&gt;0 and contains($MCR.Module-iview2.SupportedContentTypes, $contentType)">
-            <a href="{concat($WebApplicationBaseURL, 'rsc/viewer/', $derivateID, '/', encoder:encode($maindoc))}">
-              <img class="img-responsive"
-                   src="{concat($WebApplicationBaseURL, 'servlets/MCRTileCombineServlet/MID/', $derivateID, '/', encoder:encode($maindoc))}" />
-            </a>
+            test="string-length($fileEnding)&gt;0 and string-length($contentType)&gt;0 and contains($MCR.Module-iview2.SupportedContentTypes, $contentType)">
+            <img class="img-responsive"
+                 src="{concat($WebApplicationBaseURL, 'servlets/MCRTileCombineServlet/MID/', $derivateID, '/', encoder:encode($maindoc))}" />
           </xsl:when>
           <xsl:otherwise>
             <xsl:copy-of select="$defaultThumbnailImg" />
