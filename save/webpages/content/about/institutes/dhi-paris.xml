@@ -65,6 +65,198 @@
         </div>
     </section>
 
+    <section xml:lang="en" title="Deutsches Historisches Institut Paris">
+        <div class="row">
+
+            <div class="col-xs-12 pp-institute-graphic" lang="de">
+                <img src="../../../images/logos/dhi-paris-logo-460.png"
+                        class="pp-institute-graphic__logo"
+                        alt="DHIP-Logo" />
+                <h1 class="pp-institute-graphic__headline">
+                    Deutsches Historisches Institut Paris
+                </h1>
+                <img src="../../../images/institute-figures/dhi-paris-figure.jpg"
+                        class="pp-institute-graphic__figure"
+                        alt="Foto Paris"
+                        title="Deutsches Historisches Institut Paris" />
+            </div>
+
+            <div class="col-xs-12 pp-contact" lang="de">
+                <h2>Contact</h2>
+                <h3>Deutsches Historisches Institut Paris</h3>
+                <div class="pp-contact__list">
+
+                    <div class="pp-contact__item">
+                        Hôtel Duret-de-Chevry 8,<br />
+                        rue du Parc-Royal,<br />
+                        F-75003 Paris
+                    </div>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">Phone:</td>
+                            <td>+33 1 42 71 56 16</td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Fax:</td>
+                            <td>+33 1 42 71 56 43</td>
+                        </tr>
+                    </table>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">E-Mail:</td>
+                            <td>
+                                <span class="madress">info [at] dhi-paris.fr</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Internet:</td>
+                            <td><a class="external-link" href="https://www.dhi-paris.fr">https://www.dhi-paris.fr</a></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-publications">
+                <div class="solrsearch" data-classes="pp-sourcesBox"
+                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.paris%22"
+                     data-defaultThumbnail="../../../images/placeholder/dhi-paris-placeholder-460.png">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section xml:lang="fr" title="Deutsches Historisches Institut Paris">
+        <div class="row">
+
+            <div class="col-xs-12 pp-institute-graphic" lang="de">
+                <img src="../../../images/logos/dhi-paris-logo-460.png"
+                        class="pp-institute-graphic__logo"
+                        alt="DHIP-Logo" />
+                <h1 class="pp-institute-graphic__headline">
+                    Deutsches Historisches Institut Paris
+                </h1>
+                <img src="../../../images/institute-figures/dhi-paris-figure.jpg"
+                        class="pp-institute-graphic__figure"
+                        alt="Foto Paris"
+                        title="Deutsches Historisches Institut Paris" />
+            </div>
+
+            <div class="col-xs-12 pp-contact" lang="de">
+                <h2>Contact</h2>
+                <h3>Deutsches Historisches Institut Paris</h3>
+                <div class="pp-contact__list">
+
+                    <div class="pp-contact__item">
+                        Hôtel Duret-de-Chevry 8,<br />
+                        rue du Parc-Royal,<br />
+                        F-75003 Paris
+                    </div>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">Phone:</td>
+                            <td>+33 1 42 71 56 16</td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Fax:</td>
+                            <td>+33 1 42 71 56 43</td>
+                        </tr>
+                    </table>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">E-Mail:</td>
+                            <td>
+                                <span class="madress">info [at] dhi-paris.fr</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Internet:</td>
+                            <td><a class="external-link" href="https://www.dhi-paris.fr">https://www.dhi-paris.fr</a></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-publications">
+                <div class="solrsearch" data-classes="pp-sourcesBox"
+                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.paris%22"
+                     data-defaultThumbnail="../../../images/placeholder/dhi-paris-placeholder-460.png">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section xml:lang="it" title="Deutsches Historisches Institut Paris">
+        <div class="row">
+
+            <div class="col-xs-12 pp-institute-graphic" lang="de">
+                <img src="../../../images/logos/dhi-paris-logo-460.png"
+                        class="pp-institute-graphic__logo"
+                        alt="DHIP-Logo" />
+                <h1 class="pp-institute-graphic__headline">
+                    Deutsches Historisches Institut Paris
+                </h1>
+                <img src="../../../images/institute-figures/dhi-paris-figure.jpg"
+                        class="pp-institute-graphic__figure"
+                        alt="Foto Paris"
+                        title="Deutsches Historisches Institut Paris" />
+            </div>
+
+            <div class="col-xs-12 pp-contact" lang="de">
+                <h2>Contact</h2>
+                <h3>Deutsches Historisches Institut Paris</h3>
+                <div class="pp-contact__list">
+
+                    <div class="pp-contact__item">
+                        Hôtel Duret-de-Chevry 8,<br />
+                        rue du Parc-Royal,<br />
+                        F-75003 Paris
+                    </div>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">Phone:</td>
+                            <td>+33 1 42 71 56 16</td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Fax:</td>
+                            <td>+33 1 42 71 56 43</td>
+                        </tr>
+                    </table>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">E-Mail:</td>
+                            <td>
+                                <span class="madress">info [at] dhi-paris.fr</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Internet:</td>
+                            <td><a class="external-link" href="https://www.dhi-paris.fr">https://www.dhi-paris.fr</a></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-publications">
+                <div class="solrsearch" data-classes="pp-sourcesBox"
+                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.paris%22"
+                     data-defaultThumbnail="../../../images/placeholder/dhi-paris-placeholder-460.png">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <meta>
         <log lastEditor="administrator" date="2018-20-06" time="14:00" />
     </meta>

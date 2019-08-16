@@ -64,6 +64,195 @@
         </div>
     </section>
 
+    <section xml:lang="en" title="Deutsches Historisches Institut Washington">
+        <div class="row">
+
+            <div class="col-xs-12 pp-institute-graphic" lang="de">
+                <img src="../../../images/logos/dhi-washingtondc-logo-250.png"
+                        class="pp-institute-graphic__logo"
+                        alt="DHIW-Logo" />
+                <h1 class="pp-institute-graphic__headline">
+                    Deutsches Historisches Institut Washington
+                </h1>
+                <img src="../../../images/institute-figures/dhi-washington-figure.jpg"
+                        class="pp-institute-graphic__figure"
+                        alt="Foto Washington"
+                        title="Deutsches Historisches Institut Washington" />
+            </div>
+
+            <div class="col-xs-12 pp-contact" lang="de">
+                <h2>Contact</h2>
+                <h3>Deutsches Historisches Institut Washington</h3>
+                <div class="pp-contact__list">
+
+                    <div class="pp-contact__item">
+                        1607 New Hampshire Ave NW · Washington,<br />
+                        DC 20009-2562
+                    </div>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">Phone:</td>
+                            <td>+1 202 387-33 55</td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Fax:</td>
+                            <td>+1 202 483-34 30</td>
+                        </tr>
+                    </table>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">E-Mail:</td>
+                            <td>
+                                <span class="madress">info [at] ghi-dc.org</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Internet:</td>
+                            <td><a class="external-link" href="https://www.ghi-dc.org">https://www.ghi-dc.org</a></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-publications">
+                <div class="solrsearch" data-classes="pp-sourcesBox"
+                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22"
+                     data-defaultThumbnail="../../../images/placeholder/dhi-washingtondc-placeholder-250.png"> 
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section xml:lang="fr" title="Deutsches Historisches Institut Washington">
+        <div class="row">
+
+            <div class="col-xs-12 pp-institute-graphic" lang="de">
+                <img src="../../../images/logos/dhi-washingtondc-logo-250.png"
+                        class="pp-institute-graphic__logo"
+                        alt="DHIW-Logo" />
+                <h1 class="pp-institute-graphic__headline">
+                    Deutsches Historisches Institut Washington
+                </h1>
+                <img src="../../../images/institute-figures/dhi-washington-figure.jpg"
+                        class="pp-institute-graphic__figure"
+                        alt="Foto Washington"
+                        title="Deutsches Historisches Institut Washington" />
+            </div>
+
+            <div class="col-xs-12 pp-contact" lang="de">
+                <h2>Contact</h2>
+                <h3>Deutsches Historisches Institut Washington</h3>
+                <div class="pp-contact__list">
+
+                    <div class="pp-contact__item">
+                        1607 New Hampshire Ave NW · Washington,<br />
+                        DC 20009-2562
+                    </div>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">Phone:</td>
+                            <td>+1 202 387-33 55</td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Fax:</td>
+                            <td>+1 202 483-34 30</td>
+                        </tr>
+                    </table>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">E-Mail:</td>
+                            <td>
+                                <span class="madress">info [at] ghi-dc.org</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Internet:</td>
+                            <td><a class="external-link" href="https://www.ghi-dc.org">https://www.ghi-dc.org</a></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-publications">
+                <div class="solrsearch" data-classes="pp-sourcesBox"
+                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22"
+                     data-defaultThumbnail="../../../images/placeholder/dhi-washingtondc-placeholder-250.png"> 
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section xml:lang="it" title="Deutsches Historisches Institut Washington">
+        <div class="row">
+
+            <div class="col-xs-12 pp-institute-graphic" lang="de">
+                <img src="../../../images/logos/dhi-washingtondc-logo-250.png"
+                        class="pp-institute-graphic__logo"
+                        alt="DHIW-Logo" />
+                <h1 class="pp-institute-graphic__headline">
+                    Deutsches Historisches Institut Washington
+                </h1>
+                <img src="../../../images/institute-figures/dhi-washington-figure.jpg"
+                        class="pp-institute-graphic__figure"
+                        alt="Foto Washington"
+                        title="Deutsches Historisches Institut Washington" />
+            </div>
+
+            <div class="col-xs-12 pp-contact" lang="de">
+                <h2>Contact</h2>
+                <h3>Deutsches Historisches Institut Washington</h3>
+                <div class="pp-contact__list">
+
+                    <div class="pp-contact__item">
+                        1607 New Hampshire Ave NW · Washington,<br />
+                        DC 20009-2562
+                    </div>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">Phone:</td>
+                            <td>+1 202 387-33 55</td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Fax:</td>
+                            <td>+1 202 483-34 30</td>
+                        </tr>
+                    </table>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">E-Mail:</td>
+                            <td>
+                                <span class="madress">info [at] ghi-dc.org</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Internet:</td>
+                            <td><a class="external-link" href="https://www.ghi-dc.org">https://www.ghi-dc.org</a></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-publications">
+                <div class="solrsearch" data-classes="pp-sourcesBox"
+                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22"
+                     data-defaultThumbnail="../../../images/placeholder/dhi-washingtondc-placeholder-250.png"> 
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <meta>
         <log lastEditor="administrator" date="2018-20-06" time="14:00" />
     </meta>

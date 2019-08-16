@@ -68,6 +68,207 @@
         </div>
     </section>
 
+    <section xml:lang="en" title="Orient Institut Beirut">
+        <div class="row">
+
+            <div class="col-xs-12 pp-institute-graphic" lang="de">
+                <img src="../../../images/logos/oib-logo-460.jpg"
+                        class="pp-institute-graphic__logo"
+                        alt="OIB-Logo" />
+                <h1 class="pp-institute-graphic__headline">
+                    Orient Institut Beirut
+                </h1>
+                <img src="../../../images/institute-figures/oib-figure.jpg"
+                        class="pp-institute-graphic__figure"
+                        alt="Foto Beirut"
+                        title="Orient Institut Beirut" />
+            </div>
+
+            <div class="col-xs-12 pp-contact" lang="de">
+                <h2>Contact</h2>
+                <h3>Orient Institut Beirut</h3>
+                <div class="pp-contact__list">
+
+                    <div class="pp-contact__item">
+                        Rue Hussein Beyhum,<br />
+                        Zokak el-Blat,<br />
+                        P.O.B. 11-2988,<br />
+                        Beirut,<br />
+                        Libanon
+                    </div>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">Phone:</td>
+                            <td>+961 1 359 424 </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Fax:</td>
+                            <td>+961 1 359 176</td>
+                        </tr>
+                    </table>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">E-Mail:</td>
+                            <td>
+                                <span class="madress">sekretariat [at] oidmg.org</span>;
+                                <span class="madress">dir [at] oidmg.org</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Internet:</td>
+                            <td><a class="external-link" href="http://www.orient-institut.org/">http://www.orient-institut.org/</a></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-publications">
+                <div class="solrsearch" data-classes="pp-sourcesBox"
+                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.beirut%22"
+                     data-defaultThumbnail="../../../images/placeholder/oib-placeholder-460.jpg">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section xml:lang="fr" title="Orient Institut Beirut">
+        <div class="row">
+
+            <div class="col-xs-12 pp-institute-graphic" lang="de">
+                <img src="../../../images/logos/oib-logo-460.jpg"
+                        class="pp-institute-graphic__logo"
+                        alt="OIB-Logo" />
+                <h1 class="pp-institute-graphic__headline">
+                    Orient Institut Beirut
+                </h1>
+                <img src="../../../images/institute-figures/oib-figure.jpg"
+                        class="pp-institute-graphic__figure"
+                        alt="Foto Beirut"
+                        title="Orient Institut Beirut" />
+            </div>
+
+            <div class="col-xs-12 pp-contact" lang="de">
+                <h2>Contact</h2>
+                <h3>Orient Institut Beirut</h3>
+                <div class="pp-contact__list">
+
+                    <div class="pp-contact__item">
+                        Rue Hussein Beyhum,<br />
+                        Zokak el-Blat,<br />
+                        P.O.B. 11-2988,<br />
+                        Beirut,<br />
+                        Libanon
+                    </div>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">Phone:</td>
+                            <td>+961 1 359 424 </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Fax:</td>
+                            <td>+961 1 359 176</td>
+                        </tr>
+                    </table>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">E-Mail:</td>
+                            <td>
+                                <span class="madress">sekretariat [at] oidmg.org</span>;
+                                <span class="madress">dir [at] oidmg.org</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Internet:</td>
+                            <td><a class="external-link" href="http://www.orient-institut.org/">http://www.orient-institut.org/</a></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-publications">
+                <div class="solrsearch" data-classes="pp-sourcesBox"
+                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.beirut%22"
+                     data-defaultThumbnail="../../../images/placeholder/oib-placeholder-460.jpg">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section xml:lang="it" title="Orient Institut Beirut">
+        <div class="row">
+
+            <div class="col-xs-12 pp-institute-graphic" lang="de">
+                <img src="../../../images/logos/oib-logo-460.jpg"
+                        class="pp-institute-graphic__logo"
+                        alt="OIB-Logo" />
+                <h1 class="pp-institute-graphic__headline">
+                    Orient Institut Beirut
+                </h1>
+                <img src="../../../images/institute-figures/oib-figure.jpg"
+                        class="pp-institute-graphic__figure"
+                        alt="Foto Beirut"
+                        title="Orient Institut Beirut" />
+            </div>
+
+            <div class="col-xs-12 pp-contact" lang="de">
+                <h2>Contact</h2>
+                <h3>Orient Institut Beirut</h3>
+                <div class="pp-contact__list">
+
+                    <div class="pp-contact__item">
+                        Rue Hussein Beyhum,<br />
+                        Zokak el-Blat,<br />
+                        P.O.B. 11-2988,<br />
+                        Beirut,<br />
+                        Libanon
+                    </div>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">Phone:</td>
+                            <td>+961 1 359 424 </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Fax:</td>
+                            <td>+961 1 359 176</td>
+                        </tr>
+                    </table>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">E-Mail:</td>
+                            <td>
+                                <span class="madress">sekretariat [at] oidmg.org</span>;
+                                <span class="madress">dir [at] oidmg.org</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Internet:</td>
+                            <td><a class="external-link" href="http://www.orient-institut.org/">http://www.orient-institut.org/</a></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-publications">
+                <div class="solrsearch" data-classes="pp-sourcesBox"
+                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.beirut%22"
+                     data-defaultThumbnail="../../../images/placeholder/oib-placeholder-460.jpg">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <meta>
         <log lastEditor="administrator" date="2018-20-06" time="14:00" />
     </meta>

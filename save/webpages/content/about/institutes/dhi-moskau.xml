@@ -81,6 +81,246 @@
         </div>
     </section>
 
+    <section xml:lang="en" title="Deutsches Historisches Institut Moskau">
+        <div class="row">
+
+            <div class="col-xs-12 pp-institute-graphic" lang="de">
+                <img src="../../../images/logos/dhi-moskau-logo-200.jpg"
+                        class="pp-institute-graphic__logo"
+                        alt="DHIM-Logo" />
+                <h1 class="pp-institute-graphic__headline">
+                    Deutsches Historisches Institut Moskau
+                </h1>
+                <img src="../../../images/institute-figures/dhi-moskau-figure.jpg"
+                        class="pp-institute-graphic__figure"
+                        alt="Foto Moskau"
+                        title="Deutsches Historisches Institut Moskau" />
+            </div>
+
+            <div class="col-xs-12 pp-contact" lang="de">
+                <h2>Contact</h2>
+                <h3>Deutsches Historisches Institut Moskau</h3>
+                <div class="pp-contact__list">
+
+                    <div class="pp-contact__item">
+                        Voroncovskaja ulica 8/7<br />
+                        109044 Moskau
+                    </div>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">Phone:</td>
+                            <td>+7 495 730 52 49</td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Fax:</td>
+                            <td>+7 495 120 52 13</td>
+                        </tr>
+                    </table>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">E-Mail:</td>
+                            <td>
+                                <span class="madress">dhi [at] dhi-moskau.org</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Internet:</td>
+                            <td><a class="external-link" href="https://www.dhi-moskau.org">https://www.dhi-moskau.org</a></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-publications">
+                <div class="solrsearch" data-classes="pp-sourcesBox"
+                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22"
+                     data-defaultThumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg">
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-sources">
+                <h3>Digital source editions</h3>
+                <div class="row pp-sourcesBox">
+
+                    <div class="col-xs-4 col-md-2">
+                        <img class="img-responsive" alt="Deutsche Beuteakten in russischen Archiven" title="Deutsche Beuteakten in russischen Archiven" src="../../../images/thumbnails/dhi-moskau-deutsche-beuteakten.png" />
+                    </div>
+                    <div class="col-xs-8 col-md-4">
+                        <a class="external-link" href="https://prae.perspectivia.net/quellen/camo">Deutsche Beuteakten in russischen Archiven</a>
+                        <p>
+                            DHI Moskau
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section xml:lang="fr" title="Deutsches Historisches Institut Moskau">
+        <div class="row">
+
+            <div class="col-xs-12 pp-institute-graphic" lang="de">
+                <img src="../../../images/logos/dhi-moskau-logo-200.jpg"
+                        class="pp-institute-graphic__logo"
+                        alt="DHIM-Logo" />
+                <h1 class="pp-institute-graphic__headline">
+                    Deutsches Historisches Institut Moskau
+                </h1>
+                <img src="../../../images/institute-figures/dhi-moskau-figure.jpg"
+                        class="pp-institute-graphic__figure"
+                        alt="Foto Moskau"
+                        title="Deutsches Historisches Institut Moskau" />
+            </div>
+
+            <div class="col-xs-12 pp-contact" lang="de">
+                <h2>Contact</h2>
+                <h3>Deutsches Historisches Institut Moskau</h3>
+                <div class="pp-contact__list">
+
+                    <div class="pp-contact__item">
+                        Voroncovskaja ulica 8/7<br />
+                        109044 Moskau
+                    </div>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">Phone:</td>
+                            <td>+7 495 730 52 49</td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Fax:</td>
+                            <td>+7 495 120 52 13</td>
+                        </tr>
+                    </table>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">E-Mail:</td>
+                            <td>
+                                <span class="madress">dhi [at] dhi-moskau.org</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Internet:</td>
+                            <td><a class="external-link" href="https://www.dhi-moskau.org">https://www.dhi-moskau.org</a></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-publications">
+                <div class="solrsearch" data-classes="pp-sourcesBox"
+                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22"
+                     data-defaultThumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg">
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-sources">
+                <h3>Digital source editions</h3>
+                <div class="row pp-sourcesBox">
+
+                    <div class="col-xs-4 col-md-2">
+                        <img class="img-responsive" alt="Deutsche Beuteakten in russischen Archiven" title="Deutsche Beuteakten in russischen Archiven" src="../../../images/thumbnails/dhi-moskau-deutsche-beuteakten.png" />
+                    </div>
+                    <div class="col-xs-8 col-md-4">
+                        <a class="external-link" href="https://prae.perspectivia.net/quellen/camo">Deutsche Beuteakten in russischen Archiven</a>
+                        <p>
+                            DHI Moskau
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section xml:lang="it" title="Deutsches Historisches Institut Moskau">
+        <div class="row">
+
+            <div class="col-xs-12 pp-institute-graphic" lang="de">
+                <img src="../../../images/logos/dhi-moskau-logo-200.jpg"
+                        class="pp-institute-graphic__logo"
+                        alt="DHIM-Logo" />
+                <h1 class="pp-institute-graphic__headline">
+                    Deutsches Historisches Institut Moskau
+                </h1>
+                <img src="../../../images/institute-figures/dhi-moskau-figure.jpg"
+                        class="pp-institute-graphic__figure"
+                        alt="Foto Moskau"
+                        title="Deutsches Historisches Institut Moskau" />
+            </div>
+
+            <div class="col-xs-12 pp-contact" lang="de">
+                <h2>Contact</h2>
+                <h3>Deutsches Historisches Institut Moskau</h3>
+                <div class="pp-contact__list">
+
+                    <div class="pp-contact__item">
+                        Voroncovskaja ulica 8/7<br />
+                        109044 Moskau
+                    </div>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">Phone:</td>
+                            <td>+7 495 730 52 49</td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Fax:</td>
+                            <td>+7 495 120 52 13</td>
+                        </tr>
+                    </table>
+
+                    <table class="pp-contact__item">
+                        <tr>
+                            <td class="pp-contact__subitem">E-Mail:</td>
+                            <td>
+                                <span class="madress">dhi [at] dhi-moskau.org</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pp-contact__subitem">Internet:</td>
+                            <td><a class="external-link" href="https://www.dhi-moskau.org">https://www.dhi-moskau.org</a></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-publications">
+                <div class="solrsearch" data-classes="pp-sourcesBox"
+                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22"
+                     data-defaultThumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg">
+                </div>
+            </div>
+
+            <div class="col-xs-12 pp-sources">
+                <h3>Digital source editions</h3>
+                <div class="row pp-sourcesBox">
+
+                    <div class="col-xs-4 col-md-2">
+                        <img class="img-responsive" alt="Deutsche Beuteakten in russischen Archiven" title="Deutsche Beuteakten in russischen Archiven" src="../../../images/thumbnails/dhi-moskau-deutsche-beuteakten.png" />
+                    </div>
+                    <div class="col-xs-8 col-md-4">
+                        <a class="external-link" href="https://prae.perspectivia.net/quellen/camo">Deutsche Beuteakten in russischen Archiven</a>
+                        <p>
+                            DHI Moskau
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <meta>
         <log lastEditor="administrator" date="2018-20-06" time="14:00" />
     </meta>
