@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage><section xml:lang="de" title="Digitale Zeitschriften"><div>
 <div class="row">
-<div class="col-xs-12" lang="de">
+<div class="col-12" lang="de">
 <h1>Digitale Zeitschriften</h1>
 
 <p>Die Plattform perspectivia.net bietet einen Publikationsservice für frei zugängliche Online-Zeitschriften an. Auf Basis der Open Source-Software Open Journal Systems (OJS) haben die Institute der Max Weberstiftung die Möglichkeit E-Journals herauszugeben.Hierfür kooperiert perspectivia.net mit der UB Heidelberg und der BSB München.</p>
@@ -21,7 +21,7 @@
 </div>
 
 <div class="row">
-<div class="col-xs-12" lang="de">
+<div class="col-12" lang="de">
 <h2>Francia-Recensio</h2>
 
 <h3>DHI Paris</h3>

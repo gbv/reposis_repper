@@ -2,7 +2,7 @@
 <MyCoReWebPage>
     <section xml:lang="de" title="Beirat">
         <div class="row">
-            <div class="col-xs-12" lang="de">
+            <div class="col-12" lang="de">
                 <h1>Wissenschaftlicher Beirat</h1>
                 <ul>
                     <li>Prof. Dr. Martin Baumeister, Deutsches Historisches Institut, Rom</li>
@@ -18,7 +18,7 @@
     </section>
     <section xml:lang="en" title="Board">
         <div class="row">
-            <div class="col-xs-12" lang="de">
+            <div class="col-12" lang="de">
                 <h1>Advisory Board</h1>
                 <ul>
                     <li>Prof. Dr. Martin Baumeister, Deutsches Historisches Institut, Rom</li>

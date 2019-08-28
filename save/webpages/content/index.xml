@@ -103,7 +103,7 @@
       </div>
 
         <div class="row">
-            <div class="col-xs-12" lang="de">
+            <div class="col-12" lang="de">
                 
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="10000">
                     <!-- Indicators -->
@@ -296,7 +296,7 @@
         </div>
         
         <div class="row">
-            <div class="col-xs-12" lang="en">
+            <div class="col-12" lang="en">
                 
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="10000">
                     <!-- Indicators -->
@@ -491,7 +491,7 @@
         </div>
         
         <div class="row">
-            <div class="col-xs-12" lang="fr">
+            <div class="col-12" lang="fr">
                 
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="10000">
                     <!-- Indicators -->

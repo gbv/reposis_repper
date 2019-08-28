@@ -143,8 +143,8 @@
                         not(contains($derivateXML/mycorederivate/@label,'navigation'))">
             <div id="repper-download-box">
               <xsl:variable name="maindoc" select="$derivateXML/mycorederivate/derivate/internals/internal/@maindoc" />
-              <a href="{$WebApplicationBaseURL}servlets/MCRFileNodeServlet/{$derId}/{$maindoc}" class="btn btn-default" style="background-color: #75adad;border-color: #75adad;margin-bottom: 10px;width: 100%;">
-                <i style="margin-right: 5px;" class="fa fa-download"></i>Download</a>
+              <a href="{$WebApplicationBaseURL}servlets/MCRFileNodeServlet/{$derId}/{$maindoc}" class="btn btn-secondary" style="background-color: #75adad;border-color: #75adad;margin-bottom: 10px;width: 100%;">
+                <i style="margin-right: 5px;" class="fas fa-download"></i>Download</a>
             </div>
           </xsl:if>
         </xsl:for-each>
@@ -166,7 +166,7 @@
                   <a href="{mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']}">
                     <img src="{$WebApplicationBaseURL}servlets/MCRTileCombineServlet/THUMBNAIL/{$derId}/{$maindoc}" />
                     <br />
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
                     <xsl:text> </xsl:text>
                     <xsl:value-of select="i18n:translate('pp.coverPanel.text')" />
                   </a>

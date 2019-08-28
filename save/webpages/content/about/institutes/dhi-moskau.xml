@@ -4,7 +4,7 @@
     <section xml:lang="de" title="Deutsches Historisches Institut Moskau">
         <div class="row">
 
-            <div class="col-xs-12 pp-institute-graphic" lang="de">
+            <div class="col-12 pp-institute-graphic" lang="de">
                 <img src="../../../images/logos/dhi-moskau-logo-200.jpg"
                         class="pp-institute-graphic__logo"
                         alt="DHIM-Logo" />
@@ -17,7 +17,7 @@
                         title="Deutsches Historisches Institut Moskau" />
             </div>
 
-            <div class="col-xs-12 pp-contact" lang="de">
+            <div class="col-12 pp-contact" lang="de">
                 <h2>Kontakt</h2>
                 <h3>Deutsches Historisches Institut Moskau</h3>
                 <div class="pp-contact__list">
@@ -54,21 +54,21 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-publications">
+            <div class="col-12 pp-publications">
                 <div class="solrsearch" data-classes="pp-sourcesBox"
                      data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22"
                      data-defaultThumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg">
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-sources">
+            <div class="col-12 pp-sources">
                 <h3>Digitale Quelleneditionen</h3>
                 <div class="row pp-sourcesBox">
 
-                    <div class="col-xs-4 col-md-2">
+                    <div class="col-4 col-md-2">
                         <img class="img-responsive" alt="Deutsche Beuteakten in russischen Archiven" title="Deutsche Beuteakten in russischen Archiven" src="../../../images/thumbnails/dhi-moskau-deutsche-beuteakten.png" />
                     </div>
-                    <div class="col-xs-8 col-md-4">
+                    <div class="col-8 col-md-4">
                         <a class="external-link" href="https://prae.perspectivia.net/quellen/camo">Deutsche Beuteakten in russischen Archiven</a>
                         <p>
                             DHI Moskau
@@ -84,7 +84,7 @@
     <section xml:lang="en" title="Deutsches Historisches Institut Moskau">
         <div class="row">
 
-            <div class="col-xs-12 pp-institute-graphic" lang="de">
+            <div class="col-12 pp-institute-graphic" lang="de">
                 <img src="../../../images/logos/dhi-moskau-logo-200.jpg"
                         class="pp-institute-graphic__logo"
                         alt="DHIM-Logo" />
@@ -97,7 +97,7 @@
                         title="Deutsches Historisches Institut Moskau" />
             </div>
 
-            <div class="col-xs-12 pp-contact" lang="de">
+            <div class="col-12 pp-contact" lang="de">
                 <h2>Contact</h2>
                 <h3>Deutsches Historisches Institut Moskau</h3>
                 <div class="pp-contact__list">
@@ -134,21 +134,21 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-publications">
+            <div class="col-12 pp-publications">
                 <div class="solrsearch" data-classes="pp-sourcesBox"
                      data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22"
                      data-defaultThumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg">
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-sources">
+            <div class="col-12 pp-sources">
                 <h3>Digital source editions</h3>
                 <div class="row pp-sourcesBox">
 
-                    <div class="col-xs-4 col-md-2">
+                    <div class="col-4 col-md-2">
                         <img class="img-responsive" alt="Deutsche Beuteakten in russischen Archiven" title="Deutsche Beuteakten in russischen Archiven" src="../../../images/thumbnails/dhi-moskau-deutsche-beuteakten.png" />
                     </div>
-                    <div class="col-xs-8 col-md-4">
+                    <div class="col-8 col-md-4">
                         <a class="external-link" href="https://prae.perspectivia.net/quellen/camo">Deutsche Beuteakten in russischen Archiven</a>
                         <p>
                             DHI Moskau
@@ -164,7 +164,7 @@
     <section xml:lang="fr" title="Deutsches Historisches Institut Moskau">
         <div class="row">
 
-            <div class="col-xs-12 pp-institute-graphic" lang="de">
+            <div class="col-12 pp-institute-graphic" lang="de">
                 <img src="../../../images/logos/dhi-moskau-logo-200.jpg"
                         class="pp-institute-graphic__logo"
                         alt="DHIM-Logo" />
@@ -177,7 +177,7 @@
                         title="Deutsches Historisches Institut Moskau" />
             </div>
 
-            <div class="col-xs-12 pp-contact" lang="de">
+            <div class="col-12 pp-contact" lang="de">
                 <h2>Contact</h2>
                 <h3>Deutsches Historisches Institut Moskau</h3>
                 <div class="pp-contact__list">
@@ -214,21 +214,21 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-publications">
+            <div class="col-12 pp-publications">
                 <div class="solrsearch" data-classes="pp-sourcesBox"
                      data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22"
                      data-defaultThumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg">
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-sources">
+            <div class="col-12 pp-sources">
                 <h3>Digital source editions</h3>
                 <div class="row pp-sourcesBox">
 
-                    <div class="col-xs-4 col-md-2">
+                    <div class="col-4 col-md-2">
                         <img class="img-responsive" alt="Deutsche Beuteakten in russischen Archiven" title="Deutsche Beuteakten in russischen Archiven" src="../../../images/thumbnails/dhi-moskau-deutsche-beuteakten.png" />
                     </div>
-                    <div class="col-xs-8 col-md-4">
+                    <div class="col-8 col-md-4">
                         <a class="external-link" href="https://prae.perspectivia.net/quellen/camo">Deutsche Beuteakten in russischen Archiven</a>
                         <p>
                             DHI Moskau
@@ -244,7 +244,7 @@
     <section xml:lang="it" title="Deutsches Historisches Institut Moskau">
         <div class="row">
 
-            <div class="col-xs-12 pp-institute-graphic" lang="de">
+            <div class="col-12 pp-institute-graphic" lang="de">
                 <img src="../../../images/logos/dhi-moskau-logo-200.jpg"
                         class="pp-institute-graphic__logo"
                         alt="DHIM-Logo" />
@@ -257,7 +257,7 @@
                         title="Deutsches Historisches Institut Moskau" />
             </div>
 
-            <div class="col-xs-12 pp-contact" lang="de">
+            <div class="col-12 pp-contact" lang="de">
                 <h2>Contact</h2>
                 <h3>Deutsches Historisches Institut Moskau</h3>
                 <div class="pp-contact__list">
@@ -294,21 +294,21 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-publications">
+            <div class="col-12 pp-publications">
                 <div class="solrsearch" data-classes="pp-sourcesBox"
                      data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22"
                      data-defaultThumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg">
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-sources">
+            <div class="col-12 pp-sources">
                 <h3>Digital source editions</h3>
                 <div class="row pp-sourcesBox">
 
-                    <div class="col-xs-4 col-md-2">
+                    <div class="col-4 col-md-2">
                         <img class="img-responsive" alt="Deutsche Beuteakten in russischen Archiven" title="Deutsche Beuteakten in russischen Archiven" src="../../../images/thumbnails/dhi-moskau-deutsche-beuteakten.png" />
                     </div>
-                    <div class="col-xs-8 col-md-4">
+                    <div class="col-8 col-md-4">
                         <a class="external-link" href="https://prae.perspectivia.net/quellen/camo">Deutsche Beuteakten in russischen Archiven</a>
                         <p>
                             DHI Moskau

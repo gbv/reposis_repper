@@ -2,7 +2,7 @@
 <MyCoReWebPage>
     <section xml:lang="de" title="Über uns">
         <div class="row">
-            <div class="col-xs-12" lang="de">
+            <div class="col-12" lang="de">
                 <h1>Über perspectivia.net</h1>
                 <h2>Die Publikationsplattform der Max Weber Stiftung</h2>
                 <p>
@@ -35,7 +35,7 @@
     </section>
     <section xml:lang="en" title="About">
         <div class="row">
-            <div class="col-xs-12" lang="de">
+            <div class="col-12" lang="de">
                 <h1>About perspectivia.net</h1>
                 <h2>The publication platform of the Max Weber Foundation</h2>
                 <p>

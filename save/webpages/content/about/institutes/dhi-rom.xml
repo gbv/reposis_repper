@@ -4,7 +4,7 @@
     <section xml:lang="de" title="Deutsches Historisches Institut in Rom">
         <div class="row">
 
-            <div class="col-xs-12 pp-institute-graphic" lang="de">
+            <div class="col-12 pp-institute-graphic" lang="de">
                 <img src="../../../images/logos/dhi-rom-logo-425.jpg"
                         class="pp-institute-graphic__logo"
                         alt="DHI-Rom-Logo" />
@@ -17,7 +17,7 @@
                         title="Deutsches Historisches Institut in Rom" />
             </div>
 
-            <div class="col-xs-12 pp-contact" lang="de">
+            <div class="col-12 pp-contact" lang="de">
                 <h2>Kontakt</h2>
                 <h3>Deutsches Historisches Institut in Rom</h3>
                 <div class="pp-contact__list">
@@ -55,7 +55,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-publications">
+            <div class="col-12 pp-publications">
                 <div class="solrsearch" data-classes="pp-sourcesBox"
                      data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.rom%22"
                      data-defaultThumbnail="../../../images/placeholder/dhi-rom-placeholder-460.jpg">
@@ -68,7 +68,7 @@
     <section xml:lang="en" title="Deutsches Historisches Institut in Rom">
         <div class="row">
 
-            <div class="col-xs-12 pp-institute-graphic" lang="de">
+            <div class="col-12 pp-institute-graphic" lang="de">
                 <img src="../../../images/logos/dhi-rom-logo-425.jpg"
                         class="pp-institute-graphic__logo"
                         alt="DHI-Rom-Logo" />
@@ -81,7 +81,7 @@
                         title="Deutsches Historisches Institut in Rom" />
             </div>
 
-            <div class="col-xs-12 pp-contact" lang="de">
+            <div class="col-12 pp-contact" lang="de">
                 <h2>Contact</h2>
                 <h3>Deutsches Historisches Institut in Rom</h3>
                 <div class="pp-contact__list">
@@ -119,7 +119,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-publications">
+            <div class="col-12 pp-publications">
                 <div class="solrsearch" data-classes="pp-sourcesBox"
                      data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.rom%22"
                      data-defaultThumbnail="../../../images/placeholder/dhi-rom-placeholder-460.jpg">
@@ -132,7 +132,7 @@
     <section xml:lang="fr" title="Deutsches Historisches Institut in Rom">
         <div class="row">
 
-            <div class="col-xs-12 pp-institute-graphic" lang="de">
+            <div class="col-12 pp-institute-graphic" lang="de">
                 <img src="../../../images/logos/dhi-rom-logo-425.jpg"
                         class="pp-institute-graphic__logo"
                         alt="DHI-Rom-Logo" />
@@ -145,7 +145,7 @@
                         title="Deutsches Historisches Institut in Rom" />
             </div>
 
-            <div class="col-xs-12 pp-contact" lang="de">
+            <div class="col-12 pp-contact" lang="de">
                 <h2>Contact</h2>
                 <h3>Deutsches Historisches Institut in Rom</h3>
                 <div class="pp-contact__list">
@@ -183,7 +183,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-publications">
+            <div class="col-12 pp-publications">
                 <div class="solrsearch" data-classes="pp-sourcesBox"
                      data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.rom%22"
                      data-defaultThumbnail="../../../images/placeholder/dhi-rom-placeholder-460.jpg">
@@ -196,7 +196,7 @@
     <section xml:lang="it" title="Deutsches Historisches Institut in Rom">
         <div class="row">
 
-            <div class="col-xs-12 pp-institute-graphic" lang="de">
+            <div class="col-12 pp-institute-graphic" lang="de">
                 <img src="../../../images/logos/dhi-rom-logo-425.jpg"
                         class="pp-institute-graphic__logo"
                         alt="DHI-Rom-Logo" />
@@ -209,7 +209,7 @@
                         title="Deutsches Historisches Institut in Rom" />
             </div>
 
-            <div class="col-xs-12 pp-contact" lang="de">
+            <div class="col-12 pp-contact" lang="de">
                 <h2>Contact</h2>
                 <h3>Deutsches Historisches Institut in Rom</h3>
                 <div class="pp-contact__list">
@@ -247,7 +247,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-publications">
+            <div class="col-12 pp-publications">
                 <div class="solrsearch" data-classes="pp-sourcesBox"
                      data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.rom%22"
                      data-defaultThumbnail="../../../images/placeholder/dhi-rom-placeholder-460.jpg">
