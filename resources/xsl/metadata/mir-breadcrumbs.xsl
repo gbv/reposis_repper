@@ -61,18 +61,18 @@
       </xsl:choose>
     </xsl:variable>
     <div id="mir-breadcrumb">
-      <ul class="breadcrumb" itemprop="breadcrumb">
+      <ul class="breadcrumb">
         <xsl:if test="string-length($relatedItemPathGreatGrany) &gt; 0">
-          <li>
+          <li class="breadcrumb-item">
             <xsl:copy-of select="$relatedItemPathGreatGrany"/>
           </li>
         </xsl:if>
         <xsl:if test="string-length($relatedItemPathGrany) &gt; 0">
-          <li>
+          <li class="breadcrumb-item">
             <xsl:copy-of select="$relatedItemPathGrany"/>
           </li>
         </xsl:if>
-        <li>
+        <li class="breadcrumb-item">
           <xsl:choose>
             <xsl:when test="string-length($relatedItemPath) &gt; 0">
               <xsl:copy-of select="$relatedItemPath"/>
@@ -87,7 +87,7 @@
             </xsl:otherwise>
           </xsl:choose>
         </li>
-        <li class="active">
+        <li class="breadcrumb-item active">
           <xsl:variable name="completeTitle">
             <xsl:apply-templates select="$mods" mode="mods.title" />
           </xsl:variable>

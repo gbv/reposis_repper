@@ -49,7 +49,7 @@
                     </xsl:apply-templates>
                     <xsl:if test="@type='translated'">
                       <xsl:text> (</xsl:text>
-                      <xsl:value-of select="mcrxsl:getDisplayName('rfc4646',@xml:lang)" />
+                      <xsl:value-of select="mcrxsl:getDisplayName('rfc5646',@xml:lang)" />
                       <xsl:text>)</xsl:text>
                     </xsl:if>
                   </xsl:for-each>
@@ -174,7 +174,7 @@
                     </td>
                     <td class="metavalue">
                         <xsl:value-of select="."/>
-                        <div class="sherpa-issn hidden"><xsl:value-of select="."/></div>
+                        <div class="sherpa-issn d-none"><xsl:value-of select="."/></div>
                     </td>
                 </tr>
             </xsl:for-each>
@@ -268,7 +268,7 @@
                     </xsl:otherwise>
                   </xsl:choose>
                   <div>
-                    <button type="button" class="show_openstreetmap btn btn-default" data-coords="{.}" >
+                    <button type="button" class="show_openstreetmap btn btn-secondary" data-coords="{.}" >
                       OpenStreetMap
                     </button>
                   </div>

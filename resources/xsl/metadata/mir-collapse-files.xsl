@@ -27,10 +27,10 @@
 
             <div id="files{@xlink:href}" class="file_box">
               <div class="row header">
-                <div class="col-xs-12">
+                <div class="col-12">
                   <div class="headline">
                     <div class="title">
-                      <a class="btn btn-primary btn-sm file_toggle" data-toggle="collapse" href="#collapse{@xlink:href}" aria-expanded="false" aria-controls="collapse{@xlink:href}">
+                      <a class="btn btn-primary btn-sm file_toggle dropdown-toggle" data-toggle="collapse" href="#collapse{@xlink:href}" aria-expanded="false" aria-controls="collapse{@xlink:href}">
                         <span>
                           <xsl:choose>
                             <xsl:when test="$derivateXML//titles/title[@xml:lang=$CurrentLang]">
@@ -49,7 +49,6 @@
                             <xsl:value-of select="position()" />
                           </span>
                         </xsl:if -->
-                        <span class="caret"></span>
                       </a>
 
                     </div>
@@ -86,8 +85,8 @@
                   </noscript>
                 </xsl:when>
                 <xsl:otherwise>
-                  <div id="collapse{@xlink:href}" class="row body collapse in">
-                    <div class="col-xs-12">
+                  <div id="collapse{@xlink:href}" class="row body collapse in show">
+                    <div class="col-12">
                       <xsl:value-of select="i18n:translate('mir.derivate.no_access')" />
                     </div>
                   </div>

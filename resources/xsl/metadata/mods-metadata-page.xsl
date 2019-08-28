@@ -11,7 +11,7 @@
       <xsl:copy-of select="@*" />
       <head>
         <xsl:apply-templates select="citation_meta" mode="copyContent" />
-        <link href="{$WebApplicationBaseURL}mir-layout/assets/jquery/plugins/shariff/shariff.complete.css" rel="stylesheet" />
+        <link href="{$WebApplicationBaseURL}mir-layout/assets/jquery/plugins/shariff/shariff.min.css" rel="stylesheet" />
       </head>
 
       <xsl:if test="div[@id='mir-breadcrumb']">
@@ -46,22 +46,20 @@
 
       <div class="row detail_row">
 
-        <div id="head_col" class="col-xs-12">
+        <div id="head_col" class="col-12">
           <div class="row">
-            <div id="aux_col_actions" class="col-xs-12 col-sm-4 col-sm-push-8 col-md-4 col-md-push-8">
-              <div class="pull-right">
-                <!-- Start: EDIT -->
-                <xsl:apply-templates select="div[@id='mir-edit']" mode="copyContent" />
-                <!-- End: EDIT -->
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-sm-pull-4 col-md-8 col-md-pull-4">
+            <div class="col-12 col-sm-8 col-sm-float-4 col-md-8 col-md-float-4">
               <xsl:apply-templates select="div[@id='mir-abstract-badges']" mode="copyContent" />
+            </div>
+            <div id="aux_col_actions" class="col-12 col-sm-4 col-sm-push-8 col-md-4 col-md-push-8">
+              <!-- Start: EDIT -->
+              <xsl:apply-templates select="div[@id='mir-edit']" mode="copyContent" />
+              <!-- End: EDIT -->
             </div>
           </div>
         </div>
 
-        <div id="main_col" class="col-xs-12 col-sm-8">
+        <div id="main_col" class="col-12 col-sm-8">
           <div id="headline">
             <xsl:apply-templates select="div[@id='mir-abstract-title']" mode="copyContent" />
           </div>
@@ -116,11 +114,7 @@
         </div>
 
 <!-- right column -->
-        <div id="aux_col" class="col-xs-12 col-sm-4">
-
-<!-- additional layout components for journals and series from navigation plugin -->
-          <xsl:copy-of select="div[@id='duepublico-series-banner']" />
-          <xsl:copy-of select="div[@id='duepublico-series-layout']" />
+        <div id="aux_col" class="col-12 col-sm-4">
 
 <!-- cites -->
           <xsl:if test="div[@id='mir-citation']">
@@ -130,12 +124,12 @@
             <xsl:apply-templates select="div[@id='repper-cover-box']"    mode="copyContent" />
             <!-- END -->
             
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h3 class="panel-title">
+            <div class="card"><!-- todo: panel-default replacement -->
+              <div class="card-header">
+                <h3 class="card-title">
                   <xsl:value-of select="i18n:translate('metaData.quote')" /></h3>
               </div>
-              <div class="panel-body">
+              <div class="card-body">
                 <!-- Start: CITATION -->
                 <xsl:apply-templates select="div[@id='mir-citation']" mode="copyContent" />
                 <!-- End: CITATION -->
@@ -144,24 +138,24 @@
           </xsl:if>
 <!-- OAS statistics -->
           <xsl:if test="$MIR.OAS = 'show' and div[@id='mir-oastatistics']">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h3 class="panel-title">
+            <div class="card"><!-- todo: panel-default replacement -->
+              <div class="card-header">
+                <h3 class="card-title">
                   <xsl:value-of select="i18n:translate('mir.oas.panelheading')" />
                 </h3>
               </div>
-              <div class="panel-body" id="mir_oas">
+              <div class="card-body" id="mir_oas">
                 <xsl:apply-templates select="div[@id='mir-oastatistics']" mode="copyContent" />
               </div>
             </div>
           </xsl:if>
 <!-- rights -->
           <xsl:if test="div[@id='mir-access-rights']">
-            <div id="mir_access_rights_panel" class="panel panel-default">
-              <div class="panel-heading">
-                <h3 class="panel-title"><xsl:value-of select="i18n:translate('metaData.rights')" /></h3>
+            <div id="mir_access_rights_panel" class="card"><!-- todo: panel-default replacement -->
+              <div class="card-header">
+                <h3 class="card-title"><xsl:value-of select="i18n:translate('metaData.rights')" /></h3>
               </div>
-              <div class="panel-body">
+              <div class="card-body">
                 <!-- Start: CITATION -->
                 <xsl:apply-templates select="div[@id='mir-access-rights']" mode="copyContent" />
                 <!-- End: CITATION -->
@@ -170,11 +164,11 @@
           </xsl:if>
 <!-- export -->
           <xsl:if test="div[@id='mir-export']">
-            <div id="mir_export_panel" class="panel panel-default">
-              <div class="panel-heading">
-                <h3 class="panel-title"><xsl:value-of select="i18n:translate('metaData.export')" /></h3>
+            <div id="mir_export_panel" class="card"><!-- todo: panel-default replacement -->
+              <div class="card-header">
+                <h3 class="card-title"><xsl:value-of select="i18n:translate('metaData.export')" /></h3>
               </div>
-              <div class="panel-body">
+              <div class="card-body">
                   <!-- Start: EXPORT -->
                 <xsl:apply-templates select="div[@id='mir-export']" mode="copyContent" />
                   <!-- End: EXPORT -->
@@ -183,13 +177,13 @@
           </xsl:if>
 <!-- system -->
           <xsl:if test="not(mcrxsl:isCurrentUserGuestUser()) and @read">
-            <div id="mir_admindata_panel" class="panel panel-default system">
-              <div class="panel-heading">
-                <h3 class="panel-title">
+            <div id="mir_admindata_panel" class="card system"><!-- todo: panel-default replacement -->
+              <div class="card-header">
+                <h3 class="card-title">
                   <xsl:value-of select="i18n:translate('component.mods.metaData.dictionary.systembox')" />
                 </h3>
               </div>
-              <div class="panel-body">
+              <div class="card-body">
                 <!-- Start: ADMINMETADATA -->
                 <xsl:apply-templates select="div[@id='mir-admindata']" mode="newMetadata" />
                 <!-- End: ADMINMETADATA -->
@@ -199,7 +193,7 @@
                   <div class="modal-content">
                     <div class="modal-header">
                       <button type="button" class="close modalFrame-cancel" data-dismiss="modal" aria-label="Close">
-                        <i class="fa fa-times" aria-hidden="true"></i>
+                        <i class="fas fa-times" aria-hidden="true"></i>
                       </button>
                       <h4 class="modal-title" id="modalFrame-title">
                         <xsl:value-of select="i18n:translate('metadata.versionInfo.label')" />

@@ -24,9 +24,6 @@
   <xsl:param name="MIR.shariff.theme" select="'white'" />
   <xsl:param name="MIR.shariff.buttonstyle" select="'icon'" />
   <xsl:param name="MIR.shariff.services" select="''" /> <!-- default: ['mail', 'twitter', 'facebook', 'whatsapp', 'linkedin', 'xing', 'pinterest', 'info'] -->
-
-  <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(/mycoreobject/@ID)" />
-
   <xsl:template match="/">
 
     <!-- ==================== Highwire Press Tags and Dublin Core as Meta Tags ==================== -->
@@ -35,6 +32,7 @@
       <xsl:apply-templates select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" mode="highwire" />
     </citation_meta>
 
+    <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(mycoreobject/@ID)" />
     <xsl:variable name="mods" select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" />
 
     <div id="mir-citation">
@@ -82,7 +80,7 @@
               </xsl:when>
               <xsl:otherwise>
                 <!-- show altmetrics donut -->
-                <div class="col-xs-12">
+                <div class="col-12">
                   <div data-badge-details="right" data-badge-type="donut" data-doi="{//mods:mods/mods:identifier[@type='doi']}" data-hide-no-mentions="{$MIR.altmetrics.hide}"
                     class="altmetric-embed"></div>
                 </div>
@@ -100,7 +98,7 @@
               </xsl:when>
               <xsl:otherwise>
                 <!-- use Plum Print-->
-                <div class="col-xs-12">
+                <div class="col-12">
                   <a href="https://plu.mx/plum/a/?doi={//mods:mods/mods:identifier[@type='doi']}" data-popup="right" data-size="large" class="plumx-plum-print-popup plum-bigben-theme" data-site="plum" data-hide-when-empty="{$MIR.plumx.hide}">PlumX Metrics</a>
                 </div>
               </xsl:otherwise>
@@ -114,7 +112,7 @@
           <strong>
             <xsl:value-of select="i18n:translate('mir.citationStyle')" />
           </strong>
-          <i id="crossref-citation-error" class="fa fa-exclamation-circle hidden" title="{i18n:translate('mir.citationAlertService')}"></i>
+          <i id="crossref-citation-error" class="fas fa-exclamation-circle hidden" title="{i18n:translate('mir.citationAlertService')}"></i>
         </span>
         <xsl:if test="//mods:mods/mods:identifier[@type='doi'] and string-length($MIR.citationStyles) &gt; 0">
           <xsl:variable name="cite-styles">
@@ -138,10 +136,10 @@
           <xsl:apply-templates select="$mods" mode="originInfo" />
           <xsl:apply-templates select="$mods" mode="issn" />
         </p>
-        <p id="crossref-citation-text" class="hidden">
+        <p id="crossref-citation-text" class="d-none">
         </p>
-        <p id="crossref-citation-alert" class="alert alert-danger hidden"><xsl:value-of select="i18n:translate('mir.citationAlert')" /></p>
-      </div -->
+        <p id="crossref-citation-alert" class="alert alert-danger d-none"><xsl:value-of select="i18n:translate('mir.citationAlert')" /></p>
+      </div>
 
       <p id="cite_link_box">
         <xsl:choose>
@@ -286,18 +284,16 @@
   </xsl:template>
 
   <xsl:template match="mods:mods" mode="identifierListModal">
-    <div class="modal fade" id="identifierModal" tabindex="-1" role="dialog" aria-labelledby="modal frame" aria-hidden="true">
-      <div class="modal-dialog" style="width: 930px">
+    <div id="identifierModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal frame" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-xl" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" class="close modalFrame-cancel" data-dismiss="modal" aria-label="Close">
-              <i class="fa fa-times" aria-hidden="true"></i>
-            </button>
             <h4 class="modal-title" id="modalFrame-title">
               <xsl:value-of select="i18n:translate('mir.citationLink')" />
             </h4>
           </div>
-          <div id="modalFrame-body" class="modal-body" style="max-height: 560px; overflow: auto">
+          <button type="button" class="close modalFrame-cancel" data-dismiss="modal" aria-label="Close">
+            <i class="fas fa-times" aria-hidden="true"></i>
             <xsl:if test="$piServiceInformation[@type='doi' or @type='doi'][@inscribed='true']">
               <xsl:apply-templates select="mods:identifier[@type='urn' or @type='doi']" mode="identifierList" />
             </xsl:if>
@@ -324,7 +320,7 @@
                 </xsl:call-template>
               </xsl:when>
             </xsl:choose>
-          </div>
+          </button>
         </div>
       </div>
     </div>
@@ -429,16 +425,15 @@
           <xsl:value-of select="$title" />
         </p>
         <div class="mir_copy_wrapper">
-          <span class="fa fa-copy mir_copy_identifier" data-toggle="tooltip" data-placement="left" aria-hidden="true" title="Copy Identifier"
-            data-org-title="Copy Identifier"
-          ></span>
+          <pre>
+            <a href="{$id}">
+              <xsl:value-of select="$id" />
+            </a>
+          </pre>
+          <span class="fas fa-copy mir_copy_identifier" data-toggle="tooltip" data-placement="left" aria-hidden="true" title="Copy Identifier"
+            data-org-title="Copy Identifier"></span>
         </div>
-        <pre>
-          <a href="{$id}">
-            <xsl:value-of select="$id" />
-          </a>
-        </pre>
-        <input type="text" class="hidden mir_identifier_hidden_input" value="{$id}"></input>
+        <input type="text" class="d-none mir_identifier_hidden_input" value="{$id}"></input>
       </div>
     </xsl:if>
   </xsl:template>

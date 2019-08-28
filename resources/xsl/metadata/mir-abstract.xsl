@@ -58,7 +58,7 @@
       <div id="badges">
         <xsl:for-each select="$mods/mods:genre[@type='kindof']|$mods/mods:genre[@type='intern']">
           <xsl:call-template name="categorySearchLink">
-            <xsl:with-param name="class" select="'mods_genre label label-info'" />
+            <xsl:with-param name="class" select="'mods_genre badge badge-info'" />
             <xsl:with-param name="node" select="." />
             <xsl:with-param name="owner"  select="$owner" />
           </xsl:call-template>
@@ -104,13 +104,13 @@
             <xsl:choose>
               <xsl:when test="$firstDate and $firstDate != ''">
                 <xsl:call-template name="searchLink">
-                  <xsl:with-param name="class" select="'date_published label label-primary'" />
+                  <xsl:with-param name="class" select="'date_published badge badge-primary'" />
                   <xsl:with-param name="linkText" select="$dateText" />
                   <xsl:with-param name="query" select="concat('*&amp;fq=mods.dateIssued:',$firstDate, '&amp;owner=createdby:', $owner)" />
                 </xsl:call-template>
               </xsl:when>
               <xsl:otherwise>
-                <span class="date_published label label-primary">
+                <span class="date_published badge badge-primary">
                   <xsl:value-of select="$dateText"/>
                 </span>
               </xsl:otherwise>
@@ -134,7 +134,7 @@
             </xsl:choose>
           </xsl:variable>
           <xsl:call-template name="searchLink">
-            <xsl:with-param name="class" select="'access_condition label label-success'" />
+            <xsl:with-param name="class" select="'access_condition badge badge-success'" />
             <xsl:with-param name="linkText" select="$linkText" />
             <xsl:with-param name="query" select="concat('*&amp;fq=link:*',$accessCondition, '&amp;owner=createdby:', $owner)" />
           </xsl:call-template>
@@ -145,7 +145,7 @@
             <xsl:variable name="status-i18n">
               <xsl:value-of select="i18n:translate(concat('mir.state.',$doc-state))" />
             </xsl:variable>
-            <span class="label mir-{$doc-state}" title="{i18n:translate('component.mods.metaData.dictionary.status')}">
+            <span class="badge mir-{$doc-state}" title="{i18n:translate('component.mods.metaData.dictionary.status')}">
               <xsl:value-of select="$status-i18n" />
             </span>
           </div>
@@ -238,9 +238,9 @@
                       </xsl:otherwise>
                     </xsl:choose>
                   </xsl:variable>
-                  <li class="pull-right">
+                  <li class="float-right">
                     <xsl:if test="position()=1">
-                      <xsl:attribute name="class">active pull-right</xsl:attribute>
+                      <xsl:attribute name="class">active float-right</xsl:attribute>
                     </xsl:if>
                     <a href="#tab{position()}" role="tab" data-toggle="tab">
                       <xsl:value-of select="$tabName" />
@@ -262,11 +262,11 @@
                   </div>
                 </xsl:for-each>
                 <div id="mir-abstract-overlay">
-                  <a href="#" class="readless hidden" title="read less">
+                  <a href="#" class="readless d-none" title="read less">
                     <xsl:value-of select="i18n:translate('mir.abstract.readless')" />
                   </a>
-                  <div class="mir-abstract-overlay-tran readmore hidden"></div>
-                  <a href="#" class="readmore hidden" title="read more">
+                  <div class="mir-abstract-overlay-tran readmore d-none"></div>
+                  <a href="#" class="readmore d-none" title="read more">
                     <xsl:value-of select="i18n:translate('mir.abstract.readmore')" />
                   </a>
                 </div>
@@ -284,11 +284,11 @@
                 </p>
               </div>
               <div id="mir-abstract-overlay">
-                <a href="#" class="readless hidden" title="read less">
+                <a href="#" class="readless d-none" title="read less">
                   <xsl:value-of select="i18n:translate('mir.abstract.readless')" />
                 </a>
-                <div class="mir-abstract-overlay-tran readmore hidden"></div>
-                <a href="#" class="readmore hidden" title="read more">
+                <div class="mir-abstract-overlay-tran readmore d-none"></div>
+                <a href="#" class="readmore d-none" title="read more">
                   <xsl:value-of select="i18n:translate('mir.abstract.readmore')" />
                 </a>
               </div>
@@ -357,8 +357,8 @@
       <xsl:if
               test="$hits/arr[@name='groups']/lst/result/@numFound &gt; 0 and not($hits/arr[@name='groups']/lst/null/@name='groupValue') and count($hits/arr[@name='groups']/lst) &gt; 1"
       >
-        <a id="mir_relatedItem_showAll" class="pull-right" href="#"><xsl:value-of select="i18n:translate('mir.abstract.showGroups')" /></a>
-        <a id="mir_relatedItem_hideAll" class="pull-right" href="#"><xsl:value-of select="i18n:translate('mir.abstract.hideGroups')" /></a>
+        <a id="mir_relatedItem_showAll" class="float-right" href="#"><xsl:value-of select="i18n:translate('mir.abstract.showGroups')" /></a>
+        <a id="mir_relatedItem_hideAll" class="float-right" href="#"><xsl:value-of select="i18n:translate('mir.abstract.hideGroups')" /></a>
       </xsl:if>
     </h3>
     <xsl:choose>
@@ -368,14 +368,14 @@
         <ul id="mir_relatedItem">
           <xsl:for-each select="$hits/arr[@name='groups']/lst">
             <li>
-              <span class="fa fa-chevron-right"></span>
+              <span class="fas fa-chevron-right"></span>
               <span>
                 <xsl:value-of select="int[@name='groupValue']" />
               </span>
               <ul>
                 <xsl:for-each select="result/doc">
                   <li>
-				   <xsl:variable name="contributors">
+                   <xsl:variable name="contributors">
                      <xsl:choose>
                        <xsl:when test="arr[@name='mods.nameByRole.personal.aut']">
                          <xsl:copy-of select="arr[@name='mods.nameByRole.personal.aut']/." />
@@ -390,12 +390,12 @@
                         <xsl:copy-of select="arr[@name='mods.nameByRole.corporate.edt']/." />
                       </xsl:when>
                     </xsl:choose>
-                  </xsl:variable>
+                   </xsl:variable>
                     <xsl:call-template name="printRelatedItem">
                       <xsl:with-param  name="responseFieldModsPart" select="str[contains(@name,'mods.part.')][contains(@name,$objectID)]" />
                       <xsl:with-param  name="title"                 select="str[@name='mods.title.main']" />
                       <xsl:with-param  name="linkText"              select="str[@name='search_result_link_text']" />
-					  <xsl:with-param  name="contributors"          select="$contributors" />
+                      <xsl:with-param  name="contributors"          select="$contributors" />
                     </xsl:call-template>
                   </li>
                 </xsl:for-each>
@@ -408,7 +408,7 @@
         <ul>
           <xsl:for-each select="$hits/arr[@name='groups']/lst/result/doc">
             <li>
-			  <xsl:variable name="contributors">
+              <xsl:variable name="contributors">
                 <xsl:choose>
                   <xsl:when test="arr[@name='mods.nameByRole.personal.aut']">
                     <xsl:copy-of select="arr[@name='mods.nameByRole.personal.aut']/." />
@@ -428,7 +428,7 @@
                 <xsl:with-param  name="responseFieldModsPart" select="str[contains(@name,'mods.part.')][contains(@name,$objectID)]" />
                 <xsl:with-param  name="title"                 select="str[@name='mods.title.main']" />
                 <xsl:with-param  name="linkText"              select="str[@name='search_result_link_text']" />
-				<xsl:with-param  name="contributors"          select="$contributors" />
+                <xsl:with-param  name="contributors"          select="$contributors" />
               </xsl:call-template>
             </li>
           </xsl:for-each>
@@ -441,7 +441,7 @@
     <xsl:param name="responseFieldModsPart" />
     <xsl:param name="title" />
     <xsl:param name="linkText" />
-	<xsl:param name="contributors" />
+    <xsl:param name="contributors" />
     <a href="{$WebApplicationBaseURL}receive/{str[@name='returnId']}">
       <xsl:if test="string-length($responseFieldModsPart) &gt; 0">
         <xsl:value-of select="$responseFieldModsPart" />
@@ -454,10 +454,10 @@
         <xsl:value-of select="$linkText" />
       </xsl:if>
     </a>
-	<xsl:if test="string-length($contributors) &gt; 0">
-	  <br />
-	  <span style="padding-left: 20px;">
-	  <xsl:for-each select="exslt:node-set($contributors)/arr/str[position() &lt;= 3]">
+    <xsl:if test="string-length($contributors) &gt; 0">
+      <br />
+      <span style="padding-left: 20px;">
+      <xsl:for-each select="exslt:node-set($contributors)/arr/str[position() &lt;= 3]">
                 <xsl:if test="position()!=1">
                   <xsl:value-of select="' / '" />
                 </xsl:if>
@@ -470,7 +470,7 @@
                     </xsl:otherwise>
                   </xsl:choose>
       </xsl:for-each>
-	  </span>
-	</xsl:if>
+      </span>
+    </xsl:if>
   </xsl:template>
 </xsl:stylesheet>
