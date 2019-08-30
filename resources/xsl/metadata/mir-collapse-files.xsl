@@ -155,23 +155,21 @@
                       mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']">
           <xsl:variable name="derId" select="mycoreobject/structure/derobjects/derobject[@xlink:title='thumbnail']/@xlink:href" />
           <xsl:variable name="derivateXML" select="document(concat('mcrobject:',$derId))" />
-          <div id="repper-cover-box">
-            <div class="panel panel-default" id="repper_cover_panel">
-              <div class="panel-heading">
-                <h3 class="panel-title"><xsl:value-of select="i18n:translate('pp.coverPanel.title')" /></h3>
-              </div>
-              <div class="panel-body">
-                <p>
-                  <xsl:variable name="maindoc" select="$derivateXML/mycorederivate/derivate/internals/internal/@maindoc" />
-                  <a href="{mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']}">
-                    <img src="{$WebApplicationBaseURL}servlets/MCRTileCombineServlet/THUMBNAIL/{$derId}/{$maindoc}" />
-                    <br />
-                    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
-                    <xsl:text> </xsl:text>
-                    <xsl:value-of select="i18n:translate('pp.coverPanel.text')" />
-                  </a>
-                </p>
-              </div>
+          <div id="repper_cover_card" class="card">
+            <div class="card-header">
+              <h3 class="card-title"><xsl:value-of select="i18n:translate('pp.coverPanel.title')" /></h3>
+            </div>
+            <div class="card-body">
+              <p>
+                <xsl:variable name="maindoc" select="$derivateXML/mycorederivate/derivate/internals/internal/@maindoc" />
+                <a href="{mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']}">
+                  <img src="{$WebApplicationBaseURL}servlets/MCRTileCombineServlet/THUMBNAIL/{$derId}/{$maindoc}" />
+                  <br />
+                  <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                  <xsl:text> </xsl:text>
+                  <xsl:value-of select="i18n:translate('pp.coverPanel.text')" />
+                </a>
+              </p>
             </div>
           </div>
         </xsl:if>
