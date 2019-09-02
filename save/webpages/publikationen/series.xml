@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage><section xml:lang="de" title="neuer Eintrag"><div>
 <div class="col-xs-12 col-sm-4 result_filter" style="box-sizing: border-box; position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; float: right; width: 390px;">
-<div class="panel panel-default" style="box-sizing: border-box; margin: 0px 18px 20px 0px; border: 1px solid rgb(204, 204, 204); border-radius: 4px; box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px; color: rgb(102, 102, 102); float: right; width: 324px;">
-<div class="panel-heading" data-toggle="collapse-next" style="box-sizing: border-box; padding: 10px 15px; border-bottom: 1px solid rgb(236, 240, 241); border-top-right-radius: 3px; border-top-left-radius: 3px; color: rgb(44, 62, 80); background-color: rgb(236, 240, 241); border-top-color: rgb(236, 240, 241); border-right-color: rgb(236, 240, 241); border-left-color: rgb(236, 240, 241);">
-<h3 class="panel-title" style="box-sizing: border-box; font-family: Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; line-height: 1.1; color: rgb(153, 153, 153); margin-top: 0px; margin-bottom: 0px; font-size: 16px;">Typ</h3>
+<div class="card" style="box-sizing: border-box; margin: 0px 18px 20px 0px; border: 1px solid rgb(204, 204, 204); border-radius: 4px; box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px; color: rgb(102, 102, 102); float: right; width: 324px;"><!-- TODO: panel-default replacement -->
+<div class="card-header" data-toggle="collapse-next" style="box-sizing: border-box; padding: 10px 15px; border-bottom: 1px solid rgb(236, 240, 241); border-top-right-radius: 3px; border-top-left-radius: 3px; color: rgb(44, 62, 80); background-color: rgb(236, 240, 241); border-top-color: rgb(236, 240, 241); border-right-color: rgb(236, 240, 241); border-left-color: rgb(236, 240, 241);">
+<h3 class="card-title" style="box-sizing: border-box; font-family: Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; line-height: 1.1; color: rgb(153, 153, 153); margin-top: 0px; margin-bottom: 0px; font-size: 16px;">Typ</h3>
 </div>
 
-<div class="panel-body collapse in" style="box-sizing: border-box; padding: 15px;">
+<div class="card-body collapse in" style="box-sizing: border-box; padding: 15px;">
 <ul class="filter" style="box-sizing: border-box; margin: 0px; border-right: 0px solid rgb(204, 204, 204); list-style: none; padding-right: 0px; padding-left: 0px;">
 	<li style="box-sizing: border-box; margin: 0px; padding: 0px;">
 	<div class="checkbox" style="box-sizing: border-box; position: relative; margin-top: 0px; margin-bottom: 0px;"><label style="box-sizing: border-box; display: inline-block; max-width: 100%; margin-bottom: 0px; min-height: 20px; padding-left: 20px; cursor: pointer; vertical-align: middle;"><input style="font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; font-family: inherit; margin: 4px 0px 6px -20px; border-width: 2px; box-shadow: none; padding: 0px; position: relative;" type="checkbox" /></label><span class="title" style="box-sizing: border-box;">Serie</span><span class="hits" style="box-sizing: border-box; color: rgb(153, 153, 153);">8</span></div>
@@ -35,7 +35,7 @@
 <div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
 </div>
 
-<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
+<div class="hit_options float-right" style="box-sizing: border-box; float: right !important;">
 <div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
 </div>
 </div>
@@ -83,7 +83,7 @@
 <div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
 </div>
 
-<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
+<div class="hit_options float-right" style="box-sizing: border-box; float: right !important;">
 <div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
 </div>
 </div>
@@ -131,7 +131,7 @@
 <div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
 </div>
 
-<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
+<div class="hit_options float-right" style="box-sizing: border-box; float: right !important;">
 <div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
 </div>
 </div>
@@ -173,7 +173,7 @@
 <div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
 </div>
 
-<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
+<div class="hit_options float-right" style="box-sizing: border-box; float: right !important;">
 <div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
 </div>
 </div>
@@ -215,7 +215,7 @@
 <div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
 </div>
 
-<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
+<div class="hit_options float-right" style="box-sizing: border-box; float: right !important;">
 <div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
 </div>
 </div>
@@ -257,7 +257,7 @@
 <div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
 </div>
 
-<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
+<div class="hit_options float-right" style="box-sizing: border-box; float: right !important;">
 <div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
 </div>
 </div>
@@ -299,7 +299,7 @@
 <div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
 </div>
 
-<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
+<div class="hit_options float-right" style="box-sizing: border-box; float: right !important;">
 <div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
 </div>
 </div>
@@ -345,7 +345,7 @@
 <div class="hit_star_5 hit_star" style="box-sizing: border-box; float: left; width: 5px; height: 5px; background-color: rgb(149, 165, 166); margin: 8px 2px 0px; border-radius: 50%;"> </div>
 </div>
 
-<div class="hit_options pull-right" style="box-sizing: border-box; float: right !important;">
+<div class="hit_options float-right" style="box-sizing: border-box; float: right !important;">
 <div class="btn-group" style="box-sizing: border-box; position: relative; display: inline-block; vertical-align: middle;"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="http://reposis-test.gbv.de/repper/servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aseries%22+%2BderCount%3A%5B0+TO+*%5D+%2BobjectType%3A%22mods%22&amp;fl=*%2Cscore&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed#" style="box-sizing: border-box; background-color: transparent; color: rgb(149, 165, 166); text-decoration-line: none; display: inline-block; margin-bottom: 0px; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(180, 188, 194); border-image: initial; white-space: nowrap; padding: 2px 10px; line-height: 1.42857; border-radius: 0px 10px 0px 0px; user-select: none; position: relative; float: left; margin-right: 0px; margin-left: 0px;"> Aktionen </a></div>
 </div>
 </div>

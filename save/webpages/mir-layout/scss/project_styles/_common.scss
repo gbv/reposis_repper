@@ -81,16 +81,16 @@ a {
 font-weight: 700;
 }
 
-#main_content h2.panel-title,
+#main_content h2.card-title,
 #main_col h1 {
   font-weight: 400;
   margin-bottom: 0px;
 }
-.panel-default > .panel-heading {
+.card > .card-header {
   border-color: #e9eeef;
 }
 
-#main_content h3.panel-title {
+#main_content h3.card-title {
   font-weight: 400;
 }
 
@@ -277,7 +277,7 @@ html body footer .internal_links {
   margin-top: 6px;
 }
 
-.panel-footer {
+.card-footer {
   padding: 0;
 }
 
@@ -439,12 +439,6 @@ html body footer .internal_links {
   margin-top: 46px;
 }
 
-/* fix fa problems with shariff included fontawesome  */
-.fa, .far, .fas {
-  font-family: FontAwesome;
-}
-
-
 /* ********************** carousel ********************** */
 .carousel {
   margin-bottom: 60px;
@@ -485,21 +479,21 @@ html body footer .internal_links {
   margin-top: 40px;
 }
 
-#pp_index_boxes .panel {
+#pp_index_boxes .card {
   border: 1px solid #c5c5c5;
 }
 
-#pp_index_boxes .panel-body {
+#pp_index_boxes .card-body {
   background-color: #e9eeef;
 }
 
-#pp_index_boxes .panel-default > .panel-heading,
-#pp_index_boxes .panel-footer{
+#pp_index_boxes .card > .card-header,
+#pp_index_boxes .card-footer{
   background-color: transparent;
   border-color: transparent;
 }
 
-#pp_index_boxes .panel-heading h2 {
+#pp_index_boxes .card-header h2 {
   color: #0c636d;
   font-size: 24px;
   font-weight: 400;
@@ -650,9 +644,9 @@ html body footer .internal_links {
 .hit_oa > span.label-success {
   background-color: #24780a;
 }
-.text-success, .result_body .result_filter .panel.oa li[data-fq="worldReadableComplete:true"] .title,
+.text-success, .result_body .result_filter .card.oa li[data-fq="worldReadableComplete:true"] .title,
 .text-success:hover,
-.result_body .result_filter .panel.oa li[data-fq="worldReadableComplete:true"] .title:hover {
+.result_body .result_filter .card.oa li[data-fq="worldReadableComplete:true"] .title:hover {
   color: #24780a;
 }
 

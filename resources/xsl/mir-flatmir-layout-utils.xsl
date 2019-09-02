@@ -21,12 +21,13 @@
           <span id="pp_logo_subtitle"><xsl:value-of select="i18n:translate('pp.subtitle')"/></span>
         </a>
       </div>
+
       <div id="options_nav_box" class="mir-prop-nav">
 
         <div class="searchfield_box">
-          <form action="{$WebApplicationBaseURL}servlets/solr/find" class="navbar-form navbar-left pull-right" role="search">
-            <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+          <form action="{$WebApplicationBaseURL}servlets/solr/find" class="navbar-form navbar-left float-right form-inline" role="search">
             <div class="form-group">
+              <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
               <input name="condQuery" placeholder="{i18n:translate('mir.navsearch.placeholder')}" class="form-control search-query" id="searchInput" type="text" />
               <xsl:choose>
                 <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
@@ -41,32 +42,27 @@
         </div>
 
         <nav>
-          <ul class="nav navbar-nav pull-right">
+          <ul class="nav navbar-nav navbar-expand">
             <xsl:call-template name="mir.loginMenu" />
             <xsl:call-template name="mir.languageMenu" />
           </ul>
         </nav>
+
       </div>
+
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="navbar navbar-default mir-main-nav">
       <div class="container">
 
-        <div class="navbar-header">
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".mir-main-nav-entries">
-            <span class="sr-only"> Toggle navigation </span>
-            <span class="icon-bar">
-            </span>
-            <span class="icon-bar">
-            </span>
-            <span class="icon-bar">
-            </span>
-          </button>
-        </div>
 
-        <nav class="collapse navbar-collapse mir-main-nav-entries">
-          <ul class="nav navbar-nav pull-left">
+
+        <nav class="collapse navbar-collapse mir-main-nav-entries navbar-expand-lg show">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".mir-main-nav-entries">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <ul class="nav navbar-nav float-left">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']" />
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='quicklinks']" />
@@ -74,7 +70,7 @@
             <xsl:call-template name="mir.basketMenu" />
           </ul>
         </nav>
-        
+
         <div id="pp_feedback">
           <a href="mailto:perspectivia@MaxWeberStiftung.de">Feedback</a>
         </div>
@@ -135,7 +131,7 @@
         </div>
         <div class="row"><!-- cooperation partners -->
           <div class="col-md-4">
-            <a href="http://www.ub.uni-heidelberg.de/" class="pull-right">
+            <a href="http://www.ub.uni-heidelberg.de/" class="float-right">
               <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/ubh.png" alt="Universitätsbibliothek Heidelberg" title="Universitätsbibliothek Heidelberg" style="margin-top: 10px;" />
             </a>
           </div>
@@ -148,7 +144,7 @@
             <a href="http://www.gbv.de/">
               <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/vzg.png" alt="Verbundzentrale des GBV (VZG)" title="Verbundzentrale des GBV (VZG)" style="margin-top: 39px;" />
             </a>
-          </div> 
+          </div>
         </div>
       </div>
 
@@ -183,7 +179,7 @@
           </div>
         </div>
       </div>
-      
+
       <!-- Matomo -->
       <xsl:if test="$piwikID &gt; 0">
         <script type="text/javascript">
@@ -207,15 +203,17 @@
         <noscript><p><img src="https://matomo.gbv.de/piwik.php?idsite={$piwikID}" style="border:0;" alt="" /></p></noscript>
       </xsl:if>
       <!-- End Piwik Code -->
-    
+
   </xsl:template>
 
   <xsl:template name="print.beta">
-    <div class="alert alert-danger alert-dismissible" style="padding:3px;">
-      <a href="#" class="close" data-dismiss="alert" aria-label="close">&#215;</a>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
       <xsl:value-of select="i18n:translate('pp.printBeta.title')"/>
       <xsl:text> </xsl:text>
       <xsl:value-of select="i18n:translate('pp.printBeta.text')" disable-output-escaping="yes" />
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&#215;</span>
+      </button>
     </div>
   </xsl:template>
 

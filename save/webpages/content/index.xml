@@ -3,20 +3,20 @@
     <section xml:lang="de" title="Willkommen">
 
       <div id="pp_boxContainer">
-          
+
         <div id="pp_arrowToMIR">&#160;</div>
         <div id="pp_arrowToSources">&#160;</div>
         <div id="pp_arrowToJournals">&#160;</div>
-          
+
         <div class="row" id="pp_index_boxes">
-            <div class="col-md-offset-2 col-md-8" lang="de">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h2 class="panel-title" style="width:100%">
+            <div class="offset-md-2 col-md-8" lang="de">
+                <div class="card"><!--TODO: replace panel-default -->
+                    <div class="card-header">
+                        <h2 class="card-title" style="width:100%">
                             Freier Zugang zu Wissen
                         </h2>
                     </div>
-                    <div class="panel-body">
+                    <div class="card-body">
                         <p>
                             Die elektronische Publikationsplattform perspectivia.net versteht sich als ein internationales, epochenübergreifendes und
                             interdisziplinäres Portal für geisteswissenschaftliche Publikationen. Als Infrastruktur der Max Weber Stiftung – Deutsche
@@ -26,7 +26,7 @@
                             <br /><br />
                         </p>
                     </div>
-                    <div class="panel-footer pp_more">
+                    <div class="card-footer pp_more">
                         <a href="about/index.xml"><strong>... mehr erfahren</strong></a>
                     </div>
                 </div>
@@ -35,40 +35,40 @@
 
         <div class="row" id="pp_index_boxes">
             <div class="col-md-4" lang="de">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h2 class="panel-title" style="width:100%">
+                <div class="card"><!--TODO: replace panel-default -->
+                    <div class="card-header">
+                        <h2 class="card-title" style="width:100%">
                             Publikationsserver
                         </h2>
                     </div>
-                    <div class="panel-body">
+                    <div class="card-body">
                         <p>
                             Digitale Erst- und Zweitveröffentlichungen der Institute der Max Weber Stiftung und ihren
                             Partnern. Neben Zeitschriften, Schriftenreihen und Einzelveröffentlichungen werden auch
                             Vorträge in Form von Audio- oder Videodateien veröffentlicht.
-                            <br /><br />
+                            <br />
                         </p>
                     </div>
-                    <div class="panel-footer pp_more">
+                    <div class="card-footer pp_more">
                         <a href="../servlets/MCRActionMappingServlet/search/simple"><strong>... zur Suche</strong></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">
+                <div class="card"><!--TODO: replace panel-default -->
+                    <div class="card-header">
+                        <h2 class="card-title">
                             Quellen und Datenbanken
                         </h2>
                     </div>
-                    <div class="panel-body">
+                    <div class="card-body">
                         <p>
                             Digitalisierte Quellensammlungen, historische Datenbestände und kritische Editionen aus der
                             Forschungsarbeit der Institute und ihrer Partner.
                             <br /><br /><br /><br />
                         </p>
                     </div>
-                    <div class="panel-footer pp_more">
+                    <div class="card-footer pp_more">
                         <a href="publications/sources.xml">
                             <strong>... zur Übersicht</strong>
                             <img src="../images/external_link.svg" />
@@ -77,20 +77,20 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">
+                <div class="card"><!--TODO: replace panel-default -->
+                    <div class="card-header">
+                        <h2 class="card-title">
                             Digitale Zeitschriften
                         </h2>
                     </div>
-                    <div class="panel-body">
+                    <div class="card-body">
                         <p>
                             Die Plattform perspectivia.net bietet einen Publikationsservice für frei zugängliche Online-Zeitschriften an.
                             Auf Basis der Open Source-Software Open Journal Systems (OJS) haben die Institute der Max Weberstiftung die
                             Möglichkeit E-Journals herauszugeben.
                         </p>
                     </div>
-                    <div class="panel-footer pp_more">
+                    <div class="card-footer pp_more">
                         <a href="publications/journals.xml">
                             <strong>... zur Übersicht</strong>
                             <img src="../images/external_link.svg" />
@@ -104,8 +104,8 @@
 
         <div class="row">
             <div class="col-12" lang="de">
-                
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="10000">
+
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="0">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -113,10 +113,10 @@
                         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="3"></li>
                     </ol>
-                    
+
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
-                        <div class="item active">
+                        <div class="carousel-item active">
                             <img src="../images/logos/francia-recensio.png" alt="Cover Rezensionsjournal Francia-Recensio" style="width:170px;padding-bottom: 90px;" />
                             <div class="carousel-caption">
                                 <h1>Francia-Recensio</h1>
@@ -137,7 +137,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="carousel-item">
                             <img src="../images/logos/francia.jpg" alt="Cover der Zeitschrift Francia" style="width:170px;padding-bottom: 90px;" />
                             <div class="carousel-caption">
                                 <h1>Francia</h1>
@@ -154,7 +154,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="carousel-item">
                             <img src="../images/logos/fantin-latour_scholder.png" alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" style="padding-bottom: 200px;" />
                             <div class="carousel-caption">
                                 <h1 style="margin-bottom: 10px;">Briefwechsel Fantin-Latour &amp; Scholderer</h1>
@@ -173,7 +173,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="carousel-item">
                             <img src="../images/logos/pacelli.jpg" alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" style="padding-bottom: 200px;" />
                             <div class="carousel-caption">
                                 <h1 style="margin-bottom: 10px;">Pacelli – Nuntiaturberichte 1917-29</h1>
@@ -183,7 +183,7 @@
                                     20. Jahrhunderts. Die Berichte Pacellis (etwa 5.500) und die Weisungen aus Rom an den Nuntius in Deutschland (etwa 4.100)
                                     werden in Zusammenarbeit mit dem Vatikanischen Geheimarchiv und dem Deutschen Historischen Institut in Rom komplett mit
                                     Anlagen (etwa 4.500) erfasst, kritisch ediert, kommentiert, ausgewertet und Wissenschaftlern ebenso wie einer breiten
-                                    internationalen Öffentlichkeit zugänglich gemacht.  
+                                    internationalen Öffentlichkeit zugänglich gemacht.
                                 </p>
                                 <p>
                                     Zur Datenbank: <a href="http://www.pacelli-edition.de/index_pacelli.html">http://www.pacelli-edition.de/index_pacelli.html</a>
@@ -197,22 +197,22 @@
     </section>
 
     <section xml:lang="en" title="Welcome">
-        
+
         <div id="pp_boxContainer">
-            
+
             <div id="pp_arrowToMIR">&#160;</div>
             <div id="pp_arrowToSources">&#160;</div>
             <div id="pp_arrowToJournals">&#160;</div>
-            
+
             <div class="row" id="pp_index_boxes">
-                <div class="col-md-offset-2 col-md-8" lang="en">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h2 class="panel-title" style="width:100%">
+                <div class="offset-md-2 col-md-8" lang="en">
+                    <div class="card"><!--TODO: replace panel-default -->
+                        <div class="card-header">
+                            <h2 class="card-title" style="width:100%">
                                 Free access to knowledge
                             </h2>
                         </div>
-                        <div class="panel-body">
+                        <div class="card-body">
                             <p>
                                 The publication platform perspectivia.net sees itself as an international, epoch-spanning and interdisciplinary portal for digital publications
                                 in the humanities. This infrastructure of the Max Weber Foundation - German Humanities Institutes Abroad provides free access to the publications
@@ -221,48 +221,48 @@
                                 <br /><br />
                             </p>
                         </div>
-                        <div class="panel-footer pp_more">
+                        <div class="card-footer pp_more">
                             <a href="about/index.xml"><strong>... more</strong></a>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
             <div class="row" id="pp_index_boxes">
                 <div class="col-md-4" lang="en">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h2 class="panel-title" style="width:100%">
+                    <div class="card"><!--TODO: replace panel-default -->
+                        <div class="card-header">
+                            <h2 class="card-title" style="width:100%">
                                 Publication server
                             </h2>
                         </div>
-                        <div class="panel-body">
+                        <div class="card-body">
                             <p>
                                 Initial digital publications and secondary publications of the institutes of the Max Weber Foundation and its partners:
                                 journals, publication series, books, articles, and lectures, also in audio and video.
                                 <br /><br />
                             </p>
                         </div>
-                        <div class="panel-footer pp_more">
+                        <div class="card-footer pp_more">
                             <a href="search/simple.xed"><strong>... search</strong></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h2 class="panel-title">
+                    <div class="card"><!--TODO: replace panel-default -->
+                        <div class="card-header">
+                            <h2 class="card-title">
                                 Sources and databases
                             </h2>
                         </div>
-                        <div class="panel-body">
+                        <div class="card-body">
                             <p>
                                 Digital source collections, historical datasets and critical editions from of the research activities of the institutes
                                 and their partners on the perspectivia.net source portal and other platforms.
                                 <br /><br /><br /><br />
                             </p>
                         </div>
-                        <div class="panel-footer pp_more">
+                        <div class="card-footer pp_more">
                             <a href="publications/sources.xml">
                                 <strong>... browse</strong>
                                 <img src="../images/external_link.svg" />
@@ -271,19 +271,19 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h2 class="panel-title">
+                    <div class="card"><!--TODO: replace panel-default -->
+                        <div class="card-header">
+                            <h2 class="card-title">
                                 Digital journals
                             </h2>
                         </div>
-                        <div class="panel-body">
+                        <div class="card-body">
                             <p>
                                 The e-journals of the institutes of the Max Weber Foundation with a dedicated domain. The perspectivia.net journal service
                                 is based on Open Journal Systems (OJS).
                             </p>
                         </div>
-                        <div class="panel-footer pp_more">
+                        <div class="card-footer pp_more">
                             <a href="publications/journals.xml">
                                 <strong>... browse</strong>
                                 <img src="../images/external_link.svg" />
@@ -292,12 +292,12 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
-        
+
         <div class="row">
             <div class="col-12" lang="en">
-                
+
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="10000">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -306,10 +306,10 @@
                         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="3"></li>
                     </ol>
-                    
+
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
-                        <div class="item active">
+                        <div class="carousel-item active">
                             <img src="../images/logos/francia-recensio.png" alt="Cover Rezensionsjournal Francia-Recensio" style="width:170px;padding-bottom: 90px;" />
                             <div class="carousel-caption">
                                 <h1>Francia-Recensio</h1>
@@ -330,7 +330,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="carousel-item">
                             <img src="../images/logos/francia.jpg" alt="Cover der Zeitschrift Francia" style="width:170px;padding-bottom: 90px;" />
                             <div class="carousel-caption">
                                 <h1>Francia</h1>
@@ -347,7 +347,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="carousel-item">
                             <img src="../images/logos/fantin-latour_scholder.png" alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" style="padding-bottom: 200px;" />
                             <div class="carousel-caption">
                                 <h1 style="margin-bottom: 10px;">Briefwechsel Fantin-Latour &amp; Scholderer</h1>
@@ -366,7 +366,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="carousel-item">
                             <img src="../images/logos/pacelli.jpg" alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" style="padding-bottom: 200px;" />
                             <div class="carousel-caption">
                                 <h1 style="margin-bottom: 10px;">Pacelli – Nuntiaturberichte 1917-29</h1>
@@ -376,7 +376,7 @@
                                     20. Jahrhunderts. Die Berichte Pacellis (etwa 5.500) und die Weisungen aus Rom an den Nuntius in Deutschland (etwa 4.100)
                                     werden in Zusammenarbeit mit dem Vatikanischen Geheimarchiv und dem Deutschen Historischen Institut in Rom komplett mit
                                     Anlagen (etwa 4.500) erfasst, kritisch ediert, kommentiert, ausgewertet und Wissenschaftlern ebenso wie einer breiten
-                                    internationalen Öffentlichkeit zugänglich gemacht.  
+                                    internationalen Öffentlichkeit zugänglich gemacht.
                                 </p>
                                 <p>
                                     Zur Datenbank: <a href="http://www.pacelli-edition.de/index_pacelli.html">http://www.pacelli-edition.de/index_pacelli.html</a>
@@ -390,22 +390,22 @@
     </section>
 
     <section xml:lang="fr" title="Welcome">
-        
+
         <div id="pp_boxContainer">
-            
+
             <div id="pp_arrowToMIR">&#160;</div>
             <div id="pp_arrowToSources">&#160;</div>
             <div id="pp_arrowToJournals">&#160;</div>
-            
+
             <div class="row" id="pp_index_boxes">
-                <div class="col-md-offset-2 col-md-8" lang="fr">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h2 class="panel-title" style="width:100%">
+                <div class="offset-md-2 col-md-8" lang="fr">
+                    <div class="card"><!--TODO: replace panel-default -->
+                        <div class="card-header">
+                            <h2 class="card-title" style="width:100%">
                                 Libre accès au savoir
                             </h2>
                         </div>
-                        <div class="panel-body">
+                        <div class="card-body">
                             <p>
                                 La plateforme de publication électronique perspectivia.net se veut un portail international, interdisciplinaire et historique pour
                                 les publications en sciences humaines. L'infrastructure de la Fondation Max Weber - Instituts allemands de sciences humaines
@@ -415,22 +415,22 @@
                                 <br /><br />
                             </p>
                         </div>
-                        <div class="panel-footer pp_more">
+                        <div class="card-footer pp_more">
                             <a href="about/index.xml"><strong>... en savoir plus</strong></a>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
             <div class="row" id="pp_index_boxes">
                 <div class="col-md-4" lang="fr">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h2 class="panel-title" style="width:100%">
+                    <div class="card"><!--TODO: replace panel-default -->
+                        <div class="card-header">
+                            <h2 class="card-title" style="width:100%">
                                 Serveur académique
                             </h2>
                         </div>
-                        <div class="panel-body">
+                        <div class="card-body">
                             <p>
                                 Publications primaires et secondaires des instituts de la Fondation Max Weber ainsi que de leurs partenaires. En plus des
                                 périodiques, des collections et des monographies, perspectivia.net publie également des conférences sous forme de fichiers audio
@@ -438,26 +438,26 @@
                                 <br /><br />
                             </p>
                         </div>
-                        <div class="panel-footer pp_more">
+                        <div class="card-footer pp_more">
                             <a href="search/simple.xed"><strong>... Recherche</strong></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h2 class="panel-title">
+                    <div class="card"><!--TODO: replace panel-default -->
+                        <div class="card-header">
+                            <h2 class="card-title">
                                 Sources et bases de données
                             </h2>
                         </div>
-                        <div class="panel-body">
+                        <div class="card-body">
                             <p>
                                 DRecueil de sources numérisées, ensemble de données historiques et éditions critiques, tous résultats de la recherche des instituts
                                 et de leurs partenaires.
                                 <br /><br /><br /><br />
                             </p>
                         </div>
-                        <div class="panel-footer pp_more">
+                        <div class="card-footer pp_more">
                             <a href="publications/sources.xml">
                                 <strong>... Vue d'ensemble</strong>
                                 <img src="../images/external_link.svg" />
@@ -466,19 +466,19 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h2 class="panel-title">
+                    <div class="card"><!--TODO: replace panel-default -->
+                        <div class="card-header">
+                            <h2 class="card-title">
                                 Digital journals
                             </h2>
                         </div>
-                        <div class="panel-body">
+                        <div class="card-body">
                             <p>
                                 La plateforme éditoriale perspectivia.net offre un service de publication de périodiques en libre accès en ligne. Grâce au
-                                logiciel libre Open Journal Systems (OJS), les instituts de la Fondation Max Weber ont la possibilité de publier des revues électroniques. 
+                                logiciel libre Open Journal Systems (OJS), les instituts de la Fondation Max Weber ont la possibilité de publier des revues électroniques.
                             </p>
                         </div>
-                        <div class="panel-footer pp_more">
+                        <div class="card-footer pp_more">
                             <a href="publications/journals.xml">
                                 <strong>... Vue d'ensemble</strong>
                                 <img src="../images/external_link.svg" />
@@ -487,12 +487,12 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
-        
+
         <div class="row">
             <div class="col-12" lang="fr">
-                
+
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="10000">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -501,10 +501,10 @@
                         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="3"></li>
                     </ol>
-                    
+
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
-                        <div class="item active">
+                        <div class="carousel-item active">
                             <img src="../images/logos/francia-recensio.png" alt="Cover Rezensionsjournal Francia-Recensio" style="width:170px;padding-bottom: 90px;" />
                             <div class="carousel-caption">
                                 <h1>Francia-Recensio</h1>
@@ -525,7 +525,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="carousel-item">
                             <img src="../images/logos/francia.jpg" alt="Cover der Zeitschrift Francia" style="width:170px;padding-bottom: 90px;" />
                             <div class="carousel-caption">
                                 <h1>Francia</h1>
@@ -542,7 +542,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="carousel-item">
                             <img src="../images/logos/fantin-latour_scholder.png" alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" style="padding-bottom: 200px;" />
                             <div class="carousel-caption">
                                 <h1 style="margin-bottom: 10px;">Briefwechsel Fantin-Latour &amp; Scholderer</h1>
@@ -561,7 +561,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="carousel-item">
                             <img src="../images/logos/pacelli.jpg" alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" style="padding-bottom: 200px;" />
                             <div class="carousel-caption">
                                 <h1 style="margin-bottom: 10px;">Pacelli – Nuntiaturberichte 1917-29</h1>
@@ -571,7 +571,7 @@
                                     20. Jahrhunderts. Die Berichte Pacellis (etwa 5.500) und die Weisungen aus Rom an den Nuntius in Deutschland (etwa 4.100)
                                     werden in Zusammenarbeit mit dem Vatikanischen Geheimarchiv und dem Deutschen Historischen Institut in Rom komplett mit
                                     Anlagen (etwa 4.500) erfasst, kritisch ediert, kommentiert, ausgewertet und Wissenschaftlern ebenso wie einer breiten
-                                    internationalen Öffentlichkeit zugänglich gemacht.  
+                                    internationalen Öffentlichkeit zugänglich gemacht.
                                 </p>
                                 <p>
                                     Zur Datenbank: <a href="http://www.pacelli-edition.de/index_pacelli.html">http://www.pacelli-edition.de/index_pacelli.html</a>
