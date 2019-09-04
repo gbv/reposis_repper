@@ -112,17 +112,17 @@
               <ul class="nav">
                 <li><a href="https://twitter.com/perspectivia" class="twitter">
                   <span class="fa-stack">
-                    <i class="fa fa-twitter fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-2x"></i>
                   </span>
                   @perspectivia folgen</a></li>
                 <li><a href="https://www.facebook.com/maxweberstiftung" class="facebook">
                   <span class="fa-stack">
-                    <i class="fa fa-facebook fa-stack-2x"></i>
+                    <i class="fab fa-facebook fa-stack-2x"></i>
                   </span>
                   Like Max Weber Stiftung</a></li>
                 <li><a href="http://vimeo.com/maxweberstiftung" class="vimeo-mws">
                   <span class="fa-stack">
-                    <i class="fa fa-vimeo-square fa-stack-2x"></i>
+                    <i class="fab fa-vimeo-square fa-stack-2x"></i>
                   </span>
                   Max Weber Stiftung Videos folgen</a></li>
               </ul>
