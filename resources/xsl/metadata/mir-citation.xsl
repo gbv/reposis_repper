@@ -24,6 +24,9 @@
   <xsl:param name="MIR.shariff.theme" select="'white'" />
   <xsl:param name="MIR.shariff.buttonstyle" select="'icon'" />
   <xsl:param name="MIR.shariff.services" select="''" /> <!-- default: ['mail', 'twitter', 'facebook', 'whatsapp', 'linkedin', 'xing', 'pinterest', 'info'] -->
+
+  <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(/mycoreobject/@ID)" />
+
   <xsl:template match="/">
 
     <!-- ==================== Highwire Press Tags and Dublin Core as Meta Tags ==================== -->
@@ -32,7 +35,6 @@
       <xsl:apply-templates select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" mode="highwire" />
     </citation_meta>
 
-    <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(mycoreobject/@ID)" />
     <xsl:variable name="mods" select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" />
 
     <div id="mir-citation">
@@ -139,7 +141,7 @@
         <p id="crossref-citation-text" class="d-none">
         </p>
         <p id="crossref-citation-alert" class="alert alert-danger d-none"><xsl:value-of select="i18n:translate('mir.citationAlert')" /></p>
-      </div>
+      </div -->
 
       <p id="cite_link_box">
         <xsl:choose>
