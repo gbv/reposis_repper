@@ -470,8 +470,13 @@ html body footer .internal_links {
   margin-top: 40px;
 }
 
+#pp_index_boxes .col-md-4 {
+  min-height: 100%;
+}
+
 #pp_index_boxes .card {
   border: 1px solid #c5c5c5;
+  min-height: 100%;
 }
 
 #pp_index_boxes .card-body {
