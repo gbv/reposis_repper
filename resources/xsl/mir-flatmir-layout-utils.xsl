@@ -58,17 +58,26 @@
 
 
 
-        <nav class="collapse navbar-collapse mir-main-nav-entries navbar-expand-lg show">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".mir-main-nav-entries">
+        <nav class="mir-main-nav-entries navbar-expand-md show">
+          <button
+            class="navbar-toggler float-left"
+            type="button"
+            data-toggle="collapse"
+            data-target="#repper-main-menu"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <ul class="nav navbar-nav float-left">
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']" />
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='quicklinks']" />
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" />
-            <xsl:call-template name="mir.basketMenu" />
-          </ul>
+          <div id="repper-main-menu" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']" />
+              <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
+              <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='quicklinks']" />
+              <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" />
+              <xsl:call-template name="mir.basketMenu" />
+            </ul>
+          </div>
         </nav>
 
         <div id="pp_feedback">
@@ -83,102 +92,103 @@
   </xsl:template>
 
   <xsl:template name="mir.footer">
-
-      <div class="container footer-wrapper">
+    <section class="mcr-footer-section mcr-footer-section--menu">
+      <div class="container">
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-4 col-sm-2 col-md-1">
             <a title="zur Homepage" href="{$WebApplicationBaseURL}">
               <img alt="Logo perspectivia.net" src="{$WebApplicationBaseURL}images/logos/perspectivia_logo_complete.png" style="height:134px;" />
             </a>
           </div>
-          <div class="col-md-2">
+          <div class="col-8 col-sm-10 col-md-3 col-lg-2">
             <ul id="pp_footer-nav" class="nav center-block">
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
             </ul>
           </div>
-          <div class="col-md-2">
+          <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mt-md-0">
             <a href="http://www.maxweberstiftung.de/">
-              <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/Max-Weber-Stiftung-Logo.png" alt="Logo der Max Weber Stiftung" title="Logo der Max Weber Stiftung" />
+              <img class="media-object img-fluid pp_footer-img" src="{$WebApplicationBaseURL}images/logos/Max-Weber-Stiftung-Logo.png" alt="Logo der Max Weber Stiftung" title="Logo der Max Weber Stiftung" />
             </a>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-4 col-lg-3 mt-3 mt-md-0">
             <a href="http://www.bmbf.de/">
-              <img class="media-object img-responsive pp_footer-img center-block" src="{$WebApplicationBaseURL}images/logos/BMBF-Logo.png" alt="BMBF-Logo" title="Bundesministerium für Bildung und Forschung (BMBF)" />
+              <img class="media-object img-fluid pp_footer-img center-block" src="{$WebApplicationBaseURL}images/logos/BMBF-Logo.png" alt="BMBF-Logo" title="Bundesministerium für Bildung und Forschung (BMBF)" />
             </a>
           </div>
           <!-- footer-social -->
-          <div class="col-md-4">
-            <div id="footer-social" class="">
-              <ul class="nav">
-                <li><a href="https://twitter.com/perspectivia" class="twitter">
-                  <span class="fa-stack">
-                    <i class="fab fa-twitter fa-stack-2x"></i>
-                  </span>
-                  @perspectivia folgen</a></li>
-                <li><a href="https://www.facebook.com/maxweberstiftung" class="facebook">
-                  <span class="fa-stack">
-                    <i class="fab fa-facebook fa-stack-2x"></i>
-                  </span>
-                  Like Max Weber Stiftung</a></li>
-                <li><a href="http://vimeo.com/maxweberstiftung" class="vimeo-mws">
-                  <span class="fa-stack">
-                    <i class="fab fa-vimeo-square fa-stack-2x"></i>
-                  </span>
-                  Max Weber Stiftung Videos folgen</a></li>
+          <div class="offset-md-4 offset-lg-0 col-lg-4 mt-3 mt-lg-0">
+            <div id="footer-social">
+              <ul class="nav flex-column">
+                <li>
+                  <a href="https://twitter.com/perspectivia" class="twitter"><span class="fa-stack"><i class="fab fa-twitter fa-stack-2x"></i></span>@perspectivia folgen</a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/maxweberstiftung" class="facebook"><span class="fa-stack"><i class="fab fa-facebook fa-stack-2x"></i></span>Like Max Weber Stiftung</a>
+                </li>
+                <li>
+                  <a href="http://vimeo.com/maxweberstiftung" class="vimeo-mws"><span class="fa-stack"><i class="fab fa-vimeo-square fa-stack-2x"></i></span>Max Weber Stiftung Videos folgen</a>
+                </li>
               </ul>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <section class="mcr-footer-section mcr-footer-section--coop-partners">
+      <div class="container">
         <div class="row"><!-- cooperation partners -->
-          <div class="col-md-4">
-            <a href="http://www.ub.uni-heidelberg.de/" class="float-right">
+          <div class="col-md-4 text-center">
+            <a href="http://www.ub.uni-heidelberg.de/">
               <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/ubh.png" alt="Universitätsbibliothek Heidelberg" title="Universitätsbibliothek Heidelberg" style="margin-top: 10px;" />
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 text-center">
             <a href="http://www.bsb-muenchen.de/">
               <img class="media-object img-responsive pp_footer-img center-block" src="{$WebApplicationBaseURL}images/logos/bsb.png" alt="Bayerischen Staatsbibliothek in München" title="Bayerischen Staatsbibliothek in München" style="margin-top: 45px;" />
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 text-center">
             <a href="http://www.gbv.de/">
               <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/vzg.png" alt="Verbundzentrale des GBV (VZG)" title="Verbundzentrale des GBV (VZG)" style="margin-top: 39px;" />
             </a>
           </div>
         </div>
       </div>
+    </section>
 
   </xsl:template>
 
   <xsl:template name="mir.powered_by">
     <xsl:variable name="mcr_version" select="concat('MyCoRe ',mcrver:getCompleteVersion())" />
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <xsl:variable name="tmp" select="calendar:new()"/>
-            <div id="copyright_by">
-              <p>
-                <xsl:text>© Max Weber Stiftung </xsl:text>
-                <xsl:value-of select="calendar:get($tmp, 1)"/>
-              </p>
+      <section class="mcr-footer-section mcr-footer-section--copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <xsl:variable name="tmp" select="calendar:new()"/>
+              <div id="copyright_by">
+                <p class="text-center">
+                  <xsl:text>© Max Weber Stiftung </xsl:text>
+                  <xsl:value-of select="calendar:get($tmp, 1)"/>
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div id="powered_by">
-              <a href="http://www.mycore.de">
-                <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
-              </a>
+            <div class="col-md-4">
+              <div id="powered_by" class="text-center">
+                <a href="http://www.mycore.de">
+                  <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div id="pp_goTop">
-              <!-- a href="http://www.dfg.de">
-                <img src="{$WebApplicationBaseURL}images/logos/dfg_logo_gbv.svg" title="Die Entwicklung der Datenbank ist ein Kooperationsprojekt mit der VZG und wurde von der DFG gefördert. " alt="sponsored by DFG, hostet by VZG" />
-              </a -->
+            <div class="col-md-4">
+              <div id="pp_goTop">
+                <!-- a href="http://www.dfg.de">
+                  <img src="{$WebApplicationBaseURL}images/logos/dfg_logo_gbv.svg" title="Die Entwicklung der Datenbank ist ein Kooperationsprojekt mit der VZG und wurde von der DFG gefördert. " alt="sponsored by DFG, hostet by VZG" />
+                </a -->
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- Matomo -->
       <xsl:if test="$piwikID &gt; 0">

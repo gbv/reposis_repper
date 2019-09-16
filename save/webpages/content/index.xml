@@ -34,7 +34,7 @@
         </div>
 
         <div class="row" id="pp_index_boxes">
-            <div class="col-md-4" lang="de">
+            <div class="col-md-4 mb-2" lang="de">
                 <div class="card"><!--TODO: replace panel-default -->
                     <div class="card-header">
                         <h2 class="card-title" style="width:100%">
@@ -53,7 +53,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
                 <div class="card"><!--TODO: replace panel-default -->
                     <div class="card-header">
                         <h2 class="card-title">
@@ -74,7 +74,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
                 <div class="card"><!--TODO: replace panel-default -->
                     <div class="card-header">
                         <h2 class="card-title">
@@ -116,13 +116,13 @@
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
                 <div class="row carousel-item__content-box">
-                  <div class="col-4">
+                  <div class="col-sm-4 text-center text-sm-right mb-3">
                     <img
                       src="../images/logos/francia-recensio.png"
                       class="img-fluid"
                       alt="Cover Rezensionsjournal Francia-Recensio" />
                   </div>
-                  <div class="col-8">
+                  <div class="col-sm-8">
                     <h1>Francia-Recensio</h1>
                     <p>
                         Das digitale Rezensionsjournal »Francia-Recensio«, herausgegeben vom Deutschen Historischen Institut Paris, erscheint
@@ -144,13 +144,13 @@
               </div>
               <div class="carousel-item">
                 <div class="row carousel-item__content-box">
-                  <div class="col-4">
+                  <div class="col-sm-4 text-center text-sm-right mb-3">
                     <img
                       src="../images/logos/francia.jpg"
                       class="img-fluid"
                       alt="Cover der Zeitschrift Francia" />
                   </div>
-                  <div class="col-8">
+                  <div class="col-sm-8">
                     <h1>Francia</h1>
                     <p>
                         Die Zeitschrift »Francia. Forschungen zur westeuropäischen Geschichte« erscheint einmal jährlich in einem Band von ca.
@@ -168,13 +168,13 @@
               </div>
               <div class="carousel-item">
                 <div class="row carousel-item__content-box">
-                  <div class="col-4">
+                  <div class="col-sm-4 text-center text-sm-right mb-3">
                     <img
                       src="../images/logos/fantin-latour_scholder.png"
                       class="img-fluid"
                       alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" />
                   </div>
-                  <div class="col-8">
+                  <div class="col-sm-8">
                     <h1>Briefwechsel Fantin-Latour &amp; Scholderer</h1>
                     <h2>DFK Paris</h2>
                     <p>
@@ -194,13 +194,13 @@
               </div>
               <div class="carousel-item">
                 <div class="row carousel-item__content-box">
-                  <div class="col-4">
+                  <div class="col-sm-4 text-center text-sm-right mb-3">
                     <img
                       src="../images/logos/pacelli.jpg"
                       class="img-fluid"
                       alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" />
                   </div>
-                  <div class="col-8">
+                  <div class="col-sm-8">
                     <h1>Pacelli – Nuntiaturberichte 1917-29</h1>
                     <h2>Deutsches Historisches Institut Rom</h2>
                     <p>
