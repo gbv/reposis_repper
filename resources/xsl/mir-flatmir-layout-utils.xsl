@@ -17,7 +17,7 @@
         <a title="zur Homepage" href="{$WebApplicationBaseURL}">
           <img alt="Logo perspectivia.net" src="{$WebApplicationBaseURL}images/logos/perspectivia_logo_p.png" />
           <span id="pp_logo_title">erspectivia</span><span id="pp_suffix">.net</span><br />
-          <!-- span id="pp_logo_title" style="color: #961432;padding-left: 20px;">Testinstanz</span><br / -->
+          <!-- span id="pp_logo_title" style="color:#961432; margin-left:40px; font-size:36px; margin-top:10px; display:inline-flex;">Testinstanz</span -->
           <span id="pp_logo_subtitle"><xsl:value-of select="i18n:translate('pp.subtitle')"/></span>
         </a>
       </div>
