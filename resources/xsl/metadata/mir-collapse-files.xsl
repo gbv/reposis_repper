@@ -132,18 +132,14 @@
         </xsl:if>
 
         <!-- START: Add download button for perspectivia -->
-        
         <xsl:for-each select="mycoreobject/structure/derobjects/derobject[key('rights', @xlink:href)/@read]">
-          <xsl:variable name="derId" select="@xlink:href" />
-          <xsl:variable name="derivateXML" select="document(concat('mcrobject:',$derId))" />
-          <xsl:if test="not(contains($derivateXML/mycorederivate/@label,'thumbnail')) and
-                        not(contains($derivateXML/mycorederivate/@label,'toc')) and
-                        not(contains($derivateXML/mycorederivate/@label,'presentation')) and
-                        not(contains($derivateXML/mycorederivate/@label,'additional_av')) and
-                        not(contains($derivateXML/mycorederivate/@label,'navigation'))">
+          <xsl:if test="not(contains(classification[@classid='derivate_types']/@categid,'thumbnail')) and
+                        not(contains(classification[@classid='derivate_types']/@categid,'toc')) and
+                        not(contains(classification[@classid='derivate_types']/@categid,'presentation')) and
+                        not(contains(classification[@classid='derivate_types']/@categid,'additional_av')) and
+                        not(contains(classification[@classid='derivate_types']/@categid,'navigation'))">
             <div id="repper-download-box">
-              <xsl:variable name="maindoc" select="$derivateXML/mycorederivate/derivate/internals/internal/@maindoc" />
-              <a href="{$WebApplicationBaseURL}servlets/MCRFileNodeServlet/{$derId}/{$maindoc}" class="btn btn-secondary" style="background-color: #75adad;border-color: #75adad;margin-bottom: 10px;width: 100%;">
+              <a href="{$WebApplicationBaseURL}servlets/MCRFileNodeServlet/{@xlink:href}/{maindoc}" class="btn btn-secondary" style="background-color: #75adad;border-color: #75adad;margin-bottom: 10px;width: 100%;">
                 <i style="margin-right: 5px;" class="fas fa-download"></i>Download</a>
             </div>
           </xsl:if>
@@ -151,17 +147,16 @@
         <!-- END -->
         
         <!-- START: Add cover box for perspectivia -->
-        <xsl:if test="mycoreobject/structure/derobjects/derobject[@xlink:title='thumbnail'] and
+        <xsl:if test="mycoreobject/structure/derobjects/derobject[classification[@classid='derivate_types'][@categid='thumbnail']] and
                       mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']">
-          <xsl:variable name="derId" select="mycoreobject/structure/derobjects/derobject[@xlink:title='thumbnail']/@xlink:href" />
-          <xsl:variable name="derivateXML" select="document(concat('mcrobject:',$derId))" />
+          <xsl:variable name="derId" select="mycoreobject/structure/derobjects/derobject[classification[@classid='derivate_types'][@categid='thumbnail']]/@xlink:href" />
+          <xsl:variable name="maindoc" select="mycoreobject/structure/derobjects/derobject[classification[@classid='derivate_types'][@categid='thumbnail']]/maindoc" />
           <div id="repper_cover_card" class="card">
             <div class="card-header">
               <h3 class="card-title"><xsl:value-of select="i18n:translate('pp.coverPanel.title')" /></h3>
             </div>
             <div class="card-body">
               <p>
-                <xsl:variable name="maindoc" select="$derivateXML/mycorederivate/derivate/internals/internal/@maindoc" />
                 <a href="{mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']}">
                   <img src="{$WebApplicationBaseURL}servlets/MCRTileCombineServlet/THUMBNAIL/{$derId}/{$maindoc}" />
                   <br />
