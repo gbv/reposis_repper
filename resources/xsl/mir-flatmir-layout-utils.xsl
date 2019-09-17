@@ -101,18 +101,18 @@
             </a>
           </div>
           <div class="col-8 col-sm-10 col-md-3 col-lg-2">
-            <ul id="pp_footer-nav" class="nav center-block">
+            <ul id="pp_footer-nav" class="nav">
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
             </ul>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mt-md-0">
+          <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mt-md-0 text-center">
             <a href="http://www.maxweberstiftung.de/">
               <img class="media-object img-fluid pp_footer-img" src="{$WebApplicationBaseURL}images/logos/Max-Weber-Stiftung-Logo.png" alt="Logo der Max Weber Stiftung" title="Logo der Max Weber Stiftung" />
             </a>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 mt-3 mt-md-0">
+          <div class="col-sm-6 col-md-4 col-lg-3 mt-3 mt-md-0 text-center">
             <a href="http://www.bmbf.de/">
-              <img class="media-object img-fluid pp_footer-img center-block" src="{$WebApplicationBaseURL}images/logos/BMBF-Logo.png" alt="BMBF-Logo" title="Bundesministerium für Bildung und Forschung (BMBF)" />
+              <img class="media-object img-fluid pp_footer-img" src="{$WebApplicationBaseURL}images/logos/BMBF-Logo.png" alt="BMBF-Logo" title="Bundesministerium für Bildung und Forschung (BMBF)" />
             </a>
           </div>
           <!-- footer-social -->
