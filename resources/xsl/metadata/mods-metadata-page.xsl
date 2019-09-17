@@ -115,6 +115,10 @@
 
 <!-- right column -->
         <div id="aux_col" class="col-12 col-sm-4">
+          
+          <!-- additional layout components for journals and series from mir-navigation-plugin -->
+          <xsl:copy-of select="div[@id='series-banner']" />
+          <xsl:copy-of select="div[@id='series-layout']" />
 
 <!-- cites -->
           <xsl:if test="div[@id='mir-citation']">
