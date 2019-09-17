@@ -31,9 +31,9 @@
                 </h3>
                 <!-- show one viewer for each derivate -->
                 <xsl:for-each select="mycoreobject/structure/derobjects/derobject[key('rights', @xlink:href)/@read]">
-                  <xsl:if test="not(contains(@xlink:title,'thumbnail')) and
-                    not(contains(@xlink:title,'additional_av')) and
-                    not(contains(@xlink:title,'navigation'))">
+                  <xsl:if test="not(contains(classification[@classid='derivate_types']/@categid,'thumbnail')) and
+                    not(contains(classification[@classid='derivate_types']/@categid,'additional_av')) and
+                    not(contains(classification[@classid='derivate_types']/@categid,'navigation'))">
                     <xsl:call-template name="createViewer" />
                   </xsl:if>
                 </xsl:for-each>
