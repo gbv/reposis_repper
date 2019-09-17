@@ -122,12 +122,12 @@
 
 <!-- cites -->
           <xsl:if test="div[@id='mir-citation']">
-            
+
             <!-- START: Add download button and cover box for perspectivia -->
             <xsl:apply-templates select="div[@id='repper-download-box']" mode="copyContent" />
             <xsl:apply-templates select="div[@id='repper-cover-box']"    mode="copyContent" />
             <!-- END -->
-            
+
             <div class="card"><!-- todo: panel-default replacement -->
               <div class="card-header">
                 <h3 class="card-title">
@@ -192,22 +192,36 @@
                 <xsl:apply-templates select="div[@id='mir-admindata']" mode="newMetadata" />
                 <!-- End: ADMINMETADATA -->
               </div>
-              <div class="modal fade" id="historyModal" tabindex="-1" role="dialog" aria-labelledby="modal frame" aria-hidden="true">
-                <div class="modal-dialog" style="width: 930px">
+              <div
+                id="historyModal"
+                class="modal fade"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="modal frame"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <button type="button" class="close modalFrame-cancel" data-dismiss="modal" aria-label="Close">
-                        <i class="fas fa-times" aria-hidden="true"></i>
-                      </button>
                       <h4 class="modal-title" id="modalFrame-title">
                         <xsl:value-of select="i18n:translate('metadata.versionInfo.label')" />
                       </h4>
+                      <button
+                        class="close modalFrame-cancel"
+                        type="button"
+                        data-dismiss="modal"
+                        aria-label="Close">
+                        <i class="fas fa-times" aria-hidden="true"></i>
+                      </button>
                     </div>
-                    <div id="modalFrame-body" class="modal-body" style="max-height: 560px; overflow: auto">
+                    <div class="modal-body">
                       <xsl:apply-templates select="div[@id='mir-historydata']" mode="copyContent" />
                     </div>
-                    <div class="modal-footer" style="clear: both">
-                      <button id="modalFrame-cancel" type="button" class="btn btn-danger" data-dismiss="modal">
+                    <div class="modal-footer">
+                      <button
+                        id="modalFrame-cancel"
+                        type="button"
+                        class="btn btn-danger"
+                        data-dismiss="modal">
                         <xsl:value-of select="i18n:translate('button.cancel')" />
                       </button>
                     </div>

@@ -123,7 +123,7 @@
                   <a href="https://twitter.com/perspectivia" class="twitter"><span class="fa-stack"><i class="fab fa-twitter fa-stack-2x"></i></span>@perspectivia folgen</a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/maxweberstiftung" class="facebook"><span class="fa-stack"><i class="fab fa-facebook fa-stack-2x"></i></span>Like Max Weber Stiftung</a>
+                  <a href="https://www.facebook.com/maxweberstiftung" class="facebook"><span class="fa-stack"><i class="fab fa-facebook-f fa-stack-2x"></i></span>Like Max Weber Stiftung</a>
                 </li>
                 <li>
                   <a href="http://vimeo.com/maxweberstiftung" class="vimeo-mws"><span class="fa-stack"><i class="fab fa-vimeo-square fa-stack-2x"></i></span>Max Weber Stiftung Videos folgen</a>
@@ -166,7 +166,7 @@
             <div class="col-md-4">
               <xsl:variable name="tmp" select="calendar:new()"/>
               <div id="copyright_by">
-                <p class="text-center">
+                <p class="text-center text-md-left">
                   <xsl:text>© Max Weber Stiftung </xsl:text>
                   <xsl:value-of select="calendar:get($tmp, 1)"/>
                 </p>
