@@ -37,7 +37,7 @@
                               <xsl:value-of select="$derivateXML//titles/title[@xml:lang=$CurrentLang]" />
                             </xsl:when>
                             <xsl:when test="not(contains($derivateXML/mycorederivate/@label,'data object from'))">
-                              <xsl:value-of select="i18n:translate(concat('metadata.files.file.', $derivateXML/mycorederivate/@label))" />
+                              <xsl:value-of select="i18n:translate(concat('metadata.files.file.', $derivateXML//classification[@classid='derivate_types']/@categid))" />
                             </xsl:when>
                             <xsl:otherwise>
                               <xsl:value-of select="i18n:translate('metadata.files.file')" />
@@ -79,7 +79,7 @@
                   </div>
                   <noscript>
                     <br />
-                    <a href="{$ServletsBaseURL}MCRFileNodeServlet/{$derId}">
+                  <a href="{$ServletsBaseURL}MCRFileNodeServlet/{$derId}/">
                       <xsl:value-of select="i18n:translate('metadata.files.toDerivate')" />
                     </a>
                   </noscript>
