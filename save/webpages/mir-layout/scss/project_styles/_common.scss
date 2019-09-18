@@ -803,6 +803,16 @@ html body footer .internal_links {
 .mcr-footer-section--copyright {
   background-color: #38322d;
 }
+#series-layout > a {
+  display: block;
+  padding: 1.5rem 1rem 2rem 1rem;
+  & > img {
+    height: 100px;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
