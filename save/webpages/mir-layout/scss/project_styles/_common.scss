@@ -451,47 +451,39 @@ html body footer .internal_links {
 
 
 /* ************************ tabs ************************ */
-
+// tab menu
 #main_content .nav-tabs {
-  border-bottom: 0;
   font-size: 14px;
-}
-
-#main_content .nav-tabs > li {
-  margin-bottom: -2px;
-}
-
-#main_content .nav-tabs > li > a:hover {
-  border: 0;
-}
-
-#main_content .nav {
-  border-bottom: 2px solid #efefef;
+  border-bottom: 2px solid #efefef; // nav border
   margin-bottom: 54px;
 }
-
-#main_content .nav > li > a {
-  padding: 10px 90px 7px 0px;
+// tab item container
+#main_content .nav-tabs > li {
+  margin-bottom: -2px; // move tab border over nav border
+}
+// tab item
+#main_content .nav-tabs > li > a {
+  padding: 10px 50px 7px 10px;
   color: #666;
+  border: 0; // reset bs behaviour
+  border-bottom: 2px solid #efefef;  //tab border
 }
-
-#main_content .nav-tabs > li.active {
+// hover effect
+#main_content .nav-tabs > li > a:hover,
+#main_content .nav-tabs > li > a:focus {
+  color: #333;
+  border: 0; // reset bs behaviour
+  border-bottom: 2px solid #75adad;
+  background-color: transparent; // reset bs behaviour
+}
+// active tab
+#main_content .nav-tabs > li > a.active,
+#main_content .nav-tabs > li > a.active:hover,
+#main_content .nav-tabs > li > a.active:focus {
+  color: #333;
+  border: 0; // reset bs behaviour
   border-bottom: 2px solid #005580;
 }
-
-#main_content .nav-tabs > li.active > a,
-#main_content .nav-tabs > li.active > a:hover,
-#main_content .nav-tabs > li.active > a:focus {
-  border: 0;
-}
-
-#main_content .nav > li > a:hover,
-#main_content .nav > li > a:focus {
-  border-bottom: 2px solid #005580;
-  background-color: transparent;
-  padding-bottom: 7px;
-}
-
 
 /* ********************** metadata ********************** */
 #headline h1 {
