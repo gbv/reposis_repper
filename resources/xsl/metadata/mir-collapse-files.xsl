@@ -147,7 +147,7 @@
         <!-- END -->
         
         <!-- START: Add cover box for perspectivia -->
-        <xsl:if test="mycoreobject/structure/derobjects/derobject[classification[@classid='derivate_types'][@categid='thumbnail']] and
+        <xsl:if test="mycoreobject/structure/derobjects/derobject/classification[@classid='derivate_types'][@categid='thumbnail'] and
                       mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']">
           <xsl:variable name="derId" select="mycoreobject/structure/derobjects/derobject[classification[@classid='derivate_types'][@categid='thumbnail']]/@xlink:href" />
           <xsl:variable name="maindoc" select="mycoreobject/structure/derobjects/derobject[classification[@classid='derivate_types'][@categid='thumbnail']]/maindoc" />
