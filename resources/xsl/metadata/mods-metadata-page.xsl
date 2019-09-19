@@ -125,7 +125,7 @@
 
             <!-- START: Add download button and cover box for perspectivia -->
             <xsl:apply-templates select="div[@id='repper-download-box']" mode="copyContent" />
-            <xsl:apply-templates select="div[@id='repper_cover_card']"   mode="copyContent" />
+            <xsl:apply-templates select="div[@id='repper-cover-box']"    mode="copyContent" />
             <!-- END -->
 
             <div class="card"><!-- todo: panel-default replacement -->
