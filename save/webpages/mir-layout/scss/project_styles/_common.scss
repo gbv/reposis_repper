@@ -494,6 +494,15 @@ html body footer .internal_links {
   margin-top: 46px;
 }
 
+/* fix space between Abstract and  "weiterlesen" */
+.mir-abstract-overlay-tran {
+  bottom: 30px;
+}
+a.readmore {
+  margin-top: 10px;
+  display: block;
+}
+
 /* ********************** carousel ********************** */
 .carousel {
   margin-bottom: 60px;
