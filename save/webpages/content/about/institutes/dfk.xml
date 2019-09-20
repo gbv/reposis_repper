@@ -4,7 +4,7 @@
     <section xml:lang="de" title="Deutsches Forum für Kunstgeschichte Paris">
         <div class="row">
 
-            <div class="col-xs-12 pp-institute-graphic" lang="de">
+            <div class="col-12 pp-institute-graphic" lang="de">
                 <img src="../../../images/logos/dfk-logo-rgb.svg"
                      class="pp-institute-graphic__logo"
                      alt="DFK-Logo" />
@@ -16,7 +16,7 @@
                      alt="DFK-Foto" />
             </div>
 
-            <div class="col-xs-12 pp-contact" lang="de">
+            <div class="col-12 pp-contact" lang="de">
                 <h2>Kontakt</h2>
                 <h3>Deutsches Forum für Kunstgeschichte Paris</h3>
                 <div class="pp-contact__list">
@@ -54,7 +54,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-publications">
+            <div class="col-12 pp-publications">
                 <div class="solrsearch" data-classes="pp-sourcesBox"
                      data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dfk.paris%22"
                      data-defaultThumbnail="../../../images/logos/dfk-logo-rgb.svg"> 
@@ -62,14 +62,14 @@
             </div>
 
 
-            <div class="col-xs-12 pp-sources">
+            <div class="col-12 pp-sources">
                 <h3>Digitale Quelleneditionen</h3>
                 <div class="row pp-sourcesBox">
 
-                    <div class="col-xs-4 col-md-2">
+                    <div class="col-4 col-md-2">
                         <img class="img-responsive" alt="Correspondance entre Fantin-Latour et Scholderer" title="Correspondance entre Fantin-Latour et Scholderer" src="../../../images/thumbnails/dfk-fantin-latour.png" />
                     </div>
-                    <div class="col-xs-8  col-md-4">
+                    <div class="col-8  col-md-4">
                         <a class="external-link" href="http://quellen-perspectivia.net/de/fantin-scholderer/start">Correspondance entre Fantin-Latour et Scholderer</a>
                         <p>
                             Briefwechsel zwischen Henri Fantin-Latour und Otto Scholderer (1858-1902)
@@ -85,7 +85,7 @@
     <section xml:lang="en" title="Deutsches Forum für Kunstgeschichte Paris">
         <div class="row">
 
-            <div class="col-xs-12 pp-institute-graphic" lang="de">
+            <div class="col-12 pp-institute-graphic" lang="de">
                 <img src="../../../images/logos/dfk-logo-rgb.svg"
                      class="pp-institute-graphic__logo"
                      alt="DFK-Logo" />
@@ -97,7 +97,7 @@
                      alt="DFK-Foto" />
             </div>
 
-            <div class="col-xs-12 pp-contact" lang="de">
+            <div class="col-12 pp-contact" lang="de">
                 <h2>Contact</h2>
                 <h3>Deutsches Forum für Kunstgeschichte Paris</h3>
                 <div class="pp-contact__list">
@@ -135,7 +135,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-publications">
+            <div class="col-12 pp-publications">
                 <div class="solrsearch" data-classes="pp-sourcesBox"
                      data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dfk.paris%22"
                      data-defaultThumbnail="../../../images/logos/dfk-logo-rgb.svg"> 
@@ -143,14 +143,14 @@
             </div>
 
 
-            <div class="col-xs-12 pp-sources">
+            <div class="col-12 pp-sources">
                 <h3>Digital source editions</h3>
                 <div class="row pp-sourcesBox">
 
-                    <div class="col-xs-4 col-md-2">
+                    <div class="col-4 col-md-2">
                         <img class="img-responsive" alt="Correspondance entre Fantin-Latour et Scholderer" title="Correspondance entre Fantin-Latour et Scholderer" src="../../../images/thumbnails/dfk-fantin-latour.png" />
                     </div>
-                    <div class="col-xs-8  col-md-4">
+                    <div class="col-8  col-md-4">
                         <a class="external-link" href="http://quellen-perspectivia.net/de/fantin-scholderer/start">Correspondance entre Fantin-Latour et Scholderer</a>
                         <p>
                             Briefwechsel zwischen Henri Fantin-Latour und Otto Scholderer (1858-1902)
@@ -166,7 +166,7 @@
     <section xml:lang="fr" title="Deutsches Forum für Kunstgeschichte Paris">
         <div class="row">
 
-            <div class="col-xs-12 pp-institute-graphic" lang="de">
+            <div class="col-12 pp-institute-graphic" lang="de">
                 <img src="../../../images/logos/dfk-logo-rgb.svg"
                      class="pp-institute-graphic__logo"
                      alt="DFK-Logo" />
@@ -178,7 +178,7 @@
                      alt="DFK-Foto" />
             </div>
 
-            <div class="col-xs-12 pp-contact" lang="de">
+            <div class="col-12 pp-contact" lang="de">
                 <h2>Contact</h2>
                 <h3>Deutsches Forum für Kunstgeschichte Paris</h3>
                 <div class="pp-contact__list">
@@ -216,7 +216,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-publications">
+            <div class="col-12 pp-publications">
                 <div class="solrsearch" data-classes="pp-sourcesBox"
                      data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dfk.paris%22"
                      data-defaultThumbnail="../../../images/logos/dfk-logo-rgb.svg"> 
@@ -224,14 +224,14 @@
             </div>
 
 
-            <div class="col-xs-12 pp-sources">
+            <div class="col-12 pp-sources">
                 <h3>Digital source editions</h3>
                 <div class="row pp-sourcesBox">
 
-                    <div class="col-xs-4 col-md-2">
+                    <div class="col-4 col-md-2">
                         <img class="img-responsive" alt="Correspondance entre Fantin-Latour et Scholderer" title="Correspondance entre Fantin-Latour et Scholderer" src="../../../images/thumbnails/dfk-fantin-latour.png" />
                     </div>
-                    <div class="col-xs-8  col-md-4">
+                    <div class="col-8  col-md-4">
                         <a class="external-link" href="http://quellen-perspectivia.net/de/fantin-scholderer/start">Correspondance entre Fantin-Latour et Scholderer</a>
                         <p>
                             Briefwechsel zwischen Henri Fantin-Latour und Otto Scholderer (1858-1902)
@@ -247,7 +247,7 @@
     <section xml:lang="it" title="Deutsches Forum für Kunstgeschichte Paris">
         <div class="row">
 
-            <div class="col-xs-12 pp-institute-graphic" lang="de">
+            <div class="col-12 pp-institute-graphic" lang="de">
                 <img src="../../../images/logos/dfk-logo-rgb.svg"
                      class="pp-institute-graphic__logo"
                      alt="DFK-Logo" />
@@ -259,7 +259,7 @@
                      alt="DFK-Foto" />
             </div>
 
-            <div class="col-xs-12 pp-contact" lang="de">
+            <div class="col-12 pp-contact" lang="de">
                 <h2>Contact</h2>
                 <h3>Deutsches Forum für Kunstgeschichte Paris</h3>
                 <div class="pp-contact__list">
@@ -297,7 +297,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-publications">
+            <div class="col-12 pp-publications">
                 <div class="solrsearch" data-classes="pp-sourcesBox"
                      data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dfk.paris%22"
                      data-defaultThumbnail="../../../images/logos/dfk-logo-rgb.svg"> 
@@ -305,14 +305,14 @@
             </div>
 
 
-            <div class="col-xs-12 pp-sources">
+            <div class="col-12 pp-sources">
                 <h3>Digital source editions</h3>
                 <div class="row pp-sourcesBox">
 
-                    <div class="col-xs-4 col-md-2">
+                    <div class="col-4 col-md-2">
                         <img class="img-responsive" alt="Correspondance entre Fantin-Latour et Scholderer" title="Correspondance entre Fantin-Latour et Scholderer" src="../../../images/thumbnails/dfk-fantin-latour.png" />
                     </div>
-                    <div class="col-xs-8  col-md-4">
+                    <div class="col-8  col-md-4">
                         <a class="external-link" href="http://quellen-perspectivia.net/de/fantin-scholderer/start">Correspondance entre Fantin-Latour et Scholderer</a>
                         <p>
                             Briefwechsel zwischen Henri Fantin-Latour und Otto Scholderer (1858-1902)

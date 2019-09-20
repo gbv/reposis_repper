@@ -4,7 +4,7 @@
     <section xml:lang="de" title="Orient Institut Beirut">
         <div class="row">
 
-            <div class="col-xs-12 pp-institute-graphic" lang="de">
+            <div class="col-12 pp-institute-graphic" lang="de">
                 <img src="../../../images/logos/oib-logo-460.jpg"
                         class="pp-institute-graphic__logo"
                         alt="OIB-Logo" />
@@ -17,7 +17,7 @@
                         title="Orient Institut Beirut" />
             </div>
 
-            <div class="col-xs-12 pp-contact" lang="de">
+            <div class="col-12 pp-contact" lang="de">
                 <h2>Kontakt</h2>
                 <h3>Orient Institut Beirut</h3>
                 <div class="pp-contact__list">
@@ -58,7 +58,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-publications">
+            <div class="col-12 pp-publications">
                 <div class="solrsearch" data-classes="pp-sourcesBox"
                      data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.beirut%22"
                      data-defaultThumbnail="../../../images/placeholder/oib-placeholder-460.jpg">
@@ -71,7 +71,7 @@
     <section xml:lang="en" title="Orient Institut Beirut">
         <div class="row">
 
-            <div class="col-xs-12 pp-institute-graphic" lang="de">
+            <div class="col-12 pp-institute-graphic" lang="de">
                 <img src="../../../images/logos/oib-logo-460.jpg"
                         class="pp-institute-graphic__logo"
                         alt="OIB-Logo" />
@@ -84,7 +84,7 @@
                         title="Orient Institut Beirut" />
             </div>
 
-            <div class="col-xs-12 pp-contact" lang="de">
+            <div class="col-12 pp-contact" lang="de">
                 <h2>Contact</h2>
                 <h3>Orient Institut Beirut</h3>
                 <div class="pp-contact__list">
@@ -125,7 +125,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-publications">
+            <div class="col-12 pp-publications">
                 <div class="solrsearch" data-classes="pp-sourcesBox"
                      data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.beirut%22"
                      data-defaultThumbnail="../../../images/placeholder/oib-placeholder-460.jpg">
@@ -138,7 +138,7 @@
     <section xml:lang="fr" title="Orient Institut Beirut">
         <div class="row">
 
-            <div class="col-xs-12 pp-institute-graphic" lang="de">
+            <div class="col-12 pp-institute-graphic" lang="de">
                 <img src="../../../images/logos/oib-logo-460.jpg"
                         class="pp-institute-graphic__logo"
                         alt="OIB-Logo" />
@@ -151,7 +151,7 @@
                         title="Orient Institut Beirut" />
             </div>
 
-            <div class="col-xs-12 pp-contact" lang="de">
+            <div class="col-12 pp-contact" lang="de">
                 <h2>Contact</h2>
                 <h3>Orient Institut Beirut</h3>
                 <div class="pp-contact__list">
@@ -192,7 +192,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-publications">
+            <div class="col-12 pp-publications">
                 <div class="solrsearch" data-classes="pp-sourcesBox"
                      data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.beirut%22"
                      data-defaultThumbnail="../../../images/placeholder/oib-placeholder-460.jpg">
@@ -205,7 +205,7 @@
     <section xml:lang="it" title="Orient Institut Beirut">
         <div class="row">
 
-            <div class="col-xs-12 pp-institute-graphic" lang="de">
+            <div class="col-12 pp-institute-graphic" lang="de">
                 <img src="../../../images/logos/oib-logo-460.jpg"
                         class="pp-institute-graphic__logo"
                         alt="OIB-Logo" />
@@ -218,7 +218,7 @@
                         title="Orient Institut Beirut" />
             </div>
 
-            <div class="col-xs-12 pp-contact" lang="de">
+            <div class="col-12 pp-contact" lang="de">
                 <h2>Contact</h2>
                 <h3>Orient Institut Beirut</h3>
                 <div class="pp-contact__list">
@@ -259,7 +259,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 pp-publications">
+            <div class="col-12 pp-publications">
                 <div class="solrsearch" data-classes="pp-sourcesBox"
                      data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.beirut%22"
                      data-defaultThumbnail="../../../images/placeholder/oib-placeholder-460.jpg">

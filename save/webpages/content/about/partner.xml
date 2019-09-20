@@ -2,7 +2,7 @@
 <MyCoReWebPage>
     <section xml:lang="de" title="Partner">
         <div class="row">
-            <div class="col-xs-12" lang="de">
+            <div class="col-12" lang="de">
                 <h1>Partnerschaften mit Forschungsinfrastrukturen</h1>
                 <p>
                     Die Max Weber Stiftung unterstützt und nutzt nationale und internationale Forschungsinfrastrukturen. Für die bibliothekarischen
@@ -43,7 +43,7 @@
     </section>
     <section xml:lang="en" title="Partner">
         <div class="row">
-            <div class="col-xs-12" lang="de">
+            <div class="col-12" lang="de">
                 <h1>Cooperations with Research Infrastructures</h1>
                 <p>
                     The Max Weber Foundation supports and relies on national and international research infrastructures. The <strong>DFG Specialised

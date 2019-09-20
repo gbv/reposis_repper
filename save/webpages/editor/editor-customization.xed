@@ -282,8 +282,8 @@
   <!-- ========== repper specific templates ========== -->
   <xed:template id="repper.ddc.repeat">
     <xed:repeat xpath="mods:classification[@authority='ddc'][@displayLabel='ddc']" min="1" max="10" method="build">
-      <div class="form-group {$xed-validation-marker}">
-        <label class="col-md-3 control-label">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
           <xed:output i18n="editor.search.repper.ddc" />
           :
         </label>
@@ -302,8 +302,8 @@
 
   <xed:template id="repper.ddc.repeat.required">
     <xed:repeat xpath="mods:classification[@authority='ddc'][@displayLabel='ddc']" min="1" max="10" method="build">
-      <div class="form-group {$xed-validation-marker}">
-        <label class="col-md-3 control-label required">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right required">
           <xed:output i18n="editor.search.repper.ddc" />
           :
         </label>
@@ -324,8 +324,8 @@
 
   <xed:template id="repper.epoch">
     <xed:repeat xpath="mods:classification[@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/epoch'][@displayLabel='epoch']" min="1" max="10" method="build">
-      <div class="form-group {$xed-validation-marker}">
-        <label class="col-md-3 control-label">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
           <xed:output i18n="editor.search.repper.epoch" />
           :
         </label>
@@ -346,8 +346,8 @@
 
   <xed:template id="repper.ddc_time">
     <xed:repeat xpath="mods:subject[mods:temporal/@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T1']" min="1" max="10" method="build">
-      <div class="form-group {$xed-validation-marker}">
-        <label class="col-md-3 control-label">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
           <xed:output i18n="editor.search.repper.ddc.time" />
           :
         </label>
@@ -368,8 +368,8 @@
 
   <xed:template id="repper.ddc_geo">
     <xed:repeat xpath="mods:subject[mods:geographic/@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T2']" min="1" max="10" method="build">
-      <div class="form-group {$xed-validation-marker}">
-        <label class="col-md-3 control-label">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
           <xed:output i18n="editor.search.repper.ddc.geo" />
           :
         </label>

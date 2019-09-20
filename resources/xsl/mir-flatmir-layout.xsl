@@ -12,7 +12,7 @@
     version="5" />
   <xsl:strip-space elements="*" />
   <xsl:include href="resource:xsl/mir-flatmir-layout-utils.xsl"/>
-  <xsl:param name="MIR.DefaultLayout.CSS" select="'flatly.min'" />
+  <xsl:param name="MIR.DefaultLayout.CSS" select="'flatly'" />
   <xsl:param name="MIR.CustomLayout.CSS" select="''" />
   <xsl:param name="MIR.CustomLayout.JS" select="''" />
   <xsl:param name="MIR.Layout.Theme" select="'flatmir'" />
@@ -27,7 +27,7 @@
         <title>
           <xsl:value-of select="$PageTitle" />
         </title>
-        <link href="{$WebApplicationBaseURL}assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="{$WebApplicationBaseURL}assets/font-awesome/css/all.min.css" rel="stylesheet" />
         <script type="text/javascript" src="{$WebApplicationBaseURL}mir-layout/assets/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="{$WebApplicationBaseURL}mir-layout/assets/jquery/plugins/jquery-migrate/jquery-migrate.min.js"></script>
         <xsl:copy-of select="head/*" />
@@ -75,9 +75,9 @@
                 <xsl:when test="$readAccess='true'">
                   <xsl:if test="breadcrumb/ul[@class='breadcrumb']">
                     <div class="row detail_row bread_plus">
-                      <div class="col-xs-12">
+                      <div class="col-12">
                         <ul itemprop="breadcrumb" class="breadcrumb">
-                          <li>
+                          <li class="breadcrumb-item">
                             <a class="navtrail" href="{$WebApplicationBaseURL}"><xsl:value-of select="i18n:translate('mir.breadcrumb.home')" /></a>
                           </li>
                           <xsl:copy-of select="breadcrumb/ul[@class='breadcrumb']/*" />
@@ -95,7 +95,7 @@
           </div>
         </section>
 
-        <footer class="panel-footer flatmir-footer">
+        <footer class="flatmir-footer">
           <xsl:call-template name="mir.footer" />
           <xsl:call-template name="mir.powered_by" />
         </footer>
@@ -104,7 +104,7 @@
           <!-- Bootstrap & Query-Ui button conflict workaround  -->
           if (jQuery.fn.button){jQuery.fn.btn = jQuery.fn.button.noConflict();}
         </script>
-        <script type="text/javascript" src="{$WebApplicationBaseURL}assets/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="{$WebApplicationBaseURL}assets/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script type="text/javascript" src="{$WebApplicationBaseURL}assets/jquery/plugins/jquery-confirm/jquery.confirm.min.js"></script>
         <script type="text/javascript" src="{$WebApplicationBaseURL}js/mir/base.min.js"></script>
         <script>
@@ -116,7 +116,7 @@
               cancelButton: "<xsl:value-of select="i18n:translate('mir.confirm.cancelButton')" />",
               post: false,
               confirmButtonClass: "btn-danger",
-              cancelButtonClass: "btn-default",
+              cancelButtonClass: "btn-secondary",
               dialogClass: "modal-dialog modal-lg" // Bootstrap classes for large modal
             }
           });

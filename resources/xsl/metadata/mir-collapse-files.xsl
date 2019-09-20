@@ -27,17 +27,17 @@
 
             <div id="files{@xlink:href}" class="file_box">
               <div class="row header">
-                <div class="col-xs-12">
+                <div class="col-12">
                   <div class="headline">
                     <div class="title">
-                      <a class="btn btn-primary btn-sm file_toggle" data-toggle="collapse" href="#collapse{@xlink:href}" aria-expanded="false" aria-controls="collapse{@xlink:href}">
+                      <a class="btn btn-primary btn-sm file_toggle dropdown-toggle" data-toggle="collapse" href="#collapse{@xlink:href}" aria-expanded="false" aria-controls="collapse{@xlink:href}">
                         <span>
                           <xsl:choose>
                             <xsl:when test="$derivateXML//titles/title[@xml:lang=$CurrentLang]">
                               <xsl:value-of select="$derivateXML//titles/title[@xml:lang=$CurrentLang]" />
                             </xsl:when>
                             <xsl:when test="not(contains($derivateXML/mycorederivate/@label,'data object from'))">
-                              <xsl:value-of select="i18n:translate(concat('metadata.files.file.', $derivateXML/mycorederivate/@label))" />
+                              <xsl:value-of select="i18n:translate(concat('metadata.files.file.', $derivateXML//classification[@classid='derivate_types']/@categid))" />
                             </xsl:when>
                             <xsl:otherwise>
                               <xsl:value-of select="i18n:translate('metadata.files.file')" />
@@ -49,7 +49,6 @@
                             <xsl:value-of select="position()" />
                           </span>
                         </xsl:if -->
-                        <span class="caret"></span>
                       </a>
 
                     </div>
@@ -80,14 +79,14 @@
                   </div>
                   <noscript>
                     <br />
-                    <a href="{$ServletsBaseURL}MCRFileNodeServlet/{$derId}">
+                  <a href="{$ServletsBaseURL}MCRFileNodeServlet/{$derId}/">
                       <xsl:value-of select="i18n:translate('metadata.files.toDerivate')" />
                     </a>
                   </noscript>
                 </xsl:when>
                 <xsl:otherwise>
-                  <div id="collapse{@xlink:href}" class="row body collapse in">
-                    <div class="col-xs-12">
+                  <div id="collapse{@xlink:href}" class="row body collapse in show">
+                    <div class="col-12">
                       <xsl:value-of select="i18n:translate('mir.derivate.no_access')" />
                     </div>
                   </div>
@@ -133,41 +132,36 @@
         </xsl:if>
 
         <!-- START: Add download button for perspectivia -->
-        
         <xsl:for-each select="mycoreobject/structure/derobjects/derobject[key('rights', @xlink:href)/@read]">
-          <xsl:variable name="derId" select="@xlink:href" />
-          <xsl:variable name="derivateXML" select="document(concat('mcrobject:',$derId))" />
-          <xsl:if test="not(contains($derivateXML/mycorederivate/@label,'thumbnail')) and
-                        not(contains($derivateXML/mycorederivate/@label,'toc')) and
-                        not(contains($derivateXML/mycorederivate/@label,'presentation')) and
-                        not(contains($derivateXML/mycorederivate/@label,'additional_av')) and
-                        not(contains($derivateXML/mycorederivate/@label,'navigation'))">
+          <xsl:if test="not(contains(classification[@classid='derivate_types']/@categid,'thumbnail')) and
+                        not(contains(classification[@classid='derivate_types']/@categid,'toc')) and
+                        not(contains(classification[@classid='derivate_types']/@categid,'presentation')) and
+                        not(contains(classification[@classid='derivate_types']/@categid,'additional_av')) and
+                        not(contains(classification[@classid='derivate_types']/@categid,'navigation'))">
             <div id="repper-download-box">
-              <xsl:variable name="maindoc" select="$derivateXML/mycorederivate/derivate/internals/internal/@maindoc" />
-              <a href="{$WebApplicationBaseURL}servlets/MCRFileNodeServlet/{$derId}/{$maindoc}" class="btn btn-default" style="background-color: #75adad;border-color: #75adad;margin-bottom: 10px;width: 100%;">
-                <i style="margin-right: 5px;" class="fa fa-download"></i>Download</a>
+              <a href="{$WebApplicationBaseURL}servlets/MCRFileNodeServlet/{@xlink:href}/{maindoc}" class="btn btn-secondary" style="background-color: #75adad;border-color: #75adad;margin-bottom: 10px;width: 100%;">
+                <i style="margin-right: 5px;" class="fas fa-download"></i>Download</a>
             </div>
           </xsl:if>
         </xsl:for-each>
         <!-- END -->
         
         <!-- START: Add cover box for perspectivia -->
-        <xsl:if test="mycoreobject/structure/derobjects/derobject[@xlink:title='thumbnail'] and
+        <xsl:if test="mycoreobject/structure/derobjects/derobject/classification[@classid='derivate_types'][@categid='thumbnail'] and
                       mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']">
-          <xsl:variable name="derId" select="mycoreobject/structure/derobjects/derobject[@xlink:title='thumbnail']/@xlink:href" />
-          <xsl:variable name="derivateXML" select="document(concat('mcrobject:',$derId))" />
+          <xsl:variable name="derId" select="mycoreobject/structure/derobjects/derobject[classification[@classid='derivate_types'][@categid='thumbnail']]/@xlink:href" />
+          <xsl:variable name="maindoc" select="mycoreobject/structure/derobjects/derobject[classification[@classid='derivate_types'][@categid='thumbnail']]/maindoc" />
           <div id="repper-cover-box">
-            <div class="panel panel-default" id="repper_cover_panel">
-              <div class="panel-heading">
-                <h3 class="panel-title"><xsl:value-of select="i18n:translate('pp.coverPanel.title')" /></h3>
+            <div id="pp_coverCard" class="card">
+              <div class="card-header">
+                <h3 class="card-title"><xsl:value-of select="i18n:translate('pp.coverPanel.title')" /></h3>
               </div>
-              <div class="panel-body">
+              <div class="card-body">
                 <p>
-                  <xsl:variable name="maindoc" select="$derivateXML/mycorederivate/derivate/internals/internal/@maindoc" />
                   <a href="{mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']}">
                     <img src="{$WebApplicationBaseURL}servlets/MCRTileCombineServlet/THUMBNAIL/{$derId}/{$maindoc}" />
                     <br />
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
                     <xsl:text> </xsl:text>
                     <xsl:value-of select="i18n:translate('pp.coverPanel.text')" />
                   </a>

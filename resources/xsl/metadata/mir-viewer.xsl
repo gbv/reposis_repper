@@ -31,9 +31,9 @@
                 </h3>
                 <!-- show one viewer for each derivate -->
                 <xsl:for-each select="mycoreobject/structure/derobjects/derobject[key('rights', @xlink:href)/@read]">
-                  <xsl:if test="not(contains(@xlink:title,'thumbnail')) and
-                    not(contains(@xlink:title,'additional_av')) and
-                    not(contains(@xlink:title,'navigation'))">
+                  <xsl:if test="not(contains(classification[@classid='derivate_types']/@categid,'thumbnail')) and
+                    not(contains(classification[@classid='derivate_types']/@categid,'additional_av')) and
+                    not(contains(classification[@classid='derivate_types']/@categid,'navigation'))">
                     <xsl:call-template name="createViewer" />
                   </xsl:if>
                 </xsl:for-each>
@@ -85,7 +85,7 @@
             </xsl:call-template>
           </xsl:when>
           <xsl:otherwise>
-            <div class="well no-viewer">
+            <div class="card card-body bg-light no-viewer">
               <xsl:value-of select="i18n:translate('metaData.previewInProcessing', $derId)" />
             </div>
           </xsl:otherwise>
@@ -95,6 +95,22 @@
         <xsl:call-template name="createViewerContainer">
           <xsl:with-param name="viewerId" select="$viewerId" />
           <xsl:with-param name="viewerType" select="'pdf'" />
+          <xsl:with-param name="derId" select="$derId" />
+        </xsl:call-template>
+        <xsl:call-template name="loadViewer">
+          <xsl:with-param name="derivate" select="$derId" />
+          <xsl:with-param name="file" select="$mainFile" />
+        </xsl:call-template>
+        <noscript>
+          <a href="{$ServletsBaseURL}MCRFileNodeServlet/{$derId}{$mainFile}">
+            <xsl:value-of select="$mainFile" />
+          </a>
+        </noscript>
+      </xsl:when>
+      <xsl:when test="contains($mainFile, '.epub') and normalize-space(substring-after($mainFile, '.epub')) = ''">
+        <xsl:call-template name="createViewerContainer">
+          <xsl:with-param name="viewerId" select="$viewerId" />
+          <xsl:with-param name="viewerType" select="'epub'" />
           <xsl:with-param name="derId" select="$derId" />
         </xsl:call-template>
         <xsl:call-template name="loadViewer">
@@ -134,7 +150,7 @@
 
     <xsl:if test="$MIR.DFGViewer.enable='true' and  iview2xsl:hasMETSFile($derId)">
       <div class="row">
-        <div id="mir-dfgViewer" class="pull-right">
+        <div id="mir-dfgViewer" class="float-right">
           <a title="im DFG-Viewer anzeigen"
              href="{$WebApplicationBaseURL}servlets/MCRDFGLinkServlet?deriv={$derId}"
           >alternativ im<img src="{$WebApplicationBaseURL}images/logo-dfg.png" />-Viewer anzeigen
