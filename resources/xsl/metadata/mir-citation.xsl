@@ -39,7 +39,7 @@
 
     <div id="mir-citation">
       <xsl:if test="$MIR.shariff = 'show'">
-        
+
     <xsl:variable name="modsTitle">
       <xsl:apply-templates select="$mods" mode="title" />
     </xsl:variable>
@@ -66,7 +66,7 @@
              data-mail-subject="{i18n:translate('mir.shariff.subject')}: {$modsTitle}"
              data-mail-url="mailto:"
              data-services="{$MIR.shariff.services}"
-             data-url="{$shariffURL}" 
+             data-url="{$shariffURL}"
              ></div>
       </xsl:if>
       <xsl:if test="//mods:mods/mods:identifier[@type='doi'] and ($MIR.altmetrics = 'show' or $MIR.plumx = 'show')">
@@ -151,7 +151,7 @@
               <xsl:value-of select="$doi" />
             </a>
             <br />
-            <a id="copy_cite_link" class="btn btn-info btn-sm" href="#" title="{i18n:translate('mir.citationLink.title')}">
+            <a id="copy_cite_link" class="badge badge-info" href="#" title="{i18n:translate('mir.citationLink.title')}">
               <xsl:value-of select="i18n:translate('mir.citationLink')" />
             </a>
           </xsl:when>
@@ -161,7 +161,7 @@
               <xsl:value-of select="$urn" />
             </a>
             <br />
-            <a id="copy_cite_link" class="btn btn-info btn-sm" href="#" title="{i18n:translate('mir.citationLink.title')}">
+            <a id="copy_cite_link" class="badge badge-info" href="#" title="{i18n:translate('mir.citationLink.title')}">
               <xsl:value-of select="i18n:translate('mir.citationLink')" />
             </a>
           </xsl:when>
@@ -188,7 +188,7 @@
               </xsl:otherwise>
             </xsl:choose>
             <br />
-            <a id="copy_cite_link" href="#" class="btn btn-info btn-sm" title="{i18n:translate('mir.citationLink.title')}">
+            <a id="copy_cite_link" href="#" class="badge badge-info" title="{i18n:translate('mir.citationLink.title')}">
               <xsl:value-of select="i18n:translate('mir.citationLink')" />
             </a>
           </xsl:otherwise>
