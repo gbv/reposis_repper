@@ -375,6 +375,11 @@ html body footer .internal_links {
   background-color: transparent;
 }
 
+.flatmir-footer .dropdown-item.active {
+  color: #656565;
+  background-color: transparent;
+}
+
 #pp_footer-nav {
   margin-left: 40px;
 }
@@ -491,7 +496,9 @@ html body footer .internal_links {
   line-height: 36px;
 }
 .mir-player {
-  margin-top: 46px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: none;
 }
 
 /* fix space between Abstract and  "weiterlesen" */
@@ -734,6 +741,10 @@ a.readmore {
 .mycoreViewer .navbar {
   border-top: 0px solid #75adad;
   border-bottom: 0px solid #75adad;
+}
+
+.mycoreViewer .navbar button[data-id=MaximizeButton] {
+  margin-right: 25px;
 }
 
 #pp_coverCard .card-body {

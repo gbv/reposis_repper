@@ -72,10 +72,16 @@
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <h4 class="modal-title" id="oasGraphTitel">
+                  <xsl:value-of select="i18n:translate('mir.oas.panelheading')" />
+                </h4>
+                <button
+                  type="button"
+                  class="close modalFrame-cancel"
+                  data-dismiss="modal"
+                  aria-label="Close">
                   <i class="fas fa-times" aria-hidden="true"></i>
                 </button>
-                <h4 class="modal-title" id="oasGraphTitel"><xsl:value-of select="i18n:translate('mir.oas.panelheading')" /></h4>
               </div>
               <div class="modal-body">
                 <div id="oasGraph" style="width:100%;height:200px;"
