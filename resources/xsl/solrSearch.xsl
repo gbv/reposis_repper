@@ -36,8 +36,8 @@
       <xsl:variable name="mcrobject" select="document(concat('mcrobject:', $id))" />
         <div class="col-xs-4 col-md-2">
           <xsl:call-template name="displayPreviewIMG">
-            <xsl:with-param name="derivateID"
-                            select="$mcrobject/mycoreobject/structure/derobjects/derobject[1]/@xlink:href" />
+            <xsl:with-param name="derobject"
+              select="$mcrobject/mycoreobject/structure/derobjects/derobject[classification[@classid='derivate_types'][@categid='thumbnail']]" />
             <xsl:with-param name="defaultThumbnail" select="$thumbnail" />
           </xsl:call-template>
         </div>
@@ -59,19 +59,17 @@
 </xsl:template>
 
   <xsl:template name="displayPreviewIMG">
-    <xsl:param name="derivateID" />
+    <xsl:param name="derobject" />
     <xsl:param name="defaultThumbnail" />
     <xsl:variable name="defaultThumbnailImg">
       <img class="img-responsive" src="{$defaultThumbnail}" />
     </xsl:variable>
 
     <xsl:choose>
-      <xsl:when test="string-length($derivateID)&gt;0">
-        <xsl:variable name="derivate" select="document(concat('mcrobject:',$derivateID))" />
-        <xsl:variable name="maindoc"
-                      select="$derivate/mycorederivate/derivate/internals[@class='MCRMetaIFS']/internal/@maindoc" />
-        <xsl:variable name="contentType"
-                      select="document(concat('ifs:/',$derivateID))/mcr_directory/children/child[name=$maindoc]/contentType" />
+      <xsl:when test="string-length($derobject)&gt;0">
+        <xsl:variable name="derivateID" select="$derobject/@xlink:href" />
+        <xsl:variable name="maindoc" select="$derobject/maindoc" />
+        <xsl:variable name="contentType" select="document(concat('ifs:/',$derivateID))/mcr_directory/children/child[name=$maindoc]/contentType" />
         <xsl:variable name="fileEnding_">
           <xsl:call-template name="get-file-extension">
             <xsl:with-param name="path" select="$maindoc" />
@@ -80,12 +78,8 @@
         <xsl:variable name="fileEnding" select="translate($fileEnding_, $uppercase, $lowercase)" />
         <xsl:choose>
           <xsl:when test="$fileEnding='pdf'">
-            <a href="{concat($WebApplicationBaseURL, 'rsc/viewer/', $derivateID, '/', encoder:encode($maindoc))}">
-              <a href="{concat($WebApplicationBaseURL, 'rsc/viewer/', $derivateID, '/', encoder:encode($maindoc))}">
-                <img class="img-responsive"
-                     src="{concat($WebApplicationBaseURL, 'img/pdfthumb/', $derivateID, '/', encoder:encode($maindoc), '?centerThumb=no')}" />
-              </a>
-            </a>
+            <img class="img-responsive"
+                 src="{concat($WebApplicationBaseURL, 'img/pdfthumb/', $derivateID, '/', encoder:encode($maindoc), '?centerThumb=no')}" />
           </xsl:when>
           <xsl:when
             test="string-length($fileEnding)&gt;0 and string-length($contentType)&gt;0 and contains($MCR.Module-iview2.SupportedContentTypes, $contentType)">
