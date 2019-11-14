@@ -66,8 +66,6 @@
         <section>
           <div class="container" id="page">
             <div id="main_content">
-              <!-- TODO: remove print.beta after completely migration -->
-              <xsl:call-template name="print.beta" />
               <xsl:call-template name="print.writeProtectionMessage" />
               <xsl:call-template name="print.statusMessage" />
 

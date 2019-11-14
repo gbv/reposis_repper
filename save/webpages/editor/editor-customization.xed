@@ -271,11 +271,17 @@
     <xed:include ref="genres.publication.common" />
   </xed:template>
 
-  <xed:template id="working_paper">
+  <xed:template id="genres.source_edition">
+    <xed:include ref="titles.thesis.common" />
+    <xed:include ref="genres.journal.common" />
+    <xed:include ref="link" />
+  </xed:template>
+
+  <xed:template id="genres.working_paper">
     <xed:include ref="genres.report.common" />
   </xed:template>
 
-  <xed:template id="database">
+  <xed:template id="genres.database">
     <xed:include ref="genres.report.common" />
   </xed:template>
 

@@ -216,15 +216,4 @@
 
   </xsl:template>
 
-  <xsl:template name="print.beta">
-    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-      <xsl:value-of select="i18n:translate('pp.printBeta.title')"/>
-      <xsl:text> </xsl:text>
-      <xsl:value-of select="i18n:translate('pp.printBeta.text')" disable-output-escaping="yes" />
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&#215;</span>
-      </button>
-    </div>
-  </xsl:template>
-
 </xsl:stylesheet>
