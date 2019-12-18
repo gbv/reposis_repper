@@ -6,7 +6,7 @@
 
   <xsl:template match="/mcr_error">
     <div class="row">
-      <div class="col-md-8" lang="de">
+      <div class="col-md-8" lang="{$CurrentLang}">
         <h1>
           <xsl:value-of select="i18n:translate('pp.pageError.title')" />
         </h1>
@@ -14,7 +14,6 @@
         <xsl:choose>
           <xsl:when test="/mcr_error/@HttpError = '500'">
             <h2><xsl:value-of select="i18n:translate('pp.pageError.title.500')" /></h2>
-            <!-- <xsl:value-of select="i18n:translate('pp.pageError.text.500')" disable-output-escaping="yes" /> -->
             <xsl:value-of select="i18n:translate('pp.pageError.text.404')" disable-output-escaping="yes" />
           </xsl:when>
           <xsl:when test="/mcr_error/@HttpError = '404'">
@@ -22,23 +21,12 @@
               <xsl:value-of select="i18n:translate('pp.pageError.text.404')" disable-output-escaping="yes" />
           </xsl:when>
           <xsl:when test="/mcr_error/@HttpError = '403'">
-              <h2>Zugriff verweigert</h2>
-              <p>Sie haben keine Berechtigung diese Seite zu sehen. Melden Sie sich bitte am System an.
-              Sollten Sie trotz Anmeldung nicht die nötigen Rechte haben um diese Seite zu sehen, wenden
-              Sie sich ggf. an Ihren Administrator oder
-              schreiben Sie eine Mail an <span class="madress">perspectivia [at] maxweberstiftung.de</span>.</p>
-              <p>Vorrübergehend ist die alte perspectivia.net Webseite auch noch zu erreichen unter:
-                <a href="https://prae.perspectivia.net">prae.perspectivia.net</a>
-              <br/><br/>
-              Vielen Dank!</p>
+              <h2><xsl:value-of select="i18n:translate('pp.pageError.title.403')" /></h2>
+            <xsl:value-of select="i18n:translate('pp.pageError.text.403')" disable-output-escaping="yes" />
           </xsl:when>
           <xsl:otherwise>
               <h2><xsl:value-of select="."></xsl:value-of></h2>
-              <p>Es ist leider ein Fehler aufgetreten. Sollte dies wiederholt der Fall sein,
-              schreiben Sie bitte eine Mail an <span class="madress">dms-list [at] lists.gbv.de</span> und
-              schildern kurz wie es dazu kam.
-              <br/><br/>
-              Vielen Dank!</p>
+            <xsl:value-of select="i18n:translate('pp.pageError.text.otherwise')" disable-output-escaping="yes" />
           </xsl:otherwise>
         </xsl:choose>
       </div>
