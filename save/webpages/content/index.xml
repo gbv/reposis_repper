@@ -1,671 +1,459 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Willkommen">
+<MyCoReWebPage><section xml:lang="de" title="Willkommen"><div>
+<div id="pp_boxContainer">
+<div id="pp_arrowToMIR"> </div>
 
-      <div id="pp_boxContainer">
+<div id="pp_arrowToSources"> </div>
 
-        <div id="pp_arrowToMIR">&#160;</div>
-        <div id="pp_arrowToSources">&#160;</div>
-        <div id="pp_arrowToJournals">&#160;</div>
+<div id="pp_arrowToJournals"> </div>
 
-        <div class="row" id="pp_index_boxes">
-          <div class="offset-md-2 col-md-8" lang="de">
-            <div class="card"><!--TODO: replace panel-default -->
-              <div class="card-header">
-                <h2 class="card-title" style="width:100%">
-                  Freier Zugang zu Wissen
-                </h2>
-              </div>
-              <div class="card-body">
-                <p>
-                  Die elektronische Publikationsplattform perspectivia.net versteht sich als ein internationales, epochenübergreifendes und
-                  interdisziplinäres Portal für geisteswissenschaftliche Publikationen. Als Infrastruktur der Max Weber Stiftung – Deutsche
-                  Geisteswissenschaftliche Institute im Ausland werden hier die von den Instituten und ihren Kooperationspartnern herausgegebenen
-                  Publikationen frei zugänglich gemacht. Die Max Weber Stiftung ist den Prinzipien des Open Access verpflichtet und perspectivia.net
-                  fördert den freien Zugang zu Wissen und begleitet die Transformation der Geisteswissenschaften in Richtung einer offenen Wissenschaft.
-                  <br /><br />
-                </p>
-              </div>
-              <div class="card-footer pp_more">
-                <a href="about/index.xml"><strong>... mehr erfahren</strong></a>
-              </div>
-            </div>
-          </div>
-        </div>
+<div class="row" id="pp_index_boxes">
+<div class="offset-md-2 col-md-8" lang="de">
+<div class="card"><!--TODO: replace panel-default -->
+<div class="card-header">
+<h2 class="card-title" style="width:100%">Freier Zugang zu Wissen</h2>
+</div>
 
-        <div class="row" id="pp_index_boxes">
-            <div class="col-md-4 mb-2" lang="de">
-                <div class="card"><!--TODO: replace panel-default -->
-                    <div class="card-header">
-                        <h2 class="card-title" style="width:100%">
-                            Publikationsserver
-                        </h2>
-                    </div>
-                    <div class="card-body">
-                        <p>
-                            Digitale Erst- und Zweitveröffentlichungen der Institute der Max Weber Stiftung und ihren
-                            Partnern. Neben Zeitschriften, Schriftenreihen und Einzelveröffentlichungen werden auch
-                            Vorträge in Form von Audio- oder Videodateien veröffentlicht.
-                        </p>
-                    </div>
-                    <div class="card-footer pp_more">
-                        <a href="../servlets/MCRActionMappingServlet/search/simple"><strong>... zur Suche</strong></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-2">
-                <div class="card"><!--TODO: replace panel-default -->
-                    <div class="card-header">
-                        <h2 class="card-title">
-                            Quellen und Datenbanken
-                        </h2>
-                    </div>
-                    <div class="card-body">
-                        <p>
-                            Digitalisierte Quellensammlungen, historische Datenbestände und kritische Editionen aus der
-                            Forschungsarbeit der Institute und ihrer Partner.
-                        </p>
-                    </div>
-                    <div class="card-footer pp_more">
-                        <a href="publications/sources.xml">
-                            <strong>... zur Übersicht</strong>
-                            <img src="../images/external_link.svg" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-2">
-                <div class="card"><!--TODO: replace panel-default -->
-                    <div class="card-header">
-                        <h2 class="card-title">
-                            Digitale Zeitschriften
-                        </h2>
-                    </div>
-                    <div class="card-body">
-                        <p>
-                            Die Plattform perspectivia.net bietet einen Publikationsservice für frei zugängliche Online-Zeitschriften an.
-                            Auf Basis der Open Source-Software Open Journal Systems (OJS) haben die Institute der Max Weberstiftung die
-                            Möglichkeit E-Journals herauszugeben.
-                        </p>
-                    </div>
-                    <div class="card-footer pp_more">
-                        <a href="publications/journals.xml">
-                            <strong>... zur Übersicht</strong>
-                            <img src="../images/external_link.svg" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+<div class="card-body">
+<p>Die elektronische Publikationsplattform perspectivia.net versteht sich als ein internationales, epochenübergreifendes und interdisziplinäres Portal für geisteswissenschaftliche Publikationen. Als Infrastruktur der Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland werden hier die von den Instituten und ihren Kooperationspartnern herausgegebenen Publikationen frei zugänglich gemacht. Die Max Weber Stiftung ist den Prinzipien des Open Access verpflichtet und perspectivia.net fördert den freien Zugang zu Wissen und begleitet die Transformation der Geisteswissenschaften in Richtung einer offenen Wissenschaft.<br />
+ </p>
+</div>
 
-      </div>
+<div class="card-footer pp_more"><a href="about/index.xml"><strong>... mehr erfahren</strong></a></div>
+</div>
+</div>
+</div>
 
-      <div class="row">
-        <div class="col-12" lang="de">
+<div class="row" id="pp_index_boxes">
+<div class="col-md-4 mb-2" lang="de">
+<div class="card"><!--TODO: replace panel-default -->
+<div class="card-header">
+<h2 class="card-title" style="width:100%">Publikationsserver</h2>
+</div>
 
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="0">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-            </ol>
+<div class="card-body">
+<p>Digitale Erst- und Zweitveröffentlichungen der Institute der Max Weber Stiftung und ihren Partnern. Neben Zeitschriften, Schriftenreihen und Einzelveröffentlichungen werden auch Vorträge in Form von Audio- oder Videodateien veröffentlicht.</p>
+</div>
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active">
-                <div class="row carousel-item__content-box">
-                  <div class="col-sm-4 text-center text-sm-right mb-3">
-                    <img
-                      src="../images/logos/francia-recensio.png"
-                      class="img-fluid"
-                      alt="Cover Rezensionsjournal Francia-Recensio" />
-                  </div>
-                  <div class="col-sm-8">
-                    <h1>Francia-Recensio</h1>
-                    <p>
-                        Das digitale Rezensionsjournal »Francia-Recensio«, herausgegeben vom Deutschen Historischen Institut Paris, erscheint
-                        pro Jahr in vier Aus&#173;gaben. Besprochen werden – in deutscher, französischer und englischer Sprache – Werke zur
-                        westeuropäischen Geschichte. Seit Ausgabe 3/2017 erscheint Francia-Recensio im neuen Gewand.
-                    </p>
-                    <p>
-                        Erstmalig sind alle Rezensionen mit einer DOI versehen, die für jeden einzelnen Text als verbindlicher und permanenter
-                        Zitationsnachweis gilt. Für die Umsetzung mit der Software Open Journal Systems kooperiert perspectivia.net mit der
-                        Universitätsbibliothek Heidelberg.
-                    </p>
-                    <p>
-                        Ältere Ausgaben von »Francia-Recensio« sind auf der Publikationsplattform perspectivia.net zugänglich.<br />
-                        Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/frrec/"
-                            >http://journals.ub.uni-heidelberg.de/index.php/frrec/</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row carousel-item__content-box">
-                  <div class="col-sm-4 text-center text-sm-right mb-3">
-                    <img
-                      src="../images/logos/francia.jpg"
-                      class="img-fluid"
-                      alt="Cover der Zeitschrift Francia" />
-                  </div>
-                  <div class="col-sm-8">
-                    <h1>Francia</h1>
-                    <p>
-                        Die Zeitschrift »Francia. Forschungen zur westeuropäischen Geschichte« erscheint einmal jährlich in einem Band von ca.
-                        500 Seiten in gedruckter Form und seit Band 39 (2012) auch als E-Book. Sie enthält Beiträge in deutscher, französischer
-                        oder englischer Sprache. Für den Aufsatzteil gibt es zudem dreisprachige Resümees. Über die Annahme der Beiträge
-                        entscheidet ein internationales Gutachtergremium im Peer-Review-Verfahren. Die Rezensionen werden seit Band 35 (2008) in
-                        vier Ausgaben pro Jahr online als Francia-Recensio veröffentlicht.
-                    </p>
-                    <p>
-                        Die seit 1973 erschienenen Bände der »Francia« sind mit einer Moving Wall von einem Jahr retrodigitalisiert
-                        <a href="http://journals.ub.uni-heidelberg.de/index.php/fr/">hier</a> und über perspectivia.net kostenfrei zugänglich.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row carousel-item__content-box">
-                  <div class="col-sm-4 text-center text-sm-right mb-3">
-                    <img
-                      src="../images/logos/fantin-latour_scholder.png"
-                      class="img-fluid"
-                      alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" />
-                  </div>
-                  <div class="col-sm-8">
-                    <h1>Briefwechsel Fantin-Latour &amp; Scholderer</h1>
-                    <h2>DFK Paris</h2>
-                    <p>
-                        Henri Fantin-Latour und Otto Scholderer verband seit ihrer Begegnung 1848 in Paris bis ins Jahr 1900 hinein eine intensive
-                        Brieffreundschaft. Die beiden Künstler haben sich dabei über ihre Sicht auf die Politik ihrer Zeit, die Ausübung ihrer Kunst
-                        sowie ältere und zeitgenössische Künstler ausgetauscht.  Die 306 auf Französisch verfassten Briefe, die die Korrespondenz
-                        zwischen Henri Fantin-Latour und Otto Scholderer umfasst, werden von der Stiftung Custodia und der Universitätsbibliothek
-                        Frankfurt aufbewahrt. Die handschriftlichen Originaldokumente wurden ab 2004 im Rahmen eines von Thomas W. Gaehtgens
-                        geleiteten und vom Deutschen Forum für Kunstgeschichte in Paris finanzierten Forschungsprojekts von Mathilde Arnoux und Anne
-                        Tempelaere-Panzani vollständig transkribiert und mit kritischen Anmerkungen versehen.
-                    </p>
-                    <p>
-                        Briefedition digital: <a href="https://www.perspectivia.net/quellen/fantin-scholderer">Correspondance Fantin-Latour &amp; Scholderer</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row carousel-item__content-box">
-                  <div class="col-sm-4 text-center text-sm-right mb-3">
-                    <img
-                      src="../images/logos/pacelli.jpg"
-                      class="img-fluid"
-                      alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" />
-                  </div>
-                  <div class="col-sm-8">
-                    <h1>Pacelli – Nuntiaturberichte 1917-29</h1>
-                    <h2>Deutsches Historisches Institut Rom</h2>
-                    <p>
-                        Eugenio Pacelli, der spätere Papst Pius XII. (1939-1958), ist eine der bekanntesten und umstrittensten Persönlichkeiten des
-                        20. Jahrhunderts. Die Berichte Pacellis (etwa 5.500) und die Weisungen aus Rom an den Nuntius in Deutschland (etwa 4.100)
-                        werden in Zusammenarbeit mit dem Vatikanischen Geheimarchiv und dem Deutschen Historischen Institut in Rom komplett mit
-                        Anlagen (etwa 4.500) erfasst, kritisch ediert, kommentiert, ausgewertet und Wissenschaftlern ebenso wie einer breiten
-                        internationalen Öffentlichkeit zugänglich gemacht.
-                    </p>
-                    <p>
-                        Zur Datenbank: <a href="http://www.pacelli-edition.de/index_pacelli.html">http://www.pacelli-edition.de/index_pacelli.html</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+<div class="card-footer pp_more"><a href="../servlets/MCRActionMappingServlet/search/simple"><strong>... zur Suche</strong></a></div>
+</div>
+</div>
 
-      </div>
-    </section>
+<div class="col-md-4 mb-2">
+<div class="card"><!--TODO: replace panel-default -->
+<div class="card-header">
+<h2 class="card-title">Quellen und Datenbanken</h2>
+</div>
 
-    <section xml:lang="en" title="Welcome">
+<div class="card-body">
+<p>Digitalisierte Quellensammlungen, historische Datenbestände und kritische Editionen aus der Forschungsarbeit der Institute und ihrer Partner.</p>
+</div>
 
-        <div id="pp_boxContainer">
+<div class="card-footer pp_more"><a href="../servlets/solr/find?fq=mods.genre:source_edition"><strong>... zur Übersicht</strong> <!-- img src="../images/external_link.svg" / --> </a></div>
+</div>
+</div>
 
-            <div id="pp_arrowToMIR">&#160;</div>
-            <div id="pp_arrowToSources">&#160;</div>
-            <div id="pp_arrowToJournals">&#160;</div>
+<div class="col-md-4 mb-2">
+<div class="card"><!--TODO: replace panel-default -->
+<div class="card-header">
+<h2 class="card-title">Blogs</h2>
+</div>
 
-            <div class="row" id="pp_index_boxes">
-                <div class="offset-md-2 col-md-8" lang="en">
-                    <div class="card"><!--TODO: replace panel-default -->
-                        <div class="card-header">
-                            <h2 class="card-title" style="width:100%">
-                                Free access to knowledge
-                            </h2>
-                        </div>
-                        <div class="card-body">
-                            <p>
-                                The publication platform perspectivia.net sees itself as an international, epoch-spanning and interdisciplinary portal for digital publications
-                                in the humanities. This infrastructure of the Max Weber Foundation - German Humanities Institutes Abroad provides free access to the publications
-                                by the institutes and their cooperation partners. This Max Weber Foundation is committed to the principles of Open Access, thus perspectivia.net
-                                promotes free access to knowledge and accompanies the transformation of the humanities towards an open science.
-                                <br /><br />
-                            </p>
-                        </div>
-                        <div class="card-footer pp_more">
-                            <a href="about/index.xml"><strong>... more</strong></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div class="card-body">
+<p>Wissen in Verbindung</p>
 
-            <div class="row" id="pp_index_boxes">
-                <div class="col-md-4" lang="en">
-                    <div class="card"><!--TODO: replace panel-default -->
-                        <div class="card-header">
-                            <h2 class="card-title" style="width:100%">
-                                Publication server
-                            </h2>
-                        </div>
-                        <div class="card-body">
-                            <p>
-                                Initial digital publications and secondary publications of the institutes of the Max Weber Foundation and its partners:
-                                journals, publication series, books, articles, and lectures, also in audio and video.
-                                <br /><br />
-                            </p>
-                        </div>
-                        <div class="card-footer pp_more">
-                            <a href="search/simple.xed"><strong>... search</strong></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card"><!--TODO: replace panel-default -->
-                        <div class="card-header">
-                            <h2 class="card-title">
-                                Sources and databases
-                            </h2>
-                        </div>
-                        <div class="card-body">
-                            <p>
-                                Digital source collections, historical datasets and critical editions from of the research activities of the institutes
-                                and their partners on the perspectivia.net source portal and other platforms.
-                                <br /><br /><br /><br />
-                            </p>
-                        </div>
-                        <div class="card-footer pp_more">
-                            <a href="publications/sources.xml">
-                                <strong>... browse</strong>
-                                <img src="../images/external_link.svg" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card"><!--TODO: replace panel-default -->
-                        <div class="card-header">
-                            <h2 class="card-title">
-                                Digital journals
-                            </h2>
-                        </div>
-                        <div class="card-body">
-                            <p>
-                                The e-journals of the institutes of the Max Weber Foundation with a dedicated domain. The perspectivia.net journal service
-                                is based on Open Journal Systems (OJS).
-                            </p>
-                        </div>
-                        <div class="card-footer pp_more">
-                            <a href="publications/journals.xml">
-                                <strong>... browse</strong>
-                                <img src="../images/external_link.svg" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<p>WEBER 2.0 | WISSENSCHAFTLICHE BLOGS DER MAX WEBER STIFTUNG</p>
+</div>
 
-        </div>
+<div class="card-footer pp_more"><a href="https://mws.hypotheses.org/"><strong>... zur Übersicht</strong> <img src="../images/external_link.svg" /> </a></div>
+</div>
+</div>
+</div>
+</div>
 
-        <div class="row">
-            <div class="col-12" lang="en">
+<div class="row">
+<div class="col-12" lang="de">
+<div class="carousel slide" data-interval="0" data-ride="carousel" id="carousel-example-generic"><!-- Indicators -->
+<ol class="carousel-indicators">
+	<li class="active" data-slide-to="0" data-target="#carousel-example-generic"> </li>
+	<li data-slide-to="1" data-target="#carousel-example-generic"> </li>
+	<li data-slide-to="2" data-target="#carousel-example-generic"> </li>
+	<li data-slide-to="3" data-target="#carousel-example-generic"> </li>
+</ol>
+<!-- Wrapper for slides -->
 
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="0">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-            </ol>
+<div class="carousel-inner" role="listbox">
+<div class="carousel-item active">
+<div class="row carousel-item__content-box">
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover Rezensionsjournal Francia-Recensio" class="img-fluid" src="../images/logos/francia-recensio.png" /></div>
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active">
-                <div class="row carousel-item__content-box">
-                  <div class="col-4">
-                    <img
-                      src="../images/logos/francia-recensio.png"
-                      class="img-fluid"
-                      alt="Cover Rezensionsjournal Francia-Recensio" />
-                  </div>
-                  <div class="col-8">
-                    <h1>Francia-Recensio</h1>
-                    <p>
-                        Das digitale Rezensionsjournal »Francia-Recensio«, herausgegeben vom Deutschen Historischen Institut Paris, erscheint
-                        pro Jahr in vier Aus&#173;gaben. Besprochen werden – in deutscher, französischer und englischer Sprache – Werke zur
-                        westeuropäischen Geschichte. Seit Ausgabe 3/2017 erscheint Francia-Recensio im neuen Gewand.
-                    </p>
-                    <p>
-                        Erstmalig sind alle Rezensionen mit einer DOI versehen, die für jeden einzelnen Text als verbindlicher und permanenter
-                        Zitationsnachweis gilt. Für die Umsetzung mit der Software Open Journal Systems kooperiert perspectivia.net mit der
-                        Universitätsbibliothek Heidelberg.
-                    </p>
-                    <p>
-                        Ältere Ausgaben von »Francia-Recensio« sind auf der Publikationsplattform perspectivia.net zugänglich.<br />
-                        Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/frrec/"
-                            >http://journals.ub.uni-heidelberg.de/index.php/frrec/</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row carousel-item__content-box">
-                  <div class="col-4">
-                    <img
-                      src="../images/logos/francia.jpg"
-                      class="img-fluid"
-                      alt="Cover der Zeitschrift Francia" />
-                  </div>
-                  <div class="col-8">
-                    <h1>Francia</h1>
-                    <p>
-                        Die Zeitschrift »Francia. Forschungen zur westeuropäischen Geschichte« erscheint einmal jährlich in einem Band von ca.
-                        500 Seiten in gedruckter Form und seit Band 39 (2012) auch als E-Book. Sie enthält Beiträge in deutscher, französischer
-                        oder englischer Sprache. Für den Aufsatzteil gibt es zudem dreisprachige Resümees. Über die Annahme der Beiträge
-                        entscheidet ein internationales Gutachtergremium im Peer-Review-Verfahren. Die Rezensionen werden seit Band 35 (2008) in
-                        vier Ausgaben pro Jahr online als Francia-Recensio veröffentlicht.
-                    </p>
-                    <p>
-                        Die seit 1973 erschienenen Bände der »Francia« sind mit einer Moving Wall von einem Jahr retrodigitalisiert
-                        <a href="http://journals.ub.uni-heidelberg.de/index.php/fr/">hier</a> und über perspectivia.net kostenfrei zugänglich.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row carousel-item__content-box">
-                  <div class="col-4">
-                    <img
-                      src="../images/logos/fantin-latour_scholder.png"
-                      class="img-fluid"
-                      alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" />
-                  </div>
-                  <div class="col-8">
-                    <h1>Briefwechsel Fantin-Latour &amp; Scholderer</h1>
-                    <h2>DFK Paris</h2>
-                    <p>
-                        Henri Fantin-Latour und Otto Scholderer verband seit ihrer Begegnung 1848 in Paris bis ins Jahr 1900 hinein eine intensive
-                        Brieffreundschaft. Die beiden Künstler haben sich dabei über ihre Sicht auf die Politik ihrer Zeit, die Ausübung ihrer Kunst
-                        sowie ältere und zeitgenössische Künstler ausgetauscht.  Die 306 auf Französisch verfassten Briefe, die die Korrespondenz
-                        zwischen Henri Fantin-Latour und Otto Scholderer umfasst, werden von der Stiftung Custodia und der Universitätsbibliothek
-                        Frankfurt aufbewahrt. Die handschriftlichen Originaldokumente wurden ab 2004 im Rahmen eines von Thomas W. Gaehtgens
-                        geleiteten und vom Deutschen Forum für Kunstgeschichte in Paris finanzierten Forschungsprojekts von Mathilde Arnoux und Anne
-                        Tempelaere-Panzani vollständig transkribiert und mit kritischen Anmerkungen versehen.
-                    </p>
-                    <p>
-                        Briefedition digital: <a href="https://www.perspectivia.net/quellen/fantin-scholderer">Correspondance Fantin-Latour &amp; Scholderer</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row carousel-item__content-box">
-                  <div class="col-4">
-                    <img
-                      src="../images/logos/pacelli.jpg"
-                      class="img-fluid"
-                      alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" />
-                  </div>
-                  <div class="col-8">
-                    <h1>Pacelli – Nuntiaturberichte 1917-29</h1>
-                    <h2>Deutsches Historisches Institut Rom</h2>
-                    <p>
-                        Eugenio Pacelli, der spätere Papst Pius XII. (1939-1958), ist eine der bekanntesten und umstrittensten Persönlichkeiten des
-                        20. Jahrhunderts. Die Berichte Pacellis (etwa 5.500) und die Weisungen aus Rom an den Nuntius in Deutschland (etwa 4.100)
-                        werden in Zusammenarbeit mit dem Vatikanischen Geheimarchiv und dem Deutschen Historischen Institut in Rom komplett mit
-                        Anlagen (etwa 4.500) erfasst, kritisch ediert, kommentiert, ausgewertet und Wissenschaftlern ebenso wie einer breiten
-                        internationalen Öffentlichkeit zugänglich gemacht.
-                    </p>
-                    <p>
-                        Zur Datenbank: <a href="http://www.pacelli-edition.de/index_pacelli.html">http://www.pacelli-edition.de/index_pacelli.html</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-        </div>
-    </section>
+<div class="col-sm-8">
+<h1>Francia-Recensio</h1>
 
-    <section xml:lang="fr" title="Welcome">
+<p>Das digitale Rezensionsjournal »Francia-Recensio«, herausgegeben vom Deutschen Historischen Institut Paris, erscheint pro Jahr in vier Aus­gaben. Besprochen werden – in deutscher, französischer und englischer Sprache – Werke zur westeuropäischen Geschichte. Seit Ausgabe 3/2017 erscheint Francia-Recensio im neuen Gewand.</p>
 
-        <div id="pp_boxContainer">
+<p>Erstmalig sind alle Rezensionen mit einer DOI versehen, die für jeden einzelnen Text als verbindlicher und permanenter Zitationsnachweis gilt. Für die Umsetzung mit der Software Open Journal Systems kooperiert perspectivia.net mit der Universitätsbibliothek Heidelberg.</p>
 
-            <div id="pp_arrowToMIR">&#160;</div>
-            <div id="pp_arrowToSources">&#160;</div>
-            <div id="pp_arrowToJournals">&#160;</div>
+<p>Ältere Ausgaben von »Francia-Recensio« sind auf der Publikationsplattform perspectivia.net zugänglich.<br />
+Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/frrec/">http://journals.ub.uni-heidelberg.de/index.php/frrec/</a></p>
+</div>
+</div>
+</div>
 
-            <div class="row" id="pp_index_boxes">
-                <div class="offset-md-2 col-md-8" lang="fr">
-                    <div class="card"><!--TODO: replace panel-default -->
-                        <div class="card-header">
-                            <h2 class="card-title" style="width:100%">
-                                Libre accès au savoir
-                            </h2>
-                        </div>
-                        <div class="card-body">
-                            <p>
-                                La plateforme de publication électronique perspectivia.net se veut un portail international, interdisciplinaire et historique pour
-                                les publications en sciences humaines. L'infrastructure de la Fondation Max Weber - Instituts allemands de sciences humaines
-                                à l'étranger - rend ainsi les publications des différents instituts et de leurs partenaires librement accessibles en ligne. La
-                                Fondation Max Weber s'engage à respecter les principes de l’Open Acces et perspectivia.net promeut le libre accès au savoir et
-                                accompagne l’évolution des sciences humaines vers une science ouverte.
-                                <br /><br />
-                            </p>
-                        </div>
-                        <div class="card-footer pp_more">
-                            <a href="about/index.xml"><strong>... en savoir plus</strong></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div class="carousel-item">
+<div class="row carousel-item__content-box">
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover der Zeitschrift Francia" class="img-fluid" src="../images/logos/francia.jpg" /></div>
 
-            <div class="row" id="pp_index_boxes">
-                <div class="col-md-4" lang="fr">
-                    <div class="card"><!--TODO: replace panel-default -->
-                        <div class="card-header">
-                            <h2 class="card-title" style="width:100%">
-                                Serveur académique
-                            </h2>
-                        </div>
-                        <div class="card-body">
-                            <p>
-                                Publications primaires et secondaires des instituts de la Fondation Max Weber ainsi que de leurs partenaires. En plus des
-                                périodiques, des collections et des monographies, perspectivia.net publie également des conférences sous forme de fichiers audio
-                                ou vidéo.
-                                <br /><br />
-                            </p>
-                        </div>
-                        <div class="card-footer pp_more">
-                            <a href="search/simple.xed"><strong>... Recherche</strong></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card"><!--TODO: replace panel-default -->
-                        <div class="card-header">
-                            <h2 class="card-title">
-                                Sources et bases de données
-                            </h2>
-                        </div>
-                        <div class="card-body">
-                            <p>
-                                DRecueil de sources numérisées, ensemble de données historiques et éditions critiques, tous résultats de la recherche des instituts
-                                et de leurs partenaires.
-                                <br /><br /><br /><br />
-                            </p>
-                        </div>
-                        <div class="card-footer pp_more">
-                            <a href="publications/sources.xml">
-                                <strong>... Vue d'ensemble</strong>
-                                <img src="../images/external_link.svg" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card"><!--TODO: replace panel-default -->
-                        <div class="card-header">
-                            <h2 class="card-title">
-                                Digital journals
-                            </h2>
-                        </div>
-                        <div class="card-body">
-                            <p>
-                                La plateforme éditoriale perspectivia.net offre un service de publication de périodiques en libre accès en ligne. Grâce au
-                                logiciel libre Open Journal Systems (OJS), les instituts de la Fondation Max Weber ont la possibilité de publier des revues électroniques.
-                            </p>
-                        </div>
-                        <div class="card-footer pp_more">
-                            <a href="publications/journals.xml">
-                                <strong>... Vue d'ensemble</strong>
-                                <img src="../images/external_link.svg" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div class="col-sm-8">
+<h1>Francia</h1>
 
-        </div>
+<p>Die Zeitschrift »Francia. Forschungen zur westeuropäischen Geschichte« erscheint einmal jährlich in einem Band von ca. 500 Seiten in gedruckter Form und seit Band 39 (2012) auch als E-Book. Sie enthält Beiträge in deutscher, französischer oder englischer Sprache. Für den Aufsatzteil gibt es zudem dreisprachige Resümees. Über die Annahme der Beiträge entscheidet ein internationales Gutachtergremium im Peer-Review-Verfahren. Die Rezensionen werden seit Band 35 (2008) in vier Ausgaben pro Jahr online als Francia-Recensio veröffentlicht.</p>
 
-        <div class="row">
-            <div class="col-12" lang="fr">
+<p>Die seit 1973 erschienenen Bände der »Francia« sind mit einer Moving Wall von einem Jahr retrodigitalisiert <a href="http://journals.ub.uni-heidelberg.de/index.php/fr/">hier</a> und über perspectivia.net kostenfrei zugänglich.</p>
+</div>
+</div>
+</div>
 
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="0">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-            </ol>
+<div class="carousel-item">
+<div class="row carousel-item__content-box">
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" class="img-fluid" src="../images/logos/fantin-latour_scholder.png" /></div>
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active">
-                <div class="row carousel-item__content-box">
-                  <div class="col-4">
-                    <img
-                      src="../images/logos/francia-recensio.png"
-                      class="img-fluid"
-                      alt="Cover Rezensionsjournal Francia-Recensio" />
-                  </div>
-                  <div class="col-8">
-                    <h1>Francia-Recensio</h1>
-                    <p>
-                        Das digitale Rezensionsjournal »Francia-Recensio«, herausgegeben vom Deutschen Historischen Institut Paris, erscheint
-                        pro Jahr in vier Aus&#173;gaben. Besprochen werden – in deutscher, französischer und englischer Sprache – Werke zur
-                        westeuropäischen Geschichte. Seit Ausgabe 3/2017 erscheint Francia-Recensio im neuen Gewand.
-                    </p>
-                    <p>
-                        Erstmalig sind alle Rezensionen mit einer DOI versehen, die für jeden einzelnen Text als verbindlicher und permanenter
-                        Zitationsnachweis gilt. Für die Umsetzung mit der Software Open Journal Systems kooperiert perspectivia.net mit der
-                        Universitätsbibliothek Heidelberg.
-                    </p>
-                    <p>
-                        Ältere Ausgaben von »Francia-Recensio« sind auf der Publikationsplattform perspectivia.net zugänglich.<br />
-                        Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/frrec/"
-                            >http://journals.ub.uni-heidelberg.de/index.php/frrec/</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row carousel-item__content-box">
-                  <div class="col-4">
-                    <img
-                      src="../images/logos/francia.jpg"
-                      class="img-fluid"
-                      alt="Cover der Zeitschrift Francia" />
-                  </div>
-                  <div class="col-8">
-                    <h1>Francia</h1>
-                    <p>
-                        Die Zeitschrift »Francia. Forschungen zur westeuropäischen Geschichte« erscheint einmal jährlich in einem Band von ca.
-                        500 Seiten in gedruckter Form und seit Band 39 (2012) auch als E-Book. Sie enthält Beiträge in deutscher, französischer
-                        oder englischer Sprache. Für den Aufsatzteil gibt es zudem dreisprachige Resümees. Über die Annahme der Beiträge
-                        entscheidet ein internationales Gutachtergremium im Peer-Review-Verfahren. Die Rezensionen werden seit Band 35 (2008) in
-                        vier Ausgaben pro Jahr online als Francia-Recensio veröffentlicht.
-                    </p>
-                    <p>
-                        Die seit 1973 erschienenen Bände der »Francia« sind mit einer Moving Wall von einem Jahr retrodigitalisiert
-                        <a href="http://journals.ub.uni-heidelberg.de/index.php/fr/">hier</a> und über perspectivia.net kostenfrei zugänglich.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row carousel-item__content-box">
-                  <div class="col-4">
-                    <img
-                      src="../images/logos/fantin-latour_scholder.png"
-                      class="img-fluid"
-                      alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" />
-                  </div>
-                  <div class="col-8">
-                    <h1>Briefwechsel Fantin-Latour &amp; Scholderer</h1>
-                    <h2>DFK Paris</h2>
-                    <p>
-                        Henri Fantin-Latour und Otto Scholderer verband seit ihrer Begegnung 1848 in Paris bis ins Jahr 1900 hinein eine intensive
-                        Brieffreundschaft. Die beiden Künstler haben sich dabei über ihre Sicht auf die Politik ihrer Zeit, die Ausübung ihrer Kunst
-                        sowie ältere und zeitgenössische Künstler ausgetauscht.  Die 306 auf Französisch verfassten Briefe, die die Korrespondenz
-                        zwischen Henri Fantin-Latour und Otto Scholderer umfasst, werden von der Stiftung Custodia und der Universitätsbibliothek
-                        Frankfurt aufbewahrt. Die handschriftlichen Originaldokumente wurden ab 2004 im Rahmen eines von Thomas W. Gaehtgens
-                        geleiteten und vom Deutschen Forum für Kunstgeschichte in Paris finanzierten Forschungsprojekts von Mathilde Arnoux und Anne
-                        Tempelaere-Panzani vollständig transkribiert und mit kritischen Anmerkungen versehen.
-                    </p>
-                    <p>
-                        Briefedition digital: <a href="https://www.perspectivia.net/quellen/fantin-scholderer">Correspondance Fantin-Latour &amp; Scholderer</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row carousel-item__content-box">
-                  <div class="col-4">
-                    <img
-                      src="../images/logos/pacelli.jpg"
-                      class="img-fluid"
-                      alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" />
-                  </div>
-                  <div class="col-8">
-                    <h1>Pacelli – Nuntiaturberichte 1917-29</h1>
-                    <h2>Deutsches Historisches Institut Rom</h2>
-                    <p>
-                        Eugenio Pacelli, der spätere Papst Pius XII. (1939-1958), ist eine der bekanntesten und umstrittensten Persönlichkeiten des
-                        20. Jahrhunderts. Die Berichte Pacellis (etwa 5.500) und die Weisungen aus Rom an den Nuntius in Deutschland (etwa 4.100)
-                        werden in Zusammenarbeit mit dem Vatikanischen Geheimarchiv und dem Deutschen Historischen Institut in Rom komplett mit
-                        Anlagen (etwa 4.500) erfasst, kritisch ediert, kommentiert, ausgewertet und Wissenschaftlern ebenso wie einer breiten
-                        internationalen Öffentlichkeit zugänglich gemacht.
-                    </p>
-                    <p>
-                        Zur Datenbank: <a href="http://www.pacelli-edition.de/index_pacelli.html">http://www.pacelli-edition.de/index_pacelli.html</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-        </div>
-    </section>
+<div class="col-sm-8">
+<h1>Briefwechsel Fantin-Latour &amp; Scholderer</h1>
 
-    <meta><log lastEditor="kneumann" date="2018-06-21" time="10:41" /></meta>
-</MyCoReWebPage>
+<h2>DFK Paris</h2>
+
+<p>Henri Fantin-Latour und Otto Scholderer verband seit ihrer Begegnung 1848 in Paris bis ins Jahr 1900 hinein eine intensive Brieffreundschaft. Die beiden Künstler haben sich dabei über ihre Sicht auf die Politik ihrer Zeit, die Ausübung ihrer Kunst sowie ältere und zeitgenössische Künstler ausgetauscht. Die 306 auf Französisch verfassten Briefe, die die Korrespondenz zwischen Henri Fantin-Latour und Otto Scholderer umfasst, werden von der Stiftung Custodia und der Universitätsbibliothek Frankfurt aufbewahrt. Die handschriftlichen Originaldokumente wurden ab 2004 im Rahmen eines von Thomas W. Gaehtgens geleiteten und vom Deutschen Forum für Kunstgeschichte in Paris finanzierten Forschungsprojekts von Mathilde Arnoux und Anne Tempelaere-Panzani vollständig transkribiert und mit kritischen Anmerkungen versehen.</p>
+
+<p>Briefedition digital: <a href="https://www.perspectivia.net/quellen/fantin-scholderer">Correspondance Fantin-Latour &amp; Scholderer</a></p>
+</div>
+</div>
+</div>
+
+<div class="carousel-item">
+<div class="row carousel-item__content-box">
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" class="img-fluid" src="../images/logos/pacelli.jpg" /></div>
+
+<div class="col-sm-8">
+<h1>Pacelli – Nuntiaturberichte 1917-29</h1>
+
+<h2>Deutsches Historisches Institut Rom</h2>
+
+<p>Eugenio Pacelli, der spätere Papst Pius XII. (1939-1958), ist eine der bekanntesten und umstrittensten Persönlichkeiten des 20. Jahrhunderts. Die Berichte Pacellis (etwa 5.500) und die Weisungen aus Rom an den Nuntius in Deutschland (etwa 4.100) werden in Zusammenarbeit mit dem Vatikanischen Geheimarchiv und dem Deutschen Historischen Institut in Rom komplett mit Anlagen (etwa 4.500) erfasst, kritisch ediert, kommentiert, ausgewertet und Wissenschaftlern ebenso wie einer breiten internationalen Öffentlichkeit zugänglich gemacht.</p>
+
+<p>Zur Datenbank: <a href="http://www.pacelli-edition.de/index_pacelli.html">http://www.pacelli-edition.de/index_pacelli.html</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section xml:lang="en" title="Welcome"><div>
+<div id="pp_boxContainer">
+<div id="pp_arrowToMIR"> </div>
+
+<div id="pp_arrowToSources"> </div>
+
+<div id="pp_arrowToJournals"> </div>
+
+<div class="row" id="pp_index_boxes">
+<div class="offset-md-2 col-md-8" lang="en">
+<div class="card"><!--TODO: replace panel-default -->
+<div class="card-header">
+<h2 class="card-title" style="width:100%">Free access to knowledge</h2>
+</div>
+
+<div class="card-body">
+<p>The publication platform perspectivia.net sees itself as an international, epoch-spanning and interdisciplinary portal for digital publications in the humanities. This infrastructure of the Max Weber Foundation - German Humanities Institutes Abroad provides free access to the publications by the institutes and their cooperation partners. This Max Weber Foundation is committed to the principles of Open Access, thus perspectivia.net promotes free access to knowledge and accompanies the transformation of the humanities towards an open science.<br />
+ </p>
+</div>
+
+<div class="card-footer pp_more"><a href="about/index.xml"><strong>... more</strong></a></div>
+</div>
+</div>
+</div>
+
+<div class="row" id="pp_index_boxes">
+<div class="col-md-4" lang="en">
+<div class="card"><!--TODO: replace panel-default -->
+<div class="card-header">
+<h2 class="card-title" style="width:100%">Publication server</h2>
+</div>
+
+<div class="card-body">
+<p>Initial digital publications and secondary publications of the institutes of the Max Weber Foundation and its partners: journals, publication series, books, articles, and lectures, also in audio and video.<br />
+ </p>
+</div>
+
+<div class="card-footer pp_more"><a href="search/simple.xed"><strong>... search</strong></a></div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card"><!--TODO: replace panel-default -->
+<div class="card-header">
+<h2 class="card-title">Sources and databases</h2>
+</div>
+
+<div class="card-body">
+<p>Digital source collections, historical datasets and critical editions from of the research activities of the institutes and their partners on the perspectivia.net source portal and other platforms.<br />
+<br />
+<br />
+ </p>
+</div>
+
+<div class="card-footer pp_more"><a href="publications/sources.xml"><strong>... browse</strong> <img src="../images/external_link.svg" /> </a></div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card"><!--TODO: replace panel-default -->
+<div class="card-header">
+<h2 class="card-title">Blogs</h2>
+</div>
+
+<div class="card-body">
+<p>Weber 2.0 | Scientific Blogs</p>
+</div>
+
+<div class="card-footer pp_more"><a href="https://mws.hypotheses.org/"><strong>... browse</strong> <img src="../images/external_link.svg" /> </a></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-12" lang="en">
+<div class="carousel slide" data-interval="0" data-ride="carousel" id="carousel-example-generic"><!-- Indicators -->
+<ol class="carousel-indicators">
+	<li class="active" data-slide-to="0" data-target="#carousel-example-generic"> </li>
+	<li data-slide-to="1" data-target="#carousel-example-generic"> </li>
+	<li data-slide-to="2" data-target="#carousel-example-generic"> </li>
+	<li data-slide-to="3" data-target="#carousel-example-generic"> </li>
+</ol>
+<!-- Wrapper for slides -->
+
+<div class="carousel-inner" role="listbox">
+<div class="carousel-item active">
+<div class="row carousel-item__content-box">
+<div class="col-4"><img alt="Cover Rezensionsjournal Francia-Recensio" class="img-fluid" src="../images/logos/francia-recensio.png" /></div>
+
+<div class="col-8">
+<h1>Francia-Recensio</h1>
+
+<p>Das digitale Rezensionsjournal »Francia-Recensio«, herausgegeben vom Deutschen Historischen Institut Paris, erscheint pro Jahr in vier Aus­gaben. Besprochen werden – in deutscher, französischer und englischer Sprache – Werke zur westeuropäischen Geschichte. Seit Ausgabe 3/2017 erscheint Francia-Recensio im neuen Gewand.</p>
+
+<p>Erstmalig sind alle Rezensionen mit einer DOI versehen, die für jeden einzelnen Text als verbindlicher und permanenter Zitationsnachweis gilt. Für die Umsetzung mit der Software Open Journal Systems kooperiert perspectivia.net mit der Universitätsbibliothek Heidelberg.</p>
+
+<p>Ältere Ausgaben von »Francia-Recensio« sind auf der Publikationsplattform perspectivia.net zugänglich.<br />
+Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/frrec/">http://journals.ub.uni-heidelberg.de/index.php/frrec/</a></p>
+</div>
+</div>
+</div>
+
+<div class="carousel-item">
+<div class="row carousel-item__content-box">
+<div class="col-4"><img alt="Cover der Zeitschrift Francia" class="img-fluid" src="../images/logos/francia.jpg" /></div>
+
+<div class="col-8">
+<h1>Francia</h1>
+
+<p>Die Zeitschrift »Francia. Forschungen zur westeuropäischen Geschichte« erscheint einmal jährlich in einem Band von ca. 500 Seiten in gedruckter Form und seit Band 39 (2012) auch als E-Book. Sie enthält Beiträge in deutscher, französischer oder englischer Sprache. Für den Aufsatzteil gibt es zudem dreisprachige Resümees. Über die Annahme der Beiträge entscheidet ein internationales Gutachtergremium im Peer-Review-Verfahren. Die Rezensionen werden seit Band 35 (2008) in vier Ausgaben pro Jahr online als Francia-Recensio veröffentlicht.</p>
+
+<p>Die seit 1973 erschienenen Bände der »Francia« sind mit einer Moving Wall von einem Jahr retrodigitalisiert <a href="http://journals.ub.uni-heidelberg.de/index.php/fr/">hier</a> und über perspectivia.net kostenfrei zugänglich.</p>
+</div>
+</div>
+</div>
+
+<div class="carousel-item">
+<div class="row carousel-item__content-box">
+<div class="col-4"><img alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" class="img-fluid" src="../images/logos/fantin-latour_scholder.png" /></div>
+
+<div class="col-8">
+<h1>Briefwechsel Fantin-Latour &amp; Scholderer</h1>
+
+<h2>DFK Paris</h2>
+
+<p>Henri Fantin-Latour und Otto Scholderer verband seit ihrer Begegnung 1848 in Paris bis ins Jahr 1900 hinein eine intensive Brieffreundschaft. Die beiden Künstler haben sich dabei über ihre Sicht auf die Politik ihrer Zeit, die Ausübung ihrer Kunst sowie ältere und zeitgenössische Künstler ausgetauscht. Die 306 auf Französisch verfassten Briefe, die die Korrespondenz zwischen Henri Fantin-Latour und Otto Scholderer umfasst, werden von der Stiftung Custodia und der Universitätsbibliothek Frankfurt aufbewahrt. Die handschriftlichen Originaldokumente wurden ab 2004 im Rahmen eines von Thomas W. Gaehtgens geleiteten und vom Deutschen Forum für Kunstgeschichte in Paris finanzierten Forschungsprojekts von Mathilde Arnoux und Anne Tempelaere-Panzani vollständig transkribiert und mit kritischen Anmerkungen versehen.</p>
+
+<p>Briefedition digital: <a href="https://www.perspectivia.net/quellen/fantin-scholderer">Correspondance Fantin-Latour &amp; Scholderer</a></p>
+</div>
+</div>
+</div>
+
+<div class="carousel-item">
+<div class="row carousel-item__content-box">
+<div class="col-4"><img alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" class="img-fluid" src="../images/logos/pacelli.jpg" /></div>
+
+<div class="col-8">
+<h1>Pacelli – Nuntiaturberichte 1917-29</h1>
+
+<h2>Deutsches Historisches Institut Rom</h2>
+
+<p>Eugenio Pacelli, der spätere Papst Pius XII. (1939-1958), ist eine der bekanntesten und umstrittensten Persönlichkeiten des 20. Jahrhunderts. Die Berichte Pacellis (etwa 5.500) und die Weisungen aus Rom an den Nuntius in Deutschland (etwa 4.100) werden in Zusammenarbeit mit dem Vatikanischen Geheimarchiv und dem Deutschen Historischen Institut in Rom komplett mit Anlagen (etwa 4.500) erfasst, kritisch ediert, kommentiert, ausgewertet und Wissenschaftlern ebenso wie einer breiten internationalen Öffentlichkeit zugänglich gemacht.</p>
+
+<p>Zur Datenbank: <a href="http://www.pacelli-edition.de/index_pacelli.html">http://www.pacelli-edition.de/index_pacelli.html</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section xml:lang="fr" title="Welcome"><div>
+<div id="pp_boxContainer">
+<div id="pp_arrowToMIR"> </div>
+
+<div id="pp_arrowToSources"> </div>
+
+<div id="pp_arrowToJournals"> </div>
+
+<div class="row" id="pp_index_boxes">
+<div class="offset-md-2 col-md-8" lang="fr">
+<div class="card"><!--TODO: replace panel-default -->
+<div class="card-header">
+<h2 class="card-title" style="width:100%">Libre accès au savoir</h2>
+</div>
+
+<div class="card-body">
+<p>La plateforme de publication électronique perspectivia.net se veut un portail international, interdisciplinaire et historique pour les publications en sciences humaines. L'infrastructure de la Fondation Max Weber - Instituts allemands de sciences humaines à l'étranger - rend ainsi les publications des différents instituts et de leurs partenaires librement accessibles en ligne. La Fondation Max Weber s'engage à respecter les principes de l’Open Acces et perspectivia.net promeut le libre accès au savoir et accompagne l’évolution des sciences humaines vers une science ouverte.<br />
+ </p>
+</div>
+
+<div class="card-footer pp_more"><a href="about/index.xml"><strong>... en savoir plus</strong></a></div>
+</div>
+</div>
+</div>
+
+<div class="row" id="pp_index_boxes">
+<div class="col-md-4" lang="fr">
+<div class="card"><!--TODO: replace panel-default -->
+<div class="card-header">
+<h2 class="card-title" style="width:100%">Serveur académique</h2>
+</div>
+
+<div class="card-body">
+<p>Publications primaires et secondaires des instituts de la Fondation Max Weber ainsi que de leurs partenaires. En plus des périodiques, des collections et des monographies, perspectivia.net publie également des conférences sous forme de fichiers audio ou vidéo.<br />
+ </p>
+</div>
+
+<div class="card-footer pp_more"><a href="search/simple.xed"><strong>... Recherche</strong></a></div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card"><!--TODO: replace panel-default -->
+<div class="card-header">
+<h2 class="card-title">Sources et bases de données</h2>
+</div>
+
+<div class="card-body">
+<p>DRecueil de sources numérisées, ensemble de données historiques et éditions critiques, tous résultats de la recherche des instituts et de leurs partenaires.<br />
+<br />
+<br />
+ </p>
+</div>
+
+<div class="card-footer pp_more"><a href="publications/sources.xml"><strong>... Vue d'ensemble</strong> <img src="../images/external_link.svg" /> </a></div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card"><!--TODO: replace panel-default -->
+<div class="card-header">
+<h2 class="card-title">Blogs</h2>
+</div>
+
+<div class="card-body">
+<p>Weber 2.0 | blogs scientifiques</p>
+</div>
+
+<div class="card-footer pp_more"><a href="https://mws.hypotheses.org/"><strong>... Vue d'ensemble</strong> <img src="../images/external_link.svg" /> </a></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-12" lang="fr">
+<div class="carousel slide" data-interval="0" data-ride="carousel" id="carousel-example-generic"><!-- Indicators -->
+<ol class="carousel-indicators">
+	<li class="active" data-slide-to="0" data-target="#carousel-example-generic"> </li>
+	<li data-slide-to="1" data-target="#carousel-example-generic"> </li>
+	<li data-slide-to="2" data-target="#carousel-example-generic"> </li>
+	<li data-slide-to="3" data-target="#carousel-example-generic"> </li>
+</ol>
+<!-- Wrapper for slides -->
+
+<div class="carousel-inner" role="listbox">
+<div class="carousel-item active">
+<div class="row carousel-item__content-box">
+<div class="col-4"><img alt="Cover Rezensionsjournal Francia-Recensio" class="img-fluid" src="../images/logos/francia-recensio.png" /></div>
+
+<div class="col-8">
+<h1>Francia-Recensio</h1>
+
+<p>Das digitale Rezensionsjournal »Francia-Recensio«, herausgegeben vom Deutschen Historischen Institut Paris, erscheint pro Jahr in vier Aus­gaben. Besprochen werden – in deutscher, französischer und englischer Sprache – Werke zur westeuropäischen Geschichte. Seit Ausgabe 3/2017 erscheint Francia-Recensio im neuen Gewand.</p>
+
+<p>Erstmalig sind alle Rezensionen mit einer DOI versehen, die für jeden einzelnen Text als verbindlicher und permanenter Zitationsnachweis gilt. Für die Umsetzung mit der Software Open Journal Systems kooperiert perspectivia.net mit der Universitätsbibliothek Heidelberg.</p>
+
+<p>Ältere Ausgaben von »Francia-Recensio« sind auf der Publikationsplattform perspectivia.net zugänglich.<br />
+Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/frrec/">http://journals.ub.uni-heidelberg.de/index.php/frrec/</a></p>
+</div>
+</div>
+</div>
+
+<div class="carousel-item">
+<div class="row carousel-item__content-box">
+<div class="col-4"><img alt="Cover der Zeitschrift Francia" class="img-fluid" src="../images/logos/francia.jpg" /></div>
+
+<div class="col-8">
+<h1>Francia</h1>
+
+<p>Die Zeitschrift »Francia. Forschungen zur westeuropäischen Geschichte« erscheint einmal jährlich in einem Band von ca. 500 Seiten in gedruckter Form und seit Band 39 (2012) auch als E-Book. Sie enthält Beiträge in deutscher, französischer oder englischer Sprache. Für den Aufsatzteil gibt es zudem dreisprachige Resümees. Über die Annahme der Beiträge entscheidet ein internationales Gutachtergremium im Peer-Review-Verfahren. Die Rezensionen werden seit Band 35 (2008) in vier Ausgaben pro Jahr online als Francia-Recensio veröffentlicht.</p>
+
+<p>Die seit 1973 erschienenen Bände der »Francia« sind mit einer Moving Wall von einem Jahr retrodigitalisiert <a href="http://journals.ub.uni-heidelberg.de/index.php/fr/">hier</a> und über perspectivia.net kostenfrei zugänglich.</p>
+</div>
+</div>
+</div>
+
+<div class="carousel-item">
+<div class="row carousel-item__content-box">
+<div class="col-4"><img alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" class="img-fluid" src="../images/logos/fantin-latour_scholder.png" /></div>
+
+<div class="col-8">
+<h1>Briefwechsel Fantin-Latour &amp; Scholderer</h1>
+
+<h2>DFK Paris</h2>
+
+<p>Henri Fantin-Latour und Otto Scholderer verband seit ihrer Begegnung 1848 in Paris bis ins Jahr 1900 hinein eine intensive Brieffreundschaft. Die beiden Künstler haben sich dabei über ihre Sicht auf die Politik ihrer Zeit, die Ausübung ihrer Kunst sowie ältere und zeitgenössische Künstler ausgetauscht. Die 306 auf Französisch verfassten Briefe, die die Korrespondenz zwischen Henri Fantin-Latour und Otto Scholderer umfasst, werden von der Stiftung Custodia und der Universitätsbibliothek Frankfurt aufbewahrt. Die handschriftlichen Originaldokumente wurden ab 2004 im Rahmen eines von Thomas W. Gaehtgens geleiteten und vom Deutschen Forum für Kunstgeschichte in Paris finanzierten Forschungsprojekts von Mathilde Arnoux und Anne Tempelaere-Panzani vollständig transkribiert und mit kritischen Anmerkungen versehen.</p>
+
+<p>Briefedition digital: <a href="https://www.perspectivia.net/quellen/fantin-scholderer">Correspondance Fantin-Latour &amp; Scholderer</a></p>
+</div>
+</div>
+</div>
+
+<div class="carousel-item">
+<div class="row carousel-item__content-box">
+<div class="col-4"><img alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" class="img-fluid" src="../images/logos/pacelli.jpg" /></div>
+
+<div class="col-8">
+<h1>Pacelli – Nuntiaturberichte 1917-29</h1>
+
+<h2>Deutsches Historisches Institut Rom</h2>
+
+<p>Eugenio Pacelli, der spätere Papst Pius XII. (1939-1958), ist eine der bekanntesten und umstrittensten Persönlichkeiten des 20. Jahrhunderts. Die Berichte Pacellis (etwa 5.500) und die Weisungen aus Rom an den Nuntius in Deutschland (etwa 4.100) werden in Zusammenarbeit mit dem Vatikanischen Geheimarchiv und dem Deutschen Historischen Institut in Rom komplett mit Anlagen (etwa 4.500) erfasst, kritisch ediert, kommentiert, ausgewertet und Wissenschaftlern ebenso wie einer breiten internationalen Öffentlichkeit zugänglich gemacht.</p>
+
+<p>Zur Datenbank: <a href="http://www.pacelli-edition.de/index_pacelli.html">http://www.pacelli-edition.de/index_pacelli.html</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><meta><log lastEditor="kneumann" date="2019-09-19" time="13:34" /></meta></MyCoReWebPage>

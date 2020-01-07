@@ -153,17 +153,9 @@
     <menu id="quicklinks" dir="/content/publications">
         <label xml:lang="de">Quicklinks</label>
         <label xml:lang="en">Quicklinks</label>
-        <item href="/content/publications/sources.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+        <item href="/servlets/solr/find?fq=mods.genre:source_edition" type="extern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Quellen und Datenbanken</label>
             <label xml:lang="en">Sources and Databases</label>
-        </item>
-        <item href="/content/publications/journals.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Digitale Zeitschriften</label>
-            <label xml:lang="en">ejournals</label>
-        </item>
-        <item href="https://mws.hypotheses.org/" type="extern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Blogportal Weber 2.0</label>
-            <label xml:lang="en">Blogportal Weber 2.0</label>
         </item>
         <item href="http://menadoc.bibliothek.uni-halle.de/" type="extern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">MENAdoc (FID Vorderer Orient)</label>

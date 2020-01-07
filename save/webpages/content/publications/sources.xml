@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="neuer Eintrag"><h1 class="documentFirstHeading" style="box-sizing: border-box; margin: 21px 0px 10.5px; font-size: 36px; font-family: inherit; font-weight: 500; line-height: 1.1; color: rgb(10, 110, 118) !important;">Quellen- und Datenbankeditionen von Instituten der Max Weber Stiftung und ihren Partnern</h1>
+<MyCoReWebPage><section xml:lang="de" title="Quellen und Datenbanken"><div>
+<h1 class="documentFirstHeading" style="box-sizing: border-box; margin: 21px 0px 10.5px; font-size: 36px; font-family: inherit; font-weight: 500; line-height: 1.1; color: rgb(10, 110, 118) !important;">Quelleneditionen und Datenbanken von Instituten der Max Weber Stiftung und ihren Partnern</h1>
 
 <div id="viewlet-below-content-title" style="box-sizing: border-box;"> </div>
 
@@ -196,4 +197,5 @@
 <p class="more" style="box-sizing: border-box; margin: 0px 0px 10.5px; float: right; color: rgb(34, 34, 34); font-family: &quot;Open Sans&quot;, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;"><a href="https://prae.perspectivia.net/quellen/schimper" style="box-sizing: border-box; background-color: transparent; color: rgb(103, 103, 103); text-decoration: none;"><span class="hiddenStructure" style="box-sizing: border-box; display: block; width: 1px; height: 0.1em; padding: 0px; margin: -0.1em 0px 0px -0.1em; overflow: hidden; background: none 0px 0px; border: none;">Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre -</span><span style="box-sizing: border-box;">Mehr…</span></a></p>
 </div>
 </div>
-</section><meta><log lastEditor="kneumann" date="2018-06-11" time="12:15" /></meta></MyCoReWebPage>
+</div>
+</section><meta><log lastEditor="fcremer" date="2019-06-13" time="08:57" /></meta></MyCoReWebPage>

@@ -1,74 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Redaktion">
-        <div class="row">
-            <div class="col-12" lang="de">
-                <h1>Die Digitale Redaktion</h1>
-                
-                <h2>Konzeption</h2>
-                
-                <p>Im digitalen Zeitalter verändert sich auch die Publikationspraxis in paradigmatischer Weise. Neue Technologien und Methoden stehen in steter Wechselwirkung mit dem wissenschaftlichen Arbeitsprozess. Die Redaktion perspectivia.net versteht sich in dieser Konstellation als unterstützende und serviceorientierte Instanz – als <em>Digitale Redaktion</em>. Das Aufgabenfeld überspannt sich von Beratung und Vermittlung, Projektmanagement und Konzeptionierung, Auszeichnung und Anreicherung, Standardisierung und Normierung, Datenmanagement und Lizensierung, Transformation und Archivierung, Katalogisierung und Vernetzung, Layout und Lektorat, Verteilung und Kommunikation, Schulung und Betreuung.</p>
-                
-                <h2>Team</h2>
-                
-                <h3>Redaktion</h3>
-                
-                <ul>
-                    <li>Fabian Cremer, Forschungsdaten und Infrastruktur</li>
-                    <li>Elisabeth Heinemann, Europäische Netzwerke</li>
-                    <li>Dr. Michael Kaiser, Referatsleitung</li>
-                    <li>Ulla Menke, Wissenschaftskommunikation und Blogs</li>
-                    <li>Katrin Neumann, Koordination perspectivia.net</li>
-                    <li>Judith Schulte, Forum Transregionale Studien</li>
-                </ul>
-                
-                <h3>Wissenschaftliche Hilfskräfte</h3>
-                
-                <ul>
-                    <li>Gregor Hecker</li>
-                    <li>Fabian Schmitt</li>
-                    <li>Tobias Tenhaef</li>
-                </ul>
-                
-                <h2>Publikationen, Vorträge und Veranstaltungen</h2>
-                <p>Die Herausforderungen der digitalen Transformation lassen sich nur als Gemeinschaft bewältigen. Die Redaktion perspectivia.net ist daher in vielen in Wissens- und Kompetenznetzwerken engagiert. Hier finden Sie eine Übersicht über unsere Veröffentlichungen, Vorträge, Veranstaltungen und weiteren Aktivitäten.</p>
-                
-                <h3>Artikel</h3>
-                
-                <ul>
-                    <li>Cremer, Fabian, Lisa Klaffki, und Timo Steyer. „Der Chimäre auf der Spur: Forschungsdaten in den Geisteswissenschaften“. <em>o-bib. Das offene Bibliotheksjournal / herausgegeben vom VDB</em> 5, Nr. 2 (13. Juli 2018): 142–62. <a href="https://doi.org/10.5282/o-bib/2018H2S142-162">https://doi.org/10.5282/o-bib/2018H2S142-162</a>.</li>
-                    <li>Heinemann, Elisabeth. „The Value of Network Sustainability: Why We Join Research Infrastructures“. In <em>ELPUB 2018</em>, herausgegeben von Leslie Chan und Pierre Mounier. Toronto, Canada, 2018. <a href="https://doi.org/10.4000/proceedings.elpub.2018.22">https://doi.org/10.4000/proceedings.elpub.2018.22</a>.</li>
-                </ul>
-                
-                <h3>Blogbeiträge</h3>
-                
-                <p><strong>Digitale Redaktion - Editorial zum digitalen Publizieren:</strong> <strong><a href="https://editorial.hypotheses.org/">https://editorial.hypotheses.org/</a></strong></p>
-                
-                <p>Wir berichten und diskutieren regelmäßig in unserem Blog und über die Veränderungsprozesse und die neuen Arbeitsroutinen, sowie über Erkenntnisse, Herausforderungen und Entwicklungen im Bereich des digitalen Publizierens. Darüber hinaus schreiben wir auch Beiträge zu weiteren Themen digitaler Wissenschaft in anderen Blogs der Community.</p>
-                
-                <ul>
-                    <li>Cremer, Fabian. „Koordinaten zur Digitalität. Ein einfaches Denkmodell für die Betrachtung von sich verändernden Wissenschaftspraktiken“. Blog. <em>Digitale Redaktion</em> (blog), 29. Januar 2018. <a href="https://editorial.hypotheses.org/28">https://editorial.hypotheses.org/28</a>.</li>
-                    <li>Cremer, Fabian. „Nun sag, wie hältst Du es mit dem Digitalen Publizieren, Digital Humanities?“ Blog. <em>Digitale Redaktion</em> (blog), 21. März 2018. <a href="https://editorial.hypotheses.org/113">https://editorial.hypotheses.org/113</a>.</li>
-                    <li>Cremer, Fabian, und Katrin Neumann. „Stolz und Vorurteil. Geisteswissenschaften und Open Access in einer Dekade perspectivia.net“. Blog. <em>Digitale Redaktion</em> (blog), 3. Mai 2018. <a href="https://editorial.hypotheses.org/147">https://editorial.hypotheses.org/147</a>.</li>
-                    <li>Heinemann, Elisabeth. „Die Geistes- und Sozialwissenschaften müssen mit einer Stimme sprechen“. Blog. <em>Digitale Redaktion</em> (blog), 8. Juni 2018. <a href="https://editorial.hypotheses.org/190">https://editorial.hypotheses.org/190</a>.</li>
-                    <li>Cremer, Fabian, und Thorsten Wübbena. „A Call to Action on Digital Cultural Heritage in Germany“. Blog. <em>H r e F</em> (blog), 18. Juni 2018. <a href="https://href.hypotheses.org/178">https://href.hypotheses.org/178</a>.</li>
-                    <li>Cremer, Fabian, und Katrin Neumann. „Zurück in die Zukunft II – keine erweiterten Publikationen in den Geisteswissenschaften?“ Blog. <em>Digitale Redaktion</em> (blog), 18. Juli 2018. <a href="https://editorial.hypotheses.org/231">https://editorial.hypotheses.org/231</a>.</li>
-                    <li>Cremer, Fabian. „DARIAH-DE-Repository: Notizen zum Nutzen jenseits der Nutzung“. <em>DHd-Blog</em> (blog), 28. August 2018. <a href="https://dhd-blog.org/?p=10368">https://dhd-blog.org/?p=10368</a>.</li>
-                    <li>Cremer, Fabian, und Thorsten Wübbena. „The next big thing will be a lot of small things – Serviceorientierung als Modell für die Infrastrukturlandschaft“. Blog. <em>DHd-Blog</em> (blog), 19. September 2018. <a href="https://dhd-blog.org/?p=10480">https://dhd-blog.org/?p=10480</a>.</li>
-                </ul>
-                
-                <h3>Weitere Aktivitäten</h3>
-                
-                <p>Die Mitglieder der Digitalen Redaktion engagieren derzeit sich in folgenden Gremien:</p>
-                
-                <ul>
-                    <li>DARIAH-DE Stakeholdergremium „Wissenschaftliche Sammlungen“</li>
-                    <li>DHd AG Digitales Publizieren</li>
-                    <li>DHd AG Graphdatenbanken</li>
-                    <li>DINI/nestor AG Forschungsdaten</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <meta><log lastEditor="fcremer" date="2018-11-08" time="15:44" /></meta>
-</MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Redaktion"><div class="row">
+<div class="col-xs-12" lang="de">
+<h1>Die Digitale Redaktion</h1>
+
+<h2>Konzeption</h2>
+
+<p>Im digitalen Zeitalter verändert sich auch die Publikationspraxis in paradigmatischer Weise. Neue Technologien und Methoden stehen in steter Wechselwirkung mit dem wissenschaftlichen Arbeitsprozess. Die Redaktion perspectivia.net versteht sich in dieser Konstellation als unterstützende und serviceorientierte Instanz – als <em>Digitale Redaktion</em>. Das Aufgabenfeld überspannt sich von Beratung und Vermittlung, Projektmanagement und Konzeptionierung, Auszeichnung und Anreicherung, Standardisierung und Normierung, Datenmanagement und Lizensierung, Transformation und Archivierung, Katalogisierung und Vernetzung, Layout und Lektorat, Verteilung und Kommunikation, Schulung und Betreuung.</p>
+
+<h2>Team</h2>
+
+<h3>Redaktion</h3>
+
+<ul>
+	<li>Elisabeth Ernst, Europäische Netzwerke (in Elternzeit)</li>
+	<li>Dr. Michael Kaiser, Referatsleitung</li>
+	<li>Katrin Neumann, Koordination perspectivia.net</li>
+	<li>Anna Plaksin, Projekt "Corpus Musicae Ottomanicae"</li>
+	<li>Fabian Schmitt, Forum Transregionale Studien</li>
+	<li>Dr. Judith Schulte, Europäische Netzwerke</li>
+	<li>Dr. Ulrike Stockhausen, Wissenschaftskommunikation und Blogs</li>
+	<li>N.N., Forschungsdaten und Infrastruktur</li>
+</ul>
+
+<h3>Wissenschaftliche Hilfskräfte</h3>
+
+<ul>
+	<li>Alexander Gerber</li>
+	<li>Pascal Stumpf</li>
+	<li>Tobias Tenhaef</li>
+</ul>
+
+<h2>Publikationen, Vorträge und Veranstaltungen</h2>
+
+<p>Die Herausforderungen der digitalen Transformation lassen sich nur als Gemeinschaft bewältigen. Die Redaktion perspectivia.net ist daher in vielen in Wissens- und Kompetenznetzwerken engagiert. Hier finden Sie eine Übersicht über unsere Veröffentlichungen, Vorträge, Veranstaltungen und weiteren Aktivitäten.</p>
+
+<h3>Artikel</h3>
+
+<ul>
+	<li>Cremer, Fabian, Lisa Klaffki, und Timo Steyer. „Der Chimäre auf der Spur: Forschungsdaten in den Geisteswissenschaften“. <em>o-bib. Das offene Bibliotheksjournal / herausgegeben vom VDB</em> 5, Nr. 2 (13. Juli 2018): 142–62. <a href="https://doi.org/10.5282/o-bib/2018H2S142-162">https://doi.org/10.5282/o-bib/2018H2S142-162</a>.</li>
+	<li>Heinemann, Elisabeth. „The Value of Network Sustainability: Why We Join Research Infrastructures“. In <em>ELPUB 2018</em>, herausgegeben von Leslie Chan und Pierre Mounier. Toronto, Canada, 2018. <a href="https://doi.org/10.4000/proceedings.elpub.2018.22">https://doi.org/10.4000/proceedings.elpub.2018.22</a>.</li>
+	<li>Cremer, Fabian, Lisa Klaffki, und Timo Steyer. „Redaktionssache Forschungsdaten“. <em>Bibliothek Forschung und Praxis</em> 43, Nr. 1 (2019): 118–125. <a href="https://doi.org/10.1515/bfp-2019-2018">https://doi.org/10.1515/bfp-2019-2018</a>.</li>
+	<li>Cremer, Fabian, und Katrin Neumann. „Service intermediation as a concept for an institutional publishing department“. In <em>ELPUB 2019 23rd edition of the International Conference on Electronic Publishing</em>. Marseille, France, 2019. <a href="https://hal.archives-ouvertes.fr/hal-02141898">https://hal.archives-ouvertes.fr/hal-02141898</a>.</li>
+</ul>
+
+<h3>Blogbeiträge</h3>
+
+<p><strong>Digitale Redaktion - Editorial zum digitalen Publizieren:</strong> <strong><a href="https://editorial.hypotheses.org/">https://editorial.hypotheses.org/</a></strong></p>
+
+<p>Wir berichten und diskutieren regelmäßig in unserem Blog und über die Veränderungsprozesse und die neuen Arbeitsroutinen, sowie über Erkenntnisse, Herausforderungen und Entwicklungen im Bereich des digitalen Publizierens. Darüber hinaus schreiben wir auch Beiträge zu weiteren Themen digitaler Wissenschaft in anderen Blogs der Community.</p>
+
+<ul>
+	<li>Cremer, Fabian. „Koordinaten zur Digitalität. Ein einfaches Denkmodell für die Betrachtung von sich verändernden Wissenschaftspraktiken“. Blog. <em>Digitale Redaktion</em> (blog), 29. Januar 2018. <a href="https://editorial.hypotheses.org/28">https://editorial.hypotheses.org/28</a>.</li>
+	<li>Cremer, Fabian. „Nun sag, wie hältst Du es mit dem Digitalen Publizieren, Digital Humanities?“ Blog. <em>Digitale Redaktion</em> (blog), 21. März 2018. <a href="https://editorial.hypotheses.org/113">https://editorial.hypotheses.org/113</a>.</li>
+	<li>Cremer, Fabian, und Katrin Neumann. „Stolz und Vorurteil. Geisteswissenschaften und Open Access in einer Dekade perspectivia.net“. Blog. <em>Digitale Redaktion</em> (blog), 3. Mai 2018. <a href="https://editorial.hypotheses.org/147">https://editorial.hypotheses.org/147</a>.</li>
+	<li>Heinemann, Elisabeth. „Die Geistes- und Sozialwissenschaften müssen mit einer Stimme sprechen“. Blog. <em>Digitale Redaktion</em> (blog), 8. Juni 2018. <a href="https://editorial.hypotheses.org/190">https://editorial.hypotheses.org/190</a>.</li>
+	<li>Cremer, Fabian, und Thorsten Wübbena. „A Call to Action on Digital Cultural Heritage in Germany“. Blog. <em>H r e F</em> (blog), 18. Juni 2018. <a href="https://href.hypotheses.org/178">https://href.hypotheses.org/178</a>.</li>
+	<li>Cremer, Fabian, und Katrin Neumann. „Zurück in die Zukunft II – keine erweiterten Publikationen in den Geisteswissenschaften?“ Blog. <em>Digitale Redaktion</em> (blog), 18. Juli 2018. <a href="https://editorial.hypotheses.org/231">https://editorial.hypotheses.org/231</a>.</li>
+	<li>Cremer, Fabian. „DARIAH-DE-Repository: Notizen zum Nutzen jenseits der Nutzung“. <em>DHd-Blog</em> (blog), 28. August 2018. <a href="https://dhd-blog.org/?p=10368">https://dhd-blog.org/?p=10368</a>.</li>
+	<li>Cremer, Fabian, und Thorsten Wübbena. „The next big thing will be a lot of small things – Serviceorientierung als Modell für die Infrastrukturlandschaft“. Blog. <em>DHd-Blog</em> (blog), 19. September 2018. <a href="https://dhd-blog.org/?p=10480">https://dhd-blog.org/?p=10480</a>.</li>
+	<li>Heinemann, Elisabeth, und Fabian Cremer. „Über Bücher und Bibliodiversität: der Weg in eine offene europäische Publikationslandschaft“. Blog. <i>Digitale Redaktion</i> (blog), 15. November 2018. <a href="https://editorial.hypotheses.org/369">https://editorial.hypotheses.org/369</a>.</li>
+	<li>Cremer, Fabian. „Gottes Werk und Teufels Beitrag: Ein Essay zu Digital Humanities und Projektmanagement“. Blog. <i>DHd-Blog</i> (blog), 19. März 2019. <a href="https://dhd-blog.org/?p=11283">https://dhd-blog.org/?p=11283</a>.</li>
+	<li>Cremer, Fabian, Mareike König, Katrin Neumann, und Thorsten Wübbena. „Austausch mit Modellcharakter: Ein stiftungsweiter Workshop zum Digitalen Publizieren“. Blog. <i>Digitale Redaktion</i> (blog), 6. Mai 2019. <a href="https://editorial.hypotheses.org/548">https://editorial.hypotheses.org/548</a>.</li>
+</ul>
+
+<h3>Weitere Aktivitäten</h3>
+
+<p>Die Mitglieder der Digitalen Redaktion engagieren derzeit sich in folgenden Gremien:</p>
+
+<ul>
+	<li>DARIAH-DE AG NFDI</li>
+	<li>DHd AG Digitales Publizieren</li>
+	<li>DHd AG Graphdatenbanken</li>
+	<li>DINI/nestor AG Forschungsdaten</li>
+</ul>
+</div>
+</div>
+</section><meta><log lastEditor="fcremer" date="2019-09-25" time="15:39" /></meta></MyCoReWebPage>
