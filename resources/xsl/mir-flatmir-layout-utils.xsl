@@ -55,9 +55,6 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="navbar navbar-default mir-main-nav">
       <div class="container">
-
-
-
         <nav class="mir-main-nav-entries navbar-expand-md show">
           <button
             class="navbar-toggler float-left"
@@ -70,7 +67,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div id="repper-main-menu" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
+            <ul class="navbar-nav mr-auto">
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']" />
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='quicklinks']" />

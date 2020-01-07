@@ -27,28 +27,36 @@
       </xsl:choose>
     </xsl:variable>
     <xsl:variable name="relatedItemPathGrany">
-      <xsl:if test="$mods/mods:relatedItem/mods:relatedItem/@xlink:href">
-        <xsl:call-template name="repperPrintRelPath">
-          <xsl:with-param name="id" select="$mods/mods:relatedItem/mods:relatedItem/@xlink:href" />
-          <xsl:with-param name="title" select="$mods/mods:relatedItem/mods:relatedItem/mods:titleInfo[not(@type)]" />
-        </xsl:call-template>
-      </xsl:if>
-    </xsl:variable>
-    <xsl:variable name="relatedItemPathGrany">
-      <xsl:if test="$mods/mods:relatedItem/mods:relatedItem/@xlink:href">
-        <xsl:call-template name="repperPrintRelPath">
-          <xsl:with-param name="id" select="$mods/mods:relatedItem/mods:relatedItem/@xlink:href" />
-          <xsl:with-param name="title" select="$mods/mods:relatedItem/mods:relatedItem/mods:titleInfo[not(@type)]" />
-        </xsl:call-template>
-      </xsl:if>
+      <xsl:choose>
+        <xsl:when test="$mods/mods:relatedItem[contains('host series',@type)]/mods:relatedItem[@type='host']/@xlink:href">
+          <xsl:call-template name="repperPrintRelPath">
+            <xsl:with-param name="id" select="$mods/mods:relatedItem[contains('host series',@type)]/mods:relatedItem[@type='host']/@xlink:href" />
+            <xsl:with-param name="title" select="$mods/mods:relatedItem[contains('host series',@type)]/mods:relatedItem[@type='host']/mods:titleInfo[not(@type)]" />
+          </xsl:call-template>
+        </xsl:when>
+        <xsl:when test="$mods/mods:relatedItem[contains('host series',@type)]/mods:relatedItem[@type='series']">
+          <xsl:call-template name="repperPrintRelPath">
+            <xsl:with-param name="id" select="$mods/mods:relatedItem[contains('host series',@type)]/mods:relatedItem[@type='series']/@xlink:href" />
+            <xsl:with-param name="title" select="$mods/mods:relatedItem[contains('host series',@type)]/mods:relatedItem[@type='series']/mods:titleInfo[not(@type)]" />
+          </xsl:call-template>
+        </xsl:when>
+      </xsl:choose>
     </xsl:variable>
     <xsl:variable name="relatedItemPathGreatGrany">
-      <xsl:if test="$mods/mods:relatedItem/mods:relatedItem/mods:relatedItem/@xlink:href">
-        <xsl:call-template name="repperPrintRelPath">
-          <xsl:with-param name="id" select="$mods/mods:relatedItem/mods:relatedItem/mods:relatedItem/@xlink:href" />
-          <xsl:with-param name="title" select="$mods/mods:relatedItem/mods:relatedItem/mods:relatedItem/mods:titleInfo[not(@type)]" />
-        </xsl:call-template>
-      </xsl:if>
+      <xsl:choose>
+        <xsl:when test="$mods/mods:relatedItem[contains('host series',@type)]/mods:relatedItem[contains('host series',@type)]/mods:relatedItem[@type='host']/@xlink:href">
+          <xsl:call-template name="repperPrintRelPath">
+            <xsl:with-param name="id" select="$mods/mods:relatedItem[contains('host series',@type)]/mods:relatedItem[contains('host series',@type)]/mods:relatedItem[@type='host']/@xlink:href" />
+            <xsl:with-param name="title" select="$mods/mods:relatedItem[contains('host series',@type)]/mods:relatedItem[contains('host series',@type)]/mods:relatedItem[@type='host']/mods:titleInfo[not(@type)]" />
+          </xsl:call-template>
+        </xsl:when>
+        <xsl:when test="$mods/mods:relatedItem[contains('host series',@type)]/mods:relatedItem[contains('host series',@type)]/mods:relatedItem[@type='series']">
+          <xsl:call-template name="repperPrintRelPath">
+            <xsl:with-param name="id" select="$mods/mods:relatedItem[contains('host series',@type)]/mods:relatedItem[contains('host series',@type)]/mods:relatedItem[@type='series']/@xlink:href" />
+            <xsl:with-param name="title" select="$mods/mods:relatedItem[contains('host series',@type)]/mods:relatedItem[contains('host series',@type)]/mods:relatedItem[@type='series']/mods:titleInfo[not(@type)]" />
+          </xsl:call-template>
+        </xsl:when>
+      </xsl:choose>
     </xsl:variable>
     <xsl:variable name="owner">
       <xsl:choose>
