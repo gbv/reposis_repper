@@ -850,13 +850,8 @@ a.readmore {
   color: white;
 }
 
-.dropdown-item a:not([href]):not([tabindex]) {
-  color: #7b8a8b;
-  text-decoration: none;
-  &:hover {
-    color: white;
-    text-decoration: none;
-  }
+.dropdown-item {
+  color: $link-color;
 }
 
 // Large devices (desktops) and below: <= 1200px

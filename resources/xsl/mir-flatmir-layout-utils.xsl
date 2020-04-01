@@ -53,21 +53,21 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="navbar navbar-default mir-main-nav">
+    <div class="mir-main-nav">
       <div class="container">
-        <nav class="mir-main-nav-entries navbar-expand-md show">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
           <button
-            class="navbar-toggler float-left"
+            class="navbar-toggler"
             type="button"
             data-toggle="collapse"
-            data-target="#repper-main-menu"
-            aria-controls="navbarSupportedContent"
+            data-target=".mir-main-nav__entries"
+            aria-controls="mir-main-nav__entries"
             aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div id="repper-main-menu" class="collapse navbar-collapse">
-            <ul class="navbar-nav mr-auto">
+          <div id="repper-main-menu" class="collapse navbar-collapse mir-main-nav__entries">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']" />
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='quicklinks']" />
