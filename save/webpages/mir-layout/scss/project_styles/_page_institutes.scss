@@ -1,0 +1,131 @@
+/*  institutes
+ *  - settings for institut section only
+ */
+
+// Extra large devices (large desktops)
+// set the defaults for all responsive levels here
+// no (xl) media query necessary (desktop first)
+
+.pp-atab {
+  white-space: pre;
+}
+
+.pp-institute-graphic {
+  margin-top: 30px;
+}
+
+.pp-publications {
+}
+
+.pp-sources {
+  padding-top: 20px;
+  border-top: 1px solid #c5c5c5;
+}
+
+.pp-contact {
+  border-bottom: 1px solid #c5c5c5;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+#main_content .pp-contact h2 {
+  font-size: 25px;
+  color: #0c636d;
+  font-weight: 400;
+  margin: 30px 0;
+}
+
+#main_content .pp-contact h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #1a1612;
+  margin: 30px 0;
+}
+
+.pp-contact__list {
+  margin-top: 30px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.pp-contact__item {
+  margin-right: 10%;
+}
+
+.pp-contact__subitem {
+  padding-right: 20px;
+}
+
+.pp-institute-graphic__logo {
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+#main_content .pp-institute-graphic__headline {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 35px;
+  color: #0c636d;
+}
+
+.pp-institute-graphic__figure {
+  width: 100%;
+  display: block;
+}
+
+.pp-sourcesBox {
+  margin: 40px 0;
+}
+.pp-sourcesBox a {
+  display: block;
+  margin-bottom: 10px;
+}
+.pp-sourcesBox .col-xs-4 {
+  padding-left: 0;
+}
+.pp-sourcesBox .col-xs-8 {
+  padding-right: 30px;
+}
+
+.pp-sourcesBox img,
+.pp-publications img {
+  width: 100%;
+  border: 1px solid #dddddd;
+}
+
+#main_content .pp-sources h3,
+#main_content .pp-publications h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #1a1612;
+  margin: 40px 0;
+}
+
+.pp-sourcesBox .external-link,
+.pp-publications .external-link {
+  text-decoration: underline;
+}
+
+// Large devices (desktops) and below: <= 1200px
+@include media-breakpoint-down(lg) {
+  // add/overwrite styles for responsive level lg and lower
+}
+
+// Medium devices (tablets) and below: <= 992px
+@include media-breakpoint-down(md) {
+  // add/overwrite styles for responsive level md and lower
+}
+
+// Small devices (landscape phones) and below: <= 768px
+@include media-breakpoint-down(sm) {
+  // add/overwrite styles for responsive level sm and lower
+}
+
+// Extra small devices (portrait phones): <= 576px
+@include media-breakpoint-down(xs) {
+  // add/overwrite styles for responsive level xs
+}

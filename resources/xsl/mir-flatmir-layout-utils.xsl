@@ -53,7 +53,7 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="mir-main-nav">
+    <div class="mir-main-nav pp-main-nav">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark">
           <button
@@ -66,7 +66,7 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div id="repper-main-menu" class="collapse navbar-collapse mir-main-nav__entries">
+          <div class="collapse navbar-collapse mir-main-nav__entries">
             <ul class="navbar-nav">
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']" />
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />

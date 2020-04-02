@@ -1,12 +1,61 @@
-/*  file name
- *  - file description
+/*  typography
+ *  - all about text and its formating
  */
 
 // Extra large devices (large desktops)
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+h1, .h1, h2, .h2, h3, .h3 {
+  margin-top: 21px;
+  margin-bottom: 10.5px;
+}
 
+h3.card-title {
+  margin-top: 0px;
+}
+
+body {
+  font-weight: 300;
+}
+
+label {
+  font-weight: 400;
+}
+
+html body #page {
+  padding-bottom: 50px;
+}
+
+a {
+  font-weight: 400;
+}
+
+#main_content h1 {
+  margin-bottom: 50px;
+}
+#main_content h2 {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 400;
+}
+#main_content h3 {
+  font-size: 18px;
+font-weight: 700;
+}
+
+#main_content h2.card-title,
+#main_col h1 {
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.card > .card-header {
+  border-color: #e9eeef;
+}
+
+#main_content h3.card-title {
+  font-weight: 400;
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

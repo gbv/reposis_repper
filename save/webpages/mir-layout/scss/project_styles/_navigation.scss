@@ -1,0 +1,167 @@
+/*  navigation
+ *  - all about navigation elements like menus or tabs
+ */
+
+// Extra large devices (large desktops)
+// set the defaults for all responsive levels here
+// no (xl) media query necessary (desktop first)
+
+
+/* ************************ main menu ************************ */
+
+.pp-main-nav {
+  border-top: 6px solid $pp-menu-back;
+  // align to the top
+  .navbar {
+    padding: 0;
+  }
+  // center main menu
+  .navbar-expand-lg {
+    justify-content: center;
+  }
+  // center main menu
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+  .navbar-nav {
+    background-color: $pp-menu-back;
+  }
+  // first level link
+  .nav-link {
+    padding: 15px 20px !important;
+    font-weight: 700;
+    font-size: 16px;
+    border-left: 2px solid $pp-menu-border;
+    &:hover,
+    &:focus {
+      color: $pp-menu-text !important;
+      background-color: $pp-menu-hover;
+    }
+  }
+  // menu burger
+  .navbar-toggler {
+    background-color: $pp-menu-back;
+    border-color: $pp-menu-back;
+    border-radius: 0;
+  }
+  // link to submenu level 2+
+  .dropdown-submenu {
+    .dropdown-menu {
+      border-left: 1px solid $pp-menu-border !important;
+      border-top: none;
+    }
+  }
+  // submenu list
+  .dropdown-menu {
+    background-color: $pp-menu-back;
+    border-radius: 0 !important;
+    margin: 0px !important;
+    padding: 0px;
+    border-left: 2px solid $pp-menu-border !important;
+  }
+  // submenu entry
+  .dropdown-item {
+    color: $pp-menu-text;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: inherit;
+    border-top: 1px solid $pp-menu-divider;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    &:hover,
+    &:focus {
+      color: $pp-menu-text;
+      background-color: $pp-menu-hover;
+    }
+  }
+  // entry was loaded
+  .active {
+    // active first level entry
+    .nav-link {
+      background-color: $pp-menu-active;
+    }
+    // active sub menu entry
+    > .dropdown-item {
+      background-color: $pp-success-light;
+      &:hover {
+        background-color: $pp-primary-light;
+      }
+    }
+  }
+  // entry was clicked
+  .show {
+    > .nav-link {
+      background-color: $pp-menu-active;
+    }
+  }
+}
+
+/* ************************ tabs ************************ */
+
+// tab menu
+#main_content {
+  .nav-tabs {
+    font-size: 14px;
+    border-bottom: 2px solid #efefef; // nav border
+    margin-bottom: 54px;
+    // tab item container
+    > li {
+      margin-bottom: -2px; // move tab border over nav border
+      // tab item
+      > a {
+        padding: 10px 50px 7px 10px;
+        color: #666;
+        border: 0; // reset bs behaviour
+        border-bottom: 2px solid #efefef;  //tab border
+        // hover effect
+        &:hover,
+        &:focus {
+          color: #333;
+          border: 0; // reset bs behaviour
+          border-bottom: 2px solid #75adad;
+          background-color: transparent; // reset bs behaviour
+        }
+        // active tab
+        &.active {
+          &:hover,
+          &:focus {
+            color: #333;
+            border: 0; // reset bs behaviour
+            border-bottom: 2px solid #005580;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Large devices (desktops) and below: <= 1200px
+@include media-breakpoint-down(lg) {
+  // add/overwrite styles for responsive level lg and lower
+}
+
+// Medium devices (tablets) and below: <= 992px
+@include media-breakpoint-down(md) {
+  // add/overwrite styles for responsive level md and lower
+  .pp-main-nav {
+    // align burger menu to the left
+    .navbar-expand-lg {
+      justify-content: flex-start;
+    }
+    // burger button has no border to the left like a level one menu entry
+    // fix alignment
+    .nav-link {
+      border-left: 0px solid white !important;
+    }
+  }
+}
+
+// Small devices (landscape phones) and below: <= 768px
+@include media-breakpoint-down(sm) {
+  // add/overwrite styles for responsive level sm and lower
+}
+
+// Extra small devices (portrait phones): <= 576px
+@include media-breakpoint-down(xs) {
+  // add/overwrite styles for responsive level xs
+}

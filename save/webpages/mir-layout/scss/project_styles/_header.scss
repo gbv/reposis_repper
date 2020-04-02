@@ -1,0 +1,176 @@
+/*  header
+ *  - header layout
+ */
+
+// Extra large devices (large desktops)
+// set the defaults for all responsive levels here
+// no (xl) media query necessary (desktop first)
+
+html body header #header_box {
+  margin-top: -1px;
+  margin-bottom: 0;
+  position: relative;
+  background-size: contain;
+  height: 122px;
+}
+
+#project_name_box {
+  margin-top: 110px;
+}
+
+#project_name_box h1 > a {
+  color: #75adad;
+  font-size: 34px;
+  font-weight: 300;
+}
+
+#project_name_box h1 > a:hover {
+  text-decoration: underline !important;;
+}
+
+#project_name_box h2 {
+  color: #9e9e9e;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 0px;
+  line-height: 17px;
+}
+
+html body header #header_box #project_logo_box {
+  width: 550px;
+  position: absolute;
+  left: 16px;
+  top: 27px;
+  float: none;
+  line-height: 0.8;
+}
+
+#project_logo_box #pp_logo_title, #project_logo_box #pp_suffix {
+  color: #495353;
+  font-size: 56px;
+  font-weight: 400;
+  letter-spacing: 1.8px;
+}
+#project_logo_box #pp_logo_subtitle {
+  color: #707070;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 2.1;
+  padding-left: 4px;
+  letter-spacing: 0.1px;
+}
+#project_logo_box #pp_suffix {
+  color: #ef7f00;
+}
+
+#project_logo_box img {
+    float: left;
+}
+
+.mir-prop-nav {
+    margin: 20px 0px 0px 0px;
+}
+
+.mir-prop-nav .navbar-nav > li > a {
+  color: #95a5a6;;
+}
+li.mir-lang {
+  margin-left: 15px;
+}
+
+.searchfield_box .form-group {
+    border-bottom: 1px solid #aeb6c0;
+}
+
+.searchfield_box .form-control::-moz-placeholder {
+  font-weight: 700;
+}
+
+.searchfield_box .navbar-form {
+  margin-top: 7.5px;
+  margin-bottom: 7.5px;
+}
+
+/* ****************** searchfield_box ******************* */
+.searchfield_box {
+  position: absolute;
+  right: 0;
+  top: 57px;
+}
+
+.searchfield_box .btn-primary {
+  color: #0a6e78;
+  background-color: white;
+  border-width: 0px;
+  margin: 0 0 0 15px;
+  padding:0;
+}
+
+.searchfield_box .form-control,
+.searchfield_box input {
+  border-width: 0px;
+}
+
+.searchfield_box .form-control:focus {
+  box-shadow: none;
+  background-color: transparent;
+}
+.searchfield_box .form-control:disabled,
+.searchfield_box .form-control[readonly] {
+  background-color: transparent;
+}
+
+// Large devices (desktops) and below: <= 1200px
+@include media-breakpoint-down(lg) {
+  // add/overwrite styles for responsive level lg and lower
+}
+
+// Medium devices (tablets) and below: <= 992px
+@include media-breakpoint-down(md) {
+  // add/overwrite styles for responsive level md and lower
+  html body header #header_box {
+    height: 210px;
+  }
+  html body header #header_box #project_logo_box {
+    top: 50px;
+  }
+  .searchfield_box {
+    top: 150px;
+  }
+}
+
+// Small devices (landscape phones) and below: <= 768px
+@include media-breakpoint-down(sm) {
+  // add/overwrite styles for responsive level sm and lower
+}
+
+// Extra small devices (portrait phones): <= 576px
+@include media-breakpoint-down(xs) {
+  // add/overwrite styles for responsive level xs
+  html body header #header_box {
+    height: 150px;
+  }
+  .searchfield_box {
+    top: 100px;
+    right: 10px;
+  }
+  html body header #header_box #project_logo_box {
+    width: 300px;
+  }
+  #project_logo_box img {
+    width: 34px;
+    margin-right: 3px;
+  }
+  #project_logo_box #pp_logo_title,
+  #project_logo_box #pp_suffix {
+    font-size: 30px;
+  }
+  #project_logo_box #pp_logo_subtitle {
+    font-size: 11px;
+    line-height: normal;
+  }
+  #searchInput {
+    width: auto;
+    display: inline;
+  }
+}

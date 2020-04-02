@@ -1,0 +1,148 @@
+/*  start page
+ *  - styles for start page only
+ */
+
+// Extra large devices (large desktops)
+// set the defaults for all responsive levels here
+// no (xl) media query necessary (desktop first)
+
+#pp_boxContainer {
+  position: relative;
+}
+
+#pp_arrowToJournals {
+  position:absolute;
+  top: 250px;
+  right: 10%;
+  width: 150px;
+  height: 250px;
+  border-top: solid #0c636d 1px;
+  border-right: solid #0c636d 1px;
+  border-radius: 4px;
+}
+
+#pp_arrowToMIR {
+  position:absolute;
+  top: 250px;
+  left: 10%;
+  width: 150px;
+  height: 250px;
+  border-top: solid #0c636d 1px;
+  border-left: solid #0c636d 1px;
+  border-radius: 4px;
+}
+
+#pp_arrowToSources {
+  position:absolute;
+  top: 351px;
+  left: 50%;
+  width: 1px;
+  height: 150px;
+  border-left: solid #0c636d 1px;
+}
+
+#pp_index_boxes {
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+
+#pp_index_boxes .col-md-4 {
+  min-height: 100%;
+}
+
+#pp_index_boxes .card {
+  border: 1px solid #c5c5c5;
+  min-height: 100%;
+}
+
+#pp_index_boxes .card-body {
+  background-color: #e9eeef;
+}
+
+#pp_index_boxes .card > .card-header,
+#pp_index_boxes .card-footer{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#pp_index_boxes .card-header h2 {
+  color: #0c636d;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.pp_more {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+.pp_more a {
+  color: #ef7f01;
+}
+.pp_more img {
+  padding-left: 4px;
+  padding-bottom: 6px;
+  width: 22px;
+}
+
+.blog-mws:before {
+  background: url("../images/mws-blog.png") no-repeat;
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 0;
+}
+.main-mws:before {
+  background: url("../images/mws-follow.png") no-repeat;
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 0;
+}
+
+// Large devices (desktops) and below: <= 1200px
+@include media-breakpoint-down(lg) {
+  // add/overwrite styles for responsive level lg and lower
+  #pp_arrowToJournals,
+  #pp_arrowToMIR {
+    height: 350px;
+  }
+  #pp_arrowToSources {
+    height: 250px;
+  }
+}
+
+// Medium devices (tablets) and below: <= 992px
+@include media-breakpoint-down(md) {
+  // add/overwrite styles for responsive level md and lower
+  #pp_arrowToJournals,
+  #pp_arrowToMIR {
+    height: 450px;
+  }
+  #pp_arrowToSources {
+    height: 350px;
+  }
+}
+
+// Small devices (landscape phones) and below: <= 768px
+@include media-breakpoint-down(sm) {
+  // add/overwrite styles for responsive level sm and lower
+  #pp_arrowToJournals,
+  #pp_arrowToMIR {
+    display: none;
+  }
+  #pp_arrowToSources {
+    height: 550px;
+  }
+}
+
+// Extra small devices (portrait phones): <= 576px
+@include media-breakpoint-down(xs) {
+  // add/overwrite styles for responsive level xs
+}
