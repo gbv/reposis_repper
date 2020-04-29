@@ -1,0 +1,140 @@
+/*  footer
+ *  - footer layout
+ */
+
+// Extra large devices (large desktops)
+// set the defaults for all responsive levels here
+// no (xl) media query necessary (desktop first)
+
+html body #powered_by {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  padding: 0;
+  margin-top: 10px;
+}
+
+html body #copyright_by {
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 14px;
+  padding: 0;
+}
+
+html body footer .internal_links {
+  margin-top: 6px;
+}
+
+.card-footer {
+  padding: 0;
+}
+
+.flatmir-footer {
+  //background: linear-gradient(180deg, white 0, white 55%, #ebe8e5 55%, #ebe8e5 84%, #38322d 84%, #38322d 100%);
+  border-top: 2px solid #ebe8e5;
+  color: #676767;
+  font-size: 14px;
+}
+
+.flatmir-footer .nav > li > a,
+.flatmir-footer .nav > li > a:hover,
+.flatmir-footer .nav > li > a:focus {
+  color: #656565;
+  padding: 0px;
+  font-weight: 700;
+}
+.flatmir-footer .nav > li > a > span,
+.flatmir-footer .nav > li > a:hover > span,
+.flatmir-footer .nav > li > a:focus  > span{
+  color: #ef7f01;
+}
+
+.flatmir-footer .nav > li > a:hover,
+.flatmir-footer .nav > li > a:focus {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+.flatmir-footer .footer-wrapper {
+  margin-top: 50px;
+}
+
+.flatmir-footer .container {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.flatmir-footer .dropdown-item:active,
+.flatmir-footer .dropdown-item:hover,
+.flatmir-footer .dropdown-item:focus {
+  color: #656565;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+.flatmir-footer .dropdown-item.active {
+  color: #656565;
+  background-color: transparent;
+}
+
+.flatmir-footer .dropdown-item.active {
+  color: #656565;
+  background-color: transparent;
+}
+
+#pp_footer-nav {
+  margin-left: 40px;
+}
+
+#pp_footer-nav > li {
+  padding-bottom: 15px;
+}
+
+.footer-info img {
+  margin-bottom: 25px
+}
+#footer-social ul > li{
+  padding-bottom: 30px;
+}
+#footer-social ul > li > a > span {
+  margin-right: 30px;
+}
+
+.flatmir-footer {
+  background-color: white;
+  margin-top: 50px;
+}
+.mcr-footer-section--coop-partners {
+  background-color: #ebe8e5;
+}
+.mcr-footer-section--copyright {
+  background-color: #38322d;
+}
+
+// Large devices (desktops) and below: <= 1200px
+@include media-breakpoint-down(lg) {
+  // add/overwrite styles for responsive level lg and lower
+}
+
+// Medium devices (tablets) and below: <= 992px
+@include media-breakpoint-down(md) {
+  // add/overwrite styles for responsive level md and lower
+  #footer-social ul > li{
+    padding-bottom: 10px;
+  }
+  #footer-social ul > li > a > span {
+    margin-right: 10px;
+  }
+}
+
+// Small devices (landscape phones) and below: <= 768px
+@include media-breakpoint-down(sm) {
+  // add/overwrite styles for responsive level sm and lower
+}
+
+// Extra small devices (portrait phones): <= 576px
+@include media-breakpoint-down(xs) {
+  // add/overwrite styles for responsive level xs
+}

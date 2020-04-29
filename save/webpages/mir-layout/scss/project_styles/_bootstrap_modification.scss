@@ -8,25 +8,43 @@
 
 // Brand colors
 // -------------------------
-$primary:       #ef7f01;
-$brand-primary: $primary;
-$success:       #0a6e78;
-$brand-success: $success;
-$info:          #ef7f01;
-$brand-info:    $info;
-$warning:       #961432;
-$brand-warning: $warning;
-$danger:        #961432;
-$brand-danger:  $danger;
+$primary:         #ef7f01;
+$success:         #0a6e78;
+$warning:         #961432;
 
-$gray-light:    #c5c5c5;
-$gray-lighter:  #e9eeef;
+$brand-primary:     $primary;
+$brand-success:     $success;
+$info:              $primary;
+$brand-info:        $info;
+$brand-warning:     $warning;
+$danger:            $warning;
+$brand-danger:      $danger;
+
+$gray-light:      #c5c5c5;
+$gray-lighter:    #e9eeef;
+
+$pp-primary-light:#ffc88a;
+$pp-success-light:#62a0a8;
+
+$pp-menu-back:    #75adad;
+$pp-menu-text:    white;
+$pp-menu-border:  white;
+$pp-menu-hover:   #aad2d2;
+$pp-menu-active:    $success;
+$pp-menu-divider: #99d3d9;
+
+
 
 
 // Links
 // -------------------------
 $link-color:         #0c636d;
 $link-hover-color:   #0c636d;
+
+// Dropdowns
+// -------------------------
+$dropdown-link-color:    $link-color;
+$dropdown-link-hover-bg: $pp-menu-back;
 
 // Panel
 // -------------------------
