@@ -25,6 +25,9 @@
   <xsl:param name="MIR.shariff.theme" select="'white'" />
   <xsl:param name="MIR.shariff.buttonstyle" select="'icon'" />
   <xsl:param name="MIR.shariff.services" select="''" /> <!-- default: ['mail', 'twitter', 'facebook', 'whatsapp', 'linkedin', 'xing', 'pinterest', 'info'] -->
+
+  <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(mycoreobject/@ID)" />
+
   <xsl:template match="/">
 
     <!-- ==================== Highwire Press Tags and Dublin Core as Meta Tags ==================== -->
@@ -33,7 +36,6 @@
       <xsl:apply-templates select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" mode="highwire" />
     </citation_meta>
 
-    <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(mycoreobject/@ID)" />
     <xsl:variable name="mods" select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" />
 
     <div id="mir-citation">
@@ -117,7 +119,7 @@
         </span>
         <xsl:if test="string-length($MIR.citationStyles) &gt; 0">
           <xsl:variable name="cite-styles">
-            <xsl:call-template name="Tokenizer"><!-- use split function from mycore-base/coreFunctions.xsl -->
+            <xsl:call-template name="Tokenizer"><!- use split function from mycore-base/coreFunctions.xsl ->
               <xsl:with-param name="string" select="$MIR.citationStyles" />
               <xsl:with-param name="delimiter" select="','" />
             </xsl:call-template>
@@ -309,7 +311,7 @@
             <xsl:choose>
               <xsl:when test="not($piServiceInformation[@type='doi' or @type='doi'][@inscribed='true']) and //servflag/@type='alias'">
                 <xsl:variable name="parentAlias">
-                  <xsl:for-each select="//mods:relatedItem[contains('host series', @type)]">
+                  <xsl:for-each select="//mods:relatedItem[contains('host series', @type)][not(@xlink:href=following::node()/@xlink:href)]">
                     <xsl:sort select="position()" data-type="number" order="descending" />
                     <xsl:call-template name="getAlias">
                       <xsl:with-param name="objectID" select="@xlink:href" />
