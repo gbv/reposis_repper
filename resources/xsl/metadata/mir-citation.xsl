@@ -16,6 +16,7 @@
   <xsl:param name="MCR.URN.Resolver.MasterURL" select="''" />
   <xsl:param name="MCR.DOI.Resolver.MasterURL" select="''" />
   <xsl:param name="MIR.citationStyles" select="''" />
+  <xsl:param name="MIR.defaultCitationStyle" select="''" />
   <xsl:param name="MIR.altmetrics" select="'show'" />
   <xsl:param name="MIR.altmetrics.hide" select="'true'" />
   <xsl:param name="MIR.plumx" select="'hide'" />
@@ -24,9 +25,6 @@
   <xsl:param name="MIR.shariff.theme" select="'white'" />
   <xsl:param name="MIR.shariff.buttonstyle" select="'icon'" />
   <xsl:param name="MIR.shariff.services" select="''" /> <!-- default: ['mail', 'twitter', 'facebook', 'whatsapp', 'linkedin', 'xing', 'pinterest', 'info'] -->
-
-  <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(/mycoreobject/@ID)" />
-
   <xsl:template match="/">
 
     <!-- ==================== Highwire Press Tags and Dublin Core as Meta Tags ==================== -->
@@ -35,6 +33,7 @@
       <xsl:apply-templates select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" mode="highwire" />
     </citation_meta>
 
+    <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(mycoreobject/@ID)" />
     <xsl:variable name="mods" select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" />
 
     <div id="mir-citation">
@@ -114,17 +113,16 @@
           <strong>
             <xsl:value-of select="i18n:translate('mir.citationStyle')" />
           </strong>
-          <i id="crossref-citation-error" class="fas fa-exclamation-circle hidden" title="{i18n:translate('mir.citationAlertService')}"></i>
+          <i id="citation-error" class="fas fa-exclamation-circle hidden" title="{i18n:translate('mir.citationAlertService')}"></i>
         </span>
-        <xsl:if test="//mods:mods/mods:identifier[@type='doi'] and string-length($MIR.citationStyles) &gt; 0">
+        <xsl:if test="string-length($MIR.citationStyles) &gt; 0">
           <xsl:variable name="cite-styles">
-            <xsl:call-template name="Tokenizer"><!- use split function from mycore-base/coreFunctions.xsl ->
+            <xsl:call-template name="Tokenizer"><!-- use split function from mycore-base/coreFunctions.xsl -->
               <xsl:with-param name="string" select="$MIR.citationStyles" />
               <xsl:with-param name="delimiter" select="','" />
             </xsl:call-template>
           </xsl:variable>
-          <select class="form-control input-sm" id="crossref-cite" data-doi="{//mods:mods/mods:identifier[@type='doi']}">
-            <option value="deutsche-sprache">deutsche-sprache</option>
+          <select class="form-control input-sm" id="mir-csl-cite" data-object-id="{/mycoreobject/@ID}">
             <xsl:for-each select="exslt:node-set($cite-styles)/token">
               <option value="{.}">
                 <xsl:value-of select="." />
@@ -132,15 +130,12 @@
             </xsl:for-each>
           </select>
         </xsl:if>
-        <p id="default-citation-text">
-          <xsl:apply-templates select="$mods" mode="authorList" />
-          <xsl:apply-templates select="$mods" mode="title" />
-          <xsl:apply-templates select="$mods" mode="originInfo" />
-          <xsl:apply-templates select="$mods" mode="issn" />
-        </p>
-        <p id="crossref-citation-text" class="d-none">
-        </p>
-        <p id="crossref-citation-alert" class="alert alert-danger d-none"><xsl:value-of select="i18n:translate('mir.citationAlert')" /></p>
+        <div id="default-citation-text">
+          <xsl:copy-of select="document(concat('xslTransform:mods2csl?format=html&amp;style=', $MIR.defaultCitationStyle, ':mcrobject:', /mycoreobject/@ID))" />
+        </div>
+        <div id="citation-text" class="d-none">
+        </div>
+        <div id="citation-alert" class="alert alert-danger d-none"><xsl:value-of select="i18n:translate('mir.citationAlert')" /></div>
       </div -->
 
       <p id="cite_link_box">
@@ -151,7 +146,7 @@
               <xsl:value-of select="$doi" />
             </a>
             <br />
-            <a id="copy_cite_link" class="badge badge-info" href="#" title="{i18n:translate('mir.citationLink.title')}">
+            <a id="copy_cite_link" class="btn btn-info btn-sm" href="#" title="{i18n:translate('mir.citationLink.title')}">
               <xsl:value-of select="i18n:translate('mir.citationLink')" />
             </a>
           </xsl:when>
@@ -161,7 +156,7 @@
               <xsl:value-of select="$urn" />
             </a>
             <br />
-            <a id="copy_cite_link" class="badge badge-info" href="#" title="{i18n:translate('mir.citationLink.title')}">
+            <a id="copy_cite_link" class="btn btn-info btn-sm" href="#" title="{i18n:translate('mir.citationLink.title')}">
               <xsl:value-of select="i18n:translate('mir.citationLink')" />
             </a>
           </xsl:when>
@@ -188,7 +183,7 @@
               </xsl:otherwise>
             </xsl:choose>
             <br />
-            <a id="copy_cite_link" href="#" class="badge badge-info" title="{i18n:translate('mir.citationLink.title')}">
+            <a id="copy_cite_link" href="#" class="btn btn-info btn-sm" title="{i18n:translate('mir.citationLink.title')}">
               <xsl:value-of select="i18n:translate('mir.citationLink')" />
             </a>
           </xsl:otherwise>
@@ -286,19 +281,29 @@
   </xsl:template>
 
   <xsl:template match="mods:mods" mode="identifierListModal">
-    <div id="identifierModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal frame" aria-hidden="true">
+    <div
+      id="identifierModal"
+      class="modal fade"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal frame"
+      aria-hidden="true">
       <div class="modal-dialog modal-lg modal-xl" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h4 class="modal-title" id="modalFrame-title">
               <xsl:value-of select="i18n:translate('mir.citationLink')" />
             </h4>
-            <button type="button" class="close modalFrame-cancel" data-dismiss="modal" aria-label="Close">
+            <button
+              type="button"
+              class="close modalFrame-cancel"
+              data-dismiss="modal"
+              aria-label="Close">
               <i class="fas fa-times" aria-hidden="true"></i>
             </button>
           </div>
           <div class="modal-body">
-            <xsl:if test="$piServiceInformation[@type='doi' or @type='doi'][@inscribed='true']">
+            <xsl:if test="$piServiceInformation[@type='urn' or @type='doi'][@inscribed='true']">
               <xsl:apply-templates select="mods:identifier[@type='urn' or @type='doi']" mode="identifierList" />
             </xsl:if>
             <xsl:choose>
@@ -317,7 +322,7 @@
                   <xsl:with-param name="id" select="concat($WebApplicationBaseURL, 'publikationen/', $parentAlias, //servflag[@type='alias']/text())" />
                 </xsl:call-template>
               </xsl:when>
-              <xsl:when test="not($piServiceInformation[@type='doi' or @type='doi'][@inscribed='true'])">
+              <xsl:when test="not($piServiceInformation[@type='urn' or @type='doi'][@inscribed='true'])">
                 <xsl:call-template name="identifierEntry">
                   <xsl:with-param name="title" select="'Document-Link'" />
                   <xsl:with-param name="id" select="concat($WebApplicationBaseURL, 'receive/', //mycoreobject/@ID)" />

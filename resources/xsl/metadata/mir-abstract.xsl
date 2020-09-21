@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
-  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions" xmlns:xalan="http://xml.apache.org/xalan"
+<xsl:stylesheet version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions"
+  xmlns:xalan="http://xml.apache.org/xalan"
   xmlns:exslt="http://exslt.org/common"
   exclude-result-prefixes="i18n mods xlink mcrxsl xalan exslt"
 >
 
   <xsl:import href="xslImport:modsmeta:metadata/mir-abstract.xsl" />
+  <xsl:include href="resource:xsl/mir-utils.xsl" />
 
   <xsl:variable name="objectID" select="/mycoreobject/@ID" />
   <xsl:variable name="modsPart" select="concat('mods.part.', $objectID)" />
@@ -13,16 +19,6 @@
   <xsl:template match="/">
 
     <xsl:variable name="mods" select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" />
-    <xsl:variable name="owner">
-      <xsl:choose>
-        <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
-          <xsl:text>*</xsl:text>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of select="$CurrentUser" />
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
 
     <!-- badges -->
     <div id="mir-abstract-badges">
@@ -202,19 +198,11 @@
           <xsl:for-each select="$mods/mods:abstract">
             <xsl:choose>
               <xsl:when test="(string-length(@altRepGroup) &gt; 0) and (string-length(@altFormat) &gt; 0)">
-                <!-- ignore abstract -->
+                <xsl:copy-of select="document(concat('unescape-html-content:', @altFormat))"/>
               </xsl:when>
-              <xsl:when test="(string-length(@altRepGroup) &gt; 0) and (string-length(@altFormat) = 0)">
-                <mods:abstract xml:lang="{@xml:lang}">
-                  <xsl:apply-templates select="." mode="mods.printAlternateFormat">
-                    <xsl:with-param name="asHTML" select="true()" />
-                    <xsl:with-param name="filtered" select="true()" />
-                  </xsl:apply-templates>
-                </mods:abstract>
-              </xsl:when>
-              <xsl:otherwise>
+              <xsl:when test="not(@altRepGroup)">
                 <xsl:copy-of select="." />
-              </xsl:otherwise>
+              </xsl:when>
             </xsl:choose>
           </xsl:for-each>
         </xsl:variable>
@@ -251,12 +239,17 @@
               <div class="tab-content">
                 <xsl:for-each select="$abstracts/mods:abstract">
                   <div class="tab-pane ellipsis ellipsis-text" role="tabpanel" id="tab{position()}">
+                    <xsl:if test="@xml:lang">
+                      <xsl:attribute name="lang">
+                        <xsl:value-of select="@xml:lang" />
+                      </xsl:attribute>
+                    </xsl:if>
                     <xsl:if test="position()=1">
                       <xsl:attribute name="class">tab-pane ellipsis ellipsis-text active</xsl:attribute>
                     </xsl:if>
                     <p>
                       <span class="ellipsis-description">
-                        <xsl:apply-templates select="node()" mode="unescapeHtml" />
+                        <xsl:copy-of select="node()"/>
                       </span>
                     </p>
                   </div>
@@ -277,9 +270,14 @@
           <xsl:otherwise>
             <div id="mir-abstract">
               <div class="ellipsis ellipsis-text">
+                <xsl:if test="@xml:lang">
+                  <xsl:attribute name="lang">
+                    <xsl:value-of select="@xml:lang" />
+                  </xsl:attribute>
+                </xsl:if>
                 <p>
                   <span class="ellipsis-description">
-                    <xsl:apply-templates select="$abstracts/mods:abstract/node()" mode="unescapeHtml" />
+                    <xsl:copy-of select="$abstracts/mods:abstract/node()"/>
                   </span>
                 </p>
               </div>
@@ -472,5 +470,47 @@
       </xsl:for-each>
       </span>
     </xsl:if>
+  </xsl:template>
+
+  <xsl:template mode="mods.printTitle" match="mods:titleInfo" priority="1">
+    <xsl:param name="asHTML" select="false()" />
+    <xsl:param name="withSubtitle" select="false()" />
+
+    <xsl:variable name="altRepGroup" select="@altRepGroup" />
+    <xsl:variable name="hasAlternateFormat" select="count(..//mods:titleInfo[(@altRepGroup = $altRepGroup) and (string-length(@altFormat) &gt; 0)]) &gt; 0" />
+
+    <xsl:choose>
+      <xsl:when test="$asHTML and $hasAlternateFormat and (string-length(@altFormat) = 0)">
+        <!-- ignore titleInfo -->
+      </xsl:when>
+      <xsl:when test="$asHTML and $hasAlternateFormat and (string-length(@altFormat) &gt; 0)">
+        <xsl:variable name="alternateContent"
+                      select="document(concat('unescape-html-content:',..//mods:titleInfo[(@altRepGroup = $altRepGroup) and (string-length(@altFormat) &gt; 0)]/@altFormat))/*[local-name()='titleInfo']" />
+
+        <xsl:if test="$alternateContent/nonSort">
+          <xsl:copy-of select="$alternateContent/nonSort/node()" />
+
+        </xsl:if>
+        <xsl:copy-of select="$alternateContent/title/node()" />
+        <xsl:if test="$withSubtitle and $alternateContent/subTitle">
+          <span class="subtitle">
+            <xsl:text> : </xsl:text>
+            <xsl:copy-of select="$alternateContent/subTitle/node()" />
+          </span>
+        </xsl:if>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:if test="mods:nonSort">
+          <xsl:value-of select="concat(mods:nonSort, ' ')" />
+        </xsl:if>
+        <xsl:value-of select="mods:title" />
+        <xsl:if test="$withSubtitle and mods:subTitle">
+          <span class="subtitle">
+            <xsl:text> : </xsl:text>
+            <xsl:value-of select="mods:subTitle" />
+          </span>
+        </xsl:if>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 </xsl:stylesheet>
