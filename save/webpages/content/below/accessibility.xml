@@ -113,8 +113,8 @@
       <div class="col-md-10" lang="de">
         <h3> Kontakt und Feedback </h3>
 
-        <p>Wenn Ihnen in Bezug auf die barrierefreie Gestaltung der Internetseite https://perspectivia.net/ Mängel auffallen sollten, können Sie sich gerne an uns wenden. Wir sind Ihnen für Hinweise sehr dankbar.</p>
-        <p>Per E-Mail erreichen Sie uns unter perspectivia(at)MaxWeberStiftung.de.
+        <p>Wenn Ihnen in Bezug auf die barrierefreie Gestaltung der Internetseite <a href="https://perspectivia.net/">https://perspectivia.net/</a> Mängel auffallen sollten, können Sie sich gerne an uns wenden. Wir sind Ihnen für Hinweise sehr dankbar.</p>
+        <p>Per E-Mail erreichen Sie uns unter <span class="madress">perspectivia [at] MaxWeberStiftung.de</span>.
           Unsere Postanschrift lautet:
         </p>
 
@@ -134,7 +134,7 @@
       <div class="col-md-10" lang="de">
         <h3> Ombudsstelle für barrierefreie Informationstechnik des Landes Nordrhein-Westfalen </h3>
 
-        <p>Sollten Sie auf Mitteilungen oder Anfragen zur barrierefreien Informationstechnik der Internetseite https://perspectivia.net/ von den dort genannten Ansprechpartnern keine zufriedenstellenden Antworten erhalten haben, können Sie die Ombudsstelle für barrierefreie Informationstechnik einschalten. Unter Einbeziehung aller Beteiligten versucht die Ombudsstelle, die Umstände der fehlenden Barrierefreiheit zu ermitteln, damit der Träger diese beheben kann.</p>
+        <p>Sollten Sie auf Mitteilungen oder Anfragen zur barrierefreien Informationstechnik der Internetseite <a href="https://perspectivia.net/">https://perspectivia.net/</a> von den dort genannten Ansprechpartnern keine zufriedenstellenden Antworten erhalten haben, können Sie die Ombudsstelle für barrierefreie Informationstechnik einschalten. Unter Einbeziehung aller Beteiligten versucht die Ombudsstelle, die Umstände der fehlenden Barrierefreiheit zu ermitteln, damit der Träger diese beheben kann.</p>
         <p>Sie ist der oder dem Beauftragten für die Belange der Menschen mit Behinderung nach § 11 des Behindertengleichstellungsgesetzes Nordrhein-Westfalen zugeordnet und über folgenden Kontakt zu erreichen: </p>
         <p class="border-left pl-5">
           Ministerium für Arbeit, Gesundheit und Soziales des Landes Nordrhein-Westfalen<br />
@@ -145,7 +145,7 @@
           Sie erreichen die Ombudsstelle unter der folgenden E-Mail-Adresse:
         </p>
         <p class="border-left pl-5">
-          Ombudsstelle-barrierefreie-IT@mags.nrw.de. 
+          <span class="madress">Ombudsstelle-barrierefreie-IT [at] mags.nrw.de</span>. 
         </p>
       </div>
     </div>
