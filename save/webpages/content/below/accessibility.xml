@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage>
+  <section xml:lang="de" title="Hinweis zur Barrierefreiheit">
+    <div class="row">
+      <div class="col-md-10" lang="de">
+
+        <h2> Erklärung zur Barrierefreiheit <small class="text-muted">(Stand der Erklärung:
+            23.09.2020)</small>
+        </h2>
+
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-10" lang="de">
+
+        <p>
+          Die <strong>Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland</strong> (MWS) ist bemüht, die Internetseite
+          <a href="https://perspectivia.net/">https://perspectivia.net/</a> (im Folgenden: Publikationsserver) im Einklang mit
+          den nationalen Rechtsvorschriften zur Umsetzung der Richtlinie (EU) 2016/2102 des Europäischen Parlaments barrierefrei
+          zugänglich zu machen. </p>
+
+      </div>
+    </div>
+
+
+    <div class="row mt-3">
+      <div class="col-md-10" lang="de">
+
+        <h3> Stand der Vereinbarkeit mit den Anforderungen </h3>
+
+        <p>Der Publikationsserver perspectivia.net ist mit dem Behindertengleichstellungsgesetz Nordrhein-Westfalen (BGG NRW) 
+          nd der Barrierefreie-Informationstechnik-Verordnung Nordrhein-Westfalen (BITV NRW) teilweise vereinbar. </p>
+
+      </div>
+    </div>
+    
+    
+    <div class="row mt-3">
+      <div class="col-md-10" lang="de">
+        <h3>Nicht barrierefreie Inhalte</h3>
+
+        <dl>
+          <dt>Im Webauftritt eingebundene Dokumente</dt>
+          <dd class="ml-4">
+            Die auf dem Publikationsserver veröffentlichten Dokumente sind teilweise nicht barrierefrei und können nicht automatisiert in ein barrierefreies Format umgewandelt werden, da
+            <ul>
+              <li>die MWS nicht das Recht auf die Änderung der Dateien besitzt,</li>
+              <li>die Ausgangsformate nicht zu Verfügung stehen,</li>
+              <li>die Zitierfähigkeit der Dokumente nicht mehr gewährleistet wäre.</li>
+            </ul>
+            Eine nachträgliche manuelle Bearbeitung der Dokumente ist unverhältnismäßig arbeitsaufwendig und wird nur in Ausnahmefällen durchgeführt. 
+            In aus vorliegenden Druckwerken durch Scans entstandenen Digitalisaten wurde mittels OCR-Software Text hinter die Seitenbilder gelegt. Eine weitere Bearbeitung hinsichtlich
+            Barrierefreiheit erfolgt nicht, um die Authentizität der Reproduktion zu gewährleisten. 
+          </dd>
+          
+          <dt>Im Webauftritt enthaltene Informationen in Gebärdensprache und
+            in leichter Sprache</dt>
+          <dd class="ml-4">
+            Der Publikationsserver richtet sich an Wissenschaftlerinnen und Wissenschaftler
+            aus den jeweiligen Fachbereichen. Auf Grund der komplexen Inhalte kann eine
+            einfache Sprachgestaltung nicht umgesetzt werden und es werden gängige Fachbegriffe und Abkürzungen genutzt. 
+          </dd>
+
+          <dt>Im Webauftritt eingebundene Videos</dt>
+          <dd class="ml-4">Die Bereitstellung der Videos mit einer Audiodeskription konnte bislang
+              nicht realisiert werden.</dd>
+          
+          <dt>Alternativtexte (1.1.1 a-c )</dt>
+          <dd class="ml-4">An einigen Stellen fehlen die Alternativtexte. Bei einem nächsten Update werden diese ergänzt werden.</dd>
+          
+          <dt>HTML-Strukurelemente (1.3.1 a-f )</dt>
+          <dd class="ml-4">Einige HTML-Strukurelemente sind nur teilweise barrierefrei, da die entsprechenden Bootstrap-Klassen fehlen.
+            Eine Überarbeitung ist in Arbeit.</dd>
+          
+          <dt>Eingabefelder zu Nutzerdaten vermitteln den Zweck (1.3.5a)</dt>
+          <dd class="ml-4">Formulare nutzen keine Autovervollständigung. Bei Formularen fehlen die „autocomplete“-Attribute, was das Ausfüllen der Formulare erschwert.
+            Bei einem Update soll die Funktionalität künftig ergänzt werden.</dd>
+          
+          <dt>Kontraste von Texten ausreichend (1.4.3)</dt>
+          <dd class="ml-4">Da das grundsätzliche Layout der Webseite vor dem Erscheinen der Richtlinie (EU) 2016/2102 erstellt wurde, ist das Kontrastverhältnis von 4,5:1 nicht grundsätzlich sichergestellt.
+            An einer Lösung wird gearbeitet.</dd>
+          
+          <dt>Aktuelle Position des Fokus deutlich (2.4.7a)</dt>
+          <dd class="ml-4">Der Fokus ist bei der Bedienung mit der Tastatur nicht immer erkennbar.
+            Die Anpassung des Fokus-Managements erfolgt bei der nächsten grundlegenden Überarbeitung der Website.</dd>
+          
+          <dt>Fehlererkennung (3.3.1a)</dt>
+          <dd class="ml-4">Angaben in Formularen werden vor dem Abschicken nicht automatisch überprüft. 
+            Bei der nächsten grundlegenden Überarbeitung der Website soll die Funktionalität künftig ergänzt werden.</dd>
+          
+          <dt>Statusmeldungen programmatisch verfügbar (4.1.3a)</dt>
+          <dd class="ml-4">Es erfolgt weder visuell noch im Screenreader ein Hinweis das, das Dokument auf die Merkliste gesetzt wurde.
+            Die entsprechende "Role" wird im Rahmen eines Updates ergänzt.</dd>
+        </dl>
+        <p>Die identifizierten technischen Defizite und Mängel befinden sich aktuell in einem kontinuierlichen Verbesserungsprozess,
+          der sukzessive abgearbeitet wird.</p>
+      </div>
+    </div>
+
+
+    <div class="row mt-3">
+      <div class="col-md-10" lang="de">
+        <h3> Erstellung dieser Erklärung zur Barrierefreiheit </h3>
+
+        <p>
+          Diese Erklärung wurde am 23.09.2020 erstellt. Die Einschätzung basiert auf Selbstbewertung.</p>
+      </div>
+    </div>
+
+
+    
+    <div class="row mt-3">
+      <div class="col-md-10" lang="de">
+        <h3> Kontakt und Feedback </h3>
+
+        <p>Wenn Ihnen in Bezug auf die barrierefreie Gestaltung der Internetseite https://perspectivia.net/ Mängel auffallen sollten, können Sie sich gerne an uns wenden. Wir sind Ihnen für Hinweise sehr dankbar.</p>
+        <p>Per E-Mail erreichen Sie uns unter perspectivia(at)MaxWeberStiftung.de.
+          Unsere Postanschrift lautet:
+        </p>
+
+        <p class="border-left pl-5">
+          Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland<br />
+          Rheinallee 6<br />
+          D-53173 Bonn<br />
+          Telefon +49 (0)228 37786-0<br />
+          
+        </p>
+      </div>
+    </div>
+
+
+    
+    <div class="row mt-3">
+      <div class="col-md-10" lang="de">
+        <h3> Ombudsstelle für barrierefreie Informationstechnik des Landes Nordrhein-Westfalen </h3>
+
+        <p>Sollten Sie auf Mitteilungen oder Anfragen zur barrierefreien Informationstechnik der Internetseite https://perspectivia.net/ von den dort genannten Ansprechpartnern keine zufriedenstellenden Antworten erhalten haben, können Sie die Ombudsstelle für barrierefreie Informationstechnik einschalten. Unter Einbeziehung aller Beteiligten versucht die Ombudsstelle, die Umstände der fehlenden Barrierefreiheit zu ermitteln, damit der Träger diese beheben kann.</p>
+        <p>Sie ist der oder dem Beauftragten für die Belange der Menschen mit Behinderung nach § 11 des Behindertengleichstellungsgesetzes Nordrhein-Westfalen zugeordnet und über folgenden Kontakt zu erreichen: </p>
+        <p class="border-left pl-5">
+          Ministerium für Arbeit, Gesundheit und Soziales des Landes Nordrhein-Westfalen<br />
+          Fürstenwall 25<br />
+          40219 Düsseldorf
+        </p>
+        <p>
+          Sie erreichen die Ombudsstelle unter der folgenden E-Mail-Adresse:
+        </p>
+        <p class="border-left pl-5">
+          Ombudsstelle-barrierefreie-IT@mags.nrw.de. 
+        </p>
+      </div>
+    </div>
+  </section>
+  <meta>
+    <log lastEditor="celsner" date="2020-09-03" time="11:24"/>
+  </meta>
+</MyCoReWebPage>
