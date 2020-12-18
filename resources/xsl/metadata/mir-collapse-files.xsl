@@ -178,10 +178,11 @@
                       <a href="{mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='raw object']}">
                         <img src="{$WebApplicationBaseURL}servlets/MCRTileCombineServlet/THUMBNAIL/{$derId}/{$maindoc}" />
                         <br />
-                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        <i class="fas fa-file-import" aria-hidden="true"></i>
                         <xsl:text> </xsl:text>
                         <xsl:value-of select="i18n:translate('pp.coverPanel.text.fulltext')" />
                       </a>
+                      <br />
                       <a href="{mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']}">
                         <i class="fas fa-shopping-cart" aria-hidden="true"></i>
                         <xsl:text> </xsl:text>
