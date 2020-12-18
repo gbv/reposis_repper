@@ -147,23 +147,66 @@
         
         <!-- START: Add cover box for perspectivia -->
         <xsl:if test="mycoreobject/structure/derobjects/derobject/classification[@classid='derivate_types'][@categid='thumbnail'] and
-                      mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']">
+                      (mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context'] or
+                      mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='raw object'])">
           <xsl:variable name="derId" select="mycoreobject/structure/derobjects/derobject[classification[@classid='derivate_types'][@categid='thumbnail']]/@xlink:href" />
           <xsl:variable name="maindoc" select="mycoreobject/structure/derobjects/derobject[classification[@classid='derivate_types'][@categid='thumbnail']]/maindoc" />
+          <xsl:variable name="fulltext_or_print">
+            <xsl:choose>
+              <xsl:when test="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context'] and
+                              mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='raw object']">
+                <xsl:value-of select="'both'"/>
+              </xsl:when>
+              <xsl:when test="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']">
+                <xsl:value-of select="'print'"/>
+              </xsl:when>
+              <xsl:when test="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='raw object']">
+                <xsl:value-of select="'fulltext'"/>
+              </xsl:when>
+            </xsl:choose>
+          </xsl:variable>
           <div id="repper-cover-box">
             <div id="pp_coverCard" class="card">
               <div class="card-header">
-                <h3 class="card-title"><xsl:value-of select="i18n:translate('pp.coverPanel.title')" /></h3>
+                <h3 class="card-title"><xsl:value-of select="i18n:translate(concat('pp.coverPanel.title.', $fulltext_or_print))" /></h3>
               </div>
               <div class="card-body">
                 <p>
-                  <a href="{mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']}">
-                    <img src="{$WebApplicationBaseURL}servlets/MCRTileCombineServlet/THUMBNAIL/{$derId}/{$maindoc}" />
-                    <br />
-                    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
-                    <xsl:text> </xsl:text>
-                    <xsl:value-of select="i18n:translate('pp.coverPanel.text')" />
-                  </a>
+                  <xsl:choose>
+                    <xsl:when test="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context'] and
+                      mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='raw object']">
+                      <a href="{mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='raw object']}">
+                        <img src="{$WebApplicationBaseURL}servlets/MCRTileCombineServlet/THUMBNAIL/{$derId}/{$maindoc}" />
+                        <br />
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        <xsl:text> </xsl:text>
+                        <xsl:value-of select="i18n:translate('pp.coverPanel.text.fulltext')" />
+                      </a>
+                      <a href="{mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']}">
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        <xsl:text> </xsl:text>
+                        <xsl:value-of select="i18n:translate('pp.coverPanel.text.print')" />
+                      </a>
+                    </xsl:when>
+                    <xsl:when test="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']">
+                      <a href="{mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context']}">
+                        <img src="{$WebApplicationBaseURL}servlets/MCRTileCombineServlet/THUMBNAIL/{$derId}/{$maindoc}" />
+                        <br />
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        <xsl:text> </xsl:text>
+                        <xsl:value-of select="i18n:translate('pp.coverPanel.text.print')" />
+                      </a>
+                    </xsl:when>
+                    <xsl:when test="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='raw object']">
+                      <a href="{mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='raw object']}">
+                        <img src="{$WebApplicationBaseURL}servlets/MCRTileCombineServlet/THUMBNAIL/{$derId}/{$maindoc}" />
+                        <br />
+                        <i class="fas fa-file-import" aria-hidden="true"></i>
+                        <xsl:text> </xsl:text>
+                        <xsl:value-of select="i18n:translate('pp.coverPanel.text.fulltext')" />
+                      </a>
+                    </xsl:when>
+                  </xsl:choose>
                 </p>
               </div>
             </div>
