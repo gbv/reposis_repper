@@ -4,7 +4,7 @@
 >
   <xsl:include href="layout-utils.xsl" />
 
-  <xsl:param name="MIR.OAS" select="'hide'" />
+  <xsl:param name="MIR.ePuSta" select="'hide'" />
 
   <xsl:template match="/site">
     <xsl:copy>
@@ -140,19 +140,20 @@
               </div>
             </div>
           </xsl:if>
-<!-- OAS statistics -->
-          <xsl:if test="$MIR.OAS = 'show' and div[@id='mir-oastatistics']">
-            <div class="card"><!-- todo: panel-default replacement -->
-              <div class="card-header">
+<!-- ePuSta -->
+          <xsl:if test="$MIR.ePuSta = 'show' and div[@id='mir-epusta']">
+            <!-- <div class="card">
+              <div class="card-header d-flex justify-content-between align-items-center">
                 <h3 class="card-title">
-                  <xsl:value-of select="i18n:translate('mir.oas.panelheading')" />
+                  <xsl:value-of select="i18n:translate('mir.epusta.panelheading')" />
                 </h3>
+                <img src="{$WebApplicationBaseURL}images/epusta/epustalogo_small.png" class="mir-epusta-logo" />
               </div>
-              <div class="card-body" id="mir_oas">
-                <xsl:apply-templates select="div[@id='mir-oastatistics']" mode="copyContent" />
-              </div>
-            </div>
-          </xsl:if>
+              <div class="card-body"> -->
+                <xsl:apply-templates select="div[@id='mir-epusta']" mode="copyContent" />
+              <!-- </div>
+            </div>-->
+          </xsl:if> 
 <!-- rights -->
           <xsl:if test="div[@id='mir-access-rights']">
             <div id="mir_access_rights_panel" class="card"><!-- todo: panel-default replacement -->
@@ -199,21 +200,23 @@
                 role="dialog"
                 aria-labelledby="modal frame"
                 aria-hidden="true">
-                <div class="modal-dialog modal-lg modal-xl" role="document">
+                <div
+                  class="modal-dialog modal-lg modal-xl"
+                  role="document">
                   <div class="modal-content">
                     <div class="modal-header">
                       <h4 class="modal-title" id="modalFrame-title">
                         <xsl:value-of select="i18n:translate('metadata.versionInfo.label')" />
                       </h4>
                       <button
-                        class="close modalFrame-cancel"
                         type="button"
+                        class="close modalFrame-cancel"
                         data-dismiss="modal"
                         aria-label="Close">
                         <i class="fas fa-times" aria-hidden="true"></i>
                       </button>
                     </div>
-                    <div class="modal-body">
+                    <div id="modalFrame-body" class="modal-body">
                       <xsl:apply-templates select="div[@id='mir-historydata']" mode="copyContent" />
                     </div>
                     <div class="modal-footer">
