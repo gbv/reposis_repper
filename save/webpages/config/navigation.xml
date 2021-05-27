@@ -177,11 +177,6 @@
         <label xml:lang="de">Quicklinks</label>
         <label xml:lang="en">Quicklinks</label>
         <label xml:lang="fr">Quicklinks</label>
-        <item href="/servlets/solr/find?fq=mods.genre:source_edition" type="extern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Quellen und Datenbanken</label>
-            <label xml:lang="en">Sources and Databases</label>
-            <label xml:lang="fr">Sources et bases de données</label>
-        </item>
         <item href="http://menadoc.bibliothek.uni-halle.de/" type="extern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">MENAdoc (FID Vorderer Orient)</label>
             <label xml:lang="en">MENAdoc (FID Vorderer Orient)</label>

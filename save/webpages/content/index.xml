@@ -15,7 +15,7 @@
 </div>
 
 <div class="card-body">
-<p>Die elektronische Publikationsplattform perspectivia.net versteht sich als ein internationales, epochenübergreifendes und interdisziplinäres Portal für geisteswissenschaftliche Publikationen. Als Infrastruktur der Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland werden hier die von den Instituten und ihren Kooperationspartnern herausgegebenen Publikationen frei zugänglich gemacht. Die Max Weber Stiftung ist den Prinzipien des Open Access verpflichtet und perspectivia.net fördert den freien Zugang zu Wissen und begleitet die Transformation der Geisteswissenschaften in Richtung einer offenen Wissenschaft.<br />
+<p>Die digitale Publikationsplattform perspectivia.net versteht sich als ein internationales, epochenübergreifendes und interdisziplinäres Portal für geisteswissenschaftliche Publikationen. Als Infrastruktur der Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland werden hier die von den Instituten und ihren Kooperationspartnern herausgegebenen Publikationen frei zugänglich gemacht. Die Max Weber Stiftung ist den Prinzipien des Open Access verpflichtet und perspectivia.net fördert den freien Zugang zu Wissen und begleitet die Transformation der Geisteswissenschaften in Richtung einer offenen Wissenschaft.<br />
  </p>
 </div>
 
@@ -56,13 +56,11 @@
 <div class="col-md-4 mb-2">
 <div class="card"><!--TODO: replace panel-default -->
 <div class="card-header">
-<h2 class="card-title">Blogs</h2>
+<h2 class="card-title">Wissenschaftliche Blogs</h2>
 </div>
 
 <div class="card-body">
-<p>Wissen in Verbindung</p>
-
-<p>WEBER 2.0 | WISSENSCHAFTLICHE BLOGS DER MAX WEBER STIFTUNG</p>
+<p>Wissen in Verbindung - Weber 2.0 ist das Portal für wissenschaftliche Blogs der Max Weber Stiftung, ihrer Institute und Partner.</p>
 </div>
 
 <div class="card-footer pp_more"><a href="https://mws.hypotheses.org/"><strong>... zur Übersicht</strong> <img src="../images/external_link.svg" /> </a></div>
@@ -73,7 +71,7 @@
 
 <div class="row">
 <div class="col-12" lang="de">
-<div class="carousel slide" data-interval="0" data-ride="carousel" id="carousel-example-generic"><!-- Indicators -->
+<div class="carousel slide" data-interval="6000" data-ride="carousel" id="carousel-example-generic"><!-- Indicators -->
 <ol class="carousel-indicators">
 	<li class="active" data-slide-to="0" data-target="#carousel-example-generic"> </li>
 	<li data-slide-to="1" data-target="#carousel-example-generic"> </li>
@@ -85,14 +83,14 @@
 <div class="carousel-inner" role="listbox">
 <div class="carousel-item active">
 <div class="row carousel-item__content-box">
-<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover Rezensionsjournal Francia-Recensio" class="img-fluid" src="../images/logos/francia-recensio.png" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="" src="francia-recensio-2021.png" style="width: 210px; height: 306px;" /></div>
 
 <div class="col-sm-8">
 <h1>Francia-Recensio</h1>
 
 <p>Das digitale Rezensionsjournal »Francia-Recensio«, herausgegeben vom Deutschen Historischen Institut Paris, erscheint pro Jahr in vier Aus­gaben. Besprochen werden – in deutscher, französischer und englischer Sprache – Werke zur westeuropäischen Geschichte. Seit Ausgabe 3/2017 erscheint Francia-Recensio im neuen Gewand.</p>
 
-<p>Erstmalig sind alle Rezensionen mit einer DOI versehen, die für jeden einzelnen Text als verbindlicher und permanenter Zitationsnachweis gilt. Für die Umsetzung mit der Software Open Journal Systems kooperiert perspectivia.net mit der Universitätsbibliothek Heidelberg.</p>
+<p>Alle Rezensionen sind mit einer DOI versehen, die für jeden einzelnen Text als verbindlicher und permanenter Zitationsnachweis gilt. Für die Umsetzung mit der Software Open Journal Systems kooperiert perspectivia.net mit der Universitätsbibliothek Heidelberg.</p>
 
 <p>Ältere Ausgaben von »Francia-Recensio« sind auf der Publikationsplattform perspectivia.net zugänglich.<br />
 Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/frrec/">http://journals.ub.uni-heidelberg.de/index.php/frrec/</a></p>
@@ -102,30 +100,34 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 
 <div class="carousel-item">
 <div class="row carousel-item__content-box">
-<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover der Zeitschrift Francia" class="img-fluid" src="../images/logos/francia.jpg" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover der Zeitschrift Francia" class="img-fluid" src="francia47.jpg" style="width: 212px; height: 306px;" /></div>
 
 <div class="col-sm-8">
 <h1>Francia</h1>
 
 <p>Die Zeitschrift »Francia. Forschungen zur westeuropäischen Geschichte« erscheint einmal jährlich in einem Band von ca. 500 Seiten in gedruckter Form und seit Band 39 (2012) auch als E-Book. Sie enthält Beiträge in deutscher, französischer oder englischer Sprache. Für den Aufsatzteil gibt es zudem dreisprachige Resümees. Über die Annahme der Beiträge entscheidet ein internationales Gutachtergremium im Peer-Review-Verfahren. Die Rezensionen werden seit Band 35 (2008) in vier Ausgaben pro Jahr online als Francia-Recensio veröffentlicht.</p>
 
-<p>Die seit 1973 erschienenen Bände der »Francia« sind mit einer Moving Wall von einem Jahr retrodigitalisiert <a href="http://journals.ub.uni-heidelberg.de/index.php/fr/">hier</a> und über perspectivia.net kostenfrei zugänglich.</p>
+<p>Die seit 1973 erschienenen Bände der »Francia« sind mit einer Moving Wall von einem Jahr retrodigitalisiert und über perspectivia.net kostenfrei zugänglich.</p>
+
+<p>Link: <a href="https://perspectivia.net/publikationen/francia">Francia auf perspectivia.net</a></p>
+
+<p>Link: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr/">Francia im Open Journal System</a></p>
 </div>
 </div>
 </div>
 
 <div class="carousel-item">
 <div class="row carousel-item__content-box">
-<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" class="img-fluid" src="../images/logos/fantin-latour_scholder.png" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="" src="scholderer.PNG" style="width: 210px; height: 306px;" /></div>
 
 <div class="col-sm-8">
 <h1>Briefwechsel Fantin-Latour &amp; Scholderer</h1>
 
-<h2>DFK Paris</h2>
+<p>Henri Fantin-Latour und Otto Scholderer verband seit ihrer Begegnung 1848 in Paris bis ins Jahr 1900 hinein eine intensive Brieffreundschaft. Die beiden Künstler haben sich dabei über ihre Sicht auf die Politik ihrer Zeit, die Ausübung ihrer Kunst sowie ältere und zeitgenössische Künstler ausgetauscht.</p>
 
-<p>Henri Fantin-Latour und Otto Scholderer verband seit ihrer Begegnung 1848 in Paris bis ins Jahr 1900 hinein eine intensive Brieffreundschaft. Die beiden Künstler haben sich dabei über ihre Sicht auf die Politik ihrer Zeit, die Ausübung ihrer Kunst sowie ältere und zeitgenössische Künstler ausgetauscht. Die 306 auf Französisch verfassten Briefe, die die Korrespondenz zwischen Henri Fantin-Latour und Otto Scholderer umfasst, werden von der Stiftung Custodia und der Universitätsbibliothek Frankfurt aufbewahrt. Die handschriftlichen Originaldokumente wurden ab 2004 im Rahmen eines von Thomas W. Gaehtgens geleiteten und vom Deutschen Forum für Kunstgeschichte in Paris finanzierten Forschungsprojekts von Mathilde Arnoux und Anne Tempelaere-Panzani vollständig transkribiert und mit kritischen Anmerkungen versehen.</p>
+<p>Die 306 auf Französisch verfassten Briefe, die die Korrespondenz zwischen Henri Fantin-Latour und Otto Scholderer umfasst, werden von der Stiftung Custodia und der Universitätsbibliothek Frankfurt aufbewahrt. Die handschriftlichen Originaldokumente wurden ab 2004 im Rahmen eines von Thomas W. Gaehtgens geleiteten und vom Deutschen Forum für Kunstgeschichte in Paris finanzierten Forschungsprojekts von Mathilde Arnoux und Anne Tempelaere-Panzani vollständig transkribiert und mit kritischen Anmerkungen versehen.</p>
 
-<p>Briefedition digital: <a href="https://www.perspectivia.net/quellen/fantin-scholderer">Correspondance Fantin-Latour &amp; Scholderer</a></p>
+<p>Briefedition digital: <a href="https://quellen.perspectivia.net/de/fantin-scholderer/start">Correspondance Fantin-Latour &amp; Scholderer</a></p>
 </div>
 </div>
 </div>
@@ -141,7 +143,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 
 <p>Eugenio Pacelli, der spätere Papst Pius XII. (1939-1958), ist eine der bekanntesten und umstrittensten Persönlichkeiten des 20. Jahrhunderts. Die Berichte Pacellis (etwa 5.500) und die Weisungen aus Rom an den Nuntius in Deutschland (etwa 4.100) werden in Zusammenarbeit mit dem Vatikanischen Geheimarchiv und dem Deutschen Historischen Institut in Rom komplett mit Anlagen (etwa 4.500) erfasst, kritisch ediert, kommentiert, ausgewertet und Wissenschaftlern ebenso wie einer breiten internationalen Öffentlichkeit zugänglich gemacht.</p>
 
-<p>Zur Datenbank: <a href="http://www.pacelli-edition.de/index_pacelli.html">http://www.pacelli-edition.de/index_pacelli.html</a></p>
+<p>Zur Datenbank: <a href="http://www.pacelli-edition.de/index.html">http://www.pacelli-edition.de/index.html</a></p>
 </div>
 </div>
 </div>
@@ -211,11 +213,11 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 <div class="col-md-4">
 <div class="card"><!--TODO: replace panel-default -->
 <div class="card-header">
-<h2 class="card-title">Blogs</h2>
+<h2 class="card-title">Scientific Blogs</h2>
 </div>
 
 <div class="card-body">
-<p>Weber 2.0 | Scientific Blogs</p>
+<p>Weber 2.0 is the portal for academic blogs of the Max Weber Foundation, its institutes and partners.</p>
 </div>
 
 <div class="card-footer pp_more"><a href="https://mws.hypotheses.org/"><strong>... browse</strong> <img src="../images/external_link.svg" /> </a></div>
@@ -226,7 +228,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 
 <div class="row">
 <div class="col-12" lang="en">
-<div class="carousel slide" data-interval="0" data-ride="carousel" id="carousel-example-generic"><!-- Indicators -->
+<div class="carousel slide" data-interval="6000" data-ride="carousel" id="carousel-example-generic"><!-- Indicators -->
 <ol class="carousel-indicators">
 	<li class="active" data-slide-to="0" data-target="#carousel-example-generic"> </li>
 	<li data-slide-to="1" data-target="#carousel-example-generic"> </li>
@@ -238,31 +240,36 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 <div class="carousel-inner" role="listbox">
 <div class="carousel-item active">
 <div class="row carousel-item__content-box">
-<div class="col-4"><img alt="Cover Rezensionsjournal Francia-Recensio" class="img-fluid" src="../images/logos/francia-recensio.png" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover Rezensionsjournal Francia-Recensio" class="img-fluid" src="francia-recensio-2021.png" style="width: 210px; height: 306px;" /></div>
 
 <div class="col-8">
 <h1>Francia-Recensio</h1>
 
-<p>Das digitale Rezensionsjournal »Francia-Recensio«, herausgegeben vom Deutschen Historischen Institut Paris, erscheint pro Jahr in vier Aus­gaben. Besprochen werden – in deutscher, französischer und englischer Sprache – Werke zur westeuropäischen Geschichte. Seit Ausgabe 3/2017 erscheint Francia-Recensio im neuen Gewand.</p>
+<p>»Francia-Recensio« is an online review journal published four times a year by the German Historical Institute Paris. It reviews – in German, French and English – works on the history of Western Europe. Since issue 3/2017, Francia-Recensio has been published in a new look.</p>
 
-<p>Erstmalig sind alle Rezensionen mit einer DOI versehen, die für jeden einzelnen Text als verbindlicher und permanenter Zitationsnachweis gilt. Für die Umsetzung mit der Software Open Journal Systems kooperiert perspectivia.net mit der Universitätsbibliothek Heidelberg.</p>
+<p>All reviews are provided with a DOI, which is a binding and permanent citation for each individual text. For the implementation with the Open Journal Systems software, perspectivia.net cooperates with Heidelberg University Library.</p>
 
-<p>Ältere Ausgaben von »Francia-Recensio« sind auf der Publikationsplattform perspectivia.net zugänglich.<br />
-Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/frrec/">http://journals.ub.uni-heidelberg.de/index.php/frrec/</a></p>
+<p>Earlier issues (2008-2017) of »Francia-Recensio« are available on the Internet platform perspectivia.net.</p>
+
+<p>Link to the journal: <a href="http://journals.ub.uni-heidelberg.de/index.php/frrec/">http://journals.ub.uni-heidelberg.de/index.php/frrec/</a></p>
 </div>
 </div>
 </div>
 
 <div class="carousel-item">
 <div class="row carousel-item__content-box">
-<div class="col-4"><img alt="Cover der Zeitschrift Francia" class="img-fluid" src="../images/logos/francia.jpg" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover der Zeitschrift Francia" class="img-fluid" src="francia47.jpg" style="width: 212px; height: 306px;" /></div>
 
 <div class="col-8">
 <h1>Francia</h1>
 
-<p>Die Zeitschrift »Francia. Forschungen zur westeuropäischen Geschichte« erscheint einmal jährlich in einem Band von ca. 500 Seiten in gedruckter Form und seit Band 39 (2012) auch als E-Book. Sie enthält Beiträge in deutscher, französischer oder englischer Sprache. Für den Aufsatzteil gibt es zudem dreisprachige Resümees. Über die Annahme der Beiträge entscheidet ein internationales Gutachtergremium im Peer-Review-Verfahren. Die Rezensionen werden seit Band 35 (2008) in vier Ausgaben pro Jahr online als Francia-Recensio veröffentlicht.</p>
+<p>»Francia. Forschungen zur westeuropäischen Geschichte« is published annually in a print edition of up to 500 pages in length. In addition, a digital version has been available since 2012 (volume 39). German, French, and English are the official languages of publication. Trilingual abstracts are included for each essay. In a peer review process, an international peer review panel selects contributions for publication. Since volume 35 (2008), reviews have been published online in four issues of »Francia-Recensio« each year, and are also available on the review platform recensio.net.</p>
 
-<p>Die seit 1973 erschienenen Bände der »Francia« sind mit einer Moving Wall von einem Jahr retrodigitalisiert <a href="http://journals.ub.uni-heidelberg.de/index.php/fr/">hier</a> und über perspectivia.net kostenfrei zugänglich.</p>
+<p>Older volumes of the »Francia« journal, which date back to 1973, are retrospectively digitized with a moving wall of one year. They are also freely available on perspectivia.net.</p>
+
+<p>Link: <a href="https://perspectivia.net/publikationen/francia">Francia in perspectivia.net</a></p>
+
+<p>Link: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr/">Francia in the Open Journal System</a></p>
 </div>
 </div>
 </div>
@@ -274,11 +281,11 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 <div class="col-8">
 <h1>Briefwechsel Fantin-Latour &amp; Scholderer</h1>
 
-<h2>DFK Paris</h2>
+<p>Henri Fantin-Latour and Otto Scholderer were linked by an intensive pen friendship from their meeting in Paris in 1848 until 1900. The two artists exchanged views on the politics of their time, the practice of their art, and older and contemporary artists.</p>
 
-<p>Henri Fantin-Latour und Otto Scholderer verband seit ihrer Begegnung 1848 in Paris bis ins Jahr 1900 hinein eine intensive Brieffreundschaft. Die beiden Künstler haben sich dabei über ihre Sicht auf die Politik ihrer Zeit, die Ausübung ihrer Kunst sowie ältere und zeitgenössische Künstler ausgetauscht. Die 306 auf Französisch verfassten Briefe, die die Korrespondenz zwischen Henri Fantin-Latour und Otto Scholderer umfasst, werden von der Stiftung Custodia und der Universitätsbibliothek Frankfurt aufbewahrt. Die handschriftlichen Originaldokumente wurden ab 2004 im Rahmen eines von Thomas W. Gaehtgens geleiteten und vom Deutschen Forum für Kunstgeschichte in Paris finanzierten Forschungsprojekts von Mathilde Arnoux und Anne Tempelaere-Panzani vollständig transkribiert und mit kritischen Anmerkungen versehen.</p>
+<p>The 306 letters written in French that comprise the correspondence between Henri Fantin-Latour and Otto Scholderer are preserved by the Custodia Foundation and the Frankfurt University Library. The original handwritten documents were completely transcribed and critically annotated by Mathilde Arnoux and Anne Tempelaere-Panzani from 2004 onwards as part of a research project led by Thomas W. Gaehtgens and funded by the German Forum for Art History in Paris.</p>
 
-<p>Briefedition digital: <a href="https://www.perspectivia.net/quellen/fantin-scholderer">Correspondance Fantin-Latour &amp; Scholderer</a></p>
+<p>Digital letter edition: <a href="https://quellen.perspectivia.net/de/fantin-scholderer/start">Correspondance Fantin-Latour &amp; Scholderer</a></p>
 </div>
 </div>
 </div>
@@ -292,9 +299,9 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 
 <h2>Deutsches Historisches Institut Rom</h2>
 
-<p>Eugenio Pacelli, der spätere Papst Pius XII. (1939-1958), ist eine der bekanntesten und umstrittensten Persönlichkeiten des 20. Jahrhunderts. Die Berichte Pacellis (etwa 5.500) und die Weisungen aus Rom an den Nuntius in Deutschland (etwa 4.100) werden in Zusammenarbeit mit dem Vatikanischen Geheimarchiv und dem Deutschen Historischen Institut in Rom komplett mit Anlagen (etwa 4.500) erfasst, kritisch ediert, kommentiert, ausgewertet und Wissenschaftlern ebenso wie einer breiten internationalen Öffentlichkeit zugänglich gemacht.</p>
+<p>Eugenio Pacelli, later Pope Pius XII. (1939-1958), is one of the best known and most controversial personalities of the 20th century. In cooperation with the Vatican Secret Archives and the German Historical Institute in Rome, Pacelli's reports (about 5,500) and the instructions from Rome to the nuncio in Germany (about 4,100) will be recorded, critically edited, commented on, evaluated and made accessible to scholars as well as to a broad international public.</p>
 
-<p>Zur Datenbank: <a href="http://www.pacelli-edition.de/index_pacelli.html">http://www.pacelli-edition.de/index_pacelli.html</a></p>
+<p>Link to Database: <a href="http://www.pacelli-edition.de/index.html">http://www.pacelli-edition.de/index.html</a></p>
 </div>
 </div>
 </div>
@@ -302,8 +309,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 </div>
 </div>
 </div>
-</div>
-</section><section xml:lang="fr" title="Welcome"><div>
+</div></section><section xml:lang="fr" title="Welcome"><div>
 <div id="pp_boxContainer">
 <div id="pp_arrowToMIR"> </div>
 
@@ -351,7 +357,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 </div>
 
 <div class="card-body">
-<p>DRecueil de sources numérisées, ensemble de données historiques et éditions critiques, tous résultats de la recherche des instituts et de leurs partenaires.<br />
+<p>Recueils de sources numérisées, ensemble de données historiques et éditions critiques, tous résultats de la recherche des instituts et de leurs partenaires.<br />
 <br />
 <br />
  </p>
@@ -364,11 +370,11 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 <div class="col-md-4">
 <div class="card"><!--TODO: replace panel-default -->
 <div class="card-header">
-<h2 class="card-title">Blogs</h2>
+<h2 class="card-title">Blogs Scientifiques</h2>
 </div>
 
 <div class="card-body">
-<p>Weber 2.0 | blogs scientifiques</p>
+<p>Weber 2.0 est le portail des blogs scientifiques de la Fondation Max Weber, de ses instituts et de ses partenaires.</p>
 </div>
 
 <div class="card-footer pp_more"><a href="https://mws.hypotheses.org/"><strong>... Vue d'ensemble</strong> <img src="../images/external_link.svg" /> </a></div>
@@ -379,7 +385,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 
 <div class="row">
 <div class="col-12" lang="fr">
-<div class="carousel slide" data-interval="0" data-ride="carousel" id="carousel-example-generic"><!-- Indicators -->
+<div class="carousel slide" data-interval="6000" data-ride="carousel" id="carousel-example-generic"><!-- Indicators -->
 <ol class="carousel-indicators">
 	<li class="active" data-slide-to="0" data-target="#carousel-example-generic"> </li>
 	<li data-slide-to="1" data-target="#carousel-example-generic"> </li>
@@ -391,31 +397,36 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 <div class="carousel-inner" role="listbox">
 <div class="carousel-item active">
 <div class="row carousel-item__content-box">
-<div class="col-4"><img alt="Cover Rezensionsjournal Francia-Recensio" class="img-fluid" src="../images/logos/francia-recensio.png" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover Rezensionsjournal Francia-Recensio" class="img-fluid" src="francia-recensio-2021.png" style="width: 210px; height: 306px;" /></div>
 
 <div class="col-8">
 <h1>Francia-Recensio</h1>
 
-<p>Das digitale Rezensionsjournal »Francia-Recensio«, herausgegeben vom Deutschen Historischen Institut Paris, erscheint pro Jahr in vier Aus­gaben. Besprochen werden – in deutscher, französischer und englischer Sprache – Werke zur westeuropäischen Geschichte. Seit Ausgabe 3/2017 erscheint Francia-Recensio im neuen Gewand.</p>
+<p>La revue en ligne »Francia-Recensio« est publiée par l’Institut historique allemand et paraît quatre fois par an. Chaque numéro comprend environ 100 comptes rendus d’ouvrages consacrés à l’histoire de l’Europe occidentale en allemand, en français ou en anglais.</p>
 
-<p>Erstmalig sind alle Rezensionen mit einer DOI versehen, die für jeden einzelnen Text als verbindlicher und permanenter Zitationsnachweis gilt. Für die Umsetzung mit der Software Open Journal Systems kooperiert perspectivia.net mit der Universitätsbibliothek Heidelberg.</p>
+<p>Toutes les revues sont accompagnées d'un DOI, qui est la citation obligatoire et permanente de chaque texte individuel. Pour la mise en œuvre avec le logiciel Open Journal Systems perspectivia.net coopère avec la bibliothèque universitaire de Heidelberg.</p>
 
-<p>Ältere Ausgaben von »Francia-Recensio« sind auf der Publikationsplattform perspectivia.net zugänglich.<br />
-Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/frrec/">http://journals.ub.uni-heidelberg.de/index.php/frrec/</a></p>
+<p>Les numéros précédents (2008-2017) de »Francia-Recensio« sont accessibles sur la plateforme de publication numérique perspectivia.net.</p>
+
+<p>Lien vers le journal: <a href="http://journals.ub.uni-heidelberg.de/index.php/frrec/">http://journals.ub.uni-heidelberg.de/index.php/frrec/</a></p>
 </div>
 </div>
 </div>
 
 <div class="carousel-item">
 <div class="row carousel-item__content-box">
-<div class="col-4"><img alt="Cover der Zeitschrift Francia" class="img-fluid" src="../images/logos/francia.jpg" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover der Zeitschrift Francia" class="img-fluid" src="francia47.jpg" style="width: 212px; height: 306px;" /></div>
 
 <div class="col-8">
 <h1>Francia</h1>
 
-<p>Die Zeitschrift »Francia. Forschungen zur westeuropäischen Geschichte« erscheint einmal jährlich in einem Band von ca. 500 Seiten in gedruckter Form und seit Band 39 (2012) auch als E-Book. Sie enthält Beiträge in deutscher, französischer oder englischer Sprache. Für den Aufsatzteil gibt es zudem dreisprachige Resümees. Über die Annahme der Beiträge entscheidet ein internationales Gutachtergremium im Peer-Review-Verfahren. Die Rezensionen werden seit Band 35 (2008) in vier Ausgaben pro Jahr online als Francia-Recensio veröffentlicht.</p>
+<p>La revue »Francia. Forschungen zur westeuropäischen Geschichte« paraît une fois par an en un seul volume d’environ 500 pages en version papier et, depuis le n° 39 (2012), aussi en version numérique. Elle comprend des articles en allemand, en français ou en anglais, accompagnés d’un résumé dans les trois langues. Les articles soumis pour publication sont évalués par les membres d’un comité de lecture. Depuis le n° 35 (2008), les comptes rendus sont publiés trimestriellement en ligne dans »Francia-Recensio«.</p>
 
-<p>Die seit 1973 erschienenen Bände der »Francia« sind mit einer Moving Wall von einem Jahr retrodigitalisiert <a href="http://journals.ub.uni-heidelberg.de/index.php/fr/">hier</a> und über perspectivia.net kostenfrei zugänglich.</p>
+<p>Les volumes de »Francia« parus depuis 1973 sont numérisés et accessibles gratuitement, avec une barrière mobile d’un an, ici et dans la rubrique Francia sur perspectivia.net.</p>
+
+<p>Lien: <a href="https://perspectivia.net/publikationen/francia">Francia en perspectivia.net</a></p>
+
+<p>Lien: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr/">Francia dans l'Open Journal System</a></p>
 </div>
 </div>
 </div>
@@ -425,13 +436,13 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 <div class="col-4"><img alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" class="img-fluid" src="../images/logos/fantin-latour_scholder.png" /></div>
 
 <div class="col-8">
-<h1>Briefwechsel Fantin-Latour &amp; Scholderer</h1>
+<h1>Correspondance Fantin-Latour &amp; Scholderer</h1>
 
-<h2>DFK Paris</h2>
+<p>Henri Fantin-Latour et Otto Scholderer ont entretenu une intense relation épistolaire de 1848 à 1900. Ils y ont échangé leurs points de vue sur la politique contemporaine, sur l’exercice de leur art et sur les artistes anciens et contemporains.</p>
 
-<p>Henri Fantin-Latour und Otto Scholderer verband seit ihrer Begegnung 1848 in Paris bis ins Jahr 1900 hinein eine intensive Brieffreundschaft. Die beiden Künstler haben sich dabei über ihre Sicht auf die Politik ihrer Zeit, die Ausübung ihrer Kunst sowie ältere und zeitgenössische Künstler ausgetauscht. Die 306 auf Französisch verfassten Briefe, die die Korrespondenz zwischen Henri Fantin-Latour und Otto Scholderer umfasst, werden von der Stiftung Custodia und der Universitätsbibliothek Frankfurt aufbewahrt. Die handschriftlichen Originaldokumente wurden ab 2004 im Rahmen eines von Thomas W. Gaehtgens geleiteten und vom Deutschen Forum für Kunstgeschichte in Paris finanzierten Forschungsprojekts von Mathilde Arnoux und Anne Tempelaere-Panzani vollständig transkribiert und mit kritischen Anmerkungen versehen.</p>
+<p>Les 306 lettres constitutives de la correspondance entre Henri Fantin-Latour et Otto Scholderer sont respectivement conservées par la fondation Custodia et par la bibliothèque universitaire de Francfort. L’ensemble de cette correspondance a fait l’objet d’une retranscription méticuleuse à partir des documents autographes, d’un classement et d’une annotation critique effectués à partir de 2004 par Mathilde Arnoux et Anne Tempelaere-Panzani, dans le cadre d’un projet de recherche dirigé par Prof. Thomas W. Gaehtgens et financé par le Centre allemand d’histoire de l’art à Paris.</p>
 
-<p>Briefedition digital: <a href="https://www.perspectivia.net/quellen/fantin-scholderer">Correspondance Fantin-Latour &amp; Scholderer</a></p>
+<p>Edition numérique: <a href="https://quellen.perspectivia.net/de/fantin-scholderer/start">Correspondance Fantin-Latour &amp; Scholderer</a></p>
 </div>
 </div>
 </div>
@@ -445,9 +456,9 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 
 <h2>Deutsches Historisches Institut Rom</h2>
 
-<p>Eugenio Pacelli, der spätere Papst Pius XII. (1939-1958), ist eine der bekanntesten und umstrittensten Persönlichkeiten des 20. Jahrhunderts. Die Berichte Pacellis (etwa 5.500) und die Weisungen aus Rom an den Nuntius in Deutschland (etwa 4.100) werden in Zusammenarbeit mit dem Vatikanischen Geheimarchiv und dem Deutschen Historischen Institut in Rom komplett mit Anlagen (etwa 4.500) erfasst, kritisch ediert, kommentiert, ausgewertet und Wissenschaftlern ebenso wie einer breiten internationalen Öffentlichkeit zugänglich gemacht.</p>
+<p>Eugenio Pacelli, futur pape Pie XII. (1939-1958), est l'une des personnalités les plus connues et les plus controversées du XX<sup>e</sup> siècle. Les rapports de Pacelli (environ 5 500) et les instructions de Rome au nonce en Allemagne (environ 4 100) seront enregistrés, édités de manière critique, commentés, évalués et rendus accessibles aux chercheurs ainsi qu'à un large public international en coopération avec les Archives secrètes du Vatican et l'Institut historique allemand à Rome.</p>
 
-<p>Zur Datenbank: <a href="http://www.pacelli-edition.de/index_pacelli.html">http://www.pacelli-edition.de/index_pacelli.html</a></p>
+<p>Lien vers la base de données: <a href="http://www.pacelli-edition.de/index.html">http://www.pacelli-edition.de/index.html</a></p>
 </div>
 </div>
 </div>
@@ -455,5 +466,4 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 </div>
 </div>
 </div>
-</div>
-</section><meta><log lastEditor="kneumann" date="2019-09-19" time="13:34" /></meta></MyCoReWebPage>
+</div></section><meta><log lastEditor="agerber" date="2021-05-19" time="15:02" /></meta></MyCoReWebPage>
