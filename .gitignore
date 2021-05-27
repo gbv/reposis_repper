@@ -3,6 +3,7 @@
 .settings/
 
 # application specific files on server
+deprecated.active.properties
 jwt.secret
 messages_de.resolved.properties
 messages_en.resolved.properties
