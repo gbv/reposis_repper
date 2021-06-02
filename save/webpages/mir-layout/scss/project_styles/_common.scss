@@ -92,25 +92,72 @@ a.readmore {
 
 /* ********************** carousel ********************** */
 .carousel {
-  margin-bottom: 60px;
-  margin-top: 40px;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
 }
+.carousel-indicators {
+  bottom: auto;
+  top: 0;
+}
+.carousel-indicators {
+  li {
+    padding-top:0.5rem;
+    padding-bottom: 0.5rem;
+    transition: 0.5s ease;
+    &:hover {
+      &:after {
+        background-color: $success;
+        opacity: 0.6;
+      }
+    }
+    &:after {
+      content: "";
+      border: 1px solid $success;
+      display: block;
+      width: 2rem;
+      height: 0.5rem;
+    }
+    &.active {
+      &:after {
+        background-color: $success;
+      }
+    }
+  }
+}
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-control-prev:focus,
+.carousel-control-next:focus {
+  width: 5rem;
+  color: $success;
+  background-color: transparent;
+  opacity: 0.5;
+  transition: 0.5s ease;
+  align-items: flex-start;
+  i {
+    margin-top: .5rem;
+  }
 
-.carousel-indicators li {
-  border: 1px solid #0a6e78;
 }
-.carousel-indicators .active {
-  background-color: #0a6e78;
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  color: white;
+  background-color: $success;
+  opacity: 0.5;
 }
-
+.carousel-inner {
+  padding-top: 5rem;
+}
 .carousel-inner h1 {
   margin-top: 0;
   margin-bottom: 30px;
   line-height: 0.8;
 }
-
 .carousel-item__content-box {
   padding-bottom: 2rem;
+  img {
+    width: 100%;
+  }
 }
 
 /* ********************** other ********************** */
