@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="sections">
+  <label xml:lang="en" text="Section" />
+  <label xml:lang="de" text="Rubrik" />
+  <label xml:lang="x-uri" text="https://perspectivia.net/api/v1/classifications/sections" />
+  <categories>
+    <category ID="francia-recensio">
+      <label xml:lang="de" text="Francia-Recensio" />
+      <label xml:lang="en" text="Francia-Recensio" />
+      <category ID="ma">
+        <label xml:lang="de" text="Mittelalter – Moyen Âge (500 – 1500)" />
+      </category>
+      <category ID="fn">
+        <label xml:lang="de" text="Frühe Neuzeit – Revolution – Empire (1500 – 1815)" />
+      </category>
+      <category ID="zg">
+        <label xml:lang="de" text="19. – 21. Jahrhundert - Époque contemporaine" />
+      </category>
+    </category>
+    <category ID="recensio-moskau">
+      <label xml:lang="de" text="Recensio Moskau" />
+      <label xml:lang="en" text="Recensio Moskau" />
+      <category ID="institutionengeschichte">
+        <label xml:lang="de" text="Institutionengeschichte - aktuelle Tendenzen der Forschung" />
+      </category>
+      <category ID="medizingeschichte">
+        <label xml:lang="de" text="Medizingeschichte" />
+      </category>
+    </category>
+  </categories>
+</mycoreclass>
