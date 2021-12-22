@@ -1,0 +1,11 @@
+[
+{
+    "add-field": {
+      "name": "mir.toc.host.section",
+      "type": "string",
+      "indexed": true,
+      "stored": true,
+      "multiValued": false
+    }
+}
+]
