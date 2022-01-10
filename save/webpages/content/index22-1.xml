@@ -1,89 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Willkommen"><div>
-<div id="pp_boxContainer">
-<div id="pp_arrowToMIR"> </div>
+<MyCoReWebPage>
 
-<div id="pp_arrowToSources"> </div>
+<section xml:lang="de" title="Willkommen">
+<div class="pp-home">
 
-<div id="pp_arrowToJournals"> </div>
-
-<div class="row" id="pp_index_boxes">
-<div class="offset-md-2 col-md-8" lang="de">
-<div class="card"><!--TODO: replace panel-default -->
-<div class="card-header">
-<h2 class="card-title" style="width:100%">Freier Zugang zu Wissen</h2>
-</div>
-
-<div class="card-body">
-<p>Die digitale Publikationsplattform perspectivia.net versteht sich als ein internationales, epochenübergreifendes und interdisziplinäres Portal für geisteswissenschaftliche Publikationen. Als Infrastruktur der <a href="https://www.maxweberstiftung.de">Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland</a> werden hier von den Instituten und ihren Kooperationspartnern herausgegebene Publikationen frei zugänglich gemacht. Die Max Weber Stiftung ist den Prinzipien des Open Access verpflichtet und perspectivia.net fördert den freien Zugang zu Wissen und begleitet die Transformation der Geisteswissenschaften in Richtung einer offenen Wissenschaft.<br />
- </p>
-</div>
-
-<div class="card-footer pp_more"><a href="about/index.xml"><strong>... mehr erfahren</strong></a></div>
-</div>
-</div>
-</div>
-
-<div class="row" id="pp_index_boxes">
-<div class="col-md-4 mb-2" lang="de">
-<div class="card"><!--TODO: replace panel-default -->
-<div class="card-header">
-<h2 class="card-title" style="width:100%">Publikationsserver</h2>
-</div>
-
-<div class="card-body">
-<p>Digitale Erst- und Zweitveröffentlichungen der Institute der Max Weber Stiftung und ihren Partnern. Neben Zeitschriften, Schriftenreihen und Einzelveröffentlichungen werden auch Vorträge in Form von Audio- oder Videodateien veröffentlicht.</p>
+<div class="card pp-home-card">
+  <img class="card-img" src="../images/background_search.png" alt="" />
+  <div class="card-img-overlay d-flex flex-column justify-content-center">
+    <h1 class="card-title text-center">Freier Zugang zu Wissen</h1>
+    <form action="../servlets/solr/find" id="pp-searchMainPage" class="form-inline" role="search">
+      <div class="input-group input-group-lg">
+        <input
+          name="condQuery"
+          placeholder="Suche in 16.000 Dokumenten"
+          class="form-control search-query"
+          id="pp-searchInput"
+          type="text" />
+        <div class="input-group-append">
+          <button type="submit" class="btn bg-white">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+    <p>
+      Die digitale Publikationsplattform perspectivia.net macht als Infrastruktur der Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland zahlreiche der von den Instituten und ihren Kooperationspartnern herausgegebenen Publikationen im Open Access frei zugänglich.
+    </p>
+    <p class="text-center">
+      <a href="/content/search/complex.xed">Zur erweiterten Suche</a>
+    </p>
+  </div>
 </div>
 
-<div class="card-footer pp_more"><a href="../servlets/MCRActionMappingServlet/search/simple"><strong>... zur Suche</strong></a></div>
-</div>
+
+<div class="row">
+  <div class="col-4">
+    <div class="card pp-footer-card">
+      <a href="#" class="stretched-link">
+        <img src="../images/figure_letters.jpg" class="card-img-top" alt="..." />
+        <div class="card-img-overlay">
+          <h5 class="text-center">
+            Quellen und Datenbanken
+          </h5>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card pp-footer-card">
+      <a href="#" class="stretched-link">
+        <img src="../images/figure_mws.png" class="card-img-top" alt="..." />
+        <div class="card-img-overlay">
+          <h5 class="text-center">
+            Wissenschaftliche Blogs
+          </h5>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card pp-footer-card">
+      <a href="#" class="stretched-link">
+        <img src="../images/figure_books.jpg" class="card-img-top" alt="..." />
+        <div class="card-img-overlay">
+          <h5 class="text-center">
+            Weitere Publikationen
+          </h5>
+        </div>
+      </a>
+    </div>
+  </div>
 </div>
 
-<div class="col-md-4 mb-2">
-<div class="card"><!--TODO: replace panel-default -->
-<div class="card-header">
-<h2 class="card-title">Quellen und Datenbanken</h2>
+<h2 class="text-center">Unsere Kooperationspartner</h2>
+
+<div class="row">
+  <div class="col-4">
+    <div class="card pp-footer-card">
+      <a href="#" class="stretched-link">
+        <img src="../images/figure_dome.jpg" class="card-img-top" alt="..." />
+        <div class="card-img-overlay">
+          <h5 class="text-center">
+            MENAdoc
+          </h5>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card pp-footer-card">
+      <a href="#" class="stretched-link">
+        <img src="../images/figure_statue.jpg" class="card-img-top" alt="..." />
+        <div class="card-img-overlay">
+          <h5 class="text-center">
+            arthistoricum.net
+          </h5>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card pp-footer-card">
+      <a href="#" class="stretched-link">
+        <img src="../images/figure_map.jpg" class="card-img-top" alt="..." />
+        <div class="card-img-overlay">
+          <h5 class="text-center">
+            historicum.net
+          </h5>
+        </div>
+      </a>
+    </div>
+  </div>
 </div>
 
-<div class="card-body">
-<p>Digitalisierte Quellensammlungen, historische Datenbestände und kritische Editionen aus der Forschungsarbeit der Institute und ihrer Partner.</p>
-</div>
-
-<div class="card-footer pp_more"><a href="../servlets/solr/find?fq=mods.genre:source_edition"><strong>... zur Übersicht</strong> <!-- img src="../images/external_link.svg" / --> </a></div>
-</div>
-</div>
-
-<div class="col-md-4 mb-2">
-<div class="card"><!--TODO: replace panel-default -->
-<div class="card-header">
-<h2 class="card-title">Wissenschaftliche Blogs</h2>
-</div>
-
-<div class="card-body">
-<p>Wissen in Verbindung - Weber 2.0 ist das Portal für wissenschaftliche Blogs der Max Weber Stiftung, ihrer Institute und Partner.</p>
-</div>
-
-<div class="card-footer pp_more"><a href="https://mws.hypotheses.org/"><strong>... zur Übersicht</strong> <img src="../images/external_link.svg" /> </a></div>
-</div>
-</div>
-</div>
-</div>
+<h2 class="text-center">Kennen Sie schon ... ?</h2>
 
 <div class="row">
 <div class="col-12" lang="de">
 <div class="carousel slide" data-interval="6000" data-ride="carousel" id="carousel-example-generic"><!-- Indicators -->
 <ol class="carousel-indicators">
-	<li class="active" data-slide-to="0" data-target="#carousel-example-generic"> </li>
-	<li data-slide-to="1" data-target="#carousel-example-generic"> </li>
-	<li data-slide-to="2" data-target="#carousel-example-generic"> </li>
-	<li data-slide-to="3" data-target="#carousel-example-generic"> </li>
+	<li class="active" data-slide-to="0" data-target="#carousel-example-generic"></li>
+	<li data-slide-to="1" data-target="#carousel-example-generic"></li>
+	<li data-slide-to="2" data-target="#carousel-example-generic"></li>
+	<li data-slide-to="3" data-target="#carousel-example-generic"></li>
 </ol>
 <!-- Wrapper for slides -->
 
 <div class="carousel-inner" role="listbox">
 <div class="carousel-item active">
 <div class="row carousel-item__content-box">
-<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="" src="../images/slider/francia-recensio-2021.png" style="width: 210px; height: 306px;" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt=""  class="img-fluid"  src="../images/slider/francia-recensio-2021.png" /></div>
 
 <div class="col-sm-8">
 <h1>Francia-Recensio</h1>
@@ -100,7 +146,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 
 <div class="carousel-item">
 <div class="row carousel-item__content-box">
-<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover der Zeitschrift Francia" class="img-fluid" src="../images/slider/francia47.jpg" style="width: 212px; height: 306px;" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover der Zeitschrift Francia" class="img-fluid" src="../images/slider/francia47.jpg" /></div>
 
 <div class="col-sm-8">
 <h1>Francia</h1>
@@ -118,7 +164,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 
 <div class="carousel-item">
 <div class="row carousel-item__content-box">
-<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="" src="../images/slider/scholderer.png" style="width: 210px; height: 306px;" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="" class="img-fluid" src="../images/slider/scholderer.PNG" /></div>
 
 <div class="col-sm-8">
 <h1>Briefwechsel Fantin-Latour &amp; Scholderer</h1>
@@ -148,11 +194,40 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 </div>
 </div>
 </div>
+  <a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
+    <i class="fas fa-chevron-left"></i>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-generic" role="button" data-slide="next">
+    <i class="fas fa-chevron-right"></i>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
 </div>
 </div>
 </div>
-</div>
-</section><section xml:lang="en" title="Welcome"><div>
+<script src="../js/jquery.number.js"></script>
+<script>
+  $( document ).ready(function() {
+    $.ajax({
+      type: "GET",
+      url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+      dataType: "jsonp",
+      success: function (data) {
+        $('#pp-searchInput').attr('placeholder', 'Suche in ' + $.number(data.response.numFound,0, ',', '.') + ' Dokumenten');
+      },
+    });
+  });
+</script>
+</section>
+
+
+
+
+
+
+<section xml:lang="en" title="Welcome"><div>
 <div id="pp_boxContainer">
 <div id="pp_arrowToMIR"> </div>
 
@@ -168,7 +243,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 </div>
 
 <div class="card-body">
-<p>The publication platform perspectivia.net sees itself as an international, epoch-spanning and interdisciplinary portal for digital publications in the humanities. This infrastructure of the <a href="https://www.maxweberstiftung.de/en">Max Weber Foundation - German Humanities Institutes Abroad</a> provides free access to publications by the institutes and their cooperation partners. This Max Weber Foundation is committed to the principles of Open Access, thus perspectivia.net promotes free access to knowledge and accompanies the transformation of the humanities towards an open science.<br />
+<p>The publication platform perspectivia.net sees itself as an international, epoch-spanning and interdisciplinary portal for digital publications in the humanities. This infrastructure of the Max Weber Foundation - German Humanities Institutes Abroad provides free access to the publications by the institutes and their cooperation partners. This Max Weber Foundation is committed to the principles of Open Access, thus perspectivia.net promotes free access to knowledge and accompanies the transformation of the humanities towards an open science.<br />
  </p>
 </div>
 
@@ -189,7 +264,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
  </p>
 </div>
 
-<div class="card-footer pp_more"><a href="../servlets/MCRActionMappingServlet/search/simple"><strong>... search</strong></a></div>
+<div class="card-footer pp_more"><a href="search/simple.xed"><strong>... search</strong></a></div>
 </div>
 </div>
 
@@ -206,7 +281,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
  </p>
 </div>
 
-<div class="card-footer pp_more"><a href="../servlets/solr/find?fq=mods.genre:source_edition"><strong>... browse</strong> <img src="../images/external_link.svg" /> </a></div>
+<div class="card-footer pp_more"><a href="publications/sources.xml"><strong>... browse</strong> <img src="../images/external_link.svg" /> </a></div>
 </div>
 </div>
 
@@ -309,8 +384,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 </div>
 </div>
 </div>
-</div>
-</section><section xml:lang="fr" title="Bienvenue"><div>
+</div></section><section xml:lang="fr" title="Welcome"><div>
 <div id="pp_boxContainer">
 <div id="pp_arrowToMIR"> </div>
 
@@ -326,7 +400,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 </div>
 
 <div class="card-body">
-<p>La plateforme de publication électronique perspectivia.net se veut un portail international, interdisciplinaire et historique pour les publications en sciences humaines. L'infrastructure de la <a href="https://www.maxweberstiftung.de">Fondation Max Weber - Instituts allemands de sciences humaines à l'étranger</a> - rend ainsi les publications des différents instituts et de leurs partenaires librement accessibles en ligne. La Fondation Max Weber s'engage à respecter les principes de l’Open Acces et perspectivia.net promeut le libre accès au savoir et accompagne l’évolution des sciences humaines vers une science ouverte.<br />
+<p>La plateforme de publication électronique perspectivia.net se veut un portail international, interdisciplinaire et historique pour les publications en sciences humaines. L'infrastructure de la Fondation Max Weber - Instituts allemands de sciences humaines à l'étranger - rend ainsi les publications des différents instituts et de leurs partenaires librement accessibles en ligne. La Fondation Max Weber s'engage à respecter les principes de l’Open Acces et perspectivia.net promeut le libre accès au savoir et accompagne l’évolution des sciences humaines vers une science ouverte.<br />
  </p>
 </div>
 
@@ -347,7 +421,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
  </p>
 </div>
 
-<div class="card-footer pp_more"><a href="../servlets/MCRActionMappingServlet/search/simple"><strong>... Recherche</strong></a></div>
+<div class="card-footer pp_more"><a href="search/simple.xed"><strong>... Recherche</strong></a></div>
 </div>
 </div>
 
@@ -364,7 +438,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
  </p>
 </div>
 
-<div class="card-footer pp_more"><a href="../servlets/solr/find?fq=mods.genre:source_edition"><strong>... Vue d'ensemble</strong> <img src="../images/external_link.svg" /> </a></div>
+<div class="card-footer pp_more"><a href="publications/sources.xml"><strong>... Vue d'ensemble</strong> <img src="../images/external_link.svg" /> </a></div>
 </div>
 </div>
 
@@ -398,7 +472,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 <div class="carousel-inner" role="listbox">
 <div class="carousel-item active">
 <div class="row carousel-item__content-box">
-<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover Rezensionsjournal Francia-Recensio" class="img-fluid" src="../images/slider/francia-recensio-2021.png" style="width: 210px; height: 306px;" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover Rezensionsjournal Francia-Recensio" class="img-fluid" src="francia-recensio-2021.png" style="width: 210px; height: 306px;" /></div>
 
 <div class="col-8">
 <h1>Francia-Recensio</h1>
@@ -467,5 +541,4 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 </div>
 </div>
 </div>
-</div>
-</section><meta><log lastEditor="agerber" date="2021-07-12" time="10:43" /></meta></MyCoReWebPage>
+</div></section><meta><log lastEditor="agerber" date="2021-05-19" time="15:02" /></meta></MyCoReWebPage>
