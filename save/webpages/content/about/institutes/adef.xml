@@ -1,275 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Arbeitskreis Großbritannien-Forschung (AGF)"><div class="row">
+<div class="col-12 pp-institute-graphic" lang="de"><img alt="ADEF-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/agf.png" style="width: 232px; height: 177px;" />
+<h1 class="pp-institute-graphic__headline">Arbeitskreis Großbritannien-Forschung</h1>
+<img alt="Foto London" class="pp-institute-graphic__figure" src="../../../images/institute-figures/adef-figure.jpg" title="Arbeitskreis Deutsche England-Forschung" /></div>
 
-    <section xml:lang="de" title="Arbeitskreis Deutsche England-Forschung">
-        <div class="row">
+<div class="col-12 pp-contact" lang="de">
+<h2>Kontakt</h2>
 
-            <div class="col-12 pp-institute-graphic" lang="de">
-                <img src="../../../images/logos/adef-logo.jpg"
-                        class="pp-institute-graphic__logo"
-                        alt="ADEF-Logo" />
-                <h1 class="pp-institute-graphic__headline">
-                    Arbeitskreis Deutsche England-Forschung
-                </h1>
-                <img src="../../../images/institute-figures/adef-figure.jpg"
-                        class="pp-institute-graphic__figure"
-                        alt="Foto London"
-                        title="Arbeitskreis Deutsche England-Forschung" />
-            </div>
+<h3>Arbeitskreis Großbritannien-Forschung</h3>
 
-            <div class="col-12 pp-contact" lang="de">
-                <h2>Kontakt</h2>
-                <h3>Arbeitskreis Deutsche England-Forschung</h3>
-                <div class="pp-contact__list">
+<div class="pp-contact__list">
+<div class="pp-contact__item">Prof. Dr. Christiane Eisenberg<br />
+Großbritannien-Zentrum<br />
+Centre for British Studies<br />
+Humboldt Universität zu Berlin<br />
+Mohrenstraße 60<br />
+D-10117 Berlin</div>
 
-                    <div class="pp-contact__item">
-                        Prof. Dr. Christiane Eisenberg<br />
-                        Großbritannien-Zentrum<br />
-                        Centre for British Studies<br />
-                        Humboldt Universität zu Berlin<br />
-                        Mohrenstraße 60<br />
-                        D-10117 Berlin
-                    </div>
+<table class="pp-contact__item">
+	<tbody>
+		<tr>
+			<td class="pp-contact__subitem">Telefon:</td>
+			<td>+49 30 2093-99047/ ...-99050</td>
+		</tr>
+		<tr>
+			<td class="pp-contact__subitem">Fax:</td>
+			<td>+49 30 2093-99055</td>
+		</tr>
+	</tbody>
+</table>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">Telefon:</td>
-                            <td>+49 30 2093-99047/ ...-99050</td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Fax:</td>
-                            <td>+49 30 2093-99055</td>
-                        </tr>
-                    </table>
+<table class="pp-contact__item">
+	<tbody>
+		<tr>
+			<td class="pp-contact__subitem">E-Mail:</td>
+			<td><span class="madress">christiane.eisenberg [at] rz.hu-berlin.de</span></td>
+		</tr>
+		<tr>
+			<td class="pp-contact__subitem">Internet:</td>
+			<td><a class="external-link" href="http://www.agf-britishstudies.de/">http://www.agf-britishstudies.de/</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">E-Mail:</td>
-                            <td>
-                                <span class="madress">christiane.eisenberg [at] rz.hu-berlin.de</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Internet:</td>
-                            <td><a class="external-link" href="http://www.adef-britishstudies.de">http://www.adef-britishstudies.de</a></td>
-                        </tr>
-                    </table>
+<div class="col-12 pp-publications">
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/adef-placeholder.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22adef%22"> </div>
+</div>
+</div>
+</section><section xml:lang="en" title="German Association for British Studies (AGF)"><div class="row">
+<div class="col-12 pp-institute-graphic" lang="en"><img alt="ADEF-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/agf.png" style="width: 232px; height: 177px;" />
+<h1 class="pp-institute-graphic__headline">German Association for British Studies</h1>
+<img alt="Foto London" class="pp-institute-graphic__figure" src="../../../images/institute-figures/adef-figure.jpg" title="Arbeitskreis Deutsche England-Forschung" /></div>
 
-                </div>
-            </div>
+<div class="col-12 pp-contact" lang="en">
+<h2>Contact</h2>
 
-            <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox"
-                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22adef%22"
-                     data-defaultThumbnail="../../../images/placeholder/adef-placeholder.jpg">        
-                </div>
-            </div>
+<h3>German Association for British Studies</h3>
 
-        </div>
-    </section>
+<div class="pp-contact__list">
+<div class="pp-contact__item">Prof. Dr. Christiane Eisenberg<br />
+Großbritannien-Zentrum<br />
+Centre for British Studies<br />
+Humboldt Universität zu Berlin<br />
+Mohrenstraße 60<br />
+D-10117 Berlin</div>
 
-    <section xml:lang="en" title="Arbeitskreis Deutsche England-Forschung">
-        <div class="row">
+<table class="pp-contact__item">
+	<tbody>
+		<tr>
+			<td class="pp-contact__subitem">Phone:</td>
+			<td>+49 30 2093-99047/ ...-99050</td>
+		</tr>
+		<tr>
+			<td class="pp-contact__subitem">Fax:</td>
+			<td>+49 30 2093-99055</td>
+		</tr>
+	</tbody>
+</table>
 
-            <div class="col-12 pp-institute-graphic" lang="de">
-                <img src="../../../images/logos/adef-logo.jpg"
-                        class="pp-institute-graphic__logo"
-                        alt="ADEF-Logo" />
-                <h1 class="pp-institute-graphic__headline">
-                    Arbeitskreis Deutsche England-Forschung
-                </h1>
-                <img src="../../../images/institute-figures/adef-figure.jpg"
-                        class="pp-institute-graphic__figure"
-                        alt="Foto London"
-                        title="Arbeitskreis Deutsche England-Forschung" />
-            </div>
+<table class="pp-contact__item">
+	<tbody>
+		<tr>
+			<td class="pp-contact__subitem">E-Mail:</td>
+			<td><span class="madress">christiane.eisenberg [at] rz.hu-berlin.de</span></td>
+		</tr>
+		<tr>
+			<td class="pp-contact__subitem">Internet:</td>
+			<td><a class="external-link" href="http://www.agf-britishstudies.de/">http://www.agf-britishstudies.de/</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
 
-            <div class="col-12 pp-contact" lang="de">
-                <h2>Contact</h2>
-                <h3>Arbeitskreis Deutsche England-Forschung</h3>
-                <div class="pp-contact__list">
+<div class="col-12 pp-publications">
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/adef-placeholder.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22adef%22"> </div>
+</div>
+</div>
+</section><section xml:lang="fr" title="Arbeitskreis Großbritannien-Forschung (Association allemande pour les études britanniques)"><div class="row">
+<div class="col-12 pp-institute-graphic" lang="de"><img alt="ADEF-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/agf.png" style="width: 232px; height: 177px;" />
+<h1 class="pp-institute-graphic__headline">Arbeitskreis Deutsche England-Forschung (Association allemande pour les études britanniques)</h1>
+<img alt="Foto London" class="pp-institute-graphic__figure" src="../../../images/institute-figures/adef-figure.jpg" title="Arbeitskreis Deutsche England-Forschung" /></div>
 
-                    <div class="pp-contact__item">
-                        Prof. Dr. Christiane Eisenberg<br />
-                        Großbritannien-Zentrum<br />
-                        Centre for British Studies<br />
-                        Humboldt Universität zu Berlin<br />
-                        Mohrenstraße 60<br />
-                        D-10117 Berlin
-                    </div>
+<div class="col-12 pp-contact" lang="de">
+<h2>Contact</h2>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">Phone:</td>
-                            <td>+49 30 2093-99047/ ...-99050</td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Fax:</td>
-                            <td>+49 30 2093-99055</td>
-                        </tr>
-                    </table>
+<h3>Arbeitskreis Deutsche England-Forschung (Association allemande pour les études britanniques)</h3>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">E-Mail:</td>
-                            <td>
-                                <span class="madress">christiane.eisenberg [at] rz.hu-berlin.de</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Internet:</td>
-                            <td><a class="external-link" href="http://www.adef-britishstudies.de">http://www.adef-britishstudies.de</a></td>
-                        </tr>
-                    </table>
+<div class="pp-contact__list">
+<div class="pp-contact__item">Prof. Dr. Christiane Eisenberg<br />
+Großbritannien-Zentrum<br />
+Centre for British Studies<br />
+Humboldt Universität zu Berlin<br />
+Mohrenstraße 60<br />
+D-10117 Berlin</div>
 
-                </div>
-            </div>
+<table class="pp-contact__item">
+	<tbody>
+		<tr>
+			<td class="pp-contact__subitem">Téléphone:</td>
+			<td>+49 30 2093-99047/ ...-99050</td>
+		</tr>
+		<tr>
+			<td class="pp-contact__subitem">Fax:</td>
+			<td>+49 30 2093-99055</td>
+		</tr>
+	</tbody>
+</table>
 
-            <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox"
-                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22adef%22"
-                     data-defaultThumbnail="../../../images/placeholder/adef-placeholder.jpg">        
-                </div>
-            </div>
+<table class="pp-contact__item">
+	<tbody>
+		<tr>
+			<td class="pp-contact__subitem">E-Mail:</td>
+			<td><span class="madress">christiane.eisenberg [at] rz.hu-berlin.de</span></td>
+		</tr>
+		<tr>
+			<td class="pp-contact__subitem">Internet:</td>
+			<td><a class="external-link" href="http://www.agf-britishstudies.de/">http://www.agf-britishstudies.de/</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
 
-        </div>
-    </section>
+<div class="col-12 pp-publications">
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/adef-placeholder.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22adef%22"> </div>
+</div>
+</div>
+</section><section xml:lang="it" title="Arbeitskreis Deutsche England-Forschung"><div class="row">
+<div class="col-12 pp-institute-graphic" lang="de"><img alt="ADEF-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/agf.png" style="width: 232px; height: 177px;" />
+<h1 class="pp-institute-graphic__headline">Arbeitskreis Deutsche England-Forschung</h1>
+<img alt="Foto London" class="pp-institute-graphic__figure" src="../../../images/institute-figures/adef-figure.jpg" title="Arbeitskreis Deutsche England-Forschung" /></div>
 
-    <section xml:lang="fr" title="Arbeitskreis Deutsche England-Forschung">
-        <div class="row">
+<div class="col-12 pp-contact" lang="de">
+<h2>Contact</h2>
 
-            <div class="col-12 pp-institute-graphic" lang="de">
-                <img src="../../../images/logos/adef-logo.jpg"
-                        class="pp-institute-graphic__logo"
-                        alt="ADEF-Logo" />
-                <h1 class="pp-institute-graphic__headline">
-                    Arbeitskreis Deutsche England-Forschung
-                </h1>
-                <img src="../../../images/institute-figures/adef-figure.jpg"
-                        class="pp-institute-graphic__figure"
-                        alt="Foto London"
-                        title="Arbeitskreis Deutsche England-Forschung" />
-            </div>
+<h3>Arbeitskreis Deutsche England-Forschung</h3>
 
-            <div class="col-12 pp-contact" lang="de">
-                <h2>Contact</h2>
-                <h3>Arbeitskreis Deutsche England-Forschung</h3>
-                <div class="pp-contact__list">
+<div class="pp-contact__list">
+<div class="pp-contact__item">Prof. Dr. Christiane Eisenberg<br />
+Großbritannien-Zentrum<br />
+Centre for British Studies<br />
+Humboldt Universität zu Berlin<br />
+Mohrenstraße 60<br />
+D-10117 Berlin</div>
 
-                    <div class="pp-contact__item">
-                        Prof. Dr. Christiane Eisenberg<br />
-                        Großbritannien-Zentrum<br />
-                        Centre for British Studies<br />
-                        Humboldt Universität zu Berlin<br />
-                        Mohrenstraße 60<br />
-                        D-10117 Berlin
-                    </div>
+<table class="pp-contact__item">
+	<tbody>
+		<tr>
+			<td class="pp-contact__subitem">Phone:</td>
+			<td>+49 30 2093-99047/ ...-99050</td>
+		</tr>
+		<tr>
+			<td class="pp-contact__subitem">Fax:</td>
+			<td>+49 30 2093-99055</td>
+		</tr>
+	</tbody>
+</table>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">Phone:</td>
-                            <td>+49 30 2093-99047/ ...-99050</td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Fax:</td>
-                            <td>+49 30 2093-99055</td>
-                        </tr>
-                    </table>
+<table class="pp-contact__item">
+	<tbody>
+		<tr>
+			<td class="pp-contact__subitem">E-Mail:</td>
+			<td><span class="madress">christiane.eisenberg [at] rz.hu-berlin.de</span></td>
+		</tr>
+		<tr>
+			<td class="pp-contact__subitem">Internet:</td>
+			<td><a class="external-link" href="http://www.adef-britishstudies.de">http://www.adef-britishstudies.de</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">E-Mail:</td>
-                            <td>
-                                <span class="madress">christiane.eisenberg [at] rz.hu-berlin.de</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Internet:</td>
-                            <td><a class="external-link" href="http://www.adef-britishstudies.de">http://www.adef-britishstudies.de</a></td>
-                        </tr>
-                    </table>
-
-                </div>
-            </div>
-
-            <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox"
-                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22adef%22"
-                     data-defaultThumbnail="../../../images/placeholder/adef-placeholder.jpg">        
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section xml:lang="it" title="Arbeitskreis Deutsche England-Forschung">
-        <div class="row">
-
-            <div class="col-12 pp-institute-graphic" lang="de">
-                <img src="../../../images/logos/adef-logo.jpg"
-                        class="pp-institute-graphic__logo"
-                        alt="ADEF-Logo" />
-                <h1 class="pp-institute-graphic__headline">
-                    Arbeitskreis Deutsche England-Forschung
-                </h1>
-                <img src="../../../images/institute-figures/adef-figure.jpg"
-                        class="pp-institute-graphic__figure"
-                        alt="Foto London"
-                        title="Arbeitskreis Deutsche England-Forschung" />
-            </div>
-
-            <div class="col-12 pp-contact" lang="de">
-                <h2>Contact</h2>
-                <h3>Arbeitskreis Deutsche England-Forschung</h3>
-                <div class="pp-contact__list">
-
-                    <div class="pp-contact__item">
-                        Prof. Dr. Christiane Eisenberg<br />
-                        Großbritannien-Zentrum<br />
-                        Centre for British Studies<br />
-                        Humboldt Universität zu Berlin<br />
-                        Mohrenstraße 60<br />
-                        D-10117 Berlin
-                    </div>
-
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">Phone:</td>
-                            <td>+49 30 2093-99047/ ...-99050</td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Fax:</td>
-                            <td>+49 30 2093-99055</td>
-                        </tr>
-                    </table>
-
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">E-Mail:</td>
-                            <td>
-                                <span class="madress">christiane.eisenberg [at] rz.hu-berlin.de</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Internet:</td>
-                            <td><a class="external-link" href="http://www.adef-britishstudies.de">http://www.adef-britishstudies.de</a></td>
-                        </tr>
-                    </table>
-
-                </div>
-            </div>
-
-            <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox"
-                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22adef%22"
-                     data-defaultThumbnail="../../../images/placeholder/adef-placeholder.jpg">        
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <meta>
-        <log lastEditor="administrator" date="2018-20-06" time="14:00" />
-    </meta>
-</MyCoReWebPage>
+<div class="col-12 pp-publications">
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/adef-placeholder.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22adef%22"> </div>
+</div>
+</div>
+</section><meta><log lastEditor="agerber" date="2021-05-31" time="12:15" /></meta></MyCoReWebPage>

@@ -1,85 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Partner">
-        <div class="row">
-            <div class="col-12" lang="de">
-                <h1>Partnerschaften mit Forschungsinfrastrukturen</h1>
-                <p>
-                    Die Max Weber Stiftung unterstützt und nutzt nationale und internationale Forschungsinfrastrukturen. Für die bibliothekarischen
-                    und informationswissenschaftlichen Dienste gehören insbesondere die <strong>DFG-Fachinformationsdienste (FIDs)</strong> und
-                    überregional tätigen Kompetenzzentren im Bereich des digitalen Publizierens zu den wichtigen Partnern. Die Angebote des FID
-                    <em>Geschichtswissenschaft</em> an der BSB, der FIDs <em>Kunstgeschichte</em>, <em>Altertumskunde</em> und <em>Ostasien
-                        (CrossAsia)</em> an der UB Heidelberg sowie des FID <em>Nahost-, Nordafrika- und Islamstudien</em> an der UB Halle bilden
-                    wichtige Stützen im Portfolio von perspectivia.net.
-                </p>
-                <p>
-                    Die <a href="http://www.bsb-muenchen.de/"><strong>Bayerische Staatsbibliothek München</strong></a> (BSB)
-                    unterstützt perspectivia.net seit 2008 als enger Kooperationspartner auf dem Gebiet des digitalen Publizierens, der
-                    Retrodigitalisierung, der Langzeitarchivierung sowie der sachlichen Erschließung von Online-Publikationen und deren
-                    Nachweis in Bibliothekskatalogen und anderen Suchinstrumenten.
-                </p>
-                <p>
-                    Die <a href="http://www.ub.uni-heidelberg.de/"><strong>UB Heidelberg</strong></a> verfügt im Zuge ihrer langjährigen
-                    Aktivitäten im Bereich der Digitalisierung, des elektronischen Publizierens und der digitalen Langzeitarchivierung über
-                    eine leistungsfähige technische Infrastruktur und vielfältige Erfahrungen beim Aufbau und Betrieb digitaler Plattformen.
-                    Für perspectivia.net ist sie damit ein wertvoller Kooperationspartner auf allen Feldern des digitalen Publizierens.
-                </p>
-                <p>
-                    Die <a href="http://www.gbv.de/"><strong>Verbundzentrale Göttingen</strong></a> (VZG) entwickelt und betreibt für
-                    perspectivia.net den zentralen Publikationsserver auf Basis von <strong><a href="http://www.mycore.de/">MyCoRe</a></strong>
-                    und gehört zu den wichtigsten Infrastrukturpartnern der Max Weber Stiftung. Auch die gemeinsame Realisierung von innovativen
-                    digitalen Publikationsformaten für die Grundlagenforschung wie Forschungsdaten und Sammlungen sind Teil der Kooperation.
-                </p>
-                <p>
-                    Mit der Beteiligung an den Infrastrukturprojekten und Netzwerken
-                    <a href="https://www.clarin-d.net/de/"><strong>CLARIN-D</strong></a>/<a href="https://de.dariah.eu/"><strong>DARIAH-DE</strong></a>
-                    und <a href="https://operas.hypotheses.org/" target="_blank"><strong>OPERAS</strong></a> unterstützt die Max Weber Stiftung die
-                    Weiterentwicklung der digitalen Methoden, der digitalen Forschungsinfrastrukturen und der offenen Wissenschaftskommunikation in
-                    den Geistes- und Kulturwissenschaften. Auch der regelmäßige Austausch mit Digital Humanities Zentren und Verbünden im
-                    deutschsprachigen Raum gehört zum Kern des kooperativen Ansatzes von perspectivia.net.
-                </p>
-            </div>
-        </div>
-    </section>
-    <section xml:lang="en" title="Partner">
-        <div class="row">
-            <div class="col-12" lang="de">
-                <h1>Cooperations with Research Infrastructures</h1>
-                <p>
-                    The Max Weber Foundation supports and relies on national and international research infrastructures. The <strong>DFG Specialised
-                    Information Services</strong> (FIDs) and digital publishing competence centres are important partners for library
-                    services. The FID <em>History</em> at the BSB, the FIDs <em>Art History</em>, <em>Classical Studies</em> and <em>CrossAsia</em>
-                    at the Heidelberg University Library as well as the FID <em>Middle East, North Africa and Islamic Studies</em> at the Halle
-                    University Library are important and reliable elements in perspectivia.net's portfolio.
-                </p>
-                <p>
-                    The <a href="http://www.bsb-muenchen.de/"><strong>Bavarian State Library Munich</strong></a> (BSB) has been supporting
-                    perspectivia.net since 2008 as a cooperation partner in the field of digital publishing, retro-digitisation, long-term
-                    archiving and the factual indexing of online publications and their reference in library catalogues and other search tools.
-                </p>
-                <p>
-                    In the course of its long-standing activities in the field of digitization, electronic publishing and digital long-term
-                    archiving, the <strong><a href="http://www.ub.uni-heidelberg.de/">Heidelberg University Library</a></strong>build a
-                    powerful technical infrastructure and competences in setting up and operating digital platforms. Therefore they are an
-                    innovative and valuable partner for perspectivia.net in all fields of digital publishing.
-                </p>
-                <p>
-                    The <a href="http://www.gbv.de/"><strong>Verbundzentrale Göttingen</strong></a> (VZG) develops and operates the central
-                    publication server for perspectivia.net on the basis of <a href="http://www.mycore.de/"><strong>MyCoRe</strong></a> and is
-                    one of the most important infrastructure partners of the Max Weber Foundation. The joint realisation of innovative digital
-                    publication formats for basic research, such as research data and collections, is also part of the cooperation.
-                </p>
-                <p>
-                    By participating in the infrastructure projects and networks
-                    <a href="https://www.clarin-d.net/de/"><strong>CLARIN-D</strong></a>/<a href="https://de.dariah.eu/"><strong>DARIAH-DE</strong></a>
-                    and <a href="https://operas.hypotheses.org/"><strong>OPERAS</strong></a>, the Max Weber Foundation supports the further
-                    development of digital methods, digital research infrastructures and open scientific communication in the humanities and
-                    cultural sciences. A regular exchange with Digital Humanities centres and collaborative reserach projects in German-speaking
-                    countries defines perspectivia.net's cooperative approach.
-                </p>
-                
-            </div>
-        </div>
-    </section>
-    <meta><log lastEditor="fcremer" date="2018-11-08" time="14:43" /></meta>
-</MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Partner"><div class="row">
+<div class="col-12" lang="de">
+<h1>Partnerschaften mit Forschungsinfrastrukturen</h1>
+
+<p>Die Max Weber Stiftung unterstützt und nutzt nationale und internationale Forschungsinfrastrukturen. Für die bibliothekarischen und informationswissenschaftlichen Dienste gehören insbesondere die <strong>DFG-Fachinformationsdienste (FIDs)</strong> und überregional tätigen Kompetenzzentren im Bereich des digitalen Publizierens zu den wichtigen Partnern. Die Angebote des FID <em>Geschichtswissenschaft</em> an der BSB, der FIDs <em>Kunstgeschichte</em>, <em>Altertumskunde</em> und <em>Ostasien (CrossAsia)</em> an der UB Heidelberg sowie des FID <em>Nahost-, Nordafrika- und Islamstudien</em> an der UB Halle bilden wichtige Stützen im Portfolio von perspectivia.net.</p>
+
+<p>Die <a href="http://www.bsb-muenchen.de/"><strong>Bayerische Staatsbibliothek München</strong></a> (BSB) unterstützt perspectivia.net seit 2008 als enger Kooperationspartner auf dem Gebiet des digitalen Publizierens, der Retrodigitalisierung, der Langzeitarchivierung sowie der sachlichen Erschließung von Online-Publikationen und deren Nachweis in Bibliothekskatalogen und anderen Suchinstrumenten.</p>
+
+<p>Die <a href="http://www.ub.uni-heidelberg.de/"><strong>UB Heidelberg</strong></a> verfügt im Zuge ihrer langjährigen Aktivitäten im Bereich der Digitalisierung, des elektronischen Publizierens und der digitalen Langzeitarchivierung über eine leistungsfähige technische Infrastruktur und vielfältige Erfahrungen beim Aufbau und Betrieb digitaler Plattformen. Für perspectivia.net ist sie damit ein wertvoller Kooperationspartner auf allen Feldern des digitalen Publizierens.</p>
+
+<p>Die <a href="http://www.gbv.de/"><strong>Verbundzentrale Göttingen</strong></a> (VZG) entwickelt und betreibt für perspectivia.net den zentralen Publikationsserver auf Basis von <strong><a href="http://www.mycore.de/">MyCoRe</a></strong> und gehört zu den wichtigsten Infrastrukturpartnern der Max Weber Stiftung. Auch die gemeinsame Realisierung von innovativen digitalen Publikationsformaten für die Grundlagenforschung wie Forschungsdaten und Sammlungen sind Teil der Kooperation.</p>
+
+<p>Mit der Beteiligung an den Infrastrukturprojekten und Netzwerken <a href="https://www.clarin-d.net/de/"><strong>CLARIN-D</strong></a>/<a href="https://de.dariah.eu/"><strong>DARIAH-DE</strong></a> und <a href="https://operas.hypotheses.org/" target="_blank"><strong>OPERAS</strong></a> unterstützt die Max Weber Stiftung die Weiterentwicklung der digitalen Methoden, der digitalen Forschungsinfrastrukturen und der offenen Wissenschaftskommunikation in den Geistes- und Kulturwissenschaften. Auch der regelmäßige Austausch mit Digital Humanities Zentren und Verbünden im deutschsprachigen Raum gehört zum Kern des kooperativen Ansatzes von perspectivia.net.</p>
+</div>
+</div>
+</section><section xml:lang="en" title="Partners"><div class="row">
+<div class="col-12" lang="en">
+<h1>Cooperations with Research Infrastructures</h1>
+
+<p>The Max Weber Foundation supports and relies on national and international research infrastructures. The <strong>DFG Specialised Information Services</strong> (FIDs) and digital publishing competence centres are important partners for library services. The FID <em>History</em> at the BSB, the FIDs <em>Art History</em>, <em>Classical Studies</em> and <em>CrossAsia</em> at the Heidelberg University Library as well as the FID <em>Middle East, North Africa and Islamic Studies</em> at the Halle University Library are important and reliable elements in perspectivia.net's portfolio.</p>
+
+<p>The <a href="http://www.bsb-muenchen.de/"><strong>Bavarian State Library Munich</strong></a> (BSB) has been supporting perspectivia.net since 2008 as a cooperation partner in the field of digital publishing, retro-digitisation, long-term archiving and the factual indexing of online publications and their reference in library catalogues and other search tools.</p>
+
+<p>In the course of its long-standing activities in the field of digitization, electronic publishing and digital long-term archiving, the <strong><a href="http://www.ub.uni-heidelberg.de/">Heidelberg University Library</a></strong>build a powerful technical infrastructure and competences in setting up and operating digital platforms. Therefore they are an innovative and valuable partner for perspectivia.net in all fields of digital publishing.</p>
+
+<p>The <a href="http://www.gbv.de/"><strong>Verbundzentrale Göttingen</strong></a> (VZG) develops and operates the central publication server for perspectivia.net on the basis of <a href="http://www.mycore.de/"><strong>MyCoRe</strong></a> and is one of the most important infrastructure partners of the Max Weber Foundation. The joint realisation of innovative digital publication formats for basic research, such as research data and collections, is also part of the cooperation.</p>
+
+<p>By participating in the infrastructure projects and networks <a href="https://www.clarin-d.net/de/"><strong>CLARIN-D</strong></a>/<a href="https://de.dariah.eu/"><strong>DARIAH-DE</strong></a> and <a href="https://operas.hypotheses.org/"><strong>OPERAS</strong></a>, the Max Weber Foundation supports the further development of digital methods, digital research infrastructures and open scientific communication in the humanities and cultural sciences. A regular exchange with Digital Humanities centres and collaborative reserach projects in German-speaking countries defines perspectivia.net's cooperative approach.</p>
+</div>
+</div>
+</section><section xml:lang="fr" title="Partenaires"><div class="row">
+<div class="col-12" lang="fr">
+<h1>Partenariats avec les infrastructures de recherche</h1>
+
+<p>La Fondation Max-Weber soutient et utilise des infrastructures de recherche nationales et internationales. Pour les services de bibliothèques et de sciences de l'information, les <strong>services d'information thématiques (FID) de la DFG</strong> et les centres de compétence actifs au niveau suprarégional dans le domaine de la publication numérique comptent parmi les partenaires les plus importants. Les services du FID <em>Histoire </em>à la BSB, des FID <em>Histoire de l'art, Études classiques</em> et <em>Asie orientale</em> (CrossAsia) à l'UB Heidelberg ainsi que du FID <em>Études moyen-orientales, nord-africaines et islamiques</em> à l'UB Halle constituent des piliers importants du portefeuille de perspectivia.net.</p>
+
+<p>La <a href="http://www.bsb-muenchen.de/"><strong>Bibliothèque d'État de Bavière</strong></a> (BSB) soutient perspectivia.net depuis 2008 en tant que partenaire de coopération étroite dans le domaine de la publication numérique, de la rétro-numérisation, de l'archivage à long terme ainsi que de l'indexation par sujet des publications en ligne et de leur indexation dans les catalogues des bibliothèques et autres outils de recherche.</p>
+
+<p>Dans le cadre de ses activités de longue date dans le domaine de la numérisation, de l'édition numérique et de l'archivage numérique à long terme, la <a href="http://www.ub.uni-heidelberg.de/"><strong>Bibliothèque universitaire de Heidelberg</strong></a> dispose d'une infrastructure technique puissante et d'une grande expérience dans la mise en place et l'exploitation de plateformes numériques. Pour perspectivia.net, il s'agit donc d'un partenaire de coopération précieux dans tous les domaines de la publication numérique.</p>
+
+<p>La <a href="http://www.gbv.de/"><strong>Verbundzentrale Göttingen</strong></a> (VZG) développe et exploite le serveur central de publication de perspectivia.net sur la base de MyCoRe et est l'un des principaux partenaires d'infrastructure de la Fondation Max-Weber. La réalisation conjointe de formats de publication numérique innovants pour la recherche fondamentale, tels que les données et les collections de recherche, fait également partie de la coopération.</p>
+
+<p>En participant aux projets d'infrastructure et aux réseaux <a href="https://www.clarin-d.net/de/"><strong>CLARIN-D</strong></a>/<a href="https://de.dariah.eu/"><strong>DARIAH-DE</strong></a> et <a href="https://operas.hypotheses.org/"><strong>OPERAS</strong></a>, la Fondation Max Weber soutient le développement des méthodes numériques, des infrastructures de recherche numériques et de la communication savante ouverte dans les sciences humaines et les études culturelles. L'échange régulier avec les centres et alliances d'humanités numériques des pays germanophones est également au cœur de l'approche coopérative de perspectivia.net.</p>
+</div>
+</div></section><meta><log lastEditor="agerber" date="2021-05-31" time="14:01" /></meta></MyCoReWebPage>

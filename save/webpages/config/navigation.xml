@@ -13,6 +13,7 @@
     <menu id="below" dir="/content/below">
         <label xml:lang="de">Fußzeile</label>
         <label xml:lang="en">Footer</label>
+        <label xml:lang="fr">Bas de page</label>
         <item href="/content/below/impressum.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Impressum</label>
             <label xml:lang="en">Imprint</label>
@@ -49,47 +50,73 @@
             <label xml:lang="fr">Institutions</label>
             <item href="/content/about/institutes/mws.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Max Weber Stiftung – DGIA</label>
-                <label xml:lang="en">Max Weber Foundation</label>
+                <label xml:lang="en">Max Weber Stiftung - Foundation German Humanities Institutes Abroad</label>
+                <label xml:lang="fr">Fondation Max-Weber</label>
             </item>
             <item href="/content/about/institutes/dfk.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Deutsches Forum für Kunstgeschichte Paris (DFK)</label>
+                <label xml:lang="en">German Center for Art History (DFK Paris)</label>
+                <label xml:lang="fr">Centre allemand d’histoire de l’art (DFK Paris)</label>
             </item>
             <item href="/content/about/institutes/dhi-london.xml" replaceMenu="false" constrainPopUp="false">
-                <label xml:lang="de">Deutsches Historisches Institut London (GHI)</label>
+                <label xml:lang="de">Deutsches Historisches Institut London (GHIL)</label>
+                <label xml:lang="en">German Historical Institute London (GHIL)</label>
+                <label xml:lang="fr">Institut historique allemand Londres (GHIL)</label>
             </item>
             <item href="/content/about/institutes/dhi-moskau.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Deutsches Historisches Institut Moskau (DHI)</label>
+                <label xml:lang="en">German Historical Institute Moscow (DHI)</label>
+                <label xml:lang="fr">Institut historique allemand Moscou (DHI)</label>
             </item>
             <item href="/content/about/institutes/dhi-paris.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Deutsches Historisches Institut Paris (DHI)</label>
+                <label xml:lang="en">German Historical Institute Paris (DHI)</label>
+                <label xml:lang="fr">Institut historique allemand Paris (DHI)</label>
             </item>
             <item href="/content/about/institutes/dhi-rom.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Deutsches Historisches Institut Rom (DHI)</label>
+                <label xml:lang="en">German Historical Institute Rome (DHI)</label>
+                <label xml:lang="fr">Institut historique allemand Rome (DHI)</label>
             </item>
             <item href="/content/about/institutes/dhi-warschau.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Deutsches Historisches Institut Warschau (DHI)</label>
-                <label xml:lang="en"></label>
+                <label xml:lang="en">German Historical Institute Warsaw (DHI)</label>
+                <label xml:lang="fr">Institut historique allemand Varsovie (DHI)</label>
             </item>
             <item href="/content/about/institutes/dhi-washington.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Deutsches Historisches Institut Washington (DHI)</label>
+                <label xml:lang="en">German Historical Institute Washington, DC (DHI)</label>
+                <label xml:lang="fr">Institut historique allemand Washington (DHI)</label>
             </item>
             <item href="/content/about/institutes/dij.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Deutsches Institut für Japanstudien Tokio (DIJ)</label>
+                <label xml:lang="en">German Institute for Japanese Studies Tokyo (DIJ)</label>
+                <label xml:lang="fr">Institut allemand des Études japonaises Tokyo (DIJ)</label>
             </item>
             <item href="/content/about/institutes/oib.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Orient-Institut Beirut (OIB)</label>
+                <label xml:lang="en">Orient-Institut Beirut (OIB)</label>
+                <label xml:lang="fr">Orient-Institut Beyrouth (OIB)</label>
             </item>
             <item href="/content/about/institutes/oii.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Orient-Institut Istanbul (OII)</label>
+                <label xml:lang="en">Orient-Institut Istanbul (OII)</label>
+                <label xml:lang="fr">Orient-Institut Istanbul (OII)</label>
             </item>
             <item href="/content/about/institutes/adef.xml" replaceMenu="false" constrainPopUp="false">
-                <label xml:lang="de">Arbeitskreis Deutsche England-Forschung (ADEF)</label>
+                <label xml:lang="de">Arbeitskreis Großbritannien-Forschung (AGF)</label>
+                <label xml:lang="en">German Association for British Studies (AGF)</label>
+                <label xml:lang="fr">Arbeitskreis Großbritannien-Forschung (AGF)</label>
             </item>
             <item href="/content/about/institutes/trafo.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Forum Transregionale Studien (TRAFO)</label>
+                <label xml:lang="en">Forum Transregionale Studien (TRAFO)</label>
+                <label xml:lang="fr">Forum Transregionale Studien (TRAFO)</label>
             </item>
             <item href="/content/about/institutes/spsg.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg (SPSG)</label>
+                <label xml:lang="en">Prussian Palaces and Gardens Foundation Berlin-Brandenburg (SPSG)</label>
+                <label xml:lang="fr">Fondation des Châteaux et Jardins prussiens de Berlin-Brandebourg (SPSG)</label>
             </item>
         </item>
         <item href="/content/about/redaktion.xml" replaceMenu="false" constrainPopUp="false">
@@ -179,13 +206,13 @@
         <label xml:lang="fr">Quicklinks</label>
         <item href="http://menadoc.bibliothek.uni-halle.de/" type="extern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">MENAdoc (FID Vorderer Orient)</label>
-            <label xml:lang="en">MENAdoc (FID Vorderer Orient)</label>
-            <label xml:lang="fr">MENAdoc (FID Vorderer Orient)</label>
+            <label xml:lang="en">MENAdoc (Specialised Information Service for Middle East, North African and Islamic Studies)</label>
+            <label xml:lang="fr">MENAdoc (Services d'information thématiques sur le Moyen-Orient, l'Afrique du Nord et les études islamiques)</label>
         </item>
         <item href="https://www.arthistoricum.net/partner/dkfparis/" type="extern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">arthistoricum.net (FID Kunstgeschichte)</label>
-            <label xml:lang="en">arthistoricum.net (FID Kunstgeschichte)</label>
-            <label xml:lang="fr">arthistoricum.net (FID Kunstgeschichte)</label>
+            <label xml:lang="en">arthistoricum.net (Specialised Information Service Art - Photography - Design)</label>
+            <label xml:lang="fr">arthistoricum.net (Service d'information spécialisé art - photographie - design)</label>
         </item>
     </menu>
     <menu id="publish" dir="/content/publish">
@@ -226,61 +253,74 @@
             <item href="/authorization/change-password.xed?action=password" type="extern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Passwort ändern</label>
                 <label xml:lang="en">Change Password</label>
+                <label xml:lang="fr">Changer le mot de passe</label>
             </item>
             <item href="/servlets/MCRUserServlet?action=show" type="extern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Benutzerdaten anzeigen</label>
                 <label xml:lang="en">Show User Data</label>
+                <label xml:lang="fr">Afficher les données de l'utilisateur</label>
             </item>
             <item href="/authorization/change-current-user.xed?action=saveCurrentUser" type="extern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Kontaktdaten ändern</label>
                 <label xml:lang="en">Change user contact</label>
+                <label xml:lang="fr">Changer les coordonnées</label>
             </item>
         </group>
         <group id="contentadmin">
             <item href="/modules/classeditor/classificationEditor.xml?XSL.classeditor.showId=true" type="extern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Klassifikationseditor</label>
                 <label xml:lang="en">Edit Classifications</label>
+                <label xml:lang="fr">Éditeur de classification</label>
             </item>
             <item href="/rsc/ACLE/start" type="extern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">ACL-Editor</label>
                 <label xml:lang="en">ACL Editor</label>
+                <label xml:lang="fr">ACL Editor</label>
             </item>
         </group>
         <group id="useradmin">
             <item href="/servlets/MCRUserServlet" type="extern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Nutzerverwaltung</label>
                 <label xml:lang="en">Admin Users</label>
+                <label xml:lang="fr">Gestion des utilisateurs</label>
             </item>
             <item href="/authorization/new-user.xed?action=save" type="intern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Nutzer anlegen</label>
                 <label xml:lang="en">Create User</label>
+                <label xml:lang="fr">Créer un utilisateur</label>
             </item>
             <item href="/authorization/roles-editor.xml" type="extern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Rollen administrieren</label>
                 <label xml:lang="en">Manage roles</label>
+                <label xml:lang="fr">Administrer les rôles</label>
             </item>
         </group>
         <group id="miscadmin">
             <item href="/modules/webcli/launchpad.xml" type="extern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">WebCLI</label>
                 <label xml:lang="en">WebCLI</label>
+                <label xml:lang="fr">WebCLI</label>
             </item>
             <item href="/modules/webtools/session/sessionListing.xml" type="intern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Aktive Sitzungen</label>
                 <label xml:lang="en">Session Management</label>
+                <label xml:lang="fr">Sessions actives</label>
             </item>
             <item href="/modules/webtools/processing/processing.xml" type="intern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Aktive Prozesse</label>
                 <label xml:lang="en">Processing</label>
+                <label xml:lang="fr">Processus actifs</label>
             </item>
             <item href="/modules/wcms2/wcms2.xml?XSL.useMT=false" type="extern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">WCMS</label>
                 <label xml:lang="en">WCMS</label>
+                <label xml:lang="fr">WCMS</label>
             </item>
         </group>
         <item href="/servlets/logout?url=../content/index.xml" type="extern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Abmelden</label>
             <label xml:lang="en">Logout</label>
+            <label xml:lang="fr">Déconnexion</label>
         </item>
     </menu>
 </navigation>

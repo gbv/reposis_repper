@@ -1,47 +1,250 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Datenschutz">
-    <div class="row">
-        <div class="col-md-10" lang="de">
-            <h2>Datenschutz</h2>
-                <p>Die Max Weber Stiftung (MWS) nimmt den Schutz personenbezogener Daten ernst. Bitte informieren Sie sich im Folgenden über den Datenschutz auf unserem Webauftritt.</p>
-                <p>Diese Datenschutzerklärung bezieht sich auf die Website www.perspectiva.net.</p>
-            <h3>Personenbezogene Daten</h3>
-                <p>Personenbezogene Daten sind Informationen, die dazu genutzt werden können, Ihre Identität zu erfahren. Darunter fallen Informationen wie Ihr Name, Adresse, Postanschrift, Telefonnummer und E-Mail-Adresse, aber auch die IP-Adresse, die Ihr Rechner hat, wenn Sie auf unsere Seiten zugreifen. Informationen, die nicht mit Ihrer Identität in Verbindung gebracht werden (wie zum Beispiel Anzahl der Nutzer der Site), fallen nicht darunter. Personenbezogene Daten werden auf unseren Webseiten nur im technisch notwendigen Umfang erhoben und gespeichert.</p>
-            <h3>IP-Adresse</h3>
-                <p>Für den Abruf unserer Webseiten ist die Registrierung Ihrer IP-Adresse erforderlich. Eine IP-Adresse ist eine eindeutige, weltweit gültige Kennung Ihres Computers. Als privater Nutzer benutzen Sie in der Regel keine gleichbleibende IP-Adresse, da Ihr Provider Ihnen nur vorübergehend eine IP-Adresse zuweist. Dennoch ist dabei eine eindeutige Zuordnung der Nutzerdaten über dieses Merkmal im Prinzip möglich. Unsere Webserver speichern die Zugriffszeit, die IP-Adresse (vollständig), den aufgerufenen Pfad bzw. die Seite und den Browser-Agent, um Angriffe auf unsere Website analysieren und ggf. abwehren zu können. Die Speicherdauer beträgt einen Monat. Daten, die wir einem Angriff zuordnen, speichern wir so lange wie nötig.</p>
-            <h3>Cookies</h3>
-                <p>Wir verwenden Sessioncookies (kleine Textdateien mit Besuchsinformationen, die zeitweise auf Ihrer Festplatte gespeichert werden), die am Ende der Sitzung ungültig werden. Sie sind für die uneingeschränkte technische Funktion der Seite erforderlich.</p>
-            <h3>Statistische Auswertungen mit Matomo</h3>
-                <p>Diese Website benutzt Matomo, eine Open-Source-Software zur statistischen Auswertung der Besucherzugriffe. Matomo verwendet sog. “Cookies”, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieses Internetangebotes werden auf dem Server des Anbieters in Deutschland gespeichert. Die IP-Adresse wird sofort nach der Verarbeitung und vor deren Speicherung anonymisiert. Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich nutzen können.</p>
-                <iframe src="https://matomo.gbv.de/index.php?module=CoreAdminHome&amp;action=optOut&amp;idsite=37&amp;language=de" style="border: 0; height: 200px; width: 100%;">&lt;/div&gt;</iframe>
-            <h3>Javascript</h3>
-                <p>Mit Javascript kann man den Funktionsumfang einer Website erweitern und personenbezogene Daten erheben. Wir verwenden keine Javascripts zur Erfassung personenbezogener Daten.</p>
-                <p>Datenarme Nutzung, Widerspruch zur Verwendung von Cookies und Javascript</p>
-                <p>Wir setzen lediglich Sessioncookies ein. Um der Nutzung von Cookies oder anderen Techniken zu widersprechen, empfehlen wir Ihnen die vom Browserhersteller dazu angebotenen Informationen über Abschaltung von Javascript und Ablehnung von Cookies abzufragen und anzuwenden (z. B. im Hilfemenü Ihres Internet-Browsers oder auf der entsprechenden Webseite), oder Sie nehmen Kontakt mit dem Browser-Lieferanten für weitere Hilfe und Instruktionen auf.</p>
-                <p>Weiterhin können Sie bereits gesetzte Cookies jederzeit eigenhändig löschen, indem Sie den entsprechenden Menüpunkt in Ihrem Internet-Browser auswählen oder die Cookies in dem dafür vorgesehenen Verzeichnis auf Ihrer Festplatte löschen.</p>
-            <h3>Einbindung von Diensten und Inhalten Dritter</h3>
-                <p>Es kann vorkommen, dass innerhalb dieses Onlineangebotes Inhalte von Dritten und Auftragsdatenverarbeitern (Diese Dienstleister sind vertraglich durch die Max Weber Stiftung gebunden und dürfen personenbezogene Daten, die sie in diesem Zusammenhang erhalten, nur für den beauftragten Zweck verwenden) wie zum Beispiel Videos, Kartenmaterial, RSS-Feeds, Social Media-Nachrichten, Bilder oder Grafiken von anderen Webseiten eingebunden werden. Dies setzt immer voraus, dass die Anbieter dieser Inhalte die IP-Adresse der Nutzer wahrnehmen, denn ohne die IP-Adresse können sie die Inhalte nicht an den Browser des jeweiligen Nutzers senden. Die IP-Adresse ist damit für die Darstellung dieser Inhalte erforderlich. Wir bemühen uns, nur solche Inhalte zu verwenden, deren jeweilige Anbieter die IP-Adresse lediglich zur Auslieferung der Inhalte verwenden. Jedoch haben wir keinen Einfluss darauf, falls die Dritt-Anbieter die IP-Adresse z. B. für statistische Zwecke speichern. Soweit dies uns bekannt ist, klären wir die Nutzer darüber auf. Dienste, die wir zur Zeit nutzen, sind: Twitter, Vimeo, Googleapis, Here, fonts.com.</p>
-            <h3>Kommentare</h3>
-                <p>Innerhalb der Reihe Francia Recensio können Kommentare verfasst werden, die aber erste nach Freischalten durch die Redaktion sichtbar werden.</p>
-            <h3>Kontaktaufnahme</h3>
-                <p>Bei der Kontaktaufnahme mit uns per E-Mail werden die Angaben des Nutzers zwecks Bearbeitung der Anfrage sowie für den Fall, dass Anschlussfragen entstehen, gespeichert.</p>
-            <h3>Datenübermittlung</h3>
-                <p>Ihre personenbezogenen Daten werden nur in den gesetzlich erforderlichen Fällen bzw. zur Strafverfolgung aufgrund von Angriffen auf unsere Netzinfrastruktur an staatliche Einrichtungen und Behörden übermittelt. Eine Weitergabe zu anderen als den oben beschriebenen Zwecken an Dritte findet nicht statt.</p>
-            <h3>Auskunftsrecht</h3>
-                <p>Sie haben jederzeit das Recht auf Auskunft über die bezüglich Ihrer Person gespeicherten Daten, deren Herkunft und Empfänger sowie den Zweck der Speicherung. Auskunft über die gespeicherten Daten gibt der Datenschutzbeauftragte der Max Weber Stiftung.</p>
-            <h3>Berichtigung</h3>
-                <p>Sie haben das Recht, unrichtige personenbezogene Daten berichtigen zu lassen. Wenn die MWS Zweifel an der Richtigkeit der Berichtigung hat, ist sie berechtigt, bis zur Klärung des Sachverhaltes die Berichtigung nicht vorzunehmen.</p>
-            <h3>Löschung</h3>
-                <p>Sie haben das Recht, personenbezogene Daten löschen zu lassen. Wenn die MWS rechtlich verpflichtet ist, die Daten zu speichern, löscht sie die Daten nicht. Wenn die MWS Zweifel an der Richtigkeit des Löschauftrages hat, ist sie berechtigt, bis zur Klärung des Sachverhaltes die Löschung nicht vorzunehmen.</p>
-            <h3>Recht auf Einschränkung der Verarbeitung</h3>
-                <p>Sie haben das Recht auf Einschränkung der Verarbeitung, wenn Sie die Richtigkeit der Daten in Frage stellen (bis zur Klärung der Frage), wenn die Verarbeitung unrechtmäßig ist, wenn Sie Daten noch zur Geltendmachung von Rechtsansprüchen benötigen (nachdem sich der Zweck der Datenverarbeitung erledigt hat) oder wenn Sie Widerspruch nach Art. 21 DSGVO einlegen. Das gilt nicht, wenn die MWS zwingende schutzwürdige Gründe für die Verarbeitung hat.</p>
-            <h3>Recht auf Datenübertragbarkeit</h3>
-                <p>Sie haben das Recht, Ihre bei uns gespeicherten Daten in einem maschinenlesbaren Format mitzunehmen. Als Formate bieten wir das Txt-Format (UTF-8 oder ANSI) und PDF an.</p>
-            <h3>Widerruf einer Einwilligung</h3>
-                <p>Sie haben jederzeit das Recht, Einwilligungen zu widerrufen. Der Widerruf erfolgt in derselben Weise wie die Einwilligung oder durch eine E-Mail an den Datenschutzbeauftragten (s.u.) mit einer Erläuterung, welche Einwilligung Sie zurückziehen. Datenverarbeitungen, die vor Widerruf der Einwilligung erfolgt sind, bleiben rechtmäßig.</p>
-            <h3>Kontakt</h3>
-                <p>Verantwortlich für diesen Webauftritt ist Dr. Michael Kaiser, Max Weber Stiftung, kaiser(at)maxweberstiftung.de.</p>
-                <p>Fragen und Anregungen zum Thema Datenschutz können Sie gerne an den Datenschutzbeauftragten, R. Hiß, richten: datenschutz(at)maxweberstiftung.de</p>
+<MyCoReWebPage><section xml:lang="de" title="Datenschutz"><div class="row">
+<div class="col-md-10" lang="de">
+<h2>Datenschutz</h2>
+
+<p>Die Max Weber Stiftung (MWS) nimmt den Schutz personenbezogener Daten ernst. Bitte informieren Sie sich im Folgenden über den Datenschutz auf unserem Webauftritt.</p>
+
+<p>Diese Datenschutzerklärung bezieht sich auf die Website www.perspectiva.net.</p>
+
+<h3>Personenbezogene Daten</h3>
+
+<p>Personenbezogene Daten sind Informationen, die dazu genutzt werden können, Ihre Identität zu erfahren. Darunter fallen Informationen wie Ihr Name, Adresse, Postanschrift, Telefonnummer und E-Mail-Adresse, aber auch die IP-Adresse, die Ihr Rechner hat, wenn Sie auf unsere Seiten zugreifen. Informationen, die nicht mit Ihrer Identität in Verbindung gebracht werden (wie zum Beispiel Anzahl der Nutzer der Site), fallen nicht darunter. Personenbezogene Daten werden auf unseren Webseiten nur im technisch notwendigen Umfang erhoben und gespeichert.</p>
+
+<h3>IP-Adresse</h3>
+
+<p>Für den Abruf unserer Webseiten ist die Registrierung Ihrer IP-Adresse erforderlich. Eine IP-Adresse ist eine eindeutige, weltweit gültige Kennung Ihres Computers. Als privater Nutzer benutzen Sie in der Regel keine gleichbleibende IP-Adresse, da Ihr Provider Ihnen nur vorübergehend eine IP-Adresse zuweist. Dennoch ist dabei eine eindeutige Zuordnung der Nutzerdaten über dieses Merkmal im Prinzip möglich. Unsere Webserver speichern die Zugriffszeit, die IP-Adresse (vollständig), den aufgerufenen Pfad bzw. die Seite und den Browser-Agent, um Angriffe auf unsere Website analysieren und ggf. abwehren zu können. Die Speicherdauer beträgt einen Monat. Daten, die wir einem Angriff zuordnen, speichern wir so lange wie nötig.</p>
+
+<h3>Cookies</h3>
+
+<p>Wir verwenden Sessioncookies (kleine Textdateien mit Besuchsinformationen, die zeitweise auf Ihrer Festplatte gespeichert werden), die am Ende der Sitzung ungültig werden. Sie sind für die uneingeschränkte technische Funktion der Seite erforderlich.</p>
+
+<h3>Statistische Auswertungen mit Matomo</h3>
+
+<p>Diese Website benutzt Matomo, eine Open-Source-Software zur statistischen Auswertung der Besucherzugriffe. Matomo verwendet sog. “Cookies”, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieses Internetangebotes werden auf dem Server des Anbieters in Deutschland gespeichert. Die IP-Adresse wird sofort nach der Verarbeitung und vor deren Speicherung anonymisiert. Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich nutzen können.</p>
+
+<p>Sie haben die Möglichkeit zu verhindern, dass von Ihnen hier getätigte Aktionen analysiert und verknüpft werden. Dies wird Ihre Privatsphäre schützen, aber wird auch den Besitzer daran hindern, aus Ihren Aktionen zu lernen und die Bedienbarkeit für Sie und andere Benutzer zu verbessern.</p>
+<iframe src="https://matomo.gbv.de/index.php?module=CoreAdminHome&amp;action=optOut&amp;idsite=37&amp;language=de" style="border: 0; height: 200px; width: 100%;">&lt;/div&gt;</iframe>
+
+<h3>Javascript</h3>
+
+<p>Mit Javascript kann man den Funktionsumfang einer Website erweitern und personenbezogene Daten erheben. Wir verwenden keine Javascripts zur Erfassung personenbezogener Daten.</p>
+
+<p>Datenarme Nutzung, Widerspruch zur Verwendung von Cookies und Javascript</p>
+
+<p>Wir setzen lediglich Sessioncookies ein. Um der Nutzung von Cookies oder anderen Techniken zu widersprechen, empfehlen wir Ihnen die vom Browserhersteller dazu angebotenen Informationen über Abschaltung von Javascript und Ablehnung von Cookies abzufragen und anzuwenden (z. B. im Hilfemenü Ihres Internet-Browsers oder auf der entsprechenden Webseite), oder Sie nehmen Kontakt mit dem Browser-Lieferanten für weitere Hilfe und Instruktionen auf.</p>
+
+<p>Weiterhin können Sie bereits gesetzte Cookies jederzeit eigenhändig löschen, indem Sie den entsprechenden Menüpunkt in Ihrem Internet-Browser auswählen oder die Cookies in dem dafür vorgesehenen Verzeichnis auf Ihrer Festplatte löschen.</p>
+
+<h3>Einbindung von Diensten und Inhalten Dritter</h3>
+
+<p>Es kann vorkommen, dass innerhalb dieses Onlineangebotes Inhalte von Dritten und Auftragsdatenverarbeitern (Diese Dienstleister sind vertraglich durch die Max Weber Stiftung gebunden und dürfen personenbezogene Daten, die sie in diesem Zusammenhang erhalten, nur für den beauftragten Zweck verwenden) wie zum Beispiel Videos, Kartenmaterial, RSS-Feeds, Social Media-Nachrichten, Bilder oder Grafiken von anderen Webseiten eingebunden werden. Dies setzt immer voraus, dass die Anbieter dieser Inhalte die IP-Adresse der Nutzer wahrnehmen, denn ohne die IP-Adresse können sie die Inhalte nicht an den Browser des jeweiligen Nutzers senden. Die IP-Adresse ist damit für die Darstellung dieser Inhalte erforderlich. Wir bemühen uns, nur solche Inhalte zu verwenden, deren jeweilige Anbieter die IP-Adresse lediglich zur Auslieferung der Inhalte verwenden. Jedoch haben wir keinen Einfluss darauf, falls die Dritt-Anbieter die IP-Adresse z. B. für statistische Zwecke speichern. Soweit dies uns bekannt ist, klären wir die Nutzer darüber auf. Dienste, die wir zur Zeit nutzen, sind: Twitter, Vimeo, Googleapis, Here, fonts.com.</p>
+
+<h3>Kommentare</h3>
+
+<p>Innerhalb der Reihe Francia Recensio können Kommentare verfasst werden, die aber erste nach Freischalten durch die Redaktion sichtbar werden.</p>
+
+<h3>Kontaktaufnahme</h3>
+
+<p>Bei der Kontaktaufnahme mit uns per E-Mail werden die Angaben des Nutzers zwecks Bearbeitung der Anfrage sowie für den Fall, dass Anschlussfragen entstehen, gespeichert.</p>
+
+<h3>Datenübermittlung</h3>
+
+<p>Ihre personenbezogenen Daten werden nur in den gesetzlich erforderlichen Fällen bzw. zur Strafverfolgung aufgrund von Angriffen auf unsere Netzinfrastruktur an staatliche Einrichtungen und Behörden übermittelt. Eine Weitergabe zu anderen als den oben beschriebenen Zwecken an Dritte findet nicht statt.</p>
+
+<h3>Auskunftsrecht</h3>
+
+<p>Sie haben jederzeit das Recht auf Auskunft über die bezüglich Ihrer Person gespeicherten Daten, deren Herkunft und Empfänger sowie den Zweck der Speicherung. Auskunft über die gespeicherten Daten gibt der Datenschutzbeauftragte der Max Weber Stiftung.</p>
+
+<h3>Berichtigung</h3>
+
+<p>Sie haben das Recht, unrichtige personenbezogene Daten berichtigen zu lassen. Wenn die MWS Zweifel an der Richtigkeit der Berichtigung hat, ist sie berechtigt, bis zur Klärung des Sachverhaltes die Berichtigung nicht vorzunehmen.</p>
+
+<h3>Löschung</h3>
+
+<p>Sie haben das Recht, personenbezogene Daten löschen zu lassen. Wenn die MWS rechtlich verpflichtet ist, die Daten zu speichern, löscht sie die Daten nicht. Wenn die MWS Zweifel an der Richtigkeit des Löschauftrages hat, ist sie berechtigt, bis zur Klärung des Sachverhaltes die Löschung nicht vorzunehmen.</p>
+
+<h3>Recht auf Einschränkung der Verarbeitung</h3>
+
+<p>Sie haben das Recht auf Einschränkung der Verarbeitung, wenn Sie die Richtigkeit der Daten in Frage stellen (bis zur Klärung der Frage), wenn die Verarbeitung unrechtmäßig ist, wenn Sie Daten noch zur Geltendmachung von Rechtsansprüchen benötigen (nachdem sich der Zweck der Datenverarbeitung erledigt hat) oder wenn Sie Widerspruch nach Art. 21 DSGVO einlegen. Das gilt nicht, wenn die MWS zwingende schutzwürdige Gründe für die Verarbeitung hat.</p>
+
+<h3>Recht auf Datenübertragbarkeit</h3>
+
+<p>Sie haben das Recht, Ihre bei uns gespeicherten Daten in einem maschinenlesbaren Format mitzunehmen. Als Formate bieten wir das Txt-Format (UTF-8 oder ANSI) und PDF an.</p>
+
+<h3>Widerruf einer Einwilligung</h3>
+
+<p>Sie haben jederzeit das Recht, Einwilligungen zu widerrufen. Der Widerruf erfolgt in derselben Weise wie die Einwilligung oder durch eine E-Mail an den Datenschutzbeauftragten (s.u.) mit einer Erläuterung, welche Einwilligung Sie zurückziehen. Datenverarbeitungen, die vor Widerruf der Einwilligung erfolgt sind, bleiben rechtmäßig.</p>
+
+<h3>Kontakt</h3>
+
+<p>Verantwortlich für diesen Webauftritt ist Dr. Michael Kaiser, Max Weber Stiftung, kaiser(at)maxweberstiftung.de.</p>
+
+<p>Fragen und Anregungen zum Thema Datenschutz können Sie gerne an den Datenschutzbeauftragten, R. Hiß, richten: datenschutz(at)maxweberstiftung.de</p>
 </div>
 </div>
-</section><meta><log lastEditor="kneumann" date="2018-10-25" time="10:43" /></meta></MyCoReWebPage>
+</section><section xml:lang="en" title="Privacy Notice"><div class="row">
+<div class="col-md-10" lang="en">
+<h2>Privacy Notice</h2>
+
+<p>Die Max Weber Stiftung (MWS) nimmt den Schutz personenbezogener Daten ernst. Bitte informieren Sie sich im Folgenden über den Datenschutz auf unserem Webauftritt.</p>
+
+<p>Diese Datenschutzerklärung bezieht sich auf die Website www.perspectiva.net.</p>
+
+<h3>Personenbezogene Daten</h3>
+
+<p>Personenbezogene Daten sind Informationen, die dazu genutzt werden können, Ihre Identität zu erfahren. Darunter fallen Informationen wie Ihr Name, Adresse, Postanschrift, Telefonnummer und E-Mail-Adresse, aber auch die IP-Adresse, die Ihr Rechner hat, wenn Sie auf unsere Seiten zugreifen. Informationen, die nicht mit Ihrer Identität in Verbindung gebracht werden (wie zum Beispiel Anzahl der Nutzer der Site), fallen nicht darunter. Personenbezogene Daten werden auf unseren Webseiten nur im technisch notwendigen Umfang erhoben und gespeichert.</p>
+
+<h3>IP-Adresse</h3>
+
+<p>Für den Abruf unserer Webseiten ist die Registrierung Ihrer IP-Adresse erforderlich. Eine IP-Adresse ist eine eindeutige, weltweit gültige Kennung Ihres Computers. Als privater Nutzer benutzen Sie in der Regel keine gleichbleibende IP-Adresse, da Ihr Provider Ihnen nur vorübergehend eine IP-Adresse zuweist. Dennoch ist dabei eine eindeutige Zuordnung der Nutzerdaten über dieses Merkmal im Prinzip möglich. Unsere Webserver speichern die Zugriffszeit, die IP-Adresse (vollständig), den aufgerufenen Pfad bzw. die Seite und den Browser-Agent, um Angriffe auf unsere Website analysieren und ggf. abwehren zu können. Die Speicherdauer beträgt einen Monat. Daten, die wir einem Angriff zuordnen, speichern wir so lange wie nötig.</p>
+
+<h3>Cookies</h3>
+
+<p>Wir verwenden Sessioncookies (kleine Textdateien mit Besuchsinformationen, die zeitweise auf Ihrer Festplatte gespeichert werden), die am Ende der Sitzung ungültig werden. Sie sind für die uneingeschränkte technische Funktion der Seite erforderlich.</p>
+
+<h3>Statistische Auswertungen mit Matomo</h3>
+
+<p>Diese Website benutzt Matomo, eine Open-Source-Software zur statistischen Auswertung der Besucherzugriffe. Matomo verwendet sog. “Cookies”, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieses Internetangebotes werden auf dem Server des Anbieters in Deutschland gespeichert. Die IP-Adresse wird sofort nach der Verarbeitung und vor deren Speicherung anonymisiert. Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich nutzen können.</p>
+<iframe src="https://matomo.gbv.de/index.php?module=CoreAdminHome&amp;action=optOut&amp;idsite=37&amp;language=de" style="border: 0; height: 200px; width: 100%;">&lt;/div&gt;</iframe>
+
+<h3>Javascript</h3>
+
+<p>Mit Javascript kann man den Funktionsumfang einer Website erweitern und personenbezogene Daten erheben. Wir verwenden keine Javascripts zur Erfassung personenbezogener Daten.</p>
+
+<p>Datenarme Nutzung, Widerspruch zur Verwendung von Cookies und Javascript</p>
+
+<p>Wir setzen lediglich Sessioncookies ein. Um der Nutzung von Cookies oder anderen Techniken zu widersprechen, empfehlen wir Ihnen die vom Browserhersteller dazu angebotenen Informationen über Abschaltung von Javascript und Ablehnung von Cookies abzufragen und anzuwenden (z. B. im Hilfemenü Ihres Internet-Browsers oder auf der entsprechenden Webseite), oder Sie nehmen Kontakt mit dem Browser-Lieferanten für weitere Hilfe und Instruktionen auf.</p>
+
+<p>Weiterhin können Sie bereits gesetzte Cookies jederzeit eigenhändig löschen, indem Sie den entsprechenden Menüpunkt in Ihrem Internet-Browser auswählen oder die Cookies in dem dafür vorgesehenen Verzeichnis auf Ihrer Festplatte löschen.</p>
+
+<h3>Einbindung von Diensten und Inhalten Dritter</h3>
+
+<p>Es kann vorkommen, dass innerhalb dieses Onlineangebotes Inhalte von Dritten und Auftragsdatenverarbeitern (Diese Dienstleister sind vertraglich durch die Max Weber Stiftung gebunden und dürfen personenbezogene Daten, die sie in diesem Zusammenhang erhalten, nur für den beauftragten Zweck verwenden) wie zum Beispiel Videos, Kartenmaterial, RSS-Feeds, Social Media-Nachrichten, Bilder oder Grafiken von anderen Webseiten eingebunden werden. Dies setzt immer voraus, dass die Anbieter dieser Inhalte die IP-Adresse der Nutzer wahrnehmen, denn ohne die IP-Adresse können sie die Inhalte nicht an den Browser des jeweiligen Nutzers senden. Die IP-Adresse ist damit für die Darstellung dieser Inhalte erforderlich. Wir bemühen uns, nur solche Inhalte zu verwenden, deren jeweilige Anbieter die IP-Adresse lediglich zur Auslieferung der Inhalte verwenden. Jedoch haben wir keinen Einfluss darauf, falls die Dritt-Anbieter die IP-Adresse z. B. für statistische Zwecke speichern. Soweit dies uns bekannt ist, klären wir die Nutzer darüber auf. Dienste, die wir zur Zeit nutzen, sind: Twitter, Vimeo, Googleapis, Here, fonts.com.</p>
+
+<h3>Kommentare</h3>
+
+<p>Innerhalb der Reihe Francia Recensio können Kommentare verfasst werden, die aber erste nach Freischalten durch die Redaktion sichtbar werden.</p>
+
+<h3>Kontaktaufnahme</h3>
+
+<p>Bei der Kontaktaufnahme mit uns per E-Mail werden die Angaben des Nutzers zwecks Bearbeitung der Anfrage sowie für den Fall, dass Anschlussfragen entstehen, gespeichert.</p>
+
+<h3>Datenübermittlung</h3>
+
+<p>Ihre personenbezogenen Daten werden nur in den gesetzlich erforderlichen Fällen bzw. zur Strafverfolgung aufgrund von Angriffen auf unsere Netzinfrastruktur an staatliche Einrichtungen und Behörden übermittelt. Eine Weitergabe zu anderen als den oben beschriebenen Zwecken an Dritte findet nicht statt.</p>
+
+<h3>Auskunftsrecht</h3>
+
+<p>Sie haben jederzeit das Recht auf Auskunft über die bezüglich Ihrer Person gespeicherten Daten, deren Herkunft und Empfänger sowie den Zweck der Speicherung. Auskunft über die gespeicherten Daten gibt der Datenschutzbeauftragte der Max Weber Stiftung.</p>
+
+<h3>Berichtigung</h3>
+
+<p>Sie haben das Recht, unrichtige personenbezogene Daten berichtigen zu lassen. Wenn die MWS Zweifel an der Richtigkeit der Berichtigung hat, ist sie berechtigt, bis zur Klärung des Sachverhaltes die Berichtigung nicht vorzunehmen.</p>
+
+<h3>Löschung</h3>
+
+<p>Sie haben das Recht, personenbezogene Daten löschen zu lassen. Wenn die MWS rechtlich verpflichtet ist, die Daten zu speichern, löscht sie die Daten nicht. Wenn die MWS Zweifel an der Richtigkeit des Löschauftrages hat, ist sie berechtigt, bis zur Klärung des Sachverhaltes die Löschung nicht vorzunehmen.</p>
+
+<h3>Recht auf Einschränkung der Verarbeitung</h3>
+
+<p>Sie haben das Recht auf Einschränkung der Verarbeitung, wenn Sie die Richtigkeit der Daten in Frage stellen (bis zur Klärung der Frage), wenn die Verarbeitung unrechtmäßig ist, wenn Sie Daten noch zur Geltendmachung von Rechtsansprüchen benötigen (nachdem sich der Zweck der Datenverarbeitung erledigt hat) oder wenn Sie Widerspruch nach Art. 21 DSGVO einlegen. Das gilt nicht, wenn die MWS zwingende schutzwürdige Gründe für die Verarbeitung hat.</p>
+
+<h3>Recht auf Datenübertragbarkeit</h3>
+
+<p>Sie haben das Recht, Ihre bei uns gespeicherten Daten in einem maschinenlesbaren Format mitzunehmen. Als Formate bieten wir das Txt-Format (UTF-8 oder ANSI) und PDF an.</p>
+
+<h3>Widerruf einer Einwilligung</h3>
+
+<p>Sie haben jederzeit das Recht, Einwilligungen zu widerrufen. Der Widerruf erfolgt in derselben Weise wie die Einwilligung oder durch eine E-Mail an den Datenschutzbeauftragten (s.u.) mit einer Erläuterung, welche Einwilligung Sie zurückziehen. Datenverarbeitungen, die vor Widerruf der Einwilligung erfolgt sind, bleiben rechtmäßig.</p>
+
+<h3>Kontakt</h3>
+
+<p>Verantwortlich für diesen Webauftritt ist Dr. Michael Kaiser, Max Weber Stiftung, kaiser(at)maxweberstiftung.de.</p>
+
+<p>Fragen und Anregungen zum Thema Datenschutz können Sie gerne an den Datenschutzbeauftragten, R. Hiß, richten: datenschutz(at)maxweberstiftung.de</p>
+</div>
+</div>
+</section><section xml:lang="fr" title="Mentions légales"><div class="row">
+<div class="col-md-10" lang="fr">
+<h2>Mentions légales</h2>
+
+<p>La Fondation Max-Weber (MWS) prend au sérieux la protection des données personnelles. Veuillez vous informer ci-après sur la protection des données sur notre site web.</p>
+
+<p>La présente déclaration de protection des données concerne le site web www.perspectiva.net.</p>
+
+<h3>Données personnelles</h3>
+
+<p>Les données personnelles sont des informations qui peuvent être utilisées pour découvrir votre identité. Il s'agit d'informations telles que votre nom, votre adresse, votre adresse postale, votre numéro de téléphone et votre adresse électronique, mais aussi l'adresse IP de votre ordinateur lorsque vous accédez à nos pages. Les informations qui ne sont pas associées à votre identité (comme le nombre d'utilisateurs du site) ne sont pas incluses. Les données personnelles ne sont collectées et stockées sur nos sites web que dans la mesure où cela est techniquement nécessaire.</p>
+
+<h3>Adresse IP</h3>
+
+<p>L'enregistrement de votre adresse IP est nécessaire pour la récupération de nos pages web. Une adresse IP est un identifiant unique, valable dans le monde entier, de votre ordinateur. En tant qu'utilisateur privé, vous n'utilisez généralement pas une adresse IP constante, car votre fournisseur ne vous attribue une adresse IP que temporairement. Néanmoins, une affectation claire des données utilisateur via cette caractéristique est en principe possible. Nos serveurs web enregistrent le temps d'accès, l'adresse IP (complète), le chemin ou la page appelée et l'agent du navigateur afin de pouvoir analyser et, le cas échéant, parer aux attaques contre notre site web. La période de stockage est d'un mois. Nous conservons les données que nous attribuons à une attaque aussi longtemps que nécessaire.</p>
+
+<h3>Cookies</h3>
+
+<p>Nous utilisons des cookies de session (petits fichiers texte contenant des informations sur les visites et stockés temporairement sur votre disque dur) qui expirent à la fin de la session. Ils sont nécessaires au bon fonctionnement technique du site.</p>
+
+<h3>Analyse statistique avec Matomo</h3>
+
+<p>Ce site web utilise Matomo, un logiciel open source pour l'analyse statistique de l'accès des visiteurs. Matomo utilise des "cookies", qui sont des fichiers texte placés sur votre ordinateur, pour aider le site web à analyser la façon dont les utilisateurs utilisent le site. Les informations générées par le cookie concernant votre utilisation de ce site web sont stockées sur le serveur du fournisseur en Allemagne. L'adresse IP est rendue anonyme immédiatement après le traitement et avant d'être stockée. Vous pouvez refuser l'utilisation de cookies en sélectionnant les paramètres appropriés de votre navigateur, mais veuillez noter que si vous faites cela, vous ne pourrez peut-être pas utiliser toutes les fonctionnalités de ce site web.</p>
+<iframe src="https://matomo.gbv.de/index.php?module=CoreAdminHome&amp;action=optOut&amp;idsite=37&amp;language=de" style="border: 0; height: 200px; width: 100%;">&lt;/div&gt;</iframe>
+
+<h3>Javascript</h3>
+
+<p>Javascript peut être utilisé pour étendre la fonctionnalité d'un site web et pour collecter des données personnelles. Nous n'utilisons pas de javascripts pour collecter des données personnelles.</p>
+
+<p>Faible utilisation des données, objection à l'utilisation de cookies et de Javascript</p>
+
+<p>Nous n'utilisons que des cookies de session. Pour vous opposer à l'utilisation de cookies ou d'autres techniques, nous vous recommandons de consulter et d'appliquer les informations fournies par le fabricant du navigateur sur la manière de désactiver Javascript et de rejeter les cookies (par exemple, dans le menu d'aide de votre navigateur Internet ou sur le site web correspondant), ou de contacter le fournisseur du navigateur pour obtenir une aide et des instructions supplémentaires.</p>
+
+<p>En outre, vous pouvez à tout moment supprimer vous-même les cookies qui ont déjà été définis en sélectionnant l'option de menu correspondante dans votre navigateur Internet ou en supprimant les cookies dans le répertoire prévu à cet effet sur votre disque dur.</p>
+
+<h3>Intégration de services et de contenus de tiers</h3>
+
+<p>Il peut arriver que des contenus provenant de tiers et de personnes chargées du traitement des données (ces prestataires de services sont liés par contrat à la Fondation Max Weber et ne peuvent utiliser les données personnelles qu'ils reçoivent dans ce contexte qu'aux fins commandées), tels que des vidéos, des cartes, des flux RSS, des messages de médias sociaux, des images ou des graphiques provenant d'autres sites web, soient intégrés à cette offre en ligne. Pour cela, il faut toujours que les fournisseurs de ce contenu connaissent l'adresse IP des utilisateurs, car sans cette adresse, ils ne peuvent pas envoyer le contenu au navigateur de l'utilisateur concerné. L'adresse IP est donc nécessaire pour l'affichage de ce contenu. Nous nous efforçons de n'utiliser que des contenus dont les fournisseurs respectifs n'utilisent l'adresse IP que pour livrer le contenu. Cependant, nous n'avons aucune influence si les fournisseurs tiers stockent l'adresse IP, par exemple à des fins statistiques. Dans la mesure où nous en avons connaissance, nous en informons les utilisateurs. Les services que nous utilisons actuellement sont : Twitter, Vimeo, Googleapis, Here, fonts.com.</p>
+
+<h3>Commentaires</h3>
+
+<p>Les commentaires peuvent être postés dans la série Francia Recensio, mais ils ne seront visibles qu'après avoir été approuvés par les rédacteurs.</p>
+
+<h3>Contact</h3>
+
+<p>Lorsque vous nous contactez par e-mail, les données de l'utilisateur sont conservées afin de traiter la demande et de répondre à d'éventuelles questions complémentaires.</p>
+
+<h3>Transfert de données</h3>
+
+<p>Vos données personnelles ne seront transmises aux institutions et autorités publiques que dans les cas requis par la loi ou pour des poursuites pénales en raison d'attaques sur notre infrastructure de réseau. Les données ne seront pas transmises à des tiers à des fins autres que celles décrites ci-dessus.</p>
+
+<h3>Droit à l'information</h3>
+
+<p>Vous avez le droit d'obtenir à tout moment des informations sur les données stockées à votre sujet, leur origine et leurs destinataires, ainsi que sur la finalité de leur stockage. Des informations sur les données stockées peuvent être obtenues auprès du responsable de la protection des données de la Fondation Max-Weber.</p>
+
+<h3>Correction</h3>
+
+<p>Vous avez le droit de faire corriger des données personnelles incorrectes. Si le MWS a des doutes sur l'exactitude de la correction, il est en droit de ne pas effectuer la correction jusqu'à ce que les faits aient été clarifiés.</p>
+
+<h3>Suppression</h3>
+
+<p>Vous avez le droit de faire supprimer vos données personnelles. Si MWS est légalement obligé de conserver les données, il ne les supprimera pas. Si le MWS a des doutes quant à l'exactitude de la demande d'effacement, il est autorisé à ne pas procéder à l'effacement jusqu'à ce que les faits soient clarifiés.</p>
+
+<h3>Droit à la limitation du traitement</h3>
+
+<p>Vous avez le droit de limiter le traitement si vous mettez en doute l'exactitude des données (jusqu'à ce que la question soit clarifiée), si le traitement est illégal, si vous avez encore besoin des données pour faire valoir des droits légaux (après que l'objectif du traitement des données a été atteint) ou si vous vous opposez conformément à l'art. 21 DSGVO. Ceci ne s'applique pas si MWS a des motifs légitimes impérieux pour le traitement.</p>
+
+<h3>Droit à la portabilité des données</h3>
+
+<p>Vous avez le droit de prendre vos données stockées chez nous dans un format lisible par machine. Nous proposons le format Txt (UTF-8 ou ANSI) et PDF comme formats.</p>
+
+<h3>Révocation du consentement</h3>
+
+<p>Vous avez le droit de révoquer votre consentement à tout moment. La révocation se fait de la même manière que le consentement ou en envoyant un courriel au délégué à la protection des données (voir ci-dessous) expliquant quel consentement vous retirez. Le traitement des données qui a eu lieu avant le retrait du consentement reste licite.</p>
+
+<h3>Contact</h3>
+
+<p>Le responsable de ce site est le Dr Michael Kaiser, Fondation Max Weber, kaiser(at)maxweberstiftung.de.</p>
+
+<p>Les questions et suggestions relatives à la protection des données peuvent être adressées au responsable de la protection des données, R. Hiß : datenschutz(at)maxweberstiftung.de</p>
+</div>
+</div>
+</section><meta><log lastEditor="agerber" date="2021-06-04" time="10:12" /></meta></MyCoReWebPage>

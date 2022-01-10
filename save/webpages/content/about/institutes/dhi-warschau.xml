@@ -1,25 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Deutsches Historisches Institut Warschau"><div class="row">
+<div class="col-12 pp-institute-graphic" lang="de"><img alt="DHIW-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-warschau-logo-460.jpg" />
+<h1 class="pp-institute-graphic__headline">Deutsches Historisches Institut Warschau</h1>
+<img alt="Foto Warschau" class="pp-institute-graphic__figure" src="../../../images/institute-figures/dhi-warschau-figure.jpg" title="Deutsches Historisches Institut Warschau" /></div>
 
-    <section xml:lang="de" title="Deutsches Historisches Institut Warschau">
-        <div class="row">
+<div class="col-12 pp-contact" lang="de">
+<h2>Kontakt</h2>
 
-            <div class="col-12 pp-institute-graphic" lang="de">
-                <img src="../../../images/logos/dhi-warschau-logo-460.jpg"
-                        class="pp-institute-graphic__logo"
-                        alt="DHIW-Logo" />
+<h3>Deutsches Historisches Institut Warschau</h3>
+
+<div class="pp-contact__list">
+<div class="pp-contact__item">Pałac Karnickich, Aleje Ujazdowskie 39<br />
+Pl 00-540 Warszawa</div>
+
+<table class="pp-contact__item">
+	<tbody>
+		<tr>
+			<td class="pp-contact__subitem">Telefon:</td>
+			<td>+48 22 525 83 00, -02</td>
+		</tr>
+		<tr>
+			<td class="pp-contact__subitem">Fax:</td>
+			<td>+48 22 525 83 37</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="pp-contact__item">
+	<tbody>
+		<tr>
+			<td class="pp-contact__subitem">E-Mail:</td>
+			<td><span class="madress">dhi [at] dhi.waw.pl</span></td>
+		</tr>
+		<tr>
+			<td class="pp-contact__subitem">Internet:</td>
+			<td><a class="external-link" href="https://www.dhi.waw.pl">https://www.dhi.waw.pl</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+<div class="col-12 pp-publications">
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/dhi-warschau-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.warschau%22"> </div>
+</div>
+</div>
+</section><section xml:lang="en" title="German Historical Institute Warsaw"><div class="row">
+<div class="col-12 pp-institute-graphic" lang="en"><img alt="DHIW-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-warschau-logo-460.jpg" />
+<h1 class="pp-institute-graphic__headline">German Historical Institute Warsaw</h1>
+<img alt="Foto Warschau" class="pp-institute-graphic__figure" src="../../../images/institute-figures/dhi-warschau-figure.jpg" title="Deutsches Historisches Institut Warschau" /></div>
+
+<div class="col-12 pp-contact" lang="en">
+<h2>Contact</h2>
+
+<h3>German Historical Institute Warsaw</h3>
+
+<div class="pp-contact__list">
+<div class="pp-contact__item">Pałac Karnickich, Aleje Ujazdowskie 39<br />
+Pl 00-540 Warszawa</div>
+
+<table class="pp-contact__item">
+	<tbody>
+		<tr>
+			<td class="pp-contact__subitem">Phone:</td>
+			<td>+48 22 525 83 00, -02</td>
+		</tr>
+		<tr>
+			<td class="pp-contact__subitem">Fax:</td>
+			<td>+48 22 525 83 37</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="pp-contact__item">
+	<tbody>
+		<tr>
+			<td class="pp-contact__subitem">E-Mail:</td>
+			<td><span class="madress">dhi [at] dhi.waw.pl</span></td>
+		</tr>
+		<tr>
+			<td class="pp-contact__subitem">Internet:</td>
+			<td><a class="external-link" href="https://www.dhi.waw.pl">https://www.dhi.waw.pl</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+<div class="col-12 pp-publications">
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/dhi-warschau-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.warschau%22"> </div>
+</div>
+</div>
+</section><section xml:lang="fr" title="Institut historique allemand Varsovie"><div class="row">
+
+            <div class="col-12 pp-institute-graphic" lang="fr">
+                <img src="../../../images/logos/dhi-warschau-logo-460.jpg" class="pp-institute-graphic__logo" alt="DHIW-Logo" />
                 <h1 class="pp-institute-graphic__headline">
-                    Deutsches Historisches Institut Warschau
+                    Institut historique allemand Varsovie
                 </h1>
-                <img src="../../../images/institute-figures/dhi-warschau-figure.jpg"
-                        class="pp-institute-graphic__figure"
-                        alt="Foto Warschau"
-                        title="Deutsches Historisches Institut Warschau" />
+                <img src="../../../images/institute-figures/dhi-warschau-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Warschau" title="Deutsches Historisches Institut Warschau" />
             </div>
 
-            <div class="col-12 pp-contact" lang="de">
-                <h2>Kontakt</h2>
-                <h3>Deutsches Historisches Institut Warschau</h3>
+            <div class="col-12 pp-contact" lang="fr">
+                <h2>Contact</h2>
+                <h3>Institut historique allemand Varsovie</h3>
                 <div class="pp-contact__list">
 
                     <div class="pp-contact__item">
@@ -29,7 +113,7 @@
 
                     <table class="pp-contact__item">
                         <tr>
-                            <td class="pp-contact__subitem">Telefon:</td>
+                            <td class="pp-contact__subitem">Phone:</td>
                             <td>+48 22 525 83 00, -02</td>
                         </tr>
                         <tr>
@@ -55,29 +139,18 @@
             </div>
 
             <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox"
-                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.warschau%22"
-                     data-defaultThumbnail="../../../images/placeholder/dhi-warschau-placeholder-460.jpg">
+                <div class="solrsearch" data-classes="pp-sourcesBox" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.warschau%22" data-defaultThumbnail="../../../images/placeholder/dhi-warschau-placeholder-460.jpg">
                 </div>
             </div>
 
-        </div>
-    </section>
-
-    <section xml:lang="en" title="Deutsches Historisches Institut Warschau">
-        <div class="row">
+        </div></section><section xml:lang="it" title="Deutsches Historisches Institut Warschau"><div class="row">
 
             <div class="col-12 pp-institute-graphic" lang="de">
-                <img src="../../../images/logos/dhi-warschau-logo-460.jpg"
-                        class="pp-institute-graphic__logo"
-                        alt="DHIW-Logo" />
+                <img src="../../../images/logos/dhi-warschau-logo-460.jpg" class="pp-institute-graphic__logo" alt="DHIW-Logo" />
                 <h1 class="pp-institute-graphic__headline">
                     Deutsches Historisches Institut Warschau
                 </h1>
-                <img src="../../../images/institute-figures/dhi-warschau-figure.jpg"
-                        class="pp-institute-graphic__figure"
-                        alt="Foto Warschau"
-                        title="Deutsches Historisches Institut Warschau" />
+                <img src="../../../images/institute-figures/dhi-warschau-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Warschau" title="Deutsches Historisches Institut Warschau" />
             </div>
 
             <div class="col-12 pp-contact" lang="de">
@@ -118,142 +191,8 @@
             </div>
 
             <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox"
-                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.warschau%22"
-                     data-defaultThumbnail="../../../images/placeholder/dhi-warschau-placeholder-460.jpg">
+                <div class="solrsearch" data-classes="pp-sourcesBox" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.warschau%22" data-defaultThumbnail="../../../images/placeholder/dhi-warschau-placeholder-460.jpg">
                 </div>
             </div>
 
-        </div>
-    </section>
-
-    <section xml:lang="fr" title="Deutsches Historisches Institut Warschau">
-        <div class="row">
-
-            <div class="col-12 pp-institute-graphic" lang="de">
-                <img src="../../../images/logos/dhi-warschau-logo-460.jpg"
-                        class="pp-institute-graphic__logo"
-                        alt="DHIW-Logo" />
-                <h1 class="pp-institute-graphic__headline">
-                    Deutsches Historisches Institut Warschau
-                </h1>
-                <img src="../../../images/institute-figures/dhi-warschau-figure.jpg"
-                        class="pp-institute-graphic__figure"
-                        alt="Foto Warschau"
-                        title="Deutsches Historisches Institut Warschau" />
-            </div>
-
-            <div class="col-12 pp-contact" lang="de">
-                <h2>Contact</h2>
-                <h3>Deutsches Historisches Institut Warschau</h3>
-                <div class="pp-contact__list">
-
-                    <div class="pp-contact__item">
-                        Pałac Karnickich, Aleje Ujazdowskie 39<br />
-                        Pl 00-540 Warszawa
-                    </div>
-
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">Phone:</td>
-                            <td>+48 22 525 83 00, -02</td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Fax:</td>
-                            <td>+48 22 525 83 37</td>
-                        </tr>
-                    </table>
-
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">E-Mail:</td>
-                            <td>
-                                <span class="madress">dhi [at] dhi.waw.pl</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Internet:</td>
-                            <td><a class="external-link" href="https://www.dhi.waw.pl">https://www.dhi.waw.pl</a></td>
-                        </tr>
-                    </table>
-
-                </div>
-            </div>
-
-            <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox"
-                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.warschau%22"
-                     data-defaultThumbnail="../../../images/placeholder/dhi-warschau-placeholder-460.jpg">
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section xml:lang="it" title="Deutsches Historisches Institut Warschau">
-        <div class="row">
-
-            <div class="col-12 pp-institute-graphic" lang="de">
-                <img src="../../../images/logos/dhi-warschau-logo-460.jpg"
-                        class="pp-institute-graphic__logo"
-                        alt="DHIW-Logo" />
-                <h1 class="pp-institute-graphic__headline">
-                    Deutsches Historisches Institut Warschau
-                </h1>
-                <img src="../../../images/institute-figures/dhi-warschau-figure.jpg"
-                        class="pp-institute-graphic__figure"
-                        alt="Foto Warschau"
-                        title="Deutsches Historisches Institut Warschau" />
-            </div>
-
-            <div class="col-12 pp-contact" lang="de">
-                <h2>Contact</h2>
-                <h3>Deutsches Historisches Institut Warschau</h3>
-                <div class="pp-contact__list">
-
-                    <div class="pp-contact__item">
-                        Pałac Karnickich, Aleje Ujazdowskie 39<br />
-                        Pl 00-540 Warszawa
-                    </div>
-
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">Phone:</td>
-                            <td>+48 22 525 83 00, -02</td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Fax:</td>
-                            <td>+48 22 525 83 37</td>
-                        </tr>
-                    </table>
-
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">E-Mail:</td>
-                            <td>
-                                <span class="madress">dhi [at] dhi.waw.pl</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Internet:</td>
-                            <td><a class="external-link" href="https://www.dhi.waw.pl">https://www.dhi.waw.pl</a></td>
-                        </tr>
-                    </table>
-
-                </div>
-            </div>
-
-            <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox"
-                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.warschau%22"
-                     data-defaultThumbnail="../../../images/placeholder/dhi-warschau-placeholder-460.jpg">
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <meta>
-        <log lastEditor="administrator" date="2018-20-06" time="14:00" />
-    </meta>
-</MyCoReWebPage>
+        </div></section><meta><log lastEditor="agerber" date="2021-05-31" time="11:46" /></meta></MyCoReWebPage>
