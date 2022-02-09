@@ -8,6 +8,7 @@
   xmlns:cmd="http://www.cdlib.org/inside/diglib/copyrightMD"
   xmlns:exslt="http://exslt.org/common"
   xmlns:piUtil="xalan://org.mycore.pi.frontend.MCRIdentifierXSLUtils"
+  xmlns:csl="http://purl.org/net/xbiblio/csl"
   exclude-result-prefixes="i18n mcr mods xlink cmd exslt piUtil"
 >
   <xsl:import href="xslImport:modsmeta:metadata/mir-citation.xsl" />
@@ -25,9 +26,6 @@
   <xsl:param name="MIR.shariff.theme" select="'white'" />
   <xsl:param name="MIR.shariff.buttonstyle" select="'icon'" />
   <xsl:param name="MIR.shariff.services" select="''" /> <!-- default: ['mail', 'twitter', 'facebook', 'whatsapp', 'linkedin', 'xing', 'pinterest', 'info'] -->
-
-  <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(mycoreobject/@ID)" />
-
   <xsl:template match="/">
 
     <!-- ==================== Highwire Press Tags and Dublin Core as Meta Tags ==================== -->
@@ -36,6 +34,7 @@
       <xsl:apply-templates select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" mode="highwire" />
     </citation_meta>
 
+    <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(mycoreobject/@ID)" />
     <xsl:variable name="mods" select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" />
 
     <div id="mir-citation">
@@ -77,7 +76,7 @@
             <xsl:choose>
               <xsl:when test="$MIR.plumx = 'show'">
                 <!-- use altmeltrics badge -->
-                <div class="col-xs-6">
+                <div class="col-6">
                   <div data-badge-type="1" data-badge-popover="right" data-doi="{//mods:mods/mods:identifier[@type='doi']}" data-hide-no-mentions="{$MIR.altmetrics.hide}" class="altmetric-embed"></div>
                 </div>
               </xsl:when>
@@ -91,11 +90,11 @@
             </xsl:choose>
           </xsl:if>
           <xsl:if test="$MIR.plumx = 'show'">
-            <script type='text/javascript' src='//d39af2mgp1pqhg.cloudfront.net/widget-popup.js'></script>
+            <script type='text/javascript' src='//cdn.plu.mx/widget-popup.js'></script>
             <xsl:choose>
               <xsl:when test="$MIR.altmetrics = 'show'">
                 <!-- use PlumX badge-->
-                <div class="col-xs-6">
+                <div class="col-6">
                   <a href="https://plu.mx/plum/a/?doi={//mods:mods/mods:identifier[@type='doi']}" data-popup="right" data-badge="true" class="plumx-plum-print-popup plum-bigben-theme" data-site="plum" data-hide-when-empty="{$MIR.plumx.hide}">PlumX Metrics</a>
                 </div>
               </xsl:when>
@@ -115,7 +114,6 @@
           <strong>
             <xsl:value-of select="i18n:translate('mir.citationStyle')" />
           </strong>
-          <i id="citation-error" class="fas fa-exclamation-circle hidden" title="{i18n:translate('mir.citationAlertService')}"></i>
         </span>
         <xsl:if test="string-length($MIR.citationStyles) &gt; 0">
           <xsl:variable name="cite-styles">
@@ -127,14 +125,23 @@
           <select class="form-control input-sm" id="mir-csl-cite" data-object-id="{/mycoreobject/@ID}">
             <xsl:for-each select="exslt:node-set($cite-styles)/token">
               <option value="{.}">
-                <xsl:value-of select="." />
+                <xsl:variable name="cslDocument" select="document(concat('resource:', text(), '.csl'))"/>
+                <xsl:variable name="title" select="$cslDocument/csl:style/csl:info/csl:title"/>
+                <xsl:variable name="short-title" select="$cslDocument/csl:style/csl:info/csl:title-short"/>
+
+                <xsl:choose>
+                  <xsl:when test="string-length($short-title) &gt; 0">
+                    <xsl:value-of select="concat($short-title, ' (', $title, ')')"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="$title" />
+                  </xsl:otherwise>
+                </xsl:choose>
+                
               </option>
             </xsl:for-each>
           </select>
         </xsl:if>
-        <div id="default-citation-text">
-          <xsl:copy-of select="document(concat('xslTransform:mods2csl?format=html&amp;style=', $MIR.defaultCitationStyle, ':mcrobject:', /mycoreobject/@ID))" />
-        </div>
         <div id="citation-text" class="d-none">
         </div>
         <div id="citation-alert" class="alert alert-danger d-none"><xsl:value-of select="i18n:translate('mir.citationAlert')" /></div>
@@ -174,13 +181,13 @@
                     <xsl:text>/</xsl:text>
                   </xsl:for-each>
                 </xsl:variable>
-                <a  id="url_site_link" href="{$WebApplicationBaseURL}publikationen/{$parentAlias}{//servflag[@type='alias']/text()}">
-                  <xsl:value-of select="concat($WebApplicationBaseURL, 'publikationen/', $parentAlias, //servflag[@type='alias']/text())" />
+                <a id="copy_cite_link" href="{$WebApplicationBaseURL}publikationen/{$parentAlias}{//servflag[@type='alias']/text()}" class="btn btn-info btn-sm">
+                  <xsl:value-of select="i18n:translate('mir.citationLink')" />
                 </a>
               </xsl:when>
               <xsl:otherwise>
-                <a  id="url_site_link" href="{$WebApplicationBaseURL}receive/{//mycoreobject/@ID}">
-                  <xsl:value-of select="concat($WebApplicationBaseURL, 'receive/', //mycoreobject/@ID)" />
+                <a id="copy_cite_link" href="#" class="btn btn-info btn-sm">
+                  <xsl:value-of select="i18n:translate('mir.citationLink')" />
                 </a>
               </xsl:otherwise>
             </xsl:choose>
@@ -192,9 +199,7 @@
         </xsl:choose>
       </p>
       <xsl:apply-templates select="//mods:mods" mode="identifierListModal" />
-      <xsl:if test="//mods:mods/mods:identifier[@type='doi']">
-        <script src="{$WebApplicationBaseURL}js/mir/citation.min.js"></script>
-      </xsl:if>
+      <script src="{$WebApplicationBaseURL}js/mir/citation.min.js"></script>
     </div>
 
     <xsl:if test="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:accessCondition[contains('copyrightMD|use and reproduction', @type)]">
@@ -238,7 +243,7 @@
                   mode="ogl-logo" />
               </xsl:when>
               <xsl:otherwise>
-                <xsl:value-of select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:accessCondition[@type='use and reproduction']" />
+                <xsl:value-of select="document(concat('classification:metadata:0:children:mir_licenses:', $trimmed))/mycoreclass/categories/category[@ID=$trimmed]/label[@xml:lang=$CurrentLang]/@text" />
               </xsl:otherwise>
             </xsl:choose>
           </p>
