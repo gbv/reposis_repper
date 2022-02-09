@@ -26,6 +26,9 @@
   <xsl:param name="MIR.shariff.theme" select="'white'" />
   <xsl:param name="MIR.shariff.buttonstyle" select="'icon'" />
   <xsl:param name="MIR.shariff.services" select="''" /> <!-- default: ['mail', 'twitter', 'facebook', 'whatsapp', 'linkedin', 'xing', 'pinterest', 'info'] -->
+
+  <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(mycoreobject/@ID)" />
+
   <xsl:template match="/">
 
     <!-- ==================== Highwire Press Tags and Dublin Core as Meta Tags ==================== -->
@@ -34,7 +37,6 @@
       <xsl:apply-templates select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" mode="highwire" />
     </citation_meta>
 
-    <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(mycoreobject/@ID)" />
     <xsl:variable name="mods" select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" />
 
     <div id="mir-citation">
@@ -173,7 +175,7 @@
             <xsl:choose>
               <xsl:when test="//servflag/@type='alias'">
                 <xsl:variable name="parentAlias">
-                  <xsl:for-each select="//mods:relatedItem[contains('host series', @type)][not(@xlink:href=following::node()/@xlink:href)]">
+                  <xsl:for-each select="//mods:relatedItem[contains('host series', @type)][@xlink:href][not(@xlink:href=following::node()/@xlink:href)]">
                     <xsl:sort select="position()" data-type="number" order="descending" />
                     <xsl:call-template name="getAlias">
                       <xsl:with-param name="objectID" select="@xlink:href" />
@@ -191,10 +193,6 @@
                 </a>
               </xsl:otherwise>
             </xsl:choose>
-            <br />
-            <a id="copy_cite_link" href="#" class="btn btn-info btn-sm" title="{i18n:translate('mir.citationLink.title')}">
-              <xsl:value-of select="i18n:translate('mir.citationLink')" />
-            </a>
           </xsl:otherwise>
         </xsl:choose>
       </p>
@@ -316,7 +314,7 @@
             <xsl:choose>
               <xsl:when test="not($piServiceInformation[@type='doi' or @type='doi'][@inscribed='true']) and //servflag/@type='alias'">
                 <xsl:variable name="parentAlias">
-                  <xsl:for-each select="//mods:relatedItem[contains('host series', @type)][not(@xlink:href=following::node()/@xlink:href)]">
+                  <xsl:for-each select="//mods:relatedItem[contains('host series', @type)][@xlink:href][not(@xlink:href=following::node()/@xlink:href)]">
                     <xsl:sort select="position()" data-type="number" order="descending" />
                     <xsl:call-template name="getAlias">
                       <xsl:with-param name="objectID" select="@xlink:href" />
