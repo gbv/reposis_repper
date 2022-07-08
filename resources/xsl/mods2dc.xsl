@@ -591,7 +591,7 @@
     </xsl:variable>
     <xsl:if test="string-length($alias) &gt; 0">
       <xsl:variable name="parentAlias">
-        <xsl:for-each select="mods:relatedItem[contains('host series', @type)][@xlink:href][not(@xlink:href=following::node()/@xlink:href)]">
+        <xsl:for-each select="descendant-or-self::mods:relatedItem[contains('host series', @type)][@xlink:href][not(@xlink:href=following::node()/@xlink:href)]">
           <xsl:sort select="position()" data-type="number" order="descending" />
           <xsl:call-template name="getAlias">
             <xsl:with-param name="objectID" select="@xlink:href" />
