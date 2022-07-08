@@ -56,7 +56,7 @@
 
   <xsl:output method="xml" indent="yes"/>
 
-  <xsl:variable name="marcrelator" select="document('classification:metadata:-1:children:marcrelator')" />
+  <xsl:variable name="marcrelator" select="'xxx'" />
 
   <xsl:template match="/">
 
@@ -87,7 +87,9 @@
             <xsl:apply-templates select="mods:identifier[@type='doi']" />
             <xsl:apply-templates select="mods:identifier[@type='urn']" />
               <!-- START: perspectivia specific changes -->
-            <xsl:apply-templates select="../../../../service/servflags/servflag[@type='alias']" />
+            <xsl:call-template name="alias">
+              <xsl:with-param name="objId" select="$objId" />
+            </xsl:call-template>
               <!-- END: perspectivia specific changes -->
             <dc:identifier>
               <xsl:value-of select="concat($WebApplicationBaseURL, 'receive/', $objId)"></xsl:value-of>
@@ -584,21 +586,28 @@
     <xsl:value-of select="normalize-space($name)"/>
   </xsl:template>
 
-
   <!-- START: perspectivia specific changes -->
-  <xsl:template match="servflag[@type='alias']">
-    <xsl:variable name="parentAlias">
-      <xsl:for-each select="../../../metadata/def.modsContainer/modsContainer/mods:mods/mods:relatedItem[contains('host series', @type)][@xlink:href][not(@xlink:href=following::node()/@xlink:href)]">
-        <xsl:sort select="position()" data-type="number" order="descending" />
-        <xsl:call-template name="getAlias">
-          <xsl:with-param name="objectID" select="@xlink:href" />
-        </xsl:call-template>
-        <xsl:text>/</xsl:text>
-      </xsl:for-each>
+  <xsl:template name="alias">
+    <xsl:param name="objId" />
+    <xsl:variable name="alias">
+      <xsl:call-template name="getAlias">
+        <xsl:with-param name="objectID" select="$objId" />
+      </xsl:call-template>
     </xsl:variable>
-    <dc:identifier>
-      <xsl:value-of select="concat($WebApplicationBaseURL, 'publikationen/', $parentAlias, text())"  />
-    </dc:identifier>
+    <xsl:if test="string-length($alias) &gt; 0">
+      <xsl:variable name="parentAlias">
+        <xsl:for-each select="../../../metadata/def.modsContainer/modsContainer/mods:mods/mods:relatedItem[contains('host series', @type)][@xlink:href][not(@xlink:href=following::node()/@xlink:href)]">
+          <xsl:sort select="position()" data-type="number" order="descending" />
+          <xsl:call-template name="getAlias">
+            <xsl:with-param name="objectID" select="@xlink:href" />
+          </xsl:call-template>
+          <xsl:text>/</xsl:text>
+        </xsl:for-each>
+      </xsl:variable>
+      <dc:identifier>
+        <xsl:value-of select="concat($WebApplicationBaseURL, 'publikationen/', $parentAlias, $alias)" />
+      </dc:identifier>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template name="getAlias">
