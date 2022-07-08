@@ -56,12 +56,9 @@
 
   <xsl:output method="xml" indent="yes"/>
 
-  <xsl:variable name="marcrelator" select="'xxx'" />
+  <xsl:variable name="marcrelator" select="document('classification:metadata:-1:children:marcrelator')" />
 
   <xsl:template match="/">
-
-    <xsl:variable name="objId" select="@ID" />
-
     <xsl:choose>
       <!-- WS: updated schema location -->
       <xsl:when test="//mods:modsCollection">
@@ -78,6 +75,7 @@
       </xsl:when>
       <xsl:otherwise>
         <xsl:for-each select="mods:mods">
+            <xsl:variable name="objId" select="@ID" />
             <oai_dc:dc
             xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
             <xsl:apply-templates select="mods:titleInfo" />
@@ -91,9 +89,6 @@
               <xsl:with-param name="objId" select="$objId" />
             </xsl:call-template>
               <!-- END: perspectivia specific changes -->
-            <dc:identifier>
-              <xsl:value-of select="concat($WebApplicationBaseURL, 'receive/', $objId)"></xsl:value-of>
-            </dc:identifier>
             <xsl:apply-templates select="mods:identifier[not(@type='doi')][not(@type='urn')]" />
             <xsl:apply-templates select="mods:location" />
             <xsl:apply-templates select="mods:classification" />
@@ -596,7 +591,7 @@
     </xsl:variable>
     <xsl:if test="string-length($alias) &gt; 0">
       <xsl:variable name="parentAlias">
-        <xsl:for-each select="../../../metadata/def.modsContainer/modsContainer/mods:mods/mods:relatedItem[contains('host series', @type)][@xlink:href][not(@xlink:href=following::node()/@xlink:href)]">
+        <xsl:for-each select="mods:relatedItem[contains('host series', @type)][@xlink:href][not(@xlink:href=following::node()/@xlink:href)]">
           <xsl:sort select="position()" data-type="number" order="descending" />
           <xsl:call-template name="getAlias">
             <xsl:with-param name="objectID" select="@xlink:href" />
@@ -612,7 +607,7 @@
 
   <xsl:template name="getAlias">
     <xsl:param name="objectID" />
-    <xsl:value-of select="document(concat('solr:q=id:', $objectID, '&amp;fl=alias'))/response//str[@name='alias']" />
+    <xsl:value-of select="document(concat('solr:q=objectType:mods+AND+id:', $objectID, '&amp;fl=alias'))/response//str[@name='alias']" />
   </xsl:template>
   <!-- END: perspectivia specific changes -->
 
