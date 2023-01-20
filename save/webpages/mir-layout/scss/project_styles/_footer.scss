@@ -43,9 +43,9 @@ html body footer .internal_links {
   padding: 0px;
   font-weight: 700;
 }
-.flatmir-footer .nav > li > a > span,
-.flatmir-footer .nav > li > a:hover > span,
-.flatmir-footer .nav > li > a:focus  > span{
+.flatmir-footer .nav > li > a > span.fa-stack,
+.flatmir-footer .nav > li > a:hover > span.fa-stack,
+.flatmir-footer .nav > li > a:focus  > span.fa-stack {
   color: #ef7f01;
 }
 
@@ -84,21 +84,17 @@ html body footer .internal_links {
   background-color: transparent;
 }
 
-#pp_footer-nav {
-  margin-left: 40px;
-}
-
 #pp_footer-nav > li {
-  padding-bottom: 15px;
+  padding-bottom: 30px;
 }
 
 .footer-info img {
   margin-bottom: 25px
 }
-#footer-social ul > li{
+#footer-social ul > li {
   padding-bottom: 30px;
 }
-#footer-social ul > li > a > span {
+#footer-social ul > li > a > span.fa-stack {
   margin-right: 30px;
 }
 
@@ -106,16 +102,37 @@ html body footer .internal_links {
   background-color: white;
   margin-top: 50px;
 }
-.mcr-footer-section--coop-partners {
-  background-color: #ebe8e5;
+.mcr-footer-section {
+  &--menu {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  &--coop-partners {
+    background-color: #ebe8e5;
+  }
+  &--copyright {
+    background-color: #38322d;
+  }
 }
-.mcr-footer-section--copyright {
-  background-color: #38322d;
+
+.mws-logo {
+  a {
+    display: block;
+    width: 220px;
+  }
+}
+.footer-nav {
+  a {
+    line-height: 28px;
+  }
 }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
+  #pp_footer-nav > li {
+    padding-bottom: 1rem;
+  }
 }
 
 // Medium devices (tablets) and below: <= 992px
@@ -127,6 +144,18 @@ html body footer .internal_links {
   #footer-social ul > li > a > span {
     margin-right: 10px;
   }
+
+  #pp_footer-nav {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+    & > li {
+      padding-bottom: 0;
+      margin-right: 1rem;
+    }
+  }
+
+
 }
 
 // Small devices (landscape phones) and below: <= 768px

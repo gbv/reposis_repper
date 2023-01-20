@@ -92,45 +92,75 @@
     <section class="mcr-footer-section mcr-footer-section--menu">
       <div class="container">
         <div class="row">
-          <div class="col-4 col-sm-2 col-md-1">
-            <a title="zur Homepage" href="{$WebApplicationBaseURL}">
-              <img alt="Logo perspectivia.net" src="{$WebApplicationBaseURL}images/logos/perspectivia_logo_complete.png" style="height:134px;" />
-            </a>
+
+          <div class="col-12 col-lg mws-logo">
+            <xsl:choose>
+              <xsl:when test="$CurrentLang = 'de'">
+                <a href="http://www.maxweberstiftung.de/">
+                  <img
+                    class="media-object img-fluid pp_footer-img"
+                    src="{$WebApplicationBaseURL}images/logos/mws_logo_standard_de_schwarz.jpg"
+                    alt="Logo der Max Weber Stiftung"
+                    title="Zur Max Weber Stiftung" />
+                </a>
+              </xsl:when>
+              <xsl:otherwise>
+                <a href="https://www.maxweberstiftung.de/en">
+                  <img
+                    class="media-object img-fluid pp_footer-img"
+                    src="{$WebApplicationBaseURL}images/logos/mws_logo_standard_en_schwarz.jpg"
+                    alt="Logo of Max Weber Stiftung"
+                    title="Go to Max Weber Stiftung" />
+                </a>
+              </xsl:otherwise>
+            </xsl:choose>
           </div>
-          <div class="col-8 col-sm-10 col-md-3 col-lg-2">
-            <ul id="pp_footer-nav" class="nav">
+
+          <div class="col-12 col-lg footer-nav">
+            <ul id="pp_footer-nav" class="nav flex-column flex-md-row flex-lg-column">
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
             </ul>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mt-md-0 text-center">
-            <a href="http://www.maxweberstiftung.de/">
-              <img class="media-object img-fluid pp_footer-img" src="{$WebApplicationBaseURL}images/logos/Max-Weber-Stiftung-Logo.png" alt="Logo der Max Weber Stiftung" title="Logo der Max Weber Stiftung" />
-            </a>
+
+          <div class="col social-nav" id="footer-social" >
+            <ul class="nav flex-xl-column">
+              <li>
+                <a
+                  href="https://twitter.com/perspectivia"
+                  class="twitter">
+                  <span class="fa-stack">
+                    <i class="fab fa-twitter fa-stack-2x"></i>
+                  </span>
+                  <span class="d-none d-xl-inline">@perspectivia folgen</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/maxweberstiftung"
+                  class="facebook">
+                  <span class="fa-stack">
+                    <i class="fab fa-facebook-f fa-stack-2x"></i>
+                  </span>
+                  <span class="d-none d-xl-inline">Like Max Weber Stiftung</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="http://vimeo.com/maxweberstiftung"
+                  class="vimeo-mws">
+                  <span class="fa-stack">
+                    <i class="fab fa-vimeo-square fa-stack-2x"></i>
+                  </span>
+                  <span class="d-none d-xl-inline">Max Weber Stiftung Videos folgen</span>
+                </a>
+              </li>
+            </ul>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 mt-3 mt-md-0 text-center">
-            <a href="http://www.bmbf.de/">
-              <img class="media-object img-fluid pp_footer-img" src="{$WebApplicationBaseURL}images/logos/BMBF-Logo.png" alt="BMBF-Logo" title="Bundesministerium für Bildung und Forschung (BMBF)" />
-            </a>
-          </div>
-          <!-- footer-social -->
-          <div class="offset-md-4 offset-lg-0 col-lg-4 mt-3 mt-lg-0">
-            <div id="footer-social">
-              <ul class="nav flex-column">
-                <li>
-                  <a href="https://twitter.com/perspectivia" class="twitter"><span class="fa-stack"><i class="fab fa-twitter fa-stack-2x"></i></span>@perspectivia folgen</a>
-                </li>
-                <li>
-                  <a href="https://www.facebook.com/maxweberstiftung" class="facebook"><span class="fa-stack"><i class="fab fa-facebook-f fa-stack-2x"></i></span>Like Max Weber Stiftung</a>
-                </li>
-                <li>
-                  <a href="http://vimeo.com/maxweberstiftung" class="vimeo-mws"><span class="fa-stack"><i class="fab fa-vimeo-square fa-stack-2x"></i></span>Max Weber Stiftung Videos folgen</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
+
     <section class="mcr-footer-section mcr-footer-section--coop-partners">
       <div class="container">
         <div class="row"><!-- cooperation partners -->
