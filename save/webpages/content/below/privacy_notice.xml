@@ -21,9 +21,9 @@
 
 <h3>Statistische Auswertungen mit Matomo</h3>
 
-<p>Diese Website benutzt Matomo, eine Open-Source-Software zur statistischen Auswertung der Besucherzugriffe. Matomo verwendet sog. “Cookies”, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieses Internetangebotes werden auf dem Server des Anbieters in Deutschland gespeichert. Die IP-Adresse wird sofort nach der Verarbeitung und vor deren Speicherung anonymisiert. Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich nutzen können.</p>
+<p>Diese Website benutzt Matomo, eine Open-Source-Software zur statistischen Auswertung der Besucherzugriffe. Matomo verwendet sog. “Cookies”, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieses Internetangebotes werden auf dem Server des Anbieters in Deutschland gespeichert. Die IP-Adresse wird sofort nach der Verarbeitung und vor deren Speicherung anonymisiert. Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich nutzen können.</p>
 
-<p>Sie haben die Möglichkeit zu verhindern, dass von Ihnen hier getätigte Aktionen analysiert und verknüpft werden. Dies wird Ihre Privatsphäre schützen, aber wird auch den Besitzer daran hindern, aus Ihren Aktionen zu lernen und die Bedienbarkeit für Sie und andere Benutzer zu verbessern.</p>
+<!--<p>Sie haben die Möglichkeit zu verhindern, dass von Ihnen hier getätigte Aktionen analysiert und verknüpft werden. Dies wird Ihre Privatsphäre schützen, aber wird auch den Besitzer daran hindern, aus Ihren Aktionen zu lernen und die Bedienbarkeit für Sie und andere Benutzer zu verbessern.</p>//-->
 <iframe src="https://matomo.gbv.de/index.php?module=CoreAdminHome&amp;action=optOut&amp;idsite=37&amp;language=de" style="border: 0; height: 200px; width: 100%;">&lt;/div&gt;</iframe>
 
 <h3>Javascript</h3>
@@ -164,8 +164,7 @@
 
 <p>Fragen und Anregungen zum Thema Datenschutz können Sie gerne an den Datenschutzbeauftragten, R. Hiß, richten: datenschutz(at)maxweberstiftung.de</p>
 </div>
-</div>
-</section><section xml:lang="fr" title="Mentions légales"><div class="row">
+</div></section><section xml:lang="fr" title="Mentions légales"><div class="row">
 <div class="col-md-10" lang="fr">
 <h2>Mentions légales</h2>
 
@@ -246,5 +245,4 @@
 
 <p>Les questions et suggestions relatives à la protection des données peuvent être adressées au responsable de la protection des données, R. Hiß : datenschutz(at)maxweberstiftung.de</p>
 </div>
-</div>
-</section><meta><log lastEditor="agerber" date="2021-06-04" time="10:12" /></meta></MyCoReWebPage>
+</div></section><meta><log lastEditor="kneumann" date="2022-10-18" time="09:56" /></meta></MyCoReWebPage>

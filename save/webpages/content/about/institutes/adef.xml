@@ -46,7 +46,7 @@ D-10117 Berlin</div>
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/adef-placeholder.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22adef%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/adef-placeholder.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:adef%22"> </div>
 </div>
 </div>
 </section><section xml:lang="en" title="German Association for British Studies (AGF)"><div class="row">
@@ -96,10 +96,9 @@ D-10117 Berlin</div>
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/adef-placeholder.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22adef%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/adef-placeholder.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:adef%22"> </div>
 </div>
-</div>
-</section><section xml:lang="fr" title="Arbeitskreis Großbritannien-Forschung (Association allemande pour les études britanniques)"><div class="row">
+</div></section><section xml:lang="fr" title="Arbeitskreis Großbritannien-Forschung (Association allemande pour les études britanniques)"><div class="row">
 <div class="col-12 pp-institute-graphic" lang="de"><img alt="ADEF-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/agf.png" style="width: 232px; height: 177px;" />
 <h1 class="pp-institute-graphic__headline">Arbeitskreis Deutsche England-Forschung (Association allemande pour les études britanniques)</h1>
 <img alt="Foto London" class="pp-institute-graphic__figure" src="../../../images/institute-figures/adef-figure.jpg" title="Arbeitskreis Deutsche England-Forschung" /></div>
@@ -146,10 +145,9 @@ D-10117 Berlin</div>
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/adef-placeholder.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22adef%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/adef-placeholder.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:adef%22"> </div>
 </div>
-</div>
-</section><section xml:lang="it" title="Arbeitskreis Deutsche England-Forschung"><div class="row">
+</div></section><section xml:lang="it" title="Arbeitskreis Deutsche England-Forschung"><div class="row">
 <div class="col-12 pp-institute-graphic" lang="de"><img alt="ADEF-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/agf.png" style="width: 232px; height: 177px;" />
 <h1 class="pp-institute-graphic__headline">Arbeitskreis Deutsche England-Forschung</h1>
 <img alt="Foto London" class="pp-institute-graphic__figure" src="../../../images/institute-figures/adef-figure.jpg" title="Arbeitskreis Deutsche England-Forschung" /></div>
@@ -196,7 +194,6 @@ D-10117 Berlin</div>
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/adef-placeholder.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22adef%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/adef-placeholder.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:adef%22"> </div>
 </div>
-</div>
-</section><meta><log lastEditor="agerber" date="2021-05-31" time="12:15" /></meta></MyCoReWebPage>
+</div></section><meta><log lastEditor="agerber" date="2022-04-22" time="12:28" /></meta></MyCoReWebPage>

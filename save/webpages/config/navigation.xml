@@ -49,9 +49,9 @@
             <label xml:lang="en">Publishing Institutions</label>
             <label xml:lang="fr">Institutions</label>
             <item href="/content/about/institutes/mws.xml" replaceMenu="false" constrainPopUp="false">
-                <label xml:lang="de">Max Weber Stiftung – DGIA</label>
-                <label xml:lang="en">Max Weber Stiftung - Foundation German Humanities Institutes Abroad</label>
-                <label xml:lang="fr">Fondation Max-Weber</label>
+                <label xml:lang="de">Max Weber Stiftung - Deutsche Geisteswissenschaftliche Institute im Ausland</label>
+                <label xml:lang="en">Max Weber Foundation - German Humanities Institutes Abroad</label>
+                <label xml:lang="fr">Fondation Max Weber - Instituts allemands en Sciences Humaines de l'étranger</label>
             </item>
             <item href="/content/about/institutes/dfk.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Deutsches Forum für Kunstgeschichte Paris (DFK)</label>
@@ -103,6 +103,11 @@
                 <label xml:lang="en">Orient-Institut Istanbul (OII)</label>
                 <label xml:lang="fr">Orient-Institut Istanbul (OII)</label>
             </item>
+            <item href="/content/about/institutes/mwf.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Max Weber Forum für Südasienstudien Delhi (MWF)</label>
+                <label xml:lang="en">Max Weber Forum for South Asian Studies in Delhi (MWF)</label>
+                <label xml:lang="fr">Forum Max Weber pour les études sud-asiatiques à Delhi (MWF)</label>
+            </item>
             <item href="/content/about/institutes/adef.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Arbeitskreis Großbritannien-Forschung (AGF)</label>
                 <label xml:lang="en">German Association for British Studies (AGF)</label>
@@ -117,6 +122,16 @@
                 <label xml:lang="de">Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg (SPSG)</label>
                 <label xml:lang="en">Prussian Palaces and Gardens Foundation Berlin-Brandenburg (SPSG)</label>
                 <label xml:lang="fr">Fondation des Châteaux et Jardins prussiens de Berlin-Brandebourg (SPSG)</label>
+            </item>
+            <item href="/content/about/institutes/ieg.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Leibniz-Institut für Europäische Geschichte (IEG)</label>
+                <label xml:lang="en">Leibniz Institute of European History (IEG)</label>
+                <label xml:lang="fr">Institut Leibniz d'histoire européenne (IEG)</label>
+            </item>
+            <item href="/content/about/institutes/dzk.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Deutsches Zentrum Kulturgutverluste</label>
+                <label xml:lang="en">German Lost Art Foundation</label>
+                <label xml:lang="fr">German Lost Art Foundation</label>
             </item>
         </item>
         <item href="/content/about/redaktion.xml" replaceMenu="false" constrainPopUp="false">

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage><section xml:lang="de" title="DZK"><div class="row">
+<div class="col-12 pp-institute-graphic" lang="de"><img alt="OII-Logo" class="pp-institute-graphic__logo" src="DZK_Logo_farbe_RGB.jpg" style="width: 200px; height: 65px;" />
+<h1 class="pp-institute-graphic__headline">Deutsches Zentrum Kulturgutverluste</h1>
+</div>
+
+<div class="col-12 pp-contact" lang="de">
+<h2>Kontakt</h2>
+
+<h3>Deutsches Zentrum Kulturgutverluste</h3>
+
+<div class="pp-contact__list">
+<div class="pp-contact__item">Humboldtstraße 12<br />
+39112 Magdeburg</div>
+
+<table class="pp-contact__item">
+	<tbody>
+		<tr>
+			<td class="pp-contact__subitem">Telefon:</td>
+			<td>+49 (0)391 727 763 0</td>
+		</tr>
+		<tr>
+			<td class="pp-contact__subitem">Fax:</td>
+			<td>+49 (0)391 727 763 6</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="pp-contact__item">
+	<tbody>
+		<tr>
+			<td class="pp-contact__subitem">E-Mail:</td>
+			<td><span class="madress">kontakt [at] kulturgutverluste.de</span></td>
+		</tr>
+		<tr>
+			<td class="pp-contact__subitem">Internet:</td>
+			<td><a class="external-link" href="https://www.kulturgutverluste.de/">https://www.kulturgutverluste.de/</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+<div class="col-12 pp-publications">
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/oii-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:9179114b-64fd-498e-b385-a4c74dbd0122%22"> </div>
+</div>
+</div>
+</section><section xml:lang="en" title="DZK"><div class="row">
+<div class="col-12 pp-institute-graphic" lang="en"><img alt="OII-Logo" class="pp-institute-graphic__logo" src="DZK_Logo_farbe_RGB.jpg" style="width: 200px; height: 65px;" />
+<h1 class="pp-institute-graphic__headline">German Lost Art Foundation</h1>
+</div>
+
+<div class="col-12 pp-contact" lang="en">
+<h2>Contact</h2>
+
+<h3>German Lost Art Foundation</h3>
+
+<div class="pp-contact__list">
+<div class="pp-contact__item">Humboldtstraße 12<br />
+39112 Magdeburg</div>
+
+<table class="pp-contact__item">
+	<tbody>
+		<tr>
+			<td class="pp-contact__subitem">Phone:</td>
+			<td>+49 (0)391 727 763 0</td>
+		</tr>
+		<tr>
+			<td class="pp-contact__subitem">Fax:</td>
+			<td>+49 (0)391 727 763 6</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="pp-contact__item">
+	<tbody>
+		<tr>
+			<td class="pp-contact__subitem">E-Mail:</td>
+			<td><span class="madress">kontakt [at] kulturgutverluste.de</span></td>
+		</tr>
+		<tr>
+			<td class="pp-contact__subitem">Internet:</td>
+			<td><a class="external-link" href="https://www.kulturgutverluste.de/">https://www.kulturgutverluste.de/</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+<div class="col-12 pp-publications">
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/oii-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:9179114b-64fd-498e-b385-a4c74dbd0122%22"> </div>
+</div>
+</div>
+</section><section xml:lang="fr" title="DZK"><div class="row">
+<div class="col-12 pp-institute-graphic" lang="fr"><img alt="OII-Logo" class="pp-institute-graphic__logo" src="DZK_Logo_farbe_RGB.jpg" style="width: 200px; height: 65px;" />
+<h1 class="pp-institute-graphic__headline">German Lost Art Foundation</h1>
+</div>
+
+<div class="col-12 pp-contact" lang="fr">
+<h2>Contact</h2>
+
+<h3>German Lost Art Foundation</h3>
+
+<div class="pp-contact__list">
+<div class="pp-contact__item">Humboldtstraße 12<br />
+39112 Magdeburg</div>
+
+<table class="pp-contact__item">
+	<tbody>
+		<tr>
+			<td class="pp-contact__subitem">Phone:</td>
+			<td>+49 (0)391 727 763 0</td>
+		</tr>
+		<tr>
+			<td class="pp-contact__subitem">Fax:</td>
+			<td>+49 (0)391 727 763 6</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="pp-contact__item">
+	<tbody>
+		<tr>
+			<td class="pp-contact__subitem">E-Mail:</td>
+			<td><span class="madress">kontakt [at] kulturgutverluste.de</span></td>
+		</tr>
+		<tr>
+			<td class="pp-contact__subitem">Internet:</td>
+			<td><a class="external-link" href="https://www.kulturgutverluste.de/">https://www.kulturgutverluste.de/</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+<div class="col-12 pp-publications">
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/oii-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:9179114b-64fd-498e-b385-a4c74dbd0122%22"> </div>
+</div>
+</div>
+</section><meta><log lastEditor="agerber" date="2022-07-15" time="10:17" /></meta></MyCoReWebPage>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Hinweis zur Barrierefreiheit"><div>
-<div class="row">
+<MyCoReWebPage><section xml:lang="de" title="Hinweis zur Barrierefreiheit"><div class="row">
 <div class="col-md-10" lang="de">
 <h2>Erklärung zur Barrierefreiheit <small class="text-muted">(Stand der Erklärung: 23.09.2020)</small></h2>
 </div>
@@ -16,7 +15,7 @@
 <div class="col-md-10" lang="de">
 <h3>Stand der Vereinbarkeit mit den Anforderungen</h3>
 
-<p>Der Publikationsserver perspectivia.net ist mit dem Behindertengleichstellungsgesetz Nordrhein-Westfalen (BGG NRW) nd der Barrierefreie-Informationstechnik-Verordnung Nordrhein-Westfalen (BITV NRW) teilweise vereinbar.</p>
+<p>Der Publikationsserver perspectivia.net ist mit dem Behindertengleichstellungsgesetz Nordrhein-Westfalen (BGG NRW) und der Barrierefreie-Informationstechnik-Verordnung Nordrhein-Westfalen (BITV NRW) teilweise vereinbar.</p>
 </div>
 </div>
 
@@ -73,10 +72,13 @@
 
 <p>Per E-Mail erreichen Sie uns unter <span class="madress">perspectivia [at] MaxWeberStiftung.de</span>. Unsere Postanschrift lautet:</p>
 
-<p class="border-left pl-5">Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland<br />
-Rheinallee 6<br />
-D-53173 Bonn<br />
-Telefon +49 (0)228 37786-0</p>
+<p style="margin-left: 40px;">Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland</p>
+
+<p style="margin-left: 40px;">Rheinallee 6</p>
+
+<p style="margin-left: 40px;">D-53173 Bonn</p>
+
+<p style="margin-left: 40px;">Telefon +49 (0)228 37786-0</p>
 </div>
 </div>
 
@@ -88,14 +90,15 @@ Telefon +49 (0)228 37786-0</p>
 
 <p>Sie ist der oder dem Beauftragten für die Belange der Menschen mit Behinderung nach § 11 des Behindertengleichstellungsgesetzes Nordrhein-Westfalen zugeordnet und über folgenden Kontakt zu erreichen:</p>
 
-<p class="border-left pl-5">Ministerium für Arbeit, Gesundheit und Soziales des Landes Nordrhein-Westfalen<br />
-Fürstenwall 25<br />
-40219 Düsseldorf</p>
+<p style="margin-left: 40px;">Ministerium für Arbeit, Gesundheit und Soziales des Landes Nordrhein-Westfalen</p>
+
+<p style="margin-left: 40px;">Fürstenwall 25</p>
+
+<p style="margin-left: 40px;">40219 Düsseldorf</p>
 
 <p>Sie erreichen die Ombudsstelle unter der folgenden E-Mail-Adresse:</p>
 
-<p class="border-left pl-5"><span class="madress">Ombudsstelle-barrierefreie-IT [at] mags.nrw.de</span>.</p>
-</div>
+<p style="margin-left: 40px;"><span class="madress">Ombudsstelle-barrierefreie-IT [at] mags.nrw.de</span>.</p>
 </div>
 </div>
 </section><section xml:lang="en" title="Accessibility"><div>
@@ -196,8 +199,7 @@ Fürstenwall 25<br />
 <p class="border-left pl-5"><span class="madress">Ombudsstelle-barrierefreie-IT [at] mags.nrw.de</span>.</p>
 </div>
 </div>
-</div>
-</section><section xml:lang="fr" title="Accessibilité"><div>
+</div></section><section xml:lang="fr" title="Accessibilité"><div>
 <div class="row">
 <div class="col-md-10" lang="de">
 <h2>Erklärung zur Barrierefreiheit <small class="text-muted">(Stand der Erklärung: 23.09.2020)</small></h2>
@@ -295,5 +297,4 @@ Fürstenwall 25<br />
 <p class="border-left pl-5"><span class="madress">Ombudsstelle-barrierefreie-IT [at] mags.nrw.de</span>.</p>
 </div>
 </div>
-</div>
-</section><meta><log lastEditor="agerber" date="2021-05-31" time="09:50" /></meta></MyCoReWebPage>
+</div></section><meta><log lastEditor="mwiegel" date="2022-09-22" time="15:40" /></meta></MyCoReWebPage>
