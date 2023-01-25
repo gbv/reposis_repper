@@ -607,7 +607,7 @@
 
   <xsl:template name="getAlias">
     <xsl:param name="objectID" />
-    <xsl:value-of select="document(concat('solr:q=objectType:mods+AND+id:', $objectID, '&amp;fl=alias'))/response//str[@name='alias']" />
+    <xsl:value-of select="document(concat('solr:q=id:', $objectID, '&amp;fl=alias'))/response//str[@name='alias']" />
   </xsl:template>
   <!-- END: perspectivia specific changes -->
 
