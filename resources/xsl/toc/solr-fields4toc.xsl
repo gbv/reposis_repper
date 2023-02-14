@@ -57,6 +57,9 @@
       <xsl:apply-templates select="($allHostsParts/mods:detail[@type='issue'])[1]/mods:number" mode="toc.field" >
         <xsl:with-param name="name">issue</xsl:with-param>
       </xsl:apply-templates>
+      <xsl:apply-templates select="($allHostsParts/mods:detail[@type='section'])[1]/mods:caption" mode="toc.field">
+        <xsl:with-param name="name">section</xsl:with-param>
+      </xsl:apply-templates>
       <xsl:apply-templates select="($allHostsParts/mods:detail[@type='article_number'])[1]/mods:number" mode="toc.field" >
         <xsl:with-param name="name">articleNumber</xsl:with-param>
       </xsl:apply-templates>
