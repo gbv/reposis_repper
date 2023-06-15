@@ -5,6 +5,237 @@
 // Extra large devices (large desktops)
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
+
+// only for project home
+.mir-start_page {
+
+  #page {
+    margin-top: 0;
+    padding-top: 0;
+    // reset root container from base layout
+    // home uses own containers,
+    // to enable backgrounds over the whole page width
+    &.container {
+      max-width: none;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  // define page segements
+  .page-section {
+    //min-height: 100vh;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    &__intro {
+      padding-top: 15rem;
+      padding-bottom: 0;
+      background-color: $p-dark-white;
+    }
+    &__links {
+    }
+    &__institutions {
+      background-color: $p-dark-white;
+    }
+    &__slider {
+      padding-bottom: 0;
+    }
+  }
+
+  .intro-box {
+    border: 1px solid $p-purple-light;
+    display: flex;
+    align-items: stretch;
+    .slogan {
+      flex-basis: 35%;
+      position: relative;
+      &__imagebox {
+        position:absolute;
+        top: 5%;
+        left: 0;
+        height: 90%;
+        margin-left: -90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      &__image {
+        position:absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        filter: invert(78%) sepia(72%) saturate(493%) hue-rotate(264deg) brightness(76%) contrast(80%);
+      }
+      &__text {
+        z-index: 500;
+        font-size: 2.75rem;
+        color: white;
+        margin-left: 10rem;
+      }
+    }
+    .intro-text {
+      flex-basis: 50%;
+      padding: 5rem 2rem 5.5rem 2rem;
+      font-size: 1.25rem;
+      line-height: 2.25rem;
+    }
+    .decoration {
+      flex-basis: 15%;
+      position: relative;
+      img {
+        position:absolute;
+        top: 5%;
+        left: 0;
+        height: 90%;
+        filter: invert(47%) sepia(97%) saturate(1322%) hue-rotate(5deg) brightness(98%) contrast(102%);
+      }
+      &::before {
+        content: '';
+        position:absolute;
+        top: 5%;
+        right: -1px;
+        height: 90%;
+        background-color: $p-dark-white;
+        width: 1px;
+      }
+    }
+  }
+
+  .teaser {
+    margin-top: 2.375rem;
+    margin-bottom: 2.375rem;
+    display: flex;
+    &__item {
+      padding: 1rem 2.25rem;
+      border-left: 1px dashed $p-gray;
+      flex-basis: 25%;
+      position: relative;
+      &:last-child {
+        border-right: 1px dashed $p-gray;
+      }
+    }
+    .teaser__headline {
+      color: $p-orange;
+      font-size: 0.875rem;
+      font-weight: bold;
+    }
+    .teaser__date {
+      font-size: 0.75rem;
+    }
+    .teaser__text {
+      font-size: 1,4375rem;
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+    }
+    .teaser__button {
+      color: $p-orange;
+      font-size: 1.125rem;
+      position: absolute;
+      left: 2.25rem;
+      bottom: 1rem;
+      i {
+        font-size: .75rem;
+        margin-left: .2rem;
+      }
+    }
+  }
+
+  .slider-institute {
+    display: block;
+    .slider-institute-figure {
+      display: flex;
+      align-items: flex-end;
+      height: 100%;
+      background-color: white;
+      border-radius: 1rem;
+      height: 255px;
+      .slider-institute-logo {
+        position: absolute;
+        top: 0.5rem;
+        left: 1.5rem;
+        width: 33%;
+      }
+      .slider-institute-image {
+        border-radius: 1rem;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .slider-institute-title {
+      margin-top: 2rem;
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+  }
+
+  #main_content h2 {
+    color: $p-orange;
+    font-size: 2.75rem !important;
+  }
+
+  p {
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+  }
+
+  .p-statistics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .p-statistic {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 3.5rem;
+      margin-left: 3.5rem;
+      font-size: 2.125rem;
+      color: $p-petrol;
+      &__title {
+        order: 2;
+      }
+      &__value {
+        order: 1;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.p-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  .p-tile {
+    flex-basis: 30%;
+    position: relative;
+    color: white;
+    margin-bottom: 5rem;
+    &__background { }
+    &__petrol { filter: invert(27%) sepia(94%) saturate(883%) hue-rotate(152deg) brightness(92%) contrast(101%); }
+    &__purple { filter: invert(12%) sepia(30%) saturate(4913%) hue-rotate(286deg) brightness(101%) contrast(90%); }
+    &__pink { filter: invert(57%) sepia(9%) saturate(1892%) hue-rotate(251deg) brightness(93%) contrast(85%); }
+    &__orange { filter: invert(49%) sepia(84%) saturate(818%) hue-rotate(360deg) brightness(94%) contrast(100%); }
+    &__arrow {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      z-index: 500;
+    }
+    &__content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 500;
+      padding: 2.75rem 1.5rem;
+    }
+  }
+}
+
+
 .pp-home {
   h2 {
     color: $success;
@@ -39,9 +270,6 @@
 }
 .pp-footer-card .stretched-link {
   color: $body-color;
-  &:hover {
-    text-decoration: none;
-  }
 }
 .pp-footer-card:hover .card-img-top {
   opacity: 0.7;

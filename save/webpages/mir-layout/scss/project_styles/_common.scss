@@ -11,29 +11,27 @@ html {
   min-height: 100%;
 }
 
+#page {
+  padding-top: 10rem;
+}
+
 /* *********************** feedback ************************ */
 
 #pp_feedback {
   cursor: pointer;
   position: fixed;
-  bottom: 40%;
-  right: -34px;
-  transform: rotate(-90deg);
+  top: 15rem;
+  left: -34px;
+  transform: rotate(90deg);
   display: block;
-  background: #75adad;
+  background: $p-petrol;
   text-decoration: none;
-  border-bottom: solid 1px #75adad;
-  border-left: solid 0px #75adad;
-  border-right: solid 1px #75adad;
   z-index: 999;
   width: 100px;
   text-align: center;
 }
 #pp_feedback:hover {
-  background: #aad2d2;
-  border-bottom: solid 1px #aad2d2;
-  border-left: solid 0px #aad2d2;
-  border-right: solid 1px #aad2d2;
+  background-color: lighten($p-petrol,7.5%);
 }
 #pp_feedback a {
   color: #fff;
@@ -97,8 +95,9 @@ a.readmore {
 /* ********************** carousel ********************** */
 .carousel {
   margin-bottom: 4rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
+
 .carousel-indicators {
   bottom: auto;
   top: 0;
@@ -133,9 +132,9 @@ a.readmore {
 .carousel-control-prev:focus,
 .carousel-control-next:focus {
   width: 5rem;
-  color: $success;
+  color: $p-petrol;
   background-color: transparent;
-  opacity: 0.5;
+  opacity: 1;
   transition: 0.5s ease;
   align-items: flex-start;
   i {
@@ -146,8 +145,8 @@ a.readmore {
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
   color: white;
-  background-color: $success;
-  opacity: 0.5;
+  background-color: $p-petrol;
+  opacity: .5;
 }
 .carousel-inner {
   padding-top: 5rem;
@@ -239,6 +238,21 @@ a.readmore {
   background: #75adad;
   border-color: #75adad;
   color: white;
+}
+
+.card-footer {
+  padding: 0;
+}
+
+.back-to-top {
+  color: $p-petrol;
+  &:hover {
+    color: lighten($p-petrol,7.5%);
+  }
+}
+
+.btn-primary:hover, #basket .btn-csl-export:hover {
+  background-color: lighten($p-petrol,7.5%);
 }
 
 // Large devices (desktops) and below: <= 1200px

@@ -2,15 +2,35 @@
 // Variables
 // --------------------------------------------------
 
+// project colors
+$p-petrol:        #006978;
+$p-purple:        #5F1E55;
+$p-purple-light:  #86739B;
+$p-pink:          #B478B4;
+$p-orange:        #EF7F01;
+$p-black:         #495353;
+$p-blue:          #0c636d;
+$p-red:           #961432;
+$p-dark-white:    #F7F7F9;
+$p-contur-white:  #ebe8e5;
+$p-light-black:   #38322d;
+$p-gray:          #707070;
+
+$gray-light:      #c5c5c5;
+$gray-lighter:    #e9eeef;
+$pp-primary-light:#ffc88a;
+$pp-success-light:#62a0a8;
+
 // --------------------------------------------------
 // Reset defaults
 // --------------------------------------------------
 
 // Brand colors
 // -------------------------
-$primary:         #ef7f01;
-$success:         #0a6e78;
-$warning:         #961432;
+$primary:         $p-petrol;
+$secondary:       $p-orange;
+$success:         $p-petrol;
+$warning:         $p-red;
 
 $brand-primary:     $primary;
 $brand-success:     $success;
@@ -20,44 +40,37 @@ $brand-warning:     $warning;
 $danger:            $warning;
 $brand-danger:      $danger;
 
-$gray-light:      #c5c5c5;
-$gray-lighter:    #e9eeef;
-
-$pp-primary-light:#ffc88a;
-$pp-success-light:#62a0a8;
-
-$pp-menu-back:    #75adad;
-$pp-menu-text:    white;
-$pp-menu-border:  white;
-$pp-menu-hover:   #aad2d2;
-$pp-menu-active:    $success;
-$pp-menu-divider: #99d3d9;
-
-
-
-
 // Links
 // -------------------------
-$link-color:         #0c636d;
-$link-hover-color:   #0c636d;
+$link-color:         $p-blue;
+$link-hover-color:   $p-blue;
+
+// Navigation
+// -------------------------
+$navbar-light-color: $p-black;
+$navbar-light-hover-color: white;
+$navbar-light-active-color: $p-black;
 
 // Dropdowns
 // -------------------------
-$dropdown-link-color:    $link-color;
-$dropdown-link-hover-bg: $pp-menu-back;
+$dropdown-link-color: $p-black;
+$dropdown-link-hover-color: white;
+$dropdown-link-hover-bg: $p-petrol;
+$dropdown-link-active-color: white;
+$dropdown-link-active-bg: $p-petrol;
 
 // Panel
 // -------------------------
 $panel-default-border: $gray-light;
 
 // Misc
-$web-font-path: "";
-$font-family-sans-serif: 'Open Sans', Helvetica, Arial, sans-serif;
-$body-color:         #495353;
+$web-font-path: "https://webfonts.gbv.de/css2?family=Inter&display=swap";
+$font-family-sans-serif: 'Inter', Helvetica, Arial, sans-serif;
+$body-color:         $p-black;
 $line-height-base:   1.428571429;
 $headings-font-weight: 600;
 
-$font-size-base: 0.9375rem;
+$font-size-base: 1rem;
 
 $h1-font-size: 2.5rem;
 $h2-font-size: 1.5rem;
@@ -65,3 +78,5 @@ $h3-font-size: 1.125rem;
 
 $font-weight-bold: 700 !default;
 $font-weight-bolder: $font-weight-bold;
+
+$border-radius: 1.25rem;
