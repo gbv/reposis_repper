@@ -9,6 +9,7 @@
 html {
   position: relative;
   min-height: 100%;
+  min-width: 320px;
 }
 
 #page {
@@ -258,6 +259,9 @@ a.readmore {
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
+  #page {
+    padding-top: 12rem;
+  }
 }
 
 // Medium devices (tablets) and below: <= 992px
@@ -276,7 +280,20 @@ a.readmore {
   html body {
     min-width: 320px;
   }
-  .container {
-    padding-right: 45px;
+  #page {
+    padding-top: 3rem;
   }
+  .back-to-top {
+    right: 2px;
+    bottom: 5px;
+  }
+
+  #pp_feedback {
+    top: auto;
+    bottom: 5px;
+    left: 5px;
+    transform: none;
+    background-color: rgba($p-petrol, .9);
+  }
+
 }

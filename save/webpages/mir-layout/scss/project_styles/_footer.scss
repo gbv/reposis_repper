@@ -100,6 +100,7 @@ html body #copyright_by {
 
 #footer-social ul > li {
   padding-bottom: 1.25rem;
+  flex-basis: 100%;;
 }
 
 #footer-social ul > li > a > span.fa-stack {
@@ -121,29 +122,20 @@ html body #copyright_by {
 // Medium devices (tablets) and below: <= 992px
 @include media-breakpoint-down(md) {
   // add/overwrite styles for responsive level md and lower
-  #footer-social ul > li{
-    padding-bottom: 10px;
-  }
-  #footer-social ul > li > a > span {
-    margin-right: 10px;
-  }
 
   #pp_footer-nav {
-    margin-top: 3rem;
+    margin-top: 0;
     margin-bottom: 2rem;
-
-    & > li {
-      padding-bottom: 0;
-      margin-right: 1rem;
-    }
+    flex-direction: column !important;
   }
-
-
 }
 
 // Small devices (landscape phones) and below: <= 768px
 @include media-breakpoint-down(sm) {
   // add/overwrite styles for responsive level sm and lower
+  html body #powered_by {
+    margin-top: 1rem;
+  }
 }
 
 // Extra small devices (portrait phones): <= 576px

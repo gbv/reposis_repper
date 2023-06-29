@@ -89,6 +89,39 @@
     }
   }
 
+  .navbar-light .navbar-toggler {
+    border-color: rgba($p-petrol, 1);
+  }
+
+  .mir-main-nav__entries--mobile {
+    overflow:auto;
+    height: 90vh;
+    width: 90vw;
+    min-width: 240px;
+    position: absolute;
+    z-index: 4004;
+    top: 5vh;
+    left: 5vw;
+    padding: 5vh 5vw;
+    background-color: rgba(white, 0.95);
+    border: 1px solid $p-petrol;
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.1);
+    .navbar-nav .dropdown-menu.show {
+      position: static !important;
+      transform: none !important;
+      display: block !important;
+      overflow: hidden;
+    }
+    &-close {
+      position: absolute;
+      z-index: 4005;
+      top: 0;
+      right: 0;
+      color: $p-petrol;
+      font-size: 2rem;
+    }
+  }
+
 /* ************************ tabs ************************ */
 
 // tab menu
@@ -128,15 +161,30 @@
   }
 }
 
+.dropdown-submenu {
+  .dropdown-menu {
+    overflow: auto;
+    max-height: 60vh;
+  }
+}
+
+
+
+
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
+  .pp-main-nav {
+    margin-top: 3rem;
+  }
 }
 
 // Medium devices (tablets) and below: <= 992px
 @include media-breakpoint-down(md) {
   // add/overwrite styles for responsive level md and lower
   .pp-main-nav {
+    margin-top: 4rem;
+    margin-bottom: .5rem;
     .navbar {
       align-items: flex-start;
     }
@@ -154,4 +202,7 @@
 // Extra small devices (portrait phones): <= 576px
 @include media-breakpoint-down(xs) {
   // add/overwrite styles for responsive level xs
+  .pp-main-nav {
+    margin-top: 5.5rem;
+  }
 }

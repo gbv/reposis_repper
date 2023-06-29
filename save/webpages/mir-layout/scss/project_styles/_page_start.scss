@@ -31,6 +31,7 @@
       padding-top: 15rem;
       padding-bottom: 0;
       background-color: $p-dark-white;
+      overflow: hidden;
     }
     &__links {
     }
@@ -169,6 +170,19 @@
     }
   }
 
+  .page-section__institutions.hide-slider {
+    .carousel-item {
+      display: block;
+      float: none;
+    }
+    .carousel-control-prev,
+    .carousel-control-next,
+    .carousel-indicators,
+    .show-all-institutions-box {
+      display: none;
+    }
+  }
+
   #main_content h2 {
     color: $p-orange;
     font-size: 2.75rem !important;
@@ -181,6 +195,7 @@
 
   .p-statistics {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     .p-statistic {

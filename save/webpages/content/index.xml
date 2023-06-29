@@ -16,7 +16,7 @@
                   <img
                     class="slogan__image"
                     alt="flieder"
-                    src="/mir/images/decoration/PatternStrichpunktGrossKreisViertel.svg" />
+                    src="../images/decoration/PatternStrichpunktGrossKreisViertel.svg" />
                   <div class="slogan__text">Freier Zugang<br /> zu Wissen</div>
                 </div>
               </div>
@@ -34,7 +34,7 @@
                 <img
                   class="image-embed-item"
                   alt="flieder"
-                  src="/mir/images/decoration/PatternSchlangenlinenGross.svg" />
+                  src="../images/decoration/PatternSchlangenlinenGross.svg" />
               </div>
             </div>
 
@@ -205,15 +205,21 @@
           <div class="col">
             <h2 class="d-none">Daten</h2>
             <div class="p-statistics">
-              <a href="#" class="p-statistic p-statistic__reviews">
+              <a
+                href="../servlets/solr/select?q=%2Bcategory.top:mir_genres\:review+%2BobjectType:mods+%2Bcategory.top:state\:published"
+                class="p-statistic p-statistic__reviews">
                 <span class="p-statistic__title">Rezensionen</span>
                 <span class="p-statistic__value">6.174</span>
               </a>
-              <a href="#" class="p-statistic p-statistic__articles">
+              <a
+                href="../servlets/solr/select?q=%2Bcategory.top%3Amir_genres\:article+%2BobjectType%3Amods+%2Bcategory.top%3Astate\:published"
+                class="p-statistic p-statistic__articles">
                 <span class="p-statistic__title">Artikel</span>
                 <span class="p-statistic__value">26.118</span>
               </a>
-              <a href="#" class="p-statistic p-statistic__research">
+              <a
+                href="../servlets/solr/select?q=%2Bcategory.top%3Amir_genres\:research_data+%2BobjectType%3Amods+%2Bcategory.top%3Astate\:published"
+                class="p-statistic p-statistic__research">
                 <span class="p-statistic__title">Forschungsdaten</span>
                 <span class="p-statistic__value">14</span>
               </a>
@@ -433,8 +439,8 @@
                 <span class="sr-only">Next</span>
               </a>
             </div>
-            <div class="text-center">
-              <a href="#" class="btn btn-primary">Zeige alle Institutionen</a>
+            <div class="text-center show-all-institutions-box">
+              <a href="#" class="btn btn-primary js-show-all-institutions">Zeige alle Institutionen</a>
             </div>
           </div>
         </div>
@@ -446,7 +452,7 @@
         <div class="row ">
           <div class="col-12" lang="de">
             <h2>Ausgewählte Publikationen</h2>
-            <div class="carousel slide" data-interval="6000" data-ride="carousel"
+            <div class="carousel slide" data-interval="0" data-ride="carousel"
               id="carousel-publications"><!-- Indicators -->
               <ol class="carousel-indicators">
                 <li class="active" data-slide-to="0" data-target="#carousel-publications"></li>

@@ -29,18 +29,27 @@
           </ul>
         </nav>
 
+        <div class="search-button search-toggler js-search-toggler">
+          <span class="search-button__label">Schnellsuche</span>
+          <i class="fas fa-search search-button__icon"></i>
+        </div>
+
         <div class="searchfield_box">
-          <div class="search-button">
-            <i class="fas fa-search search-button__icon"></i>
-            <span class="search-button__label">Schnellsuche</span>
-          </div>
+          <button class="btn js-search-close text-primary">
+            <i class="far fa-times-circle search-button__close"></i>
+          </button>
           <form
+            id="bs-searchHeader"
             action="{$WebApplicationBaseURL}servlets/solr/find"
-            class="navbar-form navbar-left float-right form-inline d-none"
+            class="bs-search form-inline"
             role="search">
-            <div class="form-group">
-              <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
-              <input name="condQuery" placeholder="{i18n:translate('mir.navsearch.placeholder')}" class="form-control search-query" id="searchInput" type="text" />
+            <div class="js-searchbar">
+              <input
+                id="searchbar"
+                name="condQuery"
+                placeholder="{i18n:translate('mir.navsearch.placeholder')}"
+                class="form-control search-query"
+                type="text" />
               <xsl:choose>
                 <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
                   <input name="owner" type="hidden" value="createdby:*" />
@@ -49,6 +58,9 @@
                   <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
                 </xsl:when>
               </xsl:choose>
+              <button type="submit" class="btn pnt-primary text-primary">
+                <i class="fas fa-search search-button__icon"></i>
+              </button>
             </div>
           </form>
         </div>
@@ -59,11 +71,11 @@
               class="navbar-toggler"
               type="button"
               data-toggle="collapse"
-              data-target=".mir-main-nav__entries"
-              aria-controls="mir-main-nav__entries"
+              data-target=".mir-main-nav__entries--mobile"
+              aria-controls="mir-main-nav__entries--mobile"
               aria-expanded="false"
               aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon text-primary"></span>
             </button>
             <div class="collapse navbar-collapse mir-main-nav__entries">
               <ul class="navbar-nav">
@@ -83,6 +95,27 @@
       <a href="mailto:perspectivia@MaxWeberStiftung.de">Feedback</a>
     </div>
 
+    <div class="collapse mir-main-nav__entries--mobile">
+      <button
+        class="mir-main-nav__entries--mobile-close btn"
+        type="button"
+        data-toggle="collapse"
+        data-target=".mir-main-nav__entries--mobile"
+        aria-controls="mir-main-nav__entries--mobile"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="far fa-times-circle "></i>
+      </button>
+
+      <ul class="navbar-nav">
+        <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']" />
+        <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
+        <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='quicklinks']" />
+        <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" />
+        <xsl:call-template name="mir.basketMenu" />
+      </ul>
+    </div>
+
   </xsl:template>
 
   <xsl:template name="mir.jumbotwo">
@@ -94,7 +127,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-12 col-lg mws-logo">
+          <div class="col mws-logo">
             <xsl:choose>
               <xsl:when test="$CurrentLang = 'de'">
                 <a href="http://www.maxweberstiftung.de/">
@@ -117,7 +150,7 @@
             </xsl:choose>
           </div>
 
-          <div class="col-12 col-lg footer-nav">
+          <div class="col footer-nav">
             <ul id="pp_footer-nav" class="nav flex-column flex-md-row flex-lg-column">
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
             </ul>
