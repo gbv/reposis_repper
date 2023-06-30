@@ -160,7 +160,9 @@ a.readmore {
 .carousel-item__content-box {
   padding-bottom: 2rem;
   img {
-    width: 100%;
+    max-width: 300px;
+    float: left;
+    margin-right: 2rem;
   }
 }
 

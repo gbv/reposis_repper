@@ -59,6 +59,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 190%;
       }
       &__image {
         position:absolute;
@@ -71,7 +72,8 @@
         z-index: 500;
         font-size: 2.75rem;
         color: white;
-        margin-left: 10rem;
+        width: 100%;
+        margin-left: 24%;
       }
     }
     .intro-text {
@@ -79,6 +81,9 @@
       padding: 5rem 2rem 5.5rem 2rem;
       font-size: 1.25rem;
       line-height: 2.25rem;
+      &__slogan {
+        display: none;
+      }
     }
     .decoration {
       flex-basis: 15%;
@@ -167,6 +172,7 @@
       margin-top: 2rem;
       font-size: 1.25rem;
       font-weight: 700;
+      overflow-wrap: break-word;
     }
   }
 
@@ -183,10 +189,17 @@
     }
   }
 
-  #main_content h2 {
-    color: $p-orange;
-    font-size: 2.75rem !important;
+  #main_content {
+    h2 {
+      color: $p-orange;
+      font-size: 2.75rem !important;
+    }
+    .intro-box h2 {
+      color: $p-pink;
+    }
   }
+
+
 
   p {
     font-size: 1.25rem;
@@ -394,43 +407,193 @@
   margin: 0;
 }
 
+// own breakpoint
+@media ( max-width: 1520px ) {
+  .mir-start_page {
+    .intro-box {
+      .slogan {
+        &__text {
+          margin-left: 35%;
+        }
+      }
+    }
+  }
+}
+
+// own breakpoint
+@media ( max-width: 1310px ) {
+  .mir-start_page {
+    .intro-box {
+      .slogan {
+        &__text {
+          font-size: 2.5rem;
+          margin-left: 40%;
+        }
+      }
+    }
+  }
+}
+
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
-  #pp_arrowToJournals,
-  #pp_arrowToMIR {
-    height: 350px;
-  }
-  #pp_arrowToSources {
-    height: 250px;
+  .mir-start_page {
+    .intro-box {
+      .slogan {
+        flex-basis: 20%;
+        position: relative;
+        &::before {
+          content: '';
+          position:absolute;
+          top: 5%;
+          left: -1px;
+          height: 90%;
+          background-color: $p-dark-white;
+          width: 1px;
+        }
+        &__text {
+          display: none;
+        }
+        &__image {
+          left: auto;
+          right: 0;
+        }
+      }
+      .intro-text {
+        flex-basis: 70%;
+        &__slogan {
+          display: block;
+          color: $p-pink;
+        }
+      }
+      .decoration {
+        flex-basis: 10%;
+      }
+    }
   }
 }
 
 // Medium devices (tablets) and below: <= 992px
 @include media-breakpoint-down(md) {
   // add/overwrite styles for responsive level md and lower
-  #pp_arrowToJournals,
-  #pp_arrowToMIR {
-    height: 450px;
-  }
-  #pp_arrowToSources {
-    height: 350px;
+  .mir-start_page {
+    .intro-box {
+      .slogan {
+        flex-basis: 10%;
+      }
+      .intro-text {
+        flex-basis: 85%;
+      }
+      .decoration {
+        flex-basis: 5%;
+      }
+    }
+    .teaser {
+      justify-content: space-between;
+      &__item {
+        flex-basis: 33%;
+      }
+    }
+    .p-tiles {
+      .p-tile {
+        flex-basis: 45%;
+      }
+    }
+    .p-statistics {
+      .p-statistic {
+        flex-direction: row;
+        flex-basis: 100%;
+        justify-content: flex-start;
+        margin-bottom: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+        &__title {
+          text-align: left;
+          padding-left: 1rem;
+        }
+        &__value {
+          flex-basis: 30%;
+          text-align: right;
+        }
+      }
+    }
   }
 }
 
 // Small devices (landscape phones) and below: <= 768px
 @include media-breakpoint-down(sm) {
   // add/overwrite styles for responsive level sm and lower
-  #pp_arrowToJournals,
-  #pp_arrowToMIR {
-    display: none;
+  .mir-start_page {
+    .intro-box {
+      .slogan {
+        flex-basis: 1%;
+      }
+      .intro-text {
+        flex-basis: 98%;
+        padding: 2rem 2rem 2rem 2rem;
+      }
+      .decoration {
+        flex-basis: 1%;
+      }
+    }
+    #main_content {
+      .intro-box h2 {
+        font-size: 2rem !important;
+      }
+    }
   }
-  #pp_arrowToSources {
-    height: 550px;
-  }
+
 }
 
 // Extra small devices (portrait phones): <= 576px
 @include media-breakpoint-down(xs) {
   // add/overwrite styles for responsive level xs
+  .mir-start_page {
+    .page-section {
+      &__intro {
+        padding-top: 3rem;
+      }
+    }
+    .intro-box {
+      .slogan {
+        display: none;
+      }
+      .intro-text {
+        flex-basis: 100%;
+      }
+      .decoration {
+        display: none;
+      }
+    }
+    .teaser {
+      justify-content: space-between;
+      &__item {
+        flex-basis: 50%;
+      }
+    }
+    .p-tiles {
+      justify-content: center;
+      .p-tile {
+        flex-basis: 90%;
+      }
+    }
+    .p-statistics {
+      .p-statistic {
+        flex-direction: column;
+        flex-basis: 100%;
+        justify-content: center;
+        margin-bottom: 3rem;
+        margin-left: 0;
+        margin-right: 0;
+        &__title {
+          text-align: center;
+          padding-left: 0;
+        }
+        &__value {
+          flex-basis: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
 }
