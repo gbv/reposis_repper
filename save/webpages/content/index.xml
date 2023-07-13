@@ -16,7 +16,7 @@
                   <img
                     class="slogan__image"
                     alt="flieder"
-                    src="../images/decoration/PatternStrichpunktGrossKreisViertel.svg" />
+                    src="../images/backgrounds/PatternStrichpunktGrossKreisViertel.svg" />
                   <div class="slogan__text">Freier Zugang<br /> zu Wissen</div>
                 </div>
               </div>
@@ -36,7 +36,7 @@
                 <img
                   class="image-embed-item"
                   alt="flieder"
-                  src="../images/decoration/PatternSchlangenlinenGross.svg" />
+                  src="../images/backgrounds/PatternSchlangenlinenGross.svg" />
               </div>
             </div>
 
@@ -102,13 +102,13 @@
                 <img
                   alt=""
                   class="p-tile__background p-tile__petrol"
-                  src="../images/decoration/KachelHintergrund.svg"
+                  src="../images/backgrounds/tile-back-basic.svg"
                   width="100%"
                   height="auto" />
                 <img
                   alt=""
                   class="p-tile__arrow"
-                  src="../images/decoration/icon-feather-arrow-up-right.svg" />
+                  src="../images/icons/icon-feather-arrow-up-right.svg" />
                 <div class="p-tile__content">
                   <h3 class="p-tile__headline">Überschrift</h3>
                   <p class="p-tile-text">Text 1</p>
@@ -119,13 +119,13 @@
                 <img
                   alt=""
                   class="p-tile__background p-tile__purple"
-                  src="../images/decoration/KachelHintergrund.svg"
+                  src="../images/backgrounds/tile-back-basic.svg"
                   width="100%"
                   height="auto" />
                 <img
                   alt=""
                   class="p-tile__arrow"
-                  src="../images/decoration/icon-feather-arrow-up-right.svg" />
+                  src="../images/icons/icon-feather-arrow-up-right.svg" />
                 <div class="p-tile__content">
                   <h3 class="p-tile__headline">Überschrift</h3>
                   <p class="p-tile-text">Text 2</p>
@@ -136,13 +136,13 @@
                 <img
                   alt=""
                   class="p-tile__background p-tile__pink"
-                  src="../images/decoration/KachelHintergrund.svg"
+                  src="../images/backgrounds/tile-back-basic.svg"
                   width="100%"
                   height="auto" />
                 <img
                   alt=""
                   class="p-tile__arrow"
-                  src="../images/decoration/icon-feather-arrow-up-right.svg" />
+                  src="../images/icons/icon-feather-arrow-up-right.svg" />
                 <div class="p-tile__content">
                   <h3 class="p-tile__headline">Überschrift</h3>
                   <p class="p-tile-text">Text 3</p>
@@ -153,13 +153,13 @@
                 <img
                   alt=""
                   class="p-tile__background p-tile__orange"
-                  src="../images/decoration/KachelHintergrund.svg"
+                  src="../images/backgrounds/tile-back-basic.svg"
                   width="100%"
                   height="auto" />
                 <img
                   alt=""
                   class="p-tile__arrow"
-                  src="../images/decoration/icon-feather-arrow-up-right.svg" />
+                  src="../images/icons/icon-feather-arrow-up-right.svg" />
                 <div class="p-tile__content">
                   <h3 class="p-tile__headline">Überschrift</h3>
                   <p class="p-tile-text">Text 4</p>
@@ -170,13 +170,13 @@
                 <img
                   alt=""
                   class="p-tile__background p-tile__petrol"
-                  src="../images/decoration/KachelHintergrund.svg"
+                  src="../images/backgrounds/tile-back-basic.svg"
                   width="100%"
                   height="auto" />
                 <img
                   alt=""
                   class="p-tile__arrow"
-                  src="../images/decoration/icon-feather-arrow-up-right.svg" />
+                  src="../images/icons/icon-feather-arrow-up-right.svg" />
                 <div class="p-tile__content">
                   <h3 class="p-tile__headline">Überschrift</h3>
                   <p class="p-tile-text">Text 5</p>
@@ -187,13 +187,13 @@
                 <img
                   alt=""
                   class="p-tile__background p-tile__purple"
-                  src="../images/decoration/KachelHintergrund.svg"
+                  src="../images/backgrounds/tile-back-basic.svg"
                   width="100%"
                   height="auto" />
                 <img
                   alt=""
                   class="p-tile__arrow"
-                  src="../images/decoration/icon-feather-arrow-up-right.svg" />
+                  src="../images/icons/icon-feather-arrow-up-right.svg" />
                 <div class="p-tile__content">
                   <h3 class="p-tile__headline">Überschrift</h3>
                   <p class="p-tile-text">Text 6</p>
@@ -250,6 +250,9 @@
               <ol class="carousel-indicators">
                 <li class="active" data-slide-to="0" data-target="#carousel-institutes"></li>
                 <li data-slide-to="1" data-target="#carousel-institutes"></li>
+                <li data-slide-to="2" data-target="#carousel-institutes"></li>
+                <li data-slide-to="3" data-target="#carousel-institutes"></li>
+                <li data-slide-to="4" data-target="#carousel-institutes"></li>
               </ol>
 
               <!-- Wrapper for slides -->
@@ -258,9 +261,9 @@
                 <div class="carousel-item active">
                   <div class="row carousel-item__content-box">
 
-                    <div class="col-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
                       <a
-                        href="#"
+                        href="about/institutes/mws.xml"
                         class="slider-institute slider-institute-mws">
                         <div class="slider-institute-figure">
                           <img
@@ -270,7 +273,7 @@
                           <img
                             alt=""
                             class="img-fluid slider-institute-image"
-                            src="../images/institute-figures/mws-figure.png" />
+                            src="../images/institutes/mws-figure.png" />
                         </div>
                         <div class="slider-institute-title">
                           Max Weber Stiftung –
@@ -279,30 +282,30 @@
                       </a>
                     </div>
 
-                    <div class="col-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
                       <a
-                        href="#"
-                        class="slider-institute slider-institute-paris">
+                        href="about/institutes/dfk.xml"
+                        class="slider-institute slider-institute-dfk">
                         <div class="slider-institute-figure">
                           <img
                             alt=""
                             class="slider-institute-logo"
-                            src="../images/logos/dhi-paris-logo.jpg" />
+                            src="../images/logos/dfk-paris-logo.jpg" />
                           <img
                             alt=""
                             class="img-fluid slider-institute-image"
-                            src="../images/institute-figures/dhi-paris-figure.jpg" />
+                            src="../images/institutes/dfk-louvre.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Deutsches Forum für Kunstgeschichte Paris
+                          Deutsches Forum für Kunstgeschichte Paris (DFK)
                         </div>
                       </a>
                     </div>
 
-                    <div class="col-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
                       <a
-                        href="#"
-                        class="slider-institute slider-institute-london">
+                        href="about/institutes/dhi-london.xml"
+                        class="slider-institute slider-institute-ghil">
                         <div class="slider-institute-figure">
                           <img
                             alt=""
@@ -311,17 +314,17 @@
                           <img
                             alt=""
                             class="img-fluid slider-institute-image"
-                            src="../images/institute-figures/dhi-london-figure.jpg" />
+                            src="../images/institutes/dhi-london-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Deutsches Historisches Institut London
+                          Deutsches Historisches Institut London (GHIL)
                         </div>
                       </a>
                     </div>
 
-                    <div class="col-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
                       <a
-                        href="#"
+                        href="about/institutes/dhi-moskau.xml"
                         class="slider-institute slider-institute-moskau">
                         <div class="slider-institute-figure">
                           <img
@@ -331,10 +334,10 @@
                           <img
                             alt=""
                             class="img-fluid slider-institute-image"
-                            src="../images/institute-figures/dhi-moskau-figure.jpg" />
+                            src="../images/institutes/dhi-moskau-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Deutsches Historisches Institut Moskau
+                          Deutsches Historisches Institut Moskau (DHI)
                         </div>
                       </a>
                     </div>
@@ -345,30 +348,9 @@
                 <div class="carousel-item">
                   <div class="row carousel-item__content-box">
 
-                    <div class="col-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
                       <a
-                        href="#"
-                        class="slider-institute slider-institute-mws">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/max-weber-stiftung-de.svg" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institute-figures/mws-figure.png" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Max Weber Stiftung –
-                          Deutsche Geistes&#173;wissenschaftliche Institute im Ausland
-                        </div>
-                      </a>
-                    </div>
-
-                    <div class="col-6 col-lg-3 mb-3 mb-lg-0">
-                      <a
-                        href="#"
+                        href="about/institutes/dhi-paris.xml"
                         class="slider-institute slider-institute-paris">
                         <div class="slider-institute-figure">
                           <img
@@ -378,53 +360,272 @@
                           <img
                             alt=""
                             class="img-fluid slider-institute-image"
-                            src="../images/institute-figures/dhi-paris-figure.jpg" />
+                            src="../images/institutes/dhi-paris-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Deutsches Forum für Kunstgeschichte Paris
+                          Deutsches Historisches Institut Paris (DHI)
                         </div>
                       </a>
                     </div>
 
-                    <div class="col-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
                       <a
-                        href="#"
-                        class="slider-institute slider-institute-london">
+                        href="about/institutes/dhi-rom.xml"
+                        class="slider-institute slider-institute-rom">
                         <div class="slider-institute-figure">
                           <img
                             alt=""
                             class="slider-institute-logo"
-                            src="../images/logos/dhi-london-logo.jpg" />
+                            src="../images/logos/dhi-rom-logo.jpg" />
                           <img
                             alt=""
                             class="img-fluid slider-institute-image"
-                            src="../images/institute-figures/dhi-london-figure.jpg" />
+                            src="../images/institutes/dhi-rom-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Deutsches Historisches Institut London
+                          Deutsches Historisches Institut Rom (DHI)
                         </div>
                       </a>
                     </div>
 
-                    <div class="col-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
                       <a
-                        href="#"
-                        class="slider-institute slider-institute-moskau">
+                        href="about/institutes/dhi-warschau.xml"
+                        class="slider-institute slider-institute-warsaw">
                         <div class="slider-institute-figure">
                           <img
                             alt=""
                             class="slider-institute-logo"
-                            src="../images/logos/dhi-moskau-logo.jpg" />
+                            src="../images/logos/dhi-warschau-logo.jpg" />
                           <img
                             alt=""
                             class="img-fluid slider-institute-image"
-                            src="../images/institute-figures/dhi-moskau-figure.jpg" />
+                            src="../images/institutes/dhi-warschau-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Deutsches Historisches Institut Moskau
+                          Deutsches Historisches Institut Warschau (DHI)
                         </div>
                       </a>
                     </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                      <a
+                        href="about/institutes/dhi-washington.xml"
+                        class="slider-institute slider-institute-washington">
+                        <div class="slider-institute-figure">
+                          <img
+                            alt=""
+                            class="slider-institute-logo"
+                            src="../images/logos/dhi-washingtondc-logo.jpg" />
+                          <img
+                            alt=""
+                            class="img-fluid slider-institute-image"
+                            src="../images/institutes/dhi-washington-figure.jpg" />
+                        </div>
+                        <div class="slider-institute-title">
+                          Deutsches Historisches Institut Washington (DHI)
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row carousel-item__content-box">
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                      <a
+                        href="about/institutes/dij.xml"
+                        class="slider-institute slider-institute-dij">
+                        <div class="slider-institute-figure">
+                          <img
+                            alt=""
+                            class="slider-institute-logo"
+                            src="../images/logos/dij-tokio-logo.jpg" />
+                          <img
+                            alt=""
+                            class="img-fluid slider-institute-image"
+                            src="../images/institutes/dij-figure.jpg" />
+                        </div>
+                        <div class="slider-institute-title">
+                          Deutsches Institut für Japanstudien Tokio (DIJ)
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                      <a
+                        href="about/institutes/oib.xml"
+                        class="slider-institute slider-institute-oib">
+                        <div class="slider-institute-figure">
+                          <img
+                            alt=""
+                            class="slider-institute-logo"
+                            src="../images/logos/io-beirut-logo.jpg" />
+                          <img
+                            alt=""
+                            class="img-fluid slider-institute-image"
+                            src="../images/institutes/oib-figure.jpg" />
+                        </div>
+                        <div class="slider-institute-title">
+                          Orient-Institut Beirut (OIB)
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                      <a
+                        href="about/institutes/oii.xml"
+                        class="slider-institute slider-institute-oii">
+                        <div class="slider-institute-figure">
+                          <img
+                            alt=""
+                            class="slider-institute-logo"
+                            src="../images/logos/oii-logo.jpg" />
+                          <img
+                            alt=""
+                            class="img-fluid slider-institute-image"
+                            src="../images/institutes/oii-figure.jpg" />
+                        </div>
+                        <div class="slider-institute-title">
+                          Orient-Institut Istanbul (OII)
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                      <a
+                        href="about/institutes/mwf.xml"
+                        class="slider-institute slider-institute-mwf">
+                        <div class="slider-institute-figure">
+                          <img
+                            alt=""
+                            class="slider-institute-logo"
+                            src="../images/logos/mwf-logo.jpg" />
+                          <img
+                            alt=""
+                            class="img-fluid slider-institute-image"
+                            src="../images/institutes/mwf-figure.jpg" />
+                        </div>
+                        <div class="slider-institute-title">
+                          Max Weber Forum für Südasienstudien Delhi (MWF)
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row carousel-item__content-box">
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                      <a
+                        href="about/institutes/adef.xml"
+                        class="slider-institute slider-institute-agf">
+                        <div class="slider-institute-figure">
+                          <img
+                            alt=""
+                            class="slider-institute-logo"
+                            src="../images/logos/agf.png" />
+                          <img
+                            alt=""
+                            class="img-fluid slider-institute-image"
+                            src="../images/institutes/adef-figure.jpg" />
+                        </div>
+                        <div class="slider-institute-title">
+                          Arbeitskreis Großbritannien-Forschung (AGF)
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                      <a
+                        href="about/institutes/trafo.xml"
+                        class="slider-institute slider-institute-trafo">
+                        <div class="slider-institute-figure">
+                          <img
+                            alt=""
+                            class="slider-institute-logo"
+                            src="../images/logos/trafo.jpeg" />
+                          <img
+                            alt=""
+                            class="img-fluid slider-institute-image"
+                            src="../images/institutes/trafo-figure.jpg" />
+                        </div>
+                        <div class="slider-institute-title">
+                          Forum Transregionale Studien (TRAFO)
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                      <a
+                        href="about/institutes/spsg.xml"
+                        class="slider-institute slider-institute-spsg">
+                        <div class="slider-institute-figure">
+                          <img
+                            alt=""
+                            class="slider-institute-logo"
+                            src="../images/logos/spsg-logo.png" />
+                          <img
+                            alt=""
+                            class="img-fluid slider-institute-image"
+                            src="../images/institutes/spsg-figure.jpg" />
+                        </div>
+                        <div class="slider-institute-title">
+                          Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg (SPSG)
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                      <a
+                        href="about/institutes/ieg.xml"
+                        class="slider-institute slider-institute-ieg">
+                        <div class="slider-institute-figure">
+                          <img
+                            alt=""
+                            class="slider-institute-logo"
+                            src="../images/logos/ieg.jpg" />
+                          <img
+                            alt=""
+                            class="img-fluid slider-institute-image"
+                            src="../images/institutes/ieg-figure.jpg" />
+                        </div>
+                        <div class="slider-institute-title">
+                          Leibniz-Institut für Europäische Geschichte (IEG)
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row carousel-item__content-box">
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                      <a
+                        href="about/institutes/dzk.xml"
+                        class="slider-institute slider-institute-dzk">
+                        <div class="slider-institute-figure">
+                          <img
+                            alt=""
+                            class="slider-institute-logo"
+                            src="../images/logos/dzk-logo.jpg" />
+                          <img
+                            alt=""
+                            class="img-fluid slider-institute-image"
+                            src="../images/institutes/dzk-figure.jpg" />
+                        </div>
+                        <div class="slider-institute-title">
+                          Deutsches Zentrum Kulturgutverluste
+                        </div>
+                      </a>
+                    </div>
+
                   </div>
 
                 </div>
@@ -472,7 +673,7 @@
                   <img
                     alt=""
                     class="carousel-item__image"
-                    src="../images/slider/francia-recensio-2021.png" />
+                    src="../images/publications/francia-recensio-2021.png" />
 
                     <h3>Francia</h3>
 
@@ -505,7 +706,7 @@
                     <img
                       alt=""
                       class="carousel-item__image"
-                      src="../images/slider/scholderer.png" />
+                      src="../images/publications/scholderer.png" />
 
                     <h3>Briefwechsel Fantin-Latour &amp; Scholderer</h3>
 
@@ -538,7 +739,7 @@
                     <img
                       alt=""
                       class="carousel-item__image"
-                      src="../images/logos/pacelli.jpg" />
+                      src="../images/publications/pacelli.jpg" />
 
                     <h3>Pacelli – Nuntiaturberichte 1917-29</h3>
 

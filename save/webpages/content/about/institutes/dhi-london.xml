@@ -2,7 +2,7 @@
 <MyCoReWebPage><section xml:lang="de" title="Deutsches Historisches Institut London"><div class="row">
 <div class="col-12 pp-institute-graphic" lang="de"><img alt="dhi-london-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-london-logo-224.png" />
 <h1 class="pp-institute-graphic__headline">Deutsches Historisches Institut London</h1>
-<img alt="Foto London" class="pp-institute-graphic__figure" src="../../../images/institute-figures/dhi-london-figure.jpg" title="Deutsches Historisches Institut London" /></div>
+<img alt="Foto London" class="pp-institute-graphic__figure" src="../../../images/institutes/dhi-london-figure.jpg" title="Deutsches Historisches Institut London" /></div>
 
 <div class="col-12 pp-contact" lang="de">
 <h2>Kontakt</h2>
@@ -68,7 +68,7 @@
 </section><section xml:lang="en" title="German Historical Institute London"><div class="row">
 <div class="col-12 pp-institute-graphic" lang="de"><img alt="dhi-london-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-london-logo-224.png" />
 <h1 class="pp-institute-graphic__headline">German Historical Institute London</h1>
-<img alt="Foto London" class="pp-institute-graphic__figure" src="../../../images/institute-figures/dhi-london-figure.jpg" title="Deutsches Historisches Institut London" /></div>
+<img alt="Foto London" class="pp-institute-graphic__figure" src="../../../images/institutes/dhi-london-figure.jpg" title="Deutsches Historisches Institut London" /></div>
 
 <div class="col-12 pp-contact" lang="e">
 <h2>Contact</h2>
@@ -138,7 +138,7 @@
                 <h1 class="pp-institute-graphic__headline">
                     Institut historique allemand Londres
                 </h1>
-                <img src="../../../images/institute-figures/dhi-london-figure.jpg" class="pp-institute-graphic__figure" alt="Foto London" title="Deutsches Historisches Institut London" />
+                <img src="../../../images/institutes/dhi-london-figure.jpg" class="pp-institute-graphic__figure" alt="Foto London" title="Deutsches Historisches Institut London" />
             </div>
 
             <div class="col-12 pp-contact" lang="fr">
@@ -217,7 +217,7 @@
                 <h1 class="pp-institute-graphic__headline">
                     Deutsches Historisches Institut London
                 </h1>
-                <img src="../../../images/institute-figures/dhi-london-figure.jpg" class="pp-institute-graphic__figure" alt="Foto London" title="Deutsches Historisches Institut London" />
+                <img src="../../../images/institutes/dhi-london-figure.jpg" class="pp-institute-graphic__figure" alt="Foto London" title="Deutsches Historisches Institut London" />
             </div>
 
             <div class="col-12 pp-contact" lang="de">

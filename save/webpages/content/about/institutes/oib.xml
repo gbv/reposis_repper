@@ -2,7 +2,7 @@
 <MyCoReWebPage><section xml:lang="de" title="Orient Institut Beirut"><div class="row">
 <div class="col-12 pp-institute-graphic" lang="de"><img alt="OIB-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/oib-logo-460.jpg" />
 <h1 class="pp-institute-graphic__headline">Orient Institut Beirut</h1>
-<img alt="Foto Beirut" class="pp-institute-graphic__figure" src="../../../images/institute-figures/oib-figure.jpg" title="Orient Institut Beirut" /></div>
+<img alt="Foto Beirut" class="pp-institute-graphic__figure" src="../../../images/institutes/oib-figure.jpg" title="Orient Institut Beirut" /></div>
 
 <div class="col-12 pp-contact" lang="de">
 <h2>Kontakt</h2>
@@ -55,7 +55,7 @@ Libanon</div>
                 <h1 class="pp-institute-graphic__headline">
                     Orient Institut Beirut
                 </h1>
-                <img src="../../../images/institute-figures/oib-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Beirut" title="Orient Institut Beirut" />
+                <img src="../../../images/institutes/oib-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Beirut" title="Orient Institut Beirut" />
             </div>
 
             <div class="col-12 pp-contact" lang="de">
@@ -107,7 +107,7 @@ Libanon</div>
         </div></section><section xml:lang="fr" title="Orient-Institut Beyrouth"><div class="row">
 <div class="col-12 pp-institute-graphic" lang="fr"><img alt="OIB-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/oib-logo-460.jpg" />
 <h1 class="pp-institute-graphic__headline">Orient-Institut Beyrouth</h1>
-<img alt="Foto Beirut" class="pp-institute-graphic__figure" src="../../../images/institute-figures/oib-figure.jpg" title="Orient Institut Beirut" /></div>
+<img alt="Foto Beirut" class="pp-institute-graphic__figure" src="../../../images/institutes/oib-figure.jpg" title="Orient Institut Beirut" /></div>
 
 <div class="col-12 pp-contact" lang="fr">
 <h2>Contact</h2>
@@ -160,7 +160,7 @@ Libanon</div>
                 <h1 class="pp-institute-graphic__headline">
                     Orient Institut Beirut
                 </h1>
-                <img src="../../../images/institute-figures/oib-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Beirut" title="Orient Institut Beirut" />
+                <img src="../../../images/institutes/oib-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Beirut" title="Orient Institut Beirut" />
             </div>
 
             <div class="col-12 pp-contact" lang="de">

@@ -2,7 +2,7 @@
 <MyCoReWebPage><section xml:lang="de" title="Deutsches Forum für Kunstgeschichte Paris"><div class="row">
 <div class="col-12 pp-institute-graphic" lang="de"><img alt="DFK-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dfk-logo-rgb.svg" />
 <h1 class="pp-institute-graphic__headline">Deutsches Forum für Kunstgeschichte Paris</h1>
-<img alt="DFK-Foto" class="pp-institute-graphic__figure" src="dfk_louvre.jpg" style="width: 992px; height: 600px;" /></div>
+<img alt="DFK-Foto" class="pp-institute-graphic__figure" src="../../../images/institutes/dfk-louvre.jpg" style="width: 992px; height: 600px;" /></div>
 
 <div class="col-12 pp-contact" lang="de">
 <h2>Kontakt</h2>

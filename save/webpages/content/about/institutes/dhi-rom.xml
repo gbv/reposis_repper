@@ -2,7 +2,7 @@
 <MyCoReWebPage><section xml:lang="de" title="Deutsches Historisches Institut in Rom"><div class="row">
 <div class="col-12 pp-institute-graphic" lang="de"><img alt="DHI-Rom-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-rom-logo-425.jpg" />
 <h1 class="pp-institute-graphic__headline">Deutsches Historisches Institut in Rom</h1>
-<img alt="Foto Rom" class="pp-institute-graphic__figure" src="../../../images/institute-figures/dhi-rom-figure.jpg" title="Deutsches Historisches Institut in Rom" /></div>
+<img alt="Foto Rom" class="pp-institute-graphic__figure" src="../../../images/institutes/dhi-rom-figure.jpg" title="Deutsches Historisches Institut in Rom" /></div>
 
 <div class="col-12 pp-contact" lang="de">
 <h2>Kontakt</h2>
@@ -49,7 +49,7 @@ I - 00165 Roma</div>
 </section><section xml:lang="en" title="German Historical Institute Rome"><div class="row">
 <div class="col-12 pp-institute-graphic" lang="en"><img alt="DHI-Rom-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-rom-logo-425.jpg" />
 <h1 class="pp-institute-graphic__headline">German Historical Institute Rome</h1>
-<img alt="Foto Rom" class="pp-institute-graphic__figure" src="../../../images/institute-figures/dhi-rom-figure.jpg" title="Deutsches Historisches Institut in Rom" /></div>
+<img alt="Foto Rom" class="pp-institute-graphic__figure" src="../../../images/institutes/dhi-rom-figure.jpg" title="Deutsches Historisches Institut in Rom" /></div>
 
 <div class="col-12 pp-contact" lang="en">
 <h2>Contact</h2>
@@ -100,7 +100,7 @@ I - 00165 Roma</div>
                 <h1 class="pp-institute-graphic__headline">
                     Institut historique allemand Rome
                 </h1>
-                <img src="../../../images/institute-figures/dhi-rom-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Rom" title="Deutsches Historisches Institut in Rom" />
+                <img src="../../../images/institutes/dhi-rom-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Rom" title="Deutsches Historisches Institut in Rom" />
             </div>
 
             <div class="col-12 pp-contact" lang="fr">
@@ -153,7 +153,7 @@ I - 00165 Roma</div>
                 <h1 class="pp-institute-graphic__headline">
                     Deutsches Historisches Institut in Rom
                 </h1>
-                <img src="../../../images/institute-figures/dhi-rom-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Rom" title="Deutsches Historisches Institut in Rom" />
+                <img src="../../../images/institutes/dhi-rom-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Rom" title="Deutsches Historisches Institut in Rom" />
             </div>
 
             <div class="col-12 pp-contact" lang="de">

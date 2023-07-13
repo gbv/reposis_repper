@@ -2,7 +2,7 @@
 <MyCoReWebPage><section xml:lang="de" title="Deutsches Institut für Japanstudien Tokio"><div class="row">
 <div class="col-12 pp-institute-graphic" lang="de"><img alt="DIJT-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dij-logo-460.png" />
 <h1 class="pp-institute-graphic__headline">Deutsches Institut für Japanstudien Tokio</h1>
-<img alt="Foto Tokyo" class="pp-institute-graphic__figure" src="../../../images/institute-figures/dij-figure.jpg" title="Deutsches Institut für Japanstudien Tokio" /></div>
+<img alt="Foto Tokyo" class="pp-institute-graphic__figure" src="../../../images/institutes/dij-figure.jpg" title="Deutsches Institut für Japanstudien Tokio" /></div>
 
 <div class="col-12 pp-contact" lang="de">
 <h2>Kontakt</h2>
@@ -60,7 +60,7 @@
 </section><section xml:lang="en" title="German Institute for Japanese Studies Tokyo"><div class="row">
 <div class="col-12 pp-institute-graphic" lang="en"><img alt="DIJT-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dij-logo-460.png" />
 <h1 class="pp-institute-graphic__headline">German Institute for Japanese Studies Tokyo</h1>
-<img alt="Foto Tokyo" class="pp-institute-graphic__figure" src="../../../images/institute-figures/dij-figure.jpg" title="Deutsches Institut für Japanstudien Tokio" /></div>
+<img alt="Foto Tokyo" class="pp-institute-graphic__figure" src="../../../images/institutes/dij-figure.jpg" title="Deutsches Institut für Japanstudien Tokio" /></div>
 
 <div class="col-12 pp-contact" lang="en">
 <h2>Contact</h2>
@@ -121,7 +121,7 @@
                 <h1 class="pp-institute-graphic__headline">
                     Institut allemand des Études japonaises Tokyo
                 </h1>
-                <img src="../../../images/institute-figures/dij-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Tokyo" title="Deutsches Institut für Japanstudien Tokio" />
+                <img src="../../../images/institutes/dij-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Tokyo" title="Deutsches Institut für Japanstudien Tokio" />
             </div>
 
             <div class="col-12 pp-contact" lang="fr">
@@ -187,7 +187,7 @@
                 <h1 class="pp-institute-graphic__headline">
                     Deutsches Institut für Japanstudien Tokio
                 </h1>
-                <img src="../../../images/institute-figures/dij-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Tokyo" title="Deutsches Institut für Japanstudien Tokio" />
+                <img src="../../../images/institutes/dij-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Tokyo" title="Deutsches Institut für Japanstudien Tokio" />
             </div>
 
             <div class="col-12 pp-contact" lang="de">
