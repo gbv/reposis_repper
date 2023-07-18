@@ -5,7 +5,8 @@
     xmlns:mcrver="xalan://org.mycore.common.MCRCoreVersion"
     xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions"
     xmlns:calendar="xalan://java.util.GregorianCalendar"
-    exclude-result-prefixes="i18n mcrver mcrxsl calendar">
+    xmlns:i18ntr="http://www.mycore.org/i18n"
+    exclude-result-prefixes="i18n mcrver mcrxsl calendar i18ntr">
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
   <xsl:param name="piwikID" select="'0'" />
