@@ -181,6 +181,10 @@
     .carousel-item {
       display: block;
       float: none;
+      &__content-box {
+        max-width: none;
+        margin-right: 0;
+      }
     }
     .carousel-control-prev,
     .carousel-control-next,

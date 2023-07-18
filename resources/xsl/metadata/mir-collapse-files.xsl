@@ -15,7 +15,7 @@
   <xsl:template match="/">
     <xsl:variable xmlns:encoder="xalan://java.net.URLEncoder" name="loginURL"
       select="concat( $ServletsBaseURL, 'MCRLoginServlet',$HttpSession,'?url=', encoder:encode( string( $RequestURL ) ) )" />
-    
+
     <xsl:choose>
       <xsl:when test="key('rights', mycoreobject/@ID)/@read or key('rights', mycoreobject/structure/derobjects/derobject/@xlink:href)/@accKeyEnabled">
 
@@ -67,7 +67,12 @@
                 <div class="col-12">
                   <div class="headline">
                     <div class="title">
-                      <a class="btn btn-primary btn-sm file_toggle dropdown-toggle" data-toggle="collapse" href="#collapse{@xlink:href}" aria-expanded="false" aria-controls="collapse{@xlink:href}">
+                      <a
+                        class="btn btn-primary btn-sm file_toggle dropdown-toggle"
+                        data-toggle="collapse"
+                        href="#collapse{@xlink:href}"
+                        aria-expanded="false"
+                        aria-controls="collapse{@xlink:href}">
                         <span>
                           <xsl:choose>
                                 <xsl:when test="$derivateXML//titles/title[@xml:lang=$CurrentLang]">
@@ -147,7 +152,7 @@
           </xsl:if>
         </xsl:for-each>
         <!-- END -->
-        
+
         <!-- START: Add cover box for perspectivia -->
         <xsl:if test="mycoreobject/structure/derobjects/derobject/classification[@classid='derivate_types'][@categid='thumbnail'] and
                       (mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:location/mods:url[@access='object in context'] or

@@ -56,4 +56,5 @@ $(document).ready(function() {
 
   //  change alignment of main menu
   $(".pp-main-nav .nav-item > .dropdown-menu").addClass("dropdown-menu-right");
+  $(".pp-main-nav #basket-list-item > .dropdown-menu").addClass("dropdown-menu-right");
 });

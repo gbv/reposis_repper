@@ -49,7 +49,7 @@
                 id="searchbar"
                 name="condQuery"
                 placeholder="{i18n:translate('mir.navsearch.placeholder')}"
-                class="form-control search-query"
+                class="form-control search-query pp-rounded"
                 type="text" />
               <xsl:choose>
                 <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
@@ -143,7 +143,7 @@
                 <a href="https://www.maxweberstiftung.de/en">
                   <img
                     class="media-object img-fluid pp_footer-img"
-                    src="{$WebApplicationBaseURL}images/logos/mws_logo_standard_en_schwarz.jpg"
+                    src="{$WebApplicationBaseURL}images/logos/max-weber-stiftung-de.svg"
                     alt="Logo of Max Weber Stiftung"
                     title="Go to Max Weber Stiftung" />
                 </a>

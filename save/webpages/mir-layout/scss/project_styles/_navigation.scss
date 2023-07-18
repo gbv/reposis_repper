@@ -52,16 +52,16 @@
       padding-left: 1.25rem;
     }
   }
-
+/* replace carret by chevron for all drop downs */
   .dropdown-toggle::after {
     display: inline-block;
-    margin-left: .375;
+    margin-left: .375rem;
     vertical-align: 0;
     content: "\f078";
-    font-size: 1.125rem;
     font-weight: 900;
     font-family: "Font Awesome 5 Free";
     border: none;
+    // use font size from element to prevent layout issues
   }
 
 

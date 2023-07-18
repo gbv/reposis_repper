@@ -157,12 +157,21 @@ a.readmore {
   margin-bottom: 30px;
   line-height: 0.8;
 }
-.carousel-item__content-box {
-  padding-bottom: 2rem;
-  img {
-    //max-width: 300px;
-    float: left;
-    //margin-right: 2rem;
+.carousel-item {
+  &__content-box {
+    padding-bottom: 2rem;
+    img {
+      max-width: 300px;
+      float: left;
+      margin-right: 2rem;
+    }
+  }
+  &__tile {
+    img {
+      max-width: none;
+      float: none;
+      margin-right: 0;
+    }
   }
 }
 
@@ -256,6 +265,10 @@ a.readmore {
 
 .btn-primary:hover, #basket .btn-csl-export:hover {
   background-color: lighten($p-petrol,7.5%);
+}
+
+.pp-rounded {
+  border-radius: $pp-border-radius;
 }
 
 // Large devices (desktops) and below: <= 1200px

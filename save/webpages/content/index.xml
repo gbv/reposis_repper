@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
+<MyCoReWebPage xmlns:i18n="http://www.mycore.org/i18n">
 
   <section xml:lang="de" title="Willkommen">
     <div class="jumbotwo"></div>
@@ -17,20 +17,57 @@
                     class="slogan__image"
                     alt="flieder"
                     src="../images/backgrounds/PatternStrichpunktGrossKreisViertel.svg" />
-                  <div class="slogan__text">Freier Zugang<br /> zu Wissen</div>
+                  <div class="slogan__text">
+                    <i18n:de>Freier Zugang<br /> zu Wissen</i18n:de>
+                    <i18n:en>Free access<br /> to knowledge</i18n:en>
+                    <i18n:fr>Libre accès<br /> au savoir</i18n:fr>
+                  </div>
                 </div>
               </div>
               <div class="intro-text">
-                <h2 class="intro-text__slogan">Freier Zugang zu Wissen</h2>
+                <h2 class="intro-text__slogan">
+                  <i18n:de>Freier Zugang zu Wissen</i18n:de>
+                  <i18n:en>Free access to knowledge</i18n:en>
+                  <i18n:fr>Libre accès au savoir</i18n:fr>
+                </h2>
 
-                <p>Die digitale Publikationsplattform perspectivia.net versteht sich als ein
-                internationales, epochenübergreifendes und interdisziplinäres Portal für
-                geisteswissenschaftliche Publikationen. Als Infrastruktur der Max Weber Stiftung –
-                Deutsche Geisteswissenschaftliche Institute im Ausland werden hier von den
-                Instituten und ihren Kooperationspartnern herausgegebene Publikationen frei
-                zugänglich gemacht. Die Max Weber Stiftung ist den Prinzipien des Open Access
-                verpflichtet und perspectivia.net fördert den freien Zugang zu Wissen und begleitet
-                die Transformation der Geisteswissenschaften in Richtung einer offenen Wissenschaft.</p>
+                <p>
+                  <i18n:de>
+                    Die digitale Publikationsplattform perspectivia.net versteht sich als ein
+                    internationales, epochenübergreifendes und interdisziplinäres Portal für
+                    geisteswissenschaftliche Publikationen. Als Infrastruktur der
+                    <a href="https://www.maxweberstiftung.de/">Max Weber Stiftung –
+                    Deutsche Geisteswissenschaftliche Institute im Ausland</a> werden hier von den
+                    Instituten und ihren Kooperationspartnern herausgegebene Publikationen frei
+                    zugänglich gemacht. Die Max Weber Stiftung ist den Prinzipien des Open Access
+                    verpflichtet und perspectivia.net fördert den freien Zugang zu Wissen und
+                    begleitet die Transformation der Geisteswissenschaften in Richtung einer offenen
+                    Wissenschaft.
+                  </i18n:de>
+                  <i18n:en>
+                    The publication platform perspectivia.net sees itself as an international,
+                    epoch-spanning and interdisciplinary portal for digital publications in the
+                    humanities. This infrastructure of the
+                    <a href="https://www.maxweberstiftung.de/en">Max Weber Foundation -
+                    German Humanities Institutes Abroad</a>
+                    provides free access to publications by the institutes and
+                    their cooperation partners. This Max Weber Foundation is committed to the
+                    principles of Open Access, thus perspectivia.net promotes free access to
+                    knowledge and accompanies the transformation of the humanities towards an open
+                    science.
+                  </i18n:en>
+                  <i18n:fr>
+                    La plateforme de publication électronique perspectivia.net se veut un portail
+                    international, interdisciplinaire et historique pour les publications en
+                    sciences humaines. L'infrastructure de la Fondation
+                    <a href="https://www.maxweberstiftung.de/fr">Max Weber - Instituts
+                    allemands de sciences humaines à l'étranger</a> - rend ainsi les publications des
+                    différents instituts et de leurs partenaires librement accessibles en ligne. La
+                    Fondation Max Weber s'engage à respecter les principes de l’Open Acces et
+                    perspectivia.net promeut le libre accès au savoir et accompagne l’évolution des
+                    sciences humaines vers une science ouverte.
+                  </i18n:fr>
+                </p>
               </div>
               <div class="decoration">
                 <img
@@ -261,7 +298,7 @@
                 <div class="carousel-item active">
                   <div class="row carousel-item__content-box">
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/mws.xml"
                         class="slider-institute slider-institute-mws">
@@ -282,7 +319,7 @@
                       </a>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/dfk.xml"
                         class="slider-institute slider-institute-dfk">
@@ -302,7 +339,7 @@
                       </a>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/dhi-london.xml"
                         class="slider-institute slider-institute-ghil">
@@ -322,7 +359,7 @@
                       </a>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/dhi-moskau.xml"
                         class="slider-institute slider-institute-moskau">
@@ -348,7 +385,7 @@
                 <div class="carousel-item">
                   <div class="row carousel-item__content-box">
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/dhi-paris.xml"
                         class="slider-institute slider-institute-paris">
@@ -368,7 +405,7 @@
                       </a>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/dhi-rom.xml"
                         class="slider-institute slider-institute-rom">
@@ -388,7 +425,7 @@
                       </a>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/dhi-warschau.xml"
                         class="slider-institute slider-institute-warsaw">
@@ -408,7 +445,7 @@
                       </a>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/dhi-washington.xml"
                         class="slider-institute slider-institute-washington">
@@ -434,7 +471,7 @@
                 <div class="carousel-item">
                   <div class="row carousel-item__content-box">
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/dij.xml"
                         class="slider-institute slider-institute-dij">
@@ -454,7 +491,7 @@
                       </a>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/oib.xml"
                         class="slider-institute slider-institute-oib">
@@ -474,7 +511,7 @@
                       </a>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/oii.xml"
                         class="slider-institute slider-institute-oii">
@@ -494,7 +531,7 @@
                       </a>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/mwf.xml"
                         class="slider-institute slider-institute-mwf">
@@ -520,7 +557,7 @@
                 <div class="carousel-item">
                   <div class="row carousel-item__content-box">
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/adef.xml"
                         class="slider-institute slider-institute-agf">
@@ -540,7 +577,7 @@
                       </a>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/trafo.xml"
                         class="slider-institute slider-institute-trafo">
@@ -560,7 +597,7 @@
                       </a>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/spsg.xml"
                         class="slider-institute slider-institute-spsg">
@@ -580,7 +617,7 @@
                       </a>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/ieg.xml"
                         class="slider-institute slider-institute-ieg">
@@ -606,7 +643,7 @@
                 <div class="carousel-item">
                   <div class="row carousel-item__content-box">
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/dzk.xml"
                         class="slider-institute slider-institute-dzk">
@@ -643,7 +680,7 @@
               </a>
             </div>
             <div class="text-center show-all-institutions-box">
-              <a href="#" class="btn btn-primary js-show-all-institutions">Zeige alle Institutionen</a>
+              <a href="#" class="btn btn-primary js-show-all-institutions pp-rounded">Zeige alle Institutionen</a>
             </div>
           </div>
         </div>
