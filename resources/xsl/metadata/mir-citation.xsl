@@ -9,10 +9,11 @@
   xmlns:exslt="http://exslt.org/common"
   xmlns:piUtil="xalan://org.mycore.pi.frontend.MCRIdentifierXSLUtils"
   xmlns:csl="http://purl.org/net/xbiblio/csl"
-  exclude-result-prefixes="i18n mcr mods xlink cmd exslt piUtil"
+  exclude-result-prefixes="i18n mcr mods xlink cmd exslt piUtil csl"
 >
   <xsl:import href="xslImport:modsmeta:metadata/mir-citation.xsl" />
   <xsl:include href="mods-dc-meta.xsl"/>
+  <xsl:include href="mods-seo-meta.xsl"/>
   <xsl:include href="mods-highwire.xsl" />
   <xsl:param name="MCR.URN.Resolver.MasterURL" select="''" />
   <xsl:param name="MCR.DOI.Resolver.MasterURL" select="''" />
@@ -29,12 +30,14 @@
 
   <xsl:variable name="piServiceInformation" select="piUtil:getPIServiceInformation(mycoreobject/@ID)" />
 
+
   <xsl:template match="/">
 
-    <!-- ==================== Highwire Press Tags and Dublin Core as Meta Tags ==================== -->
+    <!-- ==================== Highwire Press Tags, Dublin Core as Meta Tags and SEO meta tags ==================== -->
     <citation_meta>
       <xsl:apply-templates select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" mode="dc-meta"/>
       <xsl:apply-templates select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" mode="highwire" />
+      <xsl:apply-templates select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" mode="seo-meta" />
     </citation_meta>
 
     <xsl:variable name="mods" select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods" />
