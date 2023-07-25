@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage xmlns:i18n="http://www.mycore.org/i18n">
+
+  <section xml:lang="de" title="Richtig zitieren">
+    <div class="page-section">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>
+              <i18n:de>Richtig zitieren</i18n:de>
+              <i18n:fr>Comment bien citer</i18n:fr>
+              <i18n:en>How to cite</i18n:en>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <meta>
+    <log lastEditor="relaunch" date="2023-05-16" time="10:00" />
+  </meta>
+
+</MyCoReWebPage>

@@ -149,6 +149,7 @@
         }
         // active tab
         &.active {
+          border-bottom: 2px solid #005580;
           &:hover,
           &:focus {
             color: #333;

@@ -82,7 +82,9 @@
               <ul class="navbar-nav">
                 <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']" />
                 <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
-                <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='quicklinks']" />
+                <xsl:call-template name="project.generate_single_menu_entry">
+                  <xsl:with-param name="menuID" select="'citation'"/>
+                </xsl:call-template>
                 <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" />
                 <xsl:call-template name="mir.basketMenu" />
               </ul>
@@ -111,7 +113,9 @@
       <ul class="navbar-nav">
         <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']" />
         <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
-        <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='quicklinks']" />
+        <xsl:call-template name="project.generate_single_menu_entry">
+          <xsl:with-param name="menuID" select="'citation'"/>
+        </xsl:call-template>
         <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" />
         <xsl:call-template name="mir.basketMenu" />
       </ul>
@@ -276,6 +280,35 @@
       </xsl:if>
       <!-- End Piwik Code -->
 
+  </xsl:template>
+
+  <xsl:template name="project.generate_single_menu_entry">
+    <xsl:param name="menuID" />
+
+    <xsl:variable name="activeClass">
+      <xsl:choose>
+        <xsl:when test="$loaded_navigation_xml/menu[@id=$menuID]/item[@href = $browserAddress ]">
+        <xsl:text>active</xsl:text>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>not-active</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+
+    <li class="nav-item {$activeClass}">
+
+      <a id="{$menuID}" href="{$WebApplicationBaseURL}{$loaded_navigation_xml/menu[@id=$menuID]/item/@href}" class="nav-link" >
+        <xsl:choose>
+          <xsl:when test="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($CurrentLang)] != ''">
+            <xsl:value-of select="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($CurrentLang)]" />
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($DefaultLang)]" />
+          </xsl:otherwise>
+        </xsl:choose>
+      </a>
+    </li>
   </xsl:template>
 
 </xsl:stylesheet>

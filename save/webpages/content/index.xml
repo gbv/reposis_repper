@@ -84,39 +84,38 @@
 
             <div class="teaser">
               <div class="teaser__item">
-                <div class="teaser__headline">Beispiel</div>
-                <div class="teaser__date">16.06.2023</div>
-                <div class="teaser__text">Kleiner Beispieltext.</div>
+                <div class="teaser__headline">Beirat</div>
+                <div class="teaser__date">01.07.2023</div>
+                <div class="teaser__text">perspectivia.net hat einen neuen Beirat.</div>
                 <div class="teaser__button">
-                  <a href="#"> Mehr <i class="fas fa-chevron-right"></i>
+                  <a href="about/beirat.xml"> Mehr <i class="fas fa-chevron-right"></i>
                   </a>
                 </div>
               </div>
               <div class="teaser__item d-none d-sm-block">
-                <div class="teaser__headline">Test</div>
-                <div class="teaser__date">16.06.2023</div>
-                <div class="teaser__text">Längerer Testtext mit etwas mehr Beispieltext.</div>
+                <div class="teaser__headline">Francia-Recensio 2023/2</div>
+                <div class="teaser__date">18.07.2023</div>
+                <div class="teaser__text">Die aktuelle Ausgabe enthält 110 Rezensionen aus den Bereichen Mittelalter, Frühe Neuzeit sowie Neuere und Neueste Geschichte.</div>
                 <div class="teaser__button">
-                  <a href="#"> Mehr <i class="fas fa-chevron-right"></i>
+                  <a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/6446"> Mehr <i class="fas fa-chevron-right"></i>
                   </a>
                 </div>
               </div>
               <div class="teaser__item d-none d-lg-block">
-                <div class="teaser__headline">Langer Test</div>
-                <div class="teaser__date">16.06.2023</div>
-                <div class="teaser__text">Langer Test mit längerem Testinhalt. Langer Test mit
-                  längerem Testinhalt.</div>
+                <div class="teaser__headline">Zum Dreißigsten</div>
+                <div class="teaser__date">20.06.2023</div>
+                <div class="teaser__text">In diesen Tagen feiert das DHI Warschau sein 30-jähriges Bestehen. </div>
                 <div class="teaser__button">
-                  <a href="#"> Mehr <i class="fas fa-chevron-right"></i>
+                  <a href="https://www.dhi.waw.pl/aktuelle-meldungen/detail/zum-dreissigsten/ "> Mehr <i class="fas fa-chevron-right"></i>
                   </a>
                 </div>
               </div>
               <div class="teaser__item">
-                <div class="teaser__headline">Überschrift</div>
+                <div class="teaser__headline">Gallia Pontificia</div>
                 <div class="teaser__date">16.06.2023</div>
-                <div class="teaser__text">Text.</div>
+                <div class="teaser__text">Papstregesten für die Erzbischöfe von Reims online verfügbar</div>
                 <div class="teaser__button">
-                  <a href="#"> Mehr <i class="fas fa-chevron-right"></i>
+                  <a href="https://qed.perspectivia.net/gallia-pontificia-online/"> Mehr <i class="fas fa-chevron-right"></i>
                   </a>
                 </div>
               </div>
@@ -135,7 +134,7 @@
 
             <div class="p-tiles">
 
-              <a href="#" class="p-tile">
+              <a href="../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=search%2Fsimple_intern.xed " class="p-tile">
                 <img
                   alt=""
                   class="p-tile__background p-tile__petrol"
@@ -147,12 +146,12 @@
                   class="p-tile__arrow"
                   src="../images/icons/icon-feather-arrow-up-right.svg" />
                 <div class="p-tile__content">
-                  <h3 class="p-tile__headline">Überschrift</h3>
-                  <p class="p-tile-text">Text 1</p>
+                  <h3 class="p-tile__headline">Browse Publications</h3>
+                  <p class="p-tile__text">Suche in den digitalen Erst- und Zweitveröffentlichungen in perspectivia.net</p>
                 </div>
               </a>
 
-              <a href="#"  class="p-tile">
+              <a href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=20&amp;rows=20"  class="p-tile">
                 <img
                   alt=""
                   class="p-tile__background p-tile__purple"
@@ -164,12 +163,12 @@
                   class="p-tile__arrow"
                   src="../images/icons/icon-feather-arrow-up-right.svg" />
                 <div class="p-tile__content">
-                  <h3 class="p-tile__headline">Überschrift</h3>
-                  <p class="p-tile-text">Text 2</p>
+                  <h3 class="p-tile__headline">Browse Source Editions</h3>
+                  <p class="p-tile__text">Digitalisierte Quellensammlungen, historische Datenbestände und kritische Editionen</p>
                 </div>
               </a>
 
-              <a href="#"  class="p-tile">
+              <a href="https://mws.hypotheses.org/ "  class="p-tile">
                 <img
                   alt=""
                   class="p-tile__background p-tile__pink"
@@ -181,12 +180,12 @@
                   class="p-tile__arrow"
                   src="../images/icons/icon-feather-arrow-up-right.svg" />
                 <div class="p-tile__content">
-                  <h3 class="p-tile__headline">Überschrift</h3>
-                  <p class="p-tile-text">Text 3</p>
+                  <h3 class="p-tile__headline">Blogs</h3>
+                  <p class="p-tile__text">WEBER 2.0 | WISSENSCHAFTLICHE BLOGS DER MAX WEBER STIFTUNG</p>
                 </div>
               </a>
 
-              <a href="#"  class="p-tile">
+              <a href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aresearch_data%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed"  class="p-tile">
                 <img
                   alt=""
                   class="p-tile__background p-tile__orange"
@@ -198,12 +197,12 @@
                   class="p-tile__arrow"
                   src="../images/icons/icon-feather-arrow-up-right.svg" />
                 <div class="p-tile__content">
-                  <h3 class="p-tile__headline">Überschrift</h3>
-                  <p class="p-tile-text">Text 4</p>
+                  <h3 class="p-tile__headline">Forschungsdaten</h3>
+                  <p class="p-tile__text">Forschungsdatenleitlinie der MWS</p>
                 </div>
               </a>
 
-              <a href="#"  class="p-tile">
+              <a href="about/partner.xml "  class="p-tile">
                 <img
                   alt=""
                   class="p-tile__background p-tile__petrol"
@@ -215,12 +214,12 @@
                   class="p-tile__arrow"
                   src="../images/icons/icon-feather-arrow-up-right.svg" />
                 <div class="p-tile__content">
-                  <h3 class="p-tile__headline">Überschrift</h3>
-                  <p class="p-tile-text">Text 5</p>
+                  <h3 class="p-tile__headline">Kooperationspartner</h3>
+                  <p class="p-tile__text">Die MWS kooperiert insbesondere mit den DFG-Fachinformationsdiensten (FIDs) und überregional tätigen Kompetenzzentren.</p>
                 </div>
               </a>
 
-              <a href="#"  class="p-tile">
+              <a href="https://www.maxweberstiftung.de/podcast.html"  class="p-tile">
                 <img
                   alt=""
                   class="p-tile__background p-tile__purple"
@@ -232,8 +231,8 @@
                   class="p-tile__arrow"
                   src="../images/icons/icon-feather-arrow-up-right.svg" />
                 <div class="p-tile__content">
-                  <h3 class="p-tile__headline">Überschrift</h3>
-                  <p class="p-tile-text">Text 6</p>
+                  <h3 class="p-tile__headline">Podcast</h3>
+                  <p class="p-tile__text">Wissen entgenzen - Der Podcast der Max Weber Stiftung</p>
                 </div>
               </a>
 
@@ -274,8 +273,9 @@
           <div class="col">
             <h2 class="">Herausgebende Institutionen</h2>
             <p>
-              Digitale Erst- und Zweitveröffentlichungen, Quelleneditionen und Datenbanken der
-              Institute der Max Weber Stiftung und ihren Partnern.
+              Digitale Erst- und Zweitveröffentlichungen,
+              Quelleneditionen und Datenbanken der Institute der
+              Max Weber Stiftung und ihren Partnern.
             </p>
             <div
               class="carousel slide carousel-institutes"

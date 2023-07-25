@@ -122,7 +122,7 @@
     }
     .teaser__headline {
       color: $p-orange;
-      font-size: 0.875rem;
+      font-size: 1rem;
       font-weight: bold;
     }
     .teaser__date {
@@ -135,7 +135,7 @@
     }
     .teaser__button {
       color: $p-orange;
-      font-size: 1.125rem;
+      font-size: 1rem;
       position: absolute;
       left: 2.25rem;
       bottom: 1rem;
@@ -264,8 +264,20 @@
       left: 0;
       z-index: 500;
       padding: 2.75rem 1.5rem;
+      height: 100%;
+    }
+    &__headline {
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+    &__text {
+      font-size: 1rem;
+      line-height: unset;
     }
   }
+}
+#main_content h3.p-tile__headline {
+  font-size: 1.4375rem;
 }
 
 
