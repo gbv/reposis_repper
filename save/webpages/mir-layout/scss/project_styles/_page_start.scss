@@ -48,14 +48,14 @@
     display: flex;
     align-items: stretch;
     .slogan {
-      flex-basis: 35%;
+      flex-basis: 25%;
       position: relative;
       &__imagebox {
         position:absolute;
         top: 5%;
         left: 0;
         height: 90%;
-        margin-left: -90%;
+        margin-left: -35%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -73,11 +73,11 @@
         font-size: 2.75rem;
         color: white;
         width: 100%;
-        margin-left: 24%;
+        margin-left: 14%;
       }
     }
     .intro-text {
-      flex-basis: 50%;
+      flex-basis: 60%;
       padding: 5rem 2rem 5.5rem 2rem;
       font-size: 1.25rem;
       line-height: 2.25rem;
@@ -418,8 +418,32 @@
   }
 }
 
+// Large devices (desktops) and below: <= 1400px
+@include media-breakpoint-down(xl) {
+  // add/overwrite styles for responsive level xl and lower
+  .mir-start_page {
+    .intro-box {
+      .slogan {
+        flex-basis: 35%;
+        &__imagebox {
+          margin-left: -90%;
+        }
+        &__text {
+          margin-left: 24%;
+        }
+      }
+      .intro-text {
+        flex-basis: 50%;
+      }
+      .decoration {
+        flex-basis: 15%;
+      }
+    }
+  }
+}
+
 // own breakpoint
-@media ( max-width: 1310px ) {
+@media ( max-width: 1450px ) {
   .mir-start_page {
     .intro-box {
       .slogan {
