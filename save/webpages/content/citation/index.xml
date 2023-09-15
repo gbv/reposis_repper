@@ -1,24 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage xmlns:i18n="http://www.mycore.org/i18n">
+<MyCoReWebPage><section xml:lang="de" title="Richtig zitieren"><div class="page-section">
+<div class="container">
+<div class="row">
+<div class="col">
+<h1><i18n:de xmlns:i18n="http://www.mycore.org/i18n">Richtig zitieren</i18n:de> <i18n:fr xmlns:i18n="http://www.mycore.org/i18n">Comment bien citer</i18n:fr> <i18n:en xmlns:i18n="http://www.mycore.org/i18n">How to cite</i18n:en></h1>
 
-  <section xml:lang="de" title="Richtig zitieren">
-    <div class="page-section">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h1>
-              <i18n:de>Richtig zitieren</i18n:de>
-              <i18n:fr>Comment bien citer</i18n:fr>
-              <i18n:en>How to cite</i18n:en>
-            </h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<p> </p>
 
-  <meta>
-    <log lastEditor="relaunch" date="2023-05-16" time="10:00" />
-  </meta>
+<p>Die Digitalisate werden, sofern möglich, unter einer <a href="https://creativecommons.org/share-your-work/licensing-types-examples/licensing-examples" title="CC-Lizenz">CC-Lizenz</a> veröffentlicht. Die Metadaten aus perspectivia.net werden unter der <a href="https://creativecommons.org/choose/zero/?lang=de">CC0-Lizenz</a> freigegeben.</p>
 
-</MyCoReWebPage>
+<p>Bitte geben Sie bei Nutzung die vollständige Quellenangabe an.</p>
+
+<p>Quellenangabe:</p>
+
+<p>persperctivia.net – Max Weber Stiftung + PURL (Persistent Uniform Resource Locator) des digitalen Objects. Der persistente Zitier-Link findet sich nicht in der Browserzeile, sondern im Feld „Zitieren“.</p>
+
+<p>Beispiele:</p>
+
+<p>persperctivia.net – Max Weber Stiftung<em>, <a href="https://doi.org/10.25360/01-2023-00004">https://doi.org/10.25360/01-2023-00004</a> (DOI)</em><br />
+persperctivia.net – Max Weber Stiftung <em><a href="https://perspectivia.net/publikationen/ghi-bulletin/2023-45-1">https://perspectivia.net/publikationen/ghi-bulletin/2023-45-1</a> (Permalink)</em></p>
+</div>
+</div>
+</div>
+</div><p>
+
+</p><p> </p><p>
+
+</p><p> </p><p>
+
+</p><p> </p><p>
+
+</p><p> </p><p>
+
+</p><p> </p><p>
+
+</p><p> </p><p>
+
+</p><p> </p><p>
+
+</p><p> </p><p>
+
+</p><p> </p><p>
+
+</p><p> </p><p>
+
+</p><p> </p><p>
+
+</p><p> </p><p>
+
+</p><p> </p><p>
+
+</p><p> </p><p>
+
+</p><p> </p><p>
+</p></section><section xml:lang="fr" title="comment bien citer"><p>Les données numériques sont publiées, dans la mesure du possible, sous licence <a href="https://creativecommons.org/share-your-work/licensing-types-examples/licensing-examples" title="CC-Lizenz">CC</a>. Les métadonnées de perspectivia.net sont partagées sous licence <a href="https://creativecommons.org/choose/zero/?lang=en">CC0</a>.</p><p>
+
+</p><p> </p><p>
+
+</p><p>En cas d'utilisation, veuillez mentionner la source complète.</p><p>
+
+</p><p>Mention de la source :</p><p>
+
+</p><p> </p><p>
+
+</p><p>persperctivia.net – Max Weber Stiftung + PURL (Persistent Uniform Resource Locator) du document numérique. Pour accéder au lien de citation correspondant, veuillez cliquer sur « Citer ».</p><p>
+
+</p><p> </p><p>
+
+</p><p>Exemples :</p><p>
+
+</p><p> </p><p>
+
+</p><p>persperctivia.net – Max Weber Stiftung<em>, <a href="https://doi.org/10.25360/01-2023-00004">https://doi.org/10.25360/01-2023-00004</a> (DOI)</em><br />
+persperctivia.net – Max Weber Stiftung <em><a href="https://perspectivia.net/publikationen/ghi-bulletin/2023-45-1">https://perspectivia.net/publikationen/ghi-bulletin/2023-45-1</a> (Permalink)</em></p><p>
+
+</p><p> </p><p>
+
+</p><p> </p><p>
+
+</p><p> </p><p>
+</p></section><section xml:lang="en" title="How to cite"><p>The digitized reproductions will be made available under <a href="https://creativecommons.org/share-your-work/licensing-types-examples/licensing-examples">CC-license</a> if applicable. All metadata from perspectivia.net will be released under the <a href="https://creativecommons.org/choose/zero/?lang=en">CC0-license</a>.</p><p>
+
+</p><p> </p><p>
+
+</p><p>In case of reproduction please cite the entire source reference.</p><p>
+
+</p><p> </p><p>
+
+</p><h3>Reference:</h3><p>
+
+</p><p> </p><p>
+
+</p><p>persperctivia.net – Max Weber Stiftung + PURL (Persistent Uniform Resource Locator) of the digital object. You will find the persistent link, which you should use for your citation in the field "Cite". Please do not use the link in the address line of the browser.</p><p>
+
+</p><p> </p><p>
+
+</p><p>Examples:</p><p>
+
+</p><p> </p><p>
+
+</p><p>persperctivia.net – Max Weber Stiftung<em>, <a href="https://doi.org/10.25360/01-2023-00004">https://doi.org/10.25360/01-2023-00004</a> (DOI)</em><br />
+persperctivia.net – Max Weber Stiftung <em><a href="https://perspectivia.net/publikationen/ghi-bulletin/2023-45-1">https://perspectivia.net/publikationen/ghi-bulletin/2023-45-1</a> (Permalink)</em></p><p>
+
+</p><p> </p><p>
+</p></section><meta><log lastEditor="mwiegel" date="2023-08-24" time="13:30" /></meta></MyCoReWebPage>

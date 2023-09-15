@@ -1,262 +1,422 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Deutsches Historisches Institut Moskau"><div class="row">
-<div class="col-12 pp-institute-graphic" lang="de"><img alt="DHIM-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-moskau-logo-200.jpg" />
-<h1 class="pp-institute-graphic__headline">Deutsches Historisches Institut Moskau</h1>
-<img alt="Foto Moskau" class="pp-institute-graphic__figure" src="../../../images/institutes/dhi-moskau-figure.jpg" title="Deutsches Historisches Institut Moskau" /></div>
+<MyCoReWebPage>
+  <section xml:lang="de" title="Deutsches Historisches Institut Moskau">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="de">
+        <img alt="DHIM-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-moskau.png"
+          style="width: 400px; height: 94px;" />
+        <h1 class="pp-institute-graphic__headline">Deutsches Historisches Institut Moskau</h1>
+        <img alt="Foto Moskau" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/dhi-moskau-figure.jpg"
+          title="Deutsches Historisches Institut Moskau" />
+      </div>
 
-<div class="col-12 pp-contact" lang="de">
-<h2>Kontakt</h2>
+      <div class="col-12 pp-contact" lang="de">
+        <h2>Kontakt</h2>
 
-<h3>Deutsches Historisches Institut Moskau</h3>
+        <h3>Deutsches Historisches Institut Moskau</h3>
 
-<div class="pp-contact__list">
-<div class="pp-contact__item">Voroncovskaja ulica 8/7<br />
-109044 Moskau</div>
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">Voroncovskaja ulica 8/7<br /> 109044 Moskau</div>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">Telefon:</td>
-			<td>+7 495 730 52 49</td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Fax:</td>
-			<td>+7 495 120 52 13</td>
-		</tr>
-	</tbody>
-</table>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Telefon:</td>
+                <td>+7 495 730 52 49</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+7 495 120 52 13</td>
+              </tr>
+            </tbody>
+          </table>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">E-Mail:</td>
-			<td><span class="madress">dhi [at] dhi-moskau.org</span></td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Internet:</td>
-			<td><a class="external-link" href="https://www.dhi-moskau.org">https://www.dhi-moskau.org</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>
+                  <span class="madress">dhi [at] dhi-moskau.org</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="https://www.dhi-moskau.org">
+                    https://www.dhi-moskau.org</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
-<div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22"> </div>
-</div>
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultthumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22">
+           </div>
+      </div>
 
-<div class="col-12 pp-sources">
-<h3>Digitale Quellenedition</h3>
+      <div class="col-12 pp-sources">
+        <h3>Digitale Quellenedition</h3>
 
-<div class="row pp-sourcesBox">
-<div class="col-4 col-md-2"><img alt="Deutsch-russisches Projekt zur Digitalisierung deutscher Dokumente in Archiven der Russischen Föderation" class="img-responsive" src="../../../images/thumbnails/dhi-moskau-deutsche-beuteakten.png" title="Deutsche Beuteakten in russischen Archiven" /></div>
+        <div class="row pp-sourcesBox">
+          <div class="col-4 col-md-2">
+            <img
+              alt="Deutsch-russisches Projekt zur Digitalisierung deutscher Dokumente in Archiven der Russischen Föderation"
+              class="img-responsive"
+              src="../../../images/thumbnails/dhi-moskau-deutsche-beuteakten.png"
+              title="Deutsche Beuteakten in russischen Archiven" />
+          </div>
 
-<div class="col-8 col-md-4"><a class="external-link" href="https://wwii.germandocsinrussia.org/de/nodes/1-bestand-500">Deutsch-russisches Projekt zur Digitalisierung deutscher Dokumente in Archiven der Russischen Föderation</a>
+          <div class="col-8 col-md-4">
+            <a class="external-link"
+              href="https://wwii.germandocsinrussia.org/de/nodes/1-bestand-500">Deutsch-russisches
+              Projekt zur Digitalisierung deutscher Dokumente in Archiven der Russischen Föderation</a>
 
-<p>Im Ergebnis des Sieges der Länder der Anti-Hitler-Koalition wurden während und nach dem Zweiten Weltkrieg Akten des Deutschen Reiches in verschiedene Länder, einschließlich Russland verbracht. Die umfangreichsten Sammlungen dieser sogenannten Trophäendokumente befinden sich in den verschiedenen Föderalen Archiven der Russischen Föderation.</p>
-</div>
+            <p>Im Ergebnis des Sieges der Länder der Anti-Hitler-Koalition wurden während und nach
+              dem Zweiten Weltkrieg Akten des Deutschen Reiches in verschiedene Länder,
+              einschließlich Russland verbracht. Die umfangreichsten Sammlungen dieser sogenannten
+              Trophäendokumente befinden sich in den verschiedenen Föderalen Archiven der Russischen
+              Föderation.</p>
+          </div>
 
-<div class="col-4 col-md-2"><img alt="Relationen vom russischen Hof. Berichte europäischer Diplomaten, 1690-1730" class="img-responsive" src="../../../images/figures/dhi-moskau-relationen-vom-hof.png" title="Relationen vom russischen Hof" /></div>
+          <div class="col-4 col-md-2">
+            <img alt="Relationen vom russischen Hof. Berichte europäischer Diplomaten, 1690-1730"
+              class="img-responsive" src="dhimoskau-relationen.png"
+              title="Relationen vom russischen Hof" />
+          </div>
 
-<div class="col-8 col-md-4"><a class="external-link" href="https://quellen.perspectivia.net/de/russische_relationen/start">Relationen vom russischen Hof. Berichte europäischer Diplomaten, 1690-1730</a>
+          <div class="col-8 col-md-4">
+            <a class="external-link"
+              href="https://quellen.perspectivia.net/de/russische_relationen/start">Relationen vom
+              russischen Hof. Berichte europäischer Diplomaten, 1690-1730</a>
 
-<p>Diese Edition enthält 660 Transkripte von Diplomatenberichten vom russischen Hof in das Heilige Römische Reich. Davon 34 für die Jahre 1690-95 (an den kaiserlichen Hof in Wien und nach Berlin) und 624 für die Jahre 1726 und 1727, sowie teilweise 1728, an nunmehr sechs Höfe (Wien, Berlin, Schleswig, Dresden, Schwerin, Braunschweig-Wolfenbüttel).</p>
-</div>
-</div>
-</div>
-</div>
-</section><section xml:lang="en" title="German Historical Institute Moscow"><div class="row">
-<div class="col-12 pp-institute-graphic" lang="en"><img alt="DHIM-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-moskau-logo-200.jpg" />
-<h1 class="pp-institute-graphic__headline">German Historical Institute Moscow</h1>
-<img alt="Foto Moskau" class="pp-institute-graphic__figure" src="../../../images/institutes/dhi-moskau-figure.jpg" title="Deutsches Historisches Institut Moskau" /></div>
+            <p>Diese Edition enthält 660 Transkripte von Diplomatenberichten vom russischen Hof in
+              das Heilige Römische Reich. Davon 34 für die Jahre 1690-95 (an den kaiserlichen Hof in
+              Wien und nach Berlin) und 624 für die Jahre 1726 und 1727, sowie teilweise 1728, an
+              nunmehr sechs Höfe (Wien, Berlin, Schleswig, Dresden, Schwerin,
+              Braunschweig-Wolfenbüttel).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="en" title="German Historical Institute Moscow">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="en">
+        <img alt="DHIM-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-moskau.png"
+          style="width: 400px; height: 94px;" />
+        <h1 class="pp-institute-graphic__headline">German Historical Institute Moscow</h1>
+        <img alt="Foto Moskau" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/dhi-moskau-figure.jpg"
+          title="Deutsches Historisches Institut Moskau" />
+      </div>
 
-<div class="col-12 pp-contact" lang="en">
-<h2>Contact</h2>
+      <div class="col-12 pp-contact" lang="en">
+        <h2>Contact</h2>
 
-<h3>German Historical Institute Moscow</h3>
+        <h3>German Historical Institute Moscow</h3>
 
-<div class="pp-contact__list">
-<div class="pp-contact__item">Voroncovskaja ulica 8/7<br />
-109044 Moskau</div>
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">Voroncovskaja ulica 8/7<br /> 109044 Moskau</div>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">Phone:</td>
-			<td>+7 495 730 52 49</td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Fax:</td>
-			<td>+7 495 120 52 13</td>
-		</tr>
-	</tbody>
-</table>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Phone:</td>
+                <td>+7 495 730 52 49</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+7 495 120 52 13</td>
+              </tr>
+            </tbody>
+          </table>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">E-Mail:</td>
-			<td><span class="madress">dhi [at] dhi-moskau.org</span></td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Internet:</td>
-			<td><a class="external-link" href="https://www.dhi-moskau.org">https://www.dhi-moskau.org</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>
+                  <span class="madress">dhi [at] dhi-moskau.org</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="https://www.dhi-moskau.org">
+                    https://www.dhi-moskau.org</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
-<div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22"> </div>
-</div>
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultthumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22">
+           </div>
+      </div>
 
-<div class="col-12 pp-sources">
-<h3>Digital source editions</h3>
-<div class="row pp-sourcesBox">
-<div class="col-4 col-md-2"><img alt="Deutsch-russisches Projekt zur Digitalisierung deutscher Dokumente in Archiven der Russischen Föderation" class="img-responsive" src="../../../images/thumbnails/dhi-moskau-deutsche-beuteakten.png" title="Deutsche Beuteakten in russischen Archiven" /></div>
+      <div class="col-12 pp-sources">
+        <h3>Digital source editions</h3>
 
-<div class="col-8 col-md-4"><a class="external-link" href="https://wwii.germandocsinrussia.org/de/nodes/1-bestand-500">Deutsch-russisches Projekt zur Digitalisierung deutscher Dokumente in Archiven der Russischen Föderation</a>
+        <div class="row pp-sourcesBox">
+          <div class="col-4 col-md-2">
+            <img
+              alt="Deutsch-russisches Projekt zur Digitalisierung deutscher Dokumente in Archiven der Russischen Föderation"
+              class="img-responsive"
+              src="../../../images/thumbnails/dhi-moskau-deutsche-beuteakten.png"
+              title="Deutsche Beuteakten in russischen Archiven" />
+          </div>
 
-<p>Im Ergebnis des Sieges der Länder der Anti-Hitler-Koalition wurden während und nach dem Zweiten Weltkrieg Akten des Deutschen Reiches in verschiedene Länder, einschließlich Russland verbracht. Die umfangreichsten Sammlungen dieser sogenannten Trophäendokumente befinden sich in den verschiedenen Föderalen Archiven der Russischen Föderation.</p>
-</div>
+          <div class="col-8 col-md-4">
+            <a class="external-link"
+              href="https://wwii.germandocsinrussia.org/de/nodes/1-bestand-500">Deutsch-russisches
+              Projekt zur Digitalisierung deutscher Dokumente in Archiven der Russischen Föderation</a>
 
-<div class="col-4 col-md-2"><img alt="Relationen vom russischen Hof. Berichte europäischer Diplomaten, 1690-1730" class="img-responsive" src="../../../images/figures/dhi-moskau-relationen-vom-hof.png" title="Relationen vom russischen Hof" /></div>
+            <p>Im Ergebnis des Sieges der Länder der Anti-Hitler-Koalition wurden während und nach
+              dem Zweiten Weltkrieg Akten des Deutschen Reiches in verschiedene Länder,
+              einschließlich Russland verbracht. Die umfangreichsten Sammlungen dieser sogenannten
+              Trophäendokumente befinden sich in den verschiedenen Föderalen Archiven der Russischen
+              Föderation.</p>
+          </div>
 
-<div class="col-8 col-md-4"><a class="external-link" href="https://quellen.perspectivia.net/de/russische_relationen/start">Relationen vom russischen Hof. Berichte europäischer Diplomaten, 1690-1730</a>
+          <div class="col-4 col-md-2">
+            <img alt="Relationen vom russischen Hof. Berichte europäischer Diplomaten, 1690-1730"
+              class="img-responsive" src="dhimoskau-relationen.png"
+              title="Relationen vom russischen Hof" />
+          </div>
 
-<p>Diese Edition enthält 660 Transkripte von Diplomatenberichten vom russischen Hof in das Heilige Römische Reich. Davon 34 für die Jahre 1690-95 (an den kaiserlichen Hof in Wien und nach Berlin) und 624 für die Jahre 1726 und 1727, sowie teilweise 1728, an nunmehr sechs Höfe (Wien, Berlin, Schleswig, Dresden, Schwerin, Braunschweig-Wolfenbüttel).</p>
-</div>
-</div>
-</div>
-</div></section><section xml:lang="fr" title="Institut historique allemand Moscou"><div class="row">
-<div class="col-12 pp-institute-graphic" lang="fr"><img alt="DHIM-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-moskau-logo-200.jpg" />
-<h1 class="pp-institute-graphic__headline">Institut historique allemand Moscou</h1>
-<img alt="Foto Moskau" class="pp-institute-graphic__figure" src="../../../images/institutes/dhi-moskau-figure.jpg" title="Deutsches Historisches Institut Moskau" /></div>
+          <div class="col-8 col-md-4">
+            <a class="external-link"
+              href="https://quellen.perspectivia.net/de/russische_relationen/start">Relationen vom
+              russischen Hof. Berichte europäischer Diplomaten, 1690-1730</a>
 
-<div class="col-12 pp-contact" lang="fr">
-<h2>Contact</h2>
+            <p>Diese Edition enthält 660 Transkripte von Diplomatenberichten vom russischen Hof in
+              das Heilige Römische Reich. Davon 34 für die Jahre 1690-95 (an den kaiserlichen Hof in
+              Wien und nach Berlin) und 624 für die Jahre 1726 und 1727, sowie teilweise 1728, an
+              nunmehr sechs Höfe (Wien, Berlin, Schleswig, Dresden, Schwerin,
+              Braunschweig-Wolfenbüttel).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="fr" title="Institut historique allemand Moscou">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="fr">
+        <img alt="DHIM-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-moskau.png"
+          style="width: 400px; height: 94px;" />
+        <h1 class="pp-institute-graphic__headline">Institut historique allemand Moscou</h1>
+        <img alt="Foto Moskau" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/dhi-moskau-figure.jpg"
+          title="Deutsches Historisches Institut Moskau" />
+      </div>
 
-<h3>Institut historique allemand Moscou</h3>
+      <div class="col-12 pp-contact" lang="fr">
+        <h2>Contact</h2>
 
-<div class="pp-contact__list">
-<div class="pp-contact__item">Voroncovskaja ulica 8/7<br />
-109044 Moskau</div>
+        <h3>Institut historique allemand Moscou</h3>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">Phone:</td>
-			<td>+7 495 730 52 49</td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Fax:</td>
-			<td>+7 495 120 52 13</td>
-		</tr>
-	</tbody>
-</table>
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">Voroncovskaja ulica 8/7<br /> 109044 Moskau</div>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">E-Mail:</td>
-			<td><span class="madress">dhi [at] dhi-moskau.org</span></td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Internet:</td>
-			<td><a class="external-link" href="https://www.dhi-moskau.org">https://www.dhi-moskau.org</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Phone:</td>
+                <td>+7 495 730 52 49</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+7 495 120 52 13</td>
+              </tr>
+            </tbody>
+          </table>
 
-<div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22"> </div>
-</div>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>
+                  <span class="madress">dhi [at] dhi-moskau.org</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="https://www.dhi-moskau.org">
+                    https://www.dhi-moskau.org</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
-<div class="col-12 pp-sources">
-<h3>Digital source editions</h3>
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultthumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22">
+           </div>
+      </div>
 
-<div class="row pp-sourcesBox">
-<div class="col-4 col-md-2"><img alt="Deutsch-russisches Projekt zur Digitalisierung deutscher Dokumente in Archiven der Russischen Föderation" class="img-responsive" src="../../../images/thumbnails/dhi-moskau-deutsche-beuteakten.png" title="Deutsche Beuteakten in russischen Archiven" /></div>
+      <div class="col-12 pp-sources">
+        <h3>Digital source editions</h3>
 
-<div class="col-8 col-md-4"><a class="external-link" href="https://wwii.germandocsinrussia.org/de/nodes/1-bestand-500">Deutsch-russisches Projekt zur Digitalisierung deutscher Dokumente in Archiven der Russischen Föderation</a>
+        <div class="row pp-sourcesBox">
+          <div class="col-4 col-md-2">
+            <img
+              alt="Deutsch-russisches Projekt zur Digitalisierung deutscher Dokumente in Archiven der Russischen Föderation"
+              class="img-responsive"
+              src="../../../images/thumbnails/dhi-moskau-deutsche-beuteakten.png"
+              title="Deutsche Beuteakten in russischen Archiven" />
+          </div>
 
-<p>Im Ergebnis des Sieges der Länder der Anti-Hitler-Koalition wurden während und nach dem Zweiten Weltkrieg Akten des Deutschen Reiches in verschiedene Länder, einschließlich Russland verbracht. Die umfangreichsten Sammlungen dieser sogenannten Trophäendokumente befinden sich in den verschiedenen Föderalen Archiven der Russischen Föderation.</p>
-</div>
+          <div class="col-8 col-md-4">
+            <a class="external-link"
+              href="https://wwii.germandocsinrussia.org/de/nodes/1-bestand-500">Deutsch-russisches
+              Projekt zur Digitalisierung deutscher Dokumente in Archiven der Russischen Föderation</a>
 
-<div class="col-4 col-md-2"><img alt="Relationen vom russischen Hof. Berichte europäischer Diplomaten, 1690-1730" class="img-responsive" src="../../../images/figures/dhi-moskau-relationen-vom-hof.png" title="Relationen vom russischen Hof" /></div>
+            <p>Im Ergebnis des Sieges der Länder der Anti-Hitler-Koalition wurden während und nach
+              dem Zweiten Weltkrieg Akten des Deutschen Reiches in verschiedene Länder,
+              einschließlich Russland verbracht. Die umfangreichsten Sammlungen dieser sogenannten
+              Trophäendokumente befinden sich in den verschiedenen Föderalen Archiven der Russischen
+              Föderation.</p>
+          </div>
 
-<div class="col-8 col-md-4"><a class="external-link" href="https://quellen.perspectivia.net/de/russische_relationen/start">Relationen vom russischen Hof. Berichte europäischer Diplomaten, 1690-1730</a>
+          <div class="col-4 col-md-2">
+            <img alt="Relationen vom russischen Hof. Berichte europäischer Diplomaten, 1690-1730"
+              class="img-responsive" src="dhimoskau-relationen.png"
+              title="Relationen vom russischen Hof" />
+          </div>
 
-<p>Diese Edition enthält 660 Transkripte von Diplomatenberichten vom russischen Hof in das Heilige Römische Reich. Davon 34 für die Jahre 1690-95 (an den kaiserlichen Hof in Wien und nach Berlin) und 624 für die Jahre 1726 und 1727, sowie teilweise 1728, an nunmehr sechs Höfe (Wien, Berlin, Schleswig, Dresden, Schwerin, Braunschweig-Wolfenbüttel).</p>
-</div>
-</div>
-</div>
-</div></section><section xml:lang="it" title="Deutsches Historisches Institut Moskau"><div class="row">
-<div class="col-12 pp-institute-graphic" lang="de"><img alt="DHIM-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-moskau-logo-200.jpg" />
-<h1 class="pp-institute-graphic__headline">Deutsches Historisches Institut Moskau</h1>
-<img alt="Foto Moskau" class="pp-institute-graphic__figure" src="../../../images/institutes/dhi-moskau-figure.jpg" title="Deutsches Historisches Institut Moskau" /></div>
+          <div class="col-8 col-md-4">
+            <a class="external-link"
+              href="https://quellen.perspectivia.net/de/russische_relationen/start">Relationen vom
+              russischen Hof. Berichte europäischer Diplomaten, 1690-1730</a>
 
-<div class="col-12 pp-contact" lang="de">
-<h2>Contact</h2>
+            <p>Diese Edition enthält 660 Transkripte von Diplomatenberichten vom russischen Hof in
+              das Heilige Römische Reich. Davon 34 für die Jahre 1690-95 (an den kaiserlichen Hof in
+              Wien und nach Berlin) und 624 für die Jahre 1726 und 1727, sowie teilweise 1728, an
+              nunmehr sechs Höfe (Wien, Berlin, Schleswig, Dresden, Schwerin,
+              Braunschweig-Wolfenbüttel).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="it" title="Deutsches Historisches Institut Moskau">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="de">
+        <img alt="DHIM-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-moskau.png"
+          style="width: 400px; height: 94px;" />
+        <h1 class="pp-institute-graphic__headline">Deutsches Historisches Institut Moskau</h1>
+        <img alt="Foto Moskau" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/dhi-moskau-figure.jpg"
+          title="Deutsches Historisches Institut Moskau" />
+      </div>
 
-<h3>Deutsches Historisches Institut Moskau</h3>
+      <div class="col-12 pp-contact" lang="de">
+        <h2>Contact</h2>
 
-<div class="pp-contact__list">
-<div class="pp-contact__item">Voroncovskaja ulica 8/7<br />
-109044 Moskau</div>
+        <h3>Deutsches Historisches Institut Moskau</h3>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">Phone:</td>
-			<td>+7 495 730 52 49</td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Fax:</td>
-			<td>+7 495 120 52 13</td>
-		</tr>
-	</tbody>
-</table>
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">Voroncovskaja ulica 8/7<br /> 109044 Moskau</div>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">E-Mail:</td>
-			<td><span class="madress">dhi [at] dhi-moskau.org</span></td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Internet:</td>
-			<td><a class="external-link" href="https://www.dhi-moskau.org">https://www.dhi-moskau.org</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Phone:</td>
+                <td>+7 495 730 52 49</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+7 495 120 52 13</td>
+              </tr>
+            </tbody>
+          </table>
 
-<div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22"> </div>
-</div>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>
+                  <span class="madress">dhi [at] dhi-moskau.org</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="https://www.dhi-moskau.org">
+                    https://www.dhi-moskau.org</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
-<div class="col-12 pp-sources">
-<h3>Digital source editions</h3>
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultthumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22">
+           </div>
+      </div>
 
-<div class="row pp-sourcesBox">
-<div class="col-4 col-md-2"><img alt="Deutsch-russisches Projekt zur Digitalisierung deutscher Dokumente in Archiven der Russischen Föderation" class="img-responsive" src="../../../images/thumbnails/dhi-moskau-deutsche-beuteakten.png" title="Deutsche Beuteakten in russischen Archiven" /></div>
+      <div class="col-12 pp-sources">
+        <h3>Digital source editions</h3>
 
-<div class="col-8 col-md-4"><a class="external-link" href="https://wwii.germandocsinrussia.org/de/nodes/1-bestand-500">Deutsch-russisches Projekt zur Digitalisierung deutscher Dokumente in Archiven der Russischen Föderation</a>
+        <div class="row pp-sourcesBox">
+          <div class="col-4 col-md-2">
+            <img
+              alt="Deutsch-russisches Projekt zur Digitalisierung deutscher Dokumente in Archiven der Russischen Föderation"
+              class="img-responsive"
+              src="../../../images/thumbnails/dhi-moskau-deutsche-beuteakten.png"
+              title="Deutsche Beuteakten in russischen Archiven" />
+          </div>
 
-<p>Im Ergebnis des Sieges der Länder der Anti-Hitler-Koalition wurden während und nach dem Zweiten Weltkrieg Akten des Deutschen Reiches in verschiedene Länder, einschließlich Russland verbracht. Die umfangreichsten Sammlungen dieser sogenannten Trophäendokumente befinden sich in den verschiedenen Föderalen Archiven der Russischen Föderation.</p>
-</div>
+          <div class="col-8 col-md-4">
+            <a class="external-link"
+              href="https://wwii.germandocsinrussia.org/de/nodes/1-bestand-500">Deutsch-russisches
+              Projekt zur Digitalisierung deutscher Dokumente in Archiven der Russischen Föderation</a>
 
-<div class="col-4 col-md-2"><img alt="Relationen vom russischen Hof. Berichte europäischer Diplomaten, 1690-1730" class="img-responsive" src="../../../images/figures/dhi-moskau-relationen-vom-hof.png" title="Relationen vom russischen Hof" /></div>
+            <p>Im Ergebnis des Sieges der Länder der Anti-Hitler-Koalition wurden während und nach
+              dem Zweiten Weltkrieg Akten des Deutschen Reiches in verschiedene Länder,
+              einschließlich Russland verbracht. Die umfangreichsten Sammlungen dieser sogenannten
+              Trophäendokumente befinden sich in den verschiedenen Föderalen Archiven der Russischen
+              Föderation.</p>
+          </div>
 
-<div class="col-8 col-md-4"><a class="external-link" href="https://quellen.perspectivia.net/de/russische_relationen/start">Relationen vom russischen Hof. Berichte europäischer Diplomaten, 1690-1730</a>
+          <div class="col-4 col-md-2">
+            <img alt="Relationen vom russischen Hof. Berichte europäischer Diplomaten, 1690-1730"
+              class="img-responsive" src="dhimoskau-relationen.png"
+              title="Relationen vom russischen Hof" />
+          </div>
 
-<p>Diese Edition enthält 660 Transkripte von Diplomatenberichten vom russischen Hof in das Heilige Römische Reich. Davon 34 für die Jahre 1690-95 (an den kaiserlichen Hof in Wien und nach Berlin) und 624 für die Jahre 1726 und 1727, sowie teilweise 1728, an nunmehr sechs Höfe (Wien, Berlin, Schleswig, Dresden, Schwerin, Braunschweig-Wolfenbüttel).</p>
-</div>
-</div>
-</div>
-</div></section><meta><log lastEditor="agerber" date="2022-10-10" time="12:53" /></meta></MyCoReWebPage>
+          <div class="col-8 col-md-4">
+            <a class="external-link"
+              href="https://quellen.perspectivia.net/de/russische_relationen/start">Relationen vom
+              russischen Hof. Berichte europäischer Diplomaten, 1690-1730</a>
+
+            <p>Diese Edition enthält 660 Transkripte von Diplomatenberichten vom russischen Hof in
+              das Heilige Römische Reich. Davon 34 für die Jahre 1690-95 (an den kaiserlichen Hof in
+              Wien und nach Berlin) und 624 für die Jahre 1726 und 1727, sowie teilweise 1728, an
+              nunmehr sechs Höfe (Wien, Berlin, Schleswig, Dresden, Schwerin,
+              Braunschweig-Wolfenbüttel).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <meta>
+    <log lastEditor="agerber" date="2023-03-01" time="13:56" />
+  </meta>
+</MyCoReWebPage>
