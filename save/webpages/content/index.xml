@@ -88,7 +88,11 @@
                 <div class="teaser__date">01.07.2023</div>
                 <div class="teaser__text">perspectivia.net hat einen neuen Beirat.</div>
                 <div class="teaser__button">
-                  <a href="about/beirat.xml"> Mehr <i class="fas fa-chevron-right"></i>
+                  <a href="about/beirat.xml">
+                    <i18n:de>Mehr</i18n:de>
+                    <i18n:en>Read more</i18n:en>
+                    <i18n:fr>En savoir plus</i18n:fr>
+                    <i class="fas fa-chevron-right"></i>
                   </a>
                 </div>
               </div>
@@ -97,7 +101,11 @@
                 <div class="teaser__date">18.07.2023</div>
                 <div class="teaser__text">Die aktuelle Ausgabe enthält 110 Rezensionen aus den Bereichen Mittelalter, Frühe Neuzeit sowie Neuere und Neueste Geschichte.</div>
                 <div class="teaser__button">
-                  <a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/6446"> Mehr <i class="fas fa-chevron-right"></i>
+                  <a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/6446">
+                    <i18n:de>Mehr</i18n:de>
+                    <i18n:en>Read more</i18n:en>
+                    <i18n:fr>En savoir plus</i18n:fr>
+                    <i class="fas fa-chevron-right"></i>
                   </a>
                 </div>
               </div>
@@ -106,7 +114,11 @@
                 <div class="teaser__date">20.06.2023</div>
                 <div class="teaser__text">In diesen Tagen feiert das DHI Warschau sein 30-jähriges Bestehen. </div>
                 <div class="teaser__button">
-                  <a href="https://www.dhi.waw.pl/aktuelle-meldungen/detail/zum-dreissigsten/ "> Mehr <i class="fas fa-chevron-right"></i>
+                  <a href="https://www.dhi.waw.pl/aktuelle-meldungen/detail/zum-dreissigsten/ ">
+                    <i18n:de>Mehr</i18n:de>
+                    <i18n:en>Read more</i18n:en>
+                    <i18n:fr>En savoir plus</i18n:fr>
+                    <i class="fas fa-chevron-right"></i>
                   </a>
                 </div>
               </div>
@@ -115,7 +127,11 @@
                 <div class="teaser__date">16.06.2023</div>
                 <div class="teaser__text">Papstregesten für die Erzbischöfe von Reims online verfügbar</div>
                 <div class="teaser__button">
-                  <a href="https://qed.perspectivia.net/gallia-pontificia-online/"> Mehr <i class="fas fa-chevron-right"></i>
+                  <a href="https://qed.perspectivia.net/gallia-pontificia-online/">
+                    <i18n:de>Mehr</i18n:de>
+                    <i18n:en>Read more</i18n:en>
+                    <i18n:fr>En savoir plus</i18n:fr>
+                    <i class="fas fa-chevron-right"></i>
                   </a>
                 </div>
               </div>
@@ -675,16 +691,29 @@
               <a class="carousel-control-prev" href="#carousel-institutes" role="button"
                 data-slide="prev">
                 <i class="fas fa-chevron-left"></i>
-                <span class="sr-only">Previous</span>
+                <span class="sr-only">
+                  <i18n:de>Vorherige</i18n:de>
+                  <i18n:en>Previous</i18n:en>
+                  <i18n:fr>Précédent</i18n:fr>
+                </span>
               </a>
               <a class="carousel-control-next" href="#carousel-institutes" role="button"
                 data-slide="next">
                 <i class="fas fa-chevron-right"></i>
-                <span class="sr-only">Next</span>
+                <span class="sr-only">
+                  <i18n:de>Nächste</i18n:de>
+                  <i18n:en>Next</i18n:en>
+                  <i18n:fr>Prochain</i18n:fr>
+                </span>
               </a>
             </div>
             <div class="text-center show-all-institutions-box">
-              <a href="#" class="btn btn-primary js-show-all-institutions pp-rounded">Zeige alle Institutionen</a>
+              <a href="#" class="btn btn-primary js-show-all-institutions pp-rounded">
+                <i18n:de>Zeige alle Institutionen</i18n:de>
+                <i18n:en>Show all institutions</i18n:en>
+                <i18n:fr>Afficher toutes les institutions</i18n:fr>
+                <i class="fas fa-chevron-right"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -804,12 +833,20 @@
               <a class="carousel-control-prev" href="#carousel-publications" role="button"
                 data-slide="prev">
                 <i class="fas fa-chevron-left"></i>
-                <span class="sr-only">Previous</span>
+                <span class="sr-only">
+                  <i18n:de>Vorherige</i18n:de>
+                  <i18n:en>Previous</i18n:en>
+                  <i18n:fr>Précédent</i18n:fr>
+                </span>
               </a>
               <a class="carousel-control-next" href="#carousel-publications" role="button"
                 data-slide="next">
                 <i class="fas fa-chevron-right"></i>
-                <span class="sr-only">Next</span>
+                <span class="sr-only">
+                  <i18n:de>Nächste</i18n:de>
+                  <i18n:en>Next</i18n:en>
+                  <i18n:fr>Prochain</i18n:fr>
+                </span>
               </a>
             </div>
 
