@@ -1,343 +1,515 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="SPSG"><div class="row">
-<div class="col-12 pp-institute-graphic" lang="de"><img alt="SPSG-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/spsg-logo-460.png" />
-<h1 class="pp-institute-graphic__headline">Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</h1>
-<img alt="SPSG-Foto" class="pp-institute-graphic__figure" src="../../../images/institutes/spsg-figure.jpg" title="Johann David Schleuen d. Ä.: »Prospect der fordern Seite des Königl. Lust=Schlosses Sans Soucy bei Potsdam«, um 1773, Radierung, SPSG, PK 4251/2. © SPSG, DIZ / Fotothek (Daniel Lindner)" /></div>
-
-<div class="col-12 pp-contact" lang="de">
-<h2>Kontakt</h2>
-
-<h3>Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</h3>
-
-<div class="pp-contact__list">
-<div class="pp-contact__item">Generaldirektion,<br />
-Wissenschaft und Forschung<br />
-Dr. Jürgen Luh<br />
-Allee nach Sanssouci 5, 14471 Potsdam</div>
-
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">Telefon:</td>
-			<td>+49 331 96 94 0</td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Fax:</td>
-			<td>+49 331 96 94 107</td>
-		</tr>
-	</tbody>
-</table>
-
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">E-Mail:</td>
-			<td><span class="madress">info [at] spsg.de</span></td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Internet:</td>
-			<td><a class="external-link" href="http://www.spsg.de/">www.spsg.de</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
-
-<div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/spsg-placeholder-460.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:spsg%22"> </div>
-</div>
-
-<div class="col-12 pp-sources">
-<h3>Digitale Quelleneditionen</h3>
-
-<div class="row pp-sourcesBox">
-<div class="col-4 col-md-2"><img alt="Borchwards Reise" class="img-responsive" src="../../../images/thumbnails/spsg-borchward-tile.png" title="Borchwards Reise" /></div>
-
-<div class="col-8 col-md-4"><a class="external-link" href="http://quellen-perspectivia.net/de/borchward/start">Borchwards Reise </a>
-
-<p>“... gantz unvergleichlich ...” Ernst Samuel Jacob Borchwards Reise ins Potsdam Friedrichs des Großen 1749, bearbeitet von Rashid-S. Pegah Carsten Dilba Mit einem Kommentar von Klaus Dorst, Susanne Evers, Henriette Graf, Saskia Hüneke, Käthe Klappenbach, Hannelore Röhm, Sabine Scheidler, Katrin Schröder, Claudia Sommer, Michaela Völkel, Jörg Wacker, Franziska Windt</p>
-</div>
-
-<div class="col-4 col-md-2"><img alt="Das Judenporzellan (2. Auflage 2014)" class="img-responsive" src="../../../images/thumbnails/spsg-judenporzellan-tile.png" title="Das Judenporzellan (2. Auflage 2014)" /></div>
-
-<div class="col-8 col-md-4"><a class="external-link" href="http://quellen-perspectivia.net/de/judenporzellan/start">Das "Judenporzellan" (2. Auflage 2014)</a>
-
-<p>Eine kommentierte Quellenpräsentation zur Rechts- und Sozialgeschichte der Juden im friderizianischen Preußen (1769–1788) Hg. von Tobias Schenk 2., leicht geänderte Auflage 2014 Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</p>
-</div>
-
-<div class="col-4 col-md-2"><img alt="Die Schatullrechnungen Friedrichs des Großen" class="img-responsive" src="../../../images/thumbnails/spsg-schatullenrechnungen-tile.png" title="Die Schatullrechnungen Friedrichs des Großen" /></div>
-
-<div class="col-8 col-md-4"><a class="external-link" href="http://quellen-perspectivia.net/de/schatullrechnungen/start">Die Schatullrechnungen Friedrichs des Großen</a>
-
-<p>Kommentierte Edition der Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg und des Geheimen Staatsarchivs Preußischer Kulturbesitz in Zusammenarbeit mit perspectivia.net. Bearbeitet von Ralf Zimmer.</p>
-</div>
-
-<div class="col-4 col-md-2"><img alt="Wilhelmine von Bayreuth. Briefe über ihre Reise nach Frankreich und Italien 1754/1755" class="img-responsive" src="../../../images/thumbnails/spsg-wilhelmine.png" title="Wilhelmine von Bayreuth. Briefe über ihre Reise nach Frankreich und Italien 1754/17554)" /></div>
-
-<div class="col-8 col-md-4"><a class="external-link" href="https://quellen.perspectivia.net/de/wilhelmine/start">Wilhelmine von Bayreuth. Briefe über ihre Reise nach Frankreich und Italien 1754/1755</a>
-
-<p>Die digitale Edition der Briefe über die Reise der Markgräfin Wilhelmine von Brandenburg-Bayreuth mit ihrem Gemahl Friedrich III. Markgraf von Brandenburg-Bayreuth nach Frankreich und Italien von Oktober 1754 bis zum August 1755 umfasst 130 Schreiben.</p>
-</div>
-</div>
-</div>
-</div>
-</section><section xml:lang="en" title="SPSG"><div class="row">
-<div class="col-12 pp-institute-graphic" lang="en"><img alt="SPSG-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/spsg-logo-460.png" />
-<h1 class="pp-institute-graphic__headline">Prussian Palaces and Gardens Foundation Berlin-Brandenburg</h1>
-<img alt="SPSG-Foto" class="pp-institute-graphic__figure" src="../../../images/institutes/spsg-figure.jpg" title="Johann David Schleuen d. Ä.: »Prospect der fordern Seite des Königl. Lust=Schlosses Sans Soucy bei Potsdam«, um 1773, Radierung, SPSG, PK 4251/2. © SPSG, DIZ / Fotothek (Daniel Lindner)" /></div>
-
-<div class="col-12 pp-contact" lang="en">
-<h2>Contact</h2>
-
-<h3>Prussian Palaces and Gardens Foundation Berlin-Brandenburg</h3>
-
-<div class="pp-contact__list">
-<div class="pp-contact__item">Generaldirektion,<br />
-Wissenschaft und Forschung<br />
-Dr. Jürgen Luh<br />
-Allee nach Sanssouci 5, 14471 Potsdam</div>
-
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">Phone:</td>
-			<td>+49 331 96 94 0</td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Fax:</td>
-			<td>+49 331 96 94 107</td>
-		</tr>
-	</tbody>
-</table>
-
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">E-Mail:</td>
-			<td><span class="madress">info [at] spsg.de</span></td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Internet:</td>
-			<td><a class="external-link" href="http://www.spsg.de/">www.spsg.de</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
-
-<div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/spsg-placeholder-460.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:spsg%22"> </div>
-</div>
-
-<div class="col-12 pp-sources">
-<h3>Digital source editions</h3>
-
-<div class="row pp-sourcesBox">
-<div class="col-4 col-md-2"><img alt="Borchwards Reise" class="img-responsive" src="../../../images/thumbnails/spsg-borchward-tile.png" title="Borchwards Reise" /></div>
-
-<div class="col-8 col-md-4"><a class="external-link" href="http://quellen-perspectivia.net/de/borchward/start">Borchwards Reise </a>
-
-<p>“... gantz unvergleichlich ...” Ernst Samuel Jacob Borchwards Reise ins Potsdam Friedrichs des Großen 1749, bearbeitet von Rashid-S. Pegah Carsten Dilba Mit einem Kommentar von Klaus Dorst, Susanne Evers, Henriette Graf, Saskia Hüneke, Käthe Klappenbach, Hannelore Röhm, Sabine Scheidler, Katrin Schröder, Claudia Sommer, Michaela Völkel, Jörg Wacker, Franziska Windt</p>
-</div>
-
-<div class="col-4 col-md-2"><img alt="Das Judenporzellan (2. Auflage 2014)" class="img-responsive" src="../../../images/thumbnails/spsg-judenporzellan-tile.png" title="Das Judenporzellan (2. Auflage 2014)" /></div>
-
-<div class="col-8 col-md-4"><a class="external-link" href="http://quellen-perspectivia.net/de/judenporzellan/start">Das "Judenporzellan" (2. Auflage 2014)</a>
-
-<p>Eine kommentierte Quellenpräsentation zur Rechts- und Sozialgeschichte der Juden im friderizianischen Preußen (1769–1788) Hg. von Tobias Schenk 2., leicht geänderte Auflage 2014 Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</p>
-</div>
-
-<div class="col-4 col-md-2"><img alt="Die Schatullrechnungen Friedrichs des Großen" class="img-responsive" src="../../../images/thumbnails/spsg-schatullenrechnungen-tile.png" title="Die Schatullrechnungen Friedrichs des Großen" /></div>
-
-<div class="col-8 col-md-4"><a class="external-link" href="http://quellen-perspectivia.net/de/schatullrechnungen/start">Die Schatullrechnungen Friedrichs des Großen</a>
-
-<p>Kommentierte Edition der Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg und des Geheimen Staatsarchivs Preußischer Kulturbesitz in Zusammenarbeit mit perspectivia.net. Bearbeitet von Ralf Zimmer.</p>
-</div>
-
-<div class="col-4 col-md-2"><img alt="Wilhelmine von Bayreuth. Briefe über ihre Reise nach Frankreich und Italien 1754/1755" class="img-responsive" src="../../../images/thumbnails/spsg-wilhelmine.png" title="Wilhelmine von Bayreuth. Briefe über ihre Reise nach Frankreich und Italien 1754/1755" /></div>
-
-<div class="col-8 col-md-4"><a class="external-link" href="https://quellen.perspectivia.net/de/wilhelmine/start">Wilhelmine von Bayreuth. Briefe über ihre Reise nach Frankreich und Italien 1754/1755</a>
-
-<p>Die digitale Edition der Briefe über die Reise der Markgräfin Wilhelmine von Brandenburg-Bayreuth mit ihrem Gemahl Friedrich III. Markgraf von Brandenburg-Bayreuth nach Frankreich und Italien von Oktober 1754 bis zum August 1755 umfasst 130 Schreiben.</p>
-</div>
-</div>
-</div>
-</div>
-</section><section xml:lang="fr" title="SPSG"><div class="row">
-<div class="col-12 pp-institute-graphic" lang="fr"><img alt="SPSG-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/spsg-logo-460.png" />
-<h1 class="pp-institute-graphic__headline">Fondation des Châteaux et Jardins prussiens de Berlin-Brandebourg</h1>
-<img alt="SPSG-Foto" class="pp-institute-graphic__figure" src="../../../images/institutes/spsg-figure.jpg" title="Johann David Schleuen d. Ä.: »Prospect der fordern Seite des Königl. Lust=Schlosses Sans Soucy bei Potsdam«, um 1773, Radierung, SPSG, PK 4251/2. © SPSG, DIZ / Fotothek (Daniel Lindner)" /></div>
-
-<div class="col-12 pp-contact" lang="fr">
-<h2>Contact</h2>
-
-<h3>Fondation des Châteaux et Jardins prussiens de Berlin-Brandebourg</h3>
-
-<div class="pp-contact__list">
-<div class="pp-contact__item">Generaldirektion,<br />
-Wissenschaft und Forschung<br />
-Dr. Jürgen Luh<br />
-Allee nach Sanssouci 5, 14471 Potsdam</div>
-
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">Phone:</td>
-			<td>+49 331 96 94 0</td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Fax:</td>
-			<td>+49 331 96 94 107</td>
-		</tr>
-	</tbody>
-</table>
-
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">E-Mail:</td>
-			<td><span class="madress">info [at] spsg.de</span></td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Internet:</td>
-			<td><a class="external-link" href="http://www.spsg.de/">www.spsg.de</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
-
-<div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/spsg-placeholder-460.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:spsg%22"> </div>
-</div>
-
-<div class="col-12 pp-sources">
-<h3>Digital source editions</h3>
-
-<div class="row pp-sourcesBox">
-<div class="col-4 col-md-2"><img alt="Borchwards Reise" class="img-responsive" src="../../../images/thumbnails/spsg-borchward-tile.png" title="Borchwards Reise" /></div>
-
-<div class="col-8 col-md-4"><a class="external-link" href="http://quellen-perspectivia.net/de/borchward/start">Borchwards Reise </a>
-
-<p>“... gantz unvergleichlich ...” Ernst Samuel Jacob Borchwards Reise ins Potsdam Friedrichs des Großen 1749, bearbeitet von Rashid-S. Pegah Carsten Dilba Mit einem Kommentar von Klaus Dorst, Susanne Evers, Henriette Graf, Saskia Hüneke, Käthe Klappenbach, Hannelore Röhm, Sabine Scheidler, Katrin Schröder, Claudia Sommer, Michaela Völkel, Jörg Wacker, Franziska Windt</p>
-</div>
-
-<div class="col-4 col-md-2"><img alt="Das Judenporzellan (2. Auflage 2014)" class="img-responsive" src="../../../images/thumbnails/spsg-judenporzellan-tile.png" title="Das Judenporzellan (2. Auflage 2014)" /></div>
-
-<div class="col-8 col-md-4"><a class="external-link" href="http://quellen-perspectivia.net/de/judenporzellan/start">Das "Judenporzellan" (2. Auflage 2014)</a>
-
-<p>Eine kommentierte Quellenpräsentation zur Rechts- und Sozialgeschichte der Juden im friderizianischen Preußen (1769–1788) Hg. von Tobias Schenk 2., leicht geänderte Auflage 2014 Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</p>
-</div>
-
-<div class="col-4 col-md-2"><img alt="Die Schatullrechnungen Friedrichs des Großen" class="img-responsive" src="../../../images/thumbnails/spsg-schatullenrechnungen-tile.png" title="Die Schatullrechnungen Friedrichs des Großen" /></div>
-
-<div class="col-8 col-md-4"><a class="external-link" href="http://quellen-perspectivia.net/de/schatullrechnungen/start">Die Schatullrechnungen Friedrichs des Großen</a>
-
-<p>Kommentierte Edition der Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg und des Geheimen Staatsarchivs Preußischer Kulturbesitz in Zusammenarbeit mit perspectivia.net. Bearbeitet von Ralf Zimmer.</p>
-</div>
-
-<div class="col-4 col-md-2"><img alt="Wilhelmine von Bayreuth. Briefe über ihre Reise nach Frankreich und Italien 1754/1755" class="img-responsive" src="../../../images/thumbnails/spsg-wilhelmine.png" title="Wilhelmine von Bayreuth. Briefe über ihre Reise nach Frankreich und Italien 1754/1755" /></div>
-
-<div class="col-8 col-md-4"><a class="external-link" href="https://quellen.perspectivia.net/de/wilhelmine/start">Wilhelmine von Bayreuth. Briefe über ihre Reise nach Frankreich und Italien 1754/1755</a>
-
-<p>Die digitale Edition der Briefe über die Reise der Markgräfin Wilhelmine von Brandenburg-Bayreuth mit ihrem Gemahl Friedrich III. Markgraf von Brandenburg-Bayreuth nach Frankreich und Italien von Oktober 1754 bis zum August 1755 umfasst 130 Schreiben.</p>
-</div>
-</div>
-</div>
-</div>
-</section><section xml:lang="it" title="SPSG"><div class="row">
-
-            <div class="col-12 pp-institute-graphic" lang="de">
-                <img src="../../../images/logos/spsg-logo-460.png" class="pp-institute-graphic__logo" alt="SPSG-Logo" />
-                <h1 class="pp-institute-graphic__headline">
-                    Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg
-                </h1>
-                <img src="../../../images/institutes/spsg-figure.jpg" class="pp-institute-graphic__figure" alt="SPSG-Foto" title="Johann David Schleuen d. Ä.: »Prospect der fordern Seite des Königl. Lust=Schlosses Sans Soucy bei Potsdam«, um 1773, Radierung, SPSG, PK 4251/2. © SPSG, DIZ / Fotothek (Daniel Lindner)" />
-            </div>
-
-            <div class="col-12 pp-contact" lang="de">
-                <h2>Contact</h2>
-                <h3>Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</h3>
-                <div class="pp-contact__list">
-
-                    <div class="pp-contact__item">
-                        Generaldirektion,<br />
-                        Wissenschaft und Forschung<br />
-                        Dr. Jürgen Luh<br />
-                        Allee nach Sanssouci 5, 14471 Potsdam
-                    </div>
-
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">Phone:</td>
-                            <td>+49 331 96 94 0</td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Fax:</td>
-                            <td>+49 331 96 94 107</td>
-                        </tr>
-                    </table>
-
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">E-Mail:</td>
-                            <td>
-                                <span class="madress">info [at] spsg.de</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Internet:</td>
-                            <td><a class="external-link" href="http://www.spsg.de/">www.spsg.de</a></td>
-                        </tr>
-                    </table>
-
-                </div>
-            </div>
-
-            <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:spsg%22" data-defaultThumbnail="../../../images/placeholder/spsg-placeholder-460.png"> 
-                </div>
-            </div>
-
-            <div class="col-12 pp-sources">
-                <h3>Digital source editions</h3>
-                <div class="row pp-sourcesBox">
-                    <div class="col-4 col-md-2">
-                        <img class="img-responsive" alt="Borchwards Reise" title="Borchwards Reise" src="../../../images/thumbnails/spsg-borchward-tile.png" />
-                    </div>
-                    <div class="col-8 col-md-4">
-                        <a class="external-link" href="http://quellen-perspectivia.net/de/borchward/start">Borchwards Reise </a>
-                        <p>
-                            “... gantz unvergleichlich ...” Ernst Samuel Jacob Borchwards Reise ins Potsdam Friedrichs des Großen 1749,
-                            bearbeitet von Rashid-S. Pegah Carsten Dilba Mit einem Kommentar von Klaus Dorst, Susanne Evers, Henriette
-                            Graf, Saskia Hüneke, Käthe Klappenbach, Hannelore Röhm, Sabine Scheidler, Katrin Schröder, Claudia Sommer,
-                            Michaela Völkel, Jörg Wacker, Franziska Windt
-                        </p>
-                    </div>
-
-                    <div class="col-4 col-md-2">
-                        <img class="img-responsive" alt="Das Judenporzellan (2. Auflage 2014)" title="Das Judenporzellan (2. Auflage 2014)" src="../../../images/thumbnails/spsg-judenporzellan-tile.png" />
-                    </div>
-                    <div class="col-8 col-md-4">
-                        <a class="external-link" href="http://quellen-perspectivia.net/de/judenporzellan/start">Das "Judenporzellan" (2. Auflage 2014)</a>
-                        <p>
-                            Eine kommentierte Quellenpräsentation zur Rechts- und Sozialgeschichte der Juden im friderizianischen
-                            Preußen (1769–1788) Hg. von Tobias Schenk 2., leicht geänderte Auflage 2014 Stiftung Preußische Schlösser
-                            und Gärten Berlin-Brandenburg
-                        </p>
-                    </div>
-
-                    <div class="col-4 col-md-2">
-                        <img class="img-responsive" alt="Die Schatullrechnungen Friedrichs des Großen" title="Die Schatullrechnungen Friedrichs des Großen" src="../../../images/thumbnails/spsg-schatullenrechnungen-tile.png" />
-                    </div>
-                    <div class="col-8 col-md-4">
-                        <a class="external-link" href="http://quellen-perspectivia.net/de/schatullrechnungen/start">Die Schatullrechnungen Friedrichs des Großen</a>
-                        <p>
-                            Kommentierte Edition der Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg und des Geheimen Staatsarchivs Preußischer
-                            Kulturbesitz in Zusammenarbeit mit perspectivia.net. Bearbeitet von Ralf Zimmer.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div></section><meta><log lastEditor="agerber" date="2022-10-10" time="12:16" /></meta></MyCoReWebPage>
+<MyCoReWebPage>
+  <section xml:lang="de" title="SPSG">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="de">
+        <img alt="SPSG-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/spsg-logo-460.png" />
+        <h1 class="pp-institute-graphic__headline">Stiftung Preußische Schlösser und Gärten
+          Berlin-Brandenburg</h1>
+        <img alt="SPSG-Foto" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/spsg-figure.jpg"
+          title="Johann David Schleuen d. Ä.: »Prospect der fordern Seite des Königl. Lust=Schlosses Sans Soucy bei Potsdam«, um 1773, Radierung, SPSG, PK 4251/2. © SPSG, DIZ / Fotothek (Daniel Lindner)" />
+      </div>
+
+      <div class="col-12 pp-contact" lang="de">
+        <h2>Kontakt</h2>
+
+        <h3>Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</h3>
+
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">Generaldirektion,<br /> Wissenschaft und Forschung<br /> Dr.
+            Jürgen Luh<br /> Allee nach Sanssouci 5, 14471 Potsdam</div>
+
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Telefon:</td>
+                <td>+49 331 96 94 0</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+49 331 96 94 107</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>
+                  <span class="madress">info [at] spsg.de</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="http://www.spsg.de/">www.spsg.de</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/spsg-placeholder-460.png"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:spsg%22">
+           </div>
+      </div>
+
+      <div class="col-12 pp-sources">
+        <h3>Digitale Quelleneditionen</h3>
+
+        <div class="row pp-sourcesBox">
+          <div class="col-4 col-md-2">
+            <img alt="Borchwards Reise" class="img-responsive"
+              src="../../../images/thumbnails/spsg-borchward-tile.png" title="Borchwards Reise" />
+          </div>
+
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="http://quellen-perspectivia.net/de/borchward/start">Borchwards
+              Reise </a>
+
+            <p>“... gantz unvergleichlich ...” Ernst Samuel Jacob Borchwards Reise ins Potsdam
+              Friedrichs des Großen 1749, bearbeitet von Rashid-S. Pegah Carsten Dilba Mit einem
+              Kommentar von Klaus Dorst, Susanne Evers, Henriette Graf, Saskia Hüneke, Käthe
+              Klappenbach, Hannelore Röhm, Sabine Scheidler, Katrin Schröder, Claudia Sommer,
+              Michaela Völkel, Jörg Wacker, Franziska Windt</p>
+          </div>
+
+          <div class="col-4 col-md-2">
+            <img alt="Das Judenporzellan (2. Auflage 2014)" class="img-responsive"
+              src="../../../images/thumbnails/spsg-judenporzellan-tile.png"
+              title="Das Judenporzellan (2. Auflage 2014)" />
+          </div>
+
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="http://quellen-perspectivia.net/de/judenporzellan/start">Das
+              "Judenporzellan" (2. Auflage 2014)</a>
+
+            <p>Eine kommentierte Quellenpräsentation zur Rechts- und Sozialgeschichte der Juden im
+              friderizianischen Preußen (1769–1788) Hg. von Tobias Schenk 2., leicht geänderte
+              Auflage 2014 Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</p>
+          </div>
+
+          <div class="col-4 col-md-2">
+            <img alt="Die Schatullrechnungen Friedrichs des Großen" class="img-responsive"
+              src="../../../images/thumbnails/spsg-schatullenrechnungen-tile.png"
+              title="Die Schatullrechnungen Friedrichs des Großen" />
+          </div>
+
+          <div class="col-8 col-md-4">
+            <a class="external-link"
+              href="http://quellen-perspectivia.net/de/schatullrechnungen/start">Die
+              Schatullrechnungen Friedrichs des Großen</a>
+
+            <p>Kommentierte Edition der Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg
+              und des Geheimen Staatsarchivs Preußischer Kulturbesitz in Zusammenarbeit mit
+              perspectivia.net. Bearbeitet von Ralf Zimmer.</p>
+          </div>
+
+          <div class="col-4 col-md-2">
+            <img
+              alt="Wilhelmine von Bayreuth. Briefe über ihre Reise nach Frankreich und Italien 1754/1755"
+              class="img-responsive" src="../../../images/thumbnails/spsg-wilhelmine.png"
+              title="Wilhelmine von Bayreuth. Briefe über ihre Reise nach Frankreich und Italien 1754/17554)" />
+          </div>
+
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="https://quellen.perspectivia.net/de/wilhelmine/start">Wilhelmine
+              von Bayreuth. Briefe über ihre Reise nach Frankreich und Italien 1754/1755</a>
+
+            <p>Die digitale Edition der Briefe über die Reise der Markgräfin Wilhelmine von
+              Brandenburg-Bayreuth mit ihrem Gemahl Friedrich III. Markgraf von Brandenburg-Bayreuth
+              nach Frankreich und Italien von Oktober 1754 bis zum August 1755 umfasst 130
+              Schreiben.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="en" title="SPSG">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="en">
+        <img alt="SPSG-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/spsg-logo-460.png" />
+        <h1 class="pp-institute-graphic__headline">Prussian Palaces and Gardens Foundation
+          Berlin-Brandenburg</h1>
+        <img alt="SPSG-Foto" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/spsg-figure.jpg"
+          title="Johann David Schleuen d. Ä.: »Prospect der fordern Seite des Königl. Lust=Schlosses Sans Soucy bei Potsdam«, um 1773, Radierung, SPSG, PK 4251/2. © SPSG, DIZ / Fotothek (Daniel Lindner)" />
+      </div>
+
+      <div class="col-12 pp-contact" lang="en">
+        <h2>Contact</h2>
+
+        <h3>Prussian Palaces and Gardens Foundation Berlin-Brandenburg</h3>
+
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">Generaldirektion,<br /> Wissenschaft und Forschung<br /> Dr.
+            Jürgen Luh<br /> Allee nach Sanssouci 5, 14471 Potsdam</div>
+
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Phone:</td>
+                <td>+49 331 96 94 0</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+49 331 96 94 107</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>
+                  <span class="madress">info [at] spsg.de</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="http://www.spsg.de/">www.spsg.de</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/spsg-placeholder-460.png"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:spsg%22">
+           </div>
+      </div>
+
+      <div class="col-12 pp-sources">
+        <h3>Digital source editions</h3>
+
+        <div class="row pp-sourcesBox">
+          <div class="col-4 col-md-2">
+            <img alt="Borchwards Reise" class="img-responsive"
+              src="../../../images/thumbnails/spsg-borchward-tile.png" title="Borchwards Reise" />
+          </div>
+
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="http://quellen-perspectivia.net/de/borchward/start">Borchwards
+              Reise </a>
+
+            <p>“... gantz unvergleichlich ...” Ernst Samuel Jacob Borchwards Reise ins Potsdam
+              Friedrichs des Großen 1749, bearbeitet von Rashid-S. Pegah Carsten Dilba Mit einem
+              Kommentar von Klaus Dorst, Susanne Evers, Henriette Graf, Saskia Hüneke, Käthe
+              Klappenbach, Hannelore Röhm, Sabine Scheidler, Katrin Schröder, Claudia Sommer,
+              Michaela Völkel, Jörg Wacker, Franziska Windt</p>
+          </div>
+
+          <div class="col-4 col-md-2">
+            <img alt="Das Judenporzellan (2. Auflage 2014)" class="img-responsive"
+              src="../../../images/thumbnails/spsg-judenporzellan-tile.png"
+              title="Das Judenporzellan (2. Auflage 2014)" />
+          </div>
+
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="http://quellen-perspectivia.net/de/judenporzellan/start">Das
+              "Judenporzellan" (2. Auflage 2014)</a>
+
+            <p>Eine kommentierte Quellenpräsentation zur Rechts- und Sozialgeschichte der Juden im
+              friderizianischen Preußen (1769–1788) Hg. von Tobias Schenk 2., leicht geänderte
+              Auflage 2014 Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</p>
+          </div>
+
+          <div class="col-4 col-md-2">
+            <img alt="Die Schatullrechnungen Friedrichs des Großen" class="img-responsive"
+              src="../../../images/thumbnails/spsg-schatullenrechnungen-tile.png"
+              title="Die Schatullrechnungen Friedrichs des Großen" />
+          </div>
+
+          <div class="col-8 col-md-4">
+            <a class="external-link"
+              href="http://quellen-perspectivia.net/de/schatullrechnungen/start">Die
+              Schatullrechnungen Friedrichs des Großen</a>
+
+            <p>Kommentierte Edition der Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg
+              und des Geheimen Staatsarchivs Preußischer Kulturbesitz in Zusammenarbeit mit
+              perspectivia.net. Bearbeitet von Ralf Zimmer.</p>
+          </div>
+
+          <div class="col-4 col-md-2">
+            <img
+              alt="Wilhelmine von Bayreuth. Briefe über ihre Reise nach Frankreich und Italien 1754/1755"
+              class="img-responsive" src="../../../images/thumbnails/spsg-wilhelmine.png"
+              title="Wilhelmine von Bayreuth. Briefe über ihre Reise nach Frankreich und Italien 1754/1755" />
+          </div>
+
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="https://quellen.perspectivia.net/de/wilhelmine/start">Wilhelmine
+              von Bayreuth. Briefe über ihre Reise nach Frankreich und Italien 1754/1755</a>
+
+            <p>Die digitale Edition der Briefe über die Reise der Markgräfin Wilhelmine von
+              Brandenburg-Bayreuth mit ihrem Gemahl Friedrich III. Markgraf von Brandenburg-Bayreuth
+              nach Frankreich und Italien von Oktober 1754 bis zum August 1755 umfasst 130
+              Schreiben.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="fr" title="SPSG">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="fr">
+        <img alt="SPSG-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/spsg-logo-460.png" />
+        <h1 class="pp-institute-graphic__headline">Fondation des Châteaux et Jardins prussiens de
+          Berlin-Brandebourg</h1>
+        <img alt="SPSG-Foto" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/spsg-figure.jpg"
+          title="Johann David Schleuen d. Ä.: »Prospect der fordern Seite des Königl. Lust=Schlosses Sans Soucy bei Potsdam«, um 1773, Radierung, SPSG, PK 4251/2. © SPSG, DIZ / Fotothek (Daniel Lindner)" />
+      </div>
+
+      <div class="col-12 pp-contact" lang="fr">
+        <h2>Contact</h2>
+
+        <h3>Fondation des Châteaux et Jardins prussiens de Berlin-Brandebourg</h3>
+
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">Generaldirektion,<br /> Wissenschaft und Forschung<br /> Dr.
+            Jürgen Luh<br /> Allee nach Sanssouci 5, 14471 Potsdam</div>
+
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Phone:</td>
+                <td>+49 331 96 94 0</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+49 331 96 94 107</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>
+                  <span class="madress">info [at] spsg.de</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="http://www.spsg.de/">www.spsg.de</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/spsg-placeholder-460.png"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:spsg%22">
+           </div>
+      </div>
+
+      <div class="col-12 pp-sources">
+        <h3>Digital source editions</h3>
+
+        <div class="row pp-sourcesBox">
+          <div class="col-4 col-md-2">
+            <img alt="Borchwards Reise" class="img-responsive"
+              src="../../../images/thumbnails/spsg-borchward-tile.png" title="Borchwards Reise" />
+          </div>
+
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="http://quellen-perspectivia.net/de/borchward/start">Borchwards
+              Reise </a>
+
+            <p>“... gantz unvergleichlich ...” Ernst Samuel Jacob Borchwards Reise ins Potsdam
+              Friedrichs des Großen 1749, bearbeitet von Rashid-S. Pegah Carsten Dilba Mit einem
+              Kommentar von Klaus Dorst, Susanne Evers, Henriette Graf, Saskia Hüneke, Käthe
+              Klappenbach, Hannelore Röhm, Sabine Scheidler, Katrin Schröder, Claudia Sommer,
+              Michaela Völkel, Jörg Wacker, Franziska Windt</p>
+          </div>
+
+          <div class="col-4 col-md-2">
+            <img alt="Das Judenporzellan (2. Auflage 2014)" class="img-responsive"
+              src="../../../images/thumbnails/spsg-judenporzellan-tile.png"
+              title="Das Judenporzellan (2. Auflage 2014)" />
+          </div>
+
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="http://quellen-perspectivia.net/de/judenporzellan/start">Das
+              "Judenporzellan" (2. Auflage 2014)</a>
+
+            <p>Eine kommentierte Quellenpräsentation zur Rechts- und Sozialgeschichte der Juden im
+              friderizianischen Preußen (1769–1788) Hg. von Tobias Schenk 2., leicht geänderte
+              Auflage 2014 Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</p>
+          </div>
+
+          <div class="col-4 col-md-2">
+            <img alt="Die Schatullrechnungen Friedrichs des Großen" class="img-responsive"
+              src="../../../images/thumbnails/spsg-schatullenrechnungen-tile.png"
+              title="Die Schatullrechnungen Friedrichs des Großen" />
+          </div>
+
+          <div class="col-8 col-md-4">
+            <a class="external-link"
+              href="http://quellen-perspectivia.net/de/schatullrechnungen/start">Die
+              Schatullrechnungen Friedrichs des Großen</a>
+
+            <p>Kommentierte Edition der Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg
+              und des Geheimen Staatsarchivs Preußischer Kulturbesitz in Zusammenarbeit mit
+              perspectivia.net. Bearbeitet von Ralf Zimmer.</p>
+          </div>
+
+          <div class="col-4 col-md-2">
+            <img
+              alt="Wilhelmine von Bayreuth. Briefe über ihre Reise nach Frankreich und Italien 1754/1755"
+              class="img-responsive" src="../../../images/thumbnails/spsg-wilhelmine.png"
+              title="Wilhelmine von Bayreuth. Briefe über ihre Reise nach Frankreich und Italien 1754/1755" />
+          </div>
+
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="https://quellen.perspectivia.net/de/wilhelmine/start">Wilhelmine
+              von Bayreuth. Briefe über ihre Reise nach Frankreich und Italien 1754/1755</a>
+
+            <p>Die digitale Edition der Briefe über die Reise der Markgräfin Wilhelmine von
+              Brandenburg-Bayreuth mit ihrem Gemahl Friedrich III. Markgraf von Brandenburg-Bayreuth
+              nach Frankreich und Italien von Oktober 1754 bis zum August 1755 umfasst 130
+              Schreiben.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="it" title="SPSG">
+    <div class="row">
+
+      <div class="col-12 pp-institute-graphic" lang="de">
+        <img src="../../../images/logos/spsg-logo-460.png" class="pp-institute-graphic__logo"
+          alt="SPSG-Logo" />
+        <h1 class="pp-institute-graphic__headline">
+          Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg
+        </h1>
+        <img src="../../../images/institutes/spsg-figure.jpg" class="pp-institute-graphic__figure"
+          alt="SPSG-Foto"
+          title="Johann David Schleuen d. Ä.: »Prospect der fordern Seite des Königl. Lust=Schlosses Sans Soucy bei Potsdam«, um 1773, Radierung, SPSG, PK 4251/2. © SPSG, DIZ / Fotothek (Daniel Lindner)" />
+      </div>
+
+      <div class="col-12 pp-contact" lang="de">
+        <h2>Contact</h2>
+        <h3>Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg</h3>
+        <div class="pp-contact__list">
+
+          <div class="pp-contact__item"> Generaldirektion,<br /> Wissenschaft und Forschung<br />
+            Dr. Jürgen Luh<br /> Allee nach Sanssouci 5, 14471 Potsdam </div>
+
+          <table class="pp-contact__item">
+            <tr>
+              <td class="pp-contact__subitem">Phone:</td>
+              <td>+49 331 96 94 0</td>
+            </tr>
+            <tr>
+              <td class="pp-contact__subitem">Fax:</td>
+              <td>+49 331 96 94 107</td>
+            </tr>
+          </table>
+
+          <table class="pp-contact__item">
+            <tr>
+              <td class="pp-contact__subitem">E-Mail:</td>
+              <td>
+                <span class="madress">info [at] spsg.de</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="pp-contact__subitem">Internet:</td>
+              <td>
+                <a class="external-link" href="http://www.spsg.de/">www.spsg.de</a>
+              </td>
+            </tr>
+          </table>
+
+        </div>
+      </div>
+
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:spsg%22"
+          data-defaultThumbnail="../../../images/placeholder/spsg-placeholder-460.png"> 
+        </div>
+      </div>
+
+      <div class="col-12 pp-sources">
+        <h3>Digital source editions</h3>
+        <div class="row pp-sourcesBox">
+          <div class="col-4 col-md-2">
+            <img class="img-responsive" alt="Borchwards Reise" title="Borchwards Reise"
+              src="../../../images/thumbnails/spsg-borchward-tile.png" />
+          </div>
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="http://quellen-perspectivia.net/de/borchward/start">Borchwards
+              Reise </a>
+            <p>
+              “... gantz unvergleichlich ...” Ernst Samuel Jacob Borchwards Reise ins Potsdam
+              Friedrichs des Großen 1749,
+              bearbeitet von Rashid-S. Pegah Carsten Dilba Mit einem Kommentar von Klaus Dorst,
+              Susanne Evers, Henriette
+              Graf, Saskia Hüneke, Käthe Klappenbach, Hannelore Röhm, Sabine Scheidler, Katrin
+              Schröder, Claudia Sommer,
+              Michaela Völkel, Jörg Wacker, Franziska Windt
+            </p>
+          </div>
+
+          <div class="col-4 col-md-2">
+            <img class="img-responsive" alt="Das Judenporzellan (2. Auflage 2014)"
+              title="Das Judenporzellan (2. Auflage 2014)"
+              src="../../../images/thumbnails/spsg-judenporzellan-tile.png" />
+          </div>
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="http://quellen-perspectivia.net/de/judenporzellan/start">Das
+              "Judenporzellan" (2. Auflage 2014)</a>
+            <p>
+              Eine kommentierte Quellenpräsentation zur Rechts- und Sozialgeschichte der Juden im
+              friderizianischen
+              Preußen (1769–1788) Hg. von Tobias Schenk 2., leicht geänderte Auflage 2014 Stiftung
+              Preußische Schlösser
+              und Gärten Berlin-Brandenburg
+            </p>
+          </div>
+
+          <div class="col-4 col-md-2">
+            <img class="img-responsive" alt="Die Schatullrechnungen Friedrichs des Großen"
+              title="Die Schatullrechnungen Friedrichs des Großen"
+              src="../../../images/thumbnails/spsg-schatullenrechnungen-tile.png" />
+          </div>
+          <div class="col-8 col-md-4">
+            <a class="external-link"
+              href="http://quellen-perspectivia.net/de/schatullrechnungen/start">Die
+              Schatullrechnungen Friedrichs des Großen</a>
+            <p>
+              Kommentierte Edition der Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg
+              und des Geheimen Staatsarchivs Preußischer
+              Kulturbesitz in Zusammenarbeit mit perspectivia.net. Bearbeitet von Ralf Zimmer.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <meta>
+    <log lastEditor="agerber" date="2022-10-10" time="12:16" />
+  </meta>
+</MyCoReWebPage>

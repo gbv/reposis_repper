@@ -3,7 +3,8 @@
   <section xml:lang="de" title="Deutsches Historisches Institut Moskau">
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="de">
-        <img alt="DHIM-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-moskau.png"
+        <img alt="DHIM-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/dhi-moskau.png"
           style="width: 400px; height: 94px;" />
         <h1 class="pp-institute-graphic__headline">Deutsches Historisches Institut Moskau</h1>
         <img alt="Foto Moskau" class="pp-institute-graphic__figure"
@@ -107,7 +108,8 @@
   <section xml:lang="en" title="German Historical Institute Moscow">
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="en">
-        <img alt="DHIM-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-moskau.png"
+        <img alt="DHIM-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/dhi-moskau.png"
           style="width: 400px; height: 94px;" />
         <h1 class="pp-institute-graphic__headline">German Historical Institute Moscow</h1>
         <img alt="Foto Moskau" class="pp-institute-graphic__figure"
@@ -211,7 +213,8 @@
   <section xml:lang="fr" title="Institut historique allemand Moscou">
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="fr">
-        <img alt="DHIM-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-moskau.png"
+        <img alt="DHIM-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/dhi-moskau.png"
           style="width: 400px; height: 94px;" />
         <h1 class="pp-institute-graphic__headline">Institut historique allemand Moscou</h1>
         <img alt="Foto Moskau" class="pp-institute-graphic__figure"
@@ -315,7 +318,8 @@
   <section xml:lang="it" title="Deutsches Historisches Institut Moskau">
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="de">
-        <img alt="DHIM-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-moskau.png"
+        <img alt="DHIM-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/dhi-moskau.png"
           style="width: 400px; height: 94px;" />
         <h1 class="pp-institute-graphic__headline">Deutsches Historisches Institut Moskau</h1>
         <img alt="Foto Moskau" class="pp-institute-graphic__figure"

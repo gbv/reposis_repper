@@ -1,249 +1,314 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Deutsches Institut für Japanstudien Tokio"><div class="row">
-<div class="col-12 pp-institute-graphic" lang="de"><img alt="DIJT-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dij-logo-460.png" />
-<h1 class="pp-institute-graphic__headline">Deutsches Institut für Japanstudien Tokio</h1>
-<img alt="Foto Tokyo" class="pp-institute-graphic__figure" src="../../../images/institutes/dij-figure.jpg" title="Deutsches Institut für Japanstudien Tokio" /></div>
+<MyCoReWebPage>
+  <section xml:lang="de" title="Deutsches Institut für Japanstudien Tokio">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="de">
+        <img alt="DIJT-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/dij-logo-460.png" />
+        <h1 class="pp-institute-graphic__headline">Deutsches Institut für Japanstudien Tokio</h1>
+        <img alt="Foto Tokyo" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/dij-figure.jpg"
+          title="Deutsches Institut für Japanstudien Tokio" />
+      </div>
 
-<div class="col-12 pp-contact" lang="de">
-<h2>Kontakt</h2>
+      <div class="col-12 pp-contact" lang="de">
+        <h2>Kontakt</h2>
 
-<h3>Deutsches Institut für Japanstudien Tokio</h3>
+        <h3>Deutsches Institut für Japanstudien Tokio</h3>
 
-<div class="pp-contact__list">
-<div class="pp-contact__item">7-1-, Kioicho Chiyoda-ku Tokyo 102-0094 Japan</div>
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">7-1-, Kioicho Chiyoda-ku Tokyo 102-0094 Japan</div>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">Telefon:</td>
-			<td>+81 3 3222-5077</td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Fax:</td>
-			<td>+81 3 3222-5420</td>
-		</tr>
-	</tbody>
-</table>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Telefon:</td>
+                <td>+81 3 3222-5077</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+81 3 3222-5420</td>
+              </tr>
+            </tbody>
+          </table>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">E-Mail:</td>
-			<td><span class="madress">dijtokyo [at] dijtokyo.org</span></td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Internet:</td>
-			<td><a class="external-link" href="https://www.dijtokyo.org">https://www.dijtokyo.org</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>
+                  <span class="madress">dijtokyo [at] dijtokyo.org</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="https://www.dijtokyo.org">https://www.dijtokyo.org</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
-<div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/dij-placeholder-460.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:di.japan.tokyo%22"> </div>
-</div>
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/dij-placeholder-460.png"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:di.japan.tokyo%22">
+           </div>
+      </div>
 
-<div class="col-12 pp-sources">
-<h3>Digitale Quelleneditionen</h3>
+      <div class="col-12 pp-sources">
+        <h3>Digitale Quelleneditionen</h3>
 
-<div class="row pp-sourcesBox">
-<div class="col-4 col-md-2"><img alt="xxx" class="img-responsive" src="../../../images/thumbnails/dij-bando-sammlung.jpg" title="xxx" /></div>
+        <div class="row pp-sourcesBox">
+          <div class="col-4 col-md-2">
+            <img alt="xxx" class="img-responsive"
+              src="../../../images/thumbnails/dij-bando-sammlung.jpg" title="xxx" />
+          </div>
 
-<div class="col-8 col-md-4"><a class="external-link" href="https://prae.perspectivia.net/quellen/bando">Bandō-Sammlung des DIJ</a>
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="https://prae.perspectivia.net/quellen/bando">Bandō-Sammlung
+              des DIJ</a>
 
-<p>Deutsches Institut für Japanstudien Tokyo</p>
-</div>
-</div>
-</div>
-</div>
-</section><section xml:lang="en" title="German Institute for Japanese Studies Tokyo"><div class="row">
-<div class="col-12 pp-institute-graphic" lang="en"><img alt="DIJT-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dij-logo-460.png" />
-<h1 class="pp-institute-graphic__headline">German Institute for Japanese Studies Tokyo</h1>
-<img alt="Foto Tokyo" class="pp-institute-graphic__figure" src="../../../images/institutes/dij-figure.jpg" title="Deutsches Institut für Japanstudien Tokio" /></div>
+            <p>Deutsches Institut für Japanstudien Tokyo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="en" title="German Institute for Japanese Studies Tokyo">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="en">
+        <img alt="DIJT-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/dij-logo-460.png" />
+        <h1 class="pp-institute-graphic__headline">German Institute for Japanese Studies Tokyo</h1>
+        <img alt="Foto Tokyo" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/dij-figure.jpg"
+          title="Deutsches Institut für Japanstudien Tokio" />
+      </div>
 
-<div class="col-12 pp-contact" lang="en">
-<h2>Contact</h2>
+      <div class="col-12 pp-contact" lang="en">
+        <h2>Contact</h2>
 
-<h3>German Institute for Japanese Studies Tokyo</h3>
+        <h3>German Institute for Japanese Studies Tokyo</h3>
 
-<div class="pp-contact__list">
-<div class="pp-contact__item">7-1-, Kioicho Chiyoda-ku Tokyo 102-0094 Japan</div>
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">7-1-, Kioicho Chiyoda-ku Tokyo 102-0094 Japan</div>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">Phone:</td>
-			<td>+81 3 3222-5077</td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Fax:</td>
-			<td>+81 3 3222-5420</td>
-		</tr>
-	</tbody>
-</table>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Phone:</td>
+                <td>+81 3 3222-5077</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+81 3 3222-5420</td>
+              </tr>
+            </tbody>
+          </table>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">E-Mail:</td>
-			<td><span class="madress">dijtokyo [at] dijtokyo.org</span></td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Internet:</td>
-			<td><a class="external-link" href="https://www.dijtokyo.org">https://www.dijtokyo.org</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>
+                  <span class="madress">dijtokyo [at] dijtokyo.org</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="https://www.dijtokyo.org">https://www.dijtokyo.org</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
-<div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/dij-placeholder-460.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:di.japan.tokyo%22"> </div>
-</div>
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/dij-placeholder-460.png"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:di.japan.tokyo%22">
+           </div>
+      </div>
 
-<div class="col-12 pp-sources">
-<h3>Digital source editions</h3>
+      <div class="col-12 pp-sources">
+        <h3>Digital source editions</h3>
 
-<div class="row pp-sourcesBox">
-<div class="col-4 col-md-2"><img alt="xxx" class="img-responsive" src="../../../images/thumbnails/dij-bando-sammlung.jpg" title="xxx" /></div>
+        <div class="row pp-sourcesBox">
+          <div class="col-4 col-md-2">
+            <img alt="xxx" class="img-responsive"
+              src="../../../images/thumbnails/dij-bando-sammlung.jpg" title="xxx" />
+          </div>
 
-<div class="col-8 col-md-4"><a class="external-link" href="https://prae.perspectivia.net/quellen/bando">Bandō-Sammlung des DIJ</a>
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="https://prae.perspectivia.net/quellen/bando">Bandō-Sammlung
+              des DIJ</a>
 
-<p>Deutsches Institut für Japanstudien Tokyo</p>
-</div>
-</div>
-</div>
-</div></section><section xml:lang="fr" title="Institut allemand des Études japonaises Tokyo"><div class="row">
+            <p>Deutsches Institut für Japanstudien Tokyo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="fr" title="Institut allemand des Études japonaises Tokyo">
+    <div class="row">
 
-            <div class="col-12 pp-institute-graphic" lang="fr">
-                <img src="../../../images/logos/dij-logo-460.png" class="pp-institute-graphic__logo" alt="DIJT-Logo" />
-                <h1 class="pp-institute-graphic__headline">
-                    Institut allemand des Études japonaises Tokyo
-                </h1>
-                <img src="../../../images/institutes/dij-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Tokyo" title="Deutsches Institut für Japanstudien Tokio" />
-            </div>
+      <div class="col-12 pp-institute-graphic" lang="fr">
+        <img src="../../../images/logos/dij-logo-460.png" class="pp-institute-graphic__logo"
+          alt="DIJT-Logo" />
+        <h1 class="pp-institute-graphic__headline">
+          Institut allemand des Études japonaises Tokyo
+        </h1>
+        <img src="../../../images/institutes/dij-figure.jpg" class="pp-institute-graphic__figure"
+          alt="Foto Tokyo" title="Deutsches Institut für Japanstudien Tokio" />
+      </div>
 
-            <div class="col-12 pp-contact" lang="fr">
-                <h2>Contact</h2>
-                <h3>Institut allemand des Études japonaises Tokyo</h3>
-                <div class="pp-contact__list">
+      <div class="col-12 pp-contact" lang="fr">
+        <h2>Contact</h2>
+        <h3>Institut allemand des Études japonaises Tokyo</h3>
+        <div class="pp-contact__list">
 
-                    <div class="pp-contact__item">
-                        7-1-, Kioicho   Chiyoda-ku   Tokyo 102-0094 Japan
-                    </div>
+          <div class="pp-contact__item">
+            7-1-, Kioicho Chiyoda-ku Tokyo 102-0094 Japan
+          </div>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">Phone:</td>
-                            <td>+81 3 3222-5077</td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Fax:</td>
-                            <td>+81 3 3222-5420</td>
-                        </tr>
-                    </table>
+          <table class="pp-contact__item">
+            <tr>
+              <td class="pp-contact__subitem">Phone:</td>
+              <td>+81 3 3222-5077</td>
+            </tr>
+            <tr>
+              <td class="pp-contact__subitem">Fax:</td>
+              <td>+81 3 3222-5420</td>
+            </tr>
+          </table>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">E-Mail:</td>
-                            <td>
-                                <span class="madress">dijtokyo [at] dijtokyo.org</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Internet:</td>
-                            <td><a class="external-link" href="https://www.dijtokyo.org">https://www.dijtokyo.org</a></td>
-                        </tr>
-                    </table>
+          <table class="pp-contact__item">
+            <tr>
+              <td class="pp-contact__subitem">E-Mail:</td>
+              <td>
+                <span class="madress">dijtokyo [at] dijtokyo.org</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="pp-contact__subitem">Internet:</td>
+              <td>
+                <a class="external-link" href="https://www.dijtokyo.org">https://www.dijtokyo.org</a>
+              </td>
+            </tr>
+          </table>
 
-                </div>
-            </div>
+        </div>
+      </div>
 
-            <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:di.japan.tokyo%22" data-defaultThumbnail="../../../images/placeholder/dij-placeholder-460.png">
-                </div>
-            </div>
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:di.japan.tokyo%22"
+          data-defaultThumbnail="../../../images/placeholder/dij-placeholder-460.png">
+        </div>
+      </div>
 
-            <div class="col-12 pp-sources">
-                <h3>Digital source editions</h3>
-                <div class="row pp-sourcesBox">
-                    <div class="col-4 col-md-2">
-                        <img class="img-responsive" alt="xxx" title="xxx" src="../../../images/thumbnails/dij-bando-sammlung.jpg" />
-                    </div>
-                    <div class="col-8 col-md-4">
-                        <a class="external-link" href="https://prae.perspectivia.net/quellen/bando">Bandō-Sammlung des DIJ</a>
-                        <p>
-                            Deutsches Institut für Japanstudien Tokyo
-                        </p>
-                    </div>
-                </div>
-            </div>
+      <div class="col-12 pp-sources">
+        <h3>Digital source editions</h3>
+        <div class="row pp-sourcesBox">
+          <div class="col-4 col-md-2">
+            <img class="img-responsive" alt="xxx" title="xxx"
+              src="../../../images/thumbnails/dij-bando-sammlung.jpg" />
+          </div>
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="https://prae.perspectivia.net/quellen/bando">Bandō-Sammlung
+              des DIJ</a>
+            <p>
+              Deutsches Institut für Japanstudien Tokyo
+            </p>
+          </div>
+        </div>
+      </div>
 
-        </div></section><section xml:lang="it" title="Deutsches Institut für Japanstudien Tokio"><div class="row">
+    </div>
+  </section>
+  <section xml:lang="it" title="Deutsches Institut für Japanstudien Tokio">
+    <div class="row">
 
-            <div class="col-12 pp-institute-graphic" lang="de">
-                <img src="../../../images/logos/dij-logo-460.png" class="pp-institute-graphic__logo" alt="DIJT-Logo" />
-                <h1 class="pp-institute-graphic__headline">
-                    Deutsches Institut für Japanstudien Tokio
-                </h1>
-                <img src="../../../images/institutes/dij-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Tokyo" title="Deutsches Institut für Japanstudien Tokio" />
-            </div>
+      <div class="col-12 pp-institute-graphic" lang="de">
+        <img src="../../../images/logos/dij-logo-460.png" class="pp-institute-graphic__logo"
+          alt="DIJT-Logo" />
+        <h1 class="pp-institute-graphic__headline">
+          Deutsches Institut für Japanstudien Tokio
+        </h1>
+        <img src="../../../images/institutes/dij-figure.jpg" class="pp-institute-graphic__figure"
+          alt="Foto Tokyo" title="Deutsches Institut für Japanstudien Tokio" />
+      </div>
 
-            <div class="col-12 pp-contact" lang="de">
-                <h2>Contact</h2>
-                <h3>Deutsches Institut für Japanstudien Tokio</h3>
-                <div class="pp-contact__list">
+      <div class="col-12 pp-contact" lang="de">
+        <h2>Contact</h2>
+        <h3>Deutsches Institut für Japanstudien Tokio</h3>
+        <div class="pp-contact__list">
 
-                    <div class="pp-contact__item">
-                        7-1-, Kioicho   Chiyoda-ku   Tokyo 102-0094 Japan
-                    </div>
+          <div class="pp-contact__item">
+            7-1-, Kioicho Chiyoda-ku Tokyo 102-0094 Japan
+          </div>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">Phone:</td>
-                            <td>+81 3 3222-5077</td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Fax:</td>
-                            <td>+81 3 3222-5420</td>
-                        </tr>
-                    </table>
+          <table class="pp-contact__item">
+            <tr>
+              <td class="pp-contact__subitem">Phone:</td>
+              <td>+81 3 3222-5077</td>
+            </tr>
+            <tr>
+              <td class="pp-contact__subitem">Fax:</td>
+              <td>+81 3 3222-5420</td>
+            </tr>
+          </table>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">E-Mail:</td>
-                            <td>
-                                <span class="madress">dijtokyo [at] dijtokyo.org</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Internet:</td>
-                            <td><a class="external-link" href="https://www.dijtokyo.org">https://www.dijtokyo.org</a></td>
-                        </tr>
-                    </table>
+          <table class="pp-contact__item">
+            <tr>
+              <td class="pp-contact__subitem">E-Mail:</td>
+              <td>
+                <span class="madress">dijtokyo [at] dijtokyo.org</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="pp-contact__subitem">Internet:</td>
+              <td>
+                <a class="external-link" href="https://www.dijtokyo.org">https://www.dijtokyo.org</a>
+              </td>
+            </tr>
+          </table>
 
-                </div>
-            </div>
+        </div>
+      </div>
 
-            <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:di.japan.tokyo%22" data-defaultThumbnail="../../../images/placeholder/dij-placeholder-460.png">
-                </div>
-            </div>
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:di.japan.tokyo%22"
+          data-defaultThumbnail="../../../images/placeholder/dij-placeholder-460.png">
+        </div>
+      </div>
 
-            <div class="col-12 pp-sources">
-                <h3>Digital source editions</h3>
-                <div class="row pp-sourcesBox">
-                    <div class="col-4 col-md-2">
-                        <img class="img-responsive" alt="xxx" title="xxx" src="../../../images/thumbnails/dij-bando-sammlung.jpg" />
-                    </div>
-                    <div class="col-8 col-md-4">
-                        <a class="external-link" href="https://prae.perspectivia.net/quellen/bando">Bandō-Sammlung des DIJ</a>
-                        <p>
-                            Deutsches Institut für Japanstudien Tokyo
-                        </p>
-                    </div>
-                </div>
-            </div>
+      <div class="col-12 pp-sources">
+        <h3>Digital source editions</h3>
+        <div class="row pp-sourcesBox">
+          <div class="col-4 col-md-2">
+            <img class="img-responsive" alt="xxx" title="xxx"
+              src="../../../images/thumbnails/dij-bando-sammlung.jpg" />
+          </div>
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="https://prae.perspectivia.net/quellen/bando">Bandō-Sammlung
+              des DIJ</a>
+            <p>
+              Deutsches Institut für Japanstudien Tokyo
+            </p>
+          </div>
+        </div>
+      </div>
 
-        </div></section><meta><log lastEditor="agerber" date="2022-10-10" time="11:05" /></meta></MyCoReWebPage>
+    </div>
+  </section>
+  <meta>
+    <log lastEditor="agerber" date="2022-10-10" time="11:05" />
+  </meta>
+</MyCoReWebPage>

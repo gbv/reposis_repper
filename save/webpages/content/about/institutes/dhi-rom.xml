@@ -1,202 +1,246 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Deutsches Historisches Institut in Rom"><div class="row">
-<div class="col-12 pp-institute-graphic" lang="de"><img alt="DHI-Rom-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-rom-logo-425.jpg" />
-<h1 class="pp-institute-graphic__headline">Deutsches Historisches Institut in Rom</h1>
-<img alt="Foto Rom" class="pp-institute-graphic__figure" src="../../../images/institutes/dhi-rom-figure.jpg" title="Deutsches Historisches Institut in Rom" /></div>
+<MyCoReWebPage>
+  <section xml:lang="de" title="Deutsches Historisches Institut in Rom">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="de">
+        <img alt="DHI-Rom-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/dhi-rom-logo-425.jpg" />
+        <h1 class="pp-institute-graphic__headline">Deutsches Historisches Institut in Rom</h1>
+        <img alt="Foto Rom" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/dhi-rom-figure.jpg"
+          title="Deutsches Historisches Institut in Rom" />
+      </div>
 
-<div class="col-12 pp-contact" lang="de">
-<h2>Kontakt</h2>
+      <div class="col-12 pp-contact" lang="de">
+        <h2>Kontakt</h2>
 
-<h3>Deutsches Historisches Institut in Rom</h3>
+        <h3>Deutsches Historisches Institut in Rom</h3>
 
-<div class="pp-contact__list">
-<div class="pp-contact__item">Istituto Storico Germanico di Roma<br />
-Via Aurelia Antica, 391<br />
-I - 00165 Roma</div>
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">Istituto Storico Germanico di Roma<br /> Via Aurelia Antica,
+            391<br /> I - 00165 Roma</div>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">Telefon:</td>
-			<td>+39 06 660492-1</td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Fax:</td>
-			<td>+39 06 6623838</td>
-		</tr>
-	</tbody>
-</table>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Telefon:</td>
+                <td>+39 06 660492-1</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+39 06 6623838</td>
+              </tr>
+            </tbody>
+          </table>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">E-Mail:</td>
-			<td><span class="madress">post [at] dhi-roma.it</span></td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Internet:</td>
-			<td><a class="external-link" href="http://www.dhi-roma.it">http://www.dhi-roma.it</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>
+                  <span class="madress">post [at] dhi-roma.it</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="http://www.dhi-roma.it">http://www.dhi-roma.it</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
-<div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/dhi-rom-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.rom%22"> </div>
-</div>
-</div>
-</section><section xml:lang="en" title="German Historical Institute Rome"><div class="row">
-<div class="col-12 pp-institute-graphic" lang="en"><img alt="DHI-Rom-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-rom-logo-425.jpg" />
-<h1 class="pp-institute-graphic__headline">German Historical Institute Rome</h1>
-<img alt="Foto Rom" class="pp-institute-graphic__figure" src="../../../images/institutes/dhi-rom-figure.jpg" title="Deutsches Historisches Institut in Rom" /></div>
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/dhi-rom-placeholder-460.jpg"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.rom%22">
+           </div>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="en" title="German Historical Institute Rome">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="en">
+        <img alt="DHI-Rom-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/dhi-rom-logo-425.jpg" />
+        <h1 class="pp-institute-graphic__headline">German Historical Institute Rome</h1>
+        <img alt="Foto Rom" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/dhi-rom-figure.jpg"
+          title="Deutsches Historisches Institut in Rom" />
+      </div>
 
-<div class="col-12 pp-contact" lang="en">
-<h2>Contact</h2>
+      <div class="col-12 pp-contact" lang="en">
+        <h2>Contact</h2>
 
-<h3>German Historical Institute Rome</h3>
+        <h3>German Historical Institute Rome</h3>
 
-<div class="pp-contact__list">
-<div class="pp-contact__item">Istituto Storico Germanico di Roma<br />
-Via Aurelia Antica, 391<br />
-I - 00165 Roma</div>
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">Istituto Storico Germanico di Roma<br /> Via Aurelia Antica,
+            391<br /> I - 00165 Roma</div>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">Phone:</td>
-			<td>+39 06 660492-1</td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Fax:</td>
-			<td>+39 06 6623838</td>
-		</tr>
-	</tbody>
-</table>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Phone:</td>
+                <td>+39 06 660492-1</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+39 06 6623838</td>
+              </tr>
+            </tbody>
+          </table>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">E-Mail:</td>
-			<td><span class="madress">post [at] dhi-roma.it</span></td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Internet:</td>
-			<td><a class="external-link" href="http://www.dhi-roma.it">http://www.dhi-roma.it</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>
+                  <span class="madress">post [at] dhi-roma.it</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="http://www.dhi-roma.it">http://www.dhi-roma.it</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
-<div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/dhi-rom-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.rom%22"> </div>
-</div>
-</div>
-</section><section xml:lang="fr" title="Institut historique allemand Rome"><div class="row">
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/dhi-rom-placeholder-460.jpg"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.rom%22">
+           </div>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="fr" title="Institut historique allemand Rome">
+    <div class="row">
 
-            <div class="col-12 pp-institute-graphic" lang="fr">
-                <img src="../../../images/logos/dhi-rom-logo-425.jpg" class="pp-institute-graphic__logo" alt="DHI-Rom-Logo" />
-                <h1 class="pp-institute-graphic__headline">
-                    Institut historique allemand Rome
-                </h1>
-                <img src="../../../images/institutes/dhi-rom-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Rom" title="Deutsches Historisches Institut in Rom" />
-            </div>
+      <div class="col-12 pp-institute-graphic" lang="fr">
+        <img src="../../../images/logos/dhi-rom-logo-425.jpg" class="pp-institute-graphic__logo"
+          alt="DHI-Rom-Logo" />
+        <h1 class="pp-institute-graphic__headline">
+          Institut historique allemand Rome
+        </h1>
+        <img src="../../../images/institutes/dhi-rom-figure.jpg"
+          class="pp-institute-graphic__figure" alt="Foto Rom"
+          title="Deutsches Historisches Institut in Rom" />
+      </div>
 
-            <div class="col-12 pp-contact" lang="fr">
-                <h2>Contact</h2>
-                <h3>Institut historique allemand Rome</h3>
-                <div class="pp-contact__list">
+      <div class="col-12 pp-contact" lang="fr">
+        <h2>Contact</h2>
+        <h3>Institut historique allemand Rome</h3>
+        <div class="pp-contact__list">
 
-                    <div class="pp-contact__item">
-                        Istituto Storico Germanico di Roma<br />
-                        Via Aurelia Antica, 391<br />
-                        I - 00165 Roma
-                    </div>
+          <div class="pp-contact__item"> Istituto Storico Germanico di Roma<br /> Via Aurelia
+            Antica, 391<br /> I - 00165 Roma </div>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">Phone:</td>
-                            <td>+39 06 660492-1</td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Fax:</td>
-                            <td>+39 06 6623838</td>
-                        </tr>
-                    </table>
+          <table class="pp-contact__item">
+            <tr>
+              <td class="pp-contact__subitem">Phone:</td>
+              <td>+39 06 660492-1</td>
+            </tr>
+            <tr>
+              <td class="pp-contact__subitem">Fax:</td>
+              <td>+39 06 6623838</td>
+            </tr>
+          </table>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">E-Mail:</td>
-                            <td>
-                                <span class="madress">post [at] dhi-roma.it</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Internet:</td>
-                            <td><a class="external-link" href="http://www.dhi-roma.it">http://www.dhi-roma.it</a></td>
-                        </tr>
-                    </table>
+          <table class="pp-contact__item">
+            <tr>
+              <td class="pp-contact__subitem">E-Mail:</td>
+              <td>
+                <span class="madress">post [at] dhi-roma.it</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="pp-contact__subitem">Internet:</td>
+              <td>
+                <a class="external-link" href="http://www.dhi-roma.it">http://www.dhi-roma.it</a>
+              </td>
+            </tr>
+          </table>
 
-                </div>
-            </div>
+        </div>
+      </div>
 
-            <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.rom%22" data-defaultThumbnail="../../../images/placeholder/dhi-rom-placeholder-460.jpg">
-                </div>
-            </div>
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.rom%22"
+          data-defaultThumbnail="../../../images/placeholder/dhi-rom-placeholder-460.jpg">
+        </div>
+      </div>
 
-        </div></section><section xml:lang="it" title="Deutsches Historisches Institut in Rom"><div class="row">
+    </div>
+  </section>
+  <section xml:lang="it" title="Deutsches Historisches Institut in Rom">
+    <div class="row">
 
-            <div class="col-12 pp-institute-graphic" lang="de">
-                <img src="../../../images/logos/dhi-rom-logo-425.jpg" class="pp-institute-graphic__logo" alt="DHI-Rom-Logo" />
-                <h1 class="pp-institute-graphic__headline">
-                    Deutsches Historisches Institut in Rom
-                </h1>
-                <img src="../../../images/institutes/dhi-rom-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Rom" title="Deutsches Historisches Institut in Rom" />
-            </div>
+      <div class="col-12 pp-institute-graphic" lang="de">
+        <img src="../../../images/logos/dhi-rom-logo-425.jpg" class="pp-institute-graphic__logo"
+          alt="DHI-Rom-Logo" />
+        <h1 class="pp-institute-graphic__headline">
+          Deutsches Historisches Institut in Rom
+        </h1>
+        <img src="../../../images/institutes/dhi-rom-figure.jpg"
+          class="pp-institute-graphic__figure" alt="Foto Rom"
+          title="Deutsches Historisches Institut in Rom" />
+      </div>
 
-            <div class="col-12 pp-contact" lang="de">
-                <h2>Contact</h2>
-                <h3>Deutsches Historisches Institut in Rom</h3>
-                <div class="pp-contact__list">
+      <div class="col-12 pp-contact" lang="de">
+        <h2>Contact</h2>
+        <h3>Deutsches Historisches Institut in Rom</h3>
+        <div class="pp-contact__list">
 
-                    <div class="pp-contact__item">
-                        Istituto Storico Germanico di Roma<br />
-                        Via Aurelia Antica, 391<br />
-                        I - 00165 Roma
-                    </div>
+          <div class="pp-contact__item"> Istituto Storico Germanico di Roma<br /> Via Aurelia
+            Antica, 391<br /> I - 00165 Roma </div>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">Phone:</td>
-                            <td>+39 06 660492-1</td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Fax:</td>
-                            <td>+39 06 6623838</td>
-                        </tr>
-                    </table>
+          <table class="pp-contact__item">
+            <tr>
+              <td class="pp-contact__subitem">Phone:</td>
+              <td>+39 06 660492-1</td>
+            </tr>
+            <tr>
+              <td class="pp-contact__subitem">Fax:</td>
+              <td>+39 06 6623838</td>
+            </tr>
+          </table>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">E-Mail:</td>
-                            <td>
-                                <span class="madress">post [at] dhi-roma.it</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Internet:</td>
-                            <td><a class="external-link" href="http://www.dhi-roma.it">http://www.dhi-roma.it</a></td>
-                        </tr>
-                    </table>
+          <table class="pp-contact__item">
+            <tr>
+              <td class="pp-contact__subitem">E-Mail:</td>
+              <td>
+                <span class="madress">post [at] dhi-roma.it</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="pp-contact__subitem">Internet:</td>
+              <td>
+                <a class="external-link" href="http://www.dhi-roma.it">http://www.dhi-roma.it</a>
+              </td>
+            </tr>
+          </table>
 
-                </div>
-            </div>
+        </div>
+      </div>
 
-            <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.rom%22" data-defaultThumbnail="../../../images/placeholder/dhi-rom-placeholder-460.jpg">
-                </div>
-            </div>
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.rom%22"
+          data-defaultThumbnail="../../../images/placeholder/dhi-rom-placeholder-460.jpg">
+        </div>
+      </div>
 
-        </div></section><meta><log lastEditor="agerber" date="2021-05-31" time="11:44" /></meta></MyCoReWebPage>
+    </div>
+  </section>
+  <meta>
+    <log lastEditor="agerber" date="2021-05-31" time="11:44" />
+  </meta>
+</MyCoReWebPage>
