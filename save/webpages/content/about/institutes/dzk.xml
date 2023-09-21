@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage><section xml:lang="de" title="DZK"><div class="row">
-<div class="col-12 pp-institute-graphic" lang="de"><img alt="OII-Logo" class="pp-institute-graphic__logo" src="DZK_Logo_farbe_RGB.jpg" style="width: 200px; height: 65px;" />
+<div class="col-12 pp-institute-graphic" lang="de"><img alt="OII-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dzk-logo.jpg" />
 <h1 class="pp-institute-graphic__headline">Deutsches Zentrum Kulturgutverluste</h1>
-</div>
+<img alt="Foto Deutsches Zentrum Kulturgutverluste" class="pp-institute-graphic__figure" src="../../../images/institutes/dzk-figure.jpg" title="Deutsches Zentrum Kulturgutverluste" /></div>
 
 <div class="col-12 pp-contact" lang="de">
 <h2>Kontakt</h2>
