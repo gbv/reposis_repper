@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
+
   <section xml:lang="de" title="Max Weber Forum für Südasienstudien Delhi">
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="de">
-        <img alt="OII-Logo" class="pp-institute-graphic__logo"
-          src="csm_Logo_ohne_Rahmen_8b06d105f3.jpg" style="width: 160px; height: 135px;" />
+        <img class="pp-institute-graphic__logo"
+          src="../../../images/logos/mwf-logo.jpg" />
         <h1 class="pp-institute-graphic__headline">Max Weber Forum für Südasienstudien</h1>
-        <img alt="Foto Istanbul" class="pp-institute-graphic__figure"
-          src="csm_Standort_Delhi_208529c157.jpg" style="width: 1000px; height: 666px;"
-          title="Max Weber Forum für Südasienstudien" />
+        <img class="pp-institute-graphic__figure"
+          src="../../../images/institutes/mwf-figure.jpg" />
       </div>
 
       <div class="col-12 pp-contact" lang="de">
@@ -57,15 +57,15 @@
       </div>
     </div>
   </section>
+
   <section xml:lang="en" title="Max Weber Forum for South Asian Studies">
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="de">
-        <img alt="OII-Logo" class="pp-institute-graphic__logo"
-          src="csm_Logo_ohne_Rahmen_8b06d105f3.jpg" style="width: 160px; height: 135px;" />
+        <img class="pp-institute-graphic__logo"
+          src="../../../images/logos/mwf-logo.jpg" />
         <h1 class="pp-institute-graphic__headline">Max Weber Forum for South Asian Studies</h1>
-        <img alt="Foto Istanbul" class="pp-institute-graphic__figure"
-          src="csm_Standort_Delhi_208529c157.jpg" style="width: 1000px; height: 666px;"
-          title="Max Weber Forum for South Asian Studies" />
+        <img class="pp-institute-graphic__figure"
+          src="../../../images/institutes/mwf-figure.jpg" />
       </div>
 
       <div class="col-12 pp-contact" lang="en">
@@ -114,15 +114,15 @@
       </div>
     </div>
   </section>
+
   <section xml:lang="fr" title="Forum Max Weber pour les études sud-asiatiques à Delhi">
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="de">
-        <img alt="OII-Logo" class="pp-institute-graphic__logo"
-          src="csm_Logo_ohne_Rahmen_8b06d105f3.jpg" style="width: 160px; height: 135px;" />
+        <img class="pp-institute-graphic__logo"
+          src="../../../images/logos/mwf-logo.jpg" />
         <h1 class="pp-institute-graphic__headline">Max Weber Forum for South Asian Studies</h1>
-        <img alt="Foto Istanbul" class="pp-institute-graphic__figure"
-          src="csm_Standort_Delhi_208529c157.jpg" style="width: 1000px; height: 666px;"
-          title="Max Weber Forum for South Asian Studies" />
+        <img class="pp-institute-graphic__figure"
+          src="../../../images/institutes/mwf-figure.jpg" />
       </div>
 
       <div class="col-12 pp-contact" lang="en">
@@ -171,6 +171,7 @@
       </div>
     </div>
   </section>
+
   <meta>
     <log lastEditor="agerber" date="2022-04-22" time="12:07" />
   </meta>

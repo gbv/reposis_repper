@@ -4,7 +4,7 @@
   <section xml:lang="de" title="DZK">
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="de">
-        <img alt="OII-Logo" class="pp-institute-graphic__logo"
+        <img alt="DZK-Logo" class="pp-institute-graphic__logo"
           src="../../../images/logos/dzk-logo.jpg" />
         <h1 class="pp-institute-graphic__headline">Deutsches Zentrum Kulturgutverluste</h1>
         <img alt="Foto Deutsches Zentrum Kulturgutverluste" class="pp-institute-graphic__figure"
@@ -65,9 +65,12 @@
   <section xml:lang="en" title="DZK">
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="en">
-        <img alt="OII-Logo" class="pp-institute-graphic__logo" src="DZK_Logo_farbe_RGB.jpg"
-          style="width: 200px; height: 65px;" />
+        <img alt="DZK-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/dzk-logo.jpg" />
         <h1 class="pp-institute-graphic__headline">German Lost Art Foundation</h1>
+        <img alt="Foto Deutsches Zentrum Kulturgutverluste" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/dzk-figure.jpg"
+          title="Deutsches Zentrum Kulturgutverluste" />
       </div>
 
       <div class="col-12 pp-contact" lang="en">
@@ -123,9 +126,12 @@
   <section xml:lang="fr" title="DZK">
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="fr">
-        <img alt="OII-Logo" class="pp-institute-graphic__logo" src="DZK_Logo_farbe_RGB.jpg"
-          style="width: 200px; height: 65px;" />
+        <img alt="DZK-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/dzk-logo.jpg" />
         <h1 class="pp-institute-graphic__headline">German Lost Art Foundation</h1>
+        <img alt="German Lost Art Foundation" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/dzk-figure.jpg"
+          title="German Lost Art Foundation" />
       </div>
 
       <div class="col-12 pp-contact" lang="fr">

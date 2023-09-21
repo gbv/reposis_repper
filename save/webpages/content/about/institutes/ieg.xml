@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
+
   <section xml:lang="de" title="IEG">
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="de">
-        <img alt="OII-Logo" class="pp-institute-graphic__logo" src="ieg.jpg"
-          style="width: 100px; height: 134px;" />
+        <img alt="IEG-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/ieg.jpg" />
         <h1 class="pp-institute-graphic__headline">Leibniz-Institut für Europäische Geschichte</h1>
+        <img alt="" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/ieg-figure.jpg" />
       </div>
 
       <div class="col-12 pp-contact" lang="de">
@@ -57,12 +60,15 @@
       </div>
     </div>
   </section>
+
   <section xml:lang="en" title="IEG">
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="en">
-        <img alt="OII-Logo" class="pp-institute-graphic__logo" src="ieg.jpg"
-          style="width: 100px; height: 134px;" />
+        <img alt="IEG-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/ieg.jpg" />
         <h1 class="pp-institute-graphic__headline">Leibniz Institute of European History</h1>
+        <img alt="" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/ieg-figure.jpg" />
       </div>
 
       <div class="col-12 pp-contact" lang="en">
@@ -114,12 +120,15 @@
       </div>
     </div>
   </section>
+
   <section xml:lang="fr" title="IEG">
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="fr">
-        <img alt="OII-Logo" class="pp-institute-graphic__logo" src="ieg.jpg"
-          style="width: 100px; height: 134px;" />
+        <img alt="IEG-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/ieg.jpg" />
         <h1 class="pp-institute-graphic__headline">Institut Leibniz d'histoire européenne</h1>
+        <img alt="" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/ieg-figure.jpg" />
       </div>
 
       <div class="col-12 pp-contact" lang="fr">
@@ -171,6 +180,7 @@
       </div>
     </div>
   </section>
+
   <meta>
     <log lastEditor="agerber" date="2022-07-15" time="10:17" />
   </meta>
