@@ -4,9 +4,10 @@
                 xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions"
                 xmlns:mods="http://www.loc.gov/mods/v3"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
-		xmlns:encoder="xalan://java.net.URLEncoder"
-		xmlns:exslt="http://exslt.org/common"
-		xmlns:xsL="http://www.w3.org/1999/XSL/Transform" version="1.0"
+                xmlns:encoder="xalan://java.net.URLEncoder"
+                xmlns:exslt="http://exslt.org/common"
+                xmlns:xsL="http://www.w3.org/1999/XSL/Transform"
+                version="1.0"
                 exclude-result-prefixes="i18n mcrxsl encoder mods xlink exslt">
 
   <!-- embed a solr search into the about us > institution pages -->
@@ -19,21 +20,25 @@
     <xsl:variable name="searchResult">
       <xsl:choose>
         <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
-	  <xsL:copy-of select="document(concat('solr:', $parameters, '&amp;sort=id asc'))"/>
+          <xsL:copy-of select="document(concat('solr:', $parameters, '&amp;sort=id asc'))" />
         </xsl:when>
         <xsl:otherwise>
-	  <xsL:copy-of select="document(concat('solr:', $parameters, '%20AND%20state:published&amp;sort=id asc&amp;'))"/>
+          <xsL:copy-of
+            select="document(concat('solr:', $parameters, '%20AND%20state:published&amp;sort=id asc&amp;'))" />
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
 
     <h3>
-      <xsl:value-of select="i18n:translate('mir.publication_selection')" /> <!-- Auswahl Publikationsreihen -->
+      <xsl:value-of select="i18n:translate('mir.publication_selection')" /> <!-- Auswahl
+      Publikationsreihen -->
     </h3>
-    <div class="row {$classes}">
+    <div
+      class="row {$classes}">
       <xsl:for-each select="exslt:node-set($searchResult)//doc">
-      <xsl:variable name="id" select="str[@name='id']/text()" />
-      <xsl:variable name="mcrobject" select="document(concat('mcrobject:', $id))" />
+        <xsl:variable name="id" select="str[@name='id']/text()" />
+      <xsl:variable name="mcrobject"
+          select="document(concat('mcrobject:', $id))" />
         <div class="col-xs-4 col-md-2">
           <xsl:call-template name="displayPreviewIMG">
             <xsl:with-param name="derobject"
@@ -42,7 +47,8 @@
             <xsl:with-param name="id" select="$id" />
           </xsl:call-template>
         </div>
-        <div class="col-xs-8 col-md-4">
+        <div
+          class="col-xs-8 col-md-4">
           <a class="external-link" href="{$WebApplicationBaseURL}receive/{$id}">
             <xsl:value-of select="./str[@name='mods.title.main']" />
             <xsl:if test="./str[@name='mods.title.subtitle']">
@@ -55,45 +61,43 @@
             </p>
           </xsl:if>
         </div>
-    </xsl:for-each>
+      </xsl:for-each>
     </div>
-</xsl:template>
+  </xsl:template>
 
   <xsl:template name="displayPreviewIMG">
     <xsl:param name="derobject" />
     <xsl:param name="defaultThumbnail" />
     <xsl:param name="id" />
-    <xsl:variable name="defaultThumbnailImg">
+    <xsl:variable
+      name="defaultThumbnailImg">
       <img class="img-responsive" src="{$defaultThumbnail}" />
     </xsl:variable>
 
     <xsl:choose>
       <xsl:when test="string-length($derobject)&gt;0">
         <xsl:variable name="derivateID" select="$derobject/@xlink:href" />
-        <xsl:variable name="maindoc" select="$derobject/maindoc" />
-        <xsl:variable name="contentType" select="document(concat('ifs:/',$derivateID))/mcr_directory/children/child[name=$maindoc]/contentType" />
-        <xsl:variable name="fileEnding_">
+        <xsl:variable
+          name="maindoc" select="$derobject/maindoc" />
+        <xsl:variable name="contentType"
+          select="document(concat('ifs:/',$derivateID))/mcr_directory/children/child[name=$maindoc]/contentType" />
+        <xsl:variable
+          name="fileEnding_">
           <xsl:call-template name="get-file-extension">
             <xsl:with-param name="path" select="$maindoc" />
           </xsl:call-template>
         </xsl:variable>
-        <xsl:variable name="fileEnding" select="translate($fileEnding_, $uppercase, $lowercase)" />
+        <xsl:variable
+          name="fileEnding" select="translate($fileEnding_, $uppercase, $lowercase)" />
         <xsl:choose>
           <xsl:when test="$fileEnding='pdf'">
             <img class="img-responsive"
-                 src="{concat($WebApplicationBaseURL, 'api/iiif/image/v2/thumbnail/', $id, '/full/!300,300/0/default.jpg')}" />
-                 <!--
-                  {concat($WebApplicationBaseURL, 'img/pdfthumb/', $derivateID, '/', encoder:encode($maindoc), '?centerThumb=no')}
-                  https://reposis-test.gbv.de/repper/api/iiif/image/v2/thumbnail/pnet_mods_00002657/full/!300,300/0/default.jpg
-                  -->
+              src="{concat($WebApplicationBaseURL, 'api/iiif/image/v2/thumbnail/', $id, '/full/!300,300/0/default.jpg')}" />
           </xsl:when>
           <xsl:when
             test="string-length($fileEnding)&gt;0 and string-length($contentType)&gt;0 and contains($MCR.Module-iview2.SupportedContentTypes, $contentType)">
             <img class="img-responsive"
-                 src="{concat($WebApplicationBaseURL, 'api/iiif/image/v2/thumbnail/', $id, '/full/!300,300/0/default.jpg')}" />
-                 <!--
-                  {concat($WebApplicationBaseURL, 'servlets/MCRTileCombineServlet/MID/', $derivateID, '/', encoder:encode($maindoc))}
-                  -->
+              src="{concat($WebApplicationBaseURL, 'api/iiif/image/v2/thumbnail/', $id, '/full/!300,300/0/default.jpg')}" />
           </xsl:when>
           <xsl:otherwise>
             <xsl:copy-of select="$defaultThumbnailImg" />
