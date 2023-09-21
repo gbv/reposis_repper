@@ -42,7 +42,7 @@
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/oii-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:f8ea4add-8496-4104-be8c-9b6adda6b7a6%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:f8ea4add-8496-4104-be8c-9b6adda6b7a6%22"> </div>
 </div>
 </div>
 </section><section xml:lang="en" title="IEG"><div class="row">
@@ -88,7 +88,7 @@
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/oii-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:f8ea4add-8496-4104-be8c-9b6adda6b7a6%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:f8ea4add-8496-4104-be8c-9b6adda6b7a6%22"> </div>
 </div>
 </div>
 </section><section xml:lang="fr" title="IEG"><div class="row">
@@ -134,7 +134,7 @@
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/oii-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:f8ea4add-8496-4104-be8c-9b6adda6b7a6%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:f8ea4add-8496-4104-be8c-9b6adda6b7a6%22"> </div>
 </div>
 </div>
 </section><meta><log lastEditor="agerber" date="2022-07-15" time="10:17" /></meta></MyCoReWebPage>

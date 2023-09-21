@@ -41,7 +41,7 @@ Indien</div>
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/oii-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dc751233-e1ca-483a-b5c1-0d53251530c5%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dc751233-e1ca-483a-b5c1-0d53251530c5%22"> </div>
 </div>
 </div>
 </section><section xml:lang="en" title="Max Weber Forum for South Asian Studies"><div class="row">
@@ -86,7 +86,7 @@ Indien</div>
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/oii-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dc751233-e1ca-483a-b5c1-0d53251530c5%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dc751233-e1ca-483a-b5c1-0d53251530c5%22"> </div>
 </div>
 </div></section><section xml:lang="fr" title="Forum Max Weber pour les études sud-asiatiques à Delhi"><div class="row">
 <div class="col-12 pp-institute-graphic" lang="de"><img alt="OII-Logo" class="pp-institute-graphic__logo" src="csm_Logo_ohne_Rahmen_8b06d105f3.jpg" style="width: 160px; height: 135px;" />
@@ -130,6 +130,6 @@ Indien</div>
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/oii-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dc751233-e1ca-483a-b5c1-0d53251530c5%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dc751233-e1ca-483a-b5c1-0d53251530c5%22"> </div>
 </div>
 </div></section><meta><log lastEditor="agerber" date="2022-04-22" time="12:07" /></meta></MyCoReWebPage>

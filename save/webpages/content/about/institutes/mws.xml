@@ -43,7 +43,7 @@ Rheinallee 6<br />
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/mws-placeholder-460.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:mws%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/mws-placeholder-460.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:mws%22"> </div>
 </div>
 </div>
 </section><section xml:lang="en" title="Max Weber Foundation - German Humanities Institutes Abroad"><div class="row">
@@ -90,7 +90,7 @@ Rheinallee 6<br />
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/mws-placeholder-460.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:mws%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/mws-placeholder-460.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:mws%22"> </div>
 </div>
 </div></section><section xml:lang="fr" title="Fondation Max-Weber"><div class="row">
 <div class="col-12 pp-institute-graphic" lang="fr"><img alt="MWS-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/max-weber-stiftung-de.svg" style="width: 200px; height: 200px;" />
@@ -136,7 +136,7 @@ Rheinallee 6<br />
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/mws-placeholder-460.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:mws%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/mws-placeholder-460.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:mws%22"> </div>
 </div>
 </div>
 </section><section xml:lang="it" title="Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland"><div class="row">
@@ -183,6 +183,6 @@ Rheinallee 6<br />
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/mws-placeholder-460.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:mws%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/mws-placeholder-460.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:mws%22"> </div>
 </div>
 </div></section><meta><log lastEditor="agerber" date="2022-10-05" time="14:51" /></meta></MyCoReWebPage>

@@ -42,7 +42,7 @@ Pl 00-540 Warszawa</div>
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/dhi-warschau-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.warschau%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/dhi-warschau-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.warschau%22"> </div>
 </div>
 </div>
 </section><section xml:lang="en" title="German Historical Institute Warsaw"><div class="row">
@@ -88,7 +88,7 @@ Pl 00-540 Warszawa</div>
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/dhi-warschau-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.warschau%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/dhi-warschau-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.warschau%22"> </div>
 </div>
 </div>
 </section><section xml:lang="fr" title="Institut historique allemand Varsovie"><div class="row">

@@ -54,7 +54,7 @@
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultthumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg"
+          data-defaultThumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg"
           data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22">
            </div>
       </div>
@@ -158,7 +158,7 @@
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultthumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg"
+          data-defaultThumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg"
           data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22">
            </div>
       </div>
@@ -262,7 +262,7 @@
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultthumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg"
+          data-defaultThumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg"
           data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22">
            </div>
       </div>
@@ -366,7 +366,7 @@
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultthumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg"
+          data-defaultThumbnail="../../../images/placeholder/dhi-moskau-placeholder-200.jpg"
           data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.moskau%22">
            </div>
       </div>

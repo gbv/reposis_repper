@@ -42,7 +42,7 @@ DC 20009-2562</div>
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/dhi-washingtondc-placeholder-250.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/dhi-washingtondc-placeholder-250.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22"> </div>
 </div>
 </div>
 </section><section xml:lang="en" title="German Historical Institute Washington, DC"><div class="row">
@@ -88,7 +88,7 @@ DC 20009-2562</div>
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/dhi-washingtondc-placeholder-250.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/dhi-washingtondc-placeholder-250.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22"> </div>
 </div>
 </div>
 </section><section xml:lang="fr" title="Institut historique allemand Washington"><div class="row">
@@ -134,7 +134,7 @@ DC 20009-2562</div>
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/dhi-washingtondc-placeholder-250.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/dhi-washingtondc-placeholder-250.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22"> </div>
 </div>
 </div>
 </section><section xml:lang="it" title="Deutsches Historisches Institut Washington"><div class="row">
@@ -180,7 +180,7 @@ DC 20009-2562</div>
 </div>
 
 <div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/dhi-washingtondc-placeholder-250.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22"> </div>
+<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultThumbnail="../../../images/placeholder/dhi-washingtondc-placeholder-250.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22"> </div>
 </div>
 </div>
 </section><meta><log lastEditor="agerber" date="2021-05-31" time="12:21" /></meta></MyCoReWebPage>

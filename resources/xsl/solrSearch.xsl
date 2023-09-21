@@ -30,7 +30,7 @@
     <h3>
       <xsl:value-of select="i18n:translate('mir.publication_selection')" /> <!-- Auswahl Publikationsreihen -->
     </h3>
-    <div class="row {$classes}">    
+    <div class="row {$classes}">
       <xsl:for-each select="exslt:node-set($searchResult)//doc">
       <xsl:variable name="id" select="str[@name='id']/text()" />
       <xsl:variable name="mcrobject" select="document(concat('mcrobject:', $id))" />
@@ -39,6 +39,7 @@
             <xsl:with-param name="derobject"
               select="$mcrobject/mycoreobject/structure/derobjects/derobject[classification[@classid='derivate_types'][@categid='thumbnail']]" />
             <xsl:with-param name="defaultThumbnail" select="$thumbnail" />
+            <xsl:with-param name="id" select="$id" />
           </xsl:call-template>
         </div>
         <div class="col-xs-8 col-md-4">
@@ -55,12 +56,13 @@
           </xsl:if>
         </div>
     </xsl:for-each>
-    </div>  
+    </div>
 </xsl:template>
 
   <xsl:template name="displayPreviewIMG">
     <xsl:param name="derobject" />
     <xsl:param name="defaultThumbnail" />
+    <xsl:param name="id" />
     <xsl:variable name="defaultThumbnailImg">
       <img class="img-responsive" src="{$defaultThumbnail}" />
     </xsl:variable>
@@ -79,12 +81,19 @@
         <xsl:choose>
           <xsl:when test="$fileEnding='pdf'">
             <img class="img-responsive"
-                 src="{concat($WebApplicationBaseURL, 'img/pdfthumb/', $derivateID, '/', encoder:encode($maindoc), '?centerThumb=no')}" />
+                 src="{concat($WebApplicationBaseURL, 'api/iiif/image/v2/thumbnail/', $id, '/full/!300,300/0/default.jpg')}" />
+                 <!--
+                  {concat($WebApplicationBaseURL, 'img/pdfthumb/', $derivateID, '/', encoder:encode($maindoc), '?centerThumb=no')}
+                  https://reposis-test.gbv.de/repper/api/iiif/image/v2/thumbnail/pnet_mods_00002657/full/!300,300/0/default.jpg
+                  -->
           </xsl:when>
           <xsl:when
             test="string-length($fileEnding)&gt;0 and string-length($contentType)&gt;0 and contains($MCR.Module-iview2.SupportedContentTypes, $contentType)">
             <img class="img-responsive"
-                 src="{concat($WebApplicationBaseURL, 'servlets/MCRTileCombineServlet/MID/', $derivateID, '/', encoder:encode($maindoc))}" />
+                 src="{concat($WebApplicationBaseURL, 'api/iiif/image/v2/thumbnail/', $id, '/full/!300,300/0/default.jpg')}" />
+                 <!--
+                  {concat($WebApplicationBaseURL, 'servlets/MCRTileCombineServlet/MID/', $derivateID, '/', encoder:encode($maindoc))}
+                  -->
           </xsl:when>
           <xsl:otherwise>
             <xsl:copy-of select="$defaultThumbnailImg" />
@@ -126,4 +135,3 @@
   <xsl:param name="MCR.Module-iview2.SupportedContentTypes" />
 
 </xsl:stylesheet>
-
