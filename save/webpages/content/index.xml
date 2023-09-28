@@ -162,8 +162,23 @@
                   class="p-tile__arrow"
                   src="../images/icons/icon-feather-arrow-up-right.svg" />
                 <div class="p-tile__content">
-                  <h3 class="p-tile__headline">Browse Publications</h3>
-                  <p class="p-tile__text">Suche in den digitalen Erst- und Zweitveröffentlichungen in perspectivia.net</p>
+                  <h3 class="p-tile__headline">
+                    <i18n:de>Publikationen</i18n:de>
+                    <i18n:en>Publications</i18n:en>
+                    <i18n:fr>Publications</i18n:fr>
+                  </h3>
+                  <p class="p-tile__text">
+                    <i18n:de>
+                      Suche in den digitalen Erst- und Zweitveröffentlichungen
+                      in perspectivia.net
+                    </i18n:de>
+                    <i18n:en>
+                      Search in the digital publications in perspectivia.net
+                    </i18n:en>
+                    <i18n:fr>
+                      Search in the digital publications in perspectivia.net
+                    </i18n:fr>
+                  </p>
                 </div>
               </a>
 
@@ -179,8 +194,25 @@
                   class="p-tile__arrow"
                   src="../images/icons/icon-feather-arrow-up-right.svg" />
                 <div class="p-tile__content">
-                  <h3 class="p-tile__headline">Browse Source Editions</h3>
-                  <p class="p-tile__text">Digitalisierte Quellensammlungen, historische Datenbestände und kritische Editionen</p>
+                  <h3 class="p-tile__headline">
+                    <i18n:de>Quellen und Datenbanken</i18n:de>
+                    <i18n:en>Sources and databases</i18n:en>
+                    <i18n:fr>Sources and databases</i18n:fr>
+                  </h3>
+                  <p class="p-tile__text">
+                    <i18n:de>
+                      Digitalisierte Quellensammlungen,
+                      historische Datenbestände und kritische Editionen
+                    </i18n:de>
+                    <i18n:en>
+                      Digitised source collections,
+                      historical datasets and critical editions
+                    </i18n:en>
+                    <i18n:fr>
+                      Digitised source collections,
+                      historical datasets and critical editions
+                    </i18n:fr>
+                  </p>
                 </div>
               </a>
 
@@ -196,8 +228,28 @@
                   class="p-tile__arrow"
                   src="../images/icons/icon-feather-arrow-up-right.svg" />
                 <div class="p-tile__content">
-                  <h3 class="p-tile__headline">Blogs</h3>
-                  <p class="p-tile__text">WEBER 2.0 | WISSENSCHAFTLICHE BLOGS DER MAX WEBER STIFTUNG</p>
+                  <h3 class="p-tile__headline">
+                    <i18n:de>Blogs</i18n:de>
+                    <i18n:en>Blogs</i18n:en>
+                    <i18n:fr>Blogs</i18n:fr>
+                  </h3>
+                  <p class="p-tile__text">
+                    <i18n:de>
+                      Wissen in Verbindung - Weber 2.0 ist das Portal für
+                      wissenschaftliche Blogs der Max Weber Stiftung,
+                      ihrer Institute und Partner
+                    </i18n:de>
+                    <i18n:en>
+                      Wissen in Verbindung - Weber 2.0 is the portal
+                      for academic blogs of the Max Weber Foundation,
+                      its institutes and partners
+                    </i18n:en>
+                    <i18n:fr>
+                      Wissen in Verbindung - Weber 2.0 is the portal
+                      for academic blogs of the Max Weber Foundation,
+                      its institutes and partners
+                    </i18n:fr>
+                  </p>
                 </div>
               </a>
 
@@ -213,11 +265,21 @@
                   class="p-tile__arrow"
                   src="../images/icons/icon-feather-arrow-up-right.svg" />
                 <div class="p-tile__content">
-                  <h3 class="p-tile__headline">Browse research data</h3>
+                  <h3 class="p-tile__headline">
+                    <i18n:de>Forschungsdaten</i18n:de>
+                    <i18n:en>Sources and databases</i18n:en>
+                    <i18n:fr>données de recherche </i18n:fr>
+                  </h3>
                   <p class="p-tile__text">
-                    <i18n:de>Seit 2023 werden auch Forschungsdaten in perspevivia.net verzeichnet.</i18n:de>
-                    <i18n:en>Depuis 2023, perspectivia.net collecte des données de recherche.</i18n:en>
-                    <i18n:fr>In 2023 perspectivia.net started collecting research data.</i18n:fr>
+                    <i18n:de>
+                      Seit 2023 werden auch Forschungsdaten in perspevivia.net verzeichnet
+                    </i18n:de>
+                    <i18n:en>
+                      In 2023 perspectivia.net started collecting research data
+                    </i18n:en>
+                    <i18n:fr>
+                      Depuis 2023, perspectivia.net collecte des données de recherche
+                    </i18n:fr>
                   </p>
                 </div>
               </a>
@@ -234,8 +296,28 @@
                   class="p-tile__arrow"
                   src="../images/icons/icon-feather-arrow-up-right.svg" />
                 <div class="p-tile__content">
-                  <h3 class="p-tile__headline">Kooperationspartner</h3>
-                  <p class="p-tile__text">Die MWS kooperiert insbesondere mit den DFG-Fachinformationsdiensten (FIDs) und überregional tätigen Kompetenzzentren.</p>
+                  <h3 class="p-tile__headline">
+                    <i18n:de>Kooperationspartner</i18n:de>
+                    <i18n:en>Cooperation partners</i18n:en>
+                    <i18n:fr>Cooperation partners </i18n:fr>
+                  </h3>
+                  <p class="p-tile__text">
+                    <i18n:de>
+                      Die MWS kooperiert insbesondere mit den
+                      DFG-Fachinformationsdiensten (FIDs) und überregional
+                      tätigen Kompetenzzentren
+                    </i18n:de>
+                    <i18n:en>
+                      The MWS cooperates in particular with the DFG's specialist
+                      information services (FIDs) and supra-regionally active
+                      competence centres
+                    </i18n:en>
+                    <i18n:fr>
+                      The MWS cooperates in particular with the DFG's specialist
+                      information services (FIDs) and supra-regionally active
+                      competence centres
+                    </i18n:fr>
+                  </p>
                 </div>
               </a>
 
@@ -251,8 +333,22 @@
                   class="p-tile__arrow"
                   src="../images/icons/icon-feather-arrow-up-right.svg" />
                 <div class="p-tile__content">
-                  <h3 class="p-tile__headline">Podcast</h3>
-                  <p class="p-tile__text">Wissen entgenzen - Der Podcast der Max Weber Stiftung</p>
+                  <h3 class="p-tile__headline">
+                    <i18n:de>Podcast</i18n:de>
+                    <i18n:en>Podcast</i18n:en>
+                    <i18n:fr>Podcast</i18n:fr>
+                  </h3>
+                  <p class="p-tile__text">
+                    <i18n:de>
+                      Wissen entgrenzen - Der Podcast der Max Weber Stiftung
+                    </i18n:de>
+                    <i18n:en>
+                      Wissen entgrenzen - The Max Weber Foundation Podcast
+                    </i18n:en>
+                    <i18n:fr>
+                      Wissen entgrenzen - The Max Weber Foundation Podcast
+                    </i18n:fr>
+                  </p>
                 </div>
               </a>
 
@@ -266,19 +362,31 @@
               <a
                 href="../servlets/solr/select?q=%2Bcategory.top%3Amir_genres\:article+%2BobjectType%3Amods+%2Bcategory.top%3Astate\:published"
                 class="p-statistic p-statistic__articles">
-                <span class="p-statistic__title">Artikel</span>
+                <span class="p-statistic__title">
+                  <i18n:de>Artikel</i18n:de>
+                  <i18n:en>Article</i18n:en>
+                  <i18n:fr>Article</i18n:fr>
+                </span>
                 <span class="p-statistic__value">26.118</span>
               </a>
               <a
                 href="../servlets/solr/select?q=%2Bcategory.top%3Amir_genres\:research_data+%2BobjectType%3Amods+%2Bcategory.top%3Astate\:published"
                 class="p-statistic p-statistic__research">
-                <span class="p-statistic__title">Forschungsdaten</span>
+                <span class="p-statistic__title">
+                  <i18n:de>Forschungsdaten</i18n:de>
+                  <i18n:en>Research data</i18n:en>
+                  <i18n:fr>Données de recherche</i18n:fr>
+                </span>
                 <span class="p-statistic__value">14</span>
               </a>
               <a
                 href="../servlets/solr/select?q=%2Bcategory.top:mir_genres\:review+%2BobjectType:mods+%2Bcategory.top:state\:published"
                 class="p-statistic p-statistic__reviews">
-                <span class="p-statistic__title">Rezensionen</span>
+                <span class="p-statistic__title">
+                  <i18n:de>Rezensionen</i18n:de>
+                  <i18n:en>Reviews</i18n:en>
+                  <i18n:fr>Comptes rendus</i18n:fr>
+                </span>
                 <span class="p-statistic__value">6.174</span>
               </a>
             </div>
@@ -291,12 +399,11 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h2 class="">Herausgebende Institutionen</h2>
-            <p>
-              Digitale Erst- und Zweitveröffentlichungen,
-              Quelleneditionen und Datenbanken der Institute der
-              Max Weber Stiftung und ihren Partnern.
-            </p>
+            <h2 class="">
+              <i18n:de>Herausgebende Institutionen</i18n:de>
+              <i18n:en>Publishing institutions</i18n:en>
+              <i18n:fr>éditeurs</i18n:fr>
+            </h2>
             <div
               class="carousel slide carousel-institutes"
               data-interval="0"
@@ -317,27 +424,6 @@
 
                 <div class="carousel-item active">
                   <div class="row carousel-item__content-box">
-
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/mws.xml"
-                        class="slider-institute slider-institute-mws">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/max-weber-stiftung-de.svg" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institutes/mws-figure.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Max Weber Stiftung –
-                          Deutsche Geisteswissenschaftliche Institute im Ausland
-                        </div>
-                      </a>
-                    </div>
 
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
@@ -387,7 +473,7 @@
                           <img
                             alt=""
                             class="slider-institute-logo"
-                            src="../images/logos/dhi-moskau-logo.jpg" />
+                            src="../images/logos/dhi-moskau.png" />
                           <img
                             alt=""
                             class="img-fluid slider-institute-image"
@@ -398,12 +484,6 @@
                         </div>
                       </a>
                     </div>
-                  </div>
-
-                </div>
-
-                <div class="carousel-item">
-                  <div class="row carousel-item__content-box">
 
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
@@ -424,6 +504,12 @@
                         </div>
                       </a>
                     </div>
+
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row carousel-item__content-box">
 
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
@@ -484,12 +570,6 @@
                         </div>
                       </a>
                     </div>
-                  </div>
-
-                </div>
-
-                <div class="carousel-item">
-                  <div class="row carousel-item__content-box">
 
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
@@ -510,6 +590,12 @@
                         </div>
                       </a>
                     </div>
+
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row carousel-item__content-box">
 
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
@@ -570,8 +656,29 @@
                         </div>
                       </a>
                     </div>
-                  </div>
 
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
+                      <a
+                        href="about/institutes/mws.xml"
+                        class="slider-institute slider-institute-mws">
+                        <div class="slider-institute-figure">
+                          <img
+                            alt=""
+                            class="slider-institute-logo"
+                            src="../images/logos/max-weber-stiftung-de.svg" />
+                          <img
+                            alt=""
+                            class="img-fluid slider-institute-image"
+                            src="../images/institutes/mws-figure.jpg" />
+                        </div>
+                        <div class="slider-institute-title">
+                          Max Weber Stiftung –
+                          Deutsche Geisteswissenschaftliche Institute im Ausland
+                        </div>
+                      </a>
+                    </div>
+
+                  </div>
                 </div>
 
                 <div class="carousel-item">
@@ -656,8 +763,8 @@
                         </div>
                       </a>
                     </div>
-                  </div>
 
+                  </div>
                 </div>
 
                 <div class="carousel-item">
@@ -684,7 +791,6 @@
                     </div>
 
                   </div>
-
                 </div>
 
               </div>
