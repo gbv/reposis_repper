@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage xmlns:i18n="http://www.mycore.org/i18n">
 
-  <section xml:lang="all" i18n="pp.page.citations.title">
+  <section xml:lang="all" i18n="pp.page.home.title">
     <div class="jumbotwo"></div>
 
     <div class="page-section page-section__intro">
@@ -966,7 +966,7 @@
       $( document ).ready(function() {
         $.ajax({
           type: "GET",
-          url: "../api/v1/search?q=objectType:mods AND state:published AND category.top:"mir_genres:article"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+          url: "../api/v1/search?q=objectType:mods AND state:published AND category.top:\"mir_genres:article\"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
           dataType: "jsonp",
           success: function (data) {
             $('#p-statistic__articles__value').text($.number(data.response.numFound,0, ',', '.'));
@@ -974,15 +974,7 @@
         });
         $.ajax({
           type: "GET",
-          url: "../api/v1/search?q=objectType:mods AND state:published AND category.top:"mir_genres:article"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
-          dataType: "jsonp",
-          success: function (data) {
-            $('#p-statistic__articles__value').text($.number(data.response.numFound,0, ',', '.'));
-          },
-        });
-        $.ajax({
-          type: "GET",
-          url: "../api/v1/search?q=objectType:mods AND state:published AND category.top:"mir_genres:research_data"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+          url: "../api/v1/search?q=objectType:mods AND state:published AND category.top:\"mir_genres:research_data\"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
           dataType: "jsonp",
           success: function (data) {
             $('#p-statistic__research__value').text($.number(data.response.numFound,0, ',', '.'));
@@ -990,7 +982,7 @@
         });
         $.ajax({
           type: "GET",
-          url: "../api/v1/search?q=objectType:mods AND state:published AND category.top:"mir_genres:review"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+          url: "../api/v1/search?q=objectType:mods AND state:published AND category.top:\"mir_genres:review\"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
           dataType: "jsonp",
           success: function (data) {
             $('#p-statistic__reviews__value').text($.number(data.response.numFound,0, ',', '.'));
@@ -1002,7 +994,7 @@
   </section>
 
   <meta>
-    <log lastEditor="relaunch" date="2023-05-16" time="10:00" />
+    <log lastEditor="relaunch" date="2023-09-29" time="12:11" />
   </meta>
 
 </MyCoReWebPage>
