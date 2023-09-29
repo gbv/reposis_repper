@@ -20,10 +20,10 @@
     <xsl:variable name="searchResult">
       <xsl:choose>
         <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
-          <xsL:copy-of select="document(concat('solr:', $parameters, '&amp;sort=id asc'))" />
+          <xsl:copy-of select="document(concat('solr:', $parameters, '&amp;sort=id asc'))" />
         </xsl:when>
         <xsl:otherwise>
-          <xsL:copy-of
+          <xsl:copy-of
             select="document(concat('solr:', $parameters, '%20AND%20state:published&amp;sort=id asc&amp;'))" />
         </xsl:otherwise>
       </xsl:choose>
@@ -152,7 +152,7 @@
           <div class="carousel-item__content-box">
 
             <xsl:variable name="newest_article">
-              <xsL:copy-of select="document('solr:category.top:%22mir_genres:article%22%20AND%20state:published&amp;rows=1&amp;sort=mods.dateIssued+desc&amp;fl=id,search_result_link_text,mods.abstract.result')" />
+              <xsl:copy-of select="document('solr:category.top%3A%22mir_genres%3Aarticle%22%20AND%20state%3Apublished&amp;rows=1&amp;sort=mods.dateIssued+desc&amp;fl=id,search_result_link_text,mods.abstract.result')" />
             </xsl:variable>
             <xsl:variable name="newest_article_id" select="exslt:node-set($newest_article)//doc/str[@name='id']/text()" />
             <xsl:variable name="newest_article_title" select="exslt:node-set($newest_article)//doc/str[@name='search_result_link_text']/text()" />
@@ -165,7 +165,7 @@
             <h3><xsl:value-of select="exslt:node-set($newest_article)//doc/str[@name='search_result_link_text']/text()" /></h3>
             <!-- ToDo: Auslesen aus Objekt und sprachabhängig ausgeben -->
             <p>
-              <xsL:value-of select="exslt:node-set($newest_article)//doc/str[@name='mods.abstract.result']/text()" />
+              <xsl:value-of select="exslt:node-set($newest_article)//doc/str[@name='mods.abstract.result']/text()" />
             </p>
             <xsl:if test="$newest_article_mcrobject//mods:mods/mods:url[@access='raw object']">
               <p>
@@ -180,7 +180,7 @@
           <div class="carousel-item__content-box">
 
             <xsl:variable name="newest_book">
-              <xsL:copy-of select="document('solr:category.top:%22mir_genres:book%22%20AND%20state:published&amp;rows=1&amp;sort=mods.dateIssued+desc&amp;fl=id,search_result_link_text,mods.abstract.result')" />
+              <xsl:copy-of select="document('solr:category.top%3A%22mir_genres%3Abook%22%20AND%20state%3Apublished&amp;rows=1&amp;sort=mods.dateIssued+desc&amp;fl=id,search_result_link_text,mods.abstract.result')" />
             </xsl:variable>
             <xsl:variable name="newest_book_id" select="exslt:node-set($newest_book)//doc/str[@name='id']/text()" />
             <xsl:variable name="newest_book_title" select="exslt:node-set($newest_book)//doc/str[@name='search_result_link_text']/text()" />
@@ -193,7 +193,7 @@
             <h3><xsl:value-of select="exslt:node-set($newest_book)//doc/str[@name='search_result_link_text']/text()" /></h3>
             <!-- ToDo: Auslesen aus Objekt und sprachabhängig ausgeben -->
             <p>
-              <xsL:value-of select="exslt:node-set($newest_book)//doc/str[@name='mods.abstract.result']/text()" />
+              <xsl:value-of select="exslt:node-set($newest_book)//doc/str[@name='mods.abstract.result']/text()" />
             </p>
             <xsl:if test="$newest_book_mcrobject//mods:mods/mods:url[@access='raw object']">
               <p>
@@ -208,7 +208,7 @@
           <div class="carousel-item__content-box">
 
             <xsl:variable name="newest_collection">
-              <xsL:copy-of select="document('solr:category.top:%22mir_genres:collection%22%20AND%20state:published&amp;rows=1&amp;sort=mods.dateIssued+desc&amp;fl=id,search_result_link_text,mods.abstract.result')" />
+              <xsl:copy-of select="document('solr:category.top%3A%22mir_genres%3Acollection%22%20AND%20state%3Apublished&amp;rows=1&amp;sort=mods.dateIssued+desc&amp;fl=id,search_result_link_text,mods.abstract.result')" />
             </xsl:variable>
             <xsl:variable name="newest_collection_id" select="exslt:node-set($newest_collection)//doc/str[@name='id']/text()" />
             <xsl:variable name="newest_collection_title" select="exslt:node-set($newest_collection)//doc/str[@name='search_result_link_text']/text()" />
@@ -221,7 +221,7 @@
             <h3><xsl:value-of select="exslt:node-set($newest_collection)//doc/str[@name='search_result_link_text']/text()" /></h3>
             <!-- ToDo: Auslesen aus Objekt und sprachabhängig ausgeben -->
             <p>
-              <xsL:value-of select="exslt:node-set($newest_collection)//doc/str[@name='mods.abstract.result']/text()" />
+              <xsl:value-of select="exslt:node-set($newest_collection)//doc/str[@name='mods.abstract.result']/text()" />
             </p>
             <xsl:if test="$newest_collection_mcrobject//mods:mods/mods:url[@access='raw object']">
               <p>
@@ -236,7 +236,7 @@
           <div class="carousel-item__content-box">
 
             <xsl:variable name="newest_source">
-              <xsL:copy-of select="document('solr:category.top:%22mir_genres:source_edition%22%20AND%20state:published&amp;rows=1&amp;sort=mods.dateIssued+desc&amp;fl=id,search_result_link_text,mods.abstract.result')" />
+              <xsl:copy-of select="document('solr:category.top%3A%22mir_genres%3Asource_edition%22%20AND%20state%3Apublished&amp;rows=1&amp;sort=mods.dateIssued+desc&amp;fl=id,search_result_link_text,mods.abstract.result')" />
             </xsl:variable>
             <xsl:variable name="newest_source_id" select="exslt:node-set($newest_source)//doc/str[@name='id']/text()" />
             <xsl:variable name="newest_source_title" select="exslt:node-set($newest_source)//doc/str[@name='search_result_link_text']/text()" />
@@ -249,7 +249,7 @@
             <h3><xsl:value-of select="exslt:node-set($newest_source)//doc/str[@name='search_result_link_text']/text()" /></h3>
             <!-- ToDo: Auslesen aus Objekt und sprachabhängig ausgeben -->
             <p>
-              <xsL:value-of select="exslt:node-set($newest_source)//doc/str[@name='mods.abstract.result']/text()" />
+              <xsl:value-of select="exslt:node-set($newest_source)//doc/str[@name='mods.abstract.result']/text()" />
             </p>
             <xsl:if test="$newest_source_mcrobject//mods:mods/mods:url[@access='raw object']">
               <p>
