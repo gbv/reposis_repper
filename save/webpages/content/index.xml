@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage xmlns:i18n="http://www.mycore.org/i18n">
 
-  <section xml:lang="all" title="pp.page.citations.title">
+  <section xml:lang="all" i18n="pp.page.citations.title">
     <div class="jumbotwo"></div>
 
     <div class="page-section page-section__intro">
@@ -367,7 +367,7 @@
                   <i18n:en>Article</i18n:en>
                   <i18n:fr>Article</i18n:fr>
                 </span>
-                <span class="p-statistic__value">26.118</span>
+                <span id="p-statistic__articles__value" class="p-statistic__value">26.118</span>
               </a>
               <a
                 href="../servlets/solr/select?q=%2Bcategory.top%3Amir_genres\:research_data+%2BobjectType%3Amods+%2Bcategory.top%3Astate\:published"
@@ -377,7 +377,7 @@
                   <i18n:en>Research data</i18n:en>
                   <i18n:fr>Données de recherche</i18n:fr>
                 </span>
-                <span class="p-statistic__value">14</span>
+                <span id="p-statistic__research__value" class="p-statistic__value">14</span>
               </a>
               <a
                 href="../servlets/solr/select?q=%2Bcategory.top:mir_genres\:review+%2BobjectType:mods+%2Bcategory.top:state\:published"
@@ -387,7 +387,7 @@
                   <i18n:en>Reviews</i18n:en>
                   <i18n:fr>Comptes rendus</i18n:fr>
                 </span>
-                <span class="p-statistic__value">6.174</span>
+                <span id="p-statistic__reviews__value" class="p-statistic__value">6.174</span>
               </a>
             </div>
           </div>
@@ -960,6 +960,45 @@
         </div>
       </div>
     </div>
+
+    <script type="text/javascript" src="../js/jquery.number.js"></script>
+    <script>
+      $( document ).ready(function() {
+        $.ajax({
+          type: "GET",
+          url: "../api/v1/search?q=objectType:mods AND state:published AND category.top:"mir_genres:article"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+          dataType: "jsonp",
+          success: function (data) {
+            $('#p-statistic__articles__value').text($.number(data.response.numFound,0, ',', '.'));
+          },
+        });
+        $.ajax({
+          type: "GET",
+          url: "../api/v1/search?q=objectType:mods AND state:published AND category.top:"mir_genres:article"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+          dataType: "jsonp",
+          success: function (data) {
+            $('#p-statistic__articles__value').text($.number(data.response.numFound,0, ',', '.'));
+          },
+        });
+        $.ajax({
+          type: "GET",
+          url: "../api/v1/search?q=objectType:mods AND state:published AND category.top:"mir_genres:research_data"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+          dataType: "jsonp",
+          success: function (data) {
+            $('#p-statistic__research__value').text($.number(data.response.numFound,0, ',', '.'));
+          },
+        });
+        $.ajax({
+          type: "GET",
+          url: "../api/v1/search?q=objectType:mods AND state:published AND category.top:"mir_genres:review"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+          dataType: "jsonp",
+          success: function (data) {
+            $('#p-statistic__reviews__value').text($.number(data.response.numFound,0, ',', '.'));
+          },
+        });
+      });
+    </script>
+
   </section>
 
   <meta>
