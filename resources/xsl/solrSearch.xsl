@@ -134,6 +134,157 @@
     </xsl:choose>
   </xsl:template>
 
+  <xsl:template match="div[contains(@class, 'pp_carousel-slide')]">
+
+    <div class="carousel slide" data-interval="0" data-ride="carousel"
+      id="carousel-publications"><!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li class="active" data-slide-to="0" data-target="#carousel-publications"></li>
+        <li data-slide-to="1" data-target="#carousel-publications"></li>
+        <li data-slide-to="2" data-target="#carousel-publications"></li>
+        <li data-slide-to="3" data-target="#carousel-publications"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+
+      <div class="carousel-inner" role="listbox">
+
+        <div class="carousel-item active">
+          <div class="carousel-item__content-box">
+
+            <xsl:variable name="newest_article">
+              <xsL:copy-of select="document('solr:category.top:%22mir_genres:article%22%20AND%20state:published&amp;rows=1&amp;sort=mods.dateIssued+desc&amp;fl=id,search_result_link_text,mods.abstract.result')" />
+            </xsl:variable>
+            <xsl:variable name="newest_article_id" select="exslt:node-set($newest_article)//doc/str[@name='id']/text()" />
+            <xsl:variable name="newest_article_title" select="exslt:node-set($newest_article)//doc/str[@name='search_result_link_text']/text()" />
+            <xsl:variable name="newest_article_mcrobject" select="document(concat('mcrobject:', $newest_article_id))" />
+
+            <img
+              alt=""
+              class="carousel-item__image"
+              src="{$WebApplicationBaseURL}api/iiif/image/v2/thumbnail/{$newest_article_id}/full/!300,300/0/default.jpg" />
+            <h3><xsl:value-of select="exslt:node-set($newest_article)//doc/str[@name='search_result_link_text']/text()" /></h3>
+            <!-- ToDo: Auslesen aus Objekt und sprachabhängig ausgeben -->
+            <p>
+              <xsL:value-of select="exslt:node-set($newest_article)//doc/str[@name='mods.abstract.result']/text()" />
+            </p>
+            <xsl:if test="$newest_article_mcrobject//mods:mods/mods:url[@access='raw object']">
+              <p>
+                <a href="{$newest_article_mcrobject//mods:mods/mods:url[@access='raw object']}">Link zum Volltext</a>
+              </p>
+            </xsl:if>
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel-item__content-box">
+
+            <xsl:variable name="newest_book">
+              <xsL:copy-of select="document('solr:category.top:%22mir_genres:book%22%20AND%20state:published&amp;rows=1&amp;sort=mods.dateIssued+desc&amp;fl=id,search_result_link_text,mods.abstract.result')" />
+            </xsl:variable>
+            <xsl:variable name="newest_book_id" select="exslt:node-set($newest_book)//doc/str[@name='id']/text()" />
+            <xsl:variable name="newest_book_title" select="exslt:node-set($newest_book)//doc/str[@name='search_result_link_text']/text()" />
+            <xsl:variable name="newest_book_mcrobject" select="document(concat('mcrobject:', $newest_book_id))" />
+
+            <img
+              alt=""
+              class="carousel-item__image"
+              src="{$WebApplicationBaseURL}api/iiif/image/v2/thumbnail/{$newest_book_id}/full/!300,300/0/default.jpg" />
+            <h3><xsl:value-of select="exslt:node-set($newest_book)//doc/str[@name='search_result_link_text']/text()" /></h3>
+            <!-- ToDo: Auslesen aus Objekt und sprachabhängig ausgeben -->
+            <p>
+              <xsL:value-of select="exslt:node-set($newest_book)//doc/str[@name='mods.abstract.result']/text()" />
+            </p>
+            <xsl:if test="$newest_book_mcrobject//mods:mods/mods:url[@access='raw object']">
+              <p>
+                <a href="{$newest_book_mcrobject//mods:mods/mods:url[@access='raw object']}">Link zum Volltext</a>
+              </p>
+            </xsl:if>
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel-item__content-box">
+
+            <xsl:variable name="newest_collection">
+              <xsL:copy-of select="document('solr:category.top:%22mir_genres:collection%22%20AND%20state:published&amp;rows=1&amp;sort=mods.dateIssued+desc&amp;fl=id,search_result_link_text,mods.abstract.result')" />
+            </xsl:variable>
+            <xsl:variable name="newest_collection_id" select="exslt:node-set($newest_collection)//doc/str[@name='id']/text()" />
+            <xsl:variable name="newest_collection_title" select="exslt:node-set($newest_collection)//doc/str[@name='search_result_link_text']/text()" />
+            <xsl:variable name="newest_collection_mcrobject" select="document(concat('mcrobject:', $newest_collection_id))" />
+
+            <img
+              alt=""
+              class="carousel-item__image"
+              src="{$WebApplicationBaseURL}api/iiif/image/v2/thumbnail/{$newest_collection_id}/full/!300,300/0/default.jpg" />
+            <h3><xsl:value-of select="exslt:node-set($newest_collection)//doc/str[@name='search_result_link_text']/text()" /></h3>
+            <!-- ToDo: Auslesen aus Objekt und sprachabhängig ausgeben -->
+            <p>
+              <xsL:value-of select="exslt:node-set($newest_collection)//doc/str[@name='mods.abstract.result']/text()" />
+            </p>
+            <xsl:if test="$newest_collection_mcrobject//mods:mods/mods:url[@access='raw object']">
+              <p>
+                <a href="{$newest_collection_mcrobject//mods:mods/mods:url[@access='raw object']}">Link zum Volltext</a>
+              </p>
+            </xsl:if>
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel-item__content-box">
+
+            <xsl:variable name="newest_source">
+              <xsL:copy-of select="document('solr:category.top:%22mir_genres:source_edition%22%20AND%20state:published&amp;rows=1&amp;sort=mods.dateIssued+desc&amp;fl=id,search_result_link_text,mods.abstract.result')" />
+            </xsl:variable>
+            <xsl:variable name="newest_source_id" select="exslt:node-set($newest_source)//doc/str[@name='id']/text()" />
+            <xsl:variable name="newest_source_title" select="exslt:node-set($newest_source)//doc/str[@name='search_result_link_text']/text()" />
+            <xsl:variable name="newest_source_mcrobject" select="document(concat('mcrobject:', $newest_source_id))" />
+
+            <img
+              alt=""
+              class="carousel-item__image"
+              src="{$WebApplicationBaseURL}api/iiif/image/v2/thumbnail/{$newest_source_id}/full/!300,300/0/default.jpg" />
+            <h3><xsl:value-of select="exslt:node-set($newest_source)//doc/str[@name='search_result_link_text']/text()" /></h3>
+            <!-- ToDo: Auslesen aus Objekt und sprachabhängig ausgeben -->
+            <p>
+              <xsL:value-of select="exslt:node-set($newest_source)//doc/str[@name='mods.abstract.result']/text()" />
+            </p>
+            <xsl:if test="$newest_source_mcrobject//mods:mods/mods:url[@access='raw object']">
+              <p>
+                <a href="{$newest_source_mcrobject//mods:mods/mods:url[@access='raw object']}">Link zum Volltext</a>
+              </p>
+            </xsl:if>
+
+          </div>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#carousel-publications" role="button"
+        data-slide="prev">
+        <i class="fas fa-chevron-left"></i>
+        <span class="sr-only">
+          Vorherige
+          <!-- i18n:de>Vorherige</i18n:de>
+          <i18n:en>Previous</i18n:en>
+          <i18n:fr>Précédent</i18n:fr -->
+        </span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-publications" role="button"
+        data-slide="next">
+        <i class="fas fa-chevron-right"></i>
+        <span class="sr-only">
+          Nächste
+          <!-- i18n:de>Nächste</i18n:de>
+          <i18n:en>Next</i18n:en>
+          <i18n:fr>Prochain</i18n:fr -->
+        </span>
+      </a>
+    </div>
+  </xsl:template>
+
+
   <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'" />
   <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" />
   <xsl:param name="MCR.Module-iview2.SupportedContentTypes" />
