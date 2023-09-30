@@ -171,6 +171,7 @@
               <a href="{$WebApplicationBaseURL}receive/{$newest_article_id}">zum Eintrag in perspectivia.net</a>
               <xsl:if test="$newest_article_mcrobject//mods:mods/mods:location/mods:url[@access='raw object']">
                 <a href="{$newest_article_mcrobject//mods:mods/mods:location/mods:url[@access='raw object']}">zum Volltext</a>
+                <br />
               </xsl:if>
               <xsl:if test="$newest_article_mcrobject//mods:mods/mods:location/mods:url[@access='object in context']">
                 <a href="{$newest_article_mcrobject//mods:mods/mods:location/mods:url[@access='object in context']}">zur Druckversion</a>
@@ -203,6 +204,7 @@
               <a href="{$WebApplicationBaseURL}receive/{$newest_book_id}">zum Eintrag in perspectivia.net</a>
               <xsl:if test="$newest_book_mcrobject//mods:mods/mods:location/mods:url[@access='raw object']">
                 <a href="{$newest_book_mcrobject//mods:mods/mods:location/mods:url[@access='raw object']}">zum Volltext</a>
+                <br />
               </xsl:if>
               <xsl:if test="$newest_book_mcrobject//mods:mods/mods:location/mods:url[@access='object in context']">
                 <a href="{$newest_book_mcrobject//mods:mods/mods:location/mods:url[@access='object in context']}">zur Druckversion</a>
@@ -235,6 +237,7 @@
               <a href="{$WebApplicationBaseURL}receive/{$newest_collection_id}">zum Eintrag in perspectivia.net</a>
               <xsl:if test="$newest_collection_mcrobject//mods:mods/mods:location/mods:url[@access='raw object']">
                 <a href="{$newest_collection_mcrobject//mods:mods/mods:location/mods:url[@access='raw object']}">zum Volltext</a>
+                <br />
               </xsl:if>
               <xsl:if test="$newest_collection_mcrobject//mods:mods/mods:location/mods:url[@access='object in context']">
                 <a href="{$newest_collection_mcrobject//mods:mods/mods:location/mods:url[@access='object in context']}">zur Druckversion</a>
@@ -267,6 +270,7 @@
               <a href="{$WebApplicationBaseURL}receive/{$newest_source_id}">zum Eintrag in perspectivia.net</a>
               <xsl:if test="$newest_source_mcrobject//mods:mods/mods:location/mods:url[@access='raw object']">
                 <a href="{$newest_source_mcrobject//mods:mods/mods:location/mods:url[@access='raw object']}">zum Volltext</a>
+                <br />
               </xsl:if>
               <xsl:if test="$newest_source_mcrobject//mods:mods/mods:location/mods:url[@access='object in context']">
                 <a href="{$newest_source_mcrobject//mods:mods/mods:location/mods:url[@access='object in context']}">zur Druckversion</a>

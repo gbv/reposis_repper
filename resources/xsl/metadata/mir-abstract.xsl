@@ -15,6 +15,7 @@
 
   <xsl:variable name="objectID" select="/mycoreobject/@ID" />
   <xsl:variable name="modsPart" select="concat('mods.part.', $objectID)" />
+  <xsl:variable name="nbsp" select="'&#xa0;'"/>
 
   <xsl:template match="/">
 
