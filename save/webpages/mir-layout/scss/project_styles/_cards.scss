@@ -23,7 +23,28 @@
     }
     .card-body {
       border-top: .125rem solid $primary;
-      //border-bottom: .125rem solid $primary;
+      border-bottom: .0625rem solid $primary;
+    }
+    .card-footer {
+      background: none;
+    }
+  }
+
+  .series-card {
+    .rss-feed-search {
+      margin-top: 2rem;
+    }
+  }
+
+  #pp_coverCard {
+    img {
+      margin-bottom: 1rem;
+    }
+  }
+
+  #mir-citation-panel {
+    ul {
+      justify-content: center;
     }
   }
 
