@@ -83,11 +83,11 @@
 
             <div class="teaser">
               <div class="teaser__item">
-                <div class="teaser__headline">Beirat</div>
-                <div class="teaser__date">01.07.2023</div>
-                <div class="teaser__text">perspectivia.net hat einen neuen Beirat.</div>
+                <div class="teaser__headline">Francia Recensio 2023/3</div>
+                <div class="teaser__date">04.10.2023</div>
+                <div class="teaser__text">Die aktuelle Ausgabe enthält 101 Rezensionen aus den Bereichen Mittelalter, Frühe Neuzeit sowie Neuere und Neueste Geschichte.</div>
                 <div class="teaser__button">
-                  <a href="about/beirat.xml">
+                  <a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/6755">
                     <i18n:de>Mehr</i18n:de>
                     <i18n:en>Read more</i18n:en>
                     <i18n:fr>En savoir plus</i18n:fr>
@@ -96,11 +96,11 @@
                 </div>
               </div>
               <div class="teaser__item d-none d-sm-block">
-                <div class="teaser__headline">Francia Recensio 2023/3</div>
-                <div class="teaser__date">04.10.2023</div>
-                <div class="teaser__text">Die aktuelle Ausgabe enthält 101 Rezensionen aus den Bereichen Mittelalter, Frühe Neuzeit sowie Neuere und Neueste Geschichte.</div>
+                <div class="teaser__headline">Beirat</div>
+                <div class="teaser__date">01.07.2023</div>
+                <div class="teaser__text">perspectivia.net hat einen neuen Beirat.</div>
                 <div class="teaser__button">
-                  <a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/6755">
+                  <a href="about/beirat.xml">
                     <i18n:de>Mehr</i18n:de>
                     <i18n:en>Read more</i18n:en>
                     <i18n:fr>En savoir plus</i18n:fr>
