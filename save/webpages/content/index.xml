@@ -149,7 +149,7 @@
 
             <div class="p-tiles">
 
-              <a href="../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=search%2Fsimple_intern.xed " class="p-tile">
+              <a href="../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;sort=mods.dateIssued+desc" class="p-tile">
                 <img
                   alt=""
                   class="p-tile__background p-tile__petrol"
@@ -180,7 +180,7 @@
                 </div>
               </a>
 
-              <a href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=20&amp;rows=20"  class="p-tile">
+              <a href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;sort=mods.dateIssued+desc"  class="p-tile">
                 <img
                   alt=""
                   class="p-tile__background p-tile__purple"
@@ -248,7 +248,7 @@
                 </div>
               </a>
 
-              <a href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aresearch_data%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed"  class="p-tile">
+              <a href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aresearch_data%22+%2BobjectType%3A%22mods%22&amp;sort=mods.dateIssued+desc" class="p-tile">
                 <img
                   alt=""
                   class="p-tile__background p-tile__orange"
