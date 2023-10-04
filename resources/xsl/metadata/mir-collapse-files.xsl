@@ -140,9 +140,37 @@
                         not(contains(classification[@classid='derivate_types']/@categid,'presentation')) and
                         not(contains(classification[@classid='derivate_types']/@categid,'additional_av')) and
                         not(contains(classification[@classid='derivate_types']/@categid,'navigation'))">
+            <!-- https://perspectivia.net/servlets/MCRZipServlet/ploneimport2_derivate_00007498  -->
+            
+            <xsl:variable name="ifsTemp">
+              <der id="{@xlink:href}">
+                <xsl:copy-of select="document(concat('xslStyle:mcr_directory-recursive:ifs:',@xlink:href,'/'))" />
+              </der>
+            </xsl:variable>
+            <xsl:variable name="ifs" select="xalan:nodeset($ifsTemp)" />
+            <xsl:variable name="filenumber" select="count($ifs/der/mcr_directory/children//child[@type='file'])" />
+            <xsl:variable name="downloadlink">
+              <xsl:choose>
+                <xsl:when test="$ddbfilenumber = 1">
+                  <xsl:value-of select="concat($WebApplicationBaseURL, 'servlets/MCRFileNodeServlet/', @xlink:href, '/', maindoc)" />
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="concat($WebApplicationBaseURL, 'servlets/MCRZipServlet/', @xlink:href)" />
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
+
             <div id="repper-download-box">
-              <a href="{$WebApplicationBaseURL}servlets/MCRFileNodeServlet/{@xlink:href}/{maindoc}" class="btn btn-secondary" style="background-color: #75adad;border-color: #75adad;margin-bottom: 10px;width: 100%;">
-                <i style="margin-right: 5px;" class="fas fa-download"></i>Download</a>
+              <a href="{$downloadlink}" class="btn btn-secondary" style="background-color: #75adad;border-color: #75adad;margin-bottom: 10px;width: 100%;">
+                <xsl:choose>
+                  <xsl:when test="$ddbfilenumber = 1">
+                    <i style="margin-right: 5px;" class="fas fa-download"></i>Download
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <i style="margin-right: 5px;" class="fas fa-file-archive"></i>Zip-Download
+                  </xsl:otherwise>
+                </xsl:choose>
+              </a>
             </div>
           </xsl:if>
         </xsl:for-each>
