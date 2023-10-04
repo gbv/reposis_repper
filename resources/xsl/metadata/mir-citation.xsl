@@ -114,7 +114,7 @@
         </div>
       </xsl:if>
 
-      <!-- div id="citation-style">
+      <div id="citation-style">
         <span>
           <strong>
             <xsl:value-of select="i18n:translate('mir.citationStyle')" />
@@ -122,7 +122,7 @@
         </span>
         <xsl:if test="string-length($MIR.citationStyles) &gt; 0">
           <xsl:variable name="cite-styles">
-            <xsl:call-template name="Tokenizer"><!- use split function from mycore-base/coreFunctions.xsl ->
+            <xsl:call-template name="Tokenizer"><!-- use split function from mycore-base/coreFunctions.xsl -->
               <xsl:with-param name="string" select="$MIR.citationStyles" />
               <xsl:with-param name="delimiter" select="','" />
             </xsl:call-template>
@@ -150,7 +150,7 @@
         <div id="citation-text" class="d-none">
         </div>
         <div id="citation-alert" class="alert alert-danger d-none"><xsl:value-of select="i18n:translate('mir.citationAlert')" /></div>
-      </div -->
+      </div>
 
       <p id="cite_link_box">
         <xsl:choose>
