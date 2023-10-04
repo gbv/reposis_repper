@@ -263,7 +263,7 @@
                   <h3 class="p-tile__headline">
                     <i18n:de>Forschungsdaten</i18n:de>
                     <i18n:en>Sources and databases</i18n:en>
-                    <i18n:fr>données de recherche </i18n:fr>
+                    <i18n:fr>Données de recherche </i18n:fr>
                   </h3>
                   <p class="p-tile__text">
                     <i18n:de>
@@ -400,24 +400,6 @@
               <i18n:en>Publishing institutions</i18n:en>
               <i18n:fr>Institutions qui publient sur perspectivia.net</i18n:fr>
             </h2>
-            <p>
-              <i18n:de>
-                Digitale Erst- und Zweitveröffentlichungen,
-                Quelleneditionen und Datenbanken der Institute
-                der Max Weber Stiftung und ihren Partnern.
-              </i18n:de>
-              <i18n:en>
-                Initial digital publications and secondary publications,
-                digitised source collections and databases of the institutes
-                of the Max Weber Foundation and its partners.
-              </i18n:en>
-              <i18n:fr>
-                Publications numériques originales et rééditées ,
-                éditions de sources et bases de données des instituts de la
-                Fondation Max-Weber et de ses partenaires.
-              </i18n:fr>
-
-            </p>
             <div
               class="carousel slide carousel-institutes"
               data-interval="0"
