@@ -829,9 +829,9 @@
             </div>
             <div class="text-center show-all-institutions-box">
               <a href="#" class="btn btn-primary js-show-all-institutions pp-rounded">
-                <i18n:de>Zeige alle Institutionen</i18n:de>
-                <i18n:en>Show all institutions</i18n:en>
-                <i18n:fr>Afficher toutes les institutions</i18n:fr>
+                <i18n:de>Zeige alle Institutionen </i18n:de>
+                <i18n:en>Show all institutions </i18n:en>
+                <i18n:fr>Afficher toutes les institutions </i18n:fr>
                 <i class="fas fa-chevron-right"></i>
               </a>
             </div>

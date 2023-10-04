@@ -142,7 +142,7 @@
                         not(contains(classification[@classid='derivate_types']/@categid,'additional_av')) and
                         not(contains(classification[@classid='derivate_types']/@categid,'navigation'))">
             <!-- https://perspectivia.net/servlets/MCRZipServlet/ploneimport2_derivate_00007498  -->
-            
+
             <xsl:variable name="ifsTemp">
               <der id="{@xlink:href}">
                 <xsl:copy-of select="document(concat('xslStyle:mcr_directory-recursive:ifs:',@xlink:href,'/'))" />
@@ -162,7 +162,7 @@
             </xsl:variable>
 
             <div id="repper-download-box">
-              <a href="{$downloadlink}" class="btn btn-secondary" style="background-color: #75adad;border-color: #75adad;margin-bottom: 10px;width: 100%;">
+              <a href="{$downloadlink}" class="btn btn-secondary" style="background-color: #B478B4;border-color: #B478B4;margin-bottom: 10px;width: 100%;">
                 <xsl:choose>
                   <xsl:when test="$filenumber = 1">
                     <i style="margin-right: 5px;" class="fas fa-download"></i>Download
