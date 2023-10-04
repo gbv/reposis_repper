@@ -80,7 +80,11 @@ $font-weight-bold: 700 !default;
 $font-weight-bolder: $font-weight-bold;
 
 $pp-border-radius: 1.25rem;
+
 $border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0;
+
 $input-focus-border-color: $p-petrol;
 $dropdown-border-radius: 0;
 
@@ -99,4 +103,8 @@ $container-max-widths: (
   lg: 960px,
   xl: 1140px,
   xxl: 1540px
+);
+
+$theme-colors: (
+  "pink": $p-pink
 );

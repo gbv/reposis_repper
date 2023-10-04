@@ -162,13 +162,13 @@
             </xsl:variable>
 
             <div id="repper-download-box">
-              <a href="{$downloadlink}" class="btn btn-secondary" style="background-color: #B478B4;border-color: #B478B4;margin-bottom: 10px;width: 100%;">
+              <a href="{$downloadlink}" class="btn btn-pink w-100 mb-3">
                 <xsl:choose>
                   <xsl:when test="$filenumber = 1">
-                    <i style="margin-right: 5px;" class="fas fa-download"></i>Download
+                    <i class="fas fa-download mr-2"></i>Download
                   </xsl:when>
                   <xsl:otherwise>
-                    <i style="margin-right: 5px;" class="fas fa-file-archive"></i>Zip-Download
+                    <i class="fas fa-file-archive mr-2"></i>Zip-Download
                   </xsl:otherwise>
                 </xsl:choose>
               </a>
