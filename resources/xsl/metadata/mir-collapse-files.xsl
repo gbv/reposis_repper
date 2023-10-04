@@ -152,7 +152,7 @@
             <xsl:variable name="filenumber" select="count($ifs/der/mcr_directory/children//child[@type='file'])" />
             <xsl:variable name="downloadlink">
               <xsl:choose>
-                <xsl:when test="$ddbfilenumber = 1">
+                <xsl:when test="$filenumber = 1">
                   <xsl:value-of select="concat($WebApplicationBaseURL, 'servlets/MCRFileNodeServlet/', @xlink:href, '/', maindoc)" />
                 </xsl:when>
                 <xsl:otherwise>
@@ -164,7 +164,7 @@
             <div id="repper-download-box">
               <a href="{$downloadlink}" class="btn btn-secondary" style="background-color: #75adad;border-color: #75adad;margin-bottom: 10px;width: 100%;">
                 <xsl:choose>
-                  <xsl:when test="$ddbfilenumber = 1">
+                  <xsl:when test="$filenumber = 1">
                     <i style="margin-right: 5px;" class="fas fa-download"></i>Download
                   </xsl:when>
                   <xsl:otherwise>
