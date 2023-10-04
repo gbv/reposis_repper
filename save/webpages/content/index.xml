@@ -33,15 +33,14 @@
 
                 <p>
                   <i18n:de>
-                    Die digitale Publikationsplattform perspectivia.net versteht sich als ein
+                    Die digitale Publikationsplattform perspectivia.net ist ein
                     internationales, epochenübergreifendes und interdisziplinäres Portal für
-                    geisteswissenschaftliche Publikationen. Als Infrastruktur der
-                    <a href="https://www.maxweberstiftung.de/">Max Weber Stiftung –
+                    geisteswissenschaftliche Publikationen. Als Teil der Forschungsinfrastruktur der
+                    <a href="https://www.maxweberstiftung.de/">Max Weber Stiftung -
                     Deutsche Geisteswissenschaftliche Institute im Ausland</a> werden hier von den
-                    Instituten und ihren Kooperationspartnern herausgegebene Publikationen frei
+                    Instituten und ihren Kooperationspartnern herausgegebene Publikationen und Forschungsdaten frei
                     zugänglich gemacht. Die Max Weber Stiftung ist den Prinzipien des Open Access
-                    verpflichtet und perspectivia.net fördert den freien Zugang zu Wissen und
-                    begleitet die Transformation der Geisteswissenschaften in Richtung einer offenen
+                    verpflichtet und begleitet die Transformation der Geisteswissenschaften in Richtung einer offenen
                     Wissenschaft.
                   </i18n:de>
                   <i18n:en>
@@ -169,14 +168,13 @@
                   </h3>
                   <p class="p-tile__text">
                     <i18n:de>
-                      Suche in den digitalen Erst- und Zweitveröffentlichungen
-                      in perspectivia.net
+                      Volltexte der digitalen Erst- und Zweitveröffentlichungen in perspectivia.net
                     </i18n:de>
                     <i18n:en>
-                      Search in the digital publications in perspectivia.net
+                      Initial digital publications and secondary publications in perspectivia.net
                     </i18n:en>
                     <i18n:fr>
-                      Search in the digital publications in perspectivia.net
+                      Publications numériques originales et rééditées dans perspectivia.net
                     </i18n:fr>
                   </p>
                 </div>
@@ -197,20 +195,17 @@
                   <h3 class="p-tile__headline">
                     <i18n:de>Quellen und Datenbanken</i18n:de>
                     <i18n:en>Sources and databases</i18n:en>
-                    <i18n:fr>Sources and databases</i18n:fr>
+                    <i18n:fr>Sources et bases de données</i18n:fr>
                   </h3>
                   <p class="p-tile__text">
                     <i18n:de>
-                      Digitalisierte Quellensammlungen,
-                      historische Datenbestände und kritische Editionen
+                      Digitalisierte Quellensammlungen, historische Datenbestände und kritische Editionen
                     </i18n:de>
                     <i18n:en>
-                      Digitised source collections,
-                      historical datasets and critical editions
+                      Digitised source collections, historical datasets and critical editions
                     </i18n:en>
                     <i18n:fr>
-                      Digitised source collections,
-                      historical datasets and critical editions
+                      Collections de sources numérisées, bases de données historiques et éditions critiques
                     </i18n:fr>
                   </p>
                 </div>
@@ -245,9 +240,9 @@
                       its institutes and partners
                     </i18n:en>
                     <i18n:fr>
-                      Wissen in Verbindung - Weber 2.0 is the portal
-                      for academic blogs of the Max Weber Foundation,
-                      its institutes and partners
+                      Wissen in Verbindung - Weber 2.0 est le portail
+                      des blogs scientifiques de la Fondation Max-Weber,
+                      de ses instituts et de ses partenaires
                     </i18n:fr>
                   </p>
                 </div>
@@ -272,7 +267,7 @@
                   </h3>
                   <p class="p-tile__text">
                     <i18n:de>
-                      Seit 2023 werden auch Forschungsdaten in perspevivia.net verzeichnet
+                      Seit 2023 werden Forschungsdaten in perspevivia.net verzeichnet
                     </i18n:de>
                     <i18n:en>
                       In 2023 perspectivia.net started collecting research data
@@ -299,11 +294,11 @@
                   <h3 class="p-tile__headline">
                     <i18n:de>Kooperationspartner</i18n:de>
                     <i18n:en>Cooperation partners</i18n:en>
-                    <i18n:fr>Cooperation partners </i18n:fr>
+                    <i18n:fr>Coopérations </i18n:fr>
                   </h3>
                   <p class="p-tile__text">
                     <i18n:de>
-                      Die MWS kooperiert insbesondere mit den
+                      Die MWS kooperiert u.a. mit den
                       DFG-Fachinformationsdiensten (FIDs) und überregional
                       tätigen Kompetenzzentren
                     </i18n:de>
@@ -313,9 +308,10 @@
                       competence centres
                     </i18n:en>
                     <i18n:fr>
-                      The MWS cooperates in particular with the DFG's specialist
-                      information services (FIDs) and supra-regionally active
-                      competence centres
+                      La MWS coopère en entre autres avec les services
+                      d'information spécialisés (FID) de la Deutsche
+                      Forschungsgemeinschaft (DFG) et des centres de
+                      compétence actifs au niveau suprarégional
                     </i18n:fr>
                   </p>
                 </div>
@@ -402,8 +398,26 @@
             <h2 class="">
               <i18n:de>Herausgebende Institutionen</i18n:de>
               <i18n:en>Publishing institutions</i18n:en>
-              <i18n:fr>éditeurs</i18n:fr>
+              <i18n:fr>Institutions qui publient sur perspectivia.net</i18n:fr>
             </h2>
+            <p>
+              <i18n:de>
+                Digitale Erst- und Zweitveröffentlichungen,
+                Quelleneditionen und Datenbanken der Institute
+                der Max Weber Stiftung und ihren Partnern.
+              </i18n:de>
+              <i18n:en>
+                Initial digital publications and secondary publications,
+                digitised source collections and databases of the institutes
+                of the Max Weber Foundation and its partners.
+              </i18n:en>
+              <i18n:fr>
+                Publications numériques originales et rééditées ,
+                éditions de sources et bases de données des instituts de la
+                Fondation Max-Weber et de ses partenaires.
+              </i18n:fr>
+
+            </p>
             <div
               class="carousel slide carousel-institutes"
               data-interval="0"
@@ -830,7 +844,11 @@
       <div class="container">
         <div class="row ">
           <div class="col-12" lang="de">
-            <h2>Ausgewählte Publikationen</h2>
+            <h2>
+              <i18n:de>Ausgewählte Publikationen</i18n:de>
+              <i18n:en>Selected Publications</i18n:en>
+              <i18n:fr>Sélection de publications</i18n:fr>
+            </h2>
             <div class="pp_carousel-slide" />
           </div>
         </div>
