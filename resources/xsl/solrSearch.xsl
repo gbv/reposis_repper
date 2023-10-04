@@ -151,68 +151,32 @@
         <div class="carousel-item active">
           <div class="carousel-item__content-box">
 
-            <xsl:variable name="newest_article">
-              <xsl:copy-of select="document('solr:q=category.top%3A%22mir_genres%3Aarticle%22%20AND%20state%3Apublished&amp;rows=1&amp;sort=mods.dateIssued+desc,modified+desc&amp;fl=id,search_result_link_text,mods.abstract.result')" />
+            <xsl:variable name="newest_series">
+              <xsl:copy-of select="document('solr:q=category.top%3A%22mir_genres%3Aseries%22%20AND%20state%3Apublished&amp;rows=1&amp;sort=mods.dateIssued+desc,modified+desc&amp;fl=id,search_result_link_text,mods.abstract.result')" />
             </xsl:variable>
-            <xsl:if test="exslt:node-set($newest_article)//doc/str[@name='id']/text()">
-              <xsl:variable name="newest_article_id" select="exslt:node-set($newest_article)//doc/str[@name='id']/text()" />
-              <xsl:variable name="newest_article_title" select="exslt:node-set($newest_article)//doc/str[@name='search_result_link_text']/text()" />
-              <xsl:variable name="newest_article_mcrobject" select="document(concat('mcrobject:', $newest_article_id))" />
+            <xsl:if test="exslt:node-set($newest_series)//doc/str[@name='id']/text()">
+              <xsl:variable name="newest_series_id" select="exslt:node-set($newest_series)//doc/str[@name='id']/text()" />
+              <xsl:variable name="newest_series_title" select="exslt:node-set($newest_series)//doc/str[@name='search_result_link_text']/text()" />
+              <xsl:variable name="newest_series_mcrobject" select="document(concat('mcrobject:', $newest_series_id))" />
   
               <img
                 alt=""
                 class="carousel-item__image"
-                src="{$WebApplicationBaseURL}api/iiif/image/v2/thumbnail/{$newest_article_id}/full/max/0/default.jpg" />
-              <h3><xsl:value-of select="exslt:node-set($newest_article)//doc/str[@name='search_result_link_text']/text()" /></h3>
+                src="{$WebApplicationBaseURL}api/iiif/image/v2/thumbnail/{$newest_series_id}/full/max/0/default.jpg" />
+              <h3><xsl:value-of select="exslt:node-set($newest_series)//doc/str[@name='search_result_link_text']/text()" /></h3>
               <!-- ToDo: Auslesen aus Objekt und sprachabhängig ausgeben -->
               <p>
-                <xsl:value-of select="exslt:node-set($newest_article)//doc/str[@name='mods.abstract.result']/text()" />
+                <xsl:value-of select="exslt:node-set($newest_series)//doc/str[@name='mods.abstract.result']/text()" />
               </p>
               <p>
-                <a href="{$WebApplicationBaseURL}receive/{$newest_article_id}">zum Eintrag in perspectivia.net</a>
+                <a href="{$WebApplicationBaseURL}receive/{$newest_series_id}">zum Eintrag in perspectivia.net</a>
                 <br />
-                <xsl:if test="$newest_article_mcrobject//mods:mods/mods:location/mods:url[@access='raw object']">
-                  <a href="{$newest_article_mcrobject//mods:mods/mods:location/mods:url[@access='raw object']}">zum Volltext</a>
+                <xsl:if test="$newest_series_mcrobject//mods:mods/mods:location/mods:url[@access='raw object']">
+                  <a href="{$newest_series_mcrobject//mods:mods/mods:location/mods:url[@access='raw object']}">zum Volltext</a>
                   <br />
                 </xsl:if>
-                <xsl:if test="$newest_article_mcrobject//mods:mods/mods:location/mods:url[@access='object in context']">
-                  <a href="{$newest_article_mcrobject//mods:mods/mods:location/mods:url[@access='object in context']}">zur Druckversion</a>
-                </xsl:if>
-              </p>
-            </xsl:if>
-
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="carousel-item__content-box">
-
-            <xsl:variable name="newest_book">
-              <xsl:copy-of select="document('solr:q=category.top%3A%22mir_genres%3Abook%22%20AND%20state%3Apublished&amp;rows=1&amp;sort=mods.dateIssued+desc,modified+desc&amp;fl=id,search_result_link_text,mods.abstract.result')" />
-            </xsl:variable>
-            <xsl:if test="exslt:node-set($newest_book)//doc/str[@name='id']/text()">
-              <xsl:variable name="newest_book_id" select="exslt:node-set($newest_book)//doc/str[@name='id']/text()" />
-              <xsl:variable name="newest_book_title" select="exslt:node-set($newest_book)//doc/str[@name='search_result_link_text']/text()" />
-              <xsl:variable name="newest_book_mcrobject" select="document(concat('mcrobject:', $newest_book_id))" />
-  
-              <img
-                alt=""
-                class="carousel-item__image"
-                src="{$WebApplicationBaseURL}api/iiif/image/v2/thumbnail/{$newest_book_id}/full/max/0/default.jpg" />
-              <h3><xsl:value-of select="exslt:node-set($newest_book)//doc/str[@name='search_result_link_text']/text()" /></h3>
-              <!-- ToDo: Auslesen aus Objekt und sprachabhängig ausgeben -->
-              <p>
-                <xsl:value-of select="exslt:node-set($newest_book)//doc/str[@name='mods.abstract.result']/text()" />
-              </p>
-              <p>
-                <a href="{$WebApplicationBaseURL}receive/{$newest_book_id}">zum Eintrag in perspectivia.net</a>
-                <br />
-                <xsl:if test="$newest_book_mcrobject//mods:mods/mods:location/mods:url[@access='raw object']">
-                  <a href="{$newest_book_mcrobject//mods:mods/mods:location/mods:url[@access='raw object']}">zum Volltext</a>
-                  <br />
-                </xsl:if>
-                <xsl:if test="$newest_book_mcrobject//mods:mods/mods:location/mods:url[@access='object in context']">
-                  <a href="{$newest_book_mcrobject//mods:mods/mods:location/mods:url[@access='object in context']}">zur Druckversion</a>
+                <xsl:if test="$newest_series_mcrobject//mods:mods/mods:location/mods:url[@access='object in context']">
+                  <a href="{$newest_series_mcrobject//mods:mods/mods:location/mods:url[@access='object in context']}">zur Druckversion</a>
                 </xsl:if>
               </p>
             </xsl:if>
@@ -285,6 +249,42 @@
                 </xsl:if>
                 <xsl:if test="$newest_source_mcrobject//mods:mods/mods:location/mods:url[@access='object in context']">
                   <a href="{$newest_source_mcrobject//mods:mods/mods:location/mods:url[@access='object in context']}">zur Druckversion</a>
+                </xsl:if>
+              </p>
+            </xsl:if>
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel-item__content-box">
+
+            <xsl:variable name="newest_workingpaper">
+              <xsl:copy-of select="document('solr:q=category.top%3A%22mir_genres%3Aworking_paper%22%20AND%20state%3Apublished&amp;rows=1&amp;sort=mods.dateIssued+desc,modified+desc&amp;fl=id,search_result_link_text,mods.abstract.result')" />
+            </xsl:variable>
+            <xsl:if test="exslt:node-set($newest_workingpaper)//doc/str[@name='id']/text()">
+              <xsl:variable name="newest_workingpaper_id" select="exslt:node-set($newest_workingpaper)//doc/str[@name='id']/text()" />
+              <xsl:variable name="newest_workingpaper_title" select="exslt:node-set($newest_workingpaper)//doc/str[@name='search_result_link_text']/text()" />
+              <xsl:variable name="newest_workingpaper_mcrobject" select="document(concat('mcrobject:', $newest_workingpaper_id))" />
+  
+              <img
+                alt=""
+                class="carousel-item__image"
+                src="{$WebApplicationBaseURL}api/iiif/image/v2/thumbnail/{$newest_workingpaper_id}/full/max/0/default.jpg" />
+              <h3><xsl:value-of select="exslt:node-set($newest_workingpaper)//doc/str[@name='search_result_link_text']/text()" /></h3>
+              <!-- ToDo: Auslesen aus Objekt und sprachabhängig ausgeben -->
+              <p>
+                <xsl:value-of select="exslt:node-set($newest_workingpaper)//doc/str[@name='mods.abstract.result']/text()" />
+              </p>
+              <p>
+                <a href="{$WebApplicationBaseURL}receive/{$newest_workingpaper_id}">zum Eintrag in perspectivia.net</a>
+                <br />
+                <xsl:if test="$newest_workingpaper_mcrobject//mods:mods/mods:location/mods:url[@access='raw object']">
+                  <a href="{$newest_workingpaper_mcrobject//mods:mods/mods:location/mods:url[@access='raw object']}">zum Volltext</a>
+                  <br />
+                </xsl:if>
+                <xsl:if test="$newest_workingpaper_mcrobject//mods:mods/mods:location/mods:url[@access='object in context']">
+                  <a href="{$newest_workingpaper_mcrobject//mods:mods/mods:location/mods:url[@access='object in context']}">zur Druckversion</a>
                 </xsl:if>
               </p>
             </xsl:if>
