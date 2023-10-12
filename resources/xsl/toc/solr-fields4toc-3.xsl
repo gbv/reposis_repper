@@ -12,6 +12,8 @@
 
   <xsl:param name="MIR.TableOfContents.RolesToDisplay" select="'cre aut edt trl ive ivr hnr'" />
 
+  <xsl:variable name="nbsp" select="'&#xa0;'"/>
+
   <xsl:template match="mycoreobject">
     <xsl:apply-imports />
 
@@ -90,6 +92,7 @@
       </xsl:for-each>
       <xsl:value-of select="mods:title" />
       <xsl:for-each select="mods:subTitle">
+        <xsl:value-of select="$nbsp" />
         <xsl:text>: </xsl:text>
         <xsl:value-of select="text()" />
       </xsl:for-each>
