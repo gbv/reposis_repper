@@ -6,43 +6,64 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+
 html body #powered_by {
   background-color: transparent;
   border: none;
   text-align: center;
   padding: 0;
-  margin-top: 10px;
 }
 
 html body #copyright_by {
   font-weight: 400;
   color: #ffffff;
-  margin-top: 14px;
   padding: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
-html body footer .internal_links {
-  margin-top: 6px;
-}
-
-.card-footer {
-  padding: 0;
+.flatmir-footer .container {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .flatmir-footer {
-  //background: linear-gradient(180deg, white 0, white 55%, #ebe8e5 55%, #ebe8e5 84%, #38322d 84%, #38322d 100%);
-  border-top: 2px solid #ebe8e5;
-  color: #676767;
+  border-top: 3px solid $p-contur-white;
+  color: $p-black;
   font-size: 14px;
+  background-color: $p-dark-white;
+}
+
+.mcr-footer-section {
+  &--menu {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  &--coop-partners {
+    background-color: $p-contur-white;
+  }
+  &--copyright {
+    background-color: $p-light-black;
+    padding: 1rem 0 1.25rem 0;
+  }
+}
+
+.mws-logo {
+  a {
+    display: block;
+  }
 }
 
 .flatmir-footer .nav > li > a,
 .flatmir-footer .nav > li > a:hover,
 .flatmir-footer .nav > li > a:focus {
-  color: #656565;
+  color: $p-black;
   padding: 0px;
   font-weight: 700;
 }
+
 .flatmir-footer .nav > li > a > span.fa-stack,
 .flatmir-footer .nav > li > a:hover > span.fa-stack,
 .flatmir-footer .nav > li > a:focus  > span.fa-stack {
@@ -55,77 +76,40 @@ html body footer .internal_links {
   background-color: transparent;
 }
 
-.flatmir-footer .footer-wrapper {
-  margin-top: 50px;
-}
-
-.flatmir-footer .container {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
 .flatmir-footer .dropdown-item:active,
 .flatmir-footer .dropdown-item:hover,
 .flatmir-footer .dropdown-item:focus {
-  color: #656565;
+  color: $p-black;
   text-decoration: underline;
   background-color: transparent;
 }
 
 .flatmir-footer .dropdown-item.active {
-  color: #656565;
+  color: $p-black;
   background-color: transparent;
 }
 
 .flatmir-footer .dropdown-item.active {
-  color: #656565;
+  color: $p-black;
   background-color: transparent;
 }
 
 #pp_footer-nav > li {
-  padding-bottom: 30px;
+  padding-bottom: 1.25rem;
 }
 
-.footer-info img {
-  margin-bottom: 25px
-}
 #footer-social ul > li {
-  padding-bottom: 30px;
+  padding-bottom: 1.25rem;
+  flex-basis: 100%;;
 }
+
 #footer-social ul > li > a > span.fa-stack {
   margin-right: 30px;
 }
 
-.flatmir-footer {
-  background-color: white;
-  margin-top: 50px;
-}
-.mcr-footer-section {
-  &--menu {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-  }
-  &--coop-partners {
-    background-color: #ebe8e5;
-  }
-  &--copyright {
-    background-color: #38322d;
-  }
-}
 
-.mws-logo {
-  a {
-    display: block;
-    width: 220px;
-  }
-}
-.footer-nav {
-  a {
-    line-height: 28px;
-  }
-}
+
+
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
@@ -138,29 +122,20 @@ html body footer .internal_links {
 // Medium devices (tablets) and below: <= 992px
 @include media-breakpoint-down(md) {
   // add/overwrite styles for responsive level md and lower
-  #footer-social ul > li{
-    padding-bottom: 10px;
-  }
-  #footer-social ul > li > a > span {
-    margin-right: 10px;
-  }
 
   #pp_footer-nav {
-    margin-top: 3rem;
+    margin-top: 0;
     margin-bottom: 2rem;
-
-    & > li {
-      padding-bottom: 0;
-      margin-right: 1rem;
-    }
+    flex-direction: column !important;
   }
-
-
 }
 
 // Small devices (landscape phones) and below: <= 768px
 @include media-breakpoint-down(sm) {
   // add/overwrite styles for responsive level sm and lower
+  html body #powered_by {
+    margin-top: 1rem;
+  }
 }
 
 // Extra small devices (portrait phones): <= 576px

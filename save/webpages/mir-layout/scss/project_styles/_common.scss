@@ -9,6 +9,11 @@
 html {
   position: relative;
   min-height: 100%;
+  min-width: 320px;
+}
+
+#page {
+  padding-top: 10rem;
 }
 
 /* *********************** feedback ************************ */
@@ -16,24 +21,18 @@ html {
 #pp_feedback {
   cursor: pointer;
   position: fixed;
-  bottom: 40%;
-  right: -34px;
-  transform: rotate(-90deg);
+  top: 15rem;
+  left: -34px;
+  transform: rotate(90deg);
   display: block;
-  background: #75adad;
+  background: $p-petrol;
   text-decoration: none;
-  border-bottom: solid 1px #75adad;
-  border-left: solid 0px #75adad;
-  border-right: solid 1px #75adad;
   z-index: 999;
   width: 100px;
   text-align: center;
 }
 #pp_feedback:hover {
-  background: #aad2d2;
-  border-bottom: solid 1px #aad2d2;
-  border-left: solid 0px #aad2d2;
-  border-right: solid 1px #aad2d2;
+  background-color: lighten($p-petrol,7.5%);
 }
 #pp_feedback a {
   color: #fff;
@@ -97,8 +96,9 @@ a.readmore {
 /* ********************** carousel ********************** */
 .carousel {
   margin-bottom: 4rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
+
 .carousel-indicators {
   bottom: auto;
   top: 0;
@@ -133,9 +133,9 @@ a.readmore {
 .carousel-control-prev:focus,
 .carousel-control-next:focus {
   width: 5rem;
-  color: $success;
+  color: $p-petrol;
   background-color: transparent;
-  opacity: 0.5;
+  opacity: 1;
   transition: 0.5s ease;
   align-items: flex-start;
   i {
@@ -146,8 +146,8 @@ a.readmore {
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
   color: white;
-  background-color: $success;
-  opacity: 0.5;
+  background-color: $p-petrol;
+  opacity: .5;
 }
 .carousel-inner {
   padding-top: 5rem;
@@ -157,10 +157,21 @@ a.readmore {
   margin-bottom: 30px;
   line-height: 0.8;
 }
-.carousel-item__content-box {
-  padding-bottom: 2rem;
-  img {
-    width: 100%;
+.carousel-item {
+  &__content-box {
+    padding-bottom: 2rem;
+    img {
+      max-width: 300px;
+      float: left;
+      margin-right: 2rem;
+    }
+  }
+  &__tile {
+    img {
+      max-width: none;
+      float: none;
+      margin-right: 0;
+    }
   }
 }
 
@@ -241,9 +252,43 @@ a.readmore {
   color: white;
 }
 
+.card-footer {
+  padding: 0;
+}
+
+.back-to-top {
+  color: $p-petrol;
+  &:hover {
+    color: lighten($p-petrol,7.5%);
+  }
+}
+
+.btn-primary:hover, #basket .btn-csl-export:hover {
+  background-color: lighten($p-petrol,7.5%);
+}
+
+.pp-rounded {
+  border-radius: $pp-border-radius;
+}
+
+.banner-link {
+  display: block;
+  text-align: center;
+  padding: 1.5rem 0 2rem 0;
+  width: 60%;
+  margin-left:20%;
+  img {
+    width: auto;
+    max-width: 100%;
+  }
+}
+
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
+  #page {
+    padding-top: 12rem;
+  }
 }
 
 // Medium devices (tablets) and below: <= 992px
@@ -262,7 +307,20 @@ a.readmore {
   html body {
     min-width: 320px;
   }
-  .container {
-    padding-right: 45px;
+  #page {
+    padding-top: 3rem;
   }
+  .back-to-top {
+    right: 2px;
+    bottom: 5px;
+  }
+
+  #pp_feedback {
+    top: auto;
+    bottom: 5px;
+    left: 5px;
+    transform: none;
+    background-color: rgba($p-petrol, .9);
+  }
+
 }

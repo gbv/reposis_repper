@@ -15,6 +15,7 @@
 
   <xsl:variable name="objectID" select="/mycoreobject/@ID" />
   <xsl:variable name="modsPart" select="concat('mods.part.', $objectID)" />
+  <xsl:variable name="nbsp" select="'&#xa0;'"/>
 
   <xsl:template match="/">
 
@@ -212,7 +213,7 @@
           <xsl:when test="count($abstracts/mods:abstract) &gt; 1">
 
             <div id="mir-abstract-tabs">
-              <ul class="nav nav-tabs" role="tablist">
+              <ul class="nav nav-tabs justify-content-end" role="tablist">
                 <xsl:for-each select="$abstracts/mods:abstract">
                   <xsl:variable name="tabName">
                     <xsl:choose>
@@ -226,7 +227,7 @@
                       </xsl:otherwise>
                     </xsl:choose>
                   </xsl:variable>
-                  <li class="float-right nav-item">
+                  <li class="nav-item">
                     <a class="nav-link" href="#tab{position()}" role="tab" data-toggle="tab">
                       <xsl:if test="position()=1">
                         <xsl:attribute name="class">active nav-link</xsl:attribute>
@@ -494,7 +495,10 @@
         <xsl:copy-of select="$alternateContent/title/node()" />
         <xsl:if test="$withSubtitle and $alternateContent/subTitle">
           <span class="subtitle">
-            <xsl:text> : </xsl:text>
+            <span class="delimiter">
+              <xsl:value-of select="$nbsp" />
+              <xsl:text> : </xsl:text>
+            </span>
             <xsl:copy-of select="$alternateContent/subTitle/node()" />
           </span>
         </xsl:if>
@@ -506,7 +510,10 @@
         <xsl:value-of select="mods:title" />
         <xsl:if test="$withSubtitle and mods:subTitle">
           <span class="subtitle">
-            <xsl:text> : </xsl:text>
+            <span class="delimiter">
+              <xsl:value-of select="$nbsp" />
+              <xsl:text> : </xsl:text>
+            </span>
             <xsl:value-of select="mods:subTitle" />
           </span>
         </xsl:if>

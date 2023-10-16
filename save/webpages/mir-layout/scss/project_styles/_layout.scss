@@ -1,0 +1,54 @@
+/*  layout
+ *  - basic page layout
+ */
+
+// Extra large devices (large desktops)
+// set the defaults for all responsive levels here
+// no (xl) media query necessary (desktop first)
+
+  // fix overflow
+  #solr-browse {
+    div:nth-child(2), div.offset-md-5 {
+      padding: 0 15px;
+    }
+  }
+
+  .result_searchline,
+  .result_body,
+  .detail_row {
+    .col-sm-8 {
+      padding-right: 30px;
+    }
+    .col-sm-4 {
+      padding-left: 30px;
+    }
+  }
+
+// Large devices (desktops) and below: <= 1200px
+@include media-breakpoint-down(lg) {
+  // add/overwrite styles for responsive level lg and lower
+  .result_searchline,
+  .result_body {
+    .col-sm-8 {
+      padding-right: 15px;
+    }
+    .col-sm-4 {
+      padding-left: 15px;
+    }
+  }
+}
+
+// Medium devices (tablets) and below: <= 992px
+@include media-breakpoint-down(md) {
+  // add/overwrite styles for responsive level md and lower
+}
+
+// Small devices (landscape phones) and below: <= 768px
+@include media-breakpoint-down(sm) {
+  // add/overwrite styles for responsive level sm and lower
+}
+
+// Extra small devices (portrait phones): <= 576px
+@include media-breakpoint-down(xs) {
+  // add/overwrite styles for responsive level xs
+}

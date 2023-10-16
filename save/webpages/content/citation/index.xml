@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage xmlns:i18n="http://www.mycore.org/i18n">
+  <section xml:lang="all" i18n="pp.page.citations.title">
+
+    <div class="page-section">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+
+            <h1>
+              <i18n:de>Richtig zitieren</i18n:de>
+              <i18n:fr>Comment bien citer</i18n:fr>
+              <i18n:en>How to cite</i18n:en>
+            </h1>
+
+            <p>
+              <i18n:de>
+                Die Digitalisate werden, sofern möglich, unter einer <a
+                href="https://creativecommons.org/share-your-work/licensing-types-examples/licensing-examples"
+                title="CC-Lizenz">CC-Lizenz</a>
+                veröffentlicht. Die Metadaten aus perspectivia.net werden unter der
+                <a href="https://creativecommons.org/choose/zero/?lang=de">CC0-Lizenz</a> freigegeben.
+              </i18n:de>
+              <i18n:fr>
+                Les données numériques sont publiées, dans la mesure du possible, sous licence <a
+                href="https://creativecommons.org/share-your-work/licensing-types-examples/licensing-examples"
+                title="CC-Lizenz">CC</a>. Les métadonnées de perspectivia.net sont partagées sous licence <a
+                href="https://creativecommons.org/choose/zero/?lang=en">CC0</a>.
+              </i18n:fr>
+              <i18n:en>
+                The digitized reproductions will be made available under <a
+                href="https://creativecommons.org/share-your-work/licensing-types-examples/licensing-examples">
+                CC-license</a> if applicable. All metadata from perspectivia.net will be released under the <a
+                href="https://creativecommons.org/choose/zero/?lang=en">CC0-license</a>.
+              </i18n:en>
+            </p>
+
+            <p>
+              <i18n:de>Bitte geben Sie bei Nutzung die vollständige Quellenangabe an.</i18n:de>
+              <i18n:fr>En cas d'utilisation, veuillez mentionner la source complète.</i18n:fr>
+              <i18n:en>In case of reproduction please cite the entire source reference.</i18n:en>
+            </p>
+
+            <h2>
+              <i18n:de>Quellenangabe:</i18n:de>
+              <i18n:fr>Mention de la source:</i18n:fr>
+              <i18n:en>Reference:</i18n:en>
+            </h2>
+
+            <p>
+              <i18n:de>
+                persperctivia.net - Max Weber Stiftung + PURL (Persistent Uniform Resource Locator)
+                des digitalen Objects. <br />
+                Der persistente Zitier-Link findet sich nicht in der
+                Browserzeile, sondern im Feld „Zitieren“.
+              </i18n:de>
+              <i18n:fr>
+                persperctivia.net - Max Weber Stiftung + PURL (Persistent Uniform Resource Locator) du
+                document numérique. <br />
+                Pour accéder au lien de citation correspondant, veuillez cliquer sur « Citer ».
+              </i18n:fr>
+              <i18n:en>
+                persperctivia.net - Max Weber Stiftung + PURL (Persistent Uniform Resource Locator) of the
+                digital object. <br />
+                You will find the persistent link, which you should use for your citation in
+                the field "Cite". Please do not use the link in the address line of the browser.
+              </i18n:en>
+
+            </p>
+
+            <h2>
+              <i18n:de>Beispiele:</i18n:de>
+              <i18n:fr>Exemples:</i18n:fr>
+              <i18n:en>Examples</i18n:en>
+
+            </h2>
+
+            <p>
+              persperctivia.net - Max Weber Stiftung, <a
+              href="https://doi.org/10.25360/01-2023-00004">
+              https://doi.org/10.25360/01-2023-00004</a> (DOI)<br />
+              persperctivia.net - Max Weber Stiftung <a
+              href="https://perspectivia.net/publikationen/ghi-bulletin/2023-45-1">
+              https://perspectivia.net/publikationen/ghi-bulletin/2023-45-1</a>
+              (Permalink)
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <meta>
+    <log lastEditor="mwiegel" date="2023-08-24" time="13:30" />
+  </meta>
+</MyCoReWebPage>

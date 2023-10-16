@@ -1,0 +1,69 @@
+/*  cards
+ *  - all about cards
+ */
+
+// Extra large devices (large desktops)
+// set the defaults for all responsive levels here
+// no (xl) media query necessary (desktop first)
+
+  .card,
+  .detail_row .card,
+  .result_body .result_filter .card {
+    border: none;
+    margin-top: .4375rem;
+    margin-bottom: 3.875rem;
+    .card-header {
+      background-color: white;
+      border: none;
+      .card-title {
+        color: $p-black;
+        font-weight: 500;
+        font-size: 1rem;
+      }
+    }
+    .card-body {
+      border-top: .125rem solid $primary;
+      border-bottom: .0625rem solid $primary;
+    }
+    .card-footer {
+      background: none;
+    }
+  }
+
+  .series-card {
+    .rssfeed-search {
+      margin-top: 2rem;
+    }
+  }
+
+  #pp_coverCard {
+    img {
+      margin-bottom: 1rem;
+    }
+  }
+
+  #mir-citation-panel {
+    ul {
+      justify-content: center;
+    }
+  }
+
+// Large devices (desktops) and below: <= 1200px
+@include media-breakpoint-down(lg) {
+  // add/overwrite styles for responsive level lg and lower
+}
+
+// Medium devices (tablets) and below: <= 992px
+@include media-breakpoint-down(md) {
+  // add/overwrite styles for responsive level md and lower
+}
+
+// Small devices (landscape phones) and below: <= 768px
+@include media-breakpoint-down(sm) {
+  // add/overwrite styles for responsive level sm and lower
+}
+
+// Extra small devices (portrait phones): <= 576px
+@include media-breakpoint-down(xs) {
+  // add/overwrite styles for responsive level xs
+}

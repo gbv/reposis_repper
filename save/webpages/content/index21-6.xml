@@ -49,7 +49,7 @@
 <p>Digitalisierte Quellensammlungen, historische Datenbestände und kritische Editionen aus der Forschungsarbeit der Institute und ihrer Partner.</p>
 </div>
 
-<div class="card-footer pp_more"><a href="../servlets/solr/find?fq=mods.genre:source_edition"><strong>... zur Übersicht</strong> <!-- img src="../images/external_link.svg" / --> </a></div>
+<div class="card-footer pp_more"><a href="../servlets/solr/find?fq=mods.genre:source_edition"><strong>... zur Übersicht</strong> <!-- img src="../images/index21/external_link.svg" / --> </a></div>
 </div>
 </div>
 
@@ -63,7 +63,7 @@
 <p>Wissen in Verbindung - Weber 2.0 ist das Portal für wissenschaftliche Blogs der Max Weber Stiftung, ihrer Institute und Partner.</p>
 </div>
 
-<div class="card-footer pp_more"><a href="https://mws.hypotheses.org/"><strong>... zur Übersicht</strong> <img src="../images/external_link.svg" /> </a></div>
+<div class="card-footer pp_more"><a href="https://mws.hypotheses.org/"><strong>... zur Übersicht</strong> <img src="../images/index21/external_link.svg" /> </a></div>
 </div>
 </div>
 </div>
@@ -83,7 +83,7 @@
 <div class="carousel-inner" role="listbox">
 <div class="carousel-item active">
 <div class="row carousel-item__content-box">
-<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="" src="../images/slider/francia-recensio-2021.png" style="width: 210px; height: 306px;" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="" src="../images/publications/francia-recensio-2021.png" style="width: 210px; height: 306px;" /></div>
 
 <div class="col-sm-8">
 <h1>Francia-Recensio</h1>
@@ -100,7 +100,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 
 <div class="carousel-item">
 <div class="row carousel-item__content-box">
-<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover der Zeitschrift Francia" class="img-fluid" src="../images/slider/francia47.jpg" style="width: 212px; height: 306px;" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover der Zeitschrift Francia" class="img-fluid" src="../images/publications/francia47.jpg" style="width: 212px; height: 306px;" /></div>
 
 <div class="col-sm-8">
 <h1>Francia</h1>
@@ -118,7 +118,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 
 <div class="carousel-item">
 <div class="row carousel-item__content-box">
-<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="" src="../images/slider/scholderer.png" style="width: 210px; height: 306px;" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="" src="../images/publications/scholderer.png" style="width: 210px; height: 306px;" /></div>
 
 <div class="col-sm-8">
 <h1>Briefwechsel Fantin-Latour &amp; Scholderer</h1>
@@ -134,7 +134,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 
 <div class="carousel-item">
 <div class="row carousel-item__content-box">
-<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" class="img-fluid" src="../images/logos/pacelli.jpg" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" class="img-fluid" src="../images/publications/pacelli.jpg" /></div>
 
 <div class="col-sm-8">
 <h1>Pacelli – Nuntiaturberichte 1917-29</h1>
@@ -206,7 +206,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
  </p>
 </div>
 
-<div class="card-footer pp_more"><a href="publications/sources.xml"><strong>... browse</strong> <img src="../images/external_link.svg" /> </a></div>
+<div class="card-footer pp_more"><a href="publications/sources.xml"><strong>... browse</strong> <img src="../images/index21/external_link.svg" /> </a></div>
 </div>
 </div>
 
@@ -220,7 +220,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 <p>Weber 2.0 is the portal for academic blogs of the Max Weber Foundation, its institutes and partners.</p>
 </div>
 
-<div class="card-footer pp_more"><a href="https://mws.hypotheses.org/"><strong>... browse</strong> <img src="../images/external_link.svg" /> </a></div>
+<div class="card-footer pp_more"><a href="https://mws.hypotheses.org/"><strong>... browse</strong> <img src="../images/index21/external_link.svg" /> </a></div>
 </div>
 </div>
 </div>
@@ -240,7 +240,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 <div class="carousel-inner" role="listbox">
 <div class="carousel-item active">
 <div class="row carousel-item__content-box">
-<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover Rezensionsjournal Francia-Recensio" class="img-fluid" src="../images/slider/francia-recensio-2021.png" style="width: 210px; height: 306px;" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover Rezensionsjournal Francia-Recensio" class="img-fluid" src="../images/publications/francia-recensio-2021.png" style="width: 210px; height: 306px;" /></div>
 
 <div class="col-8">
 <h1>Francia-Recensio</h1>
@@ -258,7 +258,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 
 <div class="carousel-item">
 <div class="row carousel-item__content-box">
-<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover der Zeitschrift Francia" class="img-fluid" src="../images/slider/francia47.jpg" style="width: 212px; height: 306px;" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover der Zeitschrift Francia" class="img-fluid" src="../images/publications/francia47.jpg" style="width: 212px; height: 306px;" /></div>
 
 <div class="col-8">
 <h1>Francia</h1>
@@ -276,7 +276,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 
 <div class="carousel-item">
 <div class="row carousel-item__content-box">
-<div class="col-4"><img alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" class="img-fluid" src="../images/logos/fantin-latour_scholder.png" /></div>
+<div class="col-4"><img alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" class="img-fluid" src="../images/publications/fantin-latour_scholder.png" /></div>
 
 <div class="col-8">
 <h1>Briefwechsel Fantin-Latour &amp; Scholderer</h1>
@@ -292,7 +292,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 
 <div class="carousel-item">
 <div class="row carousel-item__content-box">
-<div class="col-4"><img alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" class="img-fluid" src="../images/logos/pacelli.jpg" /></div>
+<div class="col-4"><img alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" class="img-fluid" src="../images/publications/pacelli.jpg" /></div>
 
 <div class="col-8">
 <h1>Pacelli – Nuntiaturberichte 1917-29</h1>
@@ -363,7 +363,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
  </p>
 </div>
 
-<div class="card-footer pp_more"><a href="publications/sources.xml"><strong>... Vue d'ensemble</strong> <img src="../images/external_link.svg" /> </a></div>
+<div class="card-footer pp_more"><a href="publications/sources.xml"><strong>... Vue d'ensemble</strong> <img src="../images/index21/external_link.svg" /> </a></div>
 </div>
 </div>
 
@@ -377,7 +377,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 <p>Weber 2.0 est le portail des blogs scientifiques de la Fondation Max Weber, de ses instituts et de ses partenaires.</p>
 </div>
 
-<div class="card-footer pp_more"><a href="https://mws.hypotheses.org/"><strong>... Vue d'ensemble</strong> <img src="../images/external_link.svg" /> </a></div>
+<div class="card-footer pp_more"><a href="https://mws.hypotheses.org/"><strong>... Vue d'ensemble</strong> <img src="../images/index21/external_link.svg" /> </a></div>
 </div>
 </div>
 </div>
@@ -397,7 +397,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 <div class="carousel-inner" role="listbox">
 <div class="carousel-item active">
 <div class="row carousel-item__content-box">
-<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover Rezensionsjournal Francia-Recensio" class="img-fluid" src="../images/slider/francia-recensio-2021.png" style="width: 210px; height: 306px;" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover Rezensionsjournal Francia-Recensio" class="img-fluid" src="../images/publications/francia-recensio-2021.png" style="width: 210px; height: 306px;" /></div>
 
 <div class="col-8">
 <h1>Francia-Recensio</h1>
@@ -415,7 +415,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 
 <div class="carousel-item">
 <div class="row carousel-item__content-box">
-<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover der Zeitschrift Francia" class="img-fluid" src="../images/slider/francia47.jpg" style="width: 212px; height: 306px;" /></div>
+<div class="col-sm-4 text-center text-sm-right mb-3"><img alt="Cover der Zeitschrift Francia" class="img-fluid" src="../images/publications/francia47.jpg" style="width: 212px; height: 306px;" /></div>
 
 <div class="col-8">
 <h1>Francia</h1>
@@ -433,7 +433,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 
 <div class="carousel-item">
 <div class="row carousel-item__content-box">
-<div class="col-4"><img alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" class="img-fluid" src="../images/logos/fantin-latour_scholder.png" /></div>
+<div class="col-4"><img alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" class="img-fluid" src="../images/publications/fantin-latour_scholder.png" /></div>
 
 <div class="col-8">
 <h1>Correspondance Fantin-Latour &amp; Scholderer</h1>
@@ -449,7 +449,7 @@ Link zur Zeitschrift: <a href="http://journals.ub.uni-heidelberg.de/index.php/fr
 
 <div class="carousel-item">
 <div class="row carousel-item__content-box">
-<div class="col-4"><img alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" class="img-fluid" src="../images/logos/pacelli.jpg" /></div>
+<div class="col-4"><img alt="Quellencover Briefwechsel Fantin-Latour &amp; Scholderer" class="img-fluid" src="../images/publications/pacelli.jpg" /></div>
 
 <div class="col-8">
 <h1>Pacelli – Nuntiaturberichte 1917-29</h1>

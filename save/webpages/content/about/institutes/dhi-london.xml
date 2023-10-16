@@ -1,292 +1,376 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Deutsches Historisches Institut London"><div class="row">
-<div class="col-12 pp-institute-graphic" lang="de"><img alt="dhi-london-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-london-logo-224.png" />
-<h1 class="pp-institute-graphic__headline">Deutsches Historisches Institut London</h1>
-<img alt="Foto London" class="pp-institute-graphic__figure" src="../../../images/institute-figures/dhi-london-figure.jpg" title="Deutsches Historisches Institut London" /></div>
+<MyCoReWebPage>
+  <section xml:lang="de" title="Deutsches Historisches Institut London">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="de">
+        <img alt="dhi-london-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/dhi-london-logo-224.png" />
+        <h1 class="pp-institute-graphic__headline">Deutsches Historisches Institut London</h1>
+        <img alt="Foto London" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/dhi-london-figure.jpg"
+          title="Deutsches Historisches Institut London" />
+      </div>
 
-<div class="col-12 pp-contact" lang="de">
-<h2>Kontakt</h2>
+      <div class="col-12 pp-contact" lang="de">
+        <h2>Kontakt</h2>
 
-<h3>Deutsches Historisches Institut London</h3>
+        <h3>Deutsches Historisches Institut London</h3>
 
-<div class="pp-contact__list">
-<div class="pp-contact__item">Deutsches Historisches Institut London<br />
-17 Bloomsbury Square · London WC1A 2NJ</div>
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">Deutsches Historisches Institut London<br /> 17 Bloomsbury
+            Square · London WC1A 2NJ</div>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">Telefon:</td>
-			<td>+44 20 7309 2050</td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Fax:</td>
-			<td>+44 20 7404 5573</td>
-		</tr>
-	</tbody>
-</table>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Telefon:</td>
+                <td>+44 20 7309 2050</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+44 20 7404 5573</td>
+              </tr>
+            </tbody>
+          </table>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">E-Mail:</td>
-			<td><span class="madress">ghil [at] ghil.ac.uk</span></td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Internet:</td>
-			<td><a class="external-link" href="https://www.ghil.ac.uk">https://www.ghil.ac.uk</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>
+                  <span class="madress">ghil [at] ghil.ac.uk</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="https://www.ghil.ac.uk">https://www.ghil.ac.uk</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
-<div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/dhi-london-placeholder-224.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.london%22"> </div>
-</div>
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/dhi-london-placeholder-224.png"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.london%22">
+           </div>
+      </div>
 
-<div class="col-12 pp-sources">
-<h3>Digitale Quelleneditionen</h3>
+      <div class="col-12 pp-sources">
+        <h3>Digitale Quelleneditionen</h3>
 
-<div class="row pp-sourcesBox">
-<div class="col-4 col-md-2"><img alt="Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre" class="img-responsive" src="../../../images/thumbnails/dhi-london-schimper-in-abyssinia.png" title="Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre" /></div>
+        <div class="row pp-sourcesBox">
+          <div class="col-4 col-md-2">
+            <img alt="Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre"
+              class="img-responsive"
+              src="../../../images/thumbnails/dhi-london-schimper-in-abyssinia.png"
+              title="Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre" />
+          </div>
 
-<div class="col-8 col-md-4"><a class="external-link" href="https://prae.perspectivia.net/quellen/pauper">Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre</a>
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="https://prae.perspectivia.net/quellen/pauper">Georg
+              Wilhelm Schimper - in Abyssinia. Observations on Tigre</a>
 
-<p>Deutsches Historisches Institut London</p>
-</div>
+            <p>Deutsches Historisches Institut London</p>
+          </div>
 
-<div class="col-4 col-md-2"><img alt="Pauper Letters" class="img-responsive" src="../../../images/thumbnails/dhi-london-pauper-letters.jpg" title="Pauper Letters" /></div>
+          <div class="col-4 col-md-2">
+            <img alt="Pauper Letters" class="img-responsive"
+              src="../../../images/thumbnails/dhi-london-pauper-letters.jpg" title="Pauper Letters" />
+          </div>
 
-<div class="col-8 col-md-4"><a class="external-link" href="https://prae.perspectivia.net/quellen/pauper">Pauper Letters</a>
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="https://prae.perspectivia.net/quellen/pauper">Pauper
+              Letters</a>
 
-<p>Deutsches Historisches Institut London</p>
-</div>
-</div>
-</div>
-</div>
-</section><section xml:lang="en" title="German Historical Institute London"><div class="row">
-<div class="col-12 pp-institute-graphic" lang="de"><img alt="dhi-london-Logo" class="pp-institute-graphic__logo" src="../../../images/logos/dhi-london-logo-224.png" />
-<h1 class="pp-institute-graphic__headline">German Historical Institute London</h1>
-<img alt="Foto London" class="pp-institute-graphic__figure" src="../../../images/institute-figures/dhi-london-figure.jpg" title="Deutsches Historisches Institut London" /></div>
+            <p>Deutsches Historisches Institut London</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="en" title="German Historical Institute London">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="de">
+        <img alt="dhi-london-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/dhi-london-logo-224.png" />
+        <h1 class="pp-institute-graphic__headline">German Historical Institute London</h1>
+        <img alt="Foto London" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/dhi-london-figure.jpg"
+          title="Deutsches Historisches Institut London" />
+      </div>
 
-<div class="col-12 pp-contact" lang="e">
-<h2>Contact</h2>
+      <div class="col-12 pp-contact" lang="e">
+        <h2>Contact</h2>
 
-<h3>German Historical Institute London</h3>
+        <h3>German Historical Institute London</h3>
 
-<div class="pp-contact__list">
-<div class="pp-contact__item">German Historical Institute London<br />
-17 Bloomsbury Square · London WC1A 2NJ</div>
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">German Historical Institute London<br /> 17 Bloomsbury
+            Square · London WC1A 2NJ</div>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">Phone:</td>
-			<td>+44 20 7309 2050</td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Fax:</td>
-			<td>+44 20 7404 5573</td>
-		</tr>
-	</tbody>
-</table>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Phone:</td>
+                <td>+44 20 7309 2050</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+44 20 7404 5573</td>
+              </tr>
+            </tbody>
+          </table>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">E-Mail:</td>
-			<td><span class="madress">ghil [at] ghil.ac.uk</span></td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Internet:</td>
-			<td><a class="external-link" href="https://www.ghil.ac.uk">https://www.ghil.ac.uk</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>
+                  <span class="madress">ghil [at] ghil.ac.uk</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="https://www.ghil.ac.uk">https://www.ghil.ac.uk</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
-<div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/dhi-london-placeholder-224.png" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.london%22"> </div>
-</div>
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/dhi-london-placeholder-224.png"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.london%22">
+           </div>
+      </div>
 
-<div class="col-12 pp-sources">
-<h3>Digital source editions</h3>
+      <div class="col-12 pp-sources">
+        <h3>Digital source editions</h3>
 
-<div class="row pp-sourcesBox">
-<div class="col-4 col-md-2"><img alt="Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre" class="img-responsive" src="../../../images/thumbnails/dhi-london-schimper-in-abyssinia.png" title="Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre" /></div>
+        <div class="row pp-sourcesBox">
+          <div class="col-4 col-md-2">
+            <img alt="Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre"
+              class="img-responsive"
+              src="../../../images/thumbnails/dhi-london-schimper-in-abyssinia.png"
+              title="Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre" />
+          </div>
 
-<div class="col-8 col-md-4"><a class="external-link" href="https://prae.perspectivia.net/quellen/pauper">Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre</a>
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="https://prae.perspectivia.net/quellen/pauper">Georg
+              Wilhelm Schimper - in Abyssinia. Observations on Tigre</a>
 
-<p>Deutsches Historisches Institut London</p>
-</div>
+            <p>Deutsches Historisches Institut London</p>
+          </div>
 
-<div class="col-4 col-md-2"><img alt="Pauper Letters" class="img-responsive" src="../../../images/thumbnails/dhi-london-pauper-letters.jpg" title="Pauper Letters" /></div>
+          <div class="col-4 col-md-2">
+            <img alt="Pauper Letters" class="img-responsive"
+              src="../../../images/thumbnails/dhi-london-pauper-letters.jpg" title="Pauper Letters" />
+          </div>
 
-<div class="col-8 col-md-4"><a class="external-link" href="https://prae.perspectivia.net/quellen/pauper">Pauper Letters</a>
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="https://prae.perspectivia.net/quellen/pauper">Pauper
+              Letters</a>
 
-<p>Deutsches Historisches Institut London</p>
-</div>
-</div>
-</div>
-</div>
-</section><section xml:lang="fr" title="Institut historique allemand Londres"><div class="row">
+            <p>Deutsches Historisches Institut London</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="fr" title="Institut historique allemand Londres">
+    <div class="row">
 
-            <div class="col-12 pp-institute-graphic" lang="fr">
-                <img src="../../../images/logos/dhi-london-logo-224.png" class="pp-institute-graphic__logo" alt="dhi-london-Logo" />
-                <h1 class="pp-institute-graphic__headline">
-                    Institut historique allemand Londres
-                </h1>
-                <img src="../../../images/institute-figures/dhi-london-figure.jpg" class="pp-institute-graphic__figure" alt="Foto London" title="Deutsches Historisches Institut London" />
-            </div>
+      <div class="col-12 pp-institute-graphic" lang="fr">
+        <img src="../../../images/logos/dhi-london-logo-224.png" class="pp-institute-graphic__logo"
+          alt="dhi-london-Logo" />
+        <h1 class="pp-institute-graphic__headline">
+          Institut historique allemand Londres
+        </h1>
+        <img src="../../../images/institutes/dhi-london-figure.jpg"
+          class="pp-institute-graphic__figure" alt="Foto London"
+          title="Deutsches Historisches Institut London" />
+      </div>
 
-            <div class="col-12 pp-contact" lang="fr">
-                <h2>Contact</h2>
-                <h3>Institut historique allemand Londres</h3>
-                <div class="pp-contact__list">
+      <div class="col-12 pp-contact" lang="fr">
+        <h2>Contact</h2>
+        <h3>Institut historique allemand Londres</h3>
+        <div class="pp-contact__list">
 
-                    <div class="pp-contact__item">
-                        Deutsches Historisches Institut London<br />
-                        17 Bloomsbury Square · London WC1A 2NJ
-                    </div>
+          <div class="pp-contact__item"> Deutsches Historisches Institut London<br /> 17 Bloomsbury
+            Square · London WC1A 2NJ </div>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">Phone:</td>
-                            <td>+44 20 7309 2050</td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Fax:</td>
-                            <td>+44 20 7404 5573</td>
-                        </tr>
-                    </table>
+          <table class="pp-contact__item">
+            <tr>
+              <td class="pp-contact__subitem">Phone:</td>
+              <td>+44 20 7309 2050</td>
+            </tr>
+            <tr>
+              <td class="pp-contact__subitem">Fax:</td>
+              <td>+44 20 7404 5573</td>
+            </tr>
+          </table>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">E-Mail:</td>
-                            <td>
-                                <span class="madress">ghil [at] ghil.ac.uk</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Internet:</td>
-                            <td><a class="external-link" href="https://www.ghil.ac.uk">https://www.ghil.ac.uk</a></td>
-                        </tr>
-                    </table>
+          <table class="pp-contact__item">
+            <tr>
+              <td class="pp-contact__subitem">E-Mail:</td>
+              <td>
+                <span class="madress">ghil [at] ghil.ac.uk</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="pp-contact__subitem">Internet:</td>
+              <td>
+                <a class="external-link" href="https://www.ghil.ac.uk">https://www.ghil.ac.uk</a>
+              </td>
+            </tr>
+          </table>
 
-                </div>
-            </div>
+        </div>
+      </div>
 
-            <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.london%22" data-defaultThumbnail="../../../images/placeholder/dhi-london-placeholder-224.png"> 
-                </div>
-            </div>
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.london%22"
+          data-defaultThumbnail="../../../images/placeholder/dhi-london-placeholder-224.png"> 
+        </div>
+      </div>
 
-            <div class="col-12 pp-sources">
-                <h3>Digital source editions</h3>
-                <div class="row pp-sourcesBox">
+      <div class="col-12 pp-sources">
+        <h3>Digital source editions</h3>
+        <div class="row pp-sourcesBox">
 
-                    <div class="col-4 col-md-2">
-                        <img class="img-responsive" alt="Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre" title="Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre" src="../../../images/thumbnails/dhi-london-schimper-in-abyssinia.png" />
-                    </div>
-                    <div class="col-8 col-md-4">
-                        <a class="external-link" href="https://prae.perspectivia.net/quellen/pauper">Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre</a>
-                        <p>
-                            Deutsches Historisches Institut London
-                        </p>
-                    </div>
+          <div class="col-4 col-md-2">
+            <img class="img-responsive"
+              alt="Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre"
+              title="Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre"
+              src="../../../images/thumbnails/dhi-london-schimper-in-abyssinia.png" />
+          </div>
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="https://prae.perspectivia.net/quellen/pauper">Georg
+              Wilhelm Schimper - in Abyssinia. Observations on Tigre</a>
+            <p>
+              Deutsches Historisches Institut London
+            </p>
+          </div>
 
-                    <div class="col-4 col-md-2">
-                        <img class="img-responsive" alt="Pauper Letters" title="Pauper Letters" src="../../../images/thumbnails/dhi-london-pauper-letters.jpg" />
-                    </div>
-                    <div class="col-8 col-md-4">
-                        <a class="external-link" href="https://prae.perspectivia.net/quellen/pauper">Pauper Letters</a>
-                        <p>
-                            Deutsches Historisches Institut London
-                        </p>
-                    </div>
+          <div class="col-4 col-md-2">
+            <img class="img-responsive" alt="Pauper Letters" title="Pauper Letters"
+              src="../../../images/thumbnails/dhi-london-pauper-letters.jpg" />
+          </div>
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="https://prae.perspectivia.net/quellen/pauper">Pauper
+              Letters</a>
+            <p>
+              Deutsches Historisches Institut London
+            </p>
+          </div>
 
-                </div>
-            </div>
+        </div>
+      </div>
 
-        </div></section><section xml:lang="it" title="Deutsches Historisches Institut London"><div class="row">
+    </div>
+  </section>
+  <section xml:lang="it" title="Deutsches Historisches Institut London">
+    <div class="row">
 
-            <div class="col-12 pp-institute-graphic" lang="de">
-                <img src="../../../images/logos/dhi-london-logo-224.png" class="pp-institute-graphic__logo" alt="dhi-london-Logo" />
-                <h1 class="pp-institute-graphic__headline">
-                    Deutsches Historisches Institut London
-                </h1>
-                <img src="../../../images/institute-figures/dhi-london-figure.jpg" class="pp-institute-graphic__figure" alt="Foto London" title="Deutsches Historisches Institut London" />
-            </div>
+      <div class="col-12 pp-institute-graphic" lang="de">
+        <img src="../../../images/logos/dhi-london-logo-224.png" class="pp-institute-graphic__logo"
+          alt="dhi-london-Logo" />
+        <h1 class="pp-institute-graphic__headline">
+          Deutsches Historisches Institut London
+        </h1>
+        <img src="../../../images/institutes/dhi-london-figure.jpg"
+          class="pp-institute-graphic__figure" alt="Foto London"
+          title="Deutsches Historisches Institut London" />
+      </div>
 
-            <div class="col-12 pp-contact" lang="de">
-                <h2>Contact</h2>
-                <h3>Deutsches Historisches Institut London</h3>
-                <div class="pp-contact__list">
+      <div class="col-12 pp-contact" lang="de">
+        <h2>Contact</h2>
+        <h3>Deutsches Historisches Institut London</h3>
+        <div class="pp-contact__list">
 
-                    <div class="pp-contact__item">
-                        Deutsches Historisches Institut London<br />
-                        17 Bloomsbury Square · London WC1A 2NJ
-                    </div>
+          <div class="pp-contact__item"> Deutsches Historisches Institut London<br /> 17 Bloomsbury
+            Square · London WC1A 2NJ </div>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">Phone:</td>
-                            <td>+44 20 7309 2050</td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Fax:</td>
-                            <td>+44 20 7404 5573</td>
-                        </tr>
-                    </table>
+          <table class="pp-contact__item">
+            <tr>
+              <td class="pp-contact__subitem">Phone:</td>
+              <td>+44 20 7309 2050</td>
+            </tr>
+            <tr>
+              <td class="pp-contact__subitem">Fax:</td>
+              <td>+44 20 7404 5573</td>
+            </tr>
+          </table>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">E-Mail:</td>
-                            <td>
-                                <span class="madress">ghil [at] ghil.ac.uk</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Internet:</td>
-                            <td><a class="external-link" href="https://www.ghil.ac.uk">https://www.ghil.ac.uk</a></td>
-                        </tr>
-                    </table>
+          <table class="pp-contact__item">
+            <tr>
+              <td class="pp-contact__subitem">E-Mail:</td>
+              <td>
+                <span class="madress">ghil [at] ghil.ac.uk</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="pp-contact__subitem">Internet:</td>
+              <td>
+                <a class="external-link" href="https://www.ghil.ac.uk">https://www.ghil.ac.uk</a>
+              </td>
+            </tr>
+          </table>
 
-                </div>
-            </div>
+        </div>
+      </div>
 
-            <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.london%22" data-defaultThumbnail="../../../images/placeholder/dhi-london-placeholder-224.png"> 
-                </div>
-            </div>
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.london%22"
+          data-defaultThumbnail="../../../images/placeholder/dhi-london-placeholder-224.png"> 
+        </div>
+      </div>
 
-            <div class="col-12 pp-sources">
-                <h3>Digital source editions</h3>
-                <div class="row pp-sourcesBox">
+      <div class="col-12 pp-sources">
+        <h3>Digital source editions</h3>
+        <div class="row pp-sourcesBox">
 
-                    <div class="col-4 col-md-2">
-                        <img class="img-responsive" alt="Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre" title="Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre" src="../../../images/thumbnails/dhi-london-schimper-in-abyssinia.png" />
-                    </div>
-                    <div class="col-8 col-md-4">
-                        <a class="external-link" href="https://prae.perspectivia.net/quellen/pauper">Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre</a>
-                        <p>
-                            Deutsches Historisches Institut London
-                        </p>
-                    </div>
+          <div class="col-4 col-md-2">
+            <img class="img-responsive"
+              alt="Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre"
+              title="Georg Wilhelm Schimper - in Abyssinia. Observations on Tigre"
+              src="../../../images/thumbnails/dhi-london-schimper-in-abyssinia.png" />
+          </div>
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="https://prae.perspectivia.net/quellen/pauper">Georg
+              Wilhelm Schimper - in Abyssinia. Observations on Tigre</a>
+            <p>
+              Deutsches Historisches Institut London
+            </p>
+          </div>
 
-                    <div class="col-4 col-md-2">
-                        <img class="img-responsive" alt="Pauper Letters" title="Pauper Letters" src="../../../images/thumbnails/dhi-london-pauper-letters.jpg" />
-                    </div>
-                    <div class="col-8 col-md-4">
-                        <a class="external-link" href="https://prae.perspectivia.net/quellen/pauper">Pauper Letters</a>
-                        <p>
-                            Deutsches Historisches Institut London
-                        </p>
-                    </div>
+          <div class="col-4 col-md-2">
+            <img class="img-responsive" alt="Pauper Letters" title="Pauper Letters"
+              src="../../../images/thumbnails/dhi-london-pauper-letters.jpg" />
+          </div>
+          <div class="col-8 col-md-4">
+            <a class="external-link" href="https://prae.perspectivia.net/quellen/pauper">Pauper
+              Letters</a>
+            <p>
+              Deutsches Historisches Institut London
+            </p>
+          </div>
 
-                </div>
-            </div>
+        </div>
+      </div>
 
-        </div></section><meta><log lastEditor="agerber" date="2021-05-31" time="11:38" /></meta></MyCoReWebPage>
+    </div>
+  </section>
+  <meta>
+    <log lastEditor="agerber" date="2021-05-31" time="11:38" />
+  </meta>
+</MyCoReWebPage>

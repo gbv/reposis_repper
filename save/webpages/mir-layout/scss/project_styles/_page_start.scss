@@ -5,6 +5,282 @@
 // Extra large devices (large desktops)
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
+
+// only for project home
+.mir-start_page {
+
+  #page {
+    margin-top: 0;
+    padding-top: 0;
+    // reset root container from base layout
+    // home uses own containers,
+    // to enable backgrounds over the whole page width
+    &.container {
+      max-width: none;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  // define page segements
+  .page-section {
+    //min-height: 100vh;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    &__intro {
+      padding-top: 15rem;
+      padding-bottom: 0;
+      background-color: $p-dark-white;
+      overflow: hidden;
+    }
+    &__links {
+    }
+    &__institutions {
+      background-color: $p-dark-white;
+    }
+    &__slider {
+      padding-bottom: 0;
+    }
+  }
+
+  .intro-box {
+    border: 1px solid $p-purple-light;
+    display: flex;
+    align-items: stretch;
+    .slogan {
+      flex-basis: 25%;
+      position: relative;
+      &__imagebox {
+        position:absolute;
+        top: 5%;
+        left: 0;
+        height: 90%;
+        margin-left: -35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 190%;
+      }
+      &__image {
+        position:absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        filter: invert(78%) sepia(72%) saturate(493%) hue-rotate(264deg) brightness(76%) contrast(80%);
+      }
+      &__text {
+        z-index: 500;
+        font-size: 2.75rem;
+        color: white;
+        width: 100%;
+        margin-left: 10%;
+      }
+    }
+    .intro-text {
+      flex-basis: 60%;
+      padding: 5rem 2rem 5.5rem 2rem;
+      font-size: 1.25rem;
+      line-height: 2.25rem;
+      &__slogan {
+        display: none;
+      }
+    }
+    .decoration {
+      flex-basis: 15%;
+      position: relative;
+      img {
+        position:absolute;
+        top: 5%;
+        left: 0;
+        height: 90%;
+        filter: invert(47%) sepia(97%) saturate(1322%) hue-rotate(5deg) brightness(98%) contrast(102%);
+      }
+      &::before {
+        content: '';
+        position:absolute;
+        top: 5%;
+        right: -5px;
+        height: 90%;
+        background-color: $p-dark-white;
+        width: 10px;
+      }
+    }
+  }
+
+  .teaser {
+    margin-top: 2.375rem;
+    margin-bottom: 2.375rem;
+    display: flex;
+    &__item {
+      padding: 1rem 2.25rem;
+      border-left: 1px dashed $p-gray;
+      flex-basis: 25%;
+      position: relative;
+      &:last-child {
+        border-right: 1px dashed $p-gray;
+      }
+    }
+    .teaser__headline {
+      color: $p-orange;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+    .teaser__date {
+      font-size: 0.75rem;
+    }
+    .teaser__text {
+      font-size: 1,4375rem;
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+    }
+    .teaser__button {
+      color: $p-orange;
+      font-size: 1rem;
+      position: absolute;
+      left: 2.25rem;
+      bottom: 1rem;
+      i {
+        font-size: .75rem;
+        margin-left: .2rem;
+      }
+    }
+  }
+
+  .slider-institute {
+    display: block;
+    .slider-institute-figure {
+      display: flex;
+      align-items: flex-end;
+      background-color: white;
+      border-radius: 1rem;
+      height: 255px;
+      max-width: 320px;
+      .slider-institute-logo {
+        position: absolute;
+        top: 0.5rem;
+        left: 1.5rem;
+        width: 33%;
+        max-width: 100px;
+      }
+      .slider-institute-image {
+        border-radius: 1rem;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .slider-institute-title {
+      margin-top: 2rem;
+      font-size: 1.25rem;
+      font-weight: 700;
+      overflow-wrap: break-word;
+    }
+  }
+
+  .page-section__institutions.hide-slider {
+    .carousel-item {
+      display: block;
+      float: none;
+      &__content-box {
+        max-width: none;
+        margin-right: 0;
+      }
+    }
+    .carousel-control-prev,
+    .carousel-control-next,
+    .carousel-indicators,
+    .show-all-institutions-box {
+      display: none;
+    }
+  }
+
+  #main_content {
+    h2 {
+      color: $p-orange;
+      font-size: 2.75rem !important;
+    }
+    .intro-box h2 {
+      color: $p-pink;
+    }
+  }
+
+
+
+  p {
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+  }
+
+  .p-statistics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .p-statistic {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 3.5rem;
+      margin-left: 3.5rem;
+      font-size: 2.125rem;
+      color: $p-petrol;
+      &__title {
+        order: 2;
+      }
+      &__value {
+        order: 1;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.p-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  .p-tile {
+    flex-basis: 30%;
+    position: relative;
+    color: white;
+    margin-bottom: 5rem;
+    &__background { }
+    &__petrol { filter: invert(27%) sepia(94%) saturate(883%) hue-rotate(152deg) brightness(92%) contrast(101%); }
+    &__purple { filter: invert(12%) sepia(30%) saturate(4913%) hue-rotate(286deg) brightness(101%) contrast(90%); }
+    &__pink { filter: invert(57%) sepia(9%) saturate(1892%) hue-rotate(251deg) brightness(93%) contrast(85%); }
+    &__orange { filter: invert(49%) sepia(84%) saturate(818%) hue-rotate(360deg) brightness(94%) contrast(100%); }
+    &__arrow {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      z-index: 500;
+    }
+    &__content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 500;
+      padding: 2.75rem 1.5rem;
+      height: 100%;
+    }
+    &__headline {
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+    &__text {
+      font-size: 1rem;
+      line-height: unset;
+    }
+  }
+}
+#main_content h3.p-tile__headline {
+  font-size: 1.4375rem;
+}
+
+
 .pp-home {
   h2 {
     color: $success;
@@ -39,9 +315,6 @@
 }
 .pp-footer-card .stretched-link {
   color: $body-color;
-  &:hover {
-    text-decoration: none;
-  }
 }
 .pp-footer-card:hover .card-img-top {
   opacity: 0.7;
@@ -132,62 +405,217 @@
   width: 22px;
 }
 
-.blog-mws:before {
-  background: url("../images/mws-blog.png") no-repeat;
-  content: "";
-  display: block;
-  width: 30px;
-  height: 30px;
-  float: left;
-  margin: 0;
+// own breakpoint
+@media ( max-width: 1520px ) {
+  .mir-start_page {
+    .intro-box {
+      .slogan {
+        &__text {
+          margin-left: 35%;
+        }
+      }
+    }
+  }
 }
-.main-mws:before {
-  background: url("../images/mws-follow.png") no-repeat;
-  content: "";
-  display: block;
-  width: 30px;
-  height: 30px;
-  float: left;
-  margin: 0;
+
+// Large devices (desktops) and below: <= 1400px
+@include media-breakpoint-down(xl) {
+  // add/overwrite styles for responsive level xl and lower
+  .mir-start_page {
+    .intro-box {
+      .slogan {
+        flex-basis: 35%;
+        &__imagebox {
+          margin-left: -90%;
+        }
+        &__text {
+          margin-left: 24%;
+        }
+      }
+      .intro-text {
+        flex-basis: 50%;
+      }
+      .decoration {
+        flex-basis: 15%;
+      }
+    }
+  }
+}
+
+// own breakpoint
+@media ( max-width: 1450px ) {
+  .mir-start_page {
+    .intro-box {
+      .slogan {
+        &__text {
+          font-size: 2.5rem;
+          margin-left: 40%;
+        }
+      }
+    }
+  }
 }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
-  #pp_arrowToJournals,
-  #pp_arrowToMIR {
-    height: 350px;
-  }
-  #pp_arrowToSources {
-    height: 250px;
+  .mir-start_page {
+    .intro-box {
+      .slogan {
+        flex-basis: 20%;
+        position: relative;
+        &::before {
+          content: '';
+          position:absolute;
+          top: 5%;
+          left: -1px;
+          height: 90%;
+          background-color: $p-dark-white;
+          width: 1px;
+        }
+        &__text {
+          display: none;
+        }
+        &__image {
+          left: auto;
+          right: 0;
+        }
+      }
+      .intro-text {
+        flex-basis: 70%;
+        &__slogan {
+          display: block;
+          color: $p-pink;
+        }
+      }
+      .decoration {
+        flex-basis: 10%;
+      }
+    }
   }
 }
 
 // Medium devices (tablets) and below: <= 992px
 @include media-breakpoint-down(md) {
   // add/overwrite styles for responsive level md and lower
-  #pp_arrowToJournals,
-  #pp_arrowToMIR {
-    height: 450px;
-  }
-  #pp_arrowToSources {
-    height: 350px;
+  .mir-start_page {
+    .intro-box {
+      .slogan {
+        flex-basis: 10%;
+      }
+      .intro-text {
+        flex-basis: 85%;
+      }
+      .decoration {
+        flex-basis: 5%;
+      }
+    }
+    .teaser {
+      justify-content: space-between;
+      &__item {
+        flex-basis: 33%;
+      }
+    }
+    .p-tiles {
+      .p-tile {
+        flex-basis: 45%;
+      }
+    }
+    .p-statistics {
+      .p-statistic {
+        flex-direction: row;
+        flex-basis: 100%;
+        justify-content: flex-start;
+        margin-bottom: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+        &__title {
+          text-align: left;
+          padding-left: 1rem;
+        }
+        &__value {
+          flex-basis: 30%;
+          text-align: right;
+        }
+      }
+    }
   }
 }
 
 // Small devices (landscape phones) and below: <= 768px
 @include media-breakpoint-down(sm) {
   // add/overwrite styles for responsive level sm and lower
-  #pp_arrowToJournals,
-  #pp_arrowToMIR {
-    display: none;
+  .mir-start_page {
+    .intro-box {
+      .slogan {
+        flex-basis: 1%;
+      }
+      .intro-text {
+        flex-basis: 98%;
+        padding: 2rem 2rem 2rem 2rem;
+      }
+      .decoration {
+        flex-basis: 1%;
+      }
+    }
+    #main_content {
+      .intro-box h2 {
+        font-size: 2rem !important;
+      }
+    }
   }
-  #pp_arrowToSources {
-    height: 550px;
-  }
+
 }
 
 // Extra small devices (portrait phones): <= 576px
 @include media-breakpoint-down(xs) {
   // add/overwrite styles for responsive level xs
+  .mir-start_page {
+    .page-section {
+      &__intro {
+        padding-top: 3rem;
+      }
+    }
+    .intro-box {
+      .slogan {
+        display: none;
+      }
+      .intro-text {
+        flex-basis: 100%;
+      }
+      .decoration {
+        display: none;
+      }
+    }
+    .teaser {
+      justify-content: space-between;
+      &__item {
+        flex-basis: 50%;
+      }
+    }
+    .p-tiles {
+      justify-content: center;
+      .p-tile {
+        flex-basis: 90%;
+      }
+    }
+    .p-statistics {
+      .p-statistic {
+        flex-direction: column;
+        flex-basis: 100%;
+        justify-content: center;
+        margin-bottom: 3rem;
+        margin-left: 0;
+        margin-right: 0;
+        &__title {
+          text-align: center;
+          padding-left: 0;
+        }
+        &__value {
+          flex-basis: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
 }

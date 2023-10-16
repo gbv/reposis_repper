@@ -9,92 +9,118 @@
 
 /* ************************ main menu ************************ */
 
-.pp-main-nav {
-  border-top: 6px solid $pp-menu-back;
-  // align to the top
-  .navbar {
-    padding: 0;
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
   }
-  // center main menu
-  .navbar-expand-lg {
-    justify-content: center;
+  .navbar-light .navbar-nav .nav-link:focus {
+    color: $p-black;
   }
-  // center main menu
-  .navbar-collapse {
-    flex-grow: 0;
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    background-color: $p-petrol;
   }
-  .navbar-nav {
-    background-color: $pp-menu-back;
-  }
-  // first level link
-  .nav-link {
-    padding: 15px 20px !important;
-    font-weight: 700;
-    font-size: 16px;
-    border-left: 2px solid $pp-menu-border;
-    &:hover,
-    &:focus {
-      color: $pp-menu-text !important;
-      background-color: $pp-menu-hover;
+
+  .pp-main-nav {
+    margin-top: .5rem;
+    .navbar {
+      padding: 0;
+      align-items: flex-end;
     }
-  }
-  // menu burger
-  .navbar-toggler {
-    background-color: $pp-menu-back;
-    border-color: $pp-menu-back;
-    border-radius: 0;
-  }
-  // link to submenu level 2+
-  .dropdown-submenu {
-    .dropdown-menu {
-      border-left: 1px solid $pp-menu-border !important;
-      border-top: none;
-    }
-  }
-  // submenu list
-  .dropdown-menu {
-    background-color: $pp-menu-back;
-    border-radius: 0 !important;
-    margin: 0px !important;
-    padding: 0px;
-    border-left: 2px solid $pp-menu-border !important;
-  }
-  // submenu entry
-  .dropdown-item {
-    color: $pp-menu-text;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: inherit;
-    border-top: 1px solid $pp-menu-divider;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    &:hover,
-    &:focus {
-      color: $pp-menu-text;
-      background-color: $pp-menu-hover;
-    }
-  }
-  // entry was loaded
-  .active {
-    // active first level entry
     .nav-link {
-      background-color: $pp-menu-active;
-    }
-    // active sub menu entry
-    > .dropdown-item {
-      background-color: $pp-success-light;
+      font-size: 1.125rem;
+      padding: 0.625rem 1.25rem;
       &:hover {
-        background-color: $pp-primary-light;
+        color: white;
+        background-color: $p-petrol;
+      }
+      &:focus {
+        color: $p-black;
+        background-color: white;
+      }
+    }
+    .nav-item {
+      &.show {
+        .nav-link {
+          color: white;
+          background-color: $p-petrol;
+        }
+      }
+    }
+    // overwrite bs for main menu only
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 1.25rem;
+      padding-left: 1.25rem;
+    }
+  }
+/* replace carret by chevron for all drop downs */
+  .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .375rem;
+    vertical-align: 0;
+    content: "\f078";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    border: none;
+    // use font size from element to prevent layout issues
+  }
+
+
+  .mir-prop-nav {
+    .navbar-nav {
+      & > li {
+        & > a {
+          font-size: 0.75rem;
+          color: $body-color;
+          &:hover,
+          &:focus {
+            color: $p-petrol;
+          }
+        }
+      }
+    }
+    .mir-lang {
+      margin-left: 1.125rem;
+      a {
+        font-weight: bold;
+      }
+      .dropdown-toggle::after {
+        display: none;
       }
     }
   }
-  // entry was clicked
-  .show {
-    > .nav-link {
-      background-color: $pp-menu-active;
+
+  .navbar-light .navbar-toggler {
+    border-color: rgba($p-petrol, 1);
+  }
+
+  .mir-main-nav__entries--mobile {
+    overflow:auto;
+    height: 90vh;
+    width: 90vw;
+    min-width: 240px;
+    position: absolute;
+    z-index: 4004;
+    top: 5vh;
+    left: 5vw;
+    padding: 5vh 5vw;
+    background-color: rgba(white, 0.95);
+    border: 1px solid $p-petrol;
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.1);
+    .navbar-nav .dropdown-menu.show {
+      position: static !important;
+      transform: none !important;
+      display: block !important;
+      overflow: hidden;
+    }
+    &-close {
+      position: absolute;
+      z-index: 4005;
+      top: 0;
+      right: 0;
+      color: $p-petrol;
+      font-size: 2rem;
     }
   }
-}
 
 /* ************************ tabs ************************ */
 
@@ -123,6 +149,7 @@
         }
         // active tab
         &.active {
+          border-bottom: 2px solid #005580;
           &:hover,
           &:focus {
             color: #333;
@@ -135,24 +162,36 @@
   }
 }
 
+.dropdown-submenu {
+  .dropdown-menu {
+    overflow: auto;
+    max-height: 60vh;
+  }
+}
+
+
+
+
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
+  .pp-main-nav {
+    margin-top: 3rem;
+  }
 }
 
 // Medium devices (tablets) and below: <= 992px
 @include media-breakpoint-down(md) {
   // add/overwrite styles for responsive level md and lower
   .pp-main-nav {
-    // align burger menu to the left
-    .navbar-expand-lg {
-      justify-content: flex-start;
+    margin-top: 4rem;
+    margin-bottom: .5rem;
+    .navbar {
+      align-items: flex-start;
     }
-    // burger button has no border to the left like a level one menu entry
-    // fix alignment
-    .nav-link {
-      border-left: 0px solid white !important;
-    }
+  }
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-start;
   }
 }
 
@@ -164,4 +203,7 @@
 // Extra small devices (portrait phones): <= 576px
 @include media-breakpoint-down(xs) {
   // add/overwrite styles for responsive level xs
+  .pp-main-nav {
+    margin-top: 5.5rem;
+  }
 }

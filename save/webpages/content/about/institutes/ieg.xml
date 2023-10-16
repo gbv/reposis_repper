@@ -1,140 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="IEG"><div class="row">
-<div class="col-12 pp-institute-graphic" lang="de"><img alt="OII-Logo" class="pp-institute-graphic__logo" src="ieg.jpg" style="width: 100px; height: 134px;" />
-<h1 class="pp-institute-graphic__headline">Leibniz-Institut für Europäische Geschichte</h1>
-</div>
+<MyCoReWebPage>
 
-<div class="col-12 pp-contact" lang="de">
-<h2>Kontakt</h2>
+  <section xml:lang="de" title="IEG">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="de">
+        <img alt="IEG-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/ieg.jpg" />
+        <h1 class="pp-institute-graphic__headline">Leibniz-Institut für Europäische Geschichte</h1>
+        <img alt="" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/ieg-figure.jpg" />
+      </div>
 
-<h3>Leibniz-Institut für Europäische Geschichte</h3>
+      <div class="col-12 pp-contact" lang="de">
+        <h2>Kontakt</h2>
 
-<div class="pp-contact__list">
-<div class="pp-contact__item">Alte Universitätsstraße 19<br />
-55116 Mainz</div>
+        <h3>Leibniz-Institut für Europäische Geschichte</h3>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">Telefon:</td>
-			<td>+49 6131 39 39340</td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Fax:</td>
-			<td>+49 6131 39 21050</td>
-		</tr>
-	</tbody>
-</table>
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">Alte Universitätsstraße 19<br /> 55116 Mainz</div>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">E-Mail:</td>
-			<td><span class="madress">info [at] ieg-mainz.de</span></td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Internet:</td>
-			<td><a class="external-link" href="https://www.ieg-mainz.de/">https://www.ieg-mainz.de/</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Telefon:</td>
+                <td>+49 6131 39 39340</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+49 6131 39 21050</td>
+              </tr>
+            </tbody>
+          </table>
 
-<div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/oii-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:f8ea4add-8496-4104-be8c-9b6adda6b7a6%22"> </div>
-</div>
-</div>
-</section><section xml:lang="en" title="IEG"><div class="row">
-<div class="col-12 pp-institute-graphic" lang="en"><img alt="OII-Logo" class="pp-institute-graphic__logo" src="ieg.jpg" style="width: 100px; height: 134px;" />
-<h1 class="pp-institute-graphic__headline">Leibniz Institute of European History</h1>
-</div>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>
+                  <span class="madress">info [at] ieg-mainz.de</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="https://www.ieg-mainz.de/">
+                    https://www.ieg-mainz.de/</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
-<div class="col-12 pp-contact" lang="en">
-<h2>Contact</h2>
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:f8ea4add-8496-4104-be8c-9b6adda6b7a6%22">
+           </div>
+      </div>
+    </div>
+  </section>
 
-<h3>Leibniz Institute of European History</h3>
+  <section xml:lang="en" title="IEG">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="en">
+        <img alt="IEG-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/ieg.jpg" />
+        <h1 class="pp-institute-graphic__headline">Leibniz Institute of European History</h1>
+        <img alt="" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/ieg-figure.jpg" />
+      </div>
 
-<div class="pp-contact__list">
-<div class="pp-contact__item">Alte Universitätsstraße 19<br />
-55116 Mainz</div>
+      <div class="col-12 pp-contact" lang="en">
+        <h2>Contact</h2>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">Phone:</td>
-			<td>+49 6131 39 39340</td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Fax:</td>
-			<td>+49 6131 39 21050</td>
-		</tr>
-	</tbody>
-</table>
+        <h3>Leibniz Institute of European History</h3>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">E-Mail:</td>
-			<td><span class="madress">info [at] ieg-mainz.de</span></td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Internet:</td>
-			<td><a class="external-link" href="https://www.ieg-mainz.de/">https://www.ieg-mainz.de/</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">Alte Universitätsstraße 19<br /> 55116 Mainz</div>
 
-<div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/oii-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:f8ea4add-8496-4104-be8c-9b6adda6b7a6%22"> </div>
-</div>
-</div>
-</section><section xml:lang="fr" title="IEG"><div class="row">
-<div class="col-12 pp-institute-graphic" lang="fr"><img alt="OII-Logo" class="pp-institute-graphic__logo" src="ieg.jpg" style="width: 100px; height: 134px;" />
-<h1 class="pp-institute-graphic__headline">Institut Leibniz d'histoire européenne</h1>
-</div>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Phone:</td>
+                <td>+49 6131 39 39340</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+49 6131 39 21050</td>
+              </tr>
+            </tbody>
+          </table>
 
-<div class="col-12 pp-contact" lang="fr">
-<h2>Contact</h2>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>
+                  <span class="madress">info [at] ieg-mainz.de</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="https://www.ieg-mainz.de/">
+                    https://www.ieg-mainz.de/</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
-<h3>Institut Leibniz d'histoire européenne</h3>
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:f8ea4add-8496-4104-be8c-9b6adda6b7a6%22">
+           </div>
+      </div>
+    </div>
+  </section>
 
-<div class="pp-contact__list">
-<div class="pp-contact__item">Alte Universitätsstraße 19<br />
-55116 Mainz</div>
+  <section xml:lang="fr" title="IEG">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="fr">
+        <img alt="IEG-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/ieg.jpg" />
+        <h1 class="pp-institute-graphic__headline">Institut Leibniz d'histoire européenne</h1>
+        <img alt="" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/ieg-figure.jpg" />
+      </div>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">Phone:</td>
-			<td>+49 6131 39 39340</td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Fax:</td>
-			<td>+49 6131 39 21050</td>
-		</tr>
-	</tbody>
-</table>
+      <div class="col-12 pp-contact" lang="fr">
+        <h2>Contact</h2>
 
-<table class="pp-contact__item">
-	<tbody>
-		<tr>
-			<td class="pp-contact__subitem">E-Mail:</td>
-			<td><span class="madress">info [at] ieg-mainz.de</span></td>
-		</tr>
-		<tr>
-			<td class="pp-contact__subitem">Internet:</td>
-			<td><a class="external-link" href="https://www.ieg-mainz.de/">https://www.ieg-mainz.de/</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
+        <h3>Institut Leibniz d'histoire européenne</h3>
 
-<div class="col-12 pp-publications">
-<div class="solrsearch" data-classes="pp-sourcesBox" data-defaultthumbnail="../../../images/placeholder/oii-placeholder-460.jpg" data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:f8ea4add-8496-4104-be8c-9b6adda6b7a6%22"> </div>
-</div>
-</div>
-</section><meta><log lastEditor="agerber" date="2022-07-15" time="10:17" /></meta></MyCoReWebPage>
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">Alte Universitätsstraße 19<br /> 55116 Mainz</div>
+
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Phone:</td>
+                <td>+49 6131 39 39340</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+49 6131 39 21050</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>
+                  <span class="madress">info [at] ieg-mainz.de</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="https://www.ieg-mainz.de/">
+                    https://www.ieg-mainz.de/</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:f8ea4add-8496-4104-be8c-9b6adda6b7a6%22">
+           </div>
+      </div>
+    </div>
+  </section>
+
+  <meta>
+    <log lastEditor="agerber" date="2022-07-15" time="10:17" />
+  </meta>
+</MyCoReWebPage>

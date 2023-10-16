@@ -1,267 +1,252 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
+  <section xml:lang="de" title="Forum Transregionale Studien">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="de">
+        <img alt="TraFo-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/trafo-logo-460.jpg" />
+        <h1 class="pp-institute-graphic__headline">Forum Transregionale Studien</h1>
+        <img alt="Foto-TraFo" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/trafo-figure.jpg"
+          title="Forum Transregionale Studien" />
+      </div>
 
-    <section xml:lang="de" title="Forum Transregionale Studien">
-        <div class="row">
+      <div class="col-12 pp-contact" lang="de">
+        <h2>Kontakt</h2>
 
-            <div class="col-12 pp-institute-graphic" lang="de">
-                <img src="../../../images/logos/trafo-logo-460.jpg"
-                        class="pp-institute-graphic__logo"
-                        alt="TraFo-Logo" />
-                <h1 class="pp-institute-graphic__headline">
-                    Forum Transregionale Studien
-                </h1>
-                <img src="../../../images/institute-figures/trafo-figure.jpg"
-                        class="pp-institute-graphic__figure"
-                        alt="Foto-TraFo"
-                        title="Forum Transregionale Studien" />
-            </div>
+        <h3>Forum Transregionale Studien e.V.</h3>
 
-            <div class="col-12 pp-contact" lang="de">
-                <h2>Kontakt</h2>
-                <h3>Forum Transregionale Studien e.V.</h3>
-                <div class="pp-contact__list">
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">Ansprechpartner: Georges Khalil <br /> Wallotstraße 14<br />
+            14193 Berlin</div>
 
-                    <div class="pp-contact__item">
-                        Ansprechpartnerin: Dr. Stefanie Rentsch<br />
-                        Wallotstraße 14<br />
-                        14193 Berlin
-                    </div>
+          <div class="pp-contact__item"> </div>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">Telefon:</td>
-                            <td>+49 (0)30 89 001 - 430</td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Fax:</td>
-                            <td>+49 (0)30 89 001 - 440</td>
-                        </tr>
-                    </table>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Telefon:</td>
+                <td>+49 (0)30 89 001 - 430</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+49 (0)30 89 001 - 440</td>
+              </tr>
+            </tbody>
+          </table>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">E-Mail:</td>
-                            <td>
-                                <span class="madress">office [at] trafo-berlin.de</span><br/>
-                                <span class="madress">stefanie.rentsch [at] trafo-berlin.de</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Internet:</td>
-                            <td><a class="external-link" href="http://www.forum-transregionale-studien.de">http://www.forum-transregionale-studien.de</a></td>
-                        </tr>
-                    </table>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>communication [at] trafo-berlin.de</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="http://www.forum-transregionale-studien.de">
+                    http://www.forum-transregionale-studien.de</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-                </div>
-            </div>
-
-            <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox"
-                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:trafo%22"
-                     data-defaultThumbnail="../../../images/placeholder/trafo-placeholder-460.jpg"> 
-                </div>
-            </div>
-
+          <p> </p>
         </div>
-    </section>
+      </div>
 
-    <section xml:lang="en" title="Forum Transregionale Studien">
-        <div class="row">
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/trafo-placeholder-460.jpg"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:trafo%22">
+           </div>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="en" title="Forum Transregionale Studien">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="de">
+        <img alt="TraFo-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/trafo-logo-460.jpg" />
+        <h1 class="pp-institute-graphic__headline">Forum Transregionale Studien</h1>
+        <img alt="Foto-TraFo" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/trafo-figure.jpg"
+          title="Forum Transregionale Studien" />
+      </div>
 
-            <div class="col-12 pp-institute-graphic" lang="de">
-                <img src="../../../images/logos/trafo-logo-460.jpg"
-                        class="pp-institute-graphic__logo"
-                        alt="TraFo-Logo" />
-                <h1 class="pp-institute-graphic__headline">
-                    Forum Transregionale Studien
-                </h1>
-                <img src="../../../images/institute-figures/trafo-figure.jpg"
-                        class="pp-institute-graphic__figure"
-                        alt="Foto-TraFo"
-                        title="Forum Transregionale Studien" />
-            </div>
+      <div class="col-12 pp-contact" lang="de">
+        <h2>Contact</h2>
 
-            <div class="col-12 pp-contact" lang="de">
-                <h2>Contact</h2>
-                <h3>Forum Transregionale Studien e.V.</h3>
-                <div class="pp-contact__list">
+        <h3>Forum Transregionale Studien e.V.</h3>
 
-                    <div class="pp-contact__item">
-                        Ansprechpartnerin: Dr. Stefanie Rentsch<br />
-                        Wallotstraße 14<br />
-                        14193 Berlin
-                    </div>
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">Ansprechpartner: Georges Khalil <br /> Wallotstraße 14<br />
+            14193 Berlin</div>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">Phone:</td>
-                            <td>+49 (0)30 89 001 - 430</td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Fax:</td>
-                            <td>+49 (0)30 89 001 - 440</td>
-                        </tr>
-                    </table>
+          <div class="pp-contact__item"> </div>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">E-Mail:</td>
-                            <td>
-                                <span class="madress">office [at] trafo-berlin.de</span><br/>
-                                <span class="madress">stefanie.rentsch [at] trafo-berlin.de</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Internet:</td>
-                            <td><a class="external-link" href="http://www.forum-transregionale-studien.de">http://www.forum-transregionale-studien.de</a></td>
-                        </tr>
-                    </table>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Phone:</td>
+                <td>+49 (0)30 89 001 - 430</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+49 (0)30 89 001 - 440</td>
+              </tr>
+            </tbody>
+          </table>
 
-                </div>
-            </div>
-
-            <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox"
-                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:trafo%22"
-                     data-defaultThumbnail="../../../images/placeholder/trafo-placeholder-460.jpg"> 
-                </div>
-            </div>
-
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>communication [at] trafo-berlin.de</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="http://www.forum-transregionale-studien.de">
+                    http://www.forum-transregionale-studien.de</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-    </section>
+      </div>
 
-    <section xml:lang="fr" title="Forum Transregionale Studien">
-        <div class="row">
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/trafo-placeholder-460.jpg"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:trafo%22">
+           </div>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="fr" title="Forum Transregionale Studien">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="de">
+        <img alt="TraFo-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/trafo-logo-460.jpg" />
+        <h1 class="pp-institute-graphic__headline">Forum Transregionale Studien</h1>
+        <img alt="Foto-TraFo" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/trafo-figure.jpg"
+          title="Forum Transregionale Studien" />
+      </div>
 
-            <div class="col-12 pp-institute-graphic" lang="de">
-                <img src="../../../images/logos/trafo-logo-460.jpg"
-                        class="pp-institute-graphic__logo"
-                        alt="TraFo-Logo" />
-                <h1 class="pp-institute-graphic__headline">
-                    Forum Transregionale Studien
-                </h1>
-                <img src="../../../images/institute-figures/trafo-figure.jpg"
-                        class="pp-institute-graphic__figure"
-                        alt="Foto-TraFo"
-                        title="Forum Transregionale Studien" />
-            </div>
+      <div class="col-12 pp-contact" lang="de">
+        <h2>Contact</h2>
 
-            <div class="col-12 pp-contact" lang="de">
-                <h2>Contact</h2>
-                <h3>Forum Transregionale Studien e.V.</h3>
-                <div class="pp-contact__list">
+        <h3>Forum Transregionale Studien e.V.</h3>
 
-                    <div class="pp-contact__item">
-                        Ansprechpartnerin: Dr. Stefanie Rentsch<br />
-                        Wallotstraße 14<br />
-                        14193 Berlin
-                    </div>
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">Ansprechpartner: Georges Khalil <br /> Wallotstraße 14<br />
+            14193 Berlin</div>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">Phone:</td>
-                            <td>+49 (0)30 89 001 - 430</td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Fax:</td>
-                            <td>+49 (0)30 89 001 - 440</td>
-                        </tr>
-                    </table>
+          <div class="pp-contact__item"> </div>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">E-Mail:</td>
-                            <td>
-                                <span class="madress">office [at] trafo-berlin.de</span><br/>
-                                <span class="madress">stefanie.rentsch [at] trafo-berlin.de</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Internet:</td>
-                            <td><a class="external-link" href="http://www.forum-transregionale-studien.de">http://www.forum-transregionale-studien.de</a></td>
-                        </tr>
-                    </table>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Phone:</td>
+                <td>+49 (0)30 89 001 - 430</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+49 (0)30 89 001 - 440</td>
+              </tr>
+            </tbody>
+          </table>
 
-                </div>
-            </div>
-
-            <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox"
-                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:trafo%22"
-                     data-defaultThumbnail="../../../images/placeholder/trafo-placeholder-460.jpg"> 
-                </div>
-            </div>
-
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>communication [at] trafo-berlin.de</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="http://www.forum-transregionale-studien.de">
+                    http://www.forum-transregionale-studien.de</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-    </section>
+      </div>
 
-    <section xml:lang="it" title="Forum Transregionale Studien">
-        <div class="row">
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/trafo-placeholder-460.jpg"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:trafo%22">
+           </div>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="it" title="Forum Transregionale Studien">
+    <div class="row">
+      <div class="col-12 pp-institute-graphic" lang="de">
+        <img alt="TraFo-Logo" class="pp-institute-graphic__logo"
+          src="../../../images/logos/trafo-logo-460.jpg" />
+        <h1 class="pp-institute-graphic__headline">Forum Transregionale Studien</h1>
+        <img alt="Foto-TraFo" class="pp-institute-graphic__figure"
+          src="../../../images/institutes/trafo-figure.jpg"
+          title="Forum Transregionale Studien" />
+      </div>
 
-            <div class="col-12 pp-institute-graphic" lang="de">
-                <img src="../../../images/logos/trafo-logo-460.jpg"
-                        class="pp-institute-graphic__logo"
-                        alt="TraFo-Logo" />
-                <h1 class="pp-institute-graphic__headline">
-                    Forum Transregionale Studien
-                </h1>
-                <img src="../../../images/institute-figures/trafo-figure.jpg"
-                        class="pp-institute-graphic__figure"
-                        alt="Foto-TraFo"
-                        title="Forum Transregionale Studien" />
-            </div>
+      <div class="col-12 pp-contact" lang="de">
+        <h2>Contact</h2>
 
-            <div class="col-12 pp-contact" lang="de">
-                <h2>Contact</h2>
-                <h3>Forum Transregionale Studien e.V.</h3>
-                <div class="pp-contact__list">
+        <h3>Forum Transregionale Studien e.V.</h3>
 
-                    <div class="pp-contact__item">
-                        Ansprechpartnerin: Dr. Stefanie Rentsch<br />
-                        Wallotstraße 14<br />
-                        14193 Berlin
-                    </div>
+        <div class="pp-contact__list">
+          <div class="pp-contact__item">Ansprechpartner: Georges Khalil <br /> Wallotstraße 14<br />
+            14193 Berlin</div>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">Phone:</td>
-                            <td>+49 (0)30 89 001 - 430</td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Fax:</td>
-                            <td>+49 (0)30 89 001 - 440</td>
-                        </tr>
-                    </table>
+          <div class="pp-contact__item"> </div>
 
-                    <table class="pp-contact__item">
-                        <tr>
-                            <td class="pp-contact__subitem">E-Mail:</td>
-                            <td>
-                                <span class="madress">office [at] trafo-berlin.de</span><br/>
-                                <span class="madress">stefanie.rentsch [at] trafo-berlin.de</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="pp-contact__subitem">Internet:</td>
-                            <td><a class="external-link" href="http://www.forum-transregionale-studien.de">http://www.forum-transregionale-studien.de</a></td>
-                        </tr>
-                    </table>
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Phone:</td>
+                <td>+49 (0)30 89 001 - 430</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Fax:</td>
+                <td>+49 (0)30 89 001 - 440</td>
+              </tr>
+            </tbody>
+          </table>
 
-                </div>
-            </div>
-
-            <div class="col-12 pp-publications">
-                <div class="solrsearch" data-classes="pp-sourcesBox"
-                     data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:trafo%22"
-                     data-defaultThumbnail="../../../images/placeholder/trafo-placeholder-460.jpg"> 
-                </div>
-            </div>
-
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">E-Mail:</td>
+                <td>communication [at] trafo-berlin.de</td>
+              </tr>
+              <tr>
+                <td class="pp-contact__subitem">Internet:</td>
+                <td>
+                  <a class="external-link" href="http://www.forum-transregionale-studien.de">
+                    http://www.forum-transregionale-studien.de</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-    </section>
+      </div>
 
-    <meta>
-        <log lastEditor="administrator" date="2018-20-06" time="14:00" />
-    </meta>
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/trafo-placeholder-460.jpg"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:trafo%22">
+           </div>
+      </div>
+    </div>
+  </section>
+  <meta>
+    <log lastEditor="mwiegel" date="2023-01-26" time="11:07" />
+  </meta>
 </MyCoReWebPage>
