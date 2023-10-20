@@ -8,8 +8,8 @@
     <xed:remove  ref="geographic.complex" />
     <xed:include ref="repper.geographic.complex" after="language" />
     <xed:remove  ref="sdnb.repeat" />
-    <xed:include ref="repper.ddc.repeat.required" after="cartographics" />
-    <xed:include ref="repper.epoch" after="cartographics" />
+    <xed:include ref="repper.ddc.repeat.required" after="cartographics.repeat" />
+    <xed:include ref="repper.epoch" after="cartographics.repeat" />
     <xed:remove  ref="institutes" />
     <xed:include ref="institutes.repeat" after="copyrightMD" />
     <xed:remove  ref="subject.complex" />
