@@ -235,32 +235,42 @@
               </xsl:call-template>
             <!-- </xsl:for-each>  -->
             <!-- added subject output for repper -->
-            <xsl:if test="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:temporal/@valueURI">
+            <xsl:if test="contains(mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:temporal/@valueURI, 'DDC_T1')">
               <tr>
                 <td class="metaname" valign="top">
                   <xsl:value-of select="i18n:translate('component.mods.metaData.dictionary.subjectTemporalClass')" />
                   <text>:</text>
                 </td>
                 <td class="metavalue">
-                  <xsl:value-of select="document(concat('classification:metadata:0:children:DDC_T1:', substring-after(mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:temporal/@valueURI,'#')))//category/label[@xml:lang=$CurrentLang]/@text"/>
+                  <xsl:for-each select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:temporal[contains(@valueURI, 'DDC_T1')]">
+                    <xsl:if test="position()!=1">
+                      <br />
+                    </xsl:if>
+                    <xsl:value-of select="document(concat('classification:metadata:0:children:DDC_T1:', substring-after(@valueURI,'#')))//category/label[@xml:lang=$CurrentLang]/@text"/>
+                  </xsl:for-each>
                 </td>
               </tr>
             </xsl:if>
             <xsl:call-template name="printMetaDate.mods">
-              <xsl:with-param name="nodes" select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:temporal[text()]" />
+              <xsl:with-param name="nodes" select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:temporal[not(@valueURI)][text()]" />
               <xsl:with-param name="label" select="i18n:translate('component.mods.metaData.dictionary.subjectTemporal')" />
             </xsl:call-template>
             <xsl:call-template name="printMetaDate.mods">
-              <xsl:with-param name="nodes" select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:geographic" />
+              <xsl:with-param name="nodes" select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:geographic[not(contains(@valueURI, 'DDC_T2'))]" />
             </xsl:call-template>
-            <xsl:if test="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:geographic/@valueURI">
+            <xsl:if test="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:geographic[contains(@valueURI, 'DDC_T2')]">
               <tr>
                 <td class="metaname" valign="top">
                   <xsl:value-of select="i18n:translate('component.mods.metaData.dictionary.subjectGeographicClass')" />
                   <text>:</text>
                 </td>
                 <td class="metavalue">
-                  <xsl:value-of select="document(concat('classification:metadata:0:children:DDC_T2:', substring-after(mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:geographic/@valueURI,'#')))//category/label[@xml:lang=$CurrentLang]/@text"/>
+                  <xsl:for-each select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:geographic[contains(@valueURI, 'DDC_T2')]">
+                    <xsl:if test="position()!=1">
+                      <br />
+                    </xsl:if>
+                    <xsl:value-of select="document(concat('classification:metadata:0:children:DDC_T2:', substring-after(@valueURI,'#')))//category/label[@xml:lang=$CurrentLang]/@text"/>
+                  </xsl:for-each>
                 </td>
               </tr>
             </xsl:if>
