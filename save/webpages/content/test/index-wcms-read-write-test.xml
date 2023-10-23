@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage>
+
+  <!-- readme -->
+
+  <section xml:lang="all" title="ReadMe">
+    <div class="cms-page__base">
+      <p>
+        The content was separated from layout. You just edit small texts now,
+        but you will no longer see completly what you will get.
+        In this way we get the wcms working again for you.
+        Please feel free to adust the texts.
+        We will try to name the small sections clearly, so you will
+        know what you are editing currently.
+      </p>
+      <p>
+         Please do not delete this "read me" section and
+         do not rename the other sections.
+         Both are essential working bases.
+         It is also important to keep the html structure of the content.
+         At best you only edit existing texts without adding or removing whole
+         elements, like headlines or paragraphs.
+      </p>
+      <p>
+        Good luck :P
+      </p>
+    </div>
+  </section>
+
+  <!-- intro -->
+
+  <section xml:lang="de" title="Intro">
+    <div class="cms-intro">
+        <h1>Freier Zugang</h1>
+        <h2>zu Wissen</h2>
+        <p>
+          Die digitale Publikationsplattform perspectivia.net ist ein internationales,
+          epochenübergreifendes und interdisziplinäres Portal für geisteswissenschaftliche
+          Publikationen. Als Teil der Forschungsinfrastruktur der <a
+            href="https://www.maxweberstiftung.de/">Max Weber Stiftung - Deutsche
+          Geisteswissenschaftliche Institute im Ausland</a> werden hier von den Instituten und ihren
+          Kooperationspartnern herausgegebene Publikationen und Forschungsdaten frei zugänglich
+          gemacht. Die Max Weber Stiftung ist den Prinzipien des Open Access verpflichtet und
+          begleitet die Transformation der Geisteswissenschaften in Richtung einer offenen
+          Wissenschaft.
+        </p>
+    </div>
+  </section>
+
+  <section xml:lang="en" title="Intro">
+    <div class="cms-intro">
+        <h1>Free access</h1>
+        <h2>to knowledge</h2>
+        <p>
+          The publication platform perspectivia.net sees itself as an international, epoch-spanning
+          and interdisciplinary portal for digital publications in the humanities. This infrastructure
+          of the <a href="https://www.maxweberstiftung.de/en">Max Weber Foundation - German Humanities
+          Institutes Abroad</a> provides free access to publications by the institutes and their
+          cooperation partners. This Max Weber Foundation is committed to the principles of Open
+          Access, thus perspectivia.net promotes free access to knowledge and accompanies the
+          transformation of the humanities towards an open science.
+        </p>
+    </div>
+  </section>
+
+  <section xml:lang="fr" title="Intro">
+    <div class="cms-intro">
+        <h1>Libre accès</h1>
+        <h2>au savoir</h2>
+        <p>
+          La plateforme de publication électronique perspectivia.net se veut un portail
+          international, interdisciplinaire et historique pour les publications en sciences humaines.
+          L'infrastructure de la Fondation <a href="https://www.maxweberstiftung.de/fr">Max Weber -
+          Instituts allemands de sciences humaines à l'étranger</a> - rend ainsi les publications des
+          différents instituts et de leurs partenaires librement accessibles en ligne. La Fondation
+          Max Weber s'engage à respecter les principes de l’Open Acces et perspectivia.net promeut le
+          libre accès au savoir et accompagne l’évolution des sciences humaines vers une science
+          ouverte.
+        </p>
+    </div>
+  </section>
+
+  <!-- news -->
+
+  <section xml:lang="de" title="News-SLot-One">
+    <div class="cms-news">
+      <h1>Francia Recensio 2023/3</h1>
+      <h2>04.10.2023</h2>
+      <p>Die aktuelle Ausgabe enthält 101 Rezensionen aus den Bereichen Mittelalter, Frühe Neuzeit sowie Neuere und Neueste Geschichte.</p>
+      <a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/6755">Mehr</a>
+    </div>
+  </section>
+
+  <section xml:lang="de" title="News-SLot-Two">
+    <div class="cms-news">
+      <h1>Beirat</h1>
+      <h2>01.07.2023</h2>
+      <p>perspectivia.net hat einen neuen Beirat.</p>
+      <a href="about/beirat.xml">Mehr</a>
+    </div>
+  </section>
+
+  <section xml:lang="de" title="News-SLot-Three">
+    <div class="cms-news">
+      <h1>Zum Dreißigsten</h1>
+      <h2>20.06.2023</h2>
+      <p>In diesen Tagen feiert das DHI Warschau sein 30-jähriges Bestehen.</p>
+      <a href="https://www.dhi.waw.pl/aktuelle-meldungen/detail/zum-dreissigsten/">Mehr</a>
+    </div>
+  </section>
+
+  <section xml:lang="de" title="News-SLot-Four">
+    <div class="cms-news">
+      <h1>Gallia Pontificia</h1>
+      <h2>16.06.2023</h2>
+      <p>Papstregesten für die Erzbischöfe von Reims online verfügbar</p>
+      <a href="https://qed.perspectivia.net/gallia-pontificia-online/">Mehr</a>
+    </div>
+  </section>
+
+  <!-- links -->
+
+  <!-- link one -->
+  <section xml:lang="de" title="Link-Tile-One">
+    <div class="cms-tiles">
+      <h1>Publikationen</h1>
+      <p>Volltexte der digitalen Erst- und Zweitveröffentlichungen in perspectivia.net</p>
+      <a href="../../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=search%2Fsimple_intern.xed">Link</a>
+    </div>
+  </section>
+
+  <section xml:lang="en" title="Link-Tile-One">
+    <div class="cms-tiles">
+      <h1>Publications</h1>
+      <p>Initial digital publications and secondary publications in perspectivia.net</p>
+      <a href="../../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=search%2Fsimple_intern.xed">Link</a>
+    </div>
+  </section>
+
+  <section xml:lang="fr" title="Link-Tile-One">
+    <div class="cms-tiles">
+      <h1>Publications</h1>
+      <p>Publications numériques originales et rééditées dans perspectivia.net</p>
+      <a href="../../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=search%2Fsimple_intern.xed">Link</a>
+    </div>
+  </section>
+
+    <!-- link two -->
+  <section xml:lang="de" title="Link-Tile-Two">
+    <div class="cms-tiles">
+      <h1>Quellen und Datenbanken</h1>
+      <p>Digitalisierte Quellensammlungen, historische Datenbestände und kritische Editionen</p>
+      <a href="../../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=20&amp;rows=20">Link</a>
+    </div>
+  </section>
+
+  <section xml:lang="en" title="Link-Tile-Two">
+    <div class="cms-tiles">
+      <h1>Sources and databases</h1>
+      <p>Digitised source collections, historical datasets and critical editions</p>
+      <a href="../../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=20&amp;rows=20">Link</a>
+    </div>
+  </section>
+
+  <section xml:lang="fr" title="Link-Tile-Two">
+    <div class="cms-tiles">
+      <h1>Sources et bases de données</h1>
+      <p>Collections de sources numérisées, bases de données historiques et éditions critiques</p>
+      <a href="../../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=20&amp;rows=20">Link</a>
+    </div>
+  </section>
+
+    <!-- link three -->
+  <section xml:lang="de" title="Link-Tile-Three">
+    <div class="cms-tiles">
+      <h1>Blogs</h1>
+      <p>Wissen in Verbindung - Weber 2.0 ist das Portal für
+        wissenschaftliche Blogs der Max Weber Stiftung,
+        ihrer Institute und Partner</p>
+      <a href="https://mws.hypotheses.org/">Link</a>
+    </div>
+  </section>
+
+  <section xml:lang="en" title="Link-Tile-Three">
+    <div class="cms-tiles">
+      <h1>Blogs</h1>
+      <p>Wissen in Verbindung - Weber 2.0 is the portal
+        for academic blogs of the Max Weber Foundation,
+        its institutes and partners</p>
+      <a href="https://mws.hypotheses.org/">Link</a>
+    </div>
+  </section>
+
+  <section xml:lang="fr" title="Link-Tile-Three">
+    <div class="cms-tiles">
+      <h1>Blogs</h1>
+      <p>Wissen in Verbindung - Weber 2.0 est le portail
+        des blogs scientifiques de la Fondation Max-Weber,
+        de ses instituts et de ses partenaires</p>
+      <a href="https://mws.hypotheses.org/">Link</a>
+    </div>
+  </section>
+
+    <!-- link four -->
+  <section xml:lang="de" title="Link-Tile-Four">
+    <div class="cms-tiles">
+      <h1>Forschungsdaten</h1>
+      <p>Seit 2023 werden Forschungsdaten in perspevivia.net verzeichnet</p>
+      <a href="../../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aresearch_data%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed">Link</a>
+    </div>
+  </section>
+
+  <section xml:lang="en" title="Link-Tile-Four">
+    <div class="cms-tiles">
+      <h1>Sources and databases</h1>
+      <p>In 2023 perspectivia.net started collecting research data</p>
+      <a href="../../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aresearch_data%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed">Link</a>
+    </div>
+  </section>
+
+  <section xml:lang="fr" title="Link-Tile-Four">
+    <div class="cms-tiles">
+      <h1>Données de recherche</h1>
+      <p>Depuis 2023, perspectivia.net collecte des données de recherche</p>
+      <a href="../../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aresearch_data%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed">Link</a>
+    </div>
+  </section>
+
+    <!-- link five -->
+  <section xml:lang="de" title="Link-Tile-Five">
+    <div class="cms-tiles">
+      <h1>Kooperationspartner</h1>
+      <p>Die MWS kooperiert u.a. mit den
+        DFG-Fachinformationsdiensten (FIDs) und überregional
+        tätigen Kompetenzzentren</p>
+      <a href="../about/partner.xml">Link</a>
+    </div>
+  </section>
+
+  <section xml:lang="en" title="Link-Tile-Five">
+    <div class="cms-tiles">
+      <h1>Cooperation partners</h1>
+      <p>The MWS cooperates in particular with the DFG's specialist
+        information services (FIDs) and supra-regionally active
+        competence centres</p>
+      <a href="../about/partner.xml">Link</a>
+    </div>
+  </section>
+
+  <section xml:lang="fr" title="Link-Tile-Five">
+    <div class="cms-tiles">
+      <h1>Coopérations</h1>
+      <p>La MWS coopère en entre autres avec les services
+        d'information spécialisés (FID) de la Deutsche
+        Forschungsgemeinschaft (DFG) et des centres de
+        compétence actifs au niveau suprarégional</p>
+      <a href="../about/partner.xml">Link</a>
+    </div>
+  </section>
+
+  <!-- link six -->
+  <section xml:lang="de" title="Link-Tile-Six">
+    <div class="cms-tiles">
+      <h1>Podcast</h1>
+      <p>Wissen entgrenzen - Der Podcast der Max Weber Stiftung</p>
+      <a href="https://www.maxweberstiftung.de/podcast.html">Link</a>
+    </div>
+  </section>
+
+  <section xml:lang="en" title="Link-Tile-Six">
+    <div class="cms-tiles">
+      <h1>Podcast</h1>
+      <p>Wissen entgrenzen - The Max Weber Foundation Podcast</p>
+      <a href="https://www.maxweberstiftung.de/podcast.html">Link</a>
+    </div>
+  </section>
+
+  <section xml:lang="fr" title="Link-Tile-Six">
+    <div class="cms-tiles">
+      <h1>Podcast</h1>
+      <p>Wissen entgrenzen - The Max Weber Foundation Podcast</p>
+      <a href="https://www.maxweberstiftung.de/podcast.html">Link</a>
+    </div>
+  </section>
+
+  <!-- admin -->
+  <meta>
+    <log lastEditor="administrator" date="2023-10-05" time="14:35" />
+  </meta>
+</MyCoReWebPage>

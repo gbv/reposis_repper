@@ -10,6 +10,16 @@
             <label xml:lang="fr">Depart</label>
         </item>
     </menu>
+    <menu id="test" dir="/content/test">
+        <label xml:lang="de">Testmenü</label>
+        <label xml:lang="en">Test menu </label>
+        <label xml:lang="fr">Test menu</label>
+        <item href="/content/test/index-wcms-read-write-test.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Test</label>
+            <label xml:lang="en">Test</label>
+            <label xml:lang="fr">Test</label>
+        </item>
+    </menu>
     <menu id="below" dir="/content/below">
         <label xml:lang="de">Fußzeile</label>
         <label xml:lang="en">Footer</label>
@@ -270,9 +280,9 @@
             <label xml:lang="fr">Conditions contractuelles</label>
         </item>
         <item href="/content/about/services.xml" replaceMenu="false" constrainPopUp="false">
-          <label xml:lang="de">Services für Forschende der MWS</label>
-          <label xml:lang="en">Services for researchers of the MWS</label>
-          <label xml:lang="fr">Services pour les chercheurs de la MWS</label>
+            <label xml:lang="de">Services für Forschende der MWS</label>
+            <label xml:lang="en">Services for researchers of the MWS</label>
+            <label xml:lang="fr">Services pour les chercheurs de la MWS</label>
         </item>
     </menu>
     <menu id="user">
