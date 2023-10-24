@@ -2,28 +2,52 @@
 <MyCoReWebPage>
 
   <!-- readme -->
-
   <section xml:lang="all" title="ReadMe">
     <div class="cms-page__base">
       <p>
-        The content was separated from layout. You just edit small texts now,
-        but you will no longer see completly what you will get.
-        In this way we get the wcms working again for you.
-        Please feel free to adust the texts.
-        We will try to name the small sections clearly, so you will
-        know what you are editing currently.
+        The content was separated from layout. You just edit small texts now, but you will no longer
+        see completly what you will get. In this way we get the wcms working again for you. Please
+        feel free to adust the texts. We will try to name the small sections clearly, so you will know
+        what you are editing currently.
       </p>
+
+      <p>Please:</p>
+
+      <ul>
+        <li>do not delete this "read me" section</li>
+        <li>and do not rename the other sections.</li>
+      </ul>
+
       <p>
-         Please do not delete this "read me" section and
-         do not rename the other sections.
-         Both are essential working bases.
-         It is also important to keep the html structure of the content.
-         At best you only edit existing texts without adding or removing whole
-         elements, like headlines or paragraphs.
+        Both are essential working bases. There is only one exception. When you like to keep a
+        content block, but want to move it, then you can rename the blocks you like to switch. For
+        example: If you want to move the news from position three to position one, you only need to
+        rename the section title:
       </p>
+
+      <ol>
+        <li>News-SLot-One to News-SLot-xxx</li>
+        <li>News-SLot-Three to News-SLot-One</li>
+        <li>News-SLot-xxx to News-SLot-Three</li>
+      </ol>
+
       <p>
-        Good luck :P
+        In this way you dont get confused which slot you have to rename, when you have 6
+        News-SLot-One. Of couse you have to do it for all languages.
       </p>
+
+      <p>It is also important to:</p>
+
+      <ul>
+        <li>keep the html structure of the content.</li>
+      </ul>
+
+      <p>
+        At best you only edit existing texts without adding or removing whole elements, like
+        headlines or paragraphs.
+      </p>
+
+      <p>Good luck :P</p>
     </div>
   </section>
 
@@ -145,7 +169,7 @@
     </div>
   </section>
 
-    <!-- link two -->
+  <!-- link two -->
   <section xml:lang="de" title="Link-Tile-Two">
     <div class="cms-tiles">
       <h1>Quellen und Datenbanken</h1>
@@ -170,7 +194,7 @@
     </div>
   </section>
 
-    <!-- link three -->
+  <!-- link three -->
   <section xml:lang="de" title="Link-Tile-Three">
     <div class="cms-tiles">
       <h1>Blogs</h1>
@@ -201,7 +225,7 @@
     </div>
   </section>
 
-    <!-- link four -->
+  <!-- link four -->
   <section xml:lang="de" title="Link-Tile-Four">
     <div class="cms-tiles">
       <h1>Forschungsdaten</h1>
@@ -226,7 +250,7 @@
     </div>
   </section>
 
-    <!-- link five -->
+  <!-- link five -->
   <section xml:lang="de" title="Link-Tile-Five">
     <div class="cms-tiles">
       <h1>Kooperationspartner</h1>
