@@ -115,7 +115,43 @@
     </div>
   </section>
 
+  <section xml:lang="en" title="News-SLot-One">
+    <div class="cms-news">
+      <h1>Francia Recensio 2023/3</h1>
+      <h2>04.10.2023</h2>
+      <p>Die aktuelle Ausgabe enthält 101 Rezensionen aus den Bereichen Mittelalter, Frühe Neuzeit sowie Neuere und Neueste Geschichte.</p>
+      <a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/6755">Mehr</a>
+    </div>
+  </section>
+
+  <section xml:lang="fr" title="News-SLot-One">
+    <div class="cms-news">
+      <h1>Francia Recensio 2023/3</h1>
+      <h2>04.10.2023</h2>
+      <p>Die aktuelle Ausgabe enthält 101 Rezensionen aus den Bereichen Mittelalter, Frühe Neuzeit sowie Neuere und Neueste Geschichte.</p>
+      <a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/6755">Mehr</a>
+    </div>
+  </section>
+
   <section xml:lang="de" title="News-SLot-Two">
+    <div class="cms-news">
+      <h1>Beirat</h1>
+      <h2>01.07.2023</h2>
+      <p>perspectivia.net hat einen neuen Beirat.</p>
+      <a href="about/beirat.xml">Mehr</a>
+    </div>
+  </section>
+
+  <section xml:lang="en" title="News-SLot-Two">
+    <div class="cms-news">
+      <h1>Beirat</h1>
+      <h2>01.07.2023</h2>
+      <p>perspectivia.net hat einen neuen Beirat.</p>
+      <a href="about/beirat.xml">Mehr</a>
+    </div>
+  </section>
+
+  <section xml:lang="fr" title="News-SLot-Two">
     <div class="cms-news">
       <h1>Beirat</h1>
       <h2>01.07.2023</h2>
@@ -133,6 +169,24 @@
     </div>
   </section>
 
+  <section xml:lang="en" title="News-SLot-Three">
+    <div class="cms-news">
+      <h1>Zum Dreißigsten</h1>
+      <h2>20.06.2023</h2>
+      <p>In diesen Tagen feiert das DHI Warschau sein 30-jähriges Bestehen.</p>
+      <a href="https://www.dhi.waw.pl/aktuelle-meldungen/detail/zum-dreissigsten/">Mehr</a>
+    </div>
+  </section>
+
+  <section xml:lang="fr" title="News-SLot-Three">
+    <div class="cms-news">
+      <h1>Zum Dreißigsten</h1>
+      <h2>20.06.2023</h2>
+      <p>In diesen Tagen feiert das DHI Warschau sein 30-jähriges Bestehen.</p>
+      <a href="https://www.dhi.waw.pl/aktuelle-meldungen/detail/zum-dreissigsten/">Mehr</a>
+    </div>
+  </section>
+
   <section xml:lang="de" title="News-SLot-Four">
     <div class="cms-news">
       <h1>Gallia Pontificia</h1>
@@ -142,6 +196,23 @@
     </div>
   </section>
 
+  <section xml:lang="en" title="News-SLot-Four">
+    <div class="cms-news">
+      <h1>Gallia Pontificia</h1>
+      <h2>16.06.2023</h2>
+      <p>Papstregesten für die Erzbischöfe von Reims online verfügbar</p>
+      <a href="https://qed.perspectivia.net/gallia-pontificia-online/">Mehr</a>
+    </div>
+  </section>
+
+  <section xml:lang="fr" title="News-SLot-Four">
+    <div class="cms-news">
+      <h1>Gallia Pontificia</h1>
+      <h2>16.06.2023</h2>
+      <p>Papstregesten für die Erzbischöfe von Reims online verfügbar</p>
+      <a href="https://qed.perspectivia.net/gallia-pontificia-online/">Mehr</a>
+    </div>
+  </section>
   <!-- links -->
 
   <!-- link one -->
