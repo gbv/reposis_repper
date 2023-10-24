@@ -49,7 +49,9 @@
                 </div>
               </div>
               <div class="intro-text">
-                <xsl:value-of select="$introContent/p" />
+                <p>
+                  <xsl:value-of select="$introContent/p" />
+                </p>
               </div>
               <div class="decoration">
                 <img
@@ -372,14 +374,13 @@
     </div>
 
     <!-- institutions -->
+    <!-- TODO: make this genric by elements from wcms -->
     <div class="page-section page-section__institutions">
       <div class="container">
         <div class="row">
           <div class="col">
             <h2 class="">
-              <i18n:de>Herausgebende Institutionen</i18n:de>
-              <i18n:en>Publishing institutions</i18n:en>
-              <i18n:fr>Institutions qui publient sur perspectivia.net</i18n:fr>
+              <xsl:value-of select="i18n:translate('pp.page.home.institutions')" disable-output-escaping="yes" />
             </h2>
             <div
               class="carousel slide carousel-institutes"
@@ -417,7 +418,7 @@
                             src="{$WebApplicationBaseURL}images/institutes/dfk-louvre.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Deutsches Forum für Kunstgeschichte Paris (DFK)
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.dfk')" disable-output-escaping="yes" />
                         </div>
                       </a>
                     </div>
@@ -437,7 +438,7 @@
                             src="{$WebApplicationBaseURL}images/institutes/dhi-london-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Deutsches Historisches Institut London (GHIL)
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.ghil')" disable-output-escaping="yes" />
                         </div>
                       </a>
                     </div>
@@ -457,7 +458,7 @@
                             src="{$WebApplicationBaseURL}images/institutes/dhi-moskau-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Deutsches Historisches Institut Moskau (DHI)
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.dhim')" disable-output-escaping="yes" />
                         </div>
                       </a>
                     </div>
@@ -477,7 +478,7 @@
                             src="{$WebApplicationBaseURL}images/institutes/dhi-paris-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Deutsches Historisches Institut Paris (DHI)
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.dhip')" disable-output-escaping="yes" />
                         </div>
                       </a>
                     </div>
@@ -503,7 +504,7 @@
                             src="{$WebApplicationBaseURL}images/institutes/dhi-rom-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Deutsches Historisches Institut Rom (DHI)
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.dhir')" disable-output-escaping="yes" />
                         </div>
                       </a>
                     </div>
@@ -523,7 +524,7 @@
                             src="{$WebApplicationBaseURL}images/institutes/dhi-warschau-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Deutsches Historisches Institut Warschau (DHI)
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.dhiw')" disable-output-escaping="yes" />
                         </div>
                       </a>
                     </div>
@@ -543,7 +544,7 @@
                             src="{$WebApplicationBaseURL}images/institutes/dhi-washington-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Deutsches Historisches Institut Washington (DHI)
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.dhidc')" disable-output-escaping="yes" />
                         </div>
                       </a>
                     </div>
@@ -563,7 +564,7 @@
                             src="{$WebApplicationBaseURL}images/institutes/dij-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Deutsches Institut für Japanstudien Tokio (DIJ)
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.dij')" disable-output-escaping="yes" />
                         </div>
                       </a>
                     </div>
@@ -589,7 +590,7 @@
                             src="{$WebApplicationBaseURL}images/institutes/oib-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Orient-Institut Beirut (OIB)
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.oib')" disable-output-escaping="yes" />
                         </div>
                       </a>
                     </div>
@@ -609,7 +610,7 @@
                             src="{$WebApplicationBaseURL}images/institutes/oii-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Orient-Institut Istanbul (OII)
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.oii')" disable-output-escaping="yes" />
                         </div>
                       </a>
                     </div>
@@ -629,7 +630,7 @@
                             src="{$WebApplicationBaseURL}images/institutes/mwf-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Max Weber Forum für Südasienstudien Delhi (MWF)
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.mwf')" disable-output-escaping="yes" />
                         </div>
                       </a>
                     </div>
@@ -649,8 +650,7 @@
                             src="{$WebApplicationBaseURL}images/institutes/mws-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Max Weber Stiftung –
-                          Deutsche Geisteswissenschaftliche Institute im Ausland
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.mws')" disable-output-escaping="yes" />
                         </div>
                       </a>
                     </div>
@@ -676,7 +676,7 @@
                             src="{$WebApplicationBaseURL}images/institutes/adef-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Arbeitskreis Großbritannien-Forschung (AGF)
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.agf')" disable-output-escaping="yes" />
                         </div>
                       </a>
                     </div>
@@ -696,7 +696,7 @@
                             src="{$WebApplicationBaseURL}images/institutes/trafo-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Forum Transregionale Studien (TRAFO)
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.trafo')" disable-output-escaping="yes" />
                         </div>
                       </a>
                     </div>
@@ -716,7 +716,7 @@
                             src="{$WebApplicationBaseURL}images/institutes/spsg-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg (SPSG)
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.spsg')" disable-output-escaping="yes" />
                         </div>
                       </a>
                     </div>
@@ -736,7 +736,7 @@
                             src="{$WebApplicationBaseURL}images/institutes/ieg-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Leibniz-Institut für Europäische Geschichte (IEG)
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.ieg')" disable-output-escaping="yes" />
                         </div>
                       </a>
                     </div>
@@ -762,7 +762,7 @@
                             src="{$WebApplicationBaseURL}images/institutes/dzk-figure.jpg" />
                         </div>
                         <div class="slider-institute-title">
-                          Deutsches Zentrum Kulturgutverluste
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.dzk')" disable-output-escaping="yes" />
                         </div>
                       </a>
                     </div>
@@ -775,27 +775,21 @@
                 data-slide="prev">
                 <i class="fas fa-chevron-left"></i>
                 <span class="sr-only">
-                  <i18n:de>Vorherige</i18n:de>
-                  <i18n:en>Previous</i18n:en>
-                  <i18n:fr>Précédent</i18n:fr>
+                  <xsl:value-of select="i18n:translate('pp.page.home.slider.institutes.previous')" disable-output-escaping="yes" />
                 </span>
               </a>
               <a class="carousel-control-next" href="#carousel-institutes" role="button"
                 data-slide="next">
                 <i class="fas fa-chevron-right"></i>
                 <span class="sr-only">
-                  <i18n:de>Nächste</i18n:de>
-                  <i18n:en>Next</i18n:en>
-                  <i18n:fr>Prochain</i18n:fr>
+                  <xsl:value-of select="i18n:translate('pp.page.home.slider.institutes.next')" disable-output-escaping="yes" />
                 </span>
               </a>
             </div>
             <div class="text-center show-all-institutions-box">
               <a href="#" class="btn btn-primary js-show-all-institutions pp-rounded">
-                <i18n:de>Zeige alle Institutionen </i18n:de>
-                <i18n:en>Show all institutions </i18n:en>
-                <i18n:fr>Afficher toutes les institutions </i18n:fr>
-                <i class="fas fa-chevron-right"></i>
+                <xsl:value-of select="i18n:translate('pp.page.home.slider.institutes.show')" disable-output-escaping="yes" />
+                <i class="fas fa-chevron-right ml-2"></i>
               </a>
             </div>
           </div>
@@ -809,9 +803,7 @@
         <div class="row ">
           <div class="col-12" lang="de">
             <h2>
-              <i18n:de>Ausgewählte Publikationen</i18n:de>
-              <i18n:en>Selected Publications</i18n:en>
-              <i18n:fr>Sélection de publications</i18n:fr>
+              <xsl:value-of select="i18n:translate('pp.page.home.publications')" disable-output-escaping="yes" />
             </h2>
             <div class="pp_carousel-slide" />
           </div>
