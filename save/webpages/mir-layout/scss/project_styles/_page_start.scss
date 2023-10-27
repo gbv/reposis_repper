@@ -271,7 +271,7 @@
       margin-bottom: 1.5rem;
     }
     &__text {
-      font-size: 1rem;
+      font-size: 1.125rem;
       line-height: unset;
     }
   }
@@ -439,6 +439,22 @@
         flex-basis: 15%;
       }
     }
+    .p-tiles {
+      .p-tile {
+        &__text {
+          font-size: 1rem;
+          line-height: auto;
+          line-height: unset;
+        }
+        &__arrow {
+          width: 20px;
+        }
+        &__headline {
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+        }
+      }
+    }
   }
 }
 
@@ -492,6 +508,11 @@
         flex-basis: 10%;
       }
     }
+    .p-tiles {
+      .p-tile {
+        flex-basis: 45%;
+      }
+    }
   }
 }
 
@@ -514,11 +535,6 @@
       justify-content: space-between;
       &__item {
         flex-basis: 33%;
-      }
-    }
-    .p-tiles {
-      .p-tile {
-        flex-basis: 45%;
       }
     }
     .p-statistics {
@@ -563,6 +579,12 @@
         font-size: 2rem !important;
       }
     }
+    .p-tiles {
+      justify-content: center;
+      .p-tile {
+        flex-basis: 350px;
+      }
+    }
   }
 
 }
@@ -596,7 +618,7 @@
     .p-tiles {
       justify-content: center;
       .p-tile {
-        flex-basis: 90%;
+        flex-basis: 300px;
       }
     }
     .p-statistics {

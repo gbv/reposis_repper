@@ -6,6 +6,10 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+.btn-primary:hover,
+#basket .btn-csl-export:hover {
+  background-color: $p-orange;
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

@@ -85,6 +85,8 @@ $border-radius: 0;
 $border-radius-lg: 0;
 $border-radius-sm: 0;
 
+$btn-border-width: 0;
+
 $input-focus-border-color: $p-petrol;
 $dropdown-border-radius: 0;
 
@@ -108,3 +110,23 @@ $container-max-widths: (
 $theme-colors: (
   "pink": $p-pink
 );
+
+// Pagination
+$pagination-padding-y:              .5rem;
+$pagination-padding-x:              .75rem;
+$pagination-padding-y-sm:           .5rem;
+$pagination-padding-x-sm:           .75rem;
+$pagination-padding-y-lg:           .75rem;
+$pagination-padding-x-lg:           1.5rem;
+$pagination-line-height:            1.25;
+$pagination-color:                  $link-color;
+$pagination-bg:                     white;
+$pagination-border-width:           0;
+$pagination-focus-box-shadow:       none;
+$pagination-focus-outline:          0;
+$pagination-hover-color:            white;
+$pagination-hover-bg:               $p-orange;
+$pagination-active-color:           white;
+$pagination-active-bg:              $p-petrol;
+$pagination-disabled-color:         $p-gray;
+$pagination-disabled-bg:            white;

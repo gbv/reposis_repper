@@ -108,35 +108,47 @@ a.readmore {
     padding-top:0.5rem;
     padding-bottom: 0.5rem;
     transition: 0.5s ease;
+    opacity: 1;
     &:hover {
       &:after {
-        background-color: $success;
-        opacity: 0.6;
+        background-color: $p-orange;
+        border: 1px solid $p-orange;
+        opacity: 1;
       }
     }
     &:after {
       content: "";
-      border: 1px solid $success;
+      border: 1px solid $p-petrol;
       display: block;
       width: 2rem;
       height: 0.5rem;
     }
     &.active {
       &:after {
-        background-color: $success;
+        background-color: $p-petrol;
+      }
+      &:hover {
+        &:after {
+          border: 1px solid $p-petrol;
+        }
       }
     }
   }
 }
 .carousel-control-prev,
+.carousel-control-next {
+  bottom: unset;
+  padding: 0 0 2rem 0;
+}
+.carousel-control-prev,
 .carousel-control-next,
 .carousel-control-prev:focus,
 .carousel-control-next:focus {
+  font-size: 2rem;
   width: 5rem;
   color: $p-petrol;
   background-color: transparent;
   opacity: 1;
-  transition: 0.5s ease;
   align-items: flex-start;
   i {
     margin-top: .5rem;
@@ -145,9 +157,7 @@ a.readmore {
 }
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
-  color: white;
-  background-color: $p-petrol;
-  opacity: .5;
+  color: $p-orange;
 }
 .carousel-inner {
   padding-top: 5rem;
@@ -259,12 +269,8 @@ a.readmore {
 .back-to-top {
   color: $p-petrol;
   &:hover {
-    color: lighten($p-petrol,7.5%);
+    color: $p-orange;
   }
-}
-
-.btn-primary:hover, #basket .btn-csl-export:hover {
-  background-color: lighten($p-petrol,7.5%);
 }
 
 .pp-rounded {
