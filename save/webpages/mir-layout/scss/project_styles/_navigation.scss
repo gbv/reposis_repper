@@ -169,6 +169,19 @@
   }
 }
 
+.pagination_box {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+.pagination-sm .page-link {
+  font-size: 1rem;
+}
+// overwrite mir
+.pagination {
+  a {
+    color: $link-color;
+  }
+}
 
 
 

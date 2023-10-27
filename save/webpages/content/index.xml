@@ -144,7 +144,7 @@
     <div class="page-section page-section__links">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col col-lg-10 offset-lg-1 col-xl-12 offset-xl-0 col-xxl-10 offset-xxl-1">
             <h2 class="d-none">Links</h2>
 
             <div class="p-tiles">
