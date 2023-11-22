@@ -29,40 +29,49 @@
       </xsl:choose>
     </xsl:variable>
 
-    <h3>
-      <xsl:value-of select="i18n:translate('mir.publication_selection')" /> <!-- Auswahl
-      Publikationsreihen -->
-    </h3>
-    <div
-      class="row {$classes}">
-      <xsl:for-each select="exslt:node-set($searchResult)//doc">
-        <xsl:variable name="id" select="str[@name='id']/text()" />
-      <xsl:variable name="mcrobject"
-          select="document(concat('mcrobject:', $id))" />
-        <div class="col-xs-4 col-md-2">
-          <xsl:call-template name="displayPreviewIMG">
-            <xsl:with-param name="derobject"
-              select="$mcrobject/mycoreobject/structure/derobjects/derobject[classification[@classid='derivate_types'][@categid='thumbnail']]" />
-            <xsl:with-param name="defaultThumbnail" select="$thumbnail" />
-            <xsl:with-param name="id" select="$id" />
-          </xsl:call-template>
-        </div>
-        <div
-          class="col-xs-8 col-md-4">
-          <a class="external-link" href="{$WebApplicationBaseURL}receive/{$id}">
-            <xsl:value-of select="./str[@name='mods.title.main']" />
-            <xsl:if test="./str[@name='mods.title.subtitle']">
-              <xsl:value-of select="concat(' : ', ./str[@name='mods.title.subtitle'])" />
+    <xsl:if test="$searchResult//result/@numFound!=0">
+      <h3>
+        <xsl:choose>
+          <xsl:when test="contains($parameters, 'NOT%20(mods.genre%3Asource_edition)')">
+            <xsl:value-of select="i18n:translate('mir.publication_selection')" /> <!-- Auswahl Publikationsreihen -->
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="i18n:translate('mir.source_editions')" /> <!-- Digitale Quelleneditionen -->
+          </xsl:otherwise>
+        </xsl:choose>
+        
+      </h3>
+      <div
+        class="row {$classes}">
+        <xsl:for-each select="exslt:node-set($searchResult)//doc">
+          <xsl:variable name="id" select="str[@name='id']/text()" />
+        <xsl:variable name="mcrobject"
+            select="document(concat('mcrobject:', $id))" />
+          <div class="col-xs-4 col-md-2">
+            <xsl:call-template name="displayPreviewIMG">
+              <xsl:with-param name="derobject"
+                select="$mcrobject/mycoreobject/structure/derobjects/derobject[classification[@classid='derivate_types'][@categid='thumbnail']]" />
+              <xsl:with-param name="defaultThumbnail" select="$thumbnail" />
+              <xsl:with-param name="id" select="$id" />
+            </xsl:call-template>
+          </div>
+          <div
+            class="col-xs-8 col-md-4">
+            <a class="external-link" href="{$WebApplicationBaseURL}receive/{$id}">
+              <xsl:value-of select="./str[@name='mods.title.main']" />
+              <xsl:if test="./str[@name='mods.title.subtitle']">
+                <xsl:value-of select="concat(' : ', ./str[@name='mods.title.subtitle'])" />
+              </xsl:if>
+            </a>
+            <xsl:if test="./str[@name='mods.abstract.result']">
+              <p>
+                <xsl:value-of select="./str[@name='mods.abstract.result']" />
+              </p>
             </xsl:if>
-          </a>
-          <xsl:if test="./str[@name='mods.abstract.result']">
-            <p>
-              <xsl:value-of select="./str[@name='mods.abstract.result']" />
-            </p>
-          </xsl:if>
-        </div>
-      </xsl:for-each>
-    </div>
+          </div>
+        </xsl:for-each>
+      </div>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template name="displayPreviewIMG">
