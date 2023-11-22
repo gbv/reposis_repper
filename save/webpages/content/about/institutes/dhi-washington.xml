@@ -54,8 +54,15 @@
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
           data-defaultThumbnail="../../../images/placeholder/dhi-washingtondc-placeholder-250.png"
-          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22">
-           </div>
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22%20AND%20NOT%20(mods.genre%3Asource_edition)">
+        </div>
+      </div>
+
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/dhi-washingtondc-placeholder-250.png"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22%20AND%20mods.genre%3Asource_edition">
+        </div>
       </div>
     </div>
   </section>
@@ -113,8 +120,15 @@
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
           data-defaultThumbnail="../../../images/placeholder/dhi-washingtondc-placeholder-250.png"
-          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22">
-           </div>
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22%20AND%20NOT%20(mods.genre%3Asource_edition)">
+        </div>
+      </div>
+
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/dhi-washingtondc-placeholder-250.png"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22%20AND%20mods.genre%3Asource_edition">
+        </div>
       </div>
     </div>
   </section>
@@ -172,71 +186,20 @@
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
           data-defaultThumbnail="../../../images/placeholder/dhi-washingtondc-placeholder-250.png"
-          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22">
-           </div>
-      </div>
-    </div>
-  </section>
-  <section xml:lang="it" title="Deutsches Historisches Institut Washington">
-    <div class="row">
-      <div class="col-12 pp-institute-graphic" lang="de">
-        <img alt="DHIW-Logo" class="pp-institute-graphic__logo"
-          src="../../../images/logos/logo_dhi_washington.png" style="width: 238px; height: 102px;" />
-        <h1 class="pp-institute-graphic__headline">Deutsches Historisches Institut Washington</h1>
-        <img alt="Foto Washington" class="pp-institute-graphic__figure"
-          src="../../../images/institutes/dhi-washington-figure.jpg"
-          title="Deutsches Historisches Institut Washington" />
-      </div>
-
-      <div class="col-12 pp-contact" lang="de">
-        <h2>Contact</h2>
-
-        <h3>Deutsches Historisches Institut Washington</h3>
-
-        <div class="pp-contact__list">
-          <div class="pp-contact__item">1607 New Hampshire Ave NW · Washington,<br /> DC 20009-2562</div>
-
-          <table class="pp-contact__item">
-            <tbody>
-              <tr>
-                <td class="pp-contact__subitem">Phone:</td>
-                <td>+1 202 387-33 55</td>
-              </tr>
-              <tr>
-                <td class="pp-contact__subitem">Fax:</td>
-                <td>+1 202 483-34 30</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <table class="pp-contact__item">
-            <tbody>
-              <tr>
-                <td class="pp-contact__subitem">E-Mail:</td>
-                <td>
-                  <span class="madress">info [at] ghi-dc.org</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="pp-contact__subitem">Internet:</td>
-                <td>
-                  <a class="external-link" href="https://www.ghi-dc.org">https://www.ghi-dc.org</a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22%20AND%20NOT%20(mods.genre%3Asource_edition)">
         </div>
       </div>
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
           data-defaultThumbnail="../../../images/placeholder/dhi-washingtondc-placeholder-250.png"
-          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22">
-           </div>
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dhi.washington%22%20AND%20mods.genre%3Asource_edition">
+        </div>
       </div>
     </div>
   </section>
+
   <meta>
-    <log lastEditor="agerber" date="2021-05-31" time="12:21" />
+    <log lastEditor="administrator" date="2023-11-22" time="17:07" />
   </meta>
 </MyCoReWebPage>

@@ -20,16 +20,16 @@
     <xsl:variable name="searchResult">
       <xsl:choose>
         <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
-          <xsl:copy-of select="document(concat('solr:', $parameters, '&amp;sort=id asc'))" />
+          <xsl:copy-of select="document(concat('solr:', $parameters, '&amp;sort=id asc&amp;rows=100'))" />
         </xsl:when>
         <xsl:otherwise>
           <xsl:copy-of
-            select="document(concat('solr:', $parameters, '%20AND%20state:published&amp;sort=id asc&amp;'))" />
+            select="document(concat('solr:', $parameters, '%20AND%20state:published&amp;sort=id asc&amp;rows=100'))" />
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
 
-    <xsl:if test="$searchResult//result/@numFound!=0">
+    <xsl:if test="exslt:node-set($searchResult)//result/@numFound!=0">
       <h3>
         <xsl:choose>
           <xsl:when test="contains($parameters, 'NOT%20(mods.genre%3Asource_edition)')">

@@ -58,8 +58,15 @@
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
           data-defaultThumbnail="../../../images/placeholder/trafo-placeholder-460.jpg"
-          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:trafo%22">
-           </div>
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:trafo%22%20AND%20NOT%20(mods.genre%3Asource_edition)">
+        </div>
+      </div>
+
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/trafo-placeholder-460.jpg"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:trafo%22%20AND%20mods.genre%3Asource_edition">
+        </div>
       </div>
     </div>
   </section>
@@ -119,8 +126,15 @@
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
           data-defaultThumbnail="../../../images/placeholder/trafo-placeholder-460.jpg"
-          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:trafo%22">
-           </div>
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:trafo%22%20AND%20NOT%20(mods.genre%3Asource_edition)">
+        </div>
+      </div>
+
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-defaultThumbnail="../../../images/placeholder/trafo-placeholder-460.jpg"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:trafo%22%20AND%20mods.genre%3Asource_edition">
+        </div>
       </div>
     </div>
   </section>
@@ -180,73 +194,20 @@
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
           data-defaultThumbnail="../../../images/placeholder/trafo-placeholder-460.jpg"
-          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:trafo%22">
-           </div>
-      </div>
-    </div>
-  </section>
-  <section xml:lang="it" title="Forum Transregionale Studien">
-    <div class="row">
-      <div class="col-12 pp-institute-graphic" lang="de">
-        <img alt="TraFo-Logo" class="pp-institute-graphic__logo"
-          src="../../../images/logos/trafo-logo-460.jpg" />
-        <h1 class="pp-institute-graphic__headline">Forum Transregionale Studien</h1>
-        <img alt="Foto-TraFo" class="pp-institute-graphic__figure"
-          src="../../../images/institutes/trafo-figure.jpg"
-          title="Forum Transregionale Studien" />
-      </div>
-
-      <div class="col-12 pp-contact" lang="de">
-        <h2>Contact</h2>
-
-        <h3>Forum Transregionale Studien e.V.</h3>
-
-        <div class="pp-contact__list">
-          <div class="pp-contact__item">Ansprechpartner: Georges Khalil <br /> Wallotstraße 14<br />
-            14193 Berlin</div>
-
-          <div class="pp-contact__item"> </div>
-
-          <table class="pp-contact__item">
-            <tbody>
-              <tr>
-                <td class="pp-contact__subitem">Phone:</td>
-                <td>+49 (0)30 89 001 - 430</td>
-              </tr>
-              <tr>
-                <td class="pp-contact__subitem">Fax:</td>
-                <td>+49 (0)30 89 001 - 440</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <table class="pp-contact__item">
-            <tbody>
-              <tr>
-                <td class="pp-contact__subitem">E-Mail:</td>
-                <td>communication [at] trafo-berlin.de</td>
-              </tr>
-              <tr>
-                <td class="pp-contact__subitem">Internet:</td>
-                <td>
-                  <a class="external-link" href="http://www.forum-transregionale-studien.de">
-                    http://www.forum-transregionale-studien.de</a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:trafo%22%20AND%20NOT%20(mods.genre%3Asource_edition)">
         </div>
       </div>
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
           data-defaultThumbnail="../../../images/placeholder/trafo-placeholder-460.jpg"
-          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:trafo%22">
-           </div>
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:trafo%22%20AND%20mods.genre%3Asource_edition">
+        </div>
       </div>
     </div>
   </section>
+
   <meta>
-    <log lastEditor="mwiegel" date="2023-01-26" time="11:07" />
+    <log lastEditor="administrator" date="2023-11-22" time="17:07" />
   </meta>
 </MyCoReWebPage>

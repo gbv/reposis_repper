@@ -56,7 +56,14 @@
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.istanbul%22"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.istanbul%22%20AND%20NOT%20(mods.genre%3Asource_edition)"
+          data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg"> 
+        </div>
+      </div>
+
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.istanbul%22%20AND%20mods.genre%3Asource_edition"
           data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg"> 
         </div>
       </div>
@@ -119,7 +126,14 @@
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.istanbul%22"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.istanbul%22%20AND%20NOT%20(mods.genre%3Asource_edition)"
+          data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg"> 
+        </div>
+      </div>
+
+      <div class="col-12 pp-publications">
+        <div class="solrsearch" data-classes="pp-sourcesBox"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.istanbul%22%20AND%20mods.genre%3Asource_edition"
           data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg"> 
         </div>
       </div>
@@ -182,70 +196,14 @@
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.istanbul%22"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.istanbul%22%20AND%20NOT%20(mods.genre%3Asource_edition)"
           data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg"> 
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section xml:lang="it" title="Orient-Institut Istanbul">
-    <div class="row">
-
-      <div class="col-12 pp-institute-graphic" lang="de">
-        <img src="../../../images/logos/oii-logo-460.jpg"
-          class="pp-institute-graphic__logo"
-          alt="OII-Logo" />
-        <h1 class="pp-institute-graphic__headline">
-          Orient-Institut Istanbul
-        </h1>
-        <img src="../../../images/institutes/oii-figure.jpg"
-          class="pp-institute-graphic__figure"
-          alt="Foto Istanbul"
-          title="Orient-Institut Istanbul" />
-      </div>
-
-      <div class="col-12 pp-contact" lang="de">
-        <h2>Contact</h2>
-        <h3>Orient-Institut Istanbul</h3>
-        <div class="pp-contact__list">
-
-          <div class="pp-contact__item"> Orient-Institut Istanbul Susam Sokak 16-18 D. 8,<br />
-            34433 Cihangir – Istanbul,<br /> Türkei </div>
-
-          <table class="pp-contact__item">
-            <tr>
-              <td class="pp-contact__subitem">Phone:</td>
-              <td>+90 212 293 60 67</td>
-            </tr>
-            <tr>
-              <td class="pp-contact__subitem">Fax:</td>
-              <td>+90 212 249 63 59</td>
-            </tr>
-          </table>
-
-          <table class="pp-contact__item">
-            <tr>
-              <td class="pp-contact__subitem">E-Mail:</td>
-              <td>
-                <span class="madress">oiist [at] oidmg.org</span>
-              </td>
-            </tr>
-            <tr>
-              <td class="pp-contact__subitem">Internet:</td>
-              <td>
-                <a class="external-link" href="https://www.oiist.org/">https://www.oiist.org/</a>
-              </td>
-            </tr>
-          </table>
-
         </div>
       </div>
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.istanbul%22"
+          data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.istanbul%22%20AND%20mods.genre%3Asource_edition"
           data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg"> 
         </div>
       </div>
@@ -254,6 +212,6 @@
   </section>
 
   <meta>
-    <log lastEditor="administrator" date="2018-20-06" time="14:00" />
+    <log lastEditor="administrator" date="2023-11-22" time="17:07" />
   </meta>
 </MyCoReWebPage>
