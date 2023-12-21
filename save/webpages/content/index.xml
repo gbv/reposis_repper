@@ -83,11 +83,11 @@
 
             <div class="teaser">
               <div class="teaser__item">
-                <div class="teaser__headline">Francia Recensio 2023/3</div>
-                <div class="teaser__date">04.10.2023</div>
-                <div class="teaser__text">Die aktuelle Ausgabe enthält 101 Rezensionen aus den Bereichen Mittelalter, Frühe Neuzeit sowie Neuere und Neueste Geschichte.</div>
+                <div class="teaser__headline">Francia Recensio 2023/4</div>
+                <div class="teaser__date">20.12.2023</div>
+                <div class="teaser__text">Die neue Ausgabe von »Francia-Recensio« enthält 84 Rezensionen zu den Epochen Mittelalter, Frühe Neuzeit sowie Neuere und Neueste Geschichte.</div>
                 <div class="teaser__button">
-                  <a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/6755">
+                  <a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/index">
                     <i18n:de>Mehr</i18n:de>
                     <i18n:en>Read more</i18n:en>
                     <i18n:fr>En savoir plus</i18n:fr>
@@ -97,10 +97,14 @@
               </div>
               <div class="teaser__item d-none d-sm-block">
                 <div class="teaser__headline">Beirat</div>
-                <div class="teaser__date">01.07.2023</div>
-                <div class="teaser__text">perspectivia.net hat einen neuen Beirat.</div>
+                <div class="teaser__date">20.12.2023</div>
+                <div class="teaser__text">
+                  <i18n:de> Neue Ausgabe der Rezensionsreihe des DHI Moskau zur internationalen Forschung zur russischen und deutschen Geschichte. </i18n:de>
+                  <i18n:en>The latest edition of »Francia-Recensio« contains 84 reviews spanning the Middle Ages, the Early Modern Period, and Contemporary History.</i18n:en>
+                  <i18n:fr>Le dernier numéro de »Francia-Recensio« comprend 84 comptes rendus couvrant le Moyen Âge, les Temps modernes et l’histoire contemporaine.</i18n:fr>
+                </div>
                 <div class="teaser__button">
-                  <a href="about/beirat.xml">
+                  <a href="https://perspectivia.net/publikationen/recensio-moskau/2323-14">
                     <i18n:de>Mehr</i18n:de>
                     <i18n:en>Read more</i18n:en>
                     <i18n:fr>En savoir plus</i18n:fr>
