@@ -1,880 +1,236 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage xmlns:i18n="http://www.mycore.org/i18n">
+<MyCoReWebPage><section xml:lang="all" title="ReadMe"><div class="cms-page__base">
+<p>The content was separated from layout. You just edit small texts now, but you will no longer see completly what you will get. In this way we get the wcms working again for you. Please feel free to adust the texts. We will try to name the small sections clearly, so you will know what you are editing currently.</p>
 
-  <section xml:lang="all" i18n="pp.page.home.title">
-    <div class="jumbotwo"></div>
+<p>Please:</p>
 
-    <div class="page-section page-section__intro">
-      <div class="container">
-        <div class="row">
-          <div class="col">
+<ul>
+	<li>do not delete this "read me" section</li>
+	<li>and do not rename the other sections.</li>
+</ul>
 
-            <div class="intro-box">
-              <h1 class="d-none">perspectivia.net</h1>
-              <div class="slogan">
-                <div class="slogan__imagebox">
-                  <img
-                    class="slogan__image"
-                    alt="flieder"
-                    src="../images/backgrounds/PatternStrichpunktGrossKreisViertel.svg" />
-                  <div class="slogan__text">
-                    <i18n:de>Freier Zugang<br /> zu Wissen</i18n:de>
-                    <i18n:en>Free access<br /> to knowledge</i18n:en>
-                    <i18n:fr>Libre accès<br /> au savoir</i18n:fr>
-                  </div>
-                </div>
-              </div>
-              <div class="intro-text">
-                <h2 class="intro-text__slogan">
-                  <i18n:de>Freier Zugang zu Wissen</i18n:de>
-                  <i18n:en>Free access to knowledge</i18n:en>
-                  <i18n:fr>Libre accès au savoir</i18n:fr>
-                </h2>
+<p>Both are essential working bases. There is only one exception. When you like to keep a content block, but want to move it, then you can rename the blocks you like to switch. For example: If you want to move the news from position three to position one, you only need to rename the section title:</p>
 
-                <p>
-                  <i18n:de>
-                    Die digitale Publikationsplattform perspectivia.net ist ein
-                    internationales, epochenübergreifendes und interdisziplinäres Portal für
-                    geisteswissenschaftliche Publikationen. Als Teil der Forschungsinfrastruktur der
-                    <a href="https://www.maxweberstiftung.de/">Max Weber Stiftung -
-                    Deutsche Geisteswissenschaftliche Institute im Ausland</a> werden hier von den
-                    Instituten und ihren Kooperationspartnern herausgegebene Publikationen und Forschungsdaten frei
-                    zugänglich gemacht. Die Max Weber Stiftung ist den Prinzipien des Open Access
-                    verpflichtet und begleitet die Transformation der Geisteswissenschaften in Richtung einer offenen
-                    Wissenschaft.
-                  </i18n:de>
-                  <i18n:en>
-                    The publication platform perspectivia.net sees itself as an international,
-                    epoch-spanning and interdisciplinary portal for digital publications in the
-                    humanities. This infrastructure of the
-                    <a href="https://www.maxweberstiftung.de/en">Max Weber Foundation -
-                    German Humanities Institutes Abroad</a>
-                    provides free access to publications by the institutes and
-                    their cooperation partners. This Max Weber Foundation is committed to the
-                    principles of Open Access, thus perspectivia.net promotes free access to
-                    knowledge and accompanies the transformation of the humanities towards an open
-                    science.
-                  </i18n:en>
-                  <i18n:fr>
-                    La plateforme de publication électronique perspectivia.net se veut un portail
-                    international, interdisciplinaire et historique pour les publications en
-                    sciences humaines. L'infrastructure de la Fondation
-                    <a href="https://www.maxweberstiftung.de/fr">Max Weber - Instituts
-                    allemands de sciences humaines à l'étranger</a> - rend ainsi les publications des
-                    différents instituts et de leurs partenaires librement accessibles en ligne. La
-                    Fondation Max Weber s'engage à respecter les principes de l’Open Acces et
-                    perspectivia.net promeut le libre accès au savoir et accompagne l’évolution des
-                    sciences humaines vers une science ouverte.
-                  </i18n:fr>
-                </p>
-              </div>
-              <div class="decoration">
-                <img
-                  class="image-embed-item"
-                  alt="flieder"
-                  src="../images/backgrounds/PatternSchlangenlinenGross.svg" />
-              </div>
-            </div>
+<ol>
+	<li>News-SLot-One to News-SLot-xxx</li>
+	<li>News-SLot-Three to News-SLot-One</li>
+	<li>News-SLot-xxx to News-SLot-Three</li>
+</ol>
 
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
+<p>In this way you dont get confused which slot you have to rename, when you have 6 News-SLot-One. Of couse you have to do it for all languages.</p>
 
-            <div class="teaser">
-              <div class="teaser__item">
-                <div class="teaser__headline">Francia Recensio 2023/4</div>
-                <div class="teaser__date">20.12.2023</div>
-                <div class="teaser__text">
-                  <i18n:de>Die neue Ausgabe von »Francia-Recensio« enthält 84 Rezensionen zu den Epochen Mittelalter, Frühe Neuzeit sowie Neuere und Neueste Geschichte.</i18n:de>
-                  <i18n:en>The latest edition of »Francia-Recensio« contains 84 reviews spanning the Middle Ages, the Early Modern Period, and Contemporary History.</i18n:en>
-                  <i18n:fr>Le dernier numéro de »Francia-Recensio« comprend 84 comptes rendus couvrant le Moyen Âge, les Temps modernes et l’histoire contemporaine.</i18n:fr>
-                </div>
-                <div class="teaser__button">
-                  <a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/index">
-                    <i18n:de>Mehr</i18n:de>
-                    <i18n:en>Read more</i18n:en>
-                    <i18n:fr>En savoir plus</i18n:fr>
-                    <i class="fas fa-chevron-right"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="teaser__item d-none d-sm-block">
-                <div class="teaser__headline">Recensio Moskau</div>
-                <div class="teaser__date">20.12.2023</div>
-                <div class="teaser__text">Neue Ausgabe der Rezensionsreihe des DHI Moskau zur internationalen Forschung zur russischen und deutschen Geschichte.</div>
-                <div class="teaser__button">
-                  <a href="https://perspectivia.net/publikationen/recensio-moskau/2323-14">
-                    <i18n:de>Mehr</i18n:de>
-                    <i18n:en>Read more</i18n:en>
-                    <i18n:fr>En savoir plus</i18n:fr>
-                    <i class="fas fa-chevron-right"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="teaser__item d-none d-lg-block">
-                <div class="teaser__headline">Zum Dreißigsten</div>
-                <div class="teaser__date">20.06.2023</div>
-                <div class="teaser__text">In diesen Tagen feiert das DHI Warschau sein 30-jähriges Bestehen. </div>
-                <div class="teaser__button">
-                  <a href="https://www.dhi.waw.pl/aktuelle-meldungen/detail/zum-dreissigsten/ ">
-                    <i18n:de>Mehr</i18n:de>
-                    <i18n:en>Read more</i18n:en>
-                    <i18n:fr>En savoir plus</i18n:fr>
-                    <i class="fas fa-chevron-right"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="teaser__item">
-                <div class="teaser__headline">Gallia Pontificia</div>
-                <div class="teaser__date">16.06.2023</div>
-                <div class="teaser__text">Papstregesten für die Erzbischöfe von Reims online verfügbar</div>
-                <div class="teaser__button">
-                  <a href="https://qed.perspectivia.net/gallia-pontificia-online/">
-                    <i18n:de>Mehr</i18n:de>
-                    <i18n:en>Read more</i18n:en>
-                    <i18n:fr>En savoir plus</i18n:fr>
-                    <i class="fas fa-chevron-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
+<p>It is also important to:</p>
 
-          </div>
-        </div>
-      </div>
-    </div>
+<ul>
+	<li>keep the html structure of the content.</li>
+</ul>
 
-    <div class="page-section page-section__links">
-      <div class="container">
-        <div class="row">
-          <div class="col col-lg-10 offset-lg-1 col-xl-12 offset-xl-0 col-xxl-10 offset-xxl-1">
-            <h2 class="d-none">Links</h2>
+<p>At best you only edit existing texts without adding or removing whole elements, like headlines or paragraphs.</p>
 
-            <div class="p-tiles">
+<p>Good luck :P</p>
+</div></section><section xml:lang="de" title="Intro"><div class="cms-intro">
+        <h1>Freier Zugang</h1>
+        <h2>zu Wissen</h2>
+        <p>
+          Die digitale Publikationsplattform perspectivia.net ist ein internationales,
+          epochenübergreifendes und interdisziplinäres Portal für geisteswissenschaftliche
+          Publikationen. Als Teil der Forschungsinfrastruktur der <a href="https://www.maxweberstiftung.de/">Max Weber Stiftung - Deutsche
+          Geisteswissenschaftliche Institute im Ausland</a> werden hier von den Instituten und ihren
+          Kooperationspartnern herausgegebene Publikationen und Forschungsdaten frei zugänglich
+          gemacht. Die Max Weber Stiftung ist den Prinzipien des Open Access verpflichtet und
+          begleitet die Transformation der Geisteswissenschaften in Richtung einer offenen
+          Wissenschaft.
+        </p>
+    </div></section><section xml:lang="en" title="Intro"><div class="cms-intro">
+        <h1>Free access</h1>
+        <h2>to knowledge</h2>
+        <p>
+          The publication platform perspectivia.net sees itself as an international, epoch-spanning
+          and interdisciplinary portal for digital publications in the humanities. This infrastructure
+          of the <a href="https://www.maxweberstiftung.de/en">Max Weber Foundation - German Humanities
+          Institutes Abroad</a> provides free access to publications by the institutes and their
+          cooperation partners. This Max Weber Foundation is committed to the principles of Open
+          Access, thus perspectivia.net promotes free access to knowledge and accompanies the
+          transformation of the humanities towards an open science.
+        </p>
+    </div></section><section xml:lang="fr" title="Intro"><div class="cms-intro">
+        <h1>Libre accès</h1>
+        <h2>au savoir</h2>
+        <p>
+          La plateforme de publication électronique perspectivia.net se veut un portail
+          international, interdisciplinaire et historique pour les publications en sciences humaines.
+          L'infrastructure de la Fondation <a href="https://www.maxweberstiftung.de/fr">Max Weber -
+          Instituts allemands de sciences humaines à l'étranger</a> - rend ainsi les publications des
+          différents instituts et de leurs partenaires librement accessibles en ligne. La Fondation
+          Max Weber s'engage à respecter les principes de l’Open Acces et perspectivia.net promeut le
+          libre accès au savoir et accompagne l’évolution des sciences humaines vers une science
+          ouverte.
+        </p>
+    </div></section><section xml:lang="de" title="News-SLot-One"><div class="cms-news">
+<h1>Francia Recensio 2023/4</h1>
 
-              <a href="../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;sort=mods.dateIssued+desc" class="p-tile">
-                <img
-                  alt=""
-                  class="p-tile__background p-tile__petrol"
-                  src="../images/backgrounds/tile-back-basic.svg"
-                  width="100%"
-                  height="auto" />
-                <img
-                  alt=""
-                  class="p-tile__arrow"
-                  src="../images/icons/icon-feather-arrow-up-right.svg" />
-                <div class="p-tile__content">
-                  <h3 class="p-tile__headline">
-                    <i18n:de>Publikationen</i18n:de>
-                    <i18n:en>Publications</i18n:en>
-                    <i18n:fr>Publications</i18n:fr>
-                  </h3>
-                  <p class="p-tile__text">
-                    <i18n:de>
-                      Volltexte der digitalen Erst- und Zweitveröffentlichungen in perspectivia.net
-                    </i18n:de>
-                    <i18n:en>
-                      Initial digital publications and secondary publications in perspectivia.net
-                    </i18n:en>
-                    <i18n:fr>
-                      Publications numériques originales et rééditées dans perspectivia.net
-                    </i18n:fr>
-                  </p>
-                </div>
-              </a>
+<h2>20.12.2023</h2>
 
-              <a href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;sort=mods.dateIssued+desc"  class="p-tile">
-                <img
-                  alt=""
-                  class="p-tile__background p-tile__purple"
-                  src="../images/backgrounds/tile-back-basic.svg"
-                  width="100%"
-                  height="auto" />
-                <img
-                  alt=""
-                  class="p-tile__arrow"
-                  src="../images/icons/icon-feather-arrow-up-right.svg" />
-                <div class="p-tile__content">
-                  <h3 class="p-tile__headline">
-                    <i18n:de>Quellen und Datenbanken</i18n:de>
-                    <i18n:en>Sources and databases</i18n:en>
-                    <i18n:fr>Sources et bases de données</i18n:fr>
-                  </h3>
-                  <p class="p-tile__text">
-                    <i18n:de>
-                      Digitalisierte Quellensammlungen, historische Datenbestände und kritische Editionen
-                    </i18n:de>
-                    <i18n:en>
-                      Digitised source collections, historical datasets and critical editions
-                    </i18n:en>
-                    <i18n:fr>
-                      Collections de sources numérisées, bases de données historiques et éditions critiques
-                    </i18n:fr>
-                  </p>
-                </div>
-              </a>
+<p>Die neue Ausgabe von »Francia-Recensio« enthält 84 Rezensionen zu den Epochen Mittelalter, Frühe Neuzeit sowie Neuere und Neueste Geschichte.</p>
+<a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/index">Mehr</a></div><p>
 
-              <a href="https://mws.hypotheses.org/ "  class="p-tile">
-                <img
-                  alt=""
-                  class="p-tile__background p-tile__pink"
-                  src="../images/backgrounds/tile-back-basic.svg"
-                  width="100%"
-                  height="auto" />
-                <img
-                  alt=""
-                  class="p-tile__arrow"
-                  src="../images/icons/icon-feather-arrow-up-right.svg" />
-                <div class="p-tile__content">
-                  <h3 class="p-tile__headline">
-                    <i18n:de>Blogs</i18n:de>
-                    <i18n:en>Blogs</i18n:en>
-                    <i18n:fr>Blogs</i18n:fr>
-                  </h3>
-                  <p class="p-tile__text">
-                    <i18n:de>
-                      Wissen in Verbindung - Weber 2.0 ist das Portal für
-                      wissenschaftliche Blogs der Max Weber Stiftung,
-                      ihrer Institute und Partner
-                    </i18n:de>
-                    <i18n:en>
-                      Wissen in Verbindung - Weber 2.0 is the portal
-                      for academic blogs of the Max Weber Foundation,
-                      its institutes and partners
-                    </i18n:en>
-                    <i18n:fr>
-                      Wissen in Verbindung - Weber 2.0 est le portail
-                      des blogs scientifiques de la Fondation Max-Weber,
-                      de ses instituts et de ses partenaires
-                    </i18n:fr>
-                  </p>
-                </div>
-              </a>
+</p><p> </p><p>
+</p></section><section xml:lang="en" title="News-SLot-One"><div class="cms-news">
+<h1>Francia Recensio 2023/4</h1>
 
-              <a href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aresearch_data%22+%2BobjectType%3A%22mods%22&amp;sort=mods.dateIssued+desc" class="p-tile">
-                <img
-                  alt=""
-                  class="p-tile__background p-tile__orange"
-                  src="../images/backgrounds/tile-back-basic.svg"
-                  width="100%"
-                  height="auto" />
-                <img
-                  alt=""
-                  class="p-tile__arrow"
-                  src="../images/icons/icon-feather-arrow-up-right.svg" />
-                <div class="p-tile__content">
-                  <h3 class="p-tile__headline">
-                    <i18n:de>Forschungsdaten</i18n:de>
-                    <i18n:en>Sources and databases</i18n:en>
-                    <i18n:fr>Données de recherche </i18n:fr>
-                  </h3>
-                  <p class="p-tile__text">
-                    <i18n:de>
-                      Seit 2023 werden Forschungsdaten in perspevivia.net verzeichnet
-                    </i18n:de>
-                    <i18n:en>
-                      In 2023 perspectivia.net started collecting research data
-                    </i18n:en>
-                    <i18n:fr>
-                      Depuis 2023, perspectivia.net collecte des données de recherche
-                    </i18n:fr>
-                  </p>
-                </div>
-              </a>
+<h2>20.12.2023</h2>
 
-              <a href="about/partner.xml "  class="p-tile">
-                <img
-                  alt=""
-                  class="p-tile__background p-tile__petrol"
-                  src="../images/backgrounds/tile-back-basic.svg"
-                  width="100%"
-                  height="auto" />
-                <img
-                  alt=""
-                  class="p-tile__arrow"
-                  src="../images/icons/icon-feather-arrow-up-right.svg" />
-                <div class="p-tile__content">
-                  <h3 class="p-tile__headline">
-                    <i18n:de>Kooperationspartner</i18n:de>
-                    <i18n:en>Cooperation partners</i18n:en>
-                    <i18n:fr>Coopérations </i18n:fr>
-                  </h3>
-                  <p class="p-tile__text">
-                    <i18n:de>
-                      Die MWS kooperiert u.a. mit den
-                      DFG-Fachinformationsdiensten (FIDs) und überregional
-                      tätigen Kompetenzzentren
-                    </i18n:de>
-                    <i18n:en>
-                      The MWS cooperates in particular with the DFG's specialist
-                      information services (FIDs) and supra-regionally active
-                      competence centres
-                    </i18n:en>
-                    <i18n:fr>
-                      La MWS coopère en entre autres avec les services
-                      d'information spécialisés (FID) de la Deutsche
-                      Forschungsgemeinschaft (DFG) et des centres de
-                      compétence actifs au niveau suprarégional
-                    </i18n:fr>
-                  </p>
-                </div>
-              </a>
+<p>The latest edition of »Francia-Recensio« contains 84 reviews spanning the Middle Ages, the Early Modern Period, and Contemporary History.</p>
+<a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/index">Mehr</a></div><p>
 
-              <a href="https://www.maxweberstiftung.de/podcast.html"  class="p-tile">
-                <img
-                  alt=""
-                  class="p-tile__background p-tile__purple"
-                  src="../images/backgrounds/tile-back-basic.svg"
-                  width="100%"
-                  height="auto" />
-                <img
-                  alt=""
-                  class="p-tile__arrow"
-                  src="../images/icons/icon-feather-arrow-up-right.svg" />
-                <div class="p-tile__content">
-                  <h3 class="p-tile__headline">
-                    <i18n:de>Podcast</i18n:de>
-                    <i18n:en>Podcast</i18n:en>
-                    <i18n:fr>Podcast</i18n:fr>
-                  </h3>
-                  <p class="p-tile__text">
-                    <i18n:de>
-                      Wissen entgrenzen - Der Podcast der Max Weber Stiftung
-                    </i18n:de>
-                    <i18n:en>
-                      Wissen entgrenzen - The Max Weber Foundation Podcast
-                    </i18n:en>
-                    <i18n:fr>
-                      Wissen entgrenzen - The Max Weber Foundation Podcast
-                    </i18n:fr>
-                  </p>
-                </div>
-              </a>
+</p><p> </p><p>
+</p></section><section xml:lang="fr" title="News-SLot-One"><div class="cms-news">
+<h1>Francia Recensio 2023/4</h1>
 
-            </div>
-          </div>
-        </div>
-        <div class="row class=">
-          <div class="col">
-            <h2 class="d-none">Daten</h2>
-            <div class="p-statistics">
-              <a
-                href="../servlets/solr/select?q=%2Bcategory.top%3Amir_genres\:article+%2BobjectType%3Amods+%2Bcategory.top%3Astate\:published"
-                class="p-statistic p-statistic__articles">
-                <span class="p-statistic__title">
-                  <i18n:de>Artikel</i18n:de>
-                  <i18n:en>Article</i18n:en>
-                  <i18n:fr>Article</i18n:fr>
-                </span>
-                <span id="p-statistic__articles__value" class="p-statistic__value">26.118</span>
-              </a>
-              <a
-                href="../servlets/solr/select?q=%2Bcategory.top%3Amir_genres\:research_data+%2BobjectType%3Amods+%2Bcategory.top%3Astate\:published"
-                class="p-statistic p-statistic__research">
-                <span class="p-statistic__title">
-                  <i18n:de>Forschungsdaten</i18n:de>
-                  <i18n:en>Research data</i18n:en>
-                  <i18n:fr>Données de recherche</i18n:fr>
-                </span>
-                <span id="p-statistic__research__value" class="p-statistic__value">14</span>
-              </a>
-              <a
-                href="../servlets/solr/select?q=%2Bcategory.top:mir_genres\:review+%2BobjectType:mods+%2Bcategory.top:state\:published"
-                class="p-statistic p-statistic__reviews">
-                <span class="p-statistic__title">
-                  <i18n:de>Rezensionen</i18n:de>
-                  <i18n:en>Reviews</i18n:en>
-                  <i18n:fr>Comptes rendus</i18n:fr>
-                </span>
-                <span id="p-statistic__reviews__value" class="p-statistic__value">6.174</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<h2>20.12.2023</h2>
 
-    <div class="page-section page-section__institutions">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h2 class="">
-              <i18n:de>Herausgebende Institutionen</i18n:de>
-              <i18n:en>Publishing institutions</i18n:en>
-              <i18n:fr>Institutions qui publient sur perspectivia.net</i18n:fr>
-            </h2>
-            <div
-              class="carousel slide carousel-institutes"
-              data-interval="0"
-              data-ride="carousel"
-              id="carousel-institutes">
+<p>Le dernier numéro de »Francia-Recensio« comprend 84 comptes rendus couvrant le Moyen Âge, les Temps modernes et l’histoire contemporaine.</p>
+<a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/index">Mehr</a></div><p>
+</p></section><section xml:lang="de" title="News-SLot-Two"><div class="cms-news">
+<h1>Recensio Moskau</h1>
 
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li class="active" data-slide-to="0" data-target="#carousel-institutes"></li>
-                <li data-slide-to="1" data-target="#carousel-institutes"></li>
-                <li data-slide-to="2" data-target="#carousel-institutes"></li>
-                <li data-slide-to="3" data-target="#carousel-institutes"></li>
-                <li data-slide-to="4" data-target="#carousel-institutes"></li>
-              </ol>
+<h2>20.12.2023</h2>
 
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner" role="listbox">
+<p>Neue Ausgabe der Rezensionsreihe des DHI Moskau zur internationalen Forschung zur russischen und deutschen Geschichte.</p>
+<a href="https://perspectivia.net/publikationen/recensio-moskau/2323-14">Mehr</a></div><p>
 
-                <div class="carousel-item active">
-                  <div class="row carousel-item__content-box">
+</p><p> </p><p>
+</p></section><section xml:lang="en" title="News-SLot-Two"><div class="cms-news">
+<h1>Recensio Moskau</h1>
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/dfk.xml"
-                        class="slider-institute slider-institute-dfk">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/dfk-paris-logo.jpg" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institutes/dfk-louvre.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Deutsches Forum für Kunstgeschichte Paris (DFK)
-                        </div>
-                      </a>
-                    </div>
+<h2>20.12.2023</h2>
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/dhi-london.xml"
-                        class="slider-institute slider-institute-ghil">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/dhi-london-logo.jpg" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institutes/dhi-london-figure.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Deutsches Historisches Institut London (GHIL)
-                        </div>
-                      </a>
-                    </div>
+<p>Neue Ausgabe der Rezensionsreihe des DHI Moskau zur internationalen Forschung zur russischen und deutschen Geschichte.</p>
+<a href="https://perspectivia.net/publikationen/recensio-moskau/2323-14">Mehr</a></div><p>
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/dhi-moskau.xml"
-                        class="slider-institute slider-institute-moskau">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/dhi-moskau.png" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institutes/dhi-moskau-figure.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Deutsches Historisches Institut Moskau (DHI)
-                        </div>
-                      </a>
-                    </div>
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/dhi-paris.xml"
-                        class="slider-institute slider-institute-paris">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/dhi-paris-logo.jpg" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institutes/dhi-paris-figure.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Deutsches Historisches Institut Paris (DHI)
-                        </div>
-                      </a>
-                    </div>
+</p></section><section xml:lang="fr" title="News-SLot-Two"><div class="cms-news">
+<h1>Recensio Moskau</h1>
 
-                  </div>
-                </div>
+<h2>20.12.2023</h2>
 
-                <div class="carousel-item">
-                  <div class="row carousel-item__content-box">
+<p>Neue Ausgabe der Rezensionsreihe des DHI Moskau zur internationalen Forschung zur russischen und deutschen Geschichte.</p>
+<a href="https://perspectivia.net/publikationen/recensio-moskau/2323-14">Mehr</a></div><p>
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/dhi-rom.xml"
-                        class="slider-institute slider-institute-rom">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/dhi-rom-logo.jpg" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institutes/dhi-rom-figure.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Deutsches Historisches Institut Rom (DHI)
-                        </div>
-                      </a>
-                    </div>
 
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/dhi-warschau.xml"
-                        class="slider-institute slider-institute-warsaw">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/dhi-warschau-logo.jpg" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institutes/dhi-warschau-figure.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Deutsches Historisches Institut Warschau (DHI)
-                        </div>
-                      </a>
-                    </div>
-
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/dhi-washington.xml"
-                        class="slider-institute slider-institute-washington">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/dhi-washingtondc-logo.jpg" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institutes/dhi-washington-figure.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Deutsches Historisches Institut Washington (DHI)
-                        </div>
-                      </a>
-                    </div>
-
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/dij.xml"
-                        class="slider-institute slider-institute-dij">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/dij-tokio-logo.jpg" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institutes/dij-figure.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Deutsches Institut für Japanstudien Tokio (DIJ)
-                        </div>
-                      </a>
-                    </div>
-
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="row carousel-item__content-box">
-
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/oib.xml"
-                        class="slider-institute slider-institute-oib">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/io-beirut-logo.jpg" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institutes/oib-figure.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Orient-Institut Beirut (OIB)
-                        </div>
-                      </a>
-                    </div>
-
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/oii.xml"
-                        class="slider-institute slider-institute-oii">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/oii-logo.jpg" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institutes/oii-figure.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Orient-Institut Istanbul (OII)
-                        </div>
-                      </a>
-                    </div>
-
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/mwf.xml"
-                        class="slider-institute slider-institute-mwf">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/mwf-logo.jpg" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institutes/mwf-figure.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Max Weber Forum für Südasienstudien Delhi (MWF)
-                        </div>
-                      </a>
-                    </div>
-
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/mws.xml"
-                        class="slider-institute slider-institute-mws">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/max-weber-stiftung-de.svg" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institutes/mws-figure.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Max Weber Stiftung –
-                          Deutsche Geisteswissenschaftliche Institute im Ausland
-                        </div>
-                      </a>
-                    </div>
-
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="row carousel-item__content-box">
-
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/adef.xml"
-                        class="slider-institute slider-institute-agf">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/agf.png" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institutes/adef-figure.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Arbeitskreis Großbritannien-Forschung (AGF)
-                        </div>
-                      </a>
-                    </div>
-
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/trafo.xml"
-                        class="slider-institute slider-institute-trafo">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/trafo.jpeg" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institutes/trafo-figure.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Forum Transregionale Studien (TRAFO)
-                        </div>
-                      </a>
-                    </div>
-
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/spsg.xml"
-                        class="slider-institute slider-institute-spsg">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/spsg-logo.png" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institutes/spsg-figure.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg (SPSG)
-                        </div>
-                      </a>
-                    </div>
-
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/ieg.xml"
-                        class="slider-institute slider-institute-ieg">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/ieg.jpg" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institutes/ieg-figure.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Leibniz-Institut für Europäische Geschichte (IEG)
-                        </div>
-                      </a>
-                    </div>
-
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="row carousel-item__content-box">
-
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/dzk.xml"
-                        class="slider-institute slider-institute-dzk">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="../images/logos/dzk-logo.jpg" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="../images/institutes/dzk-figure.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          Deutsches Zentrum Kulturgutverluste
-                        </div>
-                      </a>
-                    </div>
-
-                  </div>
-                </div>
-
-              </div>
-              <a class="carousel-control-prev" href="#carousel-institutes" role="button"
-                data-slide="prev">
-                <i class="fas fa-chevron-left"></i>
-                <span class="sr-only">
-                  <i18n:de>Vorherige</i18n:de>
-                  <i18n:en>Previous</i18n:en>
-                  <i18n:fr>Précédent</i18n:fr>
-                </span>
-              </a>
-              <a class="carousel-control-next" href="#carousel-institutes" role="button"
-                data-slide="next">
-                <i class="fas fa-chevron-right"></i>
-                <span class="sr-only">
-                  <i18n:de>Nächste</i18n:de>
-                  <i18n:en>Next</i18n:en>
-                  <i18n:fr>Prochain</i18n:fr>
-                </span>
-              </a>
-            </div>
-            <div class="text-center show-all-institutions-box">
-              <a href="#" class="btn btn-primary js-show-all-institutions pp-rounded">
-                <i18n:de>Zeige alle Institutionen </i18n:de>
-                <i18n:en>Show all institutions </i18n:en>
-                <i18n:fr>Afficher toutes les institutions </i18n:fr>
-                <i class="fas fa-chevron-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="page-section page-section__slider">
-      <div class="container">
-        <div class="row ">
-          <div class="col-12" lang="de">
-            <h2>
-              <i18n:de>Ausgewählte Publikationen</i18n:de>
-              <i18n:en>Selected Publications</i18n:en>
-              <i18n:fr>Sélection de publications</i18n:fr>
-            </h2>
-            <div class="pp_carousel-slide" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script type="text/javascript" src="../js/jquery.number.js"></script>
-    <script>
-      $( document ).ready(function() {
-        $.ajax({
-          type: "GET",
-          url: "../api/v1/search?q=objectType:mods AND state:published AND category.top:\"mir_genres:article\"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
-          dataType: "jsonp",
-          success: function (data) {
-            $('#p-statistic__articles__value').text($.number(data.response.numFound,0, ',', '.'));
-          },
-        });
-        $.ajax({
-          type: "GET",
-          url: "../api/v1/search?q=objectType:mods AND state:published AND category.top:\"mir_genres:research_data\"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
-          dataType: "jsonp",
-          success: function (data) {
-            $('#p-statistic__research__value').text($.number(data.response.numFound,0, ',', '.'));
-          },
-        });
-        $.ajax({
-          type: "GET",
-          url: "../api/v1/search?q=objectType:mods AND state:published AND category.top:\"mir_genres:review\"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
-          dataType: "jsonp",
-          success: function (data) {
-            $('#p-statistic__reviews__value').text($.number(data.response.numFound,0, ',', '.'));
-          },
-        });
-      });
-    </script>
-
-  </section>
-
-  <meta>
-    <log lastEditor="relaunch" date="2023-09-29" time="12:11" />
-  </meta>
-
-</MyCoReWebPage>
+</p></section><section xml:lang="de" title="News-SLot-Three"><div class="cms-news">
+      <h1>Zum Dreißigsten</h1>
+      <h2>20.06.2023</h2>
+      <p>In diesen Tagen feiert das DHI Warschau sein 30-jähriges Bestehen.</p>
+      <a href="https://www.dhi.waw.pl/aktuelle-meldungen/detail/zum-dreissigsten/">Mehr</a>
+    </div></section><section xml:lang="en" title="News-SLot-Three"><div class="cms-news">
+      <h1>Zum Dreißigsten</h1>
+      <h2>20.06.2023</h2>
+      <p>In diesen Tagen feiert das DHI Warschau sein 30-jähriges Bestehen.</p>
+      <a href="https://www.dhi.waw.pl/aktuelle-meldungen/detail/zum-dreissigsten/">Mehr</a>
+    </div></section><section xml:lang="fr" title="News-SLot-Three"><div class="cms-news">
+      <h1>Zum Dreißigsten</h1>
+      <h2>20.06.2023</h2>
+      <p>In diesen Tagen feiert das DHI Warschau sein 30-jähriges Bestehen.</p>
+      <a href="https://www.dhi.waw.pl/aktuelle-meldungen/detail/zum-dreissigsten/">Mehr</a>
+    </div></section><section xml:lang="de" title="News-SLot-Four"><div class="cms-news">
+      <h1>Gallia Pontificia</h1>
+      <h2>16.06.2023</h2>
+      <p>Papstregesten für die Erzbischöfe von Reims online verfügbar</p>
+      <a href="https://qed.perspectivia.net/gallia-pontificia-online/">Mehr</a>
+    </div></section><section xml:lang="en" title="News-SLot-Four"><div class="cms-news">
+      <h1>Gallia Pontificia</h1>
+      <h2>16.06.2023</h2>
+      <p>Papstregesten für die Erzbischöfe von Reims online verfügbar</p>
+      <a href="https://qed.perspectivia.net/gallia-pontificia-online/">Mehr</a>
+    </div></section><section xml:lang="fr" title="News-SLot-Four"><div class="cms-news">
+      <h1>Gallia Pontificia</h1>
+      <h2>16.06.2023</h2>
+      <p>Papstregesten für die Erzbischöfe von Reims online verfügbar</p>
+      <a href="https://qed.perspectivia.net/gallia-pontificia-online/">Mehr</a>
+    </div></section><section xml:lang="de" title="Link-Tile-One"><div class="cms-tiles">
+      <h1>Publikationen</h1>
+      <p>Volltexte der digitalen Erst- und Zweitveröffentlichungen in perspectivia.net</p>
+      <a href="../../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=search%2Fsimple_intern.xed">Link</a>
+    </div></section><section xml:lang="en" title="Link-Tile-One"><div class="cms-tiles">
+      <h1>Publications</h1>
+      <p>Initial digital publications and secondary publications in perspectivia.net</p>
+      <a href="../../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=search%2Fsimple_intern.xed">Link</a>
+    </div></section><section xml:lang="fr" title="Link-Tile-One"><div class="cms-tiles">
+      <h1>Publications</h1>
+      <p>Publications numériques originales et rééditées dans perspectivia.net</p>
+      <a href="../../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=search%2Fsimple_intern.xed">Link</a>
+    </div></section><section xml:lang="de" title="Link-Tile-Two"><div class="cms-tiles">
+      <h1>Quellen und Datenbanken</h1>
+      <p>Digitalisierte Quellensammlungen, historische Datenbestände und kritische Editionen</p>
+      <a href="../../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=20&amp;rows=20">Link</a>
+    </div></section><section xml:lang="en" title="Link-Tile-Two"><div class="cms-tiles">
+      <h1>Sources and databases</h1>
+      <p>Digitised source collections, historical datasets and critical editions</p>
+      <a href="../../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=20&amp;rows=20">Link</a>
+    </div></section><section xml:lang="fr" title="Link-Tile-Two"><div class="cms-tiles">
+      <h1>Sources et bases de données</h1>
+      <p>Collections de sources numérisées, bases de données historiques et éditions critiques</p>
+      <a href="../../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=20&amp;rows=20">Link</a>
+    </div></section><section xml:lang="de" title="Link-Tile-Three"><div class="cms-tiles">
+      <h1>Blogs</h1>
+      <p>Wissen in Verbindung - Weber 2.0 ist das Portal für
+        wissenschaftliche Blogs der Max Weber Stiftung,
+        ihrer Institute und Partner</p>
+      <a href="https://mws.hypotheses.org/">Link</a>
+    </div></section><section xml:lang="en" title="Link-Tile-Three"><div class="cms-tiles">
+      <h1>Blogs</h1>
+      <p>Wissen in Verbindung - Weber 2.0 is the portal
+        for academic blogs of the Max Weber Foundation,
+        its institutes and partners</p>
+      <a href="https://mws.hypotheses.org/">Link</a>
+    </div></section><section xml:lang="fr" title="Link-Tile-Three"><div class="cms-tiles">
+      <h1>Blogs</h1>
+      <p>Wissen in Verbindung - Weber 2.0 est le portail
+        des blogs scientifiques de la Fondation Max-Weber,
+        de ses instituts et de ses partenaires</p>
+      <a href="https://mws.hypotheses.org/">Link</a>
+    </div></section><section xml:lang="de" title="Link-Tile-Four"><div class="cms-tiles">
+      <h1>Forschungsdaten</h1>
+      <p>Seit 2023 werden Forschungsdaten in perspevivia.net verzeichnet</p>
+      <a href="../../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aresearch_data%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed">Link</a>
+    </div></section><section xml:lang="en" title="Link-Tile-Four"><div class="cms-tiles">
+      <h1>Sources and databases</h1>
+      <p>In 2023 perspectivia.net started collecting research data</p>
+      <a href="../../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aresearch_data%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed">Link</a>
+    </div></section><section xml:lang="fr" title="Link-Tile-Four"><div class="cms-tiles">
+      <h1>Données de recherche</h1>
+      <p>Depuis 2023, perspectivia.net collecte des données de recherche</p>
+      <a href="../../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aresearch_data%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed">Link</a>
+    </div></section><section xml:lang="de" title="Link-Tile-Five"><div class="cms-tiles">
+      <h1>Kooperationspartner</h1>
+      <p>Die MWS kooperiert u.a. mit den
+        DFG-Fachinformationsdiensten (FIDs) und überregional
+        tätigen Kompetenzzentren</p>
+      <a href="../about/partner.xml">Link</a>
+    </div></section><section xml:lang="en" title="Link-Tile-Five"><div class="cms-tiles">
+      <h1>Cooperation partners</h1>
+      <p>The MWS cooperates in particular with the DFG's specialist
+        information services (FIDs) and supra-regionally active
+        competence centres</p>
+      <a href="../about/partner.xml">Link</a>
+    </div></section><section xml:lang="fr" title="Link-Tile-Five"><div class="cms-tiles">
+      <h1>Coopérations</h1>
+      <p>La MWS coopère en entre autres avec les services
+        d'information spécialisés (FID) de la Deutsche
+        Forschungsgemeinschaft (DFG) et des centres de
+        compétence actifs au niveau suprarégional</p>
+      <a href="../about/partner.xml">Link</a>
+    </div></section><section xml:lang="de" title="Link-Tile-Six"><div class="cms-tiles">
+      <h1>Podcast</h1>
+      <p>Wissen entgrenzen - Der Podcast der Max Weber Stiftung</p>
+      <a href="https://www.maxweberstiftung.de/podcast.html">Link</a>
+    </div></section><section xml:lang="en" title="Link-Tile-Six"><div class="cms-tiles">
+      <h1>Podcast</h1>
+      <p>Wissen entgrenzen - The Max Weber Foundation Podcast</p>
+      <a href="https://www.maxweberstiftung.de/podcast.html">Link</a>
+    </div></section><section xml:lang="fr" title="Link-Tile-Six"><div class="cms-tiles">
+      <h1>Podcast</h1>
+      <p>Wissen entgrenzen - The Max Weber Foundation Podcast</p>
+      <a href="https://www.maxweberstiftung.de/podcast.html">Link</a>
+    </div></section><meta><log lastEditor="kneumann" date="2023-12-20" time="12:35" /></meta></MyCoReWebPage>
