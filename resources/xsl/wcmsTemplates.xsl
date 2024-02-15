@@ -803,7 +803,7 @@
             <h2>
               <xsl:value-of select="i18n:translate('pp.page.home.publications')" disable-output-escaping="yes" />
             </h2>
-            <div class="pp_carousel-slide" />
+            <xsL:call-template name="pp_carousel-slide" />
           </div>
         </div>
       </div>
@@ -842,7 +842,7 @@
 
   </xsl:template>
 
-  <xsl:template match="div[contains(@class, 'pp_carousel-slide')]">
+  <xsl:template name="pp_carousel-slide">
 
     <div class="carousel slide" data-interval="0" data-ride="carousel"
       id="carousel-publications"><!-- Indicators -->
