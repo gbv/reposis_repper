@@ -49,9 +49,7 @@
                 </div>
               </div>
               <div class="intro-text">
-                <p>
-                  <xsl:copy-of select="$introContent/p" />
-                </p>
+                <xsl:copy-of select="$introContent/p" />
               </div>
               <div class="decoration">
                 <img
@@ -83,7 +81,7 @@
                   <xsl:value-of select="$newsCurrentEntry/h2" />
                 </div>
                 <div class="teaser__text">
-                  <xsl:copy-of select="$newsCurrentEntry/p" />
+                  <xsl:value-of select="$newsCurrentEntry/p" />
                 </div>
                 <div class="teaser__button">
                   <a>
@@ -108,7 +106,7 @@
                   <xsl:value-of select="$newsCurrentEntry/h2" />
                 </div>
                 <div class="teaser__text">
-                  <xsl:copy-of select="$newsCurrentEntry/p" />
+                  <xsl:value-of select="$newsCurrentEntry/p" />
                 </div>
                 <div class="teaser__button">
                   <a>
@@ -133,7 +131,7 @@
                   <xsl:value-of select="$newsCurrentEntry/h2" />
                 </div>
                 <div class="teaser__text">
-                  <xsl:copy-of select="$newsCurrentEntry/p" />
+                  <xsl:value-of select="$newsCurrentEntry/p" />
                 </div>
                 <div class="teaser__button">
                   <a>
@@ -158,7 +156,7 @@
                   <xsl:value-of select="$newsCurrentEntry/h2" />
                 </div>
                 <div class="teaser__text">
-                  <xsl:copy-of select="$newsCurrentEntry/p" />
+                  <xsl:value-of select="$newsCurrentEntry/p" />
                 </div>
                 <div class="teaser__button">
                   <a>
@@ -209,7 +207,7 @@
                     <xsl:value-of select="../../section[contains(@xml:lang, $CurrentLang) and contains(@title, 'Link-Tile-One')]/div[contains(@class, 'cms-tiles')]/h1" />
                   </h3>
                   <p class="p-tile__text">
-                    <xsl:copy-of select="../../section[contains(@xml:lang, $CurrentLang) and contains(@title, 'Link-Tile-One')]/div[contains(@class, 'cms-tiles')]/p" />
+                    <xsl:value-of select="../../section[contains(@xml:lang, $CurrentLang) and contains(@title, 'Link-Tile-One')]/div[contains(@class, 'cms-tiles')]/p" />
                   </p>
                 </div>
               </a>
@@ -233,7 +231,7 @@
                     <xsl:value-of select="../../section[contains(@xml:lang, $CurrentLang) and contains(@title, 'Link-Tile-Two')]/div[contains(@class, 'cms-tiles')]/h1" />
                   </h3>
                   <p class="p-tile__text">
-                    <xsl:copy-of select="../../section[contains(@xml:lang, $CurrentLang) and contains(@title, 'Link-Tile-Two')]/div[contains(@class, 'cms-tiles')]/p" />
+                    <xsl:value-of select="../../section[contains(@xml:lang, $CurrentLang) and contains(@title, 'Link-Tile-Two')]/div[contains(@class, 'cms-tiles')]/p" />
                   </p>
                 </div>
               </a>
@@ -257,7 +255,7 @@
                     <xsl:value-of select="../../section[contains(@xml:lang, $CurrentLang) and contains(@title, 'Link-Tile-Three')]/div[contains(@class, 'cms-tiles')]/h1" />
                   </h3>
                   <p class="p-tile__text">
-                    <xsl:copy-of select="../../section[contains(@xml:lang, $CurrentLang) and contains(@title, 'Link-Tile-Three')]/div[contains(@class, 'cms-tiles')]/p" />
+                    <xsl:value-of select="../../section[contains(@xml:lang, $CurrentLang) and contains(@title, 'Link-Tile-Three')]/div[contains(@class, 'cms-tiles')]/p" />
                   </p>
                 </div>
               </a>
@@ -281,7 +279,7 @@
                     <xsl:value-of select="../../section[contains(@xml:lang, $CurrentLang) and contains(@title, 'Link-Tile-Four')]/div[contains(@class, 'cms-tiles')]/h1" />
                   </h3>
                   <p class="p-tile__text">
-                    <xsl:copy-of select="../../section[contains(@xml:lang, $CurrentLang) and contains(@title, 'Link-Tile-Four')]/div[contains(@class, 'cms-tiles')]/p" />
+                    <xsl:value-of select="../../section[contains(@xml:lang, $CurrentLang) and contains(@title, 'Link-Tile-Four')]/div[contains(@class, 'cms-tiles')]/p" />
                   </p>
                 </div>
               </a>
@@ -305,7 +303,7 @@
                     <xsl:value-of select="../../section[contains(@xml:lang, $CurrentLang) and contains(@title, 'Link-Tile-Five')]/div[contains(@class, 'cms-tiles')]/h1" />
                   </h3>
                   <p class="p-tile__text">
-                    <xsl:copy-of select="../../section[contains(@xml:lang, $CurrentLang) and contains(@title, 'Link-Tile-Five')]/div[contains(@class, 'cms-tiles')]/p" />
+                    <xsl:value-of select="../../section[contains(@xml:lang, $CurrentLang) and contains(@title, 'Link-Tile-Five')]/div[contains(@class, 'cms-tiles')]/p" />
                   </p>
                   </div>
               </a>
@@ -329,7 +327,7 @@
                     <xsl:value-of select="../../section[contains(@xml:lang, $CurrentLang) and contains(@title, 'Link-Tile-Six')]/div[contains(@class, 'cms-tiles')]/h1" />
                   </h3>
                   <p class="p-tile__text">
-                    <xsl:copy-of select="../../section[contains(@xml:lang, $CurrentLang) and contains(@title, 'Link-Tile-Six')]/div[contains(@class, 'cms-tiles')]/p" />
+                    <xsl:value-of select="../../section[contains(@xml:lang, $CurrentLang) and contains(@title, 'Link-Tile-Six')]/div[contains(@class, 'cms-tiles')]/p" />
                   </p>
                 </div>
               </a>
