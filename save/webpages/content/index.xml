@@ -151,27 +151,27 @@
     </div></section><section xml:lang="de" title="Link-Tile-One"><div class="cms-tiles">
       <h1>Publikationen</h1>
       <p>Volltexte der digitalen Erst- und Zweitveröffentlichungen in perspectivia.net</p>
-      <a href="../../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=search%2Fsimple_intern.xed">Link</a>
+      <a href="../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=search%2Fsimple_intern.xed">Link</a>
     </div></section><section xml:lang="en" title="Link-Tile-One"><div class="cms-tiles">
       <h1>Publications</h1>
       <p>Initial digital publications and secondary publications in perspectivia.net</p>
-      <a href="../../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=search%2Fsimple_intern.xed">Link</a>
+      <a href="../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=search%2Fsimple_intern.xed">Link</a>
     </div></section><section xml:lang="fr" title="Link-Tile-One"><div class="cms-tiles">
       <h1>Publications</h1>
       <p>Publications numériques originales et rééditées dans perspectivia.net</p>
-      <a href="../../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=search%2Fsimple_intern.xed">Link</a>
+      <a href="../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=search%2Fsimple_intern.xed">Link</a>
     </div></section><section xml:lang="de" title="Link-Tile-Two"><div class="cms-tiles">
       <h1>Quellen und Datenbanken</h1>
       <p>Digitalisierte Quellensammlungen, historische Datenbestände und kritische Editionen</p>
-      <a href="../../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=20&amp;rows=20">Link</a>
+      <a href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=20&amp;rows=20">Link</a>
     </div></section><section xml:lang="en" title="Link-Tile-Two"><div class="cms-tiles">
       <h1>Sources and databases</h1>
       <p>Digitised source collections, historical datasets and critical editions</p>
-      <a href="../../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=20&amp;rows=20">Link</a>
+      <a href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=20&amp;rows=20">Link</a>
     </div></section><section xml:lang="fr" title="Link-Tile-Two"><div class="cms-tiles">
       <h1>Sources et bases de données</h1>
       <p>Collections de sources numérisées, bases de données historiques et éditions critiques</p>
-      <a href="../../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=20&amp;rows=20">Link</a>
+      <a href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed&amp;start=20&amp;rows=20">Link</a>
     </div></section><section xml:lang="de" title="Link-Tile-Three"><div class="cms-tiles">
       <h1>Blogs</h1>
       <p>Wissen in Verbindung - Weber 2.0 ist das Portal für
@@ -193,15 +193,15 @@
     </div></section><section xml:lang="de" title="Link-Tile-Four"><div class="cms-tiles">
       <h1>Forschungsdaten</h1>
       <p>Seit 2023 werden Forschungsdaten in perspevivia.net verzeichnet</p>
-      <a href="../../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aresearch_data%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed">Link</a>
+      <a href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aresearch_data%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed">Link</a>
     </div></section><section xml:lang="en" title="Link-Tile-Four"><div class="cms-tiles">
       <h1>Sources and databases</h1>
       <p>In 2023 perspectivia.net started collecting research data</p>
-      <a href="../../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aresearch_data%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed">Link</a>
+      <a href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aresearch_data%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed">Link</a>
     </div></section><section xml:lang="fr" title="Link-Tile-Four"><div class="cms-tiles">
       <h1>Données de recherche</h1>
       <p>Depuis 2023, perspectivia.net collecte des données de recherche</p>
-      <a href="../../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aresearch_data%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed">Link</a>
+      <a href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Aresearch_data%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed">Link</a>
     </div></section><section xml:lang="de" title="Link-Tile-Five"><div class="cms-tiles">
       <h1>Kooperationspartner</h1>
       <p>Die MWS kooperiert u.a. mit den

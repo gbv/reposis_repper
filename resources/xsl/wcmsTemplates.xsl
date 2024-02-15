@@ -26,7 +26,7 @@
     <div class="page-section page-section__intro">
       <div class="container">
 
-        <!-- wellcome message -->
+        <!-- welcome message -->
         <xsl:variable
           name="introContent"
           select="../../section[contains(@xml:lang, $CurrentLang)]/div[contains(@class, 'cms-intro')]" />
@@ -812,12 +812,12 @@
     </div>
 
     <!-- scripts -->
-    <script type="text/javascript" src="../../js/jquery.number.js"></script>
+    <script type="text/javascript" src="../js/jquery.number.js"></script>
     <script>
       $( document ).ready(function() {
         $.ajax({
           type: "GET",
-          url: "../../api/v1/search?q=objectType:mods AND state:published AND category.top:\"mir_genres:article\"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+          url: "../api/v1/search?q=objectType:mods AND state:published AND category.top:\"mir_genres:article\"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
           dataType: "jsonp",
           success: function (data) {
             $('#p-statistic__articles__value').text($.number(data.response.numFound,0, ',', '.'));
@@ -825,7 +825,7 @@
         });
         $.ajax({
           type: "GET",
-          url: "../../api/v1/search?q=objectType:mods AND state:published AND category.top:\"mir_genres:research_data\"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+          url: "../api/v1/search?q=objectType:mods AND state:published AND category.top:\"mir_genres:research_data\"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
           dataType: "jsonp",
           success: function (data) {
             $('#p-statistic__research__value').text($.number(data.response.numFound,0, ',', '.'));
@@ -833,7 +833,7 @@
         });
         $.ajax({
           type: "GET",
-          url: "../../api/v1/search?q=objectType:mods AND state:published AND category.top:\"mir_genres:review\"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+          url: "../api/v1/search?q=objectType:mods AND state:published AND category.top:\"mir_genres:review\"&amp;rows=0&amp;wt=json&amp;json.wrf=?",
           dataType: "jsonp",
           success: function (data) {
             $('#p-statistic__reviews__value').text($.number(data.response.numFound,0, ',', '.'));
