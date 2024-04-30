@@ -586,7 +586,7 @@
                           <img
                             alt=""
                             class="img-fluid slider-institute-image"
-                            src="{$WebApplicationBaseURL}images/institutes/mwno-figure.png" />
+                            src="{$WebApplicationBaseURL}images/institutes/mwno-figure-gray.png" />
                         </div>
                         <div class="slider-institute-title">
                           <xsl:value-of select="i18n:translate('pp.page.home.institutions.mwno')" disable-output-escaping="yes" />

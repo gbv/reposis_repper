@@ -9,7 +9,7 @@
           src="../../../images/logos/mwno-logo-de.svg" />
         <h1 class="pp-institute-graphic__headline">Max Weber Netzwerk Osteuropa</h1>
         <img alt="Grafik für Max-Weber-Stiftung" class="pp-institute-graphic__figure"
-          src="../../../images/institutes/mwno-figure.png"
+          src="../../../images/institutes/mwno-figure-gray.png"
           title="Max Weber Netzwerk Osteuropa" />
       </div>
 
@@ -71,7 +71,7 @@
           src="../../../images/logos/mwno-logo-en.svg" />
         <h1 class="pp-institute-graphic__headline">Max Weber Network Eastern Europe</h1>
         <img alt="Grafik für Max-Weber-Stiftung" class="pp-institute-graphic__figure"
-          src="../../../images/institutes/mwno-figure.png"
+          src="../../../images/institutes/mwno-figure-gray.png"
           title="Max Weber Network Eastern Europe" />
       </div>
 
@@ -131,7 +131,7 @@
           src="../../../images/logos/mwno-logo-en.svg" />
         <h1 class="pp-institute-graphic__headline">Max Weber Network Eastern Europe</h1>
         <img alt="Grafik für Max-Weber-Stiftung" class="pp-institute-graphic__figure"
-          src="../../../images/institutes/mwno-figure.png"
+          src="../../../images/institutes/mwno-figure-gray.png"
           title="Max Weber Network Eastern Europe" />
       </div>
 
