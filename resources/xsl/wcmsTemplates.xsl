@@ -441,6 +441,7 @@
                       </a>
                     </div>
 
+
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/dhi-moskau.xml"
@@ -575,6 +576,26 @@
 
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
+                        href="about/institutes/mwsosteuropa.xml"
+                        class="slider-institute slider-institute-mwno">
+                        <div class="slider-institute-figure">
+                          <img
+                            alt=""
+                            class="slider-institute-logo"
+                            src="{$WebApplicationBaseURL}images/logos/mwno-logo-{$CurrentLang}.svg" />
+                          <img
+                            alt=""
+                            class="img-fluid slider-institute-image"
+                            src="{$WebApplicationBaseURL}images/institutes/mwno-figure-gray.png" />
+                        </div>
+                        <div class="slider-institute-title">
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.mwno')" disable-output-escaping="yes" />
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
+                      <a
                         href="about/institutes/oib.xml"
                         class="slider-institute slider-institute-oib">
                         <div class="slider-institute-figure">
@@ -633,6 +654,12 @@
                       </a>
                     </div>
 
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row carousel-item__content-box">
+
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/mws.xml"
@@ -652,12 +679,6 @@
                         </div>
                       </a>
                     </div>
-
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="row carousel-item__content-box">
 
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
@@ -719,6 +740,12 @@
                       </a>
                     </div>
 
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row carousel-item__content-box">
+
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/ieg.xml"
@@ -738,12 +765,6 @@
                         </div>
                       </a>
                     </div>
-
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="row carousel-item__content-box">
 
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
@@ -866,7 +887,7 @@
               <xsl:variable name="newest_series_id" select="exslt:node-set($newest_series)//doc/str[@name='id']/text()" />
               <xsl:variable name="newest_series_title" select="exslt:node-set($newest_series)//doc/str[@name='search_result_link_text']/text()" />
               <xsl:variable name="newest_series_mcrobject" select="document(concat('mcrobject:', $newest_series_id))" />
-  
+
               <img
                 alt=""
                 class="carousel-item__image"
@@ -902,7 +923,7 @@
               <xsl:variable name="newest_collection_id" select="exslt:node-set($newest_collection)//doc/str[@name='id']/text()" />
               <xsl:variable name="newest_collection_title" select="exslt:node-set($newest_collection)//doc/str[@name='search_result_link_text']/text()" />
               <xsl:variable name="newest_collection_mcrobject" select="document(concat('mcrobject:', $newest_collection_id))" />
-  
+
               <img
                 alt=""
                 class="carousel-item__image"
@@ -938,7 +959,7 @@
               <xsl:variable name="newest_source_id" select="exslt:node-set($newest_source)//doc/str[@name='id']/text()" />
               <xsl:variable name="newest_source_title" select="exslt:node-set($newest_source)//doc/str[@name='search_result_link_text']/text()" />
               <xsl:variable name="newest_source_mcrobject" select="document(concat('mcrobject:', $newest_source_id))" />
-  
+
               <img
                 alt=""
                 class="carousel-item__image"
@@ -974,7 +995,7 @@
               <xsl:variable name="newest_workingpaper_id" select="exslt:node-set($newest_workingpaper)//doc/str[@name='id']/text()" />
               <xsl:variable name="newest_workingpaper_title" select="exslt:node-set($newest_workingpaper)//doc/str[@name='search_result_link_text']/text()" />
               <xsl:variable name="newest_workingpaper_mcrobject" select="document(concat('mcrobject:', $newest_workingpaper_id))" />
-  
+
               <img
                 alt=""
                 class="carousel-item__image"
