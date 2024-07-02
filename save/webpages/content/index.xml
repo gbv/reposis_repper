@@ -42,18 +42,12 @@
           Wissenschaft.
         </p>
     </div></section><section xml:lang="en" title="Welcome"><div class="cms-intro">
-        <h1>Free access</h1>
-        <h2>to knowledge</h2>
-        <p>
-          The publication platform perspectivia.net sees itself as an international, epoch-spanning
-          and interdisciplinary portal for digital publications in the humanities. This infrastructure
-          of the <a href="https://www.maxweberstiftung.de/en">Max Weber Foundation - German Humanities
-          Institutes Abroad</a> provides free access to publications by the institutes and their
-          cooperation partners. This Max Weber Foundation is committed to the principles of Open
-          Access, thus perspectivia.net promotes free access to knowledge and accompanies the
-          transformation of the humanities towards an open science.
-        </p>
-    </div></section><section xml:lang="fr" title="Bienvenue"><div class="cms-intro">
+<h1>Free access</h1>
+
+<h2>to knowledge</h2>
+
+<p>The publication platform perspectivia.net sees itself as an international, epoch-spanning and interdisciplinary portal for digital publications in the humanities. This infrastructure of the <a href="https://www.maxweberstiftung.de/en">Max Weber Foundation - German Humanities Institutes Abroad</a> provides free access to publications by the institutes and their cooperation partners. The Max Weber Foundation is committed to the principles of Open Access, thus perspectivia.net promotes free access to knowledge and accompanies the transformation of the humanities towards an open science.</p>
+</div></section><section xml:lang="fr" title="Bienvenue"><div class="cms-intro">
         <h1>Libre accès</h1>
         <h2>au savoir</h2>
         <p>
@@ -137,30 +131,30 @@
   <p>Papstregesten für die Erzbischöfe von Reims online verfügbar</p>
   <a href="https://qed.perspectivia.net/gallia-pontificia-online/">En savoir plus</a>
 </div></section><section xml:lang="de" title="Link-Tile-One"><div class="cms-tiles">
-<h1>Publikationen</h1>
+<h1>Suche &amp; Blättern</h1>
 
-<p>Volltexte der digitalen Erst- und Zweitveröffentlichungen in perspectivia.net</p>
+<p>Volltexte der digitalen Erst- und Zweitveröffentlichung, Forschungsdaten und Quelleneditionen in perspectivia.net</p>
 <a href="../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc">Link</a></div></section><section xml:lang="en" title="Link-Tile-One"><div class="cms-tiles">
-  <h1>Publications</h1>
-  <p>Initial digital publications and secondary publications in perspectivia.net</p>
-  <a href="../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc">Link</a>
-</div></section><section xml:lang="fr" title="Link-Tile-One"><div class="cms-tiles">
-  <h1>Publications</h1>
-  <p>Publications numériques originales et rééditées dans perspectivia.net</p>
-  <a href="../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc">Link</a>
-</div></section><section xml:lang="de" title="Link-Tile-Two"><div class="cms-tiles">
-<h1>Quellen und Datenbanken</h1>
+<h1>Search &amp; browse</h1>
 
-<p>Digitalisierte Quellensammlungen, historische Datenbestände und kritische Editionen</p>
-<a href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc">Link</a></div></section><section xml:lang="en" title="Link-Tile-Two"><div class="cms-tiles">
-  <h1>Sources and databases</h1>
-  <p>Digitised source collections, historical datasets and critical editions</p>
-  <a href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc">Link</a>
-</div></section><section xml:lang="fr" title="Link-Tile-Two"><div class="cms-tiles">
-  <h1>Sources et bases de données</h1>
-  <p>Collections de sources numérisées, bases de données historiques et éditions critiques</p>
-  <a href="../servlets/solr/select?q=%2Bcategory.top%3A%22mir_genres%5C%3Asource_edition%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc">Link</a>
-</div></section><section xml:lang="de" title="Link-Tile-Three"><div class="cms-tiles">
+<p>Full texts of the digital first and second publication, research data and source editions in perspectivia.net</p>
+<a href="../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc">Link</a></div></section><section xml:lang="fr" title="Link-Tile-One"><div class="cms-tiles">
+<h1>Rechercher &amp; feuilleter</h1>
+
+<p>Textes intégraux de la publication numérique primaire ou de l’exploitation secondaire, des données de recherche et des éditions et des sources numériques dans perspectivia.net</p>
+<a href="../servlets/solr/select?q=%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc">Link</a></div></section><section xml:lang="de" title="Link-Tile-Two"><div class="cms-tiles">
+<h1>QED</h1>
+
+<p>Mit QED stellt die Max Weber Stiftung (MWS) unter dem Dach von perspectivia.net ein eigenes Portal für die Veröffentlichung von digitalen Quellensammlungen und Editionen bereit.</p>
+<a href="https://qed.perspectivia.net/">Link</a></div></section><section xml:lang="en" title="Link-Tile-Two"><div class="cms-tiles">
+<h1>QED</h1>
+
+<p>QED is the Max Weber Foundation's (MWS) portal for the publication of digital sources and editions under the umbrella of perspectivia.net.</p>
+<a href="https://qed.perspectivia.net/">Link</a></div></section><section xml:lang="fr" title="Link-Tile-Two"><div class="cms-tiles">
+<h1>QED</h1>
+
+<p>Avec QED, la Fondation Max Weber (MWS) met à disposition, sous l'égide de perspectivia.net, un portail désigné pour la publication de collections de sources et d'éditions numériques.</p>
+<a href="https://qed.perspectivia.net/">Link</a></div></section><section xml:lang="de" title="Link-Tile-Three"><div class="cms-tiles">
 <h1>Blogs</h1>
 
 <p>Wissen in Verbindung - Weber 2.0 ist das Portal für wissenschaftliche Blogs der Max Weber Stiftung, ihrer Institute und Partner</p>
@@ -212,4 +206,4 @@
   <h1>Podcast</h1>
   <p>Wissen entgrenzen - The Max Weber Foundation Podcast</p>
   <a href="https://www.maxweberstiftung.de/podcast.html">Link</a>
-</div></section><meta><log lastEditor="administrator" date="2024-04-09" time="15:40" /></meta></MyCoReWebPage>
+</div></section><meta><log lastEditor="mwiegel" date="2024-07-02" time="08:44" /></meta></MyCoReWebPage>
