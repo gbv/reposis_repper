@@ -2,28 +2,36 @@
 <MyCoReWebPage>
 
   <section xml:lang="de"
-    title="Max Weber Netzwerk Osteuropa">
+    title="Max Weber Netzwerk Osteuropa (MWN)">
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="de">
         <img alt="MWS-Logo" class="pp-institute-graphic__logo"
           src="../../../images/logos/mwno-logo-de.svg" />
-        <h1 class="pp-institute-graphic__headline">Max Weber Netzwerk Osteuropa</h1>
-        <img alt="Grafik für Max-Weber-Stiftung" class="pp-institute-graphic__figure"
+        <h1 class="pp-institute-graphic__headline">Max Weber Netzwerk Osteuropa (MWN)</h1>
+        <img alt="Grafik für Max Weber Netzwerk Osteuropa (MWN)" class="pp-institute-graphic__figure"
           src="../../../images/institutes/mwno-figure-gray.png"
-          title="Max Weber Netzwerk Osteuropa" />
+          title="Max Weber Netzwerk Osteuropa (MWN)" />
       </div>
 
       <div class="col-12 pp-contact" lang="de">
         <h2>Kontakt</h2>
-        <h3>Max Weber Netzwerk Osteuropa</h3>
+        <h3>Max Weber Netzwerk Osteuropa (MWN)</h3>
 
         <div class="pp-contact__list">
           <div class="pp-contact__item">
-            - Geschäftsstelle -<br />
-            Max Weber Stiftung<br />
+            c/o Max Weber Stiftung<br />
             Rheinallee 6<br />
             53173 Bonn
           </div>
+
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Telefon:</td>
+                <td>+49 (228) 37786 74</td>
+              </tr>
+            </tbody>
+          </table>
 
           <table class="pp-contact-item">
             <tbody>
@@ -64,28 +72,36 @@
 
 
   <section xml:lang="en"
-    title="Max Weber Network Eastern Europe">
+    title="Max Weber Network Eastern Europe (MWN)">
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="en">
         <img alt="MWS-Logo" class="pp-institute-graphic__logo"
           src="../../../images/logos/mwno-logo-en.svg" />
-        <h1 class="pp-institute-graphic__headline">Max Weber Network Eastern Europe</h1>
-        <img alt="Grafik für Max-Weber-Stiftung" class="pp-institute-graphic__figure"
+        <h1 class="pp-institute-graphic__headline">Max Weber Network Eastern Europe (MWN)</h1>
+        <img alt="Grafik für Max Weber Netzwerk Osteuropa (MWN)" class="pp-institute-graphic__figure"
           src="../../../images/institutes/mwno-figure-gray.png"
-          title="Max Weber Network Eastern Europe" />
+          title="Max Weber Network Eastern Europe (MWN)" />
       </div>
 
       <div class="col-12 pp-contact" lang="en">
         <h2>Contact</h2>
-        <h3>Max Weber Network Eastern Europe</h3>
+        <h3>Max Weber Network Eastern Europe (MWN)</h3>
 
         <div class="pp-contact__list">
           <div class="pp-contact__item">
-            - Business Office -<br />
-            Max Weber Stiftung<br />
+            c/o Max Weber Stiftung<br />
             Rheinallee 6<br />
             53173 Bonn
           </div>
+
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Phone:</td>
+                <td>+49 (228) 37786 74</td>
+              </tr>
+            </tbody>
+          </table>
 
           <table class="pp-contact-item">
             <tbody>
@@ -124,28 +140,36 @@
   </section>
 
   <section xml:lang="fr"
-    title="Max Weber Network Eastern Europe">
+    title="Max Weber Network Eastern Europe (MWN)">
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="fr">
         <img alt="MWS-Logo" class="pp-institute-graphic__logo"
           src="../../../images/logos/mwno-logo-en.svg" />
-        <h1 class="pp-institute-graphic__headline">Max Weber Network Eastern Europe</h1>
-        <img alt="Grafik für Max-Weber-Stiftung" class="pp-institute-graphic__figure"
+        <h1 class="pp-institute-graphic__headline">Max Weber Network Eastern Europe (MWN)</h1>
+        <img alt="Grafik für Max Weber Netzwerk Osteuropa (MWN)" class="pp-institute-graphic__figure"
           src="../../../images/institutes/mwno-figure-gray.png"
-          title="Max Weber Network Eastern Europe" />
+          title="Max Weber Network Eastern Europe (MWN)" />
       </div>
 
       <div class="col-12 pp-contact" lang="fr">
         <h2>Contact</h2>
-        <h3>Max Weber Network Eastern Europe</h3>
+        <h3>Max Weber Network Eastern Europe (MWN)</h3>
 
         <div class="pp-contact__list">
           <div class="pp-contact__item">
-            - Business Office -<br />
-            Max Weber Stiftung<br />
+            c/o Max Weber Stiftung<br />
             Rheinallee 6<br />
             53173 Bonn
           </div>
+
+          <table class="pp-contact__item">
+            <tbody>
+              <tr>
+                <td class="pp-contact__subitem">Téléphone:</td>
+                <td>+49 (228) 37786 74</td>
+              </tr>
+            </tbody>
+          </table>
 
           <table class="pp-contact-item">
             <tbody>
