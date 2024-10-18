@@ -6,7 +6,7 @@
         <img alt="DHIM-Logo" class="pp-institute-graphic__logo"
           src="../../../images/logos/dhi-moskau.png"
           style="width: 400px; height: 94px;" />
-        <h1 class="pp-institute-graphic__headline">Deutsches Historisches Institut Moskau</h1>
+        <h1 class="pp-institute-graphic__headline">Deutsches Historisches Institut Moskau (2005-2024)</h1>
         <img alt="Foto Moskau" class="pp-institute-graphic__figure"
           src="../../../images/institutes/dhi-moskau-figure.jpg"
           title="Deutsches Historisches Institut Moskau" />
@@ -14,43 +14,13 @@
 
       <div class="col-12 pp-contact" lang="de">
         <h2>Kontakt</h2>
-
-        <h3>Deutsches Historisches Institut Moskau</h3>
-
-        <div class="pp-contact__list">
-          <div class="pp-contact__item">Voroncovskaja ulica 8/7<br /> 109044 Moskau</div>
-
-          <table class="pp-contact__item">
-            <tbody>
-              <tr>
-                <td class="pp-contact__subitem">Telefon:</td>
-                <td>+7 495 730 52 49</td>
-              </tr>
-              <tr>
-                <td class="pp-contact__subitem">Fax:</td>
-                <td>+7 495 120 52 13</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <table class="pp-contact__item">
-            <tbody>
-              <tr>
-                <td class="pp-contact__subitem">E-Mail:</td>
-                <td>
-                  <span class="madress">dhi [at] dhi-moskau.org</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="pp-contact__subitem">Internet:</td>
-                <td>
-                  <a class="external-link" href="https://www.dhi-moskau.org">
-                    https://www.dhi-moskau.org</a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        <h3>Deutsches Historisches Institut Moskau (2005-2024)</h3>
+        <p>
+          Das Deutsche Historische Institut Moskau, das 2005 gegründet wurde, um den Austausch zwischen russischen und deutschen Historikern sowie Forschungsprojekte zur russischen Geschichte und den deutsch-russischen Beziehungen zu fördern, wurde durch das russische Justizministerium im Juni 2024 auf die Liste der „unerwünschten Organisationen“ gesetzt. Bereits unmittelbar nach dem russischen Angriff auf die gesamte Ukraine hatte das Institut alle Veranstaltungen sowie die Zusammenarbeit mit staatlichen russischen Institutionen eingestellt. Die Publikationsreihen des DHI Moskau auf perspectivia.net werden weiterhin in der ursprünglichen Fassung zur Verfügung stehen, jedoch nicht fortgeführt.
+        </p>
+        <p>
+          Um die Osteuropakompetenz der MWS zu erhalten und Freiräume für russlandbezogene Forschung zu schaffen, wird seit 2023 das dezentrale Max Weber Netzwerk Osteuropa <a href="https://mwsosteuropa.hypotheses.org/">https://mwsosteuropa.hypotheses.org/</a> aufgebaut. Das Netzwerk umfasst jeweils ein Büro in Tbilisi, in Vilnius und in Helsinki. Publikationsangebote des Netzwerks finden Sie unter <a href="https://perspectivia.net/content/about/institutes/mwn.xml">https://perspectivia.net/content/about/institutes/mwn.xml</a>.
+        </p>
       </div>
 
       <div class="col-12 pp-publications">
@@ -74,51 +44,19 @@
         <img alt="DHIM-Logo" class="pp-institute-graphic__logo"
           src="../../../images/logos/dhi-moskau.png"
           style="width: 400px; height: 94px;" />
-        <h1 class="pp-institute-graphic__headline">German Historical Institute Moscow</h1>
+        <h1 class="pp-institute-graphic__headline">German Historical Institute Moscow (2005-2024)</h1>
         <img alt="Foto Moskau" class="pp-institute-graphic__figure"
           src="../../../images/institutes/dhi-moskau-figure.jpg"
           title="Deutsches Historisches Institut Moskau" />
       </div>
 
-      <div class="col-12 pp-contact" lang="en">
-        <h2>Contact</h2>
-
-        <h3>German Historical Institute Moscow</h3>
-
-        <div class="pp-contact__list">
-          <div class="pp-contact__item">Voroncovskaja ulica 8/7<br /> 109044 Moskau</div>
-
-          <table class="pp-contact__item">
-            <tbody>
-              <tr>
-                <td class="pp-contact__subitem">Phone:</td>
-                <td>+7 495 730 52 49</td>
-              </tr>
-              <tr>
-                <td class="pp-contact__subitem">Fax:</td>
-                <td>+7 495 120 52 13</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <table class="pp-contact__item">
-            <tbody>
-              <tr>
-                <td class="pp-contact__subitem">E-Mail:</td>
-                <td>
-                  <span class="madress">dhi [at] dhi-moskau.org</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="pp-contact__subitem">Internet:</td>
-                <td>
-                  <a class="external-link" href="https://www.dhi-moskau.org">
-                    https://www.dhi-moskau.org</a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      <div class="col-12 pp-info mt-3" lang="en">
+        <p>
+          The German Historical Institute Moscow, which was founded in 2005 to support exchange between Russian and German historians as well as research projects on Russian history and German-Russian relations, was placed on the list of ‘undesirable organisations’ by the Russian Ministry of Justice in June 2024. Immediately after the Russia’s full-scale invasion of Ukraine, the institute suspended all events and cooperation with Russian state institutions. The GHI Moscow's publication series on perspectivia.net will remain available in their original version, but will not be continued.
+        </p>
+        <p>
+          In order to maintain the MWS's expertise in Eastern Europe and create space for Russia-related research, the decentralised Max Weber Network Eastern Europe <a href="https://mwsosteuropa.hypotheses.org/">https://mwsosteuropa.hypotheses.org/</a> has been established since 2023. The network comprises offices in Tbilisi, Vilnius and Helsinki. The network's publications can be found at <a href="https://perspectivia.net/content/about/institutes/mwn.xml">https://perspectivia.net/content/about/institutes/mwn.xml</a>.
+        </p>
       </div>
 
       <div class="col-12 pp-publications">
@@ -142,51 +80,19 @@
         <img alt="DHIM-Logo" class="pp-institute-graphic__logo"
           src="../../../images/logos/dhi-moskau.png"
           style="width: 400px; height: 94px;" />
-        <h1 class="pp-institute-graphic__headline">Institut historique allemand Moscou</h1>
+        <h1 class="pp-institute-graphic__headline">Institut historique allemand Moscou (2005-2024)</h1>
         <img alt="Foto Moskau" class="pp-institute-graphic__figure"
           src="../../../images/institutes/dhi-moskau-figure.jpg"
           title="Deutsches Historisches Institut Moskau" />
       </div>
 
-      <div class="col-12 pp-contact" lang="fr">
-        <h2>Contact</h2>
-
-        <h3>Institut historique allemand Moscou</h3>
-
-        <div class="pp-contact__list">
-          <div class="pp-contact__item">Voroncovskaja ulica 8/7<br /> 109044 Moskau</div>
-
-          <table class="pp-contact__item">
-            <tbody>
-              <tr>
-                <td class="pp-contact__subitem">Phone:</td>
-                <td>+7 495 730 52 49</td>
-              </tr>
-              <tr>
-                <td class="pp-contact__subitem">Fax:</td>
-                <td>+7 495 120 52 13</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <table class="pp-contact__item">
-            <tbody>
-              <tr>
-                <td class="pp-contact__subitem">E-Mail:</td>
-                <td>
-                  <span class="madress">dhi [at] dhi-moskau.org</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="pp-contact__subitem">Internet:</td>
-                <td>
-                  <a class="external-link" href="https://www.dhi-moskau.org">
-                    https://www.dhi-moskau.org</a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      <div class="col-12 pp-info mt-3" lang="fr">
+        <p>
+          The German Historical Institute Moscow, which was founded in 2005 to support exchange between Russian and German historians as well as research projects on Russian history and German-Russian relations, was placed on the list of ‘undesirable organisations’ by the Russian Ministry of Justice in June 2024. Immediately after the Russia’s full-scale invasion of Ukraine, the institute suspended all events and cooperation with Russian state institutions. The GHI Moscow's publication series on perspectivia.net will remain available in their original version, but will not be continued.
+        </p>
+        <p>
+          In order to maintain the MWS's expertise in Eastern Europe and create space for Russia-related research, the decentralised Max Weber Network Eastern Europe <a href="https://mwsosteuropa.hypotheses.org/">https://mwsosteuropa.hypotheses.org/</a> has been established since 2023. The network comprises offices in Tbilisi, Vilnius and Helsinki. The network's publications can be found at <a href="https://perspectivia.net/content/about/institutes/mwn.xml">https://perspectivia.net/content/about/institutes/mwn.xml</a>.
+        </p>
       </div>
 
       <div class="col-12 pp-publications">

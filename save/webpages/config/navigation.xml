@@ -103,10 +103,10 @@
                 <label xml:lang="en">German Institute for Japanese Studies Tokyo (DIJ)</label>
                 <label xml:lang="fr">Institut allemand des Études japonaises Tokyo (DIJ)</label>
             </item>
-            <item href="/content/about/institutes/mwsosteuropa.xml" replaceMenu="false" constrainPopUp="false">
-                <label xml:lang="de">Max Weber Netzwerk Osteuropa</label>
-                <label xml:lang="en">Max Weber Network Eastern Europe</label>
-                <label xml:lang="fr">Max Weber Network Eastern Europe</label>
+            <item href="/content/about/institutes/mwn.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Max Weber Netzwerk Osteuropa (MWN)</label>
+                <label xml:lang="en">Max Weber Network Eastern Europe (MWN)</label>
+                <label xml:lang="fr">Max Weber Network Eastern Europe (MWN)</label>
             </item>
             <item href="/content/about/institutes/oib.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Orient-Institut Beirut (OIB)</label>

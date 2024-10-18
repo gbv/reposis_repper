@@ -576,7 +576,7 @@
 
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
-                        href="about/institutes/mwsosteuropa.xml"
+                        href="about/institutes/mwn.xml"
                         class="slider-institute slider-institute-mwno">
                         <div class="slider-institute-figure">
                           <img
