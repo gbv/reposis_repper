@@ -16,7 +16,9 @@
     <xed:include ref="repper.subject.complex" before="abstract.repeated" />
     <xed:include ref="repper.ddc_time"        before="abstract.repeated" />
     <xed:include ref="repper.ddc_geo"         before="abstract.repeated" />
-    <xed:include ref="repper.relatedItem.original" after="related.item.search.of.all.items" />
+    <xed:include ref="repper.related.item.search.of.all.items" after="related.item.search.of.all.items" />
+    <xed:include ref="repper.relatedItem.original"             after="repper.related.item.search.of.all.items" />
+    <xed:remove ref="related.item.search.of.all.items" />
   </xed:modify>
 
   <!-- ========== extend editor-genres.xed ========== -->
@@ -462,25 +464,27 @@
     <fieldset>
       <legend class="mir-fieldset-legend">Original / Reproduktion von</legend><!-- TODO: i18n -->
       <xed:bind xpath="mods:relatedItem[@type='original']">
-        <xed:include ref="title.nonrequired" />
-        <xed:include ref="genre.simple.nonrequired" />
-        <xed:include ref="author.repeated" />
-        <xed:include ref="editor.repeated" />
-        <xed:include ref="identifier.repeated" />
-        <xed:include ref="year.issued" />
-        <xed:include ref="place" />
-        <xed:include ref="publisher" />
-        <xed:include ref="edition" />
-        <xed:include ref="host.pages" />
-        <xed:include ref="rights" />
+        <div class="mir-fieldset-content">
+          <xed:include ref="title.nonrequired" />
+          <xed:include ref="genre.simple.nonrequired" />
+          <xed:include ref="author.repeated" />
+          <xed:include ref="editor.repeated" />
+          <xed:include ref="identifier.repeated" />
+          <xed:include ref="year.issued" />
+          <xed:include ref="place" />
+          <xed:include ref="publisher" />
+          <xed:include ref="edition" />
+          <xed:include ref="host.pages" />
+          <xed:include ref="rights" />
+        </div>
       </xed:bind>
     </fieldset>
   </xed:template>
 
-  <xed:template id="related.item.search.of.all.items">
+  <xed:template id="repper.related.item.search.of.all.items">
     <fieldset>
       <legend class="mir-fieldset-legend">Related Item</legend><!-- TODO: i18n -->
-      <xed:repeat xpath="mods:relatedItem[not(@otherType)]" min="1" max="10">
+      <xed:repeat xpath="mods:relatedItem[not(@otherType) and not(@type='original')]" min="1" max="10">
         <div class="mir-fieldset-content mir-related-item-search">
           <div class="form-group row">
             <div class="col-md-3">
