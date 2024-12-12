@@ -16,6 +16,7 @@
     <xed:include ref="repper.subject.complex" before="abstract.repeated" />
     <xed:include ref="repper.ddc_time"        before="abstract.repeated" />
     <xed:include ref="repper.ddc_geo"         before="abstract.repeated" />
+    <xed:include ref="repper.relatedItem.original" after="related.item.search.of.all.items" />
   </xed:modify>
 
   <!-- ========== extend editor-genres.xed ========== -->
@@ -456,6 +457,21 @@
       </div>
     </xed:bind>
   </xed:template>
+
+  <xed:template id="repper.relatedItem.original">
+      <xed:bind xpath="mods:relatedItem[@type='original']">
+        <xed:include ref="title.nonrequired" />
+        <xed:include ref="genre.simple.nonrequired" />
+        <xed:include ref="author.repeated" />
+        <xed:include ref="editor.repeated" />
+        <xed:include ref="year.issued" />
+        <xed:include ref="place" />
+        <xed:include ref="publisher" />
+        <xed:include ref="edition" />
+        <xed:include ref="host.pages" />
+      </xed:bind>
+  </xed:template>
+
 
 </xed:template>
 
