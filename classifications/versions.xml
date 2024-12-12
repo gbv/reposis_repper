@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="versions">
+  <label xml:lang="en" text="Version" />
+  <label xml:lang="de" text="Publikationsversion" />
+  <label xml:lang="x-uri" text="https://perspectivia.net/api/v1/classifications/versions" />
+  <categories>
+    <category ID="EV">
+      <label xml:lang="de" text="Erstveröffentlichung" />
+    </category>
+    <category ID="ZV">
+      <label xml:lang="de" text="Zweitveröffentlichung" />
+    </category>
+  </categories>
+</mycoreclass>
