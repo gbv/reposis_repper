@@ -463,10 +463,10 @@
 
   <xed:template id="repper.relatedItem.original">
     <fieldset>
-      <legend class="mir-fieldset-legend">Original / Reproduktion von</legend><!-- TODO: i18n -->
+      <legend class="mir-fieldset-legend"><xed:output i18n="repper.relatedItem.original" /></legend>
       <xed:bind xpath="mods:relatedItem[@type='original']">
         <div class="mir-fieldset-content">
-          <xed:include ref="title.nonrequired" />
+          <xed:include ref="title.original.nonrequired" />
           <xed:include ref="genre.simple.nonrequired" />
           <xed:include ref="author.repeated" />
           <xed:include ref="editor.repeated" />
@@ -475,8 +475,11 @@
           <xed:include ref="place" />
           <xed:include ref="publisher" />
           <xed:include ref="edition" />
+          <xed:include ref="host.volume" />
+          <xed:include ref="host.issue" />
+          <xed:include ref="host.articlenumber" />
           <xed:include ref="host.pages" />
-          <xed:include ref="rights" />
+          <xed:include ref="rights.nonrequired" />
         </div>
       </xed:bind>
     </fieldset>
@@ -504,6 +507,25 @@
     </xed:repeat>
   </xed:template>
 
+  <xed:template id="rights.nonrequired">
+    <xed:bind xpath="mods:accessCondition[@type='use and reproduction']" initially="">
+      <div class="form-group row">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="mir.rights" />
+          :
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select" />
+            </option>
+            <xed:include uri="xslStyle:license-filter,items2options?genre={$genre_intern}:classification:editor:-1:children:mir_licenses" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:mir.help.rights}" />
+      </div>
+    </xed:bind>
+  </xed:template>
 
   <xed:template id="repper.related.item.search.of.all.items">
     <fieldset>
