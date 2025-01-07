@@ -466,7 +466,8 @@
       <legend class="mir-fieldset-legend"><xed:output i18n="repper.relatedItem.original" /></legend>
       <xed:bind xpath="mods:relatedItem[@type='original']">
         <div class="mir-fieldset-content">
-          <xed:include ref="title.original.nonrequired" />
+          <xed:include ref="title.nonrequired" />
+          <xed:include ref="subtitle" />
           <xed:include ref="genre.simple.nonrequired" />
           <xed:include ref="author.repeated" />
           <xed:include ref="editor.repeated" />
