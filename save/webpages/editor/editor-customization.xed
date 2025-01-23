@@ -430,9 +430,9 @@
 
   <!-- ========== Sections for TOC layouts ========== -->
 
-  <xed:modify ref="related.item.search.of.all.items">
-    <xed:include ref="host.section" after="host.issue" />
-  </xed:modify>
+  <!-- xed:modify ref="related.item.search.of.all.items">
+    <xed:include ref="host.section" after="host.issue" />      -> is now part of "repper.related.item.search.of.all.items"
+  </xed:modify -->
 
   <!--
   <xed:modify ref="hosts.journal">
@@ -581,6 +581,7 @@
               placeholder="{i18n:mir.placeholder.abstract.link}" />
           <xed:include ref="host.volume" />
           <xed:include ref="host.issue" />
+          <xed:include ref="host.section" />
           <xed:include ref="host.articlenumber" />
           <xed:include ref="host.pages" />
           <xed:include ref="host.order" />
