@@ -165,12 +165,12 @@
             <ul class="nav flex-xl-column">
               <li>
                 <a
-                  href="https://twitter.com/perspectivia"
-                  class="twitter">
+                  href="https://www.instagram.com/maxweberstiftung/"
+                  class="instagram">
                   <span class="fa-stack">
-                    <i class="fab fa-twitter fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-2x"></i>
                   </span>
-                  <span class="d-none d-xl-inline">@perspectivia folgen</span>
+                  <span class="d-none d-xl-inline">Instagram</span>
                 </a>
               </li>
               <li>
@@ -180,7 +180,7 @@
                   <span class="fa-stack">
                     <i class="fab fa-facebook-f fa-stack-2x"></i>
                   </span>
-                  <span class="d-none d-xl-inline">Like Max Weber Stiftung</span>
+                  <span class="d-none d-xl-inline">Facebook</span>
                 </a>
               </li>
               <li>
@@ -190,7 +190,7 @@
                   <span class="fa-stack">
                     <i class="fab fa-vimeo-v fa-stack-2x"></i>
                   </span>
-                  <span class="d-none d-xl-inline">Max Weber Stiftung Videos folgen</span>
+                  <span class="d-none d-xl-inline">Vimeo</span>
                 </a>
               </li>
             </ul>
