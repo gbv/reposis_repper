@@ -1,55 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_institutes">
   <label xml:lang="de" text="Einrichtungen" description="Liste der Einrichtungen" />
-  <label xml:lang="x-uri" text="http://www.mycore.org/classifications/mir_institutes" />
   <label xml:lang="en" text="Institutions" description="A list of institutions" />
+  <label xml:lang="fr" text="Institutions" description="Une liste d'institutions." />
+  <label xml:lang="x-uri" text="http://www.mycore.org/classifications/mir_institutes" />
   <categories>
-    <category ID="oi.istanbul">
-      <label xml:lang="de" text="Orient-Institut Istanbul" />
-      <label xml:lang="en" text="Orient-Institut Istanbul" />
+    <category ID="mws.osteuropa">
+      <label xml:lang="de" text="Max Weber Netzwerk Osteuropa" />
+      <label xml:lang="en" text="Max Weber Network Eastern Europe" />
+      <label xml:lang="fr" text="Max Weber Network Eastern Europe" />
     </category>
-    <category ID="oi.beirut">
-      <label xml:lang="en" text="Orient-Institut Beirut" />
-      <label xml:lang="de" text="Orient-Institut Beirut" />
+    <category ID="dc751233-e1ca-483a-b5c1-0d53251530c5">
+      <label xml:lang="de" text="Max Weber Forum für Südasienstudien Delhi" />
+      <label xml:lang="en" text="Max Weber Forum for South Asian Studies Delhi" />
+      <label xml:lang="fr" text="Max Weber Forum for South Asian Studies Delhi" />
     </category>
-    <category ID="di.japan.tokyo">
-      <label xml:lang="en" text="Deutsches Institut für Japanstudien Tokyo" />
-      <label xml:lang="de" text="Deutsches Institut für Japanstudien Tokyo" />
-    </category>
-    <category ID="dhi.washington">
-      <label xml:lang="de" text="Deutsches Historisches Institut Washington" />
-      <label xml:lang="en" text="German Historical Institute Washington, DC" />
-    </category>
-    <category ID="dhi.warschau">
-      <label xml:lang="en" text="Deutsches Historisches Institut Warschau" />
-      <label xml:lang="de" text="Deutsches Historisches Institut Warschau" />
-    </category>
-    <category ID="dhi.rom">
-      <label xml:lang="de" text="Deutsches Historisches Institut Rom" />
-      <label xml:lang="en" text="Deutsches Historisches Institut Rom" />
-    </category>
-    <category ID="dhi.paris">
-      <label xml:lang="en" text="Deutsches Historisches Institut Paris" />
-      <label xml:lang="de" text="Deutsches Historisches Institut Paris" />
-      <url xlink:href="www.dhi-paris" xlink:type="locator" />
-    </category>
-    <category ID="dhi.moskau">
-      <label xml:lang="de" text="Deutsches Historisches Institut Moskau" />
-      <label xml:lang="en" text="Deutsches Historisches Institut Moskau" />
+    <category ID="dfk.paris">
+      <label xml:lang="de" text="Deutsches Forum für Kunstgeschichte Paris" />
+      <label xml:lang="en" text="German Center for Art History Paris" />
+      <label xml:lang="fr" text="Centre allemand d’histoire de l’art Paris" />
+      <url xlink:href="www.dfk-paris.org" xlink:type="locator" />
     </category>
     <category ID="dhi.london">
       <label xml:lang="de" text="Deutsches Historisches Institut London" />
       <label xml:lang="en" text="German Historical Institute London" />
+      <label xml:lang="fr" text="Institut historique allemand Londres" />
       <url xlink:href="www.ghi.ac.uk" xlink:type="locator" />
+      <category ID="ibo">
+        <label xml:lang="de" text="India Branch Office" />
+        <label xml:lang="en" text="India Branch Office" />
+        <label xml:lang="fr" text="India Branch Office" />
+      </category>
       <category ID="trg.provedu">
         <label xml:lang="de" text="TRG Poverty Education" />
         <label xml:lang="en" text="TRG Poverty Education" />
+        <label xml:lang="fr" text="TRG Poverty Education" />
       </category>
     </category>
-    <category ID="dfk.paris">
-      <label xml:lang="de" text="Deutsches Forum für Kunstgeschichte Paris" />
-      <label xml:lang="en" text="Deutsches Forum für Kunstgeschichte Paris" />
-      <url xlink:href="www.dfk-paris.org" xlink:type="locator" />
+    <category ID="dhi.moskau">
+      <label xml:lang="de" text="Deutsches Historisches Institut Moskau" />
+      <label xml:lang="en" text="German Historical Institute Moscow" />
+      <label xml:lang="fr" text="Institut historique allemand Moscou" />
+    </category>
+    <category ID="dhi.paris">
+      <label xml:lang="de" text="Deutsches Historisches Institut Paris" />
+      <label xml:lang="en" text="German Historical Institute Paris" />
+      <label xml:lang="fr" text="Institut historique allemand Paris" />
+      <url xlink:href="www.dhi-paris" xlink:type="locator" />
+    </category>
+    <category ID="dhi.rom">
+      <label xml:lang="de" text="Deutsches Historisches Institut Rom" />
+      <label xml:lang="en" text="German Historical Institute Rome" />
+      <label xml:lang="fr" text="Institut historique allemand Rome" />
+      <url xlink:href="http://dhi-roma.it" xlink:type="locator" />
+    </category>
+    <category ID="dhi.warschau">
+      <label xml:lang="de" text="Deutsches Historisches Institut Warschau" />
+      <label xml:lang="en" text="German Historical Institute Warsaw" />
+      <label xml:lang="fr" text="Institut historique allemand Varsovie" />
+    </category>
+    <category ID="dhi.washington">
+      <label xml:lang="de" text="Deutsches Historisches Institut Washington" />
+      <label xml:lang="en" text="German Historical Institute Washington, DC" />
+      <label xml:lang="fr" text="Institut historique allemand Washington" />
+    </category>
+    <category ID="di.japan.tokyo">
+      <label xml:lang="de" text="Deutsches Institut für Japanstudien Tokyo" />
+      <label xml:lang="en" text="German Institute for Japanese Studies Tokyo" />
+      <label xml:lang="fr" text="Institut allemand des Études japonaises Tokyo" />
+    </category>
+    <category ID="oi.beirut">
+      <label xml:lang="de" text="Orient-Institut Beirut" />
+      <label xml:lang="en" text="Orient-Institut Beirut" />
+      <label xml:lang="fr" text="Orient-Institut Beyrouth" />
+    </category>
+    <category ID="oi.istanbul">
+      <label xml:lang="de" text="Orient-Institut Istanbul" />
+      <label xml:lang="en" text="Orient-Institut Istanbul" />
+      <label xml:lang="fr" text="Orient-Institut Istanbul" />
     </category>
     <category ID="trafo">
       <label xml:lang="de" text="Forum Transregionale Studien" />
@@ -61,15 +89,39 @@
     <category ID="spsg">
       <label xml:lang="de" text="Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg" />
       <label xml:lang="en" text="Prussian Palaces and Gardens Foundation Berlin-Brandenburg" />
+      <label xml:lang="fr" text="Fondation des Châteaux et Jardins prussiens de Berlin-Brandebourg" />
+    </category>
+    <category ID="9179114b-64fd-498e-b385-a4c74dbd0122">
+      <label xml:lang="de" text="Deutsches Zentrum Kulturgutverluste" />
+      <label xml:lang="en" text="German Lost Art Foundation" />
+      <label xml:lang="fr" text="German Lost Art Foundation" />
+      <url xlink:href="http://www.kulturgutverluste.de" xlink:type="locator" />
     </category>
     <category ID="adef">
+      <label xml:lang="de" text="Arbeitskreis Großbritannien-Forschung (AGF)" />
       <label xml:lang="en" text="German Association for British Studies" />
-      <label xml:lang="de" text="Arbeitskreis Deutsche England-Forschung" />
+      <label xml:lang="fr" text="German Association for British Studies" />
+    </category>
+    <category ID="f8ea4add-8496-4104-be8c-9b6adda6b7a6">
+      <label xml:lang="de" text="Leibniz-Institut für Europäische Geschichte (IEG)" />
+      <label xml:lang="en" text="Leibniz Institute of European History (IEG)" />
+      <label xml:lang="fr" text="Institut Leibniz d'histoire européenne (IEG)" />
+    </category>
+    <category ID="zmo">
+      <label xml:lang="de" text="Leibniz-Zentrum Moderner Orient (ZMO)" />
+      <label xml:lang="en" text="Leibniz-Zentrum Moderner Orient (ZMO)" />
+      <label xml:lang="fr" text="Leibniz-Zentrum Moderner Orient (ZMO)" />
     </category>
     <category ID="mws">
-      <label xml:lang="de" text="Max Weber Stiftung" />
-      <label xml:lang="en" text="Max Weber Stiftung" />
+      <label xml:lang="de" text="Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland" />
+      <label xml:lang="en" text="Max Weber Stiftung - Foundation German Humanities Institutes Abroad" />
+      <label xml:lang="fr" text="Fondation Max-Weber" />
       <url xlink:href="www.maxweberstiftung.de" xlink:type="locator" />
+    </category>
+    <category ID="operas">
+      <label xml:lang="de" text="OPERAS" />
+      <label xml:lang="en" text="OPERAS" />
+      <label xml:lang="fr" text="OPERAS" />
     </category>
   </categories>
 </mycoreclass>
