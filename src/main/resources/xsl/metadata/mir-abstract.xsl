@@ -12,7 +12,7 @@
 
   <xsl:import href="xslImport:modsmeta:metadata/mir-abstract.xsl" />
   <xsl:include href="resource:xsl/mir-utils.xsl" />
-
+  <xsl:param name="MIR.Layout.Abstract.Type.Classification"/>
   <xsl:variable name="objectID" select="/mycoreobject/@ID" />
   <xsl:variable name="modsPart" select="concat('mods.part.', $objectID)" />
   <xsl:variable name="nbsp" select="'&#xa0;'"/>
@@ -140,7 +140,10 @@
         <xsl:if test="$doc-state">
           <div class="doc_state">
             <xsl:variable name="status-i18n">
-              <xsl:value-of select="i18n:translate(concat('mir.state.',$doc-state))" />
+              <!-- template in mir-utils.xsl -->
+              <xsl:call-template name="get-doc-state-label">
+                <xsl:with-param name="state-categ-id" select="$doc-state"/>
+              </xsl:call-template>
             </xsl:variable>
             <span class="badge mir-{$doc-state}" title="{i18n:translate('component.mods.metaData.dictionary.status')}">
               <xsl:value-of select="$status-i18n" />
@@ -201,6 +204,9 @@
               <xsl:when test="(string-length(@altRepGroup) &gt; 0) and (string-length(@altFormat) &gt; 0)">
                 <xsl:copy-of select="document(concat('unescape-html-content:', @altFormat))"/>
               </xsl:when>
+              <xsl:when test="@altRepGroup and count(../mods:abstract[@altRepGroup=current()/@altRepGroup]) = 1">
+                <xsl:copy-of select="."/>
+              </xsl:when>
               <xsl:when test="not(@altRepGroup)">
                 <xsl:copy-of select="." />
               </xsl:when>
@@ -211,12 +217,29 @@
 
         <xsl:choose>
           <xsl:when test="count($abstracts/mods:abstract) &gt; 1">
+            <xsl:variable name="first-abstract-in-current-lang-node" select="$abstracts/mods:abstract[@xml:lang=$CurrentLang][1]"/>
+            <xsl:variable name="first-abstract-in-current-lang-position">
+              <xsl:for-each select="$abstracts/mods:abstract">
+                <xsl:sort select="@type"/>
+                <xsl:sort select="@xml:lang"/>
+
+                <xsl:if test=".= $first-abstract-in-current-lang-node">
+                  <xsl:value-of select="position()"/>
+                </xsl:if>
+              </xsl:for-each>
+            </xsl:variable>
 
             <div id="mir-abstract-tabs">
               <ul class="nav nav-tabs justify-content-end" role="tablist">
                 <xsl:for-each select="$abstracts/mods:abstract">
+                  <xsl:sort select="@type"/>
+                  <xsl:sort select="@xml:lang"/>
+
                   <xsl:variable name="tabName">
                     <xsl:choose>
+                      <xsl:when test="@type and $MIR.Layout.Abstract.Type.Classification">
+                        <xsl:value-of select="mcrxsl:getDisplayName($MIR.Layout.Abstract.Type.Classification, @type)"/>
+                      </xsl:when>
                       <xsl:when test="@xml:lang">
                         <xsl:value-of
                           select="document(concat('classification:metadata:0:children:rfc5646:',./@xml:lang))//category/label[@xml:lang=$CurrentLang]/@text" />
@@ -229,9 +252,17 @@
                   </xsl:variable>
                   <li class="nav-item">
                     <a class="nav-link" href="#tab{position()}" role="tab" data-toggle="tab">
-                      <xsl:if test="position()=1">
+                      <xsl:choose>
+                        <xsl:when test="$first-abstract-in-current-lang-position = position()">
                         <xsl:attribute name="class">active nav-link</xsl:attribute>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:if test="position() = 1 and not($first-abstract-in-current-lang-position &gt;0)">
+                            <xsl:attribute name="class">active nav-link</xsl:attribute>
                       </xsl:if>
+                        </xsl:otherwise>
+                      </xsl:choose>
+
                       <xsl:value-of select="$tabName" />
                     </a>
                   </li>
@@ -239,15 +270,25 @@
               </ul>
               <div class="tab-content">
                 <xsl:for-each select="$abstracts/mods:abstract">
+                  <xsl:sort select="@type"/>
+                  <xsl:sort select="@xml:lang"/>
+
                   <div class="tab-pane ellipsis ellipsis-text" role="tabpanel" id="tab{position()}">
                     <xsl:if test="@xml:lang">
                       <xsl:attribute name="lang">
                         <xsl:value-of select="@xml:lang" />
                       </xsl:attribute>
                     </xsl:if>
-                    <xsl:if test="position()=1">
+                    <xsl:choose>
+                      <xsl:when test="$first-abstract-in-current-lang-position = position()">
+                          <xsl:attribute name="class">tab-pane ellipsis ellipsis-text active</xsl:attribute>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:if test="position() = 1 and not($first-abstract-in-current-lang-position &gt;0)">
                       <xsl:attribute name="class">tab-pane ellipsis ellipsis-text active</xsl:attribute>
                     </xsl:if>
+                      </xsl:otherwise>
+                    </xsl:choose>
                     <p>
                       <span class="ellipsis-description">
                         <xsl:copy-of select="node()"/>
@@ -339,7 +380,7 @@
     <xsl:param name="label"/>
 
     <xsl:variable name="hitsSortList" xmlns:encoder="xalan://java.net.URLEncoder"
-                  select="document(concat('solr:q=',encoder:encode($query), '&amp;rows=1000&amp;sort=mods.part.order.', $objectID, ' desc,mods.dateIssued desc, mods.dateIssued.host desc,',  $modsPart, ' desc, mods.title.main desc&amp;group=true&amp;group.limit=1000&amp;group.field=mods.yearIssued'))/response/lst[@name='grouped']/lst[@name='mods.yearIssued']" />
+                  select="document(concat('solr:q=',encoder:encode($query), '&amp;rows=1000&amp;sort=mods.part.order.', $objectID, '%20desc,mods.dateIssued%20desc,%20mods.dateIssued.host%20desc,',  $modsPart, '%20desc,%20mods.title.main%20desc&amp;group=true&amp;group.limit=1000&amp;group.field=mods.yearIssued'))/response/lst[@name='grouped']/lst[@name='mods.yearIssued']" />
     <xsl:if test="$hitsSortList/int[@name='matches'] &gt; 0">
         <xsl:call-template name="listRelatedItems">
           <xsl:with-param name="hits" select="$hitsSortList"/>
