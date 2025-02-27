@@ -5,17 +5,16 @@
   <!-- ========== extend editor-admins.xed ========== -->
 
   <xed:modify ref="admin.fields">
-    <xed:remove  ref="geographic.complex" />
-    <xed:include ref="repper.geographic.complex" after="language" />
     <xed:remove  ref="sdnb.repeat" />
-    <xed:include ref="repper.ddc.repeat.required" after="cartographics.repeat" />
-    <xed:include ref="repper.epoch" after="cartographics.repeat" />
+    <xed:include ref="repper.ddc.repeat.required" after="geographicAndCartographics" />
+    <xed:include ref="repper.epoch" after="geographicAndCartographics" />
     <xed:remove  ref="institutes" />
     <xed:include ref="institutes.repeat" after="copyrightMD" />
     <xed:remove  ref="subject.complex" />
-    <xed:include ref="repper.subject.complex" before="abstract.repeated" />
+    <xed:include ref="subject.simple"         before="abstract.repeated" />
     <xed:include ref="repper.ddc_time"        before="abstract.repeated" />
     <xed:include ref="repper.ddc_geo"         before="abstract.repeated" />
+    <xed:remove  ref="related.item.other.search.of.all.items" />
   </xed:modify>
 
   <!-- ========== extend editor-genres.xed ========== -->
