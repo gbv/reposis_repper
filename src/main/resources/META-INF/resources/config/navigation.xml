@@ -269,7 +269,7 @@
             <label xml:lang="en">Submit new document (admin)</label>
             <label xml:lang="fr">Soumettre un document (admin)</label>
         </item>
-        <item href="/servlets/solr/select?q=createdby:USERNAME" type="intern" replaceMenu="false" constrainPopUp="false">
+        <item href="/servlets/solr/select?q=createdby:{CurrentUser}&amp;fq=objectType:mods" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Eigene Aufnahmen</label>
             <label xml:lang="en">My documents</label>
             <label xml:lang="fr">Mes documents</label>

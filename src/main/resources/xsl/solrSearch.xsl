@@ -20,11 +20,11 @@
     <xsl:variable name="searchResult">
       <xsl:choose>
         <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
-          <xsl:copy-of select="document(concat('solr:', $parameters, '&amp;sort=id asc&amp;rows=100'))" />
+          <xsl:copy-of select="document(concat('solr:', $parameters, '&amp;sort=id+asc&amp;rows=100'))" />
         </xsl:when>
         <xsl:otherwise>
           <xsl:copy-of
-            select="document(concat('solr:', $parameters, '%20AND%20state:published&amp;sort=id asc&amp;rows=100'))" />
+            select="document(concat('solr:', $parameters, '%20AND%20state:published&amp;sort=id+asc&amp;rows=100'))" />
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
