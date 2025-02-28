@@ -10,8 +10,6 @@
     <xed:include ref="repper.epoch" after="geographicAndCartographics" />
     <xed:remove  ref="institutes" />
     <xed:include ref="institutes.repeat" after="copyrightMD" />
-    <xed:remove  ref="subject.complex" />
-    <xed:include ref="subject.simple"         before="abstract.repeated" />
     <xed:include ref="repper.ddc_time"        before="abstract.repeated" />
     <xed:include ref="repper.ddc_geo"         before="abstract.repeated" />
     <xed:remove  ref="related.item.other.search.of.all.items" />

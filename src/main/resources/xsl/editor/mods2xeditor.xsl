@@ -36,7 +36,7 @@
   <xsl:template match="mods:subject">
     <xsl:variable name="geoCount" select="count(mods:cartographics) + count(mods:geographic)" />
     <xsl:choose>
-      <xsl:when test="mods:geographic/@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T2' or mods:temporal/@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T1'">
+      <xsl:when test="mods:geographic/@authorityURI='http://perspectivia.gbv.de/api/v1/classifications/DDC_T2' or mods:temporal">
         <xsl:copy>
           <xsl:apply-templates select="@*|node()" />
         </xsl:copy>

@@ -228,14 +228,14 @@
                 <xsl:with-param name="label"
                                 select="i18n:translate('component.mods.metaData.dictionary.publisher.creation')"/>
             </xsl:call-template>
-            <!-- <xsl:for-each select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject">  -->
+
               <xsl:call-template name="printMetaDate.mods">
                 <xsl:with-param name="nodes" select="//mods:mods/mods:subject/mods:topic" />
                 <xsl:with-param name="label" select="i18n:translate('component.mods.metaData.dictionary.subject')" />
                 <xsl:with-param name="sep" select="'; '" />
                 <xsl:with-param name="property" select="'keyword'" />
               </xsl:call-template>
-            <!-- </xsl:for-each>  -->
+
             <!-- added subject output for repper -->
             <xsl:if test="contains(mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:temporal/@valueURI, 'DDC_T1')">
               <tr>
@@ -257,9 +257,6 @@
               <xsl:with-param name="nodes" select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:temporal[not(@valueURI)][text()]" />
               <xsl:with-param name="label" select="i18n:translate('component.mods.metaData.dictionary.subjectTemporal')" />
             </xsl:call-template>
-            <xsl:call-template name="printMetaDate.mods">
-              <xsl:with-param name="nodes" select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:geographic[not(contains(@valueURI, 'DDC_T2'))]" />
-            </xsl:call-template>
             <xsl:if test="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:geographic[contains(@valueURI, 'DDC_T2')]">
               <tr>
                 <td class="metaname" valign="top">
@@ -277,6 +274,26 @@
               </tr>
             </xsl:if>
             <!-- END subject output for repper -->
+            
+            <xsl:for-each
+                    select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject[(count(mods:geographic)&gt;0 or count(mods:cartographics)&gt;0) and (count(mods:geographic) + count(mods:cartographics)) = count(mods:*) and not(mods:geographic[contains(@valueURI, 'DDC_T2')])]">
+                <xsl:call-template name="printMetaDate.mods">
+                    <xsl:with-param name="nodes" select="mods:geographic"/>
+                </xsl:call-template>
+                <xsl:for-each select="mods:cartographics/mods:coordinates">
+                    <tr>
+                        <td class="metaname" valign="top">
+                            <xsl:value-of select="i18n:translate('mir.cartographics.coordinates')"/>
+                        </td>
+                        <td class="metavalue">
+                            <xsl:call-template name="displayCoordinates"/>
+                        </td>
+                    </tr>
+                </xsl:for-each>
+            </xsl:for-each>
+
+
+            <!-- hide new subject output in repper for the moment
             <xsl:if test="count(mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject[not((count(mods:geographic)&gt;0 or count(mods:cartographics)&gt;0) and (count(mods:geographic) + count(mods:cartographics)) = count(mods:*))])&gt;0">
                 <tr>
                     <td class="metaname" valign="top">
@@ -296,6 +313,7 @@
                     </td>
                 </tr>
             </xsl:if>
+            -->
 
             <xsl:apply-templates mode="present"
                                  select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:classification[not(@generator)]"/>
