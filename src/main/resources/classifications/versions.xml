@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="versions">
+  <label xml:lang="en" text="Version" />
+  <label xml:lang="de" text="Publikationsversion" />
+  <label xml:lang="x-uri" text="https://perspectivia.net/api/v1/classifications/versions" />
+  <categories>
+    <category ID="EV">
+      <label xml:lang="de" text="Erstveröffentlichung" />
+    </category>
+    <category ID="ZV">
+      <label xml:lang="de" text="Zweitveröffentlichung" />
+      <category ID="SMUR">
+        <label xml:lang="de" text="Eingereichte Version (Preprint)" />
+        <label xml:lang="en" text="Submitted Version (Preprint)" />
+      </category>
+      <category ID="AM">
+        <label xml:lang="de" text="Akzeptiertes Manuskript (Postprint)" />
+        <label xml:lang="en" text="Accepted Manuscript (AM)" />
+      </category>
+      <category ID="VoR">
+        <label xml:lang="de" text="Originale Verlagspublikation (VoR)" />
+        <label xml:lang="en" text="Publisher Version (VoR)" />
+      </category>
+      <category ID="AO">
+        <label xml:lang="de" text="Autorenversion (AO)" />
+        <label xml:lang="en" text="Author's Original (AO)" />
+      </category>
+      <category ID="EVoR">
+        <label xml:lang="de" text="Aktualisierte Version (EVoR)" />
+        <label xml:lang="en" text="Enhanced Version of Record (EVoR)" />
+      </category>
+      <category ID="P">
+        <label xml:lang="de" text="Korrekturfahne (P)" />
+        <label xml:lang="en" text="Proof (P)" />
+      </category>
+      <category ID="CVoR">
+        <label xml:lang="de" text="Korrigierte Version (CVoR)" />
+        <label xml:lang="en" text="Corrected Version of Record (CVoR)" />
+      </category>
+      <category ID="NA">
+        <label xml:lang="de" text="keine Angabe" />
+        <label xml:lang="en" text="not applicable (or unknown)" />
+      </category>
+    </category>
+  </categories>
+</mycoreclass>
