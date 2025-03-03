@@ -5,13 +5,17 @@
   <!-- ========== extend editor-admins.xed ========== -->
 
   <xed:modify ref="admin.fields">
+    <xed:include ref="repper.versions"                         after="genre" />
     <xed:remove  ref="sdnb.repeat" />
-    <xed:include ref="repper.ddc.repeat.required" after="geographicAndCartographics" />
-    <xed:include ref="repper.epoch" after="geographicAndCartographics" />
+    <xed:include ref="repper.ddc.repeat.required"              after="geographicAndCartographics" />
+    <xed:include ref="repper.epoch"                            after="geographicAndCartographics" />
     <xed:remove  ref="institutes" />
-    <xed:include ref="institutes.repeat" after="copyrightMD" />
-    <xed:include ref="repper.ddc_time"        before="abstract.repeated" />
-    <xed:include ref="repper.ddc_geo"         before="abstract.repeated" />
+    <xed:include ref="institutes.repeat"                       after="copyrightMD" />
+    <xed:include ref="repper.ddc_time"                         before="abstract.repeated" />
+    <xed:include ref="repper.ddc_geo"                          before="abstract.repeated" />
+    <xed:include ref="repper.related.item.search.of.all.items" after="related.item.search.of.all.items" />
+    <xed:include ref="repper.relatedItem.original"             after="repper.related.item.search.of.all.items" />
+    <xed:remove  ref="related.item.search.of.all.items" />
     <xed:remove  ref="related.item.other.search.of.all.items" />
   </xed:modify>
 
@@ -401,16 +405,6 @@
 
   <!-- ========== Sections for TOC layouts ========== -->
 
-  <xed:modify ref="related.item.search.of.all.items">
-    <xed:include ref="host.section" after="host.issue" />
-  </xed:modify>
-
-  <!--
-  <xed:modify ref="hosts.journal">
-    <xed:include ref="host.section" after="host.issue" />
-  </xed:modify>
-  -->
-
   <xed:template id="host.section">
     <xed:bind xpath="mods:part/mods:detail[@type='section']/mods:caption">
       <div class="form-group row">
@@ -430,6 +424,137 @@
         <mir:help-pmud help-text="{i18n:mir.help.section}" />
       </div>
     </xed:bind>
+  </xed:template>
+
+  <xed:template id="repper.relatedItem.original">
+    <fieldset>
+      <legend class="mir-fieldset-legend"><xed:output i18n="repper.relatedItem.original" /></legend>
+      <xed:bind xpath="mods:relatedItem[@type='original']">
+        <div class="mir-fieldset-content">
+          <xed:include ref="title.nonrequired" />
+          <xed:include ref="subtitle" />
+          <xed:include ref="genre.simple.nonrequired" />
+          <xed:include ref="author.repeated" />
+          <xed:include ref="editor.repeated" />
+          <xed:include ref="identifier.repeated" />
+          <xed:include ref="date.range.extended.datetimepicker" />
+          <xed:include ref="place" />
+          <xed:include ref="publisher" />
+          <xed:include ref="edition" />
+          <xed:include ref="host.volume" />
+          <xed:include ref="host.issue" />
+          <xed:include ref="host.articlenumber" />
+          <xed:include ref="host.pages" />
+          <xed:include ref="rights.nonrequired" />
+        </div>
+      </xed:bind>
+    </fieldset>
+  </xed:template>
+
+  <xed:template id="repper.versions">
+    <xed:repeat xpath="mods:classification[@authorityURI='https://perspectivia.net/api/v1/classifications/versions'][@displayLabel='versions']" min="1" max="10" method="build">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="editor.search.repper.versions" />
+          :
+        </label>
+        <div class="col-md-6">
+          <xed:bind xpath="@valueURIxEditor">
+            <select class="form-control form-control-inline">
+              <option value="">
+                <xed:output i18n="mir.select" />
+              </option>
+              <xed:include uri="xslStyle:items2options:classification:editor:-1:children:versions" />
+            </select>
+          </xed:bind>
+        </div>
+        <mir:help-pmud help-text="{i18n:repper.help.versions}" pmud="true" />
+      </div>
+    </xed:repeat>
+  </xed:template>
+
+  <xed:template id="rights.nonrequired">
+    <xed:bind xpath="mods:accessCondition[@type='use and reproduction']" initially="">
+      <div class="form-group row">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="mir.rights" />
+          :
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select" />
+            </option>
+            <xed:include uri="xslStyle:license-filter,items2options?genre={$genre_intern}:classification:editor:-1:children:mir_licenses" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:mir.help.rights}" />
+      </div>
+    </xed:bind>
+  </xed:template>
+
+  <xed:template id="repper.related.item.search.of.all.items">
+    <fieldset>
+      <legend class="mir-fieldset-legend">Related Item</legend><!-- TODO: i18n -->
+      <xed:repeat xpath="mods:relatedItem[not(@otherType) and not(@type='original')]" min="1" max="10">
+        <div class="mir-fieldset-content mir-related-item-search">
+          <div class="form-group row">
+            <div class="col-md-3">
+              <xed:bind xpath="@type">
+                <select class="form-control">
+                  <option value="host">
+                    <xed:output i18n="mir.relatedItem.host" />
+                  </option>
+                  <option value="series">
+                    <xed:output i18n="mir.relatedItem.series" />
+                  </option>
+                  <option value="preceding">
+                    <xed:output i18n="mir.relatedItem.preceding" />
+                  </option>
+                  <option value="isReferencedBy">
+                    <xed:output i18n="mir.relatedItem.isReferencedBy" />
+                  </option>
+                  <option value="references">
+                    <xed:output i18n="mir.relatedItem.references" />
+                  </option>
+                  <option value="reviewOf">
+                    <xed:output i18n="mir.relatedItem.reviewOf" />
+                  </option>
+                  <option value="otherVersion">
+                    <xed:output i18n="mir.relatedItem.otherVersion" />
+                  </option>
+                  <option value="otherFormat">
+                    <xed:output i18n="mir.relatedItem.otherFormat" />
+                  </option>
+                </select>
+              </xed:bind>
+            </div>
+            <div class="col-md-6">
+              <div class="controls form-inline">
+                <input type="button" class="form-control mir-relatedItem-select" data-fq="-id:{$id}" value="{i18n:mir.editing.related.select}" />
+                <span />
+                <xed:bind xpath="@xlink:href">
+                  <input type="hidden" />
+                </xed:bind>
+              </div>
+            </div>
+            <mir:help-pmud help-text="{i18n:mir.help.related.item}" pmud="true" />
+          </div>
+          <xed:include ref="title.nonrequired" />
+          <xed:include ref="genre.simple.nonrequired" />
+          <mir:textfield xpath="mods:location/mods:url[@access='raw object']" help-text="{i18n:mir.help.link.raw_object}"
+              placeholder="{i18n:mir.placeholder.abstract.link}" />
+          <xed:include ref="host.volume" />
+          <xed:include ref="host.issue" />
+          <xed:include ref="host.section" />
+          <xed:include ref="host.articlenumber" />
+          <xed:include ref="host.pages" />
+          <xed:include ref="host.order" />
+        </div>
+      </xed:repeat>
+      <script src="{$WebApplicationBaseURL}js/mir/relatedItem-modal.min.js" type="text/javascript"></script>
+      <xed:validate xpath="//mods:relatedItem[@xlink:href!='']" test="(@type!='isReferencedBy')" i18n="mir.validation.relatedItem" display="global" />
+    </fieldset>
   </xed:template>
 
 </xed:template>
