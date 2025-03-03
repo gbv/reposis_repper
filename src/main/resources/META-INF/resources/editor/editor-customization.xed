@@ -5,14 +5,14 @@
   <!-- ========== extend editor-admins.xed ========== -->
 
   <xed:modify ref="admin.fields">
-    <xed:include ref="repper.versions"            after="genre" />
+    <xed:include ref="repper.versions"                         after="genre" />
     <xed:remove  ref="sdnb.repeat" />
-    <xed:include ref="repper.ddc.repeat.required" after="geographicAndCartographics" />
-    <xed:include ref="repper.epoch"               after="geographicAndCartographics" />
+    <xed:include ref="repper.ddc.repeat.required"              after="geographicAndCartographics" />
+    <xed:include ref="repper.epoch"                            after="geographicAndCartographics" />
     <xed:remove  ref="institutes" />
-    <xed:include ref="institutes.repeat"      after="copyrightMD" />
-    <xed:include ref="repper.ddc_time"        before="abstract.repeated" />
-    <xed:include ref="repper.ddc_geo"         before="abstract.repeated" />
+    <xed:include ref="institutes.repeat"                       after="copyrightMD" />
+    <xed:include ref="repper.ddc_time"                         before="abstract.repeated" />
+    <xed:include ref="repper.ddc_geo"                          before="abstract.repeated" />
     <xed:include ref="repper.related.item.search.of.all.items" after="related.item.search.of.all.items" />
     <xed:include ref="repper.relatedItem.original"             after="repper.related.item.search.of.all.items" />
     <xed:remove  ref="related.item.search.of.all.items" />
@@ -404,16 +404,6 @@
   </xed:template>
 
   <!-- ========== Sections for TOC layouts ========== -->
-
-  <!-- xed:modify ref="related.item.search.of.all.items">
-    <xed:include ref="host.section" after="host.issue" />      -> is now part of "repper.related.item.search.of.all.items"
-  </xed:modify -->
-
-  <!--
-  <xed:modify ref="hosts.journal">
-    <xed:include ref="host.section" after="host.issue" />
-  </xed:modify>
-  -->
 
   <xed:template id="host.section">
     <xed:bind xpath="mods:part/mods:detail[@type='section']/mods:caption">
