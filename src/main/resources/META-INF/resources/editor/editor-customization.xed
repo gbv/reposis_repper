@@ -437,7 +437,7 @@
           <xed:include ref="author.repeated" />
           <xed:include ref="editor.repeated" />
           <xed:include ref="identifier.repeated" />
-          <xed:include ref="year.issued" />
+          <xed:include ref="date.range.extended.datetimepicker" />
           <xed:include ref="place" />
           <xed:include ref="publisher" />
           <xed:include ref="edition" />
