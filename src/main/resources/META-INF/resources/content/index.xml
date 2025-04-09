@@ -1,32 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage><section xml:lang="all" title="ReadMe"><div class="cms-page__base">
 <p>The content was separated from layout. You just edit small texts now, but you will no longer see completly what you will get. In this way we get the wcms working again for you. Please feel free to adust the texts. We will try to name the small sections clearly, so you will know what you are editing currently.</p>
-
 <p>Please:</p>
-
 <ul>
-	<li>do not delete this "read me" section</li>
-	<li>and do not rename the other sections.</li>
+<li>do not delete this "read me" section</li>
+<li>and do not rename the other sections.</li>
 </ul>
-
 <p>Both are essential working bases. There is only one exception. When you like to keep a content block, but want to move it, then you can rename the blocks you like to switch. For example: If you want to move the news from position three to position one, you only need to rename the section title:</p>
-
 <ol>
-	<li>News-SLot-One to News-SLot-xxx</li>
-	<li>News-SLot-Three to News-SLot-One</li>
-	<li>News-SLot-xxx to News-SLot-Three</li>
+<li>News-SLot-One to News-SLot-xxx</li>
+<li>News-SLot-Three to News-SLot-One</li>
+<li>News-SLot-xxx to News-SLot-Three</li>
 </ol>
-
 <p>In this way you dont get confused which slot you have to rename, when you have 6 News-SLot-One. Of couse you have to do it for all languages.</p>
-
 <p>It is also important to:</p>
-
 <ul>
-	<li>keep the html structure of the content.</li>
+<li>keep the html structure of the content.</li>
 </ul>
-
 <p>At best you only edit existing texts without adding or removing whole elements, like headlines or paragraphs.</p>
-
 <p>Good luck :P</p>
 </div></section><section xml:lang="de" title="Willkommen"><div class="cms-intro">
         <h1>Freier Zugang</h1>
@@ -61,24 +52,18 @@
           ouverte.
         </p>
     </div></section><section xml:lang="de" title="News-SLot-One"><div class="cms-news">
-<h1>Francia Recensio 2024/4</h1>
-
-<h2>18.12.2024</h2>
-
-<p>Die neue Ausgabe von »Francia-Recensio« enthält 86 Rezensionen zu den Epochen Mittelalter, Frühe Neuzeit sowie Neuere und Neueste Geschichte.</p>
-<a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/7213">Mehr</a></div></section><section xml:lang="en" title="News-SLot-One"><div class="cms-news">
-<h1>Francia Recensio 2024/4</h1>
-
-<h2>18.12.2024</h2>
-
-<p>The latest edition of »Francia-Recensio« contains 86 reviews spanning the Middle Ages, the Early Modern Period, and Contemporary History.</p>
-<a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/7213">Read more</a></div></section><section xml:lang="fr" title="News-SLot-One"><div class="cms-news">
-<h1>Francia Recensio 2024/4</h1>
-
-<h2>18.12.2024</h2>
-
-<p>Le dernier numéro de »Francia-Recensio« comprend 86 comptes rendus couvrant le Moyen Âge, les Temps modernes et l’histoire contemporaine.</p>
-<a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/7213">En savoir plus</a></div></section><section xml:lang="de" title="News-SLot-Two"><div class="cms-news">
+<h1>Francia Recensio 2025/1</h1>
+<h2>01.04.2025</h2>
+<p>Die neue Ausgabe von »Francia-Recensio« enthält 84 Rezensionen zu den Epochen Mittelalter, Frühe Neuzeit sowie Neuere und Neueste Geschichte.</p>
+<a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/7284">Mehr</a></div></section><section xml:lang="en" title="News-SLot-One"><div class="cms-news">
+<h1>Francia Recensio 2025/1</h1>
+<h2>01.04.2025</h2>
+<p>The latest edition of »Francia-Recensio« contains 84 reviews spanning the Middle Ages, the Early Modern Period, and Contemporary History.</p>
+<a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/7284">Read more</a></div></section><section xml:lang="fr" title="News-SLot-One"><div class="cms-news">
+<h1>Francia Recensio 2025/1</h1>
+<h2>01.04.2025</h2>
+<p>Le dernier numéro de »Francia-Recensio« comprend 84 comptes rendus couvrant le Moyen Âge, les Temps modernes et l’histoire contemporaine.</p>
+<a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/issue/view/7284">En savoir plus</a></div></section><section xml:lang="de" title="News-SLot-Two"><div class="cms-news">
 <h1>Deutsch-Französische Geschichte Bd. 2</h1>
 
 <h2>30.01.2025</h2>
@@ -205,4 +190,4 @@
   <h1>Podcast</h1>
   <p>Wissen entgrenzen - The Max Weber Foundation Podcast</p>
   <a href="https://www.maxweberstiftung.de/podcast.html">Link</a>
-</div></section><meta><log lastEditor="mwiegel" date="2025-01-30" time="17:04" /></meta></MyCoReWebPage>
+</div></section><meta><log lastEditor="mwiegel" date="2025-04-03" time="11:30" /></meta></MyCoReWebPage>
