@@ -8,8 +8,10 @@
   xmlns:i18ntr="http://www.mycore.org/i18n"
   exclude-result-prefixes="xlink i18ntr">
 
+  <xsl:output method="html" indent="yes" omit-xml-declaration="yes" media-type="text/html" version="5" />
   <xsl:strip-space elements="*" />
-  <xsl:include href="mir-flatmir-layout-utils.xsl" />
+  <xsl:include href="resource:xsl/mir-flatmir-layout-utils.xsl" />
+  <xsl:include href="resource:xsl/mir-flatmir-layout-meta-tags.xsl" />
   <xsl:param name="MIR.DefaultLayout.CSS" />
   <xsl:param name="MIR.CustomLayout.CSS" select="''" />
   <xsl:param name="MIR.CustomLayout.JS" select="''" />
@@ -18,10 +20,12 @@
   <xsl:variable name="PageTitle" select="/*/@title" />
 
   <xsl:template match="/site">
+    <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
     <html lang="{$CurrentLang}" class="no-js">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <xsl:call-template name="mir-flatmir-layout-meta-tags"/>
         <title>
           <xsl:value-of select="$PageTitle" />
         </title>
@@ -133,5 +137,4 @@
   <xsl:template match="/*[not(local-name()='site')]">
     <xsl:message terminate="yes">This is not a site document, fix your properties.</xsl:message>
   </xsl:template>
-  <xsl:param name="RequestURL" />
 </xsl:stylesheet>
