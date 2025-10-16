@@ -169,31 +169,40 @@
         <label xml:lang="de">Suche &amp; Blättern</label>
         <label xml:lang="en">Search &amp; Browse</label>
         <label xml:lang="fr">Rechercher &amp; Naviguer</label>
-        <item href="/content/search/simple.xed" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">einfach</label>
-            <label xml:lang="en">simple</label>
-            <label xml:lang="fr">simple</label>
-        </item>
-        <item href="/content/search/simple_intern.xed" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">einfach</label>
-            <label xml:lang="en">simple</label>
-            <label xml:lang="fr">simple</label>
-        </item>
-        <item href="/content/search/complex.xed" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">komplex</label>
-            <label xml:lang="en">complex</label>
-            <label xml:lang="fr">complexe</label>
-        </item>
-        <item href="/content/search/complex_intern.xed" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">komplex</label>
-            <label xml:lang="en">complex</label>
-            <label xml:lang="fr">complexe</label>
-        </item>
-        <item href="/search/search-expert.xed" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">expert</label>
-            <label xml:lang="en">expert</label>
-            <label xml:lang="fr">expert</label>
-        </item>
+        <group id="latest">
+            <item href="/servlets/solr/find?XSL.Style=newest&amp;sort=created+desc&amp;rows=50" type="intern" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">einfach</label>
+                <label xml:lang="en">simple</label>
+                <label xml:lang="fr">simple</label>
+            </item>
+        </group>
+        <group id="content_search">
+            <item href="/content/search/simple.xed" type="intern" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">einfach</label>
+                <label xml:lang="en">simple</label>
+                <label xml:lang="fr">simple</label>
+            </item>
+            <item href="/content/search/simple_intern.xed" type="intern" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">einfach</label>
+                <label xml:lang="en">simple</label>
+                <label xml:lang="fr">simple</label>
+            </item>
+            <item href="/content/search/complex.xed" type="intern" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">komplex</label>
+                <label xml:lang="en">complex</label>
+                <label xml:lang="fr">complexe</label>
+            </item>
+            <item href="/content/search/complex_intern.xed" type="intern" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">komplex</label>
+                <label xml:lang="en">complex</label>
+                <label xml:lang="fr">complexe</label>
+            </item>
+            <item href="/search/search-expert.xed" type="intern" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">expert</label>
+                <label xml:lang="en">expert</label>
+                <label xml:lang="fr">expert</label>
+            </item>
+        </group>
         <item href="/content/browse/institutes.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Einrichtungen</label>
             <label xml:lang="en">Institutions</label>
