@@ -18,7 +18,7 @@
 
     <div class="row result_head">
       <div class="col-12 result_headline">
-        <h1>
+        <h1 class="pp-newest">
           <xsl:value-of select="i18n:translate('pp.newestObjects')" />
         </h1>
       </div>
