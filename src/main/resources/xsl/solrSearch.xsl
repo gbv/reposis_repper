@@ -32,14 +32,17 @@
     <xsl:if test="exslt:node-set($searchResult)//result/@numFound!=0">
       <h3>
         <xsl:choose>
-          <xsl:when test="contains($parameters, 'NOT%20(mods.genre%3Asource_edition)')">
+          <xsl:when test="contains($parameters, 'NOT%20(mods.genre%3Asource_edition%20OR%20mods.genre%3Aresearch_data)')">
             <xsl:value-of select="i18n:translate('mir.publication_selection')" /> <!-- Auswahl Publikationsreihen -->
           </xsl:when>
-          <xsl:when test="contains($parameters, '(mods.genre%3Aresearch_data)')">
+          <xsl:when test="contains($parameters, 'AND%20mods.genre%3Aresearch_data')">
             <xsl:value-of select="i18n:translate('mir.research_data')" /> <!-- Auswahl Forschungsdaten -->
           </xsl:when>
-          <xsl:otherwise>
+          <xsl:when test="contains($parameters, 'AND%20mods.genre%3Asource_edition')">
             <xsl:value-of select="i18n:translate('mir.source_editions')" /> <!-- Digitale Quelleneditionen -->
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="i18n:translate('mir.other_publicatiions')" /> <!-- Sonstige Publikationen -->
           </xsl:otherwise>
         </xsl:choose>
         
