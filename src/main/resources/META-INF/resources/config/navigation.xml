@@ -54,7 +54,7 @@
             <label xml:lang="en">About perspectivia.net</label>
             <label xml:lang="fr">Sur perspectivia.net</label>
         </item>
-        <item href="/content/about/institutes.xml" replaceMenu="false" constrainPopUp="false">
+        <item href="/content/about/institutes/" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Herausgebende Institutionen</label>
             <label xml:lang="en">Publishing Institutions</label>
             <label xml:lang="fr">Institutions</label>
