@@ -45,7 +45,7 @@
             <xsl:value-of select="i18n:translate('mir.other_publicatiions')" /> <!-- Sonstige Publikationen -->
           </xsl:otherwise>
         </xsl:choose>
-        
+
       </h3>
       <div
         class="row {$classes}">
@@ -54,12 +54,14 @@
         <xsl:variable name="mcrobject"
             select="document(concat('mcrobject:', $id))" />
           <div class="col-xs-4 col-md-2">
-            <xsl:call-template name="displayPreviewIMG">
-              <xsl:with-param name="derobject"
-                select="$mcrobject/mycoreobject/structure/derobjects/derobject[classification[@classid='derivate_types'][@categid='thumbnail']]" />
-              <xsl:with-param name="defaultThumbnail" select="$thumbnail" />
-              <xsl:with-param name="id" select="$id" />
-            </xsl:call-template>
+            <div class="project-thumbnail-container">
+              <xsl:call-template name="displayPreviewIMG">
+                <xsl:with-param name="derobject"
+                  select="$mcrobject/mycoreobject/structure/derobjects/derobject[classification[@classid='derivate_types'][@categid='thumbnail']]" />
+                <xsl:with-param name="defaultThumbnail" select="$thumbnail" />
+                <xsl:with-param name="id" select="$id" />
+              </xsl:call-template>
+            </div>
           </div>
           <div
             class="col-xs-8 col-md-4">
@@ -86,7 +88,7 @@
     <xsl:param name="id" />
     <xsl:variable
       name="defaultThumbnailImg">
-      <img class="img-responsive" src="{$defaultThumbnail}" />
+      <img class="img-fluid" src="{$defaultThumbnail}" />
     </xsl:variable>
 
     <xsl:choose>
@@ -106,13 +108,13 @@
           name="fileEnding" select="translate($fileEnding_, $uppercase, $lowercase)" />
         <xsl:choose>
           <xsl:when test="$fileEnding='pdf'">
-            <img class="img-responsive"
-              src="{concat($WebApplicationBaseURL, 'api/iiif/image/v2/thumbnail/', $id, '/full/!300,300/0/default.jpg')}" />
+            <img class="img-fluid"
+              src="{concat($WebApplicationBaseURL, 'api/iiif/image/v2/thumbnail/', $id, '/full/max/0/default.jpg')}" />
           </xsl:when>
           <xsl:when
             test="string-length($fileEnding)&gt;0 and string-length($contentType)&gt;0 and contains($MCR.Module-iview2.SupportedContentTypes, $contentType)">
-            <img class="img-responsive"
-              src="{concat($WebApplicationBaseURL, 'api/iiif/image/v2/thumbnail/', $id, '/full/!300,300/0/default.jpg')}" />
+            <img class="img-fluid"
+              src="{concat($WebApplicationBaseURL, 'api/iiif/image/v2/thumbnail/', $id, '/full/max/0/default.jpg')}" />
           </xsl:when>
           <xsl:otherwise>
             <xsl:copy-of select="$defaultThumbnailImg" />
