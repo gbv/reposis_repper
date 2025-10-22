@@ -536,7 +536,7 @@
                           <img
                             alt=""
                             class="slider-institute-logo"
-                            src="{$WebApplicationBaseURL}images/logos/dhi-washingtondc-logo.jpg" />
+                            src="{$WebApplicationBaseURL}images/logos/logo_dhi_washington_de_300.png" />
                           <img
                             alt=""
                             class="img-fluid slider-institute-image"
