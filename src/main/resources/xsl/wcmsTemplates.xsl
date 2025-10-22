@@ -622,7 +622,7 @@
                           <img
                             alt=""
                             class="slider-institute-logo"
-                            src="{$WebApplicationBaseURL}images/logos/oii-logo.jpg" />
+                            src="{$WebApplicationBaseURL}images/logos/logo_oi_istanbul.png" />
                           <img
                             alt=""
                             class="img-fluid slider-institute-image"
@@ -708,7 +708,7 @@
                           <img
                             alt=""
                             class="slider-institute-logo"
-                            src="{$WebApplicationBaseURL}images/logos/trafo.jpeg" />
+                            src="{$WebApplicationBaseURL}images/logos/trafo-logo-460.jpg" />
                           <img
                             alt=""
                             class="img-fluid slider-institute-image"
