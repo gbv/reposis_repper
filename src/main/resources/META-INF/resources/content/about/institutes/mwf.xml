@@ -51,20 +51,20 @@
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg"
+          data-defaultThumbnail="../../../images/logos/mwf-logo.jpg"
           data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dc751233-e1ca-483a-b5c1-0d53251530c5%22%20AND%20NOT%20(mods.genre%3Asource_edition%20OR%20mods.genre%3Aresearch_data)">
         </div>
       </div>
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg"
+          data-defaultThumbnail="../../../images/logos/mwf-logo.jpg"
           data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dc751233-e1ca-483a-b5c1-0d53251530c5%22%20AND%20mods.genre%3Asource_edition">
         </div>
       </div>
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg"
+          data-defaultThumbnail="../../../images/logos/mwf-logo.jpg"
           data-parameters="q=category.top:%22mir_institutes:dc751233-e1ca-483a-b5c1-0d53251530c5%22%20AND%20mods.genre%3Aresearch_data">
          </div>
       </div>
@@ -121,20 +121,20 @@
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg"
+          data-defaultThumbnail="../../../images/logos/mwf-logo.jpg"
           data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dc751233-e1ca-483a-b5c1-0d53251530c5%22%20AND%20NOT%20(mods.genre%3Asource_edition%20OR%20mods.genre%3Aresearch_data)">
         </div>
       </div>
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg"
+          data-defaultThumbnail="../../../images/logos/mwf-logo.jpg"
           data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dc751233-e1ca-483a-b5c1-0d53251530c5%22%20AND%20mods.genre%3Asource_edition">
         </div>
       </div>
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg"
+          data-defaultThumbnail="../../../images/logos/mwf-logo.jpg"
           data-parameters="q=category.top:%22mir_institutes:dc751233-e1ca-483a-b5c1-0d53251530c5%22%20AND%20mods.genre%3Aresearch_data">
          </div>
       </div>
@@ -191,20 +191,20 @@
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg"
+          data-defaultThumbnail="../../../images/logos/mwf-logo.jpg"
           data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dc751233-e1ca-483a-b5c1-0d53251530c5%22%20AND%20NOT%20(mods.genre%3Asource_edition%20OR%20mods.genre%3Aresearch_data)">
         </div>
       </div>
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg"
+          data-defaultThumbnail="../../../images/logos/mwf-logo.jpg"
           data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:dc751233-e1ca-483a-b5c1-0d53251530c5%22%20AND%20mods.genre%3Asource_edition">
         </div>
       </div>
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultThumbnail="../../../images/placeholder/oii-placeholder-460.jpg"
+          data-defaultThumbnail="../../../images/logos/mwf-logo.jpg"
           data-parameters="q=category.top:%22mir_institutes:dc751233-e1ca-483a-b5c1-0d53251530c5%22%20AND%20mods.genre%3Aresearch_data">
          </div>
       </div>

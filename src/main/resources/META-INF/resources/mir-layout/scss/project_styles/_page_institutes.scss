@@ -91,10 +91,13 @@
   padding-right: 30px;
 }
 
-.pp-sourcesBox img,
-.pp-publications img {
-  width: 100%;
-  border: 1px solid #dddddd;
+.project-thumbnail-container {
+  border: 1px solid $p-gray-border;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: .5rem;
 }
 
 #main_content .pp-sources h3,
