@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="de">
         <img alt="DHIW-Logo" class="pp-institute-graphic__logo"
-          src="../../../images/logos/logo_dhi_washington.png" style="width: 238px; height: 102px;" />
+          src="../../../images/logos/logo_dhi_washington_de_300.png" />
         <h1 class="pp-institute-graphic__headline">Deutsches Historisches Institut Washington</h1>
         <img alt="Foto Washington" class="pp-institute-graphic__figure"
           src="../../../images/institutes/dhi-washington-figure.jpg"
@@ -76,7 +76,7 @@
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="en">
         <img alt="DHIW-Logo" class="pp-institute-graphic__logo"
-          src="../../../images/logos/logo_dhi_washington.png" style="width: 238px; height: 102px;" />
+          src="../../../images/logos/logo_dhi_washington_de_300.png" />
         <h1 class="pp-institute-graphic__headline">German Historical Institute Washington, DC</h1>
         <img alt="Foto Washington" class="pp-institute-graphic__figure"
           src="../../../images/institutes/dhi-washington-figure.jpg"
@@ -148,7 +148,7 @@
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="fr">
         <img alt="DHIW-Logo" class="pp-institute-graphic__logo"
-          src="../../../images/logos/logo_dhi_washington.png" style="width: 238px; height: 102px;" />
+          src="../../../images/logos/logo_dhi_washington_de_300.png" />
         <h1 class="pp-institute-graphic__headline">Institut historique allemand Washington</h1>
         <img alt="Foto Washington" class="pp-institute-graphic__figure"
           src="../../../images/institutes/dhi-washington-figure.jpg"
