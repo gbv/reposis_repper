@@ -120,7 +120,7 @@
                 </xsl:call-template>
               </xsl:if>
             </xsl:for-each>
-            <xsl:for-each select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:relatedItem[not((@type='host' and @xlink:href) or @type='original')]">
+            <xsl:for-each select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:relatedItem[not(@type='host' and @xlink:href)]">
               <xsl:variable name="relItemLabel">
               <xsl:choose>
                   <xsl:when test="@displayLabel">
@@ -229,9 +229,68 @@
                                 select="i18n:translate('component.mods.metaData.dictionary.publisher.creation')"/>
             </xsl:call-template>
 
-            <!-- added subject output for repper -->
+              <xsl:call-template name="printMetaDate.mods">
+                <xsl:with-param name="nodes" select="//mods:mods/mods:subject/mods:topic" />
+                <xsl:with-param name="label" select="i18n:translate('component.mods.metaData.dictionary.subject')" />
+                <xsl:with-param name="sep" select="'; '" />
+                <xsl:with-param name="property" select="'keyword'" />
+              </xsl:call-template>
 
+            <!-- added subject output for repper -->
+            <xsl:if test="contains(mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:temporal/@valueURI, 'DDC_T1')">
+              <tr>
+                <td class="metaname" valign="top">
+                  <xsl:value-of select="i18n:translate('component.mods.metaData.dictionary.subjectTemporalClass')" />
+                  <text>:</text>
+                </td>
+                <td class="metavalue">
+                  <xsl:for-each select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:temporal[contains(@valueURI, 'DDC_T1')]">
+                    <xsl:if test="position()!=1">
+                      <br />
+                    </xsl:if>
+                    <xsl:value-of select="document(concat('classification:metadata:0:children:DDC_T1:', substring-after(@valueURI,'#')))//category/label[@xml:lang=$CurrentLang]/@text"/>
+                  </xsl:for-each>
+                </td>
+              </tr>
+            </xsl:if>
+            <xsl:call-template name="printMetaDate.mods">
+              <xsl:with-param name="nodes" select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:temporal[not(@valueURI)][text()]" />
+              <xsl:with-param name="label" select="i18n:translate('component.mods.metaData.dictionary.subjectTemporal')" />
+            </xsl:call-template>
+            <xsl:if test="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:geographic[contains(@valueURI, 'DDC_T2')]">
+              <tr>
+                <td class="metaname" valign="top">
+                  <xsl:value-of select="i18n:translate('component.mods.metaData.dictionary.subjectGeographicClass')" />
+                  <text>:</text>
+                </td>
+                <td class="metavalue">
+                  <xsl:for-each select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:geographic[contains(@valueURI, 'DDC_T2')]">
+                    <xsl:if test="position()!=1">
+                      <br />
+                    </xsl:if>
+                    <xsl:value-of select="document(concat('classification:metadata:0:children:DDC_T2:', substring-after(@valueURI,'#')))//category/label[@xml:lang=$CurrentLang]/@text"/>
+                  </xsl:for-each>
+                </td>
+              </tr>
+            </xsl:if>
             <!-- END subject output for repper -->
+            
+            <xsl:for-each
+                    select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject[(count(mods:geographic)&gt;0 or count(mods:cartographics)&gt;0) and (count(mods:geographic) + count(mods:cartographics)) = count(mods:*) and not(mods:geographic[contains(@valueURI, 'DDC_T2')])]">
+                <xsl:call-template name="printMetaDate.mods">
+                    <xsl:with-param name="nodes" select="mods:geographic"/>
+                </xsl:call-template>
+                <xsl:for-each select="mods:cartographics/mods:coordinates">
+                    <tr>
+                        <td class="metaname" valign="top">
+                            <xsl:value-of select="i18n:translate('mir.cartographics.coordinates')"/>
+                        </td>
+                        <td class="metavalue">
+                            <xsl:call-template name="displayCoordinates"/>
+                        </td>
+                    </tr>
+                </xsl:for-each>
+            </xsl:for-each>
 
 
             <!-- hide new subject output in repper for the moment
@@ -257,7 +316,7 @@
             -->
 
             <xsl:apply-templates mode="present"
-                                 select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:classification[not(@generator)][not(@authority='ddc')][not(contains(@valueURI, 'epoch#'))]"/>
+                                 select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:classification[not(@generator)]"/>
             <xsl:apply-templates mode="present"
                                  select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:part/mods:extent"/>
             <xsl:apply-templates mode="present"
@@ -292,132 +351,6 @@
               </xsl:if>
             </xsl:for-each>
           </table>
-
-<xsl:if test="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:relatedItem[@type='original']">
-          <div id="mir-original">
-          
-            <xsl:variable name="originalItem" select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:relatedItem[@type='original']" />
-            <table class="mir-metadata">
-              <tr>
-                <td valign="top" class="metaname">
-                  <xsl:value-of select="i18n:translate('mir.title')" />
-                </td>
-                <td class="metavalue">
-                  <xsl:apply-templates select="$originalItem/mods:titleInfo" mode="mods.printTitle">
-                    <xsl:with-param name="asHTML" select="true()" />
-                    <xsl:with-param name="withSubtitle" select="true()" />
-                  </xsl:apply-templates>
-                </td>
-              </tr>
-              <tr>
-                <td valign="top" class="metaname">
-                  <xsl:value-of select="i18n:translate('component.mods.genre')" />
-                </td>
-                <td class="metavalue">
-                  <xsl:value-of select="document(concat('classification:metadata:0:children:mir_genres:', translate(substring-after($originalItem/mods:genre[@type='intern']/@valueURI, '#'),' ','_')))//category/label[@xml:lang=$CurrentLang]/@text"/>
-                </td>
-              </tr>
-              <xsl:apply-templates mode="present" select="$originalItem/mods:name"/>
-              <xsl:apply-templates select="$originalItem/mods:originInfo[@eventType='publication']/mods:dateIssued[@encoding='w3cdtf']"
-                  mode="present" />
-              <xsl:call-template name="printMetaDate.mods">
-                  <xsl:with-param name="nodes" select="$originalItem/mods:originInfo[not(@eventType) or @eventType='publication']/mods:publisher" />
-              </xsl:call-template>
-              <xsl:call-template name="printMetaDate.mods">
-                <xsl:with-param name="nodes"
-                  select="$originalItem/mods:physicalDescription/mods:extent" />
-              </xsl:call-template>
-              <xsl:apply-templates mode="present" select="$originalItem/mods:language" />
-              <xsl:apply-templates mode="present" select="$originalItem/mods:identifier[@type!='open-aire' and @type!='intern' and @type!='issn']" />
-                <xsl:for-each select="$originalItem/mods:identifier[@type='issn']">
-                    <tr>
-                        <td class="metaname" valign="top">
-                            <xsl:value-of select="i18n:translate('mir.identifier.issn')" />
-                        </td>
-                        <td class="metavalue">
-                            <xsl:value-of select="."/>
-                        </td>
-                    </tr>
-                </xsl:for-each>
-            </table>
-          </div>
-</xsl:if>
-
-          <div id="mir-cataloging">
-            <dl>
-              <xsl:if test="//mods:mods/mods:subject/mods:topic">
-                <dt><xsl:value-of select="i18n:translate('component.mods.metaData.dictionary.subject')" />
-                      <text>:</text></dt>
-                <dd><xsl:for-each select="//mods:mods/mods:subject/mods:topic">
-                        <xsl:if test="position()!=1">
-                          <xsl:text>; </xsl:text>
-                        </xsl:if>
-                        <xsl:value-of select="."/>
-                      </xsl:for-each></dd>
-              </xsl:if>
-              <xsl:if test="contains(mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:temporal/@valueURI, 'DDC_T1')">
-                <dt><xsl:value-of select="i18n:translate('component.mods.metaData.dictionary.subjectTemporalClass')" />
-                      <text>:</text></dt>
-                <dd><xsl:for-each select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:temporal[contains(@valueURI, 'DDC_T1')]">
-                        <xsl:if test="position()!=1">
-                          <br />
-                        </xsl:if>
-                        <xsl:value-of select="document(concat('classification:metadata:0:children:DDC_T1:', substring-after(@valueURI,'#')))//category/label[@xml:lang=$CurrentLang]/@text"/>
-                      </xsl:for-each></dd>
-              </xsl:if>
-              <xsl:if test="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:temporal[not(@valueURI)][text()]">
-                <dt><xsl:value-of select="i18n:translate('component.mods.metaData.dictionary.subjectTemporal')" />
-                    <text>:</text></dt>
-                <dd><xsl:for-each select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:temporal[not(@valueURI)][text()]">
-                      <xsl:if test="position()!=1">
-                        <br />
-                      </xsl:if>
-                      <xsl:value-of select="."/>
-                    </xsl:for-each></dd>
-              </xsl:if>
-              <xsl:if test="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:geographic[contains(@valueURI, 'DDC_T2')]">
-                <dt><xsl:value-of select="i18n:translate('component.mods.metaData.dictionary.subjectGeographicClass')" />
-                    <text>:</text></dt>
-                <dd><xsl:for-each select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:geographic[contains(@valueURI, 'DDC_T2')]">
-                      <xsl:if test="position()!=1">
-                        <br />
-                      </xsl:if>
-                      <xsl:value-of select="document(concat('classification:metadata:0:children:DDC_T2:', substring-after(@valueURI,'#')))//category/label[@xml:lang=$CurrentLang]/@text"/>
-                    </xsl:for-each></dd>
-              </xsl:if>
-              <xsl:for-each
-                      select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject[(count(mods:geographic)&gt;0 or count(mods:cartographics)&gt;0) and (count(mods:geographic) + count(mods:cartographics)) = count(mods:*) and not(mods:geographic[contains(@valueURI, 'DDC_T2')])]">
-                  <xsl:if test="mods:geographic">
-                    <dt>Geographic:</dt>
-                    <dd><xsl:value-of select="mods:geographic"/></dd>
-                  </xsl:if>
-                  <xsl:for-each select="mods:cartographics/mods:coordinates">
-                    <dt><xsl:value-of select="i18n:translate('mir.cartographics.coordinates')"/></dt>
-                    <dd><xsl:call-template name="displayCoordinates"/></dd>
-                  </xsl:for-each>
-              </xsl:for-each>
-              <xsl:if test="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:classification[contains(@valueURI, 'epoch#')]">
-                <dt><xsl:value-of select="i18n:translate('component.mods.metaData.dictionary.epoch')" />
-                    <text>:</text></dt>
-                <dd><xsl:for-each select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:classification[contains(@valueURI, 'epoch#')]">
-                      <xsl:if test="position()!=1">
-                        <br />
-                      </xsl:if>
-                      <xsl:value-of select="document(concat('classification:metadata:0:children:epoch:', substring-after(@valueURI,'#')))//category/label[@xml:lang=$CurrentLang]/@text"/>
-                    </xsl:for-each></dd>
-                </xsl:if>
-                <xsl:if test="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:classification[not(@generator)][@authority='ddc']">
-                  <dt><xsl:value-of select="i18n:translate('component.mods.metaData.dictionary.ddc')" />
-                    <text>:</text></dt>
-                  <dd><xsl:for-each select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:classification[not(@generator)][@authority='ddc']">
-                      <xsl:if test="position()!=1">
-                        <br />
-                      </xsl:if>
-                      <xsl:value-of select="document(concat('classification:metadata:0:children:DDC:', .))//category/label[@xml:lang=$CurrentLang]/@text"/>
-                    </xsl:for-each></dd>
-                </xsl:if>
-            </dl>
-          </div>
 
     </div>
     <xsl:apply-imports />
