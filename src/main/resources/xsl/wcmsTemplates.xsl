@@ -441,27 +441,6 @@
                       </a>
                     </div>
 
-
-                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
-                      <a
-                        href="about/institutes/dhi-moskau.xml"
-                        class="slider-institute slider-institute-moskau">
-                        <div class="slider-institute-figure">
-                          <img
-                            alt=""
-                            class="slider-institute-logo"
-                            src="{$WebApplicationBaseURL}images/logos/dhi-moskau.png" />
-                          <img
-                            alt=""
-                            class="img-fluid slider-institute-image"
-                            src="{$WebApplicationBaseURL}images/institutes/dhi-moskau-figure.jpg" />
-                        </div>
-                        <div class="slider-institute-title">
-                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.dhim')" disable-output-escaping="yes" />
-                        </div>
-                      </a>
-                    </div>
-
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/dhi-paris.xml"
@@ -482,12 +461,6 @@
                       </a>
                     </div>
 
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="row carousel-item__content-box">
-
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/dhi-rom.xml"
@@ -507,6 +480,12 @@
                         </div>
                       </a>
                     </div>
+
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row carousel-item__content-box">
 
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
@@ -568,12 +547,6 @@
                       </a>
                     </div>
 
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="row carousel-item__content-box">
-
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/mwn.xml"
@@ -593,6 +566,12 @@
                         </div>
                       </a>
                     </div>
+
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row carousel-item__content-box">
 
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
@@ -654,12 +633,6 @@
                       </a>
                     </div>
 
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="row carousel-item__content-box">
-
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/mws.xml"
@@ -679,6 +652,12 @@
                         </div>
                       </a>
                     </div>
+
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row carousel-item__content-box">
 
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
@@ -740,12 +719,6 @@
                       </a>
                     </div>
 
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="row carousel-item__content-box">
-
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/ieg.xml"
@@ -766,6 +739,12 @@
                       </a>
                     </div>
 
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row carousel-item__content-box">
+
                     <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
                       <a
                         href="about/institutes/dzk.xml"
@@ -782,6 +761,26 @@
                         </div>
                         <div class="slider-institute-title">
                           <xsl:value-of select="i18n:translate('pp.page.home.institutions.dzk')" disable-output-escaping="yes" />
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0 carousel-item__tile">
+                      <a
+                        href="about/institutes/dhi-moskau.xml"
+                        class="slider-institute slider-institute-moskau">
+                        <div class="slider-institute-figure">
+                          <img
+                            alt=""
+                            class="slider-institute-logo"
+                            src="{$WebApplicationBaseURL}images/logos/dhi-moskau.png" />
+                          <img
+                            alt=""
+                            class="img-fluid slider-institute-image"
+                            src="{$WebApplicationBaseURL}images/institutes/dhi-moskau-figure.jpg" />
+                        </div>
+                        <div class="slider-institute-title">
+                          <xsl:value-of select="i18n:translate('pp.page.home.institutions.dhim')" disable-output-escaping="yes" />
                         </div>
                       </a>
                     </div>
