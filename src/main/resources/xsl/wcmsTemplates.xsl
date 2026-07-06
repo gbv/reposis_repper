@@ -429,7 +429,7 @@
                           <img
                             alt=""
                             class="slider-institute-logo"
-                            src="{$WebApplicationBaseURL}images/logos/dhi-london-logo-500.jpg" />
+                            src="{$WebApplicationBaseURL}images/logos/dhi-london-logo-full.svg" />
                           <img
                             alt=""
                             class="img-fluid slider-institute-image"
