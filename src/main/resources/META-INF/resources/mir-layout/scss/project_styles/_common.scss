@@ -114,6 +114,7 @@ a.readmore {
     padding-bottom: 0.5rem;
     transition: 0.5s ease;
     opacity: 1;
+    background-color: transparent;
     &:hover {
       &:after {
         background-color: $p-orange;
@@ -124,6 +125,7 @@ a.readmore {
     &:after {
       content: "";
       border: 1px solid $p-petrol;
+      background-color: white;
       display: block;
       width: 2rem;
       height: 0.5rem;
