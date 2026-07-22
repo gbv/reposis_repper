@@ -229,12 +229,26 @@
                                 select="i18n:translate('component.mods.metaData.dictionary.publisher.creation')"/>
             </xsl:call-template>
 
-              <xsl:call-template name="printMetaDate.mods">
-                <xsl:with-param name="nodes" select="//mods:mods/mods:subject/mods:topic" />
-                <xsl:with-param name="label" select="i18n:translate('component.mods.metaData.dictionary.subject')" />
-                <xsl:with-param name="sep" select="'; '" />
-                <xsl:with-param name="property" select="'keyword'" />
-              </xsl:call-template>
+            <!-- show new subject output in repper for mods:name and mods:topic -->
+            <xsl:if test="count(mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject[mods:name or mods:topic])&gt;0">
+                <tr>
+                    <td class="metaname" valign="top">
+                        <xsl:value-of select="concat(i18n:translate('component.mods.metaData.dictionary.subject'),':')"/>
+                    </td>
+                    <td class="metavalue">
+                        <xsl:for-each
+                                select="mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject[mods:name or mods:topic]">
+                            <ol class="topic-list">
+                                <xsl:for-each select="mods:name | mods:topic">
+                                    <li class="topic-element">
+                                        <xsl:apply-templates select="." mode="displaySubject"/>
+                                    </li>
+                                </xsl:for-each>
+                            </ol>
+                        </xsl:for-each>
+                    </td>
+                </tr>
+            </xsl:if>
 
             <!-- added subject output for repper -->
             <xsl:if test="contains(mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:temporal/@valueURI, 'DDC_T1')">
