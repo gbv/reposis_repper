@@ -1,6 +1,6 @@
 Sitemap: https://www.perspectivia.net/sitemap_google.xml
 User-agent: *
-Allow: /rsc/sitelinks/
+Allow: /sitelinks
 Allow: /servlets/MCRFileNodeServlet/
 Disallow: /*?
 Disallow: /servlets/
