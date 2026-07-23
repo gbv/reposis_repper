@@ -44,6 +44,11 @@
             <label xml:lang="en">Accessibility</label>
             <label xml:lang="fr">Accessibilité</label>
         </item>
+        <item href="/rsc/sitelinks/" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Sitelinks</label>
+            <label xml:lang="en">Sitelinks</label>
+            <label xml:lang="fr">Sitelinks</label>
+        </item>
     </menu>
     <menu id="about" dir="/content/about">
         <label xml:lang="de">Über uns</label>
@@ -72,11 +77,6 @@
                 <label xml:lang="de">Deutsches Historisches Institut London (GHIL)</label>
                 <label xml:lang="en">German Historical Institute London (GHIL)</label>
                 <label xml:lang="fr">Institut historique allemand Londres (GHIL)</label>
-            </item>
-            <item href="/content/about/institutes/dhi-moskau.xml" replaceMenu="false" constrainPopUp="false">
-                <label xml:lang="de">Deutsches Historisches Institut Moskau (DHI)</label>
-                <label xml:lang="en">German Historical Institute Moscow (DHI)</label>
-                <label xml:lang="fr">Institut historique allemand Moscou (DHI)</label>
             </item>
             <item href="/content/about/institutes/dhi-paris.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Deutsches Historisches Institut Paris (DHI)</label>
@@ -123,10 +123,20 @@
                 <label xml:lang="en">Max Weber Forum for South Asian Studies in Delhi (MWF)</label>
                 <label xml:lang="fr">Forum Max Weber pour les études sud-asiatiques à Delhi (MWF)</label>
             </item>
+            <item href="/content/about/institutes/dhi-moskau.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Deutsches Historisches Institut Moskau 2005-2024 (DHI)</label>
+                <label xml:lang="en">German Historical Institute Moscow 2005-2024(DHI)</label>
+                <label xml:lang="fr">Institut historique allemand Moscou 2005-2024 (DHI)</label>
+            </item>
             <item href="/content/about/institutes/adef.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Arbeitskreis Großbritannien-Forschung (AGF)</label>
                 <label xml:lang="en">German Association for British Studies (AGF)</label>
                 <label xml:lang="fr">Arbeitskreis Großbritannien-Forschung (AGF)</label>
+            </item>
+            <item href="/content/about/institutes/dzk.xml" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Deutsches Zentrum Kulturgutverluste</label>
+                <label xml:lang="en">German Lost Art Foundation</label>
+                <label xml:lang="fr">German Lost Art Foundation</label>
             </item>
             <item href="/content/about/institutes/trafo.xml" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Forum Transregionale Studien (TRAFO)</label>
@@ -142,11 +152,6 @@
                 <label xml:lang="de">Leibniz-Institut für Europäische Geschichte (IEG)</label>
                 <label xml:lang="en">Leibniz Institute of European History (IEG)</label>
                 <label xml:lang="fr">Institut Leibniz d'histoire européenne (IEG)</label>
-            </item>
-            <item href="/content/about/institutes/dzk.xml" replaceMenu="false" constrainPopUp="false">
-                <label xml:lang="de">Deutsches Zentrum Kulturgutverluste</label>
-                <label xml:lang="en">German Lost Art Foundation</label>
-                <label xml:lang="fr">German Lost Art Foundation</label>
             </item>
         </item>
         <item href="/content/about/redaktion.xml" replaceMenu="false" constrainPopUp="false">
