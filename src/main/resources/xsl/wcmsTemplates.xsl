@@ -581,7 +581,7 @@
                           <img
                             alt=""
                             class="slider-institute-logo"
-                            src="{$WebApplicationBaseURL}images/logos/io-beirut-logo.jpg" />
+                            src="{$WebApplicationBaseURL}images/logos/oib-logo-26.svg" />
                           <img
                             alt=""
                             class="img-fluid slider-institute-image"
@@ -601,7 +601,7 @@
                           <img
                             alt=""
                             class="slider-institute-logo"
-                            src="{$WebApplicationBaseURL}images/logos/logo_oi_istanbul.png" />
+                            src="{$WebApplicationBaseURL}images/logos/oii-logo-26-red.svg" />
                           <img
                             alt=""
                             class="img-fluid slider-institute-image"

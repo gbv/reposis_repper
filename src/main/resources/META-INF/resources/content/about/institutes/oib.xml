@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="de">
         <img alt="OIB-Logo" class="pp-institute-graphic__logo"
-          src="../../../images/logos/oib-logo-460.jpg" />
+          src="../../../images/logos/oib-logo-26-full.svg" />
         <h1 class="pp-institute-graphic__headline">Orient Institut Beirut</h1>
         <img alt="Foto Beirut" class="pp-institute-graphic__figure"
           src="../../../images/institutes/oib-figure.jpg" title="Orient Institut Beirut" />
@@ -53,20 +53,20 @@
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultThumbnail="../../../images/logos/oib-logo-230.jpg"
+          data-defaultThumbnail="../../../images/logos/oib-logo-26-full.svg"
           data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.beirut%22%20AND%20NOT%20(mods.genre%3Asource_edition%20OR%20mods.genre%3Aresearch_data)">
         </div>
       </div>
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultThumbnail="../../../images/logos/oib-logo-230.jpg"
+          data-defaultThumbnail="../../../images/logos/oib-logo-26-full.svg"
           data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.beirut%22%20AND%20mods.genre%3Asource_edition">
         </div>
       </div>
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultThumbnail="../../../images/logos/oib-logo-230.jpg"
+          data-defaultThumbnail="../../../images/logos/oib-logo-26-full.svg"
           data-parameters="q=category.top:%22mir_institutes:oi.beirut%22%20AND%20mods.genre%3Aresearch_data">
         </div>
       </div>
@@ -76,7 +76,7 @@
     <div class="row">
 
       <div class="col-12 pp-institute-graphic" lang="de">
-        <img src="../../../images/logos/oib-logo-460.jpg" class="pp-institute-graphic__logo"
+        <img src="../../../images/logos/oib-logo-26-full.svg" class="pp-institute-graphic__logo"
           alt="OIB-Logo" />
         <h1 class="pp-institute-graphic__headline">
           Orient Institut Beirut
@@ -126,19 +126,19 @@
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultThumbnail="../../../images/logos/oib-logo-230.jpg"
+          data-defaultThumbnail="../../../images/logos/oib-logo-26-full.svg"
           data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.beirut%22%20AND%20NOT%20(mods.genre%3Asource_edition%20OR%20mods.genre%3Aresearch_data)">
         </div>
       </div>
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultThumbnail="../../../images/logos/oib-logo-230.jpg"
+          data-defaultThumbnail="../../../images/logos/oib-logo-26-full.svg"
           data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.beirut%22%20AND%20mods.genre%3Asource_edition">
         </div>
       </div>
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultThumbnail="../../../images/logos/oib-logo-230.jpg"
+          data-defaultThumbnail="../../../images/logos/oib-logo-26-full.svg"
           data-parameters="q=category.top:%22mir_institutes:oi.beirut%22%20AND%20mods.genre%3Aresearch_data">
         </div>
       </div>
@@ -149,7 +149,7 @@
     <div class="row">
       <div class="col-12 pp-institute-graphic" lang="fr">
         <img alt="OIB-Logo" class="pp-institute-graphic__logo"
-          src="../../../images/logos/oib-logo-460.jpg" />
+          src="../../../images/logos/oib-logo-26-full.svg" />
         <h1 class="pp-institute-graphic__headline">Orient-Institut Beyrouth</h1>
         <img alt="Foto Beirut" class="pp-institute-graphic__figure"
           src="../../../images/institutes/oib-figure.jpg" title="Orient Institut Beirut" />
@@ -198,19 +198,19 @@
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultThumbnail="../../../images/logos/oib-logo-230.jpg"
+          data-defaultThumbnail="../../../images/logos/oib-logo-26-full.svg"
           data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.beirut%22%20AND%20NOT%20(mods.genre%3Asource_edition%20OR%20mods.genre%3Aresearch_data)">
         </div>
       </div>
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultThumbnail="../../../images/logos/oib-logo-230.jpg"
+          data-defaultThumbnail="../../../images/logos/oib-logo-26-full.svg"
           data-parameters="q=NOT%20(mods.relatedItem:*)%20AND%20category.top:%22mir_institutes:oi.beirut%22%20AND%20mods.genre%3Asource_edition">
         </div>
       </div>
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
-          data-defaultThumbnail="../../../images/logos/oib-logo-230.jpg"
+          data-defaultThumbnail="../../../images/logos/oib-logo-26-full.svg"
           data-parameters="q=category.top:%22mir_institutes:oi.beirut%22%20AND%20mods.genre%3Aresearch_data">
         </div>
       </div>
