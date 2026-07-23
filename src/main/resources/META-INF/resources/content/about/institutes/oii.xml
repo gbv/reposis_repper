@@ -1,58 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Orient-Institut Istanbul"><div class="row">
+<div class="col-12 pp-institute-graphic" lang="de"><img src="../../../images/logos/oii-logo-26-red.svg" class="pp-institute-graphic__logo" alt="OII-Logo" />
+<h1 class="pp-institute-graphic__headline">Orient-Institut Istanbul</h1>
+<img src="../../../images/institutes/oii-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Istanbul" title="Orient-Institut Istanbul" /></div>
+<div class="col-12 pp-contact" lang="de">
+<h2>Kontakt</h2>
+<h3>Orient-Institut Istanbul</h3>
+<div class="pp-contact__list">
+<div class="pp-contact__item">Orient-Institut Istanbul Şahkulu Mah. Galip Dede Cad. No. 65<br />34421 Beyoğlu – İstanbul<br />Türkei</div>
+<table class="pp-contact__item">
+<tr>
+<td class="pp-contact__subitem">Telefon:</td>
+<td>+90 212 293 60 67</td>
+</tr>
+<tr>
+<td class="pp-contact__subitem">Fax:</td>
+<td>+90 212 243 41 43</td>
+</tr>
+</table>
+<table class="pp-contact__item">
+<tr>
+<td class="pp-contact__subitem">E-Mail:</td>
+<td><span class="madress">oiist [at] oiist.org</span></td>
+</tr>
+<tr>
+<td class="pp-contact__subitem">Internet:</td>
+<td><a class="external-link" href="https://www.oiist.org/">https://www.oiist.org/</a></td>
+</tr>
+</table>
+</div>
+</div>
 
-  <section xml:lang="de" title="Orient-Institut Istanbul">
-    <div class="row">
-
-      <div class="col-12 pp-institute-graphic" lang="de">
-        <img src="../../../images/logos/oii-logo-26-red.svg"
-          class="pp-institute-graphic__logo"
-          alt="OII-Logo" />
-        <h1 class="pp-institute-graphic__headline">
-          Orient-Institut Istanbul
-        </h1>
-        <img src="../../../images/institutes/oii-figure.jpg"
-          class="pp-institute-graphic__figure"
-          alt="Foto Istanbul"
-          title="Orient-Institut Istanbul" />
-      </div>
-
-      <div class="col-12 pp-contact" lang="de">
-        <h2>Kontakt</h2>
-        <h3>Orient-Institut Istanbul</h3>
-        <div class="pp-contact__list">
-
-          <div class="pp-contact__item"> Orient-Institut Istanbul Susam Sokak 16-18 D. 8,<br />
-            34433 Cihangir – Istanbul,<br /> Türkei </div>
-
-          <table class="pp-contact__item">
-            <tr>
-              <td class="pp-contact__subitem">Telefon:</td>
-              <td>+90 212 293 60 67</td>
-            </tr>
-            <tr>
-              <td class="pp-contact__subitem">Fax:</td>
-              <td>+90 212 249 63 59</td>
-            </tr>
-          </table>
-
-          <table class="pp-contact__item">
-            <tr>
-              <td class="pp-contact__subitem">E-Mail:</td>
-              <td>
-                <span class="madress">oiist [at] oidmg.org</span>
-              </td>
-            </tr>
-            <tr>
-              <td class="pp-contact__subitem">Internet:</td>
-              <td>
-                <a class="external-link" href="https://www.oiist.org/">https://www.oiist.org/</a>
-              </td>
-            </tr>
-          </table>
-
-        </div>
-      </div>
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
@@ -76,58 +54,38 @@
     </div>
   </section>
 
-  <section xml:lang="en" title="Orient-Institut Istanbul">
-    <div class="row">
 
-      <div class="col-12 pp-institute-graphic" lang="de">
-        <img src="../../../images/logos/oii-logo-26-red.svg"
-          class="pp-institute-graphic__logo"
-          alt="OII-Logo" />
-        <h1 class="pp-institute-graphic__headline">
-          Orient-Institut Istanbul
-        </h1>
-        <img src="../../../images/institutes/oii-figure.jpg"
-          class="pp-institute-graphic__figure"
-          alt="Foto Istanbul"
-          title="Orient-Institut Istanbul" />
-      </div>
-
-      <div class="col-12 pp-contact" lang="de">
-        <h2>Contact</h2>
-        <h3>Orient-Institut Istanbul</h3>
-        <div class="pp-contact__list">
-
-          <div class="pp-contact__item"> Orient-Institut Istanbul Susam Sokak 16-18 D. 8,<br />
-            34433 Cihangir – Istanbul,<br /> Türkei </div>
-
-          <table class="pp-contact__item">
-            <tr>
-              <td class="pp-contact__subitem">Phone:</td>
-              <td>+90 212 293 60 67</td>
-            </tr>
-            <tr>
-              <td class="pp-contact__subitem">Fax:</td>
-              <td>+90 212 249 63 59</td>
-            </tr>
-          </table>
-
-          <table class="pp-contact__item">
-            <tr>
-              <td class="pp-contact__subitem">E-Mail:</td>
-              <td>
-                <span class="madress">oiist [at] oidmg.org</span>
-              </td>
-            </tr>
-            <tr>
-              <td class="pp-contact__subitem">Internet:</td>
-              <td>
-                <a class="external-link" href="https://www.oiist.org/">https://www.oiist.org/</a>
-              </td>
-            </tr>
-          </table>
-
-        </div>
-      </div>
+<section xml:lang="en" title="Orient-Institut Istanbul"><div class="row">
+<div class="col-12 pp-institute-graphic" lang="de"><img src="../../../images/logos/oii-logo-26-red.svg" class="pp-institute-graphic__logo" alt="OII-Logo" />
+<h1 class="pp-institute-graphic__headline">Orient-Institut Istanbul</h1>
+<img src="../../../images/institutes/oii-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Istanbul" title="Orient-Institut Istanbul" /></div>
+<div class="col-12 pp-contact" lang="de">
+<h2>Contact</h2>
+<h3>Orient-Institut Istanbul</h3>
+<div class="pp-contact__list">
+<div class="pp-contact__item">Orient-Institut Istanbul Şahkulu Mah. Galip Dede Cad. No. 65<br />34421 Beyoğlu – İstanbul<br />Türkiye</div>
+<table class="pp-contact__item">
+<tr>
+<td class="pp-contact__subitem">Phone:</td>
+<td>+90 212 293 60 67</td>
+</tr>
+<tr>
+<td class="pp-contact__subitem">Fax:</td>
+<td>+90 212 243 41 43</td>
+</tr>
+</table>
+<table class="pp-contact__item">
+<tr>
+<td class="pp-contact__subitem">E-Mail:</td>
+<td><span class="madress">oiist [at] oiist.org</span></td>
+</tr>
+<tr>
+<td class="pp-contact__subitem">Internet:</td>
+<td><a class="external-link" href="https://www.oiist.org/">https://www.oiist.org/</a></td>
+</tr>
+</table>
+</div>
+</div>
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
@@ -151,58 +109,37 @@
     </div>
   </section>
 
-  <section xml:lang="fr" title="Orient-Institut Istanbul">
-    <div class="row">
-
-      <div class="col-12 pp-institute-graphic" lang="de">
-        <img src="../../../images/logos/oii-logo-26-red.svg"
-          class="pp-institute-graphic__logo"
-          alt="OII-Logo" />
-        <h1 class="pp-institute-graphic__headline">
-          Orient-Institut Istanbul
-        </h1>
-        <img src="../../../images/institutes/oii-figure.jpg"
-          class="pp-institute-graphic__figure"
-          alt="Foto Istanbul"
-          title="Orient-Institut Istanbul" />
-      </div>
-
-      <div class="col-12 pp-contact" lang="de">
-        <h2>Contact</h2>
-        <h3>Orient-Institut Istanbul</h3>
-        <div class="pp-contact__list">
-
-          <div class="pp-contact__item"> Orient-Institut Istanbul Susam Sokak 16-18 D. 8,<br />
-            34433 Cihangir – Istanbul,<br /> Türkei </div>
-
-          <table class="pp-contact__item">
-            <tr>
-              <td class="pp-contact__subitem">Phone:</td>
-              <td>+90 212 293 60 67</td>
-            </tr>
-            <tr>
-              <td class="pp-contact__subitem">Fax:</td>
-              <td>+90 212 249 63 59</td>
-            </tr>
-          </table>
-
-          <table class="pp-contact__item">
-            <tr>
-              <td class="pp-contact__subitem">E-Mail:</td>
-              <td>
-                <span class="madress">oiist [at] oidmg.org</span>
-              </td>
-            </tr>
-            <tr>
-              <td class="pp-contact__subitem">Internet:</td>
-              <td>
-                <a class="external-link" href="https://www.oiist.org/">https://www.oiist.org/</a>
-              </td>
-            </tr>
-          </table>
-
-        </div>
-      </div>
+<section xml:lang="fr" title="Orient-Institut Istanbul"><div class="row">
+<div class="col-12 pp-institute-graphic" lang="de"><img src="../../../images/logos/oii-logo-26-red.svg" class="pp-institute-graphic__logo" alt="OII-Logo" />
+<h1 class="pp-institute-graphic__headline">Orient-Institut Istanbul</h1>
+<img src="../../../images/institutes/oii-figure.jpg" class="pp-institute-graphic__figure" alt="Foto Istanbul" title="Orient-Institut Istanbul" /></div>
+<div class="col-12 pp-contact" lang="de">
+<h2>Contact</h2>
+<h3>Orient-Institut Istanbul</h3>
+<div class="pp-contact__list">
+<div class="pp-contact__item">Orient-Institut Istanbul Şahkulu Mah. Galip Dede Cad. No. 65<br />34421 Beyoğlu – İstanbul<br />Turquie</div>
+<table class="pp-contact__item">
+<tr>
+<td class="pp-contact__subitem">Phone:</td>
+<td>+90 212 293 60 67</td>
+</tr>
+<tr>
+<td class="pp-contact__subitem">Fax:</td>
+<td>+90 212 243 41 43</td>
+</tr>
+</table>
+<table class="pp-contact__item">
+<tr>
+<td class="pp-contact__subitem">E-Mail:</td>
+<td><span class="madress">oiist [at] oiist.org</span></td>
+</tr>
+<tr>
+<td class="pp-contact__subitem">Internet:</td>
+<td><a class="external-link" href="https://www.oiist.org/">https://www.oiist.org/</a></td>
+</tr>
+</table>
+</div>
+</div>
 
       <div class="col-12 pp-publications">
         <div class="solrsearch" data-classes="pp-sourcesBox"
@@ -226,7 +163,4 @@
     </div>
   </section>
 
-  <meta>
-    <log lastEditor="administrator" date="2023-11-22" time="17:07" />
-  </meta>
-</MyCoReWebPage>
+<meta><log lastEditor="kneumann" date="2025-11-03" time="09:49" /></meta></MyCoReWebPage>
