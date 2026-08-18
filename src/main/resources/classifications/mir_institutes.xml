@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_institutes">
+<mycoreclass ID="mir_institutes"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="MCRClassification.xsd">
   <label xml:lang="de" text="Einrichtungen" description="Liste der Einrichtungen" />
   <label xml:lang="en" text="Institutions" description="A list of institutions" />
   <label xml:lang="fr" text="Institutions" description="Une liste d'institutions." />
@@ -19,13 +22,13 @@
       <label xml:lang="de" text="Deutsches Forum für Kunstgeschichte Paris" />
       <label xml:lang="en" text="German Center for Art History Paris" />
       <label xml:lang="fr" text="Centre allemand d’histoire de l’art Paris" />
-      <url xlink:href="www.dfk-paris.org" xlink:type="locator" />
+      <url xlink:type="locator" xlink:href="www.dfk-paris.org" />
     </category>
     <category ID="dhi.london">
       <label xml:lang="de" text="Deutsches Historisches Institut London" />
       <label xml:lang="en" text="German Historical Institute London" />
       <label xml:lang="fr" text="Institut historique allemand Londres" />
-      <url xlink:href="www.ghi.ac.uk" xlink:type="locator" />
+      <url xlink:type="locator" xlink:href="www.ghi.ac.uk" />
       <category ID="ibo">
         <label xml:lang="de" text="India Branch Office" />
         <label xml:lang="en" text="India Branch Office" />
@@ -46,13 +49,13 @@
       <label xml:lang="de" text="Deutsches Historisches Institut Paris" />
       <label xml:lang="en" text="German Historical Institute Paris" />
       <label xml:lang="fr" text="Institut historique allemand Paris" />
-      <url xlink:href="www.dhi-paris" xlink:type="locator" />
+      <url xlink:type="locator" xlink:href="www.dhi-paris" />
     </category>
     <category ID="dhi.rom">
       <label xml:lang="de" text="Deutsches Historisches Institut Rom" />
       <label xml:lang="en" text="German Historical Institute Rome" />
       <label xml:lang="fr" text="Institut historique allemand Rome" />
-      <url xlink:href="http://dhi-roma.it" xlink:type="locator" />
+      <url xlink:type="locator" xlink:href="http://dhi-roma.it" />
     </category>
     <category ID="dhi.warschau">
       <label xml:lang="de" text="Deutsches Historisches Institut Warschau" />
@@ -84,7 +87,7 @@
       <label xml:lang="en" text="Forum Transregionale Studien" />
       <label xml:lang="fr" text="Forum Transregionale Studien" />
       <label xml:lang="it" text="Forum Transregionale Studien" />
-      <url xlink:href="http://www.forum-transregionale-studien.de/nc/startseite.html" xlink:type="locator" />
+      <url xlink:type="locator" xlink:href="http://www.forum-transregionale-studien.de/nc/startseite.html" />
     </category>
     <category ID="spsg">
       <label xml:lang="de" text="Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg" />
@@ -95,7 +98,7 @@
       <label xml:lang="de" text="Deutsches Zentrum Kulturgutverluste" />
       <label xml:lang="en" text="German Lost Art Foundation" />
       <label xml:lang="fr" text="German Lost Art Foundation" />
-      <url xlink:href="http://www.kulturgutverluste.de" xlink:type="locator" />
+      <url xlink:type="locator" xlink:href="http://www.kulturgutverluste.de" />
     </category>
     <category ID="adef">
       <label xml:lang="de" text="Arbeitskreis Großbritannien-Forschung (AGF)" />
@@ -116,7 +119,7 @@
       <label xml:lang="de" text="Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland" />
       <label xml:lang="en" text="Max Weber Stiftung - Foundation German Humanities Institutes Abroad" />
       <label xml:lang="fr" text="Fondation Max-Weber" />
-      <url xlink:href="www.maxweberstiftung.de" xlink:type="locator" />
+      <url xlink:type="locator" xlink:href="www.maxweberstiftung.de" />
     </category>
     <category ID="operas">
       <label xml:lang="de" text="OPERAS" />

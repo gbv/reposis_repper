@@ -1,9 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="sections">
-  <label xml:lang="en" text="Section" />
+<mycoreclass ID="sections"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="MCRClassification.xsd">
   <label xml:lang="de" text="Rubrik" />
+  <label xml:lang="en" text="Section" />
   <label xml:lang="x-uri" text="https://perspectivia.net/api/v1/classifications/sections" />
   <categories>
+    <category ID="mwnoreviewseries">
+      <label xml:lang="de" text="MWNO Review Series" />
+      <label xml:lang="en" text="MWNO Review Series" />
+      <label xml:lang="fr" text="MWNO Review Series" />
+      <category ID="armenia">
+        <label xml:lang="de" text="Armenia" />
+        <label xml:lang="en" text="Armenia" />
+        <label xml:lang="fr" text="Armenia" />
+      </category>
+      <category ID="centralasia">
+        <label xml:lang="de" text="Central Asia" />
+        <label xml:lang="en" text="Central Asia" />
+        <label xml:lang="fr" text="Central Asia" />
+      </category>
+      <category ID="finland">
+        <label xml:lang="de" text="Finland" />
+        <label xml:lang="en" text="Finland" />
+        <label xml:lang="fr" text="Finland" />
+      </category>
+      <category ID="georgia">
+        <label xml:lang="de" text="Georgia" />
+        <label xml:lang="en" text="Georgia" />
+        <label xml:lang="fr" text="Georgia" />
+      </category>
+      <category ID="estonia">
+        <label xml:lang="de" text="Estonia" />
+        <label xml:lang="en" text="Estonia" />
+        <label xml:lang="fr" text="Estonia" />
+      </category>
+      <category ID="latvia">
+        <label xml:lang="de" text="Latvia" />
+        <label xml:lang="en" text="Latvia" />
+        <label xml:lang="fr" text="Latvia" />
+      </category>
+      <category ID="lithuania">
+        <label xml:lang="de" text="Lithuania" />
+        <label xml:lang="en" text="Lithuania" />
+        <label xml:lang="fr" text="Lithuania" />
+      </category>
+    </category>
+    <category ID="perablaetter">
+      <label xml:lang="de" text="Pera Blätter" />
+      <label xml:lang="en" text="Pera Blätter" />
+      <label xml:lang="fr" text="Pera Blätter" />
+      <category ID="literaryapproaches">
+        <label xml:lang="de" text="1. Mapping the Field: Literary Approaches to Women’s, Gender, and Sexuality Studies in Turkey and the Near East" />
+        <label xml:lang="en" text="1. Mapping the Field: Literary Approaches to Women’s, Gender, and Sexuality Studies in Turkey and the Near East" />
+        <label xml:lang="fr" text="1. Mapping the Field: Literary Approaches to Women’s, Gender, and Sexuality Studies in Turkey and the Near East" />
+      </category>
+      <category ID="historicizing">
+        <label xml:lang="de" text="2. Mapping the Field: Historicizing Women’s, Gender, and Sexuality Studies in Turkey and the Near East" />
+        <label xml:lang="en" text="2. Mapping the Field: Historicizing Women’s, Gender, and Sexuality Studies in Turkey and the Near East" />
+        <label xml:lang="fr" text="2. Mapping the Field: Historicizing Women’s, Gender, and Sexuality Studies in Turkey and the Near East" />
+      </category>
+      <category ID="interdisciplinaryapproaches">
+        <label xml:lang="de" text="3. Mapping the Field: Interdisciplinary Approaches to Women’s, Gender, and Sexuality Studies on the Region" />
+        <label xml:lang="en" text="3. Mapping the Field: Interdisciplinary Approaches to Women’s, Gender, and Sexuality Studies on the Region" />
+        <label xml:lang="fr" text="3. Mapping the Field: Interdisciplinary Approaches to Women’s, Gender, and Sexuality Studies on the Region" />
+      </category>
+      <category ID="academy">
+        <label xml:lang="de" text="4. New Directions: The Academy, Solidarity, and Public Outreach" />
+        <label xml:lang="en" text="4. New Directions: The Academy, Solidarity, and Public Outreach" />
+        <label xml:lang="fr" text="4. New Directions: The Academy, Solidarity, and Public Outreach" />
+      </category>
+      <category ID="leer" />
+    </category>
+    <category ID="londonbulletin">
+      <label xml:lang="de" text="GHI London Bulletin" />
+      <label xml:lang="en" text="GHI London Bulletin" />
+      <label xml:lang="fr" text="GHI London Bulletin" />
+      <category ID="specialissue">
+        <label xml:lang="de" text="Living through the Wende: Housing and the Home c.1989" />
+        <label xml:lang="en" text="Living through the Wende: Housing and the Home c.1989" />
+        <label xml:lang="fr" text="Living through the Wende: Housing and the Home c.1989" />
+      </category>
+      <category ID="introduction">
+        <label xml:lang="de" text="Introduction" />
+        <label xml:lang="en" text="Introduction" />
+        <label xml:lang="fr" text="Introduction" />
+      </category>
+      <category ID="editorial">
+        <label xml:lang="de" text="Editorial" />
+        <label xml:lang="en" text="Editorial" />
+        <label xml:lang="fr" text="Editorial" />
+      </category>
+      <category ID="roundtable">
+        <label xml:lang="de" text="Roundtable" />
+        <label xml:lang="en" text="Roundtable" />
+        <label xml:lang="fr" text="Roundtable" />
+      </category>
+      <category ID="articles">
+        <label xml:lang="de" text="Articles" />
+        <label xml:lang="en" text="Articles" />
+        <label xml:lang="fr" text="Articles" />
+      </category>
+      <category ID="reviewarticles">
+        <label xml:lang="de" text="Review Articles" />
+        <label xml:lang="en" text="Review Articles" />
+        <label xml:lang="fr" text="Review Articles" />
+      </category>
+      <category ID="classicsreread">
+        <label xml:lang="de" text="Classics Reread" />
+        <label xml:lang="en" text="Classics Reread" />
+        <label xml:lang="fr" text="Classics Reread" />
+      </category>
+      <category ID="exhibitionreviews">
+        <label xml:lang="de" text="Exhibition Reviews" />
+        <label xml:lang="en" text="Exhibition Reviews" />
+        <label xml:lang="fr" text="Exhibition Reviews" />
+      </category>
+      <category ID="bookreviews">
+        <label xml:lang="de" text="Book Reviews" />
+        <label xml:lang="en" text="Book Reviews" />
+        <label xml:lang="fr" text="Book Reviews" />
+      </category>
+      <category ID="responses">
+        <label xml:lang="de" text="Responses" />
+        <label xml:lang="en" text="Responses" />
+        <label xml:lang="fr" text="Responses" />
+      </category>
+      <category ID="conferencereports">
+        <label xml:lang="de" text="Conference Reports" />
+        <label xml:lang="en" text="Conference Reports" />
+        <label xml:lang="fr" text="Conference Reports" />
+      </category>
+      <category ID="noticeboard">
+        <label xml:lang="de" text="Noticeboard" />
+        <label xml:lang="en" text="Noticeboard" />
+        <label xml:lang="fr" text="Noticeboard" />
+      </category>
+      <category ID="librarynews">
+        <label xml:lang="de" text="Library News" />
+        <label xml:lang="en" text="Library News" />
+        <label xml:lang="fr" text="Library News" />
+      </category>
+    </category>
+    <category ID="qfiab">
+      <label xml:lang="de" text="QFIAB" />
+      <label xml:lang="en" text="QFIAB" />
+      <label xml:lang="fr" text="QFIAB" />
+      <category ID="themenschwerpunkt">
+        <label xml:lang="de" text="Themenschwerpunkt" />
+        <label xml:lang="en" text="Themenschwerpunkt" />
+        <label xml:lang="fr" text="Themenschwerpunkt" />
+        <category ID="bilanz">
+          <label xml:lang="de" text="Die jüngsten Publikationen der 4. Abteilung  der „Nuntiaturberichte aus Deutschland“: Eine Bilanz" />
+          <label xml:lang="en" text="Die jüngsten Publikationen der 4. Abteilung  der „Nuntiaturberichte aus Deutschland“: Eine Bilanz" />
+          <label xml:lang="fr" text="Die jüngsten Publikationen der 4. Abteilung  der „Nuntiaturberichte aus Deutschland“: Eine Bilanz" />
+        </category>
+      </category>
+    </category>
     <category ID="francia-recensio">
       <label xml:lang="de" text="Francia-Recensio" />
       <label xml:lang="en" text="Francia-Recensio" />
@@ -20,11 +173,18 @@
     <category ID="recensio-moskau">
       <label xml:lang="de" text="Recensio Moskau" />
       <label xml:lang="en" text="Recensio Moskau" />
+      <category ID="ohne" />
+      <category ID="umweltgeschichte">
+        <label xml:lang="de" text="Umweltgeschichte" />
+      </category>
       <category ID="institutionengeschichte">
         <label xml:lang="de" text="Institutionengeschichte - aktuelle Tendenzen der Forschung" />
       </category>
       <category ID="medizingeschichte">
         <label xml:lang="de" text="Medizingeschichte" />
+      </category>
+      <category ID="kolonialismus">
+        <label xml:lang="de" text="Kolonialismus, Holocaust, Erinnerung" />
       </category>
     </category>
   </categories>
