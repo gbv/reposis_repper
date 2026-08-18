@@ -70,7 +70,11 @@
         <label xml:lang="en" text="4. New Directions: The Academy, Solidarity, and Public Outreach" />
         <label xml:lang="fr" text="4. New Directions: The Academy, Solidarity, and Public Outreach" />
       </category>
-      <category ID="leer" />
+      <category ID="leer">
+        <label xml:lang="de" text="Leer" />
+        <label xml:lang="en" text="Empty" />
+        <label xml:lang="fr" text="Vide" />
+      </category>
     </category>
     <category ID="londonbulletin">
       <label xml:lang="de" text="GHI London Bulletin" />
@@ -173,7 +177,9 @@
     <category ID="recensio-moskau">
       <label xml:lang="de" text="Recensio Moskau" />
       <label xml:lang="en" text="Recensio Moskau" />
-      <category ID="ohne" />
+      <category ID="ohne">
+        <label xml:lang="de" text="Ohne" />
+      </category>
       <category ID="umweltgeschichte">
         <label xml:lang="de" text="Umweltgeschichte" />
       </category>
