@@ -376,7 +376,7 @@
                 <label xml:lang="fr">WCMS</label>
             </item>
         </group>
-        <item href="/servlets/logout?url=../content/index.xml" type="extern" replaceMenu="false" constrainPopUp="false">
+        <item href="/servlets/logout?url={WebApplicationBaseURLEncoded}content/index.xml" type="extern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Abmelden</label>
             <label xml:lang="en">Logout</label>
             <label xml:lang="fr">Déconnexion</label>
