@@ -78,6 +78,12 @@
       <label xml:lang="x-bibl" text="swe" />
       <label xml:lang="x-term" text="swe" />
     </category>
+    <category ID="mul">
+      <label xml:lang="de" text="Mehrsprachig" />
+      <label xml:lang="en" text="Multiple languages" />
+      <label xml:lang="x-bibl" text="mul" />
+      <label xml:lang="x-term" text="mul" />
+    </category>
     <category ID="no">
       <label xml:lang="de" text="Norwegisch" />
       <label xml:lang="en" text="Norwegian" />
