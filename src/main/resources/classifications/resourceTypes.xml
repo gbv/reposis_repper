@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="MCRClassification.xsd"
+             ID="resourceTypes">
+
+  <label xml:lang="en" text="resourceTypes" />
+  <label xml:lang="de" text="Ressourcentypen" />
+  <label xml:lang="x-uri" text="http://id.loc.gov/vocabulary/resourceTypes" />
+
+  <categories>
+
+    <category ID="art">
+      <label xml:lang="en" text="Artifact"
+             description="Resource in a form intended to be perceived visually in three dimensions. Includes man-made objects as well as naturally occurring objects such as specimens mounted for viewing." />
+      <label xml:lang="de" text="Artefakt"
+             description="Ressource in einer Form, die dazu bestimmt ist, visuell in drei Dimensionen wahrgenommen zu werden. Umfasst sowohl von Menschen hergestellte Objekte als auch natürlich vorkommende Objekte wie für die Ansicht präparierte Exemplare." />
+    </category>
+
+    <category ID="aud">
+      <label xml:lang="en" text="Audio"
+             description="Resources expressed in an audible form, including music or other sounds." />
+      <label xml:lang="de" text="Audio"
+             description="Ressourcen in hörbarer Form, einschließlich Musik oder anderer Klänge." />
+    </category>
+
+    <category ID="car">
+      <label xml:lang="en" text="Cartographic"
+             description="Resource that shows spatial information, including maps, atlases, globes, digital, and other cartographic resources." />
+      <label xml:lang="de" text="Kartografisch"
+             description="Ressource mit räumlichen Informationen, einschließlich Karten, Atlanten, Globen sowie digitalen und anderen kartografischen Materialien." />
+    </category>
+
+    <category ID="col">
+      <label xml:lang="en" text="Collection"
+             description="Aggregation of resources, generally gathered together artificially." />
+      <label xml:lang="de" text="Sammlung"
+             description="Aggregation von Ressourcen, die in der Regel künstlich zusammengetragen wurden." />
+    </category>
+
+    <category ID="dat">
+      <label xml:lang="en" text="Dataset"
+             description="Data encoded in a defined structure, but not normally displayed in its raw form." />
+      <label xml:lang="de" text="Datensatz"
+             description="Daten in einer definierten Struktur, die normalerweise nicht in ihrer Rohform dargestellt werden." />
+    </category>
+
+    <category ID="dig">
+      <label xml:lang="en" text="Digital"
+             description="Resource that is intended for manipulation by a computer, accessed either directly or remotely." />
+      <label xml:lang="de" text="Digital"
+             description="Ressource, die zur Verarbeitung durch einen Computer bestimmt ist und entweder direkt oder entfernt zugänglich ist." />
+    </category>
+
+    <category ID="man">
+      <label xml:lang="en" text="Manuscript"
+             description="Resource that is written in handwriting or typescript. These are generally unique resources." />
+      <label xml:lang="de" text="Manuskript"
+             description="Ressource, die handschriftlich oder maschinenschriftlich erstellt wurde. In der Regel handelt es sich um einzigartige Ressourcen." />
+    </category>
+
+    <category ID="mix">
+      <label xml:lang="en" text="Mixed material"
+             description="Resource comprised of multiple types which is not driven by software; for instance, a manuscript collection of text, photographs and sound recordings." />
+      <label xml:lang="de" text="Gemischtes Material"
+             description="Ressource, die aus mehreren Medientypen besteht und nicht softwaregesteuert ist; z. B. eine Sammlung aus Texten, Fotografien und Tonaufnahmen." />
+    </category>
+
+    <category ID="mov">
+      <label xml:lang="en" text="Moving image"
+             description="Images intended to be perceived as moving, including motion pictures and video recordings." />
+      <label xml:lang="de" text="Bewegtes Bild"
+             description="Bilder, die als bewegte Bilder wahrgenommen werden sollen, einschließlich Film- und Videoaufnahmen." />
+    </category>
+
+    <category ID="mul">
+      <label xml:lang="en" text="Multimedia"
+             description="Electronic resource that is a computer program or which consists of multiple media types that are software driven." />
+      <label xml:lang="de" text="Multimedia"
+             description="Elektronische Ressource, die ein Computerprogramm ist oder aus mehreren softwaregesteuerten Medientypen besteht." />
+    </category>
+
+    <category ID="not">
+      <label xml:lang="en" text="Notated music"
+             description="Graphic, non-realized representations of musical works intended to be perceived visually." />
+      <label xml:lang="de" text="Notierte Musik"
+             description="Grafische, nicht realisierte Darstellungen musikalischer Werke, die visuell wahrgenommen werden sollen." />
+    </category>
+
+    <category ID="img">
+      <label xml:lang="en" text="Still image"
+             description="Resource expressed through line, shape, shading, etc., intended to be perceived visually as a still image or images in two dimensions." />
+      <label xml:lang="de" text="Standbild"
+             description="Ressource, die durch Linien, Formen, Schattierungen usw. ausgedrückt wird und als zweidimensionales Bild wahrgenommen werden soll." />
+    </category>
+
+    <category ID="tac">
+      <label xml:lang="en" text="Tactile"
+             description="Resource that is intended to be perceived by touch." />
+      <label xml:lang="de" text="Taktil"
+             description="Ressource, die durch Berührung wahrgenommen werden soll." />
+    </category>
+
+    <category ID="txt">
+      <label xml:lang="en" text="Text"
+             description="Resource intended to be perceived visually and understood through the use of language in written or spoken form." />
+      <label xml:lang="de" text="Text"
+             description="Ressource, die visuell wahrgenommen und durch geschriebene oder gesprochene Sprache verstanden wird." />
+    </category>
+
+    <category ID="unk">
+      <label xml:lang="en" text="Unspecified"
+             description="The type of resource is unknown or undetermined." />
+      <label xml:lang="de" text="Unbekannt"
+             description="Der Ressourcentyp ist unbekannt oder nicht bestimmt." />
+    </category>
+
+  </categories>
+</mycoreclass>
