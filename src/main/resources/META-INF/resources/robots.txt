@@ -1,4 +1,4 @@
-Sitemap: https://www.perspectivia.net/sitemap_google.xml
+Sitemap: https://perspectivia.net/sitemap_google.xml
 User-agent: *
 Allow: /sitelinks
 Allow: /servlets/MCRFileNodeServlet/
